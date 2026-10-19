@@ -1,0 +1,38 @@
+--- a/archiveQuests/Tome16.json
++++ b/archiveQuests/Tome16.json
+@@ -4122,7 +4122,7 @@
+             ]
+           },
+           "node_T16_L4_14": {
+-            "clientInfoId": "Interact90WithItemAddedToMap",
++            "clientInfoId": "ConsumeMedkit",
+             "coordinates": {
+               "x": 70.0,
+               "y": 20.0
+@@ -4134,7 +4134,7 @@
+             ],
+             "nodeType": "quest:task",
+             "objectives": {
+-              "Interact90WithItemAddedToMap": {
++              "ConsumeMedkit": {
+                 "conditions": [
+                   {
+                     "key": "role",
+@@ -4144,13 +4144,13 @@
+                   }
+                 ],
+                 "incrementWithEventRepetitions": true,
+-                "neededProgression": 90,
+-                "objectiveId": "Interact90WithItemAddedToMap",
++                "neededProgression": 5,
++                "objectiveId": "ConsumeMedkit",
+                 "questEvent": [
+                   {
+                     "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.InteractWithItemAddedToMap",
++                    "parameters": "instigator:me;ItemName:Medkit",
++                    "questEventId": "QuestEvent.ConsumeItem",
+                     "repetition": 1
+                   }
+                 ]

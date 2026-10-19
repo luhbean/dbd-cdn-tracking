@@ -2,35 +2,35 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.0.0_2649836live` · built 2025-08-04 13:52 UTC
+**Latest version:** `9.1.0_2662640live` · built 2025-08-04 15:50 UTC
 
-[What changed](versions/9.0.0_2649836live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.1.0_2662640live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **38** modified · **2** removed, compared with `9.1.0_2660852live`.
+**6** added · **38** modified · **0** removed, compared with `9.0.0_2649836live`.
 
-- ~ [`GameConfigs.json`](versions/9.0.0_2649836live/diffs/GameConfigs.json.diff)
-- ~ [`GameConfigsDS.json`](versions/9.0.0_2649836live/diffs/GameConfigsDS.json.diff)
-- ~ [`archiveQuests/Tome02.json`](versions/9.0.0_2649836live/diffs/archiveQuests/Tome02.json.diff)
-- ~ [`archiveQuests/Tome07.json`](versions/9.0.0_2649836live/diffs/archiveQuests/Tome07.json.diff)
-- ~ [`archiveQuests/Tome08.json`](versions/9.0.0_2649836live/diffs/archiveQuests/Tome08.json.diff)
-- ~ [`archiveQuests/Tome14.json`](versions/9.0.0_2649836live/diffs/archiveQuests/Tome14.json.diff)
-- ~ [`archiveQuests/Tome15.json`](versions/9.0.0_2649836live/diffs/archiveQuests/Tome15.json.diff)
-- ~ [`archiveQuests/Tome16.json`](versions/9.0.0_2649836live/diffs/archiveQuests/Tome16.json.diff)
-- ~ [`catalog.json`](versions/9.0.0_2649836live/diffs/catalog.json.diff)
-- ~ [`challengeLocs/challengeText_de.json`](versions/9.0.0_2649836live/diffs/challengeLocs/challengeText_de.json.diff)
-- ~ [`challengeLocs/challengeText_en.json`](versions/9.0.0_2649836live/diffs/challengeLocs/challengeText_en.json.diff)
-- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.0.0_2649836live/diffs/challengeLocs/challengeText_es-MX.json.diff)
-- ~ [`challengeLocs/challengeText_es.json`](versions/9.0.0_2649836live/diffs/challengeLocs/challengeText_es.json.diff)
-- ~ [`challengeLocs/challengeText_fr.json`](versions/9.0.0_2649836live/diffs/challengeLocs/challengeText_fr.json.diff)
-- ~ [`challengeLocs/challengeText_it.json`](versions/9.0.0_2649836live/diffs/challengeLocs/challengeText_it.json.diff)
-- ~ [`challengeLocs/challengeText_ja.json`](versions/9.0.0_2649836live/diffs/challengeLocs/challengeText_ja.json.diff)
-- ~ [`challengeLocs/challengeText_ko.json`](versions/9.0.0_2649836live/diffs/challengeLocs/challengeText_ko.json.diff)
-- ~ [`challengeLocs/challengeText_pl.json`](versions/9.0.0_2649836live/diffs/challengeLocs/challengeText_pl.json.diff)
-- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.0.0_2649836live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
-- ~ [`challengeLocs/challengeText_ru.json`](versions/9.0.0_2649836live/diffs/challengeLocs/challengeText_ru.json.diff)
-- … and 20 more in [CHANGES.md](versions/9.0.0_2649836live/CHANGES.md)
+- ~ [`GameConfigs.json`](versions/9.1.0_2662640live/diffs/GameConfigs.json.diff)
+- ~ [`GameConfigsDS.json`](versions/9.1.0_2662640live/diffs/GameConfigsDS.json.diff)
+- ~ [`archiveQuests/Tome02.json`](versions/9.1.0_2662640live/diffs/archiveQuests/Tome02.json.diff)
+- ~ [`archiveQuests/Tome07.json`](versions/9.1.0_2662640live/diffs/archiveQuests/Tome07.json.diff)
+- ~ [`archiveQuests/Tome08.json`](versions/9.1.0_2662640live/diffs/archiveQuests/Tome08.json.diff)
+- ~ [`archiveQuests/Tome14.json`](versions/9.1.0_2662640live/diffs/archiveQuests/Tome14.json.diff)
+- ~ [`archiveQuests/Tome15.json`](versions/9.1.0_2662640live/diffs/archiveQuests/Tome15.json.diff)
+- ~ [`archiveQuests/Tome16.json`](versions/9.1.0_2662640live/diffs/archiveQuests/Tome16.json.diff)
+- ~ [`catalog.json`](versions/9.1.0_2662640live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_de.json`](versions/9.1.0_2662640live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_en.json`](versions/9.1.0_2662640live/diffs/challengeLocs/challengeText_en.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.1.0_2662640live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/9.1.0_2662640live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_fr.json`](versions/9.1.0_2662640live/diffs/challengeLocs/challengeText_fr.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/9.1.0_2662640live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_ja.json`](versions/9.1.0_2662640live/diffs/challengeLocs/challengeText_ja.json.diff)
+- ~ [`challengeLocs/challengeText_ko.json`](versions/9.1.0_2662640live/diffs/challengeLocs/challengeText_ko.json.diff)
+- ~ [`challengeLocs/challengeText_pl.json`](versions/9.1.0_2662640live/diffs/challengeLocs/challengeText_pl.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.1.0_2662640live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_ru.json`](versions/9.1.0_2662640live/diffs/challengeLocs/challengeText_ru.json.diff)
+- … and 24 more in [CHANGES.md](versions/9.1.0_2662640live/CHANGES.md)
 
 ## Browse
 
@@ -52,7 +52,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-116 versions tracked so far.
+117 versions tracked so far.
 
 ---
 

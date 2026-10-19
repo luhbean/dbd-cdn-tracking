@@ -1,0 +1,249 @@
+--- a/archiveQuests/Tome07.json
++++ b/archiveQuests/Tome07.json
+@@ -3684,7 +3684,7 @@
+             "clientInfoId": "HideNearKIller",
+             "coordinates": {
+               "x": 20.0,
+-              "y": 23.076923076923077
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T7L4_07",
+@@ -3730,7 +3730,7 @@
+           "node_T7L4_03": {
+             "clientInfoId": "SkillCheckGreatSuccess",
+             "coordinates": {
+-              "x": 73.33333333333333,
++              "x": 73.33333333,
+               "y": 0.0
+             },
+             "neighbors": [
+@@ -3777,7 +3777,7 @@
+           "node_T7L4_04": {
+             "clientInfoId": "StunBlind",
+             "coordinates": {
+-              "x": 53.333333333333336,
++              "x": 53.33333333,
+               "y": 0.0
+             },
+             "neighbors": [
+@@ -3824,8 +3824,8 @@
+           "node_T7L4_05": {
+             "clientInfoId": "PalletDropInChase",
+             "coordinates": {
+-              "x": 33.333333333333336,
+-              "y": 23.076923076923077
++              "x": 33.33333333,
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T7L4_01",
+@@ -3873,7 +3873,7 @@
+             "clientInfoId": "HealOther",
+             "coordinates": {
+               "x": 80.0,
+-              "y": 46.15384615384615
++              "y": 46.15384615
+             },
+             "neighbors": [
+               "node_T7L4_08",
+@@ -3919,8 +3919,8 @@
+           "node_T7L4_07": {
+             "clientInfoId": "ConsumeMedkit",
+             "coordinates": {
+-              "x": 13.333333333333334,
+-              "y": 46.15384615384615
++              "x": 13.33333333,
++              "y": 46.15384615
+             },
+             "neighbors": [
+               "node_T7L4_Start01",
+@@ -3966,8 +3966,8 @@
+           "node_T7L4_08": {
+             "clientInfoId": "EscapeWithItemRarity",
+             "coordinates": {
+-              "x": 66.66666666666667,
+-              "y": 46.15384615384615
++              "x": 66.66666667,
++              "y": 46.15384615
+             },
+             "neighbors": [
+               "node_T7L4_17",
+@@ -3991,7 +3991,7 @@
+                 "questEvent": [
+                   {
+                     "operation": ">=",
+-                    "parameters": "instigator:me;itemRarity:UltraRare",
++                    "parameters": "instigator:me;itemRarity:VeryRare",
+                     "questEventId": "QuestEvent.EscapeWithItemRarity",
+                     "repetition": 1
+                   }
+@@ -4014,8 +4014,8 @@
+           "node_T7L4_09": {
+             "clientInfoId": "Kill",
+             "coordinates": {
+-              "x": 86.66666666666667,
+-              "y": 69.23076923076923
++              "x": 86.66666667,
++              "y": 69.23076923
+             },
+             "neighbors": [
+               "node_T7L4_End01",
+@@ -4060,8 +4060,8 @@
+           "node_T7L4_10": {
+             "clientInfoId": "HookObsession",
+             "coordinates": {
+-              "x": 53.333333333333336,
+-              "y": 92.3076923076923
++              "x": 53.33333333,
++              "y": 92.30769231
+             },
+             "neighbors": [
+               "node_T7L4_19",
+@@ -4108,8 +4108,8 @@
+           "node_T7L4_11": {
+             "clientInfoId": "Down",
+             "coordinates": {
+-              "x": 6.666666666666667,
+-              "y": 69.23076923076923
++              "x": 6.666666667,
++              "y": 69.23076923
+             },
+             "neighbors": [
+               "node_T7L4_Start01",
+@@ -4154,8 +4154,8 @@
+           "node_T7L4_12": {
+             "clientInfoId": "Chase",
+             "coordinates": {
+-              "x": 33.333333333333336,
+-              "y": 69.23076923076923
++              "x": 33.33333333,
++              "y": 69.23076923
+             },
+             "neighbors": [
+               "node_T7L4_19",
+@@ -4203,7 +4203,7 @@
+             "clientInfoId": "Scream",
+             "coordinates": {
+               "x": 20.0,
+-              "y": 69.23076923076923
++              "y": 69.23076923
+             },
+             "neighbors": [
+               "node_T7L4_11",
+@@ -4249,7 +4249,7 @@
+             "clientInfoId": "BreakGens",
+             "coordinates": {
+               "x": 60.0,
+-              "y": 69.23076923076923
++              "y": 69.23076923
+             },
+             "neighbors": [
+               "node_T7L4_09",
+@@ -4297,7 +4297,7 @@
+             "clientInfoId": "EarnEmblemsIridescent",
+             "coordinates": {
+               "x": 40.0,
+-              "y": 46.15384615384615
++              "y": 46.15384615
+             },
+             "neighbors": [
+               "node_T7L4_12",
+@@ -4337,7 +4337,7 @@
+           "node_T7L4_16": {
+             "clientInfoId": "EscapeHatchWithMapInTrial",
+             "coordinates": {
+-              "x": 86.66666666666667,
++              "x": 86.66666667,
+               "y": 0.0
+             },
+             "journal": [
+@@ -4387,8 +4387,8 @@
+           "node_T7L4_17": {
+             "clientInfoId": "EscapeWithOffTheRecordInTrial",
+             "coordinates": {
+-              "x": 66.66666666666667,
+-              "y": 23.076923076923077
++              "x": 66.66666667,
++              "y": 23.07692308
+             },
+             "journal": [
+               "Tome07_Observer"
+@@ -4444,8 +4444,8 @@
+           "node_T7L4_18": {
+             "clientInfoId": "RedHerringTriggeredInTrial",
+             "coordinates": {
+-              "x": 46.666666666666664,
+-              "y": 23.076923076923077
++              "x": 46.66666667,
++              "y": 23.07692308
+             },
+             "journal": [
+               "Tome07_Observer"
+@@ -4501,7 +4501,7 @@
+             "clientInfoId": "TrapperCatchTrapResetInTrial",
+             "coordinates": {
+               "x": 40.0,
+-              "y": 92.3076923076923
++              "y": 92.30769231
+             },
+             "journal": [
+               "Tome07_Observer"
+@@ -4556,8 +4556,8 @@
+           "node_T7L4_20": {
+             "clientInfoId": "TrapperCatchInChaseInTrial",
+             "coordinates": {
+-              "x": 66.66666666666667,
+-              "y": 92.3076923076923
++              "x": 66.66666667,
++              "y": 92.30769231
+             },
+             "journal": [
+               "Tome07_Observer"
+@@ -4613,7 +4613,7 @@
+             "clientInfoId": "End",
+             "coordinates": {
+               "x": 100.0,
+-              "y": 46.15384615384615
++              "y": 46.15384615
+             },
+             "neighbors": [
+               "node_T7L4_09",
+@@ -4626,7 +4626,7 @@
+             "clientInfoId": "End",
+             "coordinates": {
+               "x": 80.0,
+-              "y": 92.3076923076923
++              "y": 92.30769231
+             },
+             "neighbors": [
+               "node_T7L4_20"
+@@ -4637,7 +4637,7 @@
+             "clientInfoId": "End",
+             "coordinates": {
+               "x": 80.0,
+-              "y": 23.076923076923077
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T7L4_17"
+@@ -4647,8 +4647,8 @@
+           "node_T7L4_Glyph01": {
+             "clientInfoId": "BlueGlyphEscape",
+             "coordinates": {
+-              "x": 53.333333333333336,
+-              "y": 46.15384615384615
++              "x": 53.33333333,
++              "y": 46.15384615
+             },
+             "neighbors": [
+               "node_T7L4_08",
+@@ -4707,7 +4707,7 @@
+             "clientInfoId": "Start",
+             "coordinates": {
+               "x": 0.0,
+-              "y": 46.15384615384615
++              "y": 46.15384615
+             },
+             "neighbors": [
+               "node_T7L4_11",

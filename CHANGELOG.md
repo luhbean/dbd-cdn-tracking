@@ -2,6 +2,32 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [8.7.2_2485095live](versions/8.7.2_2485095live/CHANGES.md)
+
+Built 2025-06-02 15:22 UTC · **+0** added · **~30** modified · **−0** removed
+
+- ~ [`challengeLocs/challengeText_de.json`](versions/8.7.2_2485095live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_en.json`](versions/8.7.2_2485095live/diffs/challengeLocs/challengeText_en.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/8.7.2_2485095live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/8.7.2_2485095live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_fr.json`](versions/8.7.2_2485095live/diffs/challengeLocs/challengeText_fr.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/8.7.2_2485095live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_ja.json`](versions/8.7.2_2485095live/diffs/challengeLocs/challengeText_ja.json.diff)
+- ~ [`challengeLocs/challengeText_ko.json`](versions/8.7.2_2485095live/diffs/challengeLocs/challengeText_ko.json.diff)
+- ~ [`challengeLocs/challengeText_pl.json`](versions/8.7.2_2485095live/diffs/challengeLocs/challengeText_pl.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/8.7.2_2485095live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_ru.json`](versions/8.7.2_2485095live/diffs/challengeLocs/challengeText_ru.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/8.7.2_2485095live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`challengeLocs/challengeText_tr.json`](versions/8.7.2_2485095live/diffs/challengeLocs/challengeText_tr.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/8.7.2_2485095live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/8.7.2_2485095live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.7.2_2485095live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_de.json`](versions/8.7.2_2485095live/diffs/loadingText/specialEventsLoadingText_de.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_en.json`](versions/8.7.2_2485095live/diffs/loadingText/specialEventsLoadingText_en.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_es-MX.json`](versions/8.7.2_2485095live/diffs/loadingText/specialEventsLoadingText_es-MX.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_es.json`](versions/8.7.2_2485095live/diffs/loadingText/specialEventsLoadingText_es.json.diff)
+- … and 10 more in [CHANGES.md](versions/8.7.2_2485095live/CHANGES.md)
+
 ## [8.7.2_2474115live](versions/8.7.2_2474115live/CHANGES.md)
 
 Built 2025-05-27 15:22 UTC · no content changes

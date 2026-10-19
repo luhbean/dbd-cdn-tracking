@@ -1,0 +1,804 @@
+{
+  "locText": [
+    {
+      "text": "일일",
+      "textId": "CHALLENGESET_DailyTab_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_Daily_INFO",
+      "textId": "CHALLENGESET_Daily_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookOrUnhook_TITLE",
+      "textId": "CHALLENGE_HookOrUnhook_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookOrUnhook_DESC",
+      "textId": "CHALLENGE_HookOrUnhook_DESC"
+    },
+    {
+      "text": "갈고리에 생존자 {0}명 걸기",
+      "textId": "CHALLENGE_Hook_INFO"
+    },
+    {
+      "text": "생존자 {0}명을 안전하게 갈고리에서 구출하기",
+      "textId": "CHALLENGE_Unhook_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HitOrHeal_TITLE",
+      "textId": "CHALLENGE_HitOrHeal_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HitOrHeal_DESC",
+      "textId": "CHALLENGE_HitOrHeal_DESC"
+    },
+    {
+      "text": "기본 공격 {0}회 수행하기",
+      "textId": "CHALLENGE_Hit_INFO"
+    },
+    {
+      "text": "체력 상태 총 {0}개를 치료하기",
+      "textId": "CHALLENGE_Heal_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenOrGenSkillCheck_TITLE",
+      "textId": "CHALLENGE_BreakGenOrGenSkillCheck_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenOrGenSkillCheck_DESC",
+      "textId": "CHALLENGE_BreakGenOrGenSkillCheck_DESC"
+    },
+    {
+      "text": "발전기 {0}개 부수기",
+      "textId": "CHALLENGE_BreakGen_INFO"
+    },
+    {
+      "text": "스킬 체크 {0}회 성공하기",
+      "textId": "CHALLENGE_GenSkillCheck_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_KillSurvivorOrRepairGens_TITLE",
+      "textId": "CHALLENGE_KillSurvivorOrRepairGens_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_KillSurvivorOrRepairGens_DESC",
+      "textId": "CHALLENGE_KillSurvivorOrRepairGens_DESC"
+    },
+    {
+      "text": "생존자 {0}명 살해하기",
+      "textId": "CHALLENGE_Kill_INFO"
+    },
+    {
+      "text": "총 {0}개의 발전기 수리하기",
+      "textId": "CHALLENGE_Repair_INFO"
+    },
+    {
+      "text": "부잣집 아이",
+      "textId": "CHALLENGE_EarnBloodpoints_TITLE"
+    },
+    {
+      "text": "@#CHALENGE_EarnBloodpoints_DESC",
+      "textId": "CHALENGE_EarnBloodpoints_DESC"
+    },
+    {
+      "text": "{0} 블러드포인트 획득하기",
+      "textId": "CHALENGE_EarnBloodpoints_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteTrial_TITLE",
+      "textId": "CHALLENGE_CompleteTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteTrial_DESC",
+      "textId": "CHALLENGE_CompleteTrial_DESC"
+    },
+    {
+      "text": "희생제 {0}회 완료하기",
+      "textId": "CHALLENGE_CompleteTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrBeChased_TITLE",
+      "textId": "CHALLENGE_ChaseOrBeChased_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrBeChased_DESC",
+      "textId": "CHALLENGE_ChaseOrBeChased_DESC"
+    },
+    {
+      "text": "{0}초 동안 추격하기",
+      "textId": "CHALLENGE_Chase_INFO"
+    },
+    {
+      "text": "{0}초 동안 추격 당하기",
+      "textId": "CHALLENGE_BeChased_INFO"
+    },
+    {
+      "text": "일일 퀘스트",
+      "textId": "LIST_Daily_TITLE"
+    },
+    {
+      "text": "2V8",
+      "textId": "CHALLENGESET_CalamariJerky_TITLE"
+    },
+    {
+      "text": "퀘스트는 2V8에서 완료해야 합니다",
+      "textId": "CHALLENGESET_CalamariJerky_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests1_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests1_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_DESC"
+    },
+    {
+      "text": "2v8 퀘스트 {0}개 완료하기",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests2_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests2_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_DESC"
+    },
+    {
+      "text": "2v8 퀘스트 {0}개 완료하기",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests3_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests3_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_DESC"
+    },
+    {
+      "text": "2v8 퀘스트 {0}개 완료하기",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PlayAsCharacterOrClass_TITLE",
+      "textId": "CHALLENGE_PlayAsCharacterOrClass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PlayAsCharacterOrClass_",
+      "textId": "CHALLENGE_PlayAsCharacterOrClass_"
+    },
+    {
+      "text": "희생제 {0}회 동안 {1}(으)로 플레이하기",
+      "textId": "CHALLENGE_PlayAsCharacter_INFO"
+    },
+    {
+      "text": "{0} 희생제에서 {1}(으)로 플레이하기.",
+      "textId": "CHALLENGE_PlayAsClass_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_Crow_TITLE",
+      "textId": "CHALLENGE_Crow_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Crow_DESC",
+      "textId": "CHALLENGE_Crow_DESC"
+    },
+    {
+      "text": "까마귀 {0}마리 방해하기",
+      "textId": "CHALLENGE_Crow_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE",
+      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_DESC",
+      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_DESC"
+    },
+    {
+      "text": "판자를 {0}개 부수기",
+      "textId": "CHALLENGE_BreakPallets_INFO"
+    },
+    {
+      "text": "추격 중 판자 {0}개 내리기",
+      "textId": "CHALLENGE_PalletDropInChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrSucceedHealSkillCheck_TITLE",
+      "textId": "CHALLENGE_DownOrSucceedHealSkillCheck_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrSucceedHealSkillCheck_DESC",
+      "textId": "CHALLENGE_DownOrSucceedHealSkillCheck_DESC"
+    },
+    {
+      "text": "생존자 {0}명 쓰러뜨리기",
+      "textId": "CHALLENGE_Down_INFO"
+    },
+    {
+      "text": "생존자를 치료하는 동안 스킬 체크 {0}회 성공하기",
+      "textId": "CHALLENGE_SucceedHealSkillCheck_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrPlayAsClass_TITLE",
+      "textId": "CHALLENGE_ChaseOrPlayAsClass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrPlayAsClass_DESC",
+      "textId": "CHALLENGE_ChaseOrPlayAsClass_DESC"
+    },
+    {
+      "text": "2V8 완료 퀘스트",
+      "textId": "LIST_Calamari_TITLE_1"
+    },
+    {
+      "text": "2V8 퀘스트 - 파트 1",
+      "textId": "LIST_Calamari_TITLE_2"
+    },
+    {
+      "text": "2V8 퀘스트 - 파트 2",
+      "textId": "LIST_Calamari_TITLE_3"
+    },
+    {
+      "text": "2V8 퀘스트 - 파트 3",
+      "textId": "LIST_Calamari_TITLE_4"
+    },
+    {
+      "text": "혼돈 셔플",
+      "textId": "CHALLENGESET_ChocolateBoxJerky_TITLE"
+    },
+    {
+      "text": "퀘스트는 혼돈 셔플에서 완료해야 합니다",
+      "textId": "CHALLENGESET_ChocolateBoxJerky_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests1_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests1_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_DESC"
+    },
+    {
+      "text": "혼돈 셔플 퀘스트 {0}개 완료하기",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests2_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests2_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_DESC"
+    },
+    {
+      "text": "혼돈 셔플 퀘스트 {0}개 완료하기",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests3_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests3_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_DESC"
+    },
+    {
+      "text": "혼돈 셔플 퀘스트 {0}개 완료하기",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_INFO"
+    },
+    {
+      "text": "숭배",
+      "textId": "CHALLENGE_Sacrifice_TITLE"
+    },
+    {
+      "text": "엔티티에게 <b>{0}명</b>의 생존자 바치기.",
+      "textId": "CHALLENGE_Sacrifice_DESC"
+    },
+    {
+      "text": "생존자 {0}명 희생하기",
+      "textId": "CHALLENGE_Sacrifice_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_Repair_TITLE",
+      "textId": "CHALLENGE_Repair_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Repair_DESC",
+      "textId": "CHALLENGE_Repair_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_Hit_TITLE",
+      "textId": "CHALLENGE_Hit_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Hit_DESC",
+      "textId": "CHALLENGE_Hit_DESC"
+    },
+    {
+      "text": "탈출 전문가",
+      "textId": "CHALLENGE_Escape_TITLE"
+    },
+    {
+      "text": "<b>희생제에서 {0}회</b> 탈출하기.",
+      "textId": "CHALLENGE_Escape_DESC"
+    },
+    {
+      "text": "희생제에서 {0}회 탈출하기",
+      "textId": "CHALLENGE_Escape_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_EarnEmblemsGold_TITLE",
+      "textId": "CHALLENGE_EarnEmblemsGold_TITLE"
+    },
+    {
+      "text": "찬란한 빛 엠블럼 {0}개 획득",
+      "textId": "CHALLENGE_EarnEmblemsGold_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPallet_TITLE",
+      "textId": "CHALLENGE_BreakPallet_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPallet_DESC",
+      "textId": "CHALLENGE_BreakPallet_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_VaultInChase_TITLE",
+      "textId": "CHALLENGE_VaultInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_VaultInChase_DESC",
+      "textId": "CHALLENGE_VaultInChase_DESC"
+    },
+    {
+      "text": "추격 중 {0}회 넘기",
+      "textId": "CHALLENGE_VaultInChase_INFO"
+    },
+    {
+      "text": "혼돈 셔플 완료 퀘스트",
+      "textId": "LIST_ChocolateBox_TITLE_1"
+    },
+    {
+      "text": "혼돈 셔플 퀘스트 - 파트 1",
+      "textId": "LIST_ChocolateBox_TITLE_2"
+    },
+    {
+      "text": "혼돈 셔플 퀘스트 - 파트 2",
+      "textId": "LIST_ChocolateBox_TITLE_3"
+    },
+    {
+      "text": "혼돈 셔플 퀘스트 - 파트 3",
+      "textId": "LIST_ChocolateBox_TITLE_4"
+    },
+    {
+      "text": "균열 패스",
+      "textId": "CHALLENGESET_BattlePass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_BattlePass_INFO",
+      "textId": "CHALLENGESET_BattlePass_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChallenges_TITLE",
+      "textId": "CHALLENGE_CompleteChallenges_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChallenges_DESC",
+      "textId": "CHALLENGE_CompleteChallenges_DESC"
+    },
+    {
+      "text": "이번 주 퀘스트 {0}개 완료하기",
+      "textId": "CHALLENGE_CompleteChallenges_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffSingleTrial_TITLE",
+      "textId": "CHALLENGE_HookDiffSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffSingleTrial_DESC",
+      "textId": "CHALLENGE_HookDiffSingleTrial_DESC"
+    },
+    {
+      "text": "한 번의 희생제에서 다른 생존자 {0}명 갈고리에 걸기",
+      "textId": "CHALLENGE_HookDiffOneTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HideInTerrorRadius_TITLE",
+      "textId": "CHALLENGE_HideInTerrorRadius_TITLE"
+    },
+    {
+      "text": "{0}초 동안 공포 범위에 숨기",
+      "textId": "CHALLENGE_HideInTerrorRadius_DESC"
+    },
+    {
+      "text": "살인마의 공포 범위 내에서 잡히지 않고 {0}초 동안 숨기.",
+      "textId": "CHALLENGE_HideInTerrorRadius_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CarryOrEscapeChase_TITLE",
+      "textId": "CHALLENGE_CarryOrEscapeChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CarryOrEscapeChase_DESC",
+      "textId": "CHALLENGE_CarryOrEscapeChase_DESC"
+    },
+    {
+      "text": "생존자를 {0}미터 이상 둘러업고 이동하기",
+      "textId": "CHALLENGE_Carry_INFO"
+    },
+    {
+      "text": "추격 {0}회 탈출하기",
+      "textId": "CHALLENGE_EscapeChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivorOrBlindWhileCarry_TITLE",
+      "textId": "CHALLENGE_GrabSurvivorOrBlindWhileCarry_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivorOrBlindWhileCarry_DESC",
+      "textId": "CHALLENGE_GrabSurvivorOrBlindWhileCarry_DESC"
+    },
+    {
+      "text": "방해하고 생존자 {0}명 잡기",
+      "textId": "CHALLENGE_GrabSurvivor_INFO"
+    },
+    {
+      "text": "살인마가 생존자를 둘러메고 있을 때 {0}회 실명시키기",
+      "textId": "CHALLENGE_BlindCarry_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_RevealSurvivorAura_TITLE",
+      "textId": "CHALLENGE_RevealSurvivorAura_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_RevealSurvivorAura_DESC",
+      "textId": "CHALLENGE_RevealSurvivorAura_DESC"
+    },
+    {
+      "text": "{0}초 동안 생존자 오라 드러내기",
+      "textId": "CHALLENGE_RevealSurvivorAurasForDuration_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GenSkillCheckSingleTrial_TITLE",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GenSkillCheckSingleTrial_DESC",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_DESC"
+    },
+    {
+      "text": "한 번의 희생제에서 발전기를 수리하는 동안 스킬 체크 {0}회 성공하기",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_MoriOrPalletStun_TITLE",
+      "textId": "CHALLENGE_MoriOrPalletStun_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_MoriOrPalletStun_DESC",
+      "textId": "CHALLENGE_MoriOrPalletStun_DESC"
+    },
+    {
+      "text": "자신의 손으로 생존자 {0}명 살해하기",
+      "textId": "CHALLENGE_Mori_INFO"
+    },
+    {
+      "text": "판자로 살인마 {0}명 기절시키기",
+      "textId": "CHALLENGE_PalletStun_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ScourgeHook_TITLE",
+      "textId": "CHALLENGE_ScourgeHook_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ScourgeHook_DESC",
+      "textId": "CHALLENGE_ScourgeHook_DESC"
+    },
+    {
+      "text": "재앙의 갈고리에 생존자 {0}명 걸기",
+      "textId": "CHALLENGE_ScourgeHook_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrConsumeMed_TITLE",
+      "textId": "CHALLENGE_DownOrConsumeMed_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrConsumeMed_DESC",
+      "textId": "CHALLENGE_DownOrConsumeMed_DESC"
+    },
+    {
+      "text": "구급상자 {0}개 완전히 사용하기",
+      "textId": "CHALLENGE_ConsumeMedkit_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGen_TITLE",
+      "textId": "CHALLENGE_BreakGen_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGen_DESC",
+      "textId": "CHALLENGE_BreakGen_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_CoopAction_TITLE",
+      "textId": "CHALLENGE_CoopAction_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CoopAction_DESC",
+      "textId": "CHALLENGE_CoopAction_DESC"
+    },
+    {
+      "text": "총 {0}초 동안 협력 행동 수행하기",
+      "textId": "CHALLENGE_CoopAction_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HitAuraTimeOrEscapeRare_TITLE",
+      "textId": "CHALLENGE_HitAuraTimeOrEscapeRare_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HitAuraTimeOrEscapeRare_DESC",
+      "textId": "CHALLENGE_HitAuraTimeOrEscapeRare_DESC"
+    },
+    {
+      "text": "오라 공개 후 10초 이내에 생존자 {0}명을 타격하기",
+      "textId": "CHALLENGE_HitAura_INFO"
+    },
+    {
+      "text": "희귀 레벨 이상의 아이템을 보유한 채 희생제 {0}회 탈출하기",
+      "textId": "CHALLENGE_EscapeRare_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivor_TITLE",
+      "textId": "CHALLENGE_GrabSurvivor_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivor_DESC",
+      "textId": "CHALLENGE_GrabSurvivor_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeToolBox_TITLE",
+      "textId": "CHALLENGE_ConsumeToolBox_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeToolBox_DESC",
+      "textId": "CHALLENGE_ConsumeToolBox_DESC"
+    },
+    {
+      "text": "공구상자 {0}개 완전히 사용하기",
+      "textId": "CHALLENGE_ConsumeToolBox_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_FinishNoGateEscapeOrEscape_TITLE",
+      "textId": "CHALLENGE_FinishNoGateEscapeOrEscape_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_FinishNoGateEscapeOrEscape_DESC",
+      "textId": "CHALLENGE_FinishNoGateEscapeOrEscape_DESC"
+    },
+    {
+      "text": "생존자가 출구로 탈출하지 않고 희생제 {0}회 끝내기",
+      "textId": "CHALLENGE_FinishNoGateEscape_INFO"
+    },
+    {
+      "text": "죽음의 추적",
+      "textId": "CHALLENGE_Chase_TITLE"
+    },
+    {
+      "text": "생존자를 총 {0}초 동안 추격하기.",
+      "textId": "CHALLENGE_Chase_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BeChased_TITLE",
+      "textId": "CHALLENGE_BeChased_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BeChased_DESC",
+      "textId": "CHALLENGE_BeChased_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_Kill_TITLE",
+      "textId": "CHALLENGE_Kill_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Kill_DESC",
+      "textId": "CHALLENGE_Kill_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_EarnEmblemsSilver_TITLE",
+      "textId": "CHALLENGE_EarnEmblemsSilver_TITLE"
+    },
+    {
+      "text": "희미한 빛 엠블럼 {0}개 획득",
+      "textId": "CHALLENGE_EarnEmblemsSilver_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_TITLE",
+      "textId": "CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_DESC",
+      "textId": "CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_DESC"
+    },
+    {
+      "text": "한 번의 희생제에서 갈고리에 생존자 {0}명 걸기",
+      "textId": "CHALLENGE_HookSingleTrial_INFO"
+    },
+    {
+      "text": "한 번의 희생제에서 {0}초 동안 추격 당하기",
+      "textId": "CHALLENGE_BeChasedSingleTrial_INFO"
+    },
+    {
+      "text": "생명의 은인",
+      "textId": "CHALLENGE_Heal_TITLE"
+    },
+    {
+      "text": "<b>체력 상태 총 {0}개</b>를 치료하기",
+      "textId": "CHALLENGE_Heal_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletOrClenseTotems_TITLE",
+      "textId": "CHALLENGE_BreakPalletOrClenseTotems_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletOrClenseTotems_DESC",
+      "textId": "CHALLENGE_BreakPalletOrClenseTotems_DESC"
+    },
+    {
+      "text": "토템 {0}개 정화하기",
+      "textId": "CHALLENGE_CleanseTotem_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_TITLE",
+      "textId": "CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_DESC",
+      "textId": "CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_DESC"
+    },
+    {
+      "text": "한 번의 희생제에서 발전기 {0}개 부수기",
+      "textId": "CHALLENGE_BreakGenSingleTrial_INFO"
+    },
+    {
+      "text": "한 번의 희생제에서 추격 중 또는 추격에서 탈출한 5초 내에 캐비닛에 {0}회 들어가기",
+      "textId": "CHALLENGE_EscapeChaseLockerSingleTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BlindCarry_TITLE",
+      "textId": "CHALLENGE_BlindCarry_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BlindCarry_DESC",
+      "textId": "CHALLENGE_BlindCarry_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_DownNearPalletsOrReviveDying_TITLE",
+      "textId": "CHALLENGE_DownNearPalletsOrReviveDying_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownNearPalletsOrReviveDying_DESC",
+      "textId": "CHALLENGE_DownNearPalletsOrReviveDying_DESC"
+    },
+    {
+      "text": "판자 근처에 있는 생존자 {0}명 쓰러뜨리기",
+      "textId": "CHALLENGE_DownNearPallet_INFO"
+    },
+    {
+      "text": "빈사 상태의 생존자 {0}명 치료하기",
+      "textId": "CHALLENGE_ReviveDying_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_TITLE",
+      "textId": "CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_DESC",
+      "textId": "CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_DESC"
+    },
+    {
+      "text": "한 번의 희생제에서 추격을 당하는 중 {0}회 추락하기",
+      "textId": "CHALLENGE_FallInChaseOneTrial_INFO"
+    },
+    {
+      "text": "빈사 상태",
+      "textId": "CHALLENGE_Down_TITLE"
+    },
+    {
+      "text": "<b>생존자 {0}명</b> 쓰러뜨리기.",
+      "textId": "CHALLENGE_Down_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeMedkit_TITLE",
+      "textId": "CHALLENGE_ConsumeMedkit_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeMedkit_DESC",
+      "textId": "CHALLENGE_ConsumeMedkit_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteRiftQuests_TITLE",
+      "textId": "CHALLENGE_CompleteRiftQuests_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteRiftQuests_DESC",
+      "textId": "CHALLENGE_CompleteRiftQuests_DESC"
+    },
+    {
+      "text": "균열 패스 퀘스트 {0}개 완료하기",
+      "textId": "CHALLENGE_CompleteRiftQuests_INFO"
+    },
+    {
+      "text": "균열 패스 퀘스트 - 1주차",
+      "textId": "LIST_BattlePass_TITLE_1"
+    },
+    {
+      "text": "균열 패스 퀘스트 - 2주차",
+      "textId": "LIST_BattlePass_TITLE_2"
+    },
+    {
+      "text": "균열 패스 퀘스트 - 3주차",
+      "textId": "LIST_BattlePass_TITLE_3"
+    },
+    {
+      "text": "균열 패스 퀘스트 - 4주차",
+      "textId": "LIST_BattlePass_TITLE_4"
+    },
+    {
+      "text": "균열 패스 퀘스트 - 5주차",
+      "textId": "LIST_BattlePass_TITLE_5"
+    },
+    {
+      "text": "균열 패스 퀘스트 - 6주차",
+      "textId": "LIST_BattlePass_TITLE_6"
+    },
+    {
+      "text": "균열 패스 퀘스트 - 7주차",
+      "textId": "LIST_BattlePass_TITLE_7"
+    },
+    {
+      "text": "균열 패스 퀘스트 - 8주차",
+      "textId": "LIST_BattlePass_TITLE_8"
+    },
+    {
+      "text": "균열 패스 퀘스트 - 9주차",
+      "textId": "LIST_BattlePass_TITLE_9"
+    },
+    {
+      "text": "균열 패스 퀘스트 - 10주차",
+      "textId": "LIST_BattlePass_TITLE_10"
+    },
+    {
+      "text": "균열 패스 퀘스트 - 11주차",
+      "textId": "LIST_BattlePass_TITLE_11"
+    },
+    {
+      "text": "균열 패스 퀘스트 - 12주차",
+      "textId": "LIST_BattlePass_TITLE_12"
+    },
+    {
+      "text": "균열 패스 완료 퀘스트",
+      "textId": "LIST_BattlePass_TITLE_0"
+    },
+    {
+      "text": "마일스톤",
+      "textId": "CHALLENGESET_Milestone_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_Milestone_INFO",
+      "textId": "CHALLENGESET_Milestone_INFO"
+    },
+    {
+      "text": "소름",
+      "textId": "CHALLENGE_Hook_TITLE"
+    },
+    {
+      "text": "갈고리에 생존자 <b>{0}명</b> 걸기.",
+      "textId": "CHALLENGE_Hook_DESC"
+    },
+    {
+      "text": "마일스톤 퀘스트",
+      "textId": "LIST_Milestone_TITLE"
+    }
+  ]
+}

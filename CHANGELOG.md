@@ -2,6 +2,30 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.0.0_2512374live](versions/9.0.0_2512374live/CHANGES.md)
+
+Built 2025-06-19 13:47 UTC · **+0** added · **~19** modified · **−0** removed
+
+- ~ [`GameConfigs.json`](versions/9.0.0_2512374live/diffs/GameConfigs.json.diff)
+- ~ [`challengeLocs/challengeText_de.json`](versions/9.0.0_2512374live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_en.json`](versions/9.0.0_2512374live/diffs/challengeLocs/challengeText_en.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.0.0_2512374live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/9.0.0_2512374live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_fr.json`](versions/9.0.0_2512374live/diffs/challengeLocs/challengeText_fr.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/9.0.0_2512374live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_ja.json`](versions/9.0.0_2512374live/diffs/challengeLocs/challengeText_ja.json.diff)
+- ~ [`challengeLocs/challengeText_ko.json`](versions/9.0.0_2512374live/diffs/challengeLocs/challengeText_ko.json.diff)
+- ~ [`challengeLocs/challengeText_pl.json`](versions/9.0.0_2512374live/diffs/challengeLocs/challengeText_pl.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.0.0_2512374live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_ru.json`](versions/9.0.0_2512374live/diffs/challengeLocs/challengeText_ru.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/9.0.0_2512374live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`challengeLocs/challengeText_tr.json`](versions/9.0.0_2512374live/diffs/challengeLocs/challengeText_tr.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/9.0.0_2512374live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
+- ~ [`contentSchedule.json`](versions/9.0.0_2512374live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.0.0_2512374live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`gameplayTunables.json`](versions/9.0.0_2512374live/diffs/gameplayTunables.json.diff)
+- ~ [`specialEventsContent.json`](versions/9.0.0_2512374live/diffs/specialEventsContent.json.diff)
+
 ## [9.0.0_2508547live](versions/9.0.0_2508547live/CHANGES.md)
 
 Built 2025-06-17 15:58 UTC · no content changes

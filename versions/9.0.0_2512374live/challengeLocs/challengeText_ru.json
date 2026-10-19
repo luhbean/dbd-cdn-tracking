@@ -1,0 +1,988 @@
+{
+  "locText": [
+    {
+      "text": "Ежедневно",
+      "textId": "CHALLENGESET_DailyTab_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_Daily_INFO",
+      "textId": "CHALLENGESET_Daily_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookOrUnhook_TITLE",
+      "textId": "CHALLENGE_HookOrUnhook_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookOrUnhook_DESC",
+      "textId": "CHALLENGE_HookOrUnhook_DESC"
+    },
+    {
+      "text": "{0} раз(а) подвесьте выживших на крюк",
+      "textId": "CHALLENGE_Hook_INFO"
+    },
+    {
+      "text": "Снимите выживших с крюка {0} р.",
+      "textId": "CHALLENGE_Unhook_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HitOrHeal_TITLE",
+      "textId": "CHALLENGE_HitOrHeal_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HitOrHeal_DESC",
+      "textId": "CHALLENGE_HitOrHeal_DESC"
+    },
+    {
+      "text": "{0} раз(а) успешно совершите базовую атаку",
+      "textId": "CHALLENGE_Hit_INFO"
+    },
+    {
+      "text": "Восстановите уровни здоровья, суммарно {0} шт.",
+      "textId": "CHALLENGE_Heal_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenOrGenSkillCheck_TITLE",
+      "textId": "CHALLENGE_BreakGenOrGenSkillCheck_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenOrGenSkillCheck_DESC",
+      "textId": "CHALLENGE_BreakGenOrGenSkillCheck_DESC"
+    },
+    {
+      "text": "Сломайте генератор {0} р.",
+      "textId": "CHALLENGE_BreakGen_INFO"
+    },
+    {
+      "text": "Успешно пройдите проверку реакции {0} р. при починке генератора",
+      "textId": "CHALLENGE_GenSkillCheck_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_KillSurvivorOrRepairGens_TITLE",
+      "textId": "CHALLENGE_KillSurvivorOrRepairGens_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_KillSurvivorOrRepairGens_DESC",
+      "textId": "CHALLENGE_KillSurvivorOrRepairGens_DESC"
+    },
+    {
+      "text": "{0} раз(а) убейте выживших",
+      "textId": "CHALLENGE_Kill_INFO"
+    },
+    {
+      "text": "Почините генераторы, в общей сложности {0} шт.",
+      "textId": "CHALLENGE_Repair_INFO"
+    },
+    {
+      "text": "Кровавые награды",
+      "textId": "CHALLENGE_EarnBloodpoints_TITLE"
+    },
+    {
+      "text": "@#CHALENGE_EarnBloodpoints_DESC",
+      "textId": "CHALENGE_EarnBloodpoints_DESC"
+    },
+    {
+      "text": "Получите {0} оч. крови",
+      "textId": "CHALENGE_EarnBloodpoints_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteTrial_TITLE",
+      "textId": "CHALLENGE_CompleteTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteTrial_DESC",
+      "textId": "CHALLENGE_CompleteTrial_DESC"
+    },
+    {
+      "text": "{0} раз(а) завершите матч",
+      "textId": "CHALLENGE_CompleteTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrBeChased_TITLE",
+      "textId": "CHALLENGE_ChaseOrBeChased_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrBeChased_DESC",
+      "textId": "CHALLENGE_ChaseOrBeChased_DESC"
+    },
+    {
+      "text": "Участвуйте в погоне в течение {0} сек.",
+      "textId": "CHALLENGE_Chase_INFO"
+    },
+    {
+      "text": "Уходите от преследования в течение {0} сек.",
+      "textId": "CHALLENGE_BeChased_INFO"
+    },
+    {
+      "text": "ЗАДАНИЯ ДНЯ",
+      "textId": "LIST_Daily_TITLE"
+    },
+    {
+      "text": "2 против 8",
+      "textId": "CHALLENGESET_CalamariJerky_TITLE"
+    },
+    {
+      "text": "Задания необходимо выполнить в режиме «2 против 8»",
+      "textId": "CHALLENGESET_CalamariJerky_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests1_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests1_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_DESC"
+    },
+    {
+      "text": "Выполните задания в режиме «2 против 8»: {0}",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests2_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests2_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_DESC"
+    },
+    {
+      "text": "Выполните задания в режиме «2 против 8»: {0}",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests3_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests3_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_DESC"
+    },
+    {
+      "text": "Выполните задания в режиме «2 против 8»: {0}",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PlayAsCharacterOrClass_TITLE",
+      "textId": "CHALLENGE_PlayAsCharacterOrClass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PlayAsCharacterOrClass_",
+      "textId": "CHALLENGE_PlayAsCharacterOrClass_"
+    },
+    {
+      "text": "Сыграйте как {1} {0} р.",
+      "textId": "CHALLENGE_PlayAsCharacter_INFO"
+    },
+    {
+      "text": "Сыграйте за персонажа {1} {0} раз(а).",
+      "textId": "CHALLENGE_PlayAsClass_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_Crow_TITLE",
+      "textId": "CHALLENGE_Crow_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Crow_DESC",
+      "textId": "CHALLENGE_Crow_DESC"
+    },
+    {
+      "text": "{0} раз(а) потревожьте ворон",
+      "textId": "CHALLENGE_Crow_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE",
+      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_DESC",
+      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_DESC"
+    },
+    {
+      "text": "{0} раз(а) сломайте доски",
+      "textId": "CHALLENGE_BreakPallets_INFO"
+    },
+    {
+      "text": "{0} раз(а) уроните доски во время погони",
+      "textId": "CHALLENGE_PalletDropInChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrSucceedHealSkillCheck_TITLE",
+      "textId": "CHALLENGE_DownOrSucceedHealSkillCheck_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrSucceedHealSkillCheck_DESC",
+      "textId": "CHALLENGE_DownOrSucceedHealSkillCheck_DESC"
+    },
+    {
+      "text": "{0} раз(а) смертельно раньте выживших",
+      "textId": "CHALLENGE_Down_INFO"
+    },
+    {
+      "text": "Успешно пройдите проверки реакции {0} р. во время лечения выжившего",
+      "textId": "CHALLENGE_SucceedHealSkillCheck_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrPlayAsClass_TITLE",
+      "textId": "CHALLENGE_ChaseOrPlayAsClass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrPlayAsClass_DESC",
+      "textId": "CHALLENGE_ChaseOrPlayAsClass_DESC"
+    },
+    {
+      "text": "Задания завершения «2 против 8»",
+      "textId": "LIST_Calamari_TITLE_1"
+    },
+    {
+      "text": "Задания «2 против 8» (1-я часть)",
+      "textId": "LIST_Calamari_TITLE_2"
+    },
+    {
+      "text": "Задания «2 против 8» (2-я часть)",
+      "textId": "LIST_Calamari_TITLE_3"
+    },
+    {
+      "text": "Задания «2 против 8» (3-я часть)",
+      "textId": "LIST_Calamari_TITLE_4"
+    },
+    {
+      "text": "Хаотичное перемешивание",
+      "textId": "CHALLENGESET_ChocolateBoxJerky_TITLE"
+    },
+    {
+      "text": "Задания необходимо завершить с модификатором «Хаотичное перемешивание»",
+      "textId": "CHALLENGESET_ChocolateBoxJerky_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests1_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests1_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_DESC"
+    },
+    {
+      "text": "Выполните задания «Хаотичного перемешивания»: {0}",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests2_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests2_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_DESC"
+    },
+    {
+      "text": "Выполните задания «Хаотичного перемешивания»: {0}",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests3_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests3_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_DESC"
+    },
+    {
+      "text": "Выполните задания «Хаотичного перемешивания»: {0}",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_INFO"
+    },
+    {
+      "text": "Благоговение",
+      "textId": "CHALLENGE_Sacrifice_TITLE"
+    },
+    {
+      "text": "Принесите в жертву Сущности <b>выживших: {0} чел.</b>",
+      "textId": "CHALLENGE_Sacrifice_DESC"
+    },
+    {
+      "text": "{0} раз(а) принесите выживших в жертву",
+      "textId": "CHALLENGE_Sacrifice_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_Repair_TITLE",
+      "textId": "CHALLENGE_Repair_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Repair_DESC",
+      "textId": "CHALLENGE_Repair_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_Hit_TITLE",
+      "textId": "CHALLENGE_Hit_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Hit_DESC",
+      "textId": "CHALLENGE_Hit_DESC"
+    },
+    {
+      "text": "Беглец-виртуоз",
+      "textId": "CHALLENGE_Escape_TITLE"
+    },
+    {
+      "text": "Сбегите <b>{0} раз(а)</b>.",
+      "textId": "CHALLENGE_Escape_DESC"
+    },
+    {
+      "text": "Сбегите {0} раз(а)",
+      "textId": "CHALLENGE_Escape_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_EarnEmblemsGold_TITLE",
+      "textId": "CHALLENGE_EarnEmblemsGold_TITLE"
+    },
+    {
+      "text": "Получите золотые эмблемы: {0} шт.",
+      "textId": "CHALLENGE_EarnEmblemsGold_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPallet_TITLE",
+      "textId": "CHALLENGE_BreakPallet_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPallet_DESC",
+      "textId": "CHALLENGE_BreakPallet_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_VaultInChase_TITLE",
+      "textId": "CHALLENGE_VaultInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_VaultInChase_DESC",
+      "textId": "CHALLENGE_VaultInChase_DESC"
+    },
+    {
+      "text": "{0} раз(а) совершите прыжок во время погони",
+      "textId": "CHALLENGE_VaultInChase_INFO"
+    },
+    {
+      "text": "Задания завершения «Хаотичного перемешивания»",
+      "textId": "LIST_ChocolateBox_TITLE_1"
+    },
+    {
+      "text": "Задания «Хаотичного перемешивания» (1-я часть)",
+      "textId": "LIST_ChocolateBox_TITLE_2"
+    },
+    {
+      "text": "Задания «Хаотичного перемешивания» (2-я часть)",
+      "textId": "LIST_ChocolateBox_TITLE_3"
+    },
+    {
+      "text": "Задания «Хаотичного перемешивания» (3-я часть)",
+      "textId": "LIST_ChocolateBox_TITLE_4"
+    },
+    {
+      "text": "Билет разрыва",
+      "textId": "CHALLENGESET_BattlePass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_BattlePass_INFO",
+      "textId": "CHALLENGESET_BattlePass_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChallenges_TITLE",
+      "textId": "CHALLENGE_CompleteChallenges_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChallenges_DESC",
+      "textId": "CHALLENGE_CompleteChallenges_DESC"
+    },
+    {
+      "text": "{0} раз(а) выполните задание на этой неделе",
+      "textId": "CHALLENGE_CompleteChallenges_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffSingleTrial_TITLE",
+      "textId": "CHALLENGE_HookDiffSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffSingleTrial_DESC",
+      "textId": "CHALLENGE_HookDiffSingleTrial_DESC"
+    },
+    {
+      "text": "В одном матче подвесьте на крюк разных выживших: {0} чел.",
+      "textId": "CHALLENGE_HookDiffOneTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HideInTerrorRadius_TITLE",
+      "textId": "CHALLENGE_HideInTerrorRadius_TITLE"
+    },
+    {
+      "text": "Прячьтесь в радиусе террора в течение {0} сек.",
+      "textId": "CHALLENGE_HideInTerrorRadius_DESC"
+    },
+    {
+      "text": "Прячьтесь в пределах радиуса террора убийцы так, чтобы вас не поймали, суммарно в течение {0} сек.",
+      "textId": "CHALLENGE_HideInTerrorRadius_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CarryOrEscapeChase_TITLE",
+      "textId": "CHALLENGE_CarryOrEscapeChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CarryOrEscapeChase_DESC",
+      "textId": "CHALLENGE_CarryOrEscapeChase_DESC"
+    },
+    {
+      "text": "Пронесите выжившего {0} м",
+      "textId": "CHALLENGE_Carry_INFO"
+    },
+    {
+      "text": "Оторвитесь от погони {0} раз(а)",
+      "textId": "CHALLENGE_EscapeChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivorOrBlindWhileCarry_TITLE",
+      "textId": "CHALLENGE_GrabSurvivorOrBlindWhileCarry_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivorOrBlindWhileCarry_DESC",
+      "textId": "CHALLENGE_GrabSurvivorOrBlindWhileCarry_DESC"
+    },
+    {
+      "text": "{0} раз(а) прервите действия выживших и схватите их",
+      "textId": "CHALLENGE_GrabSurvivor_INFO"
+    },
+    {
+      "text": "{0} раз(а) ослепите убийцу, пока тот несет выжившего",
+      "textId": "CHALLENGE_BlindCarry_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_RevealSurvivorAura_TITLE",
+      "textId": "CHALLENGE_RevealSurvivorAura_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_RevealSurvivorAura_DESC",
+      "textId": "CHALLENGE_RevealSurvivorAura_DESC"
+    },
+    {
+      "text": "Обнаруживайте ауры выживших в течение {0} сек.",
+      "textId": "CHALLENGE_RevealSurvivorAurasForDuration_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GenSkillCheckSingleTrial_TITLE",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GenSkillCheckSingleTrial_DESC",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_DESC"
+    },
+    {
+      "text": "Успешно пройдите {0} раз(а) проверку реакции при починке генератора за один матч",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_MoriOrPalletStun_TITLE",
+      "textId": "CHALLENGE_MoriOrPalletStun_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_MoriOrPalletStun_DESC",
+      "textId": "CHALLENGE_MoriOrPalletStun_DESC"
+    },
+    {
+      "text": "Собственноручно убейте выжившего {0} р.",
+      "textId": "CHALLENGE_Mori_INFO"
+    },
+    {
+      "text": "{0} раз(а) оглушите убийцу досками",
+      "textId": "CHALLENGE_PalletStun_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ScourgeHook_TITLE",
+      "textId": "CHALLENGE_ScourgeHook_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ScourgeHook_DESC",
+      "textId": "CHALLENGE_ScourgeHook_DESC"
+    },
+    {
+      "text": "{0} раз(а) подвесьте выживших на секущий крюк",
+      "textId": "CHALLENGE_ScourgeHook_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrConsumeMed_TITLE",
+      "textId": "CHALLENGE_DownOrConsumeMed_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrConsumeMed_DESC",
+      "textId": "CHALLENGE_DownOrConsumeMed_DESC"
+    },
+    {
+      "text": "Полностью используйте аптечку {0} р.",
+      "textId": "CHALLENGE_ConsumeMedkit_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGen_TITLE",
+      "textId": "CHALLENGE_BreakGen_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGen_DESC",
+      "textId": "CHALLENGE_BreakGen_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_CoopAction_TITLE",
+      "textId": "CHALLENGE_CoopAction_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CoopAction_DESC",
+      "textId": "CHALLENGE_CoopAction_DESC"
+    },
+    {
+      "text": "Совершайте совместные действия суммарно на протяжении {0} сек.",
+      "textId": "CHALLENGE_CoopAction_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HitAuraTimeOrEscapeRare_TITLE",
+      "textId": "CHALLENGE_HitAuraTimeOrEscapeRare_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HitAuraTimeOrEscapeRare_DESC",
+      "textId": "CHALLENGE_HitAuraTimeOrEscapeRare_DESC"
+    },
+    {
+      "text": "Ударьте {0} выживших в течение 10 сек. после обнаружения их ауры",
+      "textId": "CHALLENGE_HitAura_INFO"
+    },
+    {
+      "text": "Сбегите с предметами качеством не ниже редкого {0} р.",
+      "textId": "CHALLENGE_EscapeRare_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivor_TITLE",
+      "textId": "CHALLENGE_GrabSurvivor_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivor_DESC",
+      "textId": "CHALLENGE_GrabSurvivor_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeToolBox_TITLE",
+      "textId": "CHALLENGE_ConsumeToolBox_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeToolBox_DESC",
+      "textId": "CHALLENGE_ConsumeToolBox_DESC"
+    },
+    {
+      "text": "Полностью используйте инструменты: {0} шт.",
+      "textId": "CHALLENGE_ConsumeToolBox_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_FinishNoGateEscapeOrEscape_TITLE",
+      "textId": "CHALLENGE_FinishNoGateEscapeOrEscape_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_FinishNoGateEscapeOrEscape_DESC",
+      "textId": "CHALLENGE_FinishNoGateEscapeOrEscape_DESC"
+    },
+    {
+      "text": "Завершите матч так, чтобы никто из выживших не успел сбежать, {0} раз(а)",
+      "textId": "CHALLENGE_FinishNoGateEscape_INFO"
+    },
+    {
+      "text": "Опасная погоня",
+      "textId": "CHALLENGE_Chase_TITLE"
+    },
+    {
+      "text": "Преследуйте выживших суммарно в течение <b>{0} сек.</b>",
+      "textId": "CHALLENGE_Chase_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BeChased_TITLE",
+      "textId": "CHALLENGE_BeChased_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BeChased_DESC",
+      "textId": "CHALLENGE_BeChased_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_Kill_TITLE",
+      "textId": "CHALLENGE_Kill_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Kill_DESC",
+      "textId": "CHALLENGE_Kill_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_EarnEmblemsSilver_TITLE",
+      "textId": "CHALLENGE_EarnEmblemsSilver_TITLE"
+    },
+    {
+      "text": "Получите серебряные эмблемы: {0} шт.",
+      "textId": "CHALLENGE_EarnEmblemsSilver_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_TITLE",
+      "textId": "CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_DESC",
+      "textId": "CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_DESC"
+    },
+    {
+      "text": "{0} раз(а) подвесьте выживших на крюк за один матч",
+      "textId": "CHALLENGE_HookSingleTrial_INFO"
+    },
+    {
+      "text": "Уходите от погони в течение {0} сек. за один матч",
+      "textId": "CHALLENGE_BeChasedSingleTrial_INFO"
+    },
+    {
+      "text": "Жизнь — лучший подарок",
+      "textId": "CHALLENGE_Heal_TITLE"
+    },
+    {
+      "text": "Суммарно восстановите любому выжившему <b>уровни здоровья: {0} шт.</b>",
+      "textId": "CHALLENGE_Heal_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletOrClenseTotems_TITLE",
+      "textId": "CHALLENGE_BreakPalletOrClenseTotems_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletOrClenseTotems_DESC",
+      "textId": "CHALLENGE_BreakPalletOrClenseTotems_DESC"
+    },
+    {
+      "text": "{0} раз(а) очистите тотем",
+      "textId": "CHALLENGE_CleanseTotem_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_TITLE",
+      "textId": "CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_DESC",
+      "textId": "CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_DESC"
+    },
+    {
+      "text": "{0} раз(а) уничтожьте генератор за один матч",
+      "textId": "CHALLENGE_BreakGenSingleTrial_INFO"
+    },
+    {
+      "text": "{0} р. за матч используйте шкафчик во время погони или в течение 5 сек. после спасения от погони",
+      "textId": "CHALLENGE_EscapeChaseLockerSingleTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BlindCarry_TITLE",
+      "textId": "CHALLENGE_BlindCarry_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BlindCarry_DESC",
+      "textId": "CHALLENGE_BlindCarry_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_DownNearPalletsOrReviveDying_TITLE",
+      "textId": "CHALLENGE_DownNearPalletsOrReviveDying_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownNearPalletsOrReviveDying_DESC",
+      "textId": "CHALLENGE_DownNearPalletsOrReviveDying_DESC"
+    },
+    {
+      "text": "{0} раз(а) смертельно раньте выжившего возле досок",
+      "textId": "CHALLENGE_DownNearPallet_INFO"
+    },
+    {
+      "text": "{0} раз(а) вылечите выживших, находящихся при смерти",
+      "textId": "CHALLENGE_ReviveDying_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_TITLE",
+      "textId": "CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_DESC",
+      "textId": "CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_DESC"
+    },
+    {
+      "text": "{0} раз(а) упадите, пока вас преследуют, за один матч",
+      "textId": "CHALLENGE_FallInChaseOneTrial_INFO"
+    },
+    {
+      "text": "Нокаут",
+      "textId": "CHALLENGE_Down_TITLE"
+    },
+    {
+      "text": "Сбейте с ног <b>выживших: {0} чел.</b>",
+      "textId": "CHALLENGE_Down_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeMedkit_TITLE",
+      "textId": "CHALLENGE_ConsumeMedkit_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeMedkit_DESC",
+      "textId": "CHALLENGE_ConsumeMedkit_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteRiftQuests_TITLE",
+      "textId": "CHALLENGE_CompleteRiftQuests_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteRiftQuests_DESC",
+      "textId": "CHALLENGE_CompleteRiftQuests_DESC"
+    },
+    {
+      "text": "{0} раз(а) выполните задания билета разрыва",
+      "textId": "CHALLENGE_CompleteRiftQuests_INFO"
+    },
+    {
+      "text": "Задания билета разрыва (1-я неделя)",
+      "textId": "LIST_BattlePass_TITLE_1"
+    },
+    {
+      "text": "Задания билета разрыва (2-я неделя)",
+      "textId": "LIST_BattlePass_TITLE_2"
+    },
+    {
+      "text": "Задания билета разрыва (3-я неделя)",
+      "textId": "LIST_BattlePass_TITLE_3"
+    },
+    {
+      "text": "Задания билета разрыва (4-я неделя)",
+      "textId": "LIST_BattlePass_TITLE_4"
+    },
+    {
+      "text": "Задания билета разрыва (5-я неделя)",
+      "textId": "LIST_BattlePass_TITLE_5"
+    },
+    {
+      "text": "Задания билета разрыва (6-я неделя)",
+      "textId": "LIST_BattlePass_TITLE_6"
+    },
+    {
+      "text": "Задания билета разрыва (7-я неделя)",
+      "textId": "LIST_BattlePass_TITLE_7"
+    },
+    {
+      "text": "Задания билета разрыва (8-я неделя)",
+      "textId": "LIST_BattlePass_TITLE_8"
+    },
+    {
+      "text": "Задания билета разрыва (9-я неделя)",
+      "textId": "LIST_BattlePass_TITLE_9"
+    },
+    {
+      "text": "Задания билета разрыва (10-я неделя)",
+      "textId": "LIST_BattlePass_TITLE_10"
+    },
+    {
+      "text": "Задания билета разрыва (11-я неделя)",
+      "textId": "LIST_BattlePass_TITLE_11"
+    },
+    {
+      "text": "Задания билета разрыва (12-я неделя)",
+      "textId": "LIST_BattlePass_TITLE_12"
+    },
+    {
+      "text": "Задания прохождения билета разрыва",
+      "textId": "LIST_BattlePass_TITLE_0"
+    },
+    {
+      "text": "Этап",
+      "textId": "CHALLENGESET_Milestone_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_Milestone_INFO",
+      "textId": "CHALLENGESET_Milestone_INFO"
+    },
+    {
+      "text": "Беспощадность",
+      "textId": "CHALLENGE_Hook_TITLE"
+    },
+    {
+      "text": "Повесьте на крюк <b>выживших: {0} чел.</b>",
+      "textId": "CHALLENGE_Hook_DESC"
+    },
+    {
+      "text": "Задания этапов",
+      "textId": "LIST_Milestone_TITLE"
+    },
+    {
+      "text": "ПОРОЧНЫЙ МАСКАРАД",
+      "textId": "CHALLENGESET_AnniversaryKetchupSet_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_AnniversaryKetchupSet__INFO",
+      "textId": "CHALLENGESET_AnniversaryKetchupSet__INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeQuests_TITLE",
+      "textId": "CHALLENGE_CompleteModeQuests_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeQuests_DESC",
+      "textId": "CHALLENGE_CompleteModeQuests_DESC"
+    },
+    {
+      "text": "Выполните задание ({0}) {1} раз(а)",
+      "textId": "CHALLENGE_CompleteModeQuests_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeTrial_TITLE",
+      "textId": "CHALLENGE_CompleteModeTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeTrial_DESC",
+      "textId": "CHALLENGE_CompleteModeTrial_DESC"
+    },
+    {
+      "text": "Завершите матч ({0}) {1} раз(а)",
+      "textId": "CHALLENGE_CompleteModeTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CollectInvitation_TITLE",
+      "textId": "CHALLENGE_CollectInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CollectInvitation_DESC",
+      "textId": "CHALLENGE_CollectInvitation_DESC"
+    },
+    {
+      "text": "Получите приглашение от маскарадных колонн {0} раз(а)",
+      "textId": "CHALLENGE_CollectInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbility_TITLE",
+      "textId": "CHALLENGE_AnyInvitationAbility_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbility_DESC",
+      "textId": "CHALLENGE_AnyInvitationAbility_DESC"
+    },
+    {
+      "text": "Активируйте любую способность приглашения {0} раз(а).",
+      "textId": "CHALLENGE_AnyInvitationAbility_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PalletBreakInvitation_TITLE",
+      "textId": "CHALLENGE_PalletBreakInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PalletBreakInvitation_DESC",
+      "textId": "CHALLENGE_PalletBreakInvitation_DESC"
+    },
+    {
+      "text": "Активируйте приглашение {0} раз(а), чтобы сломать доски или разрушаемую стену.",
+      "textId": "CHALLENGE_PalletBreakInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PalletSummonInvitation_TITLE",
+      "textId": "CHALLENGE_PalletSummonInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PalletSummonInvitation_DESC",
+      "textId": "CHALLENGE_PalletSummonInvitation_DESC"
+    },
+    {
+      "text": "Активируйте приглашение {0} раз(а), чтобы создать праздничную доску.",
+      "textId": "CHALLENGE_PalletSummonInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_OutlastNumberOfEffects_TITLE",
+      "textId": "CHALLENGE_OutlastNumberOfEffects_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_OutlastNumberOfEffects_DESC",
+      "textId": "CHALLENGE_OutlastNumberOfEffects_DESC"
+    },
+    {
+      "text": "Получите эффекты хитростей Трикс {0} раз(а).",
+      "textId": "CHALLENGE_OutlastNumberOfEffects_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_RemoteHookInvitation_TITLE",
+      "textId": "CHALLENGE_RemoteHookInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_RemoteHookInvitation_DESC",
+      "textId": "CHALLENGE_RemoteHookInvitation_DESC"
+    },
+    {
+      "text": "Используйте силу приглашения {0} раз(а), чтобы на расстоянии повесить выжившего на крюк.",
+      "textId": "CHALLENGE_RemoteHookInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_VaultBlockInvitation_TITLE",
+      "textId": "CHALLENGE_VaultBlockInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_VaultBlockInvitation_DESC",
+      "textId": "CHALLENGE_VaultBlockInvitation_DESC"
+    },
+    {
+      "text": "Во время погони {0} раз(а) активируйте приглашение, чтобы не позволить убийце прыгнуть в окно.",
+      "textId": "CHALLENGE_VaultBlockInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityInChase_TITLE",
+      "textId": "CHALLENGE_AnyInvitationAbilityInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityInChase_DESC",
+      "textId": "CHALLENGE_AnyInvitationAbilityInChase_DESC"
+    },
+    {
+      "text": "Во время погони {0} раз(а) активируйте любую способность приглашения.",
+      "textId": "CHALLENGE_AnyInvitationAbilityInChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityOutOfChase_TITLE",
+      "textId": "CHALLENGE_AnyInvitationAbilityOutOfChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityOutOfChase_DESC",
+      "textId": "CHALLENGE_AnyInvitationAbilityOutOfChase_DESC"
+    },
+    {
+      "text": "Вне погони активируйте любую способность приглашения {0} раз(а).",
+      "textId": "CHALLENGE_AnyInvitationAbilityOutOfChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_NegateStunInvitation_TITLE",
+      "textId": "CHALLENGE_NegateStunInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_NegateStunInvitation_DESC",
+      "textId": "CHALLENGE_NegateStunInvitation_DESC"
+    },
+    {
+      "text": "Во время погони {0} раз(а) активируйте приглашение, что выдержать оглушение.",
+      "textId": "CHALLENGE_NegateStunInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_QuietModeInvitation_TITLE",
+      "textId": "CHALLENGE_QuietModeInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_QuietModeInvitation_DESC",
+      "textId": "CHALLENGE_QuietModeInvitation_DESC"
+    },
+    {
+      "text": "Используйте силу приглашения {0} раз(а), чтобы скрыть шаги, стоны боли и/или лужи крови.",
+      "textId": "CHALLENGE_QuietModeInvitation_INFO"
+    },
+    {
+      "text": "ЗАДАНИЯ «ПОРОЧНОГО МАСКАРАДА»",
+      "textId": "LIST_Anniversary_TITLE_1"
+    },
+    {
+      "text": "Задания Порочного маскарада — часть 1",
+      "textId": "LIST_Anniversary_TITLE_2"
+    },
+    {
+      "text": "Задания Порочного маскарада — часть 2",
+      "textId": "LIST_Anniversary_TITLE_3"
+    },
+    {
+      "text": "Задания Порочного маскарада — часть 3",
+      "textId": "LIST_Anniversary_TITLE_4"
+    },
+    {
+      "text": "Задания Порочного маскарада — часть 4",
+      "textId": "LIST_Anniversary_TITLE_5"
+    }
+  ]
+}

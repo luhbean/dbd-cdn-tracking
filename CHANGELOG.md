@@ -2,6 +2,14 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [8.7.1_2462121live](versions/8.7.1_2462121live/CHANGES.md)
+
+Built 2025-05-22 12:40 UTC · **+0** added · **~3** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/8.7.1_2462121live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/8.7.1_2462121live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.7.1_2462121live/diffs/dynamicContent/DynamicContent.json.diff)
+
 ## [8.7.1_2460293live](versions/8.7.1_2460293live/CHANGES.md)
 
 Built 2025-05-21 18:32 UTC · **+0** added · **~22** modified · **−0** removed

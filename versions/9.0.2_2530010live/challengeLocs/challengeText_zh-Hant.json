@@ -1,0 +1,996 @@
+{
+  "locText": [
+    {
+      "text": "每天",
+      "textId": "CHALLENGESET_DailyTab_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_Daily_INFO",
+      "textId": "CHALLENGESET_Daily_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookOrUnhook_TITLE",
+      "textId": "CHALLENGE_HookOrUnhook_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookOrUnhook_DESC",
+      "textId": "CHALLENGE_HookOrUnhook_DESC"
+    },
+    {
+      "text": "把{0}個倖存者掛上鉤子",
+      "textId": "CHALLENGE_Hook_INFO"
+    },
+    {
+      "text": "將{0}名倖存者平安救下鉤子",
+      "textId": "CHALLENGE_Unhook_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HitOrHeal_TITLE",
+      "textId": "CHALLENGE_HitOrHeal_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HitOrHeal_DESC",
+      "textId": "CHALLENGE_HitOrHeal_DESC"
+    },
+    {
+      "text": "命中{0}次普通攻擊",
+      "textId": "CHALLENGE_Hit_INFO"
+    },
+    {
+      "text": "治療共計{0}個生命值狀態",
+      "textId": "CHALLENGE_Heal_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenOrGenSkillCheck_TITLE",
+      "textId": "CHALLENGE_BreakGenOrGenSkillCheck_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenOrGenSkillCheck_DESC",
+      "textId": "CHALLENGE_BreakGenOrGenSkillCheck_DESC"
+    },
+    {
+      "text": "破壞{0}台發電機",
+      "textId": "CHALLENGE_BreakGen_INFO"
+    },
+    {
+      "text": "成功完成{0}次發電機技能檢驗",
+      "textId": "CHALLENGE_GenSkillCheck_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_KillSurvivorOrRepairGens_TITLE",
+      "textId": "CHALLENGE_KillSurvivorOrRepairGens_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_KillSurvivorOrRepairGens_DESC",
+      "textId": "CHALLENGE_KillSurvivorOrRepairGens_DESC"
+    },
+    {
+      "text": "擊殺{0}名倖存者",
+      "textId": "CHALLENGE_Kill_INFO"
+    },
+    {
+      "text": "共修復{0}個發電機",
+      "textId": "CHALLENGE_Repair_INFO"
+    },
+    {
+      "text": "血腥獎勵",
+      "textId": "CHALLENGE_EarnBloodpoints_TITLE"
+    },
+    {
+      "text": "@#CHALENGE_EarnBloodpoints_DESC",
+      "textId": "CHALENGE_EarnBloodpoints_DESC"
+    },
+    {
+      "text": "獲得{0}血點",
+      "textId": "CHALENGE_EarnBloodpoints_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteTrial_TITLE",
+      "textId": "CHALLENGE_CompleteTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteTrial_DESC",
+      "textId": "CHALLENGE_CompleteTrial_DESC"
+    },
+    {
+      "text": "完成{0}場遊戲",
+      "textId": "CHALLENGE_CompleteTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrBeChased_TITLE",
+      "textId": "CHALLENGE_ChaseOrBeChased_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrBeChased_DESC",
+      "textId": "CHALLENGE_ChaseOrBeChased_DESC"
+    },
+    {
+      "text": "追殺{0}秒",
+      "textId": "CHALLENGE_Chase_INFO"
+    },
+    {
+      "text": "被追殺{0}秒",
+      "textId": "CHALLENGE_BeChased_INFO"
+    },
+    {
+      "text": "每日任務",
+      "textId": "LIST_Daily_TITLE"
+    },
+    {
+      "text": "2v8模式",
+      "textId": "CHALLENGESET_CalamariJerky_TITLE"
+    },
+    {
+      "text": "任務必須在2V8中完成",
+      "textId": "CHALLENGESET_CalamariJerky_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests1_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests1_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_DESC"
+    },
+    {
+      "text": "完成{0}個2v8任務",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests2_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests2_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_DESC"
+    },
+    {
+      "text": "完成{0}個2v8任務",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests3_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests3_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_DESC"
+    },
+    {
+      "text": "完成{0}個2v8任務",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PlayAsCharacterOrClass_TITLE",
+      "textId": "CHALLENGE_PlayAsCharacterOrClass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PlayAsCharacterOrClass_",
+      "textId": "CHALLENGE_PlayAsCharacterOrClass_"
+    },
+    {
+      "text": "在{0}場遊戲中扮演{1}",
+      "textId": "CHALLENGE_PlayAsCharacter_INFO"
+    },
+    {
+      "text": "扮演{1}進行{0}場遊戲。",
+      "textId": "CHALLENGE_PlayAsClass_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_Crow_TITLE",
+      "textId": "CHALLENGE_Crow_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Crow_DESC",
+      "textId": "CHALLENGE_Crow_DESC"
+    },
+    {
+      "text": "驚動烏鴉{0}次",
+      "textId": "CHALLENGE_Crow_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE",
+      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_DESC",
+      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_DESC"
+    },
+    {
+      "text": "擊破{0}個木板",
+      "textId": "CHALLENGE_BreakPallets_INFO"
+    },
+    {
+      "text": "在追殺時掉落木板{0}次",
+      "textId": "CHALLENGE_PalletDropInChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrSucceedHealSkillCheck_TITLE",
+      "textId": "CHALLENGE_DownOrSucceedHealSkillCheck_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrSucceedHealSkillCheck_DESC",
+      "textId": "CHALLENGE_DownOrSucceedHealSkillCheck_DESC"
+    },
+    {
+      "text": "擊倒{0}位倖存者",
+      "textId": "CHALLENGE_Down_INFO"
+    },
+    {
+      "text": "在治療倖存者時成功完成{0}次技能檢驗",
+      "textId": "CHALLENGE_SucceedHealSkillCheck_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrPlayAsClass_TITLE",
+      "textId": "CHALLENGE_ChaseOrPlayAsClass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrPlayAsClass_DESC",
+      "textId": "CHALLENGE_ChaseOrPlayAsClass_DESC"
+    },
+    {
+      "text": "2V8完成任務",
+      "textId": "LIST_Calamari_TITLE_1"
+    },
+    {
+      "text": "2V8任務- 第1部分",
+      "textId": "LIST_Calamari_TITLE_2"
+    },
+    {
+      "text": "2V8任務- 第2部分",
+      "textId": "LIST_Calamari_TITLE_3"
+    },
+    {
+      "text": "2V8任務- 第3部分",
+      "textId": "LIST_Calamari_TITLE_4"
+    },
+    {
+      "text": "隨機洗牌",
+      "textId": "CHALLENGESET_ChocolateBoxJerky_TITLE"
+    },
+    {
+      "text": "任務必須在隨機洗牌中完成",
+      "textId": "CHALLENGESET_ChocolateBoxJerky_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests1_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests1_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_DESC"
+    },
+    {
+      "text": "完成{0}個隨機洗牌任務",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests2_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests2_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_DESC"
+    },
+    {
+      "text": "完成{0}個隨機洗牌任務",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests3_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests3_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_DESC"
+    },
+    {
+      "text": "完成{0}個隨機洗牌任務",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_INFO"
+    },
+    {
+      "text": "肅然起敬",
+      "textId": "CHALLENGE_Sacrifice_TITLE"
+    },
+    {
+      "text": "將<b>{0}一名倖存者</b>獻祭給惡靈。",
+      "textId": "CHALLENGE_Sacrifice_DESC"
+    },
+    {
+      "text": "獻祭{0}位倖存者",
+      "textId": "CHALLENGE_Sacrifice_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_Repair_TITLE",
+      "textId": "CHALLENGE_Repair_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Repair_DESC",
+      "textId": "CHALLENGE_Repair_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_Hit_TITLE",
+      "textId": "CHALLENGE_Hit_TITLE"
+    },
+    {
+      "text": "殺手的普通攻擊不依賴於自身的力量。這是擊倒倖存者的好方法。",
+      "textId": "CHALLENGE_Hit_DESC"
+    },
+    {
+      "text": "逃離專家",
+      "textId": "CHALLENGE_Escape_TITLE"
+    },
+    {
+      "text": "逃脫<b>{0}場遊戲</b>。",
+      "textId": "CHALLENGE_Escape_DESC"
+    },
+    {
+      "text": "逃脫{0}場遊戲",
+      "textId": "CHALLENGE_Escape_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_EarnEmblemsGold_TITLE",
+      "textId": "CHALLENGE_EarnEmblemsGold_TITLE"
+    },
+    {
+      "text": "獲得{0}個黃金徽章",
+      "textId": "CHALLENGE_EarnEmblemsGold_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPallet_TITLE",
+      "textId": "CHALLENGE_BreakPallet_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPallet_DESC",
+      "textId": "CHALLENGE_BreakPallet_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_VaultInChase_TITLE",
+      "textId": "CHALLENGE_VaultInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_VaultInChase_DESC",
+      "textId": "CHALLENGE_VaultInChase_DESC"
+    },
+    {
+      "text": "在追殺中跨越{0}次",
+      "textId": "CHALLENGE_VaultInChase_INFO"
+    },
+    {
+      "text": "隨機洗牌完成任務",
+      "textId": "LIST_ChocolateBox_TITLE_1"
+    },
+    {
+      "text": "隨機洗牌任務- 第1部分",
+      "textId": "LIST_ChocolateBox_TITLE_2"
+    },
+    {
+      "text": "隨機洗牌任務- 第2部分",
+      "textId": "LIST_ChocolateBox_TITLE_3"
+    },
+    {
+      "text": "隨機洗牌任務- 第3部分",
+      "textId": "LIST_ChocolateBox_TITLE_4"
+    },
+    {
+      "text": "裂縫通行證",
+      "textId": "CHALLENGESET_BattlePass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_BattlePass_INFO",
+      "textId": "CHALLENGESET_BattlePass_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChallenges_TITLE",
+      "textId": "CHALLENGE_CompleteChallenges_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChallenges_DESC",
+      "textId": "CHALLENGE_CompleteChallenges_DESC"
+    },
+    {
+      "text": "在本週完成{0}項任務",
+      "textId": "CHALLENGE_CompleteChallenges_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffSingleTrial_TITLE",
+      "textId": "CHALLENGE_HookDiffSingleTrial_TITLE"
+    },
+    {
+      "text": "被鉤住的倖存者需要其他倖存者來拯救，這會讓他們更難專注於修理發電機。",
+      "textId": "CHALLENGE_HookDiffSingleTrial_DESC"
+    },
+    {
+      "text": "在單場遊戲中將{0}名不同的倖存者掛上鉤",
+      "textId": "CHALLENGE_HookDiffOneTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HideInTerrorRadius_TITLE",
+      "textId": "CHALLENGE_HideInTerrorRadius_TITLE"
+    },
+    {
+      "text": "躲在恐懼範圍內{0}秒",
+      "textId": "CHALLENGE_HideInTerrorRadius_DESC"
+    },
+    {
+      "text": "躲在殺手的恐懼範圍內沒有被抓到，總共達{0}秒。",
+      "textId": "CHALLENGE_HideInTerrorRadius_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CarryOrEscapeChase_TITLE",
+      "textId": "CHALLENGE_CarryOrEscapeChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CarryOrEscapeChase_DESC",
+      "textId": "CHALLENGE_CarryOrEscapeChase_DESC"
+    },
+    {
+      "text": "抓住倖存者並跨越{0}公尺",
+      "textId": "CHALLENGE_Carry_INFO"
+    },
+    {
+      "text": "逃脫{0}次追殺",
+      "textId": "CHALLENGE_EscapeChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivorOrBlindWhileCarry_TITLE",
+      "textId": "CHALLENGE_GrabSurvivorOrBlindWhileCarry_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivorOrBlindWhileCarry_DESC",
+      "textId": "CHALLENGE_GrabSurvivorOrBlindWhileCarry_DESC"
+    },
+    {
+      "text": "中斷並抓住{0}位倖存者",
+      "textId": "CHALLENGE_GrabSurvivor_INFO"
+    },
+    {
+      "text": "讓正在扛著倖存者的殺手陷入盲目狀態{0}次",
+      "textId": "CHALLENGE_BlindCarry_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_RevealSurvivorAura_TITLE",
+      "textId": "CHALLENGE_RevealSurvivorAura_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_RevealSurvivorAura_DESC",
+      "textId": "CHALLENGE_RevealSurvivorAura_DESC"
+    },
+    {
+      "text": "暴露倖存者的氣場{0}秒",
+      "textId": "CHALLENGE_RevealSurvivorAurasForDuration_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GenSkillCheckSingleTrial_TITLE",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GenSkillCheckSingleTrial_DESC",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_DESC"
+    },
+    {
+      "text": "在單場遊戲中，在修復發電機時成功完成{0}次技能檢驗",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_MoriOrPalletStun_TITLE",
+      "textId": "CHALLENGE_MoriOrPalletStun_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_MoriOrPalletStun_DESC",
+      "textId": "CHALLENGE_MoriOrPalletStun_DESC"
+    },
+    {
+      "text": "親手擊殺{0}名倖存者",
+      "textId": "CHALLENGE_Mori_INFO"
+    },
+    {
+      "text": "使用木板暈眩殺手{0}次",
+      "textId": "CHALLENGE_PalletStun_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ScourgeHook_TITLE",
+      "textId": "CHALLENGE_ScourgeHook_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ScourgeHook_DESC",
+      "textId": "CHALLENGE_ScourgeHook_DESC"
+    },
+    {
+      "text": "將{0}位倖存者掛上禍害之鉤",
+      "textId": "CHALLENGE_ScourgeHook_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrConsumeMed_TITLE",
+      "textId": "CHALLENGE_DownOrConsumeMed_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrConsumeMed_DESC",
+      "textId": "CHALLENGE_DownOrConsumeMed_DESC"
+    },
+    {
+      "text": "完全消耗{0}個醫療箱",
+      "textId": "CHALLENGE_ConsumeMedkit_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGen_TITLE",
+      "textId": "CHALLENGE_BreakGen_TITLE"
+    },
+    {
+      "text": "破壞部分修理的發電機來使其進度減少。",
+      "textId": "CHALLENGE_BreakGen_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_CoopAction_TITLE",
+      "textId": "CHALLENGE_CoopAction_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CoopAction_DESC",
+      "textId": "CHALLENGE_CoopAction_DESC"
+    },
+    {
+      "text": "暴露倖存者的氣場{0}秒",
+      "textId": "CHALLENGE_CoopAction_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HitAuraTimeOrEscapeRare_TITLE",
+      "textId": "CHALLENGE_HitAuraTimeOrEscapeRare_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HitAuraTimeOrEscapeRare_DESC",
+      "textId": "CHALLENGE_HitAuraTimeOrEscapeRare_DESC"
+    },
+    {
+      "text": "在顯示其氣場10秒內擊中{0}名倖存者",
+      "textId": "CHALLENGE_HitAura_INFO"
+    },
+    {
+      "text": "攜帶稀有或更好的物品逃離{0}場遊戲",
+      "textId": "CHALLENGE_EscapeRare_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivor_TITLE",
+      "textId": "CHALLENGE_GrabSurvivor_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivor_DESC",
+      "textId": "CHALLENGE_GrabSurvivor_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeToolBox_TITLE",
+      "textId": "CHALLENGE_ConsumeToolBox_TITLE"
+    },
+    {
+      "text": "工具箱能幫助你更快修理發電機。",
+      "textId": "CHALLENGE_ConsumeToolBox_DESC"
+    },
+    {
+      "text": "完全消耗{0}個工具箱",
+      "textId": "CHALLENGE_ConsumeToolBox_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_FinishNoGateEscapeOrEscape_TITLE",
+      "textId": "CHALLENGE_FinishNoGateEscapeOrEscape_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_FinishNoGateEscapeOrEscape_DESC",
+      "textId": "CHALLENGE_FinishNoGateEscapeOrEscape_DESC"
+    },
+    {
+      "text": "遊戲結束前，沒有倖存者離開過出口大門，重複{0}次。",
+      "textId": "CHALLENGE_FinishNoGateEscape_INFO"
+    },
+    {
+      "text": "致命追逐",
+      "textId": "CHALLENGE_Chase_TITLE"
+    },
+    {
+      "text": "追殺倖存者的總時間為<b>{0}秒</b>。",
+      "textId": "CHALLENGE_Chase_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BeChased_TITLE",
+      "textId": "CHALLENGE_BeChased_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BeChased_DESC",
+      "textId": "CHALLENGE_BeChased_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_Kill_TITLE",
+      "textId": "CHALLENGE_Kill_TITLE"
+    },
+    {
+      "text": "被擊倒後，你可以在不將最後一名倖存者掛上鉤的情況下殺死對方。",
+      "textId": "CHALLENGE_Kill_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_EarnEmblemsSilver_TITLE",
+      "textId": "CHALLENGE_EarnEmblemsSilver_TITLE"
+    },
+    {
+      "text": "獲得{0}個白銀徽章",
+      "textId": "CHALLENGE_EarnEmblemsSilver_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_TITLE",
+      "textId": "CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_DESC",
+      "textId": "CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_DESC"
+    },
+    {
+      "text": "在單場遊戲中將{0}位倖存者掛上鉤",
+      "textId": "CHALLENGE_HookSingleTrial_INFO"
+    },
+    {
+      "text": "在單場遊戲中被追殺{0}秒",
+      "textId": "CHALLENGE_BeChasedSingleTrial_INFO"
+    },
+    {
+      "text": "救命恩人",
+      "textId": "CHALLENGE_Heal_TITLE"
+    },
+    {
+      "text": "治療共計<b>{0}個生命值狀態</b>",
+      "textId": "CHALLENGE_Heal_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletOrClenseTotems_TITLE",
+      "textId": "CHALLENGE_BreakPalletOrClenseTotems_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletOrClenseTotems_DESC",
+      "textId": "CHALLENGE_BreakPalletOrClenseTotems_DESC"
+    },
+    {
+      "text": "淨化{0}個圖騰",
+      "textId": "CHALLENGE_CleanseTotem_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_TITLE",
+      "textId": "CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_DESC",
+      "textId": "CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_DESC"
+    },
+    {
+      "text": "在單場遊戲中破壞{0}台發電機",
+      "textId": "CHALLENGE_BreakGenSingleTrial_INFO"
+    },
+    {
+      "text": "在一場遊戲中，在追逐期間或逃離追逐後5秒內進入置物櫃{0}次",
+      "textId": "CHALLENGE_EscapeChaseLockerSingleTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BlindCarry_TITLE",
+      "textId": "CHALLENGE_BlindCarry_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BlindCarry_DESC",
+      "textId": "CHALLENGE_BlindCarry_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_DownNearPalletsOrReviveDying_TITLE",
+      "textId": "CHALLENGE_DownNearPalletsOrReviveDying_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownNearPalletsOrReviveDying_DESC",
+      "textId": "CHALLENGE_DownNearPalletsOrReviveDying_DESC"
+    },
+    {
+      "text": "在木板附近擊倒{0}位倖存者。",
+      "textId": "CHALLENGE_DownNearPallet_INFO"
+    },
+    {
+      "text": "治療{0}名瀕死狀態下的倖存者",
+      "textId": "CHALLENGE_ReviveDying_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_TITLE",
+      "textId": "CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_DESC",
+      "textId": "CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_DESC"
+    },
+    {
+      "text": "在單場遊戲中被追殺時跌倒{0}次",
+      "textId": "CHALLENGE_FallInChaseOneTrial_INFO"
+    },
+    {
+      "text": "擊倒",
+      "textId": "CHALLENGE_Down_TITLE"
+    },
+    {
+      "text": "擊倒<b>{0}名倖存者</b>。",
+      "textId": "CHALLENGE_Down_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeMedkit_TITLE",
+      "textId": "CHALLENGE_ConsumeMedkit_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeMedkit_DESC",
+      "textId": "CHALLENGE_ConsumeMedkit_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteRiftQuests_TITLE",
+      "textId": "CHALLENGE_CompleteRiftQuests_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteRiftQuests_DESC",
+      "textId": "CHALLENGE_CompleteRiftQuests_DESC"
+    },
+    {
+      "text": "完成{0}項裂縫通行證任務",
+      "textId": "CHALLENGE_CompleteRiftQuests_INFO"
+    },
+    {
+      "text": "裂縫通行證任務 - 第1週",
+      "textId": "LIST_BattlePass_TITLE_1"
+    },
+    {
+      "text": "裂縫通行證任務 - 第2週",
+      "textId": "LIST_BattlePass_TITLE_2"
+    },
+    {
+      "text": "裂縫通行證任務 - 第3週",
+      "textId": "LIST_BattlePass_TITLE_3"
+    },
+    {
+      "text": "裂縫通行證任務 - 第4週",
+      "textId": "LIST_BattlePass_TITLE_4"
+    },
+    {
+      "text": "裂縫通行證任務 - 第5週",
+      "textId": "LIST_BattlePass_TITLE_5"
+    },
+    {
+      "text": "裂縫通行證任務 - 第6週",
+      "textId": "LIST_BattlePass_TITLE_6"
+    },
+    {
+      "text": "裂縫通行證任務 - 第7週",
+      "textId": "LIST_BattlePass_TITLE_7"
+    },
+    {
+      "text": "裂縫通行證任務 - 第8週",
+      "textId": "LIST_BattlePass_TITLE_8"
+    },
+    {
+      "text": "裂縫通行證任務 - 第9週",
+      "textId": "LIST_BattlePass_TITLE_9"
+    },
+    {
+      "text": "裂縫通行證任務 - 第10週",
+      "textId": "LIST_BattlePass_TITLE_10"
+    },
+    {
+      "text": "裂縫通行證任務 - 第11週",
+      "textId": "LIST_BattlePass_TITLE_11"
+    },
+    {
+      "text": "裂縫通行證任務 - 第12週",
+      "textId": "LIST_BattlePass_TITLE_12"
+    },
+    {
+      "text": "裂縫通行證任務",
+      "textId": "LIST_BattlePass_TITLE_0"
+    },
+    {
+      "text": "里程碑",
+      "textId": "CHALLENGESET_Milestone_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_Milestone_INFO",
+      "textId": "CHALLENGESET_Milestone_INFO"
+    },
+    {
+      "text": "恐怖",
+      "textId": "CHALLENGE_Hook_TITLE"
+    },
+    {
+      "text": "將<b>{0}名倖存</b>者掛上鉤。",
+      "textId": "CHALLENGE_Hook_DESC"
+    },
+    {
+      "text": "里程碑任務",
+      "textId": "LIST_Milestone_TITLE"
+    },
+    {
+      "text": "隨機洗牌",
+      "textId": "CHALLENGESET_ChocolateBoxKetchup_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_ChocolateBoxKetchup__INFO",
+      "textId": "CHALLENGESET_ChocolateBoxKetchup__INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeQuests_TITLE",
+      "textId": "CHALLENGE_CompleteModeQuests_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeQuests_DESC",
+      "textId": "CHALLENGE_CompleteModeQuests_DESC"
+    },
+    {
+      "text": "完成{0}{1}項任務",
+      "textId": "CHALLENGE_CompleteModeQuests_INFO"
+    },
+    {
+      "text": "扭曲假面",
+      "textId": "CHALLENGESET_AnniversaryKetchupSet_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_AnniversaryKetchupSet__INFO",
+      "textId": "CHALLENGESET_AnniversaryKetchupSet__INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeTrial_TITLE",
+      "textId": "CHALLENGE_CompleteModeTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeTrial_DESC",
+      "textId": "CHALLENGE_CompleteModeTrial_DESC"
+    },
+    {
+      "text": "完成{0}{1}場遊戲",
+      "textId": "CHALLENGE_CompleteModeTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CollectInvitation_TITLE",
+      "textId": "CHALLENGE_CollectInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CollectInvitation_DESC",
+      "textId": "CHALLENGE_CollectInvitation_DESC"
+    },
+    {
+      "text": "從假面柱子收集邀請還{0}次",
+      "textId": "CHALLENGE_CollectInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbility_TITLE",
+      "textId": "CHALLENGE_AnyInvitationAbility_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbility_DESC",
+      "textId": "CHALLENGE_AnyInvitationAbility_DESC"
+    },
+    {
+      "text": "啟動任何邀請函技能{0}次",
+      "textId": "CHALLENGE_AnyInvitationAbility_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PalletBreakInvitation_TITLE",
+      "textId": "CHALLENGE_PalletBreakInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PalletBreakInvitation_DESC",
+      "textId": "CHALLENGE_PalletBreakInvitation_DESC"
+    },
+    {
+      "text": "使用邀請函破壞木板或可破壞牆面{0}次。",
+      "textId": "CHALLENGE_PalletBreakInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PalletSummonInvitation_TITLE",
+      "textId": "CHALLENGE_PalletSummonInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PalletSummonInvitation_DESC",
+      "textId": "CHALLENGE_PalletSummonInvitation_DESC"
+    },
+    {
+      "text": "使用邀請函產生派對木板{0}次。",
+      "textId": "CHALLENGE_PalletSummonInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_OutlastNumberOfEffects_TITLE",
+      "textId": "CHALLENGE_OutlastNumberOfEffects_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_OutlastNumberOfEffects_DESC",
+      "textId": "CHALLENGE_OutlastNumberOfEffects_DESC"
+    },
+    {
+      "text": "體驗崔克絲禮包的效果{0}次",
+      "textId": "CHALLENGE_OutlastNumberOfEffects_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_RemoteHookInvitation_TITLE",
+      "textId": "CHALLENGE_RemoteHookInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_RemoteHookInvitation_DESC",
+      "textId": "CHALLENGE_RemoteHookInvitation_DESC"
+    },
+    {
+      "text": "使用邀請函的力量，遠端將倖存者掛上鉤子{0}次。",
+      "textId": "CHALLENGE_RemoteHookInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_VaultBlockInvitation_TITLE",
+      "textId": "CHALLENGE_VaultBlockInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_VaultBlockInvitation_DESC",
+      "textId": "CHALLENGE_VaultBlockInvitation_DESC"
+    },
+    {
+      "text": "在被追殺時，使用邀請函阻擋殺手跨窗{0}次。",
+      "textId": "CHALLENGE_VaultBlockInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityInChase_TITLE",
+      "textId": "CHALLENGE_AnyInvitationAbilityInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityInChase_DESC",
+      "textId": "CHALLENGE_AnyInvitationAbilityInChase_DESC"
+    },
+    {
+      "text": "在追殺時，啟動任何邀請函技能{0}次",
+      "textId": "CHALLENGE_AnyInvitationAbilityInChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityOutOfChase_TITLE",
+      "textId": "CHALLENGE_AnyInvitationAbilityOutOfChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityOutOfChase_DESC",
+      "textId": "CHALLENGE_AnyInvitationAbilityOutOfChase_DESC"
+    },
+    {
+      "text": "沒有在追殺時，發動邀請函的任何效果{0}次。",
+      "textId": "CHALLENGE_AnyInvitationAbilityOutOfChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_NegateStunInvitation_TITLE",
+      "textId": "CHALLENGE_NegateStunInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_NegateStunInvitation_DESC",
+      "textId": "CHALLENGE_NegateStunInvitation_DESC"
+    },
+    {
+      "text": "在追殺時，使用邀請函抵抗暈眩效果{0}次。",
+      "textId": "CHALLENGE_NegateStunInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_QuietModeInvitation_TITLE",
+      "textId": "CHALLENGE_QuietModeInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_QuietModeInvitation_DESC",
+      "textId": "CHALLENGE_QuietModeInvitation_DESC"
+    },
+    {
+      "text": "透過使用邀請函的力量，減少你的腳步聲、悶哼聲與血池{0}次。",
+      "textId": "CHALLENGE_QuietModeInvitation_INFO"
+    },
+    {
+      "text": "扭曲假面完成任務\\n",
+      "textId": "LIST_Anniversary_TITLE_1"
+    },
+    {
+      "text": "扭曲假面任務 - 第1部份",
+      "textId": "LIST_Anniversary_TITLE_2"
+    },
+    {
+      "text": "扭曲假面任務 - 第2部份",
+      "textId": "LIST_Anniversary_TITLE_3"
+    },
+    {
+      "text": "扭曲假面任務 - 第3部份",
+      "textId": "LIST_Anniversary_TITLE_4"
+    },
+    {
+      "text": "扭曲假面任務 - 第4部份",
+      "textId": "LIST_Anniversary_TITLE_5"
+    }
+  ]
+}

@@ -1,0 +1,996 @@
+{
+  "locText": [
+    {
+      "text": "Giornaliere",
+      "textId": "CHALLENGESET_DailyTab_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_Daily_INFO",
+      "textId": "CHALLENGESET_Daily_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookOrUnhook_TITLE",
+      "textId": "CHALLENGE_HookOrUnhook_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookOrUnhook_DESC",
+      "textId": "CHALLENGE_HookOrUnhook_DESC"
+    },
+    {
+      "text": "Appendi al gancio {0} sopravvissuto/i",
+      "textId": "CHALLENGE_Hook_INFO"
+    },
+    {
+      "text": "Libera dal gancio {0} sopravvissuto/i",
+      "textId": "CHALLENGE_Unhook_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HitOrHeal_TITLE",
+      "textId": "CHALLENGE_HitOrHeal_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HitOrHeal_DESC",
+      "textId": "CHALLENGE_HitOrHeal_DESC"
+    },
+    {
+      "text": "Sferra {0} o più attacchi base",
+      "textId": "CHALLENGE_Hit_INFO"
+    },
+    {
+      "text": "Cura un totale di {0} stato/i di salute",
+      "textId": "CHALLENGE_Heal_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenOrGenSkillCheck_TITLE",
+      "textId": "CHALLENGE_BreakGenOrGenSkillCheck_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenOrGenSkillCheck_DESC",
+      "textId": "CHALLENGE_BreakGenOrGenSkillCheck_DESC"
+    },
+    {
+      "text": "Rompi {0} generatore/i",
+      "textId": "CHALLENGE_BreakGen_INFO"
+    },
+    {
+      "text": "Completa {0} Test Abilità nei generatori",
+      "textId": "CHALLENGE_GenSkillCheck_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_KillSurvivorOrRepairGens_TITLE",
+      "textId": "CHALLENGE_KillSurvivorOrRepairGens_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_KillSurvivorOrRepairGens_DESC",
+      "textId": "CHALLENGE_KillSurvivorOrRepairGens_DESC"
+    },
+    {
+      "text": "Uccidi {0} sopravvissuto/i",
+      "textId": "CHALLENGE_Kill_INFO"
+    },
+    {
+      "text": "Ripara un totale di {0} generatore/i",
+      "textId": "CHALLENGE_Repair_INFO"
+    },
+    {
+      "text": "Ricompense insanguinate",
+      "textId": "CHALLENGE_EarnBloodpoints_TITLE"
+    },
+    {
+      "text": "@#CHALENGE_EarnBloodpoints_DESC",
+      "textId": "CHALENGE_EarnBloodpoints_DESC"
+    },
+    {
+      "text": "Ottieni {0} Punti Sangue",
+      "textId": "CHALENGE_EarnBloodpoints_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteTrial_TITLE",
+      "textId": "CHALLENGE_CompleteTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteTrial_DESC",
+      "textId": "CHALLENGE_CompleteTrial_DESC"
+    },
+    {
+      "text": "Completa {0} prova/e",
+      "textId": "CHALLENGE_CompleteTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrBeChased_TITLE",
+      "textId": "CHALLENGE_ChaseOrBeChased_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrBeChased_DESC",
+      "textId": "CHALLENGE_ChaseOrBeChased_DESC"
+    },
+    {
+      "text": "Insegui per {0} secondi",
+      "textId": "CHALLENGE_Chase_INFO"
+    },
+    {
+      "text": "Fatti inseguire per {0} secondi",
+      "textId": "CHALLENGE_BeChased_INFO"
+    },
+    {
+      "text": "MISSIONI GIORNALIERE",
+      "textId": "LIST_Daily_TITLE"
+    },
+    {
+      "text": "2v8",
+      "textId": "CHALLENGESET_CalamariJerky_TITLE"
+    },
+    {
+      "text": "Le missioni devono essere completate in 2v8",
+      "textId": "CHALLENGESET_CalamariJerky_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests1_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests1_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_DESC"
+    },
+    {
+      "text": "Completa {0} missione/i 2v8",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests2_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests2_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_DESC"
+    },
+    {
+      "text": "Completa {0} missione/i 2v8",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests3_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests3_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_DESC"
+    },
+    {
+      "text": "Completa {0} missione/i 2v8",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PlayAsCharacterOrClass_TITLE",
+      "textId": "CHALLENGE_PlayAsCharacterOrClass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PlayAsCharacterOrClass_",
+      "textId": "CHALLENGE_PlayAsCharacterOrClass_"
+    },
+    {
+      "text": "Gioca nei panni di {1} per {0} prova/e",
+      "textId": "CHALLENGE_PlayAsCharacter_INFO"
+    },
+    {
+      "text": "Gioca nei panni di {1} in {0} prova/e.",
+      "textId": "CHALLENGE_PlayAsClass_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_Crow_TITLE",
+      "textId": "CHALLENGE_Crow_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Crow_DESC",
+      "textId": "CHALLENGE_Crow_DESC"
+    },
+    {
+      "text": "Disturba {0} corvo/i",
+      "textId": "CHALLENGE_Crow_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE",
+      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_DESC",
+      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_DESC"
+    },
+    {
+      "text": "Distruggi {0} bancale/i",
+      "textId": "CHALLENGE_BreakPallets_INFO"
+    },
+    {
+      "text": "Lancia {0} bancale/i durante un inseguimento",
+      "textId": "CHALLENGE_PalletDropInChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrSucceedHealSkillCheck_TITLE",
+      "textId": "CHALLENGE_DownOrSucceedHealSkillCheck_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrSucceedHealSkillCheck_DESC",
+      "textId": "CHALLENGE_DownOrSucceedHealSkillCheck_DESC"
+    },
+    {
+      "text": "Abbatti {0} sopravvissuto/i",
+      "textId": "CHALLENGE_Down_INFO"
+    },
+    {
+      "text": "Supera {0} Test Abilità mentre curi un sopravvissuto.",
+      "textId": "CHALLENGE_SucceedHealSkillCheck_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrPlayAsClass_TITLE",
+      "textId": "CHALLENGE_ChaseOrPlayAsClass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrPlayAsClass_DESC",
+      "textId": "CHALLENGE_ChaseOrPlayAsClass_DESC"
+    },
+    {
+      "text": "Missioni di completamento 2v8",
+      "textId": "LIST_Calamari_TITLE_1"
+    },
+    {
+      "text": "Missioni 2v8: parte 1",
+      "textId": "LIST_Calamari_TITLE_2"
+    },
+    {
+      "text": "Missioni 2v8: parte 2",
+      "textId": "LIST_Calamari_TITLE_3"
+    },
+    {
+      "text": "Missioni 2v8: parte 3",
+      "textId": "LIST_Calamari_TITLE_4"
+    },
+    {
+      "text": "Ordine caotico",
+      "textId": "CHALLENGESET_ChocolateBoxJerky_TITLE"
+    },
+    {
+      "text": "Le missioni devono essere completate nell'Ordine caotico",
+      "textId": "CHALLENGESET_ChocolateBoxJerky_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests1_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests1_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_DESC"
+    },
+    {
+      "text": "Completa {0} missione/i Ordine caotico",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests2_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests2_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_DESC"
+    },
+    {
+      "text": "Completa {0} missione/i Ordine caotico",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests3_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests3_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_DESC"
+    },
+    {
+      "text": "Completa {0} missione/i Ordine caotico",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_INFO"
+    },
+    {
+      "text": "Riverente",
+      "textId": "CHALLENGE_Sacrifice_TITLE"
+    },
+    {
+      "text": "Sacrifica <b>{0} sopravvissuto/i</b> all'Entità.",
+      "textId": "CHALLENGE_Sacrifice_DESC"
+    },
+    {
+      "text": "Sacrifica {0} sopravvissuto/i",
+      "textId": "CHALLENGE_Sacrifice_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_Repair_TITLE",
+      "textId": "CHALLENGE_Repair_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Repair_DESC",
+      "textId": "CHALLENGE_Repair_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_Hit_TITLE",
+      "textId": "CHALLENGE_Hit_TITLE"
+    },
+    {
+      "text": "Gli attacchi base del killer non dipendono dal suo potere. Sono ottimi per abbattere i sopravvissuti.",
+      "textId": "CHALLENGE_Hit_DESC"
+    },
+    {
+      "text": "Artista della fuga",
+      "textId": "CHALLENGE_Escape_TITLE"
+    },
+    {
+      "text": "Fuggi da <b>{0} prova/e</b>.",
+      "textId": "CHALLENGE_Escape_DESC"
+    },
+    {
+      "text": "Fuggi da {0} prova/e",
+      "textId": "CHALLENGE_Escape_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_EarnEmblemsGold_TITLE",
+      "textId": "CHALLENGE_EarnEmblemsGold_TITLE"
+    },
+    {
+      "text": "Ottieni {0} emblemi d'oro",
+      "textId": "CHALLENGE_EarnEmblemsGold_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPallet_TITLE",
+      "textId": "CHALLENGE_BreakPallet_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPallet_DESC",
+      "textId": "CHALLENGE_BreakPallet_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_VaultInChase_TITLE",
+      "textId": "CHALLENGE_VaultInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_VaultInChase_DESC",
+      "textId": "CHALLENGE_VaultInChase_DESC"
+    },
+    {
+      "text": "Scavalca {0} volta/e durante un inseguimento",
+      "textId": "CHALLENGE_VaultInChase_INFO"
+    },
+    {
+      "text": "Missioni di completamento Ordine caotico",
+      "textId": "LIST_ChocolateBox_TITLE_1"
+    },
+    {
+      "text": "Missioni Ordine caotico: parte 1",
+      "textId": "LIST_ChocolateBox_TITLE_2"
+    },
+    {
+      "text": "Missioni Ordine caotico: parte 2",
+      "textId": "LIST_ChocolateBox_TITLE_3"
+    },
+    {
+      "text": "Missioni Ordine caotico: parte 3",
+      "textId": "LIST_ChocolateBox_TITLE_4"
+    },
+    {
+      "text": "Pass Spaccatura",
+      "textId": "CHALLENGESET_BattlePass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_BattlePass_INFO",
+      "textId": "CHALLENGESET_BattlePass_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChallenges_TITLE",
+      "textId": "CHALLENGE_CompleteChallenges_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChallenges_DESC",
+      "textId": "CHALLENGE_CompleteChallenges_DESC"
+    },
+    {
+      "text": "Completa {0} missione/i in questa settimana",
+      "textId": "CHALLENGE_CompleteChallenges_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffSingleTrial_TITLE",
+      "textId": "CHALLENGE_HookDiffSingleTrial_TITLE"
+    },
+    {
+      "text": "I sopravvissuti appesi al gancio devono essere salvati da altri sopravvissuti, rallentando i loro progressi nel riparare i generatori.",
+      "textId": "CHALLENGE_HookDiffSingleTrial_DESC"
+    },
+    {
+      "text": "Appendi al gancio {0} sopravvissuti diversi in una sola prova",
+      "textId": "CHALLENGE_HookDiffOneTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HideInTerrorRadius_TITLE",
+      "textId": "CHALLENGE_HideInTerrorRadius_TITLE"
+    },
+    {
+      "text": "Nasconditi nel raggio di terrore per {0} secondi",
+      "textId": "CHALLENGE_HideInTerrorRadius_DESC"
+    },
+    {
+      "text": "Nasconditi entro il raggio di terrore del killer senza farti scoprire per un totale di {0} secondi.",
+      "textId": "CHALLENGE_HideInTerrorRadius_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CarryOrEscapeChase_TITLE",
+      "textId": "CHALLENGE_CarryOrEscapeChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CarryOrEscapeChase_DESC",
+      "textId": "CHALLENGE_CarryOrEscapeChase_DESC"
+    },
+    {
+      "text": "Trasporta i sopravvissuti per oltre {0} metri",
+      "textId": "CHALLENGE_Carry_INFO"
+    },
+    {
+      "text": "Scampa a {0} inseguimento/i",
+      "textId": "CHALLENGE_EscapeChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivorOrBlindWhileCarry_TITLE",
+      "textId": "CHALLENGE_GrabSurvivorOrBlindWhileCarry_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivorOrBlindWhileCarry_DESC",
+      "textId": "CHALLENGE_GrabSurvivorOrBlindWhileCarry_DESC"
+    },
+    {
+      "text": "Interrompi e afferra {0} sopravvissuto/i",
+      "textId": "CHALLENGE_GrabSurvivor_INFO"
+    },
+    {
+      "text": "Acceca il killer mentre trasporta un sopravvissuto {0} volta/e",
+      "textId": "CHALLENGE_BlindCarry_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_RevealSurvivorAura_TITLE",
+      "textId": "CHALLENGE_RevealSurvivorAura_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_RevealSurvivorAura_DESC",
+      "textId": "CHALLENGE_RevealSurvivorAura_DESC"
+    },
+    {
+      "text": "Rivela le aure dei sopravvissuti per {0} secondi",
+      "textId": "CHALLENGE_RevealSurvivorAurasForDuration_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GenSkillCheckSingleTrial_TITLE",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GenSkillCheckSingleTrial_DESC",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_DESC"
+    },
+    {
+      "text": "Supera {0} Test Abilità mentre sei alle prese con un generatore in una sola prova",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_MoriOrPalletStun_TITLE",
+      "textId": "CHALLENGE_MoriOrPalletStun_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_MoriOrPalletStun_DESC",
+      "textId": "CHALLENGE_MoriOrPalletStun_DESC"
+    },
+    {
+      "text": "Uccidi {0} sopravvissuto/i a mani nude",
+      "textId": "CHALLENGE_Mori_INFO"
+    },
+    {
+      "text": "Stordisci {0} killer con i bancali",
+      "textId": "CHALLENGE_PalletStun_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ScourgeHook_TITLE",
+      "textId": "CHALLENGE_ScourgeHook_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ScourgeHook_DESC",
+      "textId": "CHALLENGE_ScourgeHook_DESC"
+    },
+    {
+      "text": "Appendi {0} sopravvissuto/i a un Flagello appuntito",
+      "textId": "CHALLENGE_ScourgeHook_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrConsumeMed_TITLE",
+      "textId": "CHALLENGE_DownOrConsumeMed_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrConsumeMed_DESC",
+      "textId": "CHALLENGE_DownOrConsumeMed_DESC"
+    },
+    {
+      "text": "Consuma completamente {0} kit medico/i",
+      "textId": "CHALLENGE_ConsumeMedkit_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGen_TITLE",
+      "textId": "CHALLENGE_BreakGen_TITLE"
+    },
+    {
+      "text": "Danneggia i generatori parzialmente completati per ridurne i progressi.",
+      "textId": "CHALLENGE_BreakGen_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_CoopAction_TITLE",
+      "textId": "CHALLENGE_CoopAction_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CoopAction_DESC",
+      "textId": "CHALLENGE_CoopAction_DESC"
+    },
+    {
+      "text": "Esegui azioni cooperative per un totale di {0} secondi",
+      "textId": "CHALLENGE_CoopAction_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HitAuraTimeOrEscapeRare_TITLE",
+      "textId": "CHALLENGE_HitAuraTimeOrEscapeRare_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HitAuraTimeOrEscapeRare_DESC",
+      "textId": "CHALLENGE_HitAuraTimeOrEscapeRare_DESC"
+    },
+    {
+      "text": "Colpisci {0} sopravvissuti entro 10 dopo averne rivelato l'aura",
+      "textId": "CHALLENGE_HitAura_INFO"
+    },
+    {
+      "text": "Fuggi da {0} prova con un oggetto raro o migliore",
+      "textId": "CHALLENGE_EscapeRare_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivor_TITLE",
+      "textId": "CHALLENGE_GrabSurvivor_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivor_DESC",
+      "textId": "CHALLENGE_GrabSurvivor_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeToolBox_TITLE",
+      "textId": "CHALLENGE_ConsumeToolBox_TITLE"
+    },
+    {
+      "text": "Una cassetta degli attrezzi può aiutare a riparare i generatori più velocemente.",
+      "textId": "CHALLENGE_ConsumeToolBox_DESC"
+    },
+    {
+      "text": "Consuma completamente {0} cassetta/e degli attrezzi",
+      "textId": "CHALLENGE_ConsumeToolBox_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_FinishNoGateEscapeOrEscape_TITLE",
+      "textId": "CHALLENGE_FinishNoGateEscapeOrEscape_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_FinishNoGateEscapeOrEscape_DESC",
+      "textId": "CHALLENGE_FinishNoGateEscapeOrEscape_DESC"
+    },
+    {
+      "text": "Termina {0} prova/e senza che nessun sopravvissuto scappi dai cancelli d'uscita",
+      "textId": "CHALLENGE_FinishNoGateEscape_INFO"
+    },
+    {
+      "text": "Inseguimento mortale",
+      "textId": "CHALLENGE_Chase_TITLE"
+    },
+    {
+      "text": "Insegui i sopravvissuti per un totale di <b>{0} secondo/i</b>.",
+      "textId": "CHALLENGE_Chase_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BeChased_TITLE",
+      "textId": "CHALLENGE_BeChased_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BeChased_DESC",
+      "textId": "CHALLENGE_BeChased_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_Kill_TITLE",
+      "textId": "CHALLENGE_Kill_TITLE"
+    },
+    {
+      "text": "Quando l'ultimo sopravvissuto di una prova viene abbattuto, puoi ucciderlo senza apprenderlo al gancio.",
+      "textId": "CHALLENGE_Kill_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_EarnEmblemsSilver_TITLE",
+      "textId": "CHALLENGE_EarnEmblemsSilver_TITLE"
+    },
+    {
+      "text": "Ottieni {0} emblema/i d'argento",
+      "textId": "CHALLENGE_EarnEmblemsSilver_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_TITLE",
+      "textId": "CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_DESC",
+      "textId": "CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_DESC"
+    },
+    {
+      "text": "Appendi al gancio {0} sopravvissuto/i in una sola prova",
+      "textId": "CHALLENGE_HookSingleTrial_INFO"
+    },
+    {
+      "text": "Lasciati seguire {0} secondi in una sola prova",
+      "textId": "CHALLENGE_BeChasedSingleTrial_INFO"
+    },
+    {
+      "text": "Redentore",
+      "textId": "CHALLENGE_Heal_TITLE"
+    },
+    {
+      "text": "Cura un totale di <b>{0} stato/i di salute</b>.",
+      "textId": "CHALLENGE_Heal_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletOrClenseTotems_TITLE",
+      "textId": "CHALLENGE_BreakPalletOrClenseTotems_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletOrClenseTotems_DESC",
+      "textId": "CHALLENGE_BreakPalletOrClenseTotems_DESC"
+    },
+    {
+      "text": "Purifica {0} totem",
+      "textId": "CHALLENGE_CleanseTotem_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_TITLE",
+      "textId": "CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_DESC",
+      "textId": "CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_DESC"
+    },
+    {
+      "text": "Rompi {0} generatore/i in una sola prova",
+      "textId": "CHALLENGE_BreakGenSingleTrial_INFO"
+    },
+    {
+      "text": "Entra in un armadietto {0} volta/e durante un inseguimento o entro 5 secondi dopo in una sola prova",
+      "textId": "CHALLENGE_EscapeChaseLockerSingleTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BlindCarry_TITLE",
+      "textId": "CHALLENGE_BlindCarry_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BlindCarry_DESC",
+      "textId": "CHALLENGE_BlindCarry_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_DownNearPalletsOrReviveDying_TITLE",
+      "textId": "CHALLENGE_DownNearPalletsOrReviveDying_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownNearPalletsOrReviveDying_DESC",
+      "textId": "CHALLENGE_DownNearPalletsOrReviveDying_DESC"
+    },
+    {
+      "text": "Abbatti {0} sopravvissuto/i vicino a un bancale",
+      "textId": "CHALLENGE_DownNearPallet_INFO"
+    },
+    {
+      "text": "Cura {0} sopravvissuto/i in fin di vita",
+      "textId": "CHALLENGE_ReviveDying_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_TITLE",
+      "textId": "CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_DESC",
+      "textId": "CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_DESC"
+    },
+    {
+      "text": "Cadi {0} volta/e durante un inseguimento in una sola prova",
+      "textId": "CHALLENGE_FallInChaseOneTrial_INFO"
+    },
+    {
+      "text": "KO",
+      "textId": "CHALLENGE_Down_TITLE"
+    },
+    {
+      "text": "Abbatti <b>{0} sopravvissuto/i</b>.",
+      "textId": "CHALLENGE_Down_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeMedkit_TITLE",
+      "textId": "CHALLENGE_ConsumeMedkit_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeMedkit_DESC",
+      "textId": "CHALLENGE_ConsumeMedkit_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteRiftQuests_TITLE",
+      "textId": "CHALLENGE_CompleteRiftQuests_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteRiftQuests_DESC",
+      "textId": "CHALLENGE_CompleteRiftQuests_DESC"
+    },
+    {
+      "text": "Completa {0} missione/i del pass Spaccatura",
+      "textId": "CHALLENGE_CompleteRiftQuests_INFO"
+    },
+    {
+      "text": "Missioni pass Spaccatura: settimana 1",
+      "textId": "LIST_BattlePass_TITLE_1"
+    },
+    {
+      "text": "Missioni pass Spaccatura: settimana 2",
+      "textId": "LIST_BattlePass_TITLE_2"
+    },
+    {
+      "text": "Missioni pass Spaccatura: settimana 3",
+      "textId": "LIST_BattlePass_TITLE_3"
+    },
+    {
+      "text": "Missioni pass Spaccatura : settimana 4",
+      "textId": "LIST_BattlePass_TITLE_4"
+    },
+    {
+      "text": "Missioni pass Spaccatura: settimana 5",
+      "textId": "LIST_BattlePass_TITLE_5"
+    },
+    {
+      "text": "Missioni pass Spaccatura: settimana 6",
+      "textId": "LIST_BattlePass_TITLE_6"
+    },
+    {
+      "text": "Missioni pass Spaccatura: settimana 7",
+      "textId": "LIST_BattlePass_TITLE_7"
+    },
+    {
+      "text": "Missioni pass Spaccatura: settimana 8",
+      "textId": "LIST_BattlePass_TITLE_8"
+    },
+    {
+      "text": "Missioni pass Spaccatura: settimana 9",
+      "textId": "LIST_BattlePass_TITLE_9"
+    },
+    {
+      "text": "Missioni pass Spaccatura: settimana 10",
+      "textId": "LIST_BattlePass_TITLE_10"
+    },
+    {
+      "text": "Missioni pass Spaccatura: settimana 11",
+      "textId": "LIST_BattlePass_TITLE_11"
+    },
+    {
+      "text": "Missioni pass Spaccatura: settimana 12",
+      "textId": "LIST_BattlePass_TITLE_12"
+    },
+    {
+      "text": "Missioni di completamento pass Spaccatura",
+      "textId": "LIST_BattlePass_TITLE_0"
+    },
+    {
+      "text": "Traguardo",
+      "textId": "CHALLENGESET_Milestone_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_Milestone_INFO",
+      "textId": "CHALLENGESET_Milestone_INFO"
+    },
+    {
+      "text": "Raccapriccio",
+      "textId": "CHALLENGE_Hook_TITLE"
+    },
+    {
+      "text": "Appendi al gancio <b>{0} sopravvissuto/i</b>.",
+      "textId": "CHALLENGE_Hook_DESC"
+    },
+    {
+      "text": "Missioni traguardo",
+      "textId": "LIST_Milestone_TITLE"
+    },
+    {
+      "text": "Ordine caotico",
+      "textId": "CHALLENGESET_ChocolateBoxKetchup_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_ChocolateBoxKetchup__INFO",
+      "textId": "CHALLENGESET_ChocolateBoxKetchup__INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeQuests_TITLE",
+      "textId": "CHALLENGE_CompleteModeQuests_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeQuests_DESC",
+      "textId": "CHALLENGE_CompleteModeQuests_DESC"
+    },
+    {
+      "text": "Completa {0} missione/i {1}",
+      "textId": "CHALLENGE_CompleteModeQuests_INFO"
+    },
+    {
+      "text": "MASCHERATA CONTORTA",
+      "textId": "CHALLENGESET_AnniversaryKetchupSet_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_AnniversaryKetchupSet__INFO",
+      "textId": "CHALLENGESET_AnniversaryKetchupSet__INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeTrial_TITLE",
+      "textId": "CHALLENGE_CompleteModeTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeTrial_DESC",
+      "textId": "CHALLENGE_CompleteModeTrial_DESC"
+    },
+    {
+      "text": "Completa {0} prova/e {1}",
+      "textId": "CHALLENGE_CompleteModeTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CollectInvitation_TITLE",
+      "textId": "CHALLENGE_CollectInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CollectInvitation_DESC",
+      "textId": "CHALLENGE_CollectInvitation_DESC"
+    },
+    {
+      "text": "Raccogli un Invito dalle Colonne della Mascherata {0} volta/e",
+      "textId": "CHALLENGE_CollectInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbility_TITLE",
+      "textId": "CHALLENGE_AnyInvitationAbility_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbility_DESC",
+      "textId": "CHALLENGE_AnyInvitationAbility_DESC"
+    },
+    {
+      "text": "Attiva qualsiasi abilità Invito {0} volta/e",
+      "textId": "CHALLENGE_AnyInvitationAbility_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PalletBreakInvitation_TITLE",
+      "textId": "CHALLENGE_PalletBreakInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PalletBreakInvitation_DESC",
+      "textId": "CHALLENGE_PalletBreakInvitation_DESC"
+    },
+    {
+      "text": "Attiva l'Invito per rompere un bancale o un muro frantumabile {0} volta/e",
+      "textId": "CHALLENGE_PalletBreakInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PalletSummonInvitation_TITLE",
+      "textId": "CHALLENGE_PalletSummonInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PalletSummonInvitation_DESC",
+      "textId": "CHALLENGE_PalletSummonInvitation_DESC"
+    },
+    {
+      "text": "Attiva l'Invito per generare un bancale festivo {0} volta/e",
+      "textId": "CHALLENGE_PalletSummonInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_OutlastNumberOfEffects_TITLE",
+      "textId": "CHALLENGE_OutlastNumberOfEffects_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_OutlastNumberOfEffects_DESC",
+      "textId": "CHALLENGE_OutlastNumberOfEffects_DESC"
+    },
+    {
+      "text": "Subisci effetti della Borsa di Trykketti {0} volta/e",
+      "textId": "CHALLENGE_OutlastNumberOfEffects_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_RemoteHookInvitation_TITLE",
+      "textId": "CHALLENGE_RemoteHookInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_RemoteHookInvitation_DESC",
+      "textId": "CHALLENGE_RemoteHookInvitation_DESC"
+    },
+    {
+      "text": "Usa i poteri dell'Invito per appendere al gancio un sopravvissuto a distanza {0} volta/e",
+      "textId": "CHALLENGE_RemoteHookInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_VaultBlockInvitation_TITLE",
+      "textId": "CHALLENGE_VaultBlockInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_VaultBlockInvitation_DESC",
+      "textId": "CHALLENGE_VaultBlockInvitation_DESC"
+    },
+    {
+      "text": "Durante un inseguimento, attiva l'Invito per impedire al killer di saltare dalla finestra {0} volta/e",
+      "textId": "CHALLENGE_VaultBlockInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityInChase_TITLE",
+      "textId": "CHALLENGE_AnyInvitationAbilityInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityInChase_DESC",
+      "textId": "CHALLENGE_AnyInvitationAbilityInChase_DESC"
+    },
+    {
+      "text": "Durante un inseguimento, attiva qualsiasi abilità Invito {0} volta/e",
+      "textId": "CHALLENGE_AnyInvitationAbilityInChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityOutOfChase_TITLE",
+      "textId": "CHALLENGE_AnyInvitationAbilityOutOfChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityOutOfChase_DESC",
+      "textId": "CHALLENGE_AnyInvitationAbilityOutOfChase_DESC"
+    },
+    {
+      "text": "Fuori dall'inseguimento, attiva qualsiasi abilità Invito {0} volta/e",
+      "textId": "CHALLENGE_AnyInvitationAbilityOutOfChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_NegateStunInvitation_TITLE",
+      "textId": "CHALLENGE_NegateStunInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_NegateStunInvitation_DESC",
+      "textId": "CHALLENGE_NegateStunInvitation_DESC"
+    },
+    {
+      "text": "Durante un inseguimento, attiva l'Invito per sopportare qualsiasi stordimento {0} volta/e",
+      "textId": "CHALLENGE_NegateStunInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_QuietModeInvitation_TITLE",
+      "textId": "CHALLENGE_QuietModeInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_QuietModeInvitation_DESC",
+      "textId": "CHALLENGE_QuietModeInvitation_DESC"
+    },
+    {
+      "text": "Sopprimi i tuoi passi, lamenti di dolore e/o pozze di sangue usando il potere dell'Invito {0} volta/e",
+      "textId": "CHALLENGE_QuietModeInvitation_INFO"
+    },
+    {
+      "text": "Missioni di completamento Mascherata contorta\\n",
+      "textId": "LIST_Anniversary_TITLE_1"
+    },
+    {
+      "text": "Missioni Mascherata contorta: parte 1",
+      "textId": "LIST_Anniversary_TITLE_2"
+    },
+    {
+      "text": "Missioni Mascherata contorta: parte 2",
+      "textId": "LIST_Anniversary_TITLE_3"
+    },
+    {
+      "text": "Missioni Mascherata contorta: parte 3",
+      "textId": "LIST_Anniversary_TITLE_4"
+    },
+    {
+      "text": "Missioni Mascherata contorta: parte 4",
+      "textId": "LIST_Anniversary_TITLE_5"
+    }
+  ]
+}

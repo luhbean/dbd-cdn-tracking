@@ -2,6 +2,21 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [8.2.0_2054297live](versions/8.2.0_2054297live/CHANGES.md)
+
+Built 2024-10-03 14:48 UTC · **+7** added · **~3** modified · **−0** removed
+
+- ~ [`GameConfigs.json`](versions/8.2.0_2054297live/diffs/GameConfigs.json.diff)
+- ~ [`GameConfigsDS.json`](versions/8.2.0_2054297live/diffs/GameConfigsDS.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.2.0_2054297live/diffs/dynamicContent/DynamicContent.json.diff)
+- \+ [`images/T_UI_CollectionBanner_AutumnFashion.png`](versions/8.2.0_2054297live/images/T_UI_CollectionBanner_AutumnFashion.png)
+- \+ [`images/T_UI_CollectionBanner_Castlevania.png`](versions/8.2.0_2054297live/images/T_UI_CollectionBanner_Castlevania.png)
+- \+ [`images/T_UI_CollectionBanner_Chucky2.png`](versions/8.2.0_2054297live/images/T_UI_CollectionBanner_Chucky2.png)
+- \+ [`images/T_UI_CollectionBanner_Ghostface.png`](versions/8.2.0_2054297live/images/T_UI_CollectionBanner_Ghostface.png)
+- \+ [`images/T_UI_SpecialPack_DaysGoneBy.png`](versions/8.2.0_2054297live/images/T_UI_SpecialPack_DaysGoneBy.png)
+- \+ [`images/T_UI_SpecialPack_Dredge.png`](versions/8.2.0_2054297live/images/T_UI_SpecialPack_Dredge.png)
+- \+ [`images/T_UI_SpecialPack_Firemoon.png`](versions/8.2.0_2054297live/images/T_UI_SpecialPack_Firemoon.png)
+
 ## [8.1.0_1920500live](versions/8.1.0_1920500live/CHANGES.md)
 
 Built 2024-08-27 14:09 UTC · **+0** added · **~2** modified · **−0** removed

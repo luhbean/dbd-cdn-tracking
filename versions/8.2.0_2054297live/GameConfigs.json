@@ -1,0 +1,1124 @@
+{
+  "DSProviderOnShutdownNotificationDelay": 15.0,
+  "GameLoadingTimeout": -1.0,
+  "RTMTimeoutThreshold": -1.0,
+  "analytics": {
+    "autoflushFrequency": 60,
+    "autoflushInGameFrequency": 60,
+    "detailedScoreTypeBlacklist": [
+      "GameEvent.Survivor.Enter.Tile",
+      "GameEvent.ScareACrow",
+      "GameEvent.Camper.SkillCheck.Success.Bonus",
+      "GameEvent.Camper.Crouch.Start",
+      "GameEvent.Camper.Crouch.Stop",
+      "GameEvent.Camper.SkillCheck.Success.Good",
+      "GameEvent.RepairDamagedGenerator",
+      "GameEvent.PlayerStoppedGeneratorRepair",
+      "GameEvent.Slasher.BasicAttack.Start",
+      "GameEvent.ScoreEvent.Slasher.ChaseStart",
+      "GameEvent.ScoreEvent.Slasher.Chase.PerSecond",
+      "GameEvent.ScoreEvent.Camper.Chase.PerSecond",
+      "GameEvent.Chase.End",
+      "GameEvent.ScoreEvent.Camper.GeneratorProgressWhileChased",
+      "GameEvent.Camper.LandFromFalling",
+      "GameEvent.SlasherPostAttackSuccess",
+      "GameEvent.SlasherPreAttackSuccess",
+      "GameEvent.ScoreEvent.Camper.EscapeChase",
+      "GameEvent.Hook.HookedSurvivorChanged",
+      "GameEvent.Survivor.ApplyBuffToOtherSurvivor",
+      "GameEvent.Camper.PerformRushedAction",
+      "GameEvent.Camper.PreFastVault",
+      "GameEvent.ScoreEvent.Camper.CoopAction",
+      "GameEvent.ScoreEvent.Camper.CoopObjective",
+      "GameEvent.PlayerStoppedHealing",
+      "GameEvent.Camper.CoopRepair",
+      "GameEvent.ScoreEvent.Camper.NearFriendInNeed",
+      "GameEvent.Slasher.DownSurvivor",
+      "GameEvent.Camper.Scream",
+      "GameEvent.SlasherCarryStart",
+      "GameEvent.SlasherCarryEnd",
+      "GameEvent.ScoreEvent.Camper.Recovery",
+      "GameEvent.ScoreEvent.Player.Item.Charger.Used.Percentage",
+      "GameEvent.Camper.VaultInChase",
+      "GameEvent.Killer.PickupEnd",
+      "DBDSlasherScore_SacrificePercent",
+      "GameEvent.ScoreEvent.Slasher.HookCamper",
+      "GameEvent.CamperWasHooked",
+      "GameEvent.PlayerControllerRemoved",
+      "DBDCamperScore_VaultInChase",
+      "GameEvent.Camper.Generator.RepairFinish",
+      "GameEvent.SurvivorHealed",
+      "GameEvent.ScoreEvent.Camper.Vault.InChase.Safe",
+      "GameEvent.Slasher.PreSpecialAttackSuccess",
+      "GameEvent.PlayerControllerAdded",
+      "GameEvent.Trickster.ThrowKnife",
+      "GameEvent.Slasher.LandFromFalling",
+      "GameEvent.ScoreEvent.Camper.Pallet.Drop.InChase",
+      "GameEvent.CamperWasUnhooked",
+      "GameEvent.DestroyBreakable.Start.Pallet",
+      "GameEvent.Killer.K26.CrowStateChanged",
+      "GameEvent.ScoreEvent.Camper.SurviveTimer",
+      "GameEvent.Slasher.DamageGenerator.Kick.Start",
+      "GameEvent.Slasher.DamageGenerator.Kick.Stop",
+      "GameEvent.Pallet.StunFail",
+      "GameEvent.Generator.Fixed.BySurvivor",
+      "GameEvent.Slasher.DamageGenerator.Kick.Completed",
+      "GameEvent.ScoreEvent.Camper.FoundCamper",
+      "GameEvent.Slasher.Trickster.KnifeThrow.Miss",
+      "GameEvent.BoonBlessed.Start",
+      "GameEvent.BoonBlessed.End",
+      "GameEvent.SlasherAttackMissed",
+      "GameEvent.Survivor.EscapedChaseAfterBeingInjured",
+      "GameEvent.ScoreEvent.Camper.FirstTimeDying",
+      "GameEvent.ScoreEvent.Slasher.Camper.EnterDrainStage.Idle",
+      "GameEvent.PlayerIntroComplete",
+      "GameEvent.SlasherStunRequested",
+      "GameEvent.Slasher.Blight.UpdateDashTokenCount",
+      "GameEvent.Camper.Generator.RepairFinishCoop",
+      "GameEvent.ScoreEvent.Slasher.Camper.EnterDrainStage.Struggle",
+      "GameEvent.Camper.HealOtherWith3InjuredHookedOrDying",
+      "GameEvent.ScoreEvent.Camper.HookStrugglePerSecond",
+      "GameEvent.ScoreEvent.Camper.HitNearFriendInNeed",
+      "GameEvent.Slasher.Blight.StartAdjusting",
+      "GameEvent.PlayerStartEnterCloset",
+      "GameEvent.Chainsaw.PoweredOn",
+      "GameEvent.HookedCamperSacrificeBegin",
+      "GameEvent.Slasher.Huntress.Hatchet.Aim.End",
+      "GameEvent.ScoreEvent.Camper.HealOtherObsessionPercent",
+      "GameEvent.ScoreEvent.Camper.CoopAltruism",
+      "GameEvent.Slasher.Huntress.Hatchet.Attempt",
+      "GameEvent.PlayerMovedByPallet",
+      "GameEvent.Survivor.TargettedByK25Chain",
+      "GameEvent.Camper.Vomit",
+      "GameEvent.Slasher.DamageGenerator.Kick.SurvivorOnHook",
+      "GameEvent.Player.Item.Consumed",
+      "GameEvent.Camper.EnterOrExit.Locker.Rushed",
+      "DBDCamperScore_NearFriendInNeed_GeneratorsComplete",
+      "GameEvent.HexCurseRevealedToPlayer",
+      "GameEvent.StartInjuredBleedout",
+      "GameEvent.Player.StunSlasherEnd",
+      "GameEvent.Generator.Fixed.ByAutoCompletion",
+      "GameEvent.Player.SelfUnhook.Attempt",
+      "GameEvent.ScoreEvent.Camper.ConspicuousActionReaction",
+      "GameEvent.Slasher.K24.PowerAttack.Aim.End",
+      "GameEvent.EndGameTimeDilationChanged",
+      "GameEvent.Camper.EscapeHookFailed",
+      "GameEvent.Slasher.Clown.Bomb.Aim.End",
+      "GameEvent.ScoreEvent.Camper.SecondTimeDying",
+      "GameEvent.Player.Item.SpawnedFromChest",
+      "DBDCamperScore_UnhideNearSlasher",
+      "GameEvent.Slasher.Wraith.CloakStalk",
+      "GameEvent.ScoreEvent.Camper.SearchableCompleteContributionPercent",
+      "GameEvent.DespawnPallet.Fragile",
+      "GameEvent.Chainsaw.PoweredOff",
+      "GameEvent.Camper.ExitGate.Unblocked",
+      "GameEvent.ScoreEvent.HookedOnEventHook.Anniversary",
+      "GameEvent.Camper.ExitGate.Blocked",
+      "GameEvent.ExitGateOpened",
+      "GameEvent.EndGameReminder",
+      "DBDSlasherScore_SacrificedCount",
+      "GameEvent.ScoreEvent.Camper.AddItemToMap",
+      "GameEvent.Slasher.Hillbilly.Chainsaw.Rev.Start",
+      "GameEvent.DestroyBreakable.Start.Wall",
+      "GameEvent.Slasher.Cannibal.Chainsaw.Rev.End",
+      "GameEvent.DestroyBreakable.End.Wall",
+      "GameEvent.HealFromDying.PreExit",
+      "GameEvent.Slasher.Executioner.TormentMode.Aim.Start",
+      "GameEvent.Slasher.Executioner.TormentMode.Aim.End",
+      "GameEvent.K28.OnKillerIsInLockerUpdated",
+      "GameEvent.Slasher.Plague.VilePurge.Aim.Start",
+      "GameEvent.Slasher.Plague.VilePurge.Aim.End",
+      "GameEvent.Killer.K26.Crow.Summon.Aim.Start",
+      "GameEvent.Killer.K26.Crow.Summon.Aim.End",
+      "GameEvent.Slasher.Cannibal.Chainsaw.Rev.Start",
+      "GameEvent.Slasher.Blight.DashAttackEnd",
+      "GameEvent.Slasher.Blight.DashAttackStart",
+      "GameEvent.Slasher.Executioner.TormentMode.Start",
+      "GameEvent.ScoreEvent.Camper.FixSpecialMapGenerator",
+      "GameEvent.Spirit.ActivePhaseWalkEnd",
+      "GameEvent.K32.PodProjectile.Aim.Start",
+      "GameEvent.K32.PodProjectile.Aim.End",
+      "GameEvent.Slasher.Huntress.HatchetHit",
+      "GameEvent.BoundToTotem.Hex",
+      "DBDSlasherScore_MissedAttackInChase",
+      "GameEvent.Slasher.Legion.FrenzySlash.PostHit",
+      "GameEvent.Killer.Reload.Locker.End",
+      "GameEvent.Slasher.Trickster.KnifeThrow.Aim.Start",
+      "GameEvent.Slasher.Trickster.KnifeThrow.Aim.End",
+      "GameEvent.HexCurse.Start",
+      "GameEvent.UnboundFromTotem.Hex",
+      "GameEvent.Slasher.Clown.Bomb.SurvivorRemovedGasCloud",
+      "GameEvent.Killer.K25.ChainStrike.Aim.Start",
+      "GameEvent.Killer.K25.ChainStrike.Aim.End",
+      "DBDSlasherScore_NoEscape",
+      "GameEvent.Slasher.Cannibal.Chainsaw.Setup",
+      "GameEvent.ScoreEvent.HookedOnEventHook.NoOffering.Summer",
+      "GameEvent.Slasher.Doctor.StaticBlastCooldownComplete",
+      "GameEvent.K28.Teleport.Initiated.Locker",
+      "GameEvent.Slasher.Doctor.StaticBlastMultiple",
+      "GameEvent.Perk.Boon.UnboundFromTotem",
+      "GameEvent.DestroyBreakableWithPower.Start.Pallet",
+      "GameEvent.CamperFirstSabotageOnUniqueHook",
+      "GameEvent.HexCurse.End",
+      "GameEvent.ScoreEvent.Camper.AnotherSurvivorLeft",
+      "GameEvent.ScoreEvent.Camper.CleanseTotem.Hex",
+      "GameEvent.Camper.HitNearCarriedFriendNotKO",
+      "GameEvent.Slasher.StopGeneratorDamageBeforeComplete",
+      "GameEvent.K32.ItemBox.Inactive",
+      "GameEvent.HealedFromDying",
+      "GameEvent.Slasher.Hillbilly.Chainsaw.Rev.End",
+      "GameEvent.Slasher.KillBegin",
+      "GameEvent.Killer.K31.ActivateDrone",
+      "GameEvent.Camper.SaveFromHook.PostExit",
+      "GameEvent.Slasher.Twins.JumpAttack.Aim.Start",
+      "GameEvent.Slasher.Twins.JumpAttack.Aim.End",
+      "GameEvent.Survivor.LamentConfiguration.Solving.Stop",
+      "GameEvent.K25.ControlledProjectile.SurvivorHit",
+      "DBDCamperScore_QuickCloset",
+      "GameEvent.Survivor.LamentConfiguration.Solving.Start",
+      "GameEvent.K32.SurvivorAssimilatedByKiller",
+      "GameEvent.Slasher.Cannibal.Chainsaw.HitWithPowerCharge",
+      "GameEvent.K32.TeleportToSurvivor.Start",
+      "GameEvent.K32.TeleportToSurvivor.End",
+      "GameEvent.Slasher.Twins.JumpCharge.Ready",
+      "GameEvent.Slasher.Twins.JumpCharge.NotReady",
+      "GameEvent.Slasher.Oni.DemonMode.End",
+      "GameEvent.CamperEscape.ThroughHatch",
+      "GameEvent.K28.CancelTeleportInteraction",
+      "GameEvent.Camper.Pallet.PullUp.Complete",
+      "GameEvent.Killer.K30.Guard3ChaseEnded",
+      "GameEvent.CamperSicknessLevelChanged.Decrease",
+      "GameEvent.Killer.K33.TailAttack.HitSurvivor",
+      "GameEvent.Survivor.K31.ClawTrapComponent.Spawned",
+      "GameEvent.ScoreEvent.Slasher.HitSurvivorWithVomit.Super",
+      "GameEvent.Killer.K33.ExitTunnel.Start",
+      "GameEvent.Killer.K31.RecallDrone",
+      "GameEvent.K29.SurvivorBeingThrown",
+      "GameEvent.CamperInjuredBySickness",
+      "GameEvent.Killer.K30.Guard2ChaseEnded",
+      "GameEvent.K25.ChainHunt.Started",
+      "GameEvent.Killer.K30.Guard1ChaseEnded",
+      "GameEvent.Player.DemogorgonPortal.Teleport.Stop",
+      "GameEvent.ScoreEvent.EndGame.Camper.LastSurvivor.OpenGate",
+      "GameEvent.Killer.K26.DamageCrowHitSurvivor",
+      "GameEvent.K32.SurvivorCrossAssimilated",
+      "GameEvent.DestroyBreakableWithPower.Start.Wall",
+      "GameEvent.ScoreEvent.Killer.K25.LamentConfiguration.TeleportCompleted",
+      "GameEvent.K28.Teleport.Initiated.Remnant",
+      "GameEvent.EndGame.Camper.SacrificeStart",
+      "GameEvent.Demogorgon.HitSurvivor.WithFullChargePounce",
+      "DBDCamperScore_DieBleedOut",
+      "GameEvent.Camper.EscapeItemFromSpawn",
+      "DBDCamperScore_StartGeneratorRepair",
+      "GameEvent.BreakStunPallet",
+      "GameEvent.ScoreEvent.Killer.K25.LamentConfiguration.PickUp",
+      "GameEvent.Camper.Heal.WithPerk.ForThePeople",
+      "GameEvent.Camper.Attach.Trap",
+      "GameEvent.CamperInjuredBleedoutKO",
+      "GameEvent.Slasher.KillEnd",
+      "GameEvent.DestroyBreakableWithPower.Start",
+      "GameEvent.ResetAllFountains",
+      "DBDSlasherScore_EvadeInvisBurn",
+      "GameEvent.Clown.Bomb.SurvivorCured",
+      "GameEvent.ScoreEvent.Camper.BurnSlasher.Invisibility",
+      "DBDCamperScore_DodgeAndVault",
+      "GameEvent.K32.TeleportingToSurvivorInAntiCampZoneFromThirdPerson",
+      "GameEvent.CamperUnlockedFatherDoor",
+      "DBDGameEvent_ReplacedGoodSkillCheckAsGreat",
+      "GameEvent.ScoreEvent.Camper.BurnSlasher.SpiritHusk",
+      "GameEvent.ScoreEvent.Camper.BurnSlasher.Blink",
+      "GameEvent.Player.StunSlasher.CarryingCamper",
+      "GameEvent.ScoreEvent.Slasher.InterruptSteamPipeReset",
+      "GameEvent.AllEscapeThroughHatch",
+      "GameEvent.Player.StunSlasher.WithFlashlight",
+      "GameEvent.Slasher.Cannibal.Chainsaw.Tantrum.Attack",
+      "GameEvent.ScoreEvent.Survivor.K32.RemoveHookedSurvivorAssimilation",
+      "GameEvent.Slasher.Hillbilly.Chainsaw.Hit"
+    ],
+    "detailedScoreTypeWhitelist": [
+      "*"
+    ],
+    "gameConsoleLogMinimumVerbosity": "NoLogging",
+    "gameInitVerbose": false,
+    "maxFramesUntilSend": 1000,
+    "maxTrackedRecurrences": 5,
+    "performanceContextWhitelist": [
+      "InGame",
+      "OnlineLobby"
+    ],
+    "performanceSamplingRate": 300,
+    "performanceSamplingRule": "KL",
+    "performanceSamplingWhitelist": [
+      "InGame"
+    ],
+    "scoreTypeWhitelist": [
+      "*"
+    ]
+  },
+  "analyticsRules": {
+    "BL": [
+      "AtlantaControlsSettingsAnalytics",
+      "InteractionAnalytics",
+      "LoadingStepAnalytics",
+      "LogMirrorsAnalytics",
+      "MatchmakingApproveLoginAnalytics",
+      "MatchmakingHostSettingAnalytics",
+      "MatchmakingSearchParamAnalytics",
+      "MatchmakingSearchResultAnalytics",
+      "MatchmakingSurviveWithFriendsAnalytics",
+      "MemoryUsageAnalytics",
+      "PerformanceChartingAnalytics",
+      "RTMAnalytics",
+      "S3CommandAnalytics",
+      "SaveGameSaveResultAnalytics",
+      "SaveGameSummaryPlayerStatsAnalytics",
+      "SyncLoadAnalytics",
+      "af_complete_registrationAnalytics",
+      "af_killer_tutorial_completionAnalytics",
+      "af_loginAnalytics",
+      "af_survivor_tutorial_completionAnalytics"
+    ],
+    "DD": [
+      "AtlantaDeepLinkAnalytics",
+      "AtlantaGraphicsSettingsAnalytics",
+      "AtlantaKillerTutorialAnalytics",
+      "AtlantaPartyGameAnalytics",
+      "AtlantaPerkSelectionAnalytics",
+      "AtlantaPlayerLevelAnalytics",
+      "AtlantaPurchasePopupAnalytics",
+      "AtlantaQuitGameAnalytics",
+      "AtlantaSessionStartAnalytics",
+      "AtlantaSurvivorTutorialAnalytics",
+      "BloodMarketAdsAnalytics",
+      "BloodMarketRefreshAnalytics",
+      "BloodMarketTransactionAnalytics",
+      "DailyCalendarRewardAnalytics",
+      "FreeTicketAnalytics",
+      "MatchmakingIncentiveAnalytics",
+      "MobileBannerClickedAnalytics",
+      "MobileCdnDownloadAnalytics",
+      "MobileLoginAnalytics",
+      "MobilePostGameAnalytics",
+      "NewPlayerAnalytics"
+    ],
+    "KA": [
+      "ArchiveNewTomePopupAnalytics",
+      "ArchiveVignetteEntryAnalytics",
+      "ArchiveVignetteVideoAnalytics",
+      "AtlantaCampaignEventAnalytics",
+      "CannibalAnalytics",
+      "CrowdChoiceOnGameRoundStartedAnalytics",
+      "CrowdChoiceSummaryResultAnalytics",
+      "CrowdChoiceVoteResultAnalytics",
+      "CrowdPlayLobbyEventsAnalytics",
+      "CrowdPlayLobbyResultsAnalytics",
+      "CurrencyBalanceAnalytics",
+      "CustomizationLobbyAnalytics",
+      "DailyRitualAnalytics",
+      "DetailedHitAnalytics",
+      "DetailedScoreAnalytics",
+      "EmblemProgressionAnalytics",
+      "EndpointLatencyAnalytics",
+      "FranklinsDemiseConsumedItemAnalytics",
+      "FranklinsHitNearDroppedItemAnalytics",
+      "GameOnTournamentParticipationInfoAnalytics",
+      "Gameplay_ChaseAnalytics",
+      "Gameplay_KillerAnalytics",
+      "Gameplay_PigKillerAnalytics",
+      "Gameplay_PigSurvivorAnalytics",
+      "Gameplay_SurvivorAnalytics",
+      "GhostKillerAnalytics",
+      "HeartbeatAnalytics",
+      "HillbillyAnalytics",
+      "HookAnalytics",
+      "KillerTutorialAnalytics",
+      "KnockoutSurvivorFoundAnalytics",
+      "LegionKillerAnalytics",
+      "LegionSurvivorAnalytics",
+      "LightbornAuraRevealedAnalytics",
+      "LoadOutLobbyAnalytics",
+      "LoadingTimeoutAnalytics",
+      "MatchRatingAnalytics",
+      "MatchmakingLobbyAnalytics",
+      "MatchmakingQueueAnalytics",
+      "MenuFlowAnalytics",
+      "PerkAcquisitionAnalytics",
+      "PlagueSurvivorAnalytics",
+      "ProceduralGenerationAnalytics",
+      "QueueAnalytics",
+      "ScoreAnalytics",
+      "StadiaLivestreamAnalytics",
+      "StadiaStreamAnalytics",
+      "StoreMenuFlowAnalytics",
+      "SurvivorTutorialAnalytics",
+      "TinkererUndetectableHitNearGeneratorAnalytics",
+      "TinkererUndetectableInterruptAnalytics",
+      "TransactionAnalytics",
+      "WaitTimeAnalytics"
+    ],
+    "KAL": [
+      "AtlantaActivablePerkAnalytics",
+      "BotReplacementAnalytics",
+      "ChatAnalytics",
+      "CheatExecutedAnalytics",
+      "CheatValidatedAnalytics",
+      "CustomizationAnalytics",
+      "EnvironmentAnalytics",
+      "FeatureGateAnalytics",
+      "FrameHikeAnalytics",
+      "FreeTrialLoginAnalytics",
+      "GPUAnalytics",
+      "InvalidLoadoutAnalytics",
+      "LevelLoadingStepAnalytics",
+      "LevelLoadingTimeoutAnalytics",
+      "LoadOutAnalytics",
+      "MapCoordAnalytics",
+      "MatchIncentivesFetchedAnalytics",
+      "MatchInfoAnalytics",
+      "OnboardingAnalytics",
+      "PlayerCardEquippedAnalytics",
+      "PlayerCardMenuTabAnalytics",
+      "PostGame_KillerAnalytics",
+      "PostGame_SurvivorAnalytics",
+      "ReportAnalytics",
+      "SubscriptionRewardsAnalytics",
+      "WalesCypherAnalytics"
+    ],
+    "KL": [
+      "ClientLoginAnalytics",
+      "ClientLogoutAnalytics",
+      "CustomerSupportAnalytics",
+      "CustomerSupportClientLoginAnalytics",
+      "DDoSDetectionAnalytics",
+      "DisconnectionAnalytics",
+      "EACClientAuthChallengeAnalytics",
+      "EACClientAuthInitAnalytics",
+      "EACClientInitAnalytics",
+      "EACClientViolationAnalytics",
+      "EACServerValidateAnalytics",
+      "EntitlementAnalytics",
+      "ErrorAnalytics",
+      "ExecExecutedAnalytics",
+      "FallOutOfWorldAnalytics",
+      "FrameTravelTimeAnalytics",
+      "GameConsoleLogAnalytics",
+      "GameEventLogAnalytics",
+      "GameInitAnalytics",
+      "HangAnalytics",
+      "HeartbeatPerfAnalytics",
+      "IAPCanceledAnalytics",
+      "KrakenRequestAnalytics",
+      "LogAnalytics",
+      "LogPresencePluginAnalytics",
+      "MatchmakingHostCreatedAnalytics",
+      "MatchmakingInfoExpiredAnalytics",
+      "MatchmakingJoinCompleteAnalytics",
+      "MatchmakingJoinSessionAnalytics",
+      "MatchmakingSearchCompleteAnalytics",
+      "MatchmakingSessionSpotReservationAnalytics",
+      "NetworkFenceAnalytics",
+      "PakValidationAnalytics",
+      "PartyCreatedAnalytics",
+      "PartyDisbandedAnalytics",
+      "PartyErrorAnalytics",
+      "PartyGuestJoinedAnalytics",
+      "PartyInvitedAnalytics",
+      "PartyJoinFailureAnalytics",
+      "PartyJoinedAnalytics",
+      "PerformanceAnalytics",
+      "RTMConnectionLostAnalytics",
+      "S3CommandErrorAnalytics",
+      "SaveGameErrorAnalytics",
+      "SaveGameLoadResultAnalytics",
+      "SaveGameSummaryCharacterStatsAnalytics",
+      "ShopAnalytics",
+      "SpecialEventAnalytics",
+      "SpecialEventBaseAnalytics",
+      "SuspiciousBehaviourAnalytics",
+      "TexturegroupChartingAnalytics",
+      "UnknownPrivilegeErrorAnalytics"
+    ]
+  },
+  "analyticsRulesHVS": {
+    "DetailedScoreAnalytics": "HVSPlus",
+    "FrameHikeAnalytics": "HVSStrict",
+    "LoadingStepAnalytics": "HVSStrict",
+    "MemoryUsageAnalytics": "HVSStrict",
+    "MenuFlowAnalytics": "HVSStrict",
+    "QueueAnalytics": "HVSStrict",
+    "S3CommandAnalytics": "HVSStrict"
+  },
+  "animBudgeter": {
+    "enabled": false,
+    "ps4Budget": 5.77,
+    "ps5Budget": 1.48,
+    "steamBudgets": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "switchBudget": 6.0,
+    "xboxOneBudget": 4.014,
+    "xsxBudget": 1.23
+  },
+  "archives": {
+    "communityNodeRefreshInterval": 5
+  },
+  "beginnerTutorialLevel": {
+    "levelToHideTutorial": 5,
+    "prestigeToHideTutorial": 0
+  },
+  "botMatch": {
+    "DSPlatformSBM": [
+      "egs",
+      "grdk",
+      "nintendo",
+      "ps4",
+      "ps5",
+      "psn",
+      "psnV3",
+      "stadia",
+      "steam",
+      "switch",
+      "xbox",
+      "xsx"
+    ],
+    "DSPlatformTutorialBotMatch": [
+      "egs",
+      "grdk",
+      "nintendo",
+      "ps4",
+      "ps5",
+      "psn",
+      "psnV3",
+      "stadia",
+      "steam",
+      "switch",
+      "xbox",
+      "xsx"
+    ]
+  },
+  "commentator": {
+    "enableCommentatorSaveHistory": true
+  },
+  "contentVersion": {
+    "clientNewContentForceReboot": true,
+    "clientNewContentRebootMaxSeconds": 30.0,
+    "clientNewContentRebootMinSeconds": 0.0,
+    "dsNewContentCatalogItemValidation": false,
+    "dsNewContentShutdown": true,
+    "dsNewContentShutdownMaxMinutes": 1.0,
+    "dsNewContentShutdownMinMinutes": 0.0
+  },
+  "crossPromoManagerPlatforms": {
+    "egs": false,
+    "grdk": false,
+    "ps4": true,
+    "ps5": true,
+    "stadia": false,
+    "steam": true,
+    "switch": false,
+    "xbox": true,
+    "xsx": true
+  },
+  "dedicatedServer": {
+    "latencyRetryCooldownSeconds": 600,
+    "suspiciousEnabledBuilds": [
+      "DBD_Live_DS_Lin_Test_472_1566101"
+    ]
+  },
+  "disableNavigationDuringMatchmaking": false,
+  "disconnectionBotReplacement": {
+    "enableDisconnectionBotReplacement": true,
+    "replacementBotRank": 15,
+    "usePlayerRankForReplacementBot": false
+  },
+  "dlc": {
+    "dlcAdditionalInfo": [
+      {
+        "dlcId": "development",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "BaseGame",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "80suitcase",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "bloodletting",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "bloodstainedSack",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "charityChest",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "GStar2017",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "ChineseEventOct2017",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "DeathGarden",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "Kabuki",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "StoreItem",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "Pulcinella",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "UmbraCust1",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "UmbraCust2",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "headCase",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "OrionCust",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "lastBreath",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "WalesCust",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "EpicBrillFreeWeek",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "EpicBrillGeneral",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "EpicSilentHillEdition",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "EpicUltimateEdition",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "ACPack_01",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "ACPack_02",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "ACPack_03",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "ACPack_04",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "ACPack_05",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "ACPack_06",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "availableStartDate": "2024-01-08T11:00:00",
+        "dlcId": "HeritagePack1",
+        "isChapterDlc": "false"
+      },
+      {
+        "availableStartDate": "2024-01-08T11:00:00",
+        "dlcId": "HeritagePack2",
+        "isChapterDlc": "false"
+      },
+      {
+        "availableStartDate": "2024-01-08T11:00:00",
+        "dlcId": "HeritagePack3",
+        "isChapterDlc": "false"
+      },
+      {
+        "availableStartDate": "2024-05-14T11:00:00",
+        "dlcId": "HeritagePack4",
+        "isChapterDlc": "false"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "fleshAndMud"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "sparkofMadness"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Guam"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Haiti"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Kenya"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Mali"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Sweden"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Ukraine"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Yemen"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Aurora"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Comet"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Hubble"
+      },
+      {
+        "availableEndDate": "2024-05-14T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Ion"
+      },
+      {
+        "availableEndDate": "2024-05-14T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Meteor"
+      },
+      {
+        "availableEndDate": "2024-05-14T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Quantum"
+      },
+      {
+        "availableEndDate": "2024-05-14T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Saturn"
+      },
+      {
+        "availableEndDate": "2023-07-18T14:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "UmbraCust1",
+        "isChapterDlc": "false"
+      },
+      {
+        "availableEndDate": "2023-07-18T14:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "UmbraCust2",
+        "isChapterDlc": "false"
+      },
+      {
+        "availableStartDate": "2023-07-25T01:00:00",
+        "dlcId": "Venus"
+      },
+      {
+        "availableStartDate": "2023-08-29T01:00:00",
+        "dlcId": "Wormhole"
+      },
+      {
+        "availableStartDate": "2023-11-28T01:00:00",
+        "dlcId": "Yerkes"
+      },
+      {
+        "availableStartDate": "2024-06-03T11:00:00",
+        "dlcId": "ChurrosCust",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "availableStartDate": "2024-07-16T16:00:00",
+        "dlcId": "DonutCust",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      }
+    ]
+  },
+  "dynamicContent": {},
+  "enableAlwaysSendCrashWithUI": false,
+  "enableAntiCamping": true,
+  "enableAntiMoveHack": true,
+  "enableBotsInCustomMatch": true,
+  "enableChallengeSystem": false,
+  "enableConsoleSuspendSave": true,
+  "enableConsumableQueryFromKraken": true,
+  "enableContainerAgressiveMemorySaving": false,
+  "enableDSQuestsUpdate": true,
+  "enableFirstMoveAfterForcedUpdates": true,
+  "enableFullProfileSaveAtLocation": [
+    "LeavingOfflineLobby",
+    "LeavingOnlineLobby",
+    "OnSuspend",
+    "OnQuit",
+    "OnSettingsChanged",
+    "OnFlagChanged",
+    "CheatEntered",
+    "IISMigrateCharacterData"
+  ],
+  "enableGetUpInteraction": true,
+  "enableHapticVibration": true,
+  "enableLimitRegressionEvents": true,
+  "enableLobbyLeaveSave": true,
+  "enableLocalStartSnapping": true,
+  "enableMoriPreviewButton": true,
+  "enableNetAsyncLoading": true,
+  "enablePlayStationTrophiesIISSync": true,
+  "enablePlayerIdInSurvey": true,
+  "enablePlayersConnectionStatus": true,
+  "enablePostIISCinematic": true,
+  "enableRealtimeMoriPreview": true,
+  "enableSimulateMovementOptimization": [
+    "switch"
+  ],
+  "enableUmgStore": true,
+  "enableWinGDKAccountMismatchPopup": true,
+  "friendsList": {
+    "maxFriendSuggestionsFacebook": 4,
+    "maxFriendSuggestionsGoogle": 4,
+    "maxFriendSuggestionsRecentlyPlayed": 4
+  },
+  "hangTimes": [
+    {
+      "hardcapTimeout": 0.0,
+      "possibleHangTime": 10.0,
+      "sourceName": "StartupInitializer",
+      "stepName": "*",
+      "timeCapWithoutProgress": 0.0
+    },
+    {
+      "hardcapTimeout": 0.0,
+      "possibleHangTime": 40.0,
+      "sourceName": "StartupInitializer",
+      "stepName": "LoadingS3PrestigeData",
+      "timeCapWithoutProgress": 0.0
+    },
+    {
+      "hardcapTimeout": 0.0,
+      "possibleHangTime": 40.0,
+      "sourceName": "StartupInitializer",
+      "stepName": "LoadingPlayerIndependentShopData",
+      "timeCapWithoutProgress": 0.0
+    },
+    {
+      "hardcapTimeout": 0.0,
+      "possibleHangTime": 0.0,
+      "sourceName": "StartupInitializer",
+      "stepName": "ValidateSignIn",
+      "timeCapWithoutProgress": 0.0
+    },
+    {
+      "hardcapTimeout": 210.0,
+      "possibleHangTime": 150.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "*",
+      "timeCapWithoutProgress": 59.0
+    },
+    {
+      "hardcapTimeout": 240.0,
+      "possibleHangTime": 90.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForProceduralLevelBuilder",
+      "timeCapWithoutProgress": 60.0
+    },
+    {
+      "hardcapTimeout": 75.0,
+      "possibleHangTime": 18.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForPlayersToBeSpawned",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 80.0,
+      "possibleHangTime": 5.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForAIPawnToBeSpawned",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 30.0,
+      "possibleHangTime": 5.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForKillerSpecificStateComponentLogic",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 15.0,
+      "possibleHangTime": 5.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForMapSpecificComponentLogic",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 15.0,
+      "possibleHangTime": 5.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForAssetPreloader",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 120.0,
+      "possibleHangTime": 25.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForLoadoutAndTheme",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 65.0,
+      "possibleHangTime": 8.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForPIAToBeSpawnedAndInitialized",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 30.0,
+      "possibleHangTime": 10.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForNavmeshComputation",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 30.0,
+      "possibleHangTime": 10.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForMutatorsComponentLogic",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 15.0,
+      "possibleHangTime": 5.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "SetGameLoadedAndReadyToPlay",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 210.0,
+      "possibleHangTime": 45.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForIntroToBeDone",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 30.0,
+      "possibleHangTime": 10.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "LoadingCompleted",
+      "timeCapWithoutProgress": 1000.0
+    }
+  ],
+  "hitValidation": {
+    "enable": true,
+    "enableCollisionCheck": false,
+    "recorder": {
+      "cacheTimespan": 0.25
+    },
+    "validators": [
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 300.0,
+        "name": "default"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 200.0,
+        "name": "hatchet"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 200.0,
+        "name": "bomb"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 200.0,
+        "name": "harpoon"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 350.0,
+        "name": "oni"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 800.0,
+        "name": "whip"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 200.0,
+        "name": "defaultprojectile"
+      }
+    ]
+  },
+  "jwt": {
+    "enabled": true,
+    "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvVHc2Mk5NQ0dtNVVOWjUzeTNaagp0Y1dxRk5jOE83UlRzQ0d2WHNCOWRNRGFqRzFnOTFyUzZEc2hiWTJFNk84MVlRdGlSUGRYcUgzcWVLUjcvdU53CkhwOWVVbWM4NzVPcS9xQldkWldjZEk0V3RmUWM3Z0FrMzR0ZUhhMU10VG1XL3QrVEtVajJBekRjVHZXNkpjcXUKWmdqRzkvSlR2dzM4RzEyQXFjWHZ5K3hFam4zL2ptQ0oxOGZWWWRuQ0I1ZWFEQkFoMFluTzQxaGIyODZDS0pwRwozT25wTHFyeWlzVzFnOTZ1ZWxKQnhVelRydnVKK2JJS2VFSWdqdURobHpaNU4yeW5tbHNodXlRWm15ME50VE14CjNqMlVoSkNtS3JsNTdKMzhnUnpRczJqSDBKT3ExZkhsOEhXMHlUT1dLQVNxbkNqaVp0NG5QUGJVdXpVY1JYcEEKeXdJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+  },
+  "krakenSdkValidation": {
+    "enabled": true,
+    "useWhitelist": true,
+    "whitelist": [
+      "public-test-internal",
+      "shipping-live-internal"
+    ]
+  },
+  "marketing": {},
+  "match": {
+    "maxEndGameCollapseSeconds": 300,
+    "maxMatchSeconds": 3600
+  },
+  "matchmakingCrossplayPlatforms": {
+    "egs": true,
+    "grdk": true,
+    "ps4": true,
+    "ps5": true,
+    "stadia": true,
+    "steam": true,
+    "switch": true,
+    "xbox": true,
+    "xsx": true
+  },
+  "mirrorsDefaultRetryPolicy": {
+    "enabled": true,
+    "retryCount": 5,
+    "timeout": 5
+  },
+  "online": {
+    "hiddenProgressiveQueueDelays": [
+      0,
+      0,
+      10,
+      20,
+      40,
+      60
+    ],
+    "hiddenQueueDelayResetThreshold": 300,
+    "randomQueueDelayMax": 30,
+    "randomQueueDelayMin": 10
+  },
+  "security": {
+    "allowClientGuestProviderOnServerLogin": false,
+    "allowServerCheats": false
+  },
+  "seenPopupsConfig": {
+    "MarketingInvitationPopup": {
+      "configs": [
+        {
+          "id": "NewUser",
+          "maxTimes": -1,
+          "minLoginThreshold": 2,
+          "sessionsPerPopup": 3
+        },
+        {
+          "id": "ExperiencedUser",
+          "maxTimes": -1,
+          "minLoginThreshold": 50,
+          "sessionsPerPopup": 2
+        }
+      ],
+      "id": "MarketingInvitationPopup"
+    }
+  },
+  "socialCrossfriendsPlatforms": {
+    "egs": true,
+    "grdk": true,
+    "ps4": true,
+    "ps5": true,
+    "stadia": true,
+    "steam": true,
+    "switch": true,
+    "xbox": true,
+    "xsx": true
+  },
+  "socialCrossprogressionPlatforms": {
+    "egs": true,
+    "grdk": false,
+    "ps4": false,
+    "ps5": false,
+    "stadia": true,
+    "steam": true,
+    "switch": false,
+    "xbox": false,
+    "xsx": false
+  }
+}

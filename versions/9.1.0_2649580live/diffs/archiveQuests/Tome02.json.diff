@@ -1,0 +1,38 @@
+--- a/archiveQuests/Tome02.json
++++ b/archiveQuests/Tome02.json
+@@ -1417,7 +1417,7 @@
+             ]
+           },
+           "node_L2_05": {
+-            "clientInfoId": "AddItemToMap",
++            "clientInfoId": "ConsumeMedkit",
+             "coordinates": {
+               "x": 62.22222222,
+               "y": 50.76923077
+@@ -1430,7 +1430,7 @@
+             ],
+             "nodeType": "quest:task",
+             "objectives": {
+-              "AddItemToMap": {
++              "ConsumeMedkit": {
+                 "conditions": [
+                   {
+                     "key": "role",
+@@ -1440,13 +1440,13 @@
+                   }
+                 ],
+                 "incrementWithEventRepetitions": true,
+-                "neededProgression": 5,
+-                "objectiveId": "AddItemToMap",
++                "neededProgression": 2,
++                "objectiveId": "ConsumeMedkit",
+                 "questEvent": [
+                   {
+                     "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.AddItemToMap",
++                    "parameters": "instigator:me;ItemName:Medkit",
++                    "questEventId": "QuestEvent.ConsumeItem",
+                     "repetition": 1
+                   }
+                 ]

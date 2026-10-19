@@ -994,6 +994,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
+                    "parameters": "instigator:me;target:other",
                     "questEventId": "QuestEvent.DoctorInflictMadnessDifferent",
                     "repetition": 2
                   }
@@ -3137,7 +3138,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
-                    "parameters": "instigator:me",
+                    "parameters": "target:any",
                     "questEventId": "QuestEvent.DoctorInflictMadness3",
                     "repetition": 3
                   }

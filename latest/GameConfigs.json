@@ -657,11 +657,17 @@
         "address": "gamelift-ping.eu-west-2.api.aws",
         "port": 7770,
         "regionId": "eu-west-2"
+      },
+      {
+        "address": "gamelift-ping.ap-south-1.api.aws",
+        "port": 7770,
+        "regionId": "ap-south-1"
       }
     ],
+    "latencyPingsComputationMethod": "Minimum",
     "latencyRetryCooldownSeconds": 600.0,
     "suspiciousEnabledBuilds": [
-      "DBD_Churros_DS_Lin_Test_409_1759908"
+      "DBD_Live_DS_Lin_Test_472_1566101"
     ],
     "useUDPLatencyPings": true
   },
@@ -916,6 +922,7 @@
   },
   "marketing": {},
   "match": {
+    "disableSurrender": false,
     "maxEndGameCollapseSeconds": 300,
     "maxMatchSeconds": 3600
   },
@@ -1045,25 +1052,7 @@
     "allowClientGuestProviderOnServerLogin": false,
     "allowServerCheats": false
   },
-  "seenPopupsConfig": {
-    "MarketingInvitationPopup": {
-      "configs": [
-        {
-          "id": "NewUser",
-          "maxTimes": -1,
-          "minLoginThreshold": 2,
-          "sessionsPerPopup": 3
-        },
-        {
-          "id": "ExperiencedUser",
-          "maxTimes": -1,
-          "minLoginThreshold": 50,
-          "sessionsPerPopup": 2
-        }
-      ],
-      "id": "MarketingInvitationPopup"
-    }
-  },
+  "seenPopupsConfig": {},
   "socialCrossfriendsPlatforms": {
     "egs": true,
     "grdk": true,
@@ -1077,13 +1066,13 @@
   },
   "socialCrossprogressionPlatforms": {
     "egs": true,
-    "grdk": false,
-    "ps4": false,
-    "ps5": false,
+    "grdk": true,
+    "ps4": true,
+    "ps5": true,
     "stadia": true,
     "steam": true,
-    "switch": false,
-    "xbox": false,
-    "xsx": false
+    "switch": true,
+    "xbox": true,
+    "xsx": true
   }
 }

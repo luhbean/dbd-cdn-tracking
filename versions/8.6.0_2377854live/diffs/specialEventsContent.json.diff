@@ -1,0 +1,126 @@
+--- a/specialEventsContent.json
++++ b/specialEventsContent.json
+@@ -269,6 +269,18 @@
+       "mainEndTime": "2025-03-31T15:00:00",
+       "postEndTime": "2025-03-31T15:00:00",
+       "startTime": "2025-03-18T15:00:00"
++    },
++    {
++      "eventId": "Spring2025",
++      "mainEndTime": "2025-04-29T15:00:00",
++      "postEndTime": "2025-04-29T15:00:00",
++      "startTime": "2025-04-07T15:00:00"
++    },
++    {
++      "eventId": "Spring2025Regular",
++      "mainEndTime": "2025-04-29T15:00:00",
++      "postEndTime": "2025-04-29T15:00:00",
++      "startTime": "2025-04-07T15:00:00"
+     }
+   ],
+   "specialEventsData": [
+@@ -916,6 +928,104 @@
+         }
+       ],
+       "milestoneRewards": [],
++      "miscRewards": [],
++      "ownerRewards": [],
++      "scoreEventRewards": []
++    },
++    {
++      "eventId": "Spring2025",
++      "eventPeriods": [],
++      "eventTrackerObjectives": [
++        {
++          "additionalEventIdsWithMilestoneBonus": [
++            "*"
++          ],
++          "id": "main",
++          "maxProgressionPerMatchPlayer": 16,
++          "milestones": [
++            {
++              "additiveMultiplier": 1.25,
++              "neededProgression": 0
++            },
++            {
++              "additiveMultiplier": 1.5,
++              "neededProgression": 2500000
++            },
++            {
++              "additiveMultiplier": 2.0,
++              "neededProgression": 10000000
++            },
++            {
++              "additiveMultiplier": 2.75,
++              "neededProgression": 22500000
++            },
++            {
++              "additiveMultiplier": 3.75,
++              "neededProgression": 35000000
++            },
++            {
++              "additiveMultiplier": 5.0,
++              "neededProgression": 50000000
++            }
++          ],
++          "questEventConditions": [
++            {
++              "key": "gameTypes",
++              "value": [
++                "SeasonalEvent_FuelGenerator"
++              ]
++            }
++          ],
++          "questEvents": [
++            {
++              "id": "QuestEvent.FinishEventFuelGenerator",
++              "params": "instigator:me"
++            },
++            {
++              "id": "QuestEvent.SpringKickFuelGen",
++              "params": "instigator:me"
++            }
++          ]
++        }
++      ],
++      "lteData": {
++        "affectsMMR": true,
++        "gameModeQueue": "Spring2025",
++        "gameType": "SeasonalEvent_FuelGenerator",
++        "incentiveBonus": 0.0
++      },
++      "milestoneRewards": [
++        {
++          "pointsCost": 3,
++          "rewards": [
++            {
++              "amount": 1,
++              "id": "IC_001",
++              "type": "inventory"
++            }
++          ]
++        },
++        {
++          "pointsCost": 8,
++          "rewards": [
++            {
++              "amount": 1,
++              "id": "IC_BDG_03",
++              "type": "inventory"
++            }
++          ]
++        },
++        {
++          "pointsCost": 15,
++          "rewards": [
++            {
++              "amount": 1,
++              "id": "IC_BNR_03",
++              "type": "inventory"
++            }
++          ]
++        }
++      ],
+       "miscRewards": [],
+       "ownerRewards": [],
+       "scoreEventRewards": []

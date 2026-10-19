@@ -1,0 +1,264 @@
+--- a/prestige/prestige.json
++++ b/prestige/prestige.json
+@@ -12,6 +12,138 @@
+     ],
+     "prestigeCost": 20000
+   },
++  "legacyPrestige": {
++    "itemsPerCharacters": {
++      "Bob": [
++        {
++          "id": "WR_Body01_LP01",
++          "prestigeLevel": 3
++        },
++        {
++          "id": "WR_Head01_LP01",
++          "prestigeLevel": 2
++        },
++        {
++          "id": "WR_Machete02_LP01",
++          "prestigeLevel": 1
++        }
++      ],
++      "Chuckles": [
++        {
++          "id": "TR_Body01_LP01",
++          "prestigeLevel": 3
++        },
++        {
++          "id": "TR_Head01_LP01",
++          "prestigeLevel": 2
++        },
++        {
++          "id": "TR_Machete01_LP01",
++          "prestigeLevel": 1
++        }
++      ],
++      "Claudette": [
++        {
++          "id": "CM_Head01_LP01",
++          "prestigeLevel": 3
++        },
++        {
++          "id": "CM_Legs01_LP01",
++          "prestigeLevel": 2
++        },
++        {
++          "id": "CM_Torso01_LP01",
++          "prestigeLevel": 1
++        }
++      ],
++      "Dwight": [
++        {
++          "id": "DF_Head01_LP01",
++          "prestigeLevel": 3
++        },
++        {
++          "id": "DF_Legs01_LP01",
++          "prestigeLevel": 2
++        },
++        {
++          "id": "DF_Torso01_LP01",
++          "prestigeLevel": 1
++        }
++      ],
++      "HillBilly": [
++        {
++          "id": "HB_Hammer01_LP01",
++          "prestigeLevel": 1
++        },
++        {
++          "id": "HB_Legs01_LP01",
++          "prestigeLevel": 2
++        },
++        {
++          "id": "HB_Torso01_LP01",
++          "prestigeLevel": 3
++        }
++      ],
++      "Jake": [
++        {
++          "id": "JP_Head01_LP01",
++          "prestigeLevel": 3
++        },
++        {
++          "id": "JP_Legs01_LP01",
++          "prestigeLevel": 2
++        },
++        {
++          "id": "JP_Torso01_LP01",
++          "prestigeLevel": 1
++        }
++      ],
++      "Meg": [
++        {
++          "id": "MT_Head01_LP01",
++          "prestigeLevel": 3
++        },
++        {
++          "id": "MT_Legs01_LP01",
++          "prestigeLevel": 2
++        },
++        {
++          "id": "MT_Torso01_LP01",
++          "prestigeLevel": 1
++        }
++      ],
++      "Nea": [
++        {
++          "id": "NK_Head01_LP01",
++          "prestigeLevel": 3
++        },
++        {
++          "id": "NK_Legs01_LP01",
++          "prestigeLevel": 2
++        },
++        {
++          "id": "NK_Torso01_LP01",
++          "prestigeLevel": 1
++        }
++      ],
++      "Nurse": [
++        {
++          "id": "NR_Body01_LP01",
++          "prestigeLevel": 3
++        },
++        {
++          "id": "NR_BoneSaw01_LP01",
++          "prestigeLevel": 1
++        },
++        {
++          "id": "NR_Head01_LP01",
++          "prestigeLevel": 2
++        }
++      ]
++    },
++    "prestigeDate": "2016-11-24T00:00:00Z",
++    "versionNumber": 1
++  },
+   "rewards": {
+     "Ace": [
+       {
+@@ -4532,6 +4664,122 @@
+         "rewards": [
+           {
+             "id": "K38_PCharm003",
++            "rewardType": "customization"
++          }
++        ]
++      }
++    ],
++    "K39": [
++      {
++        "prestigeLevel": 1,
++        "rewards": [
++          {
++            "id": "K39P01",
++            "perkLevel": 1,
++            "rewardType": "perk"
++          },
++          {
++            "id": "K39P02",
++            "perkLevel": 1,
++            "rewardType": "perk"
++          },
++          {
++            "id": "K39P03",
++            "perkLevel": 1,
++            "rewardType": "perk"
++          }
++        ]
++      },
++      {
++        "prestigeLevel": 2,
++        "rewards": [
++          {
++            "id": "K39P01",
++            "perkLevel": 2,
++            "rewardType": "perk"
++          },
++          {
++            "id": "K39P02",
++            "perkLevel": 2,
++            "rewardType": "perk"
++          },
++          {
++            "id": "K39P03",
++            "perkLevel": 2,
++            "rewardType": "perk"
++          }
++        ]
++      },
++      {
++        "prestigeLevel": 3,
++        "rewards": [
++          {
++            "id": "K39P01",
++            "perkLevel": 3,
++            "rewardType": "perk"
++          },
++          {
++            "id": "K39P02",
++            "perkLevel": 3,
++            "rewardType": "perk"
++          },
++          {
++            "id": "K39P03",
++            "perkLevel": 3,
++            "rewardType": "perk"
++          }
++        ]
++      },
++      {
++        "prestigeLevel": 4,
++        "rewards": [
++          {
++            "id": "K39_W01_P01",
++            "rewardType": "customization"
++          }
++        ]
++      },
++      {
++        "prestigeLevel": 5,
++        "rewards": [
++          {
++            "id": "K39_Body01_P01",
++            "rewardType": "customization"
++          }
++        ]
++      },
++      {
++        "prestigeLevel": 6,
++        "rewards": [
++          {
++            "id": "K39_Head01_P01",
++            "rewardType": "customization"
++          }
++        ]
++      },
++      {
++        "prestigeLevel": 7,
++        "rewards": [
++          {
++            "id": "K39_PCharm001",
++            "rewardType": "customization"
++          }
++        ]
++      },
++      {
++        "prestigeLevel": 8,
++        "rewards": [
++          {
++            "id": "K39_PCharm002",
++            "rewardType": "customization"
++          }
++        ]
++      },
++      {
++        "prestigeLevel": 9,
++        "rewards": [
++          {
++            "id": "K39_PCharm003",
+             "rewardType": "customization"
+           }
+         ]

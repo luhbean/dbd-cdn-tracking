@@ -1,0 +1,144 @@
+--- a/contentSchedule.json
++++ b/contentSchedule.json
+@@ -8,7 +8,8 @@
+         "SecretBotMatch",
+         "TutorialBotMatch",
+         "ChocolateBox",
+-        "SeasonalEvent"
++        "SeasonalEvent",
++        "SeasonalEvent_FuelGenerator"
+       ],
+       "MapsWeight": {
+         "Apl_Level_01": "1000",
+@@ -21,11 +22,11 @@
+         "Brl_Temple": "750",
+         "Ecl_Level_01": "750",
+         "Ecl_Level_WestSide": "750",
+-        "Eng_Street_01": "200",
+-        "Eng_Street_02": "200",
+-        "Eng_Street_03": "200",
+-        "Eng_Street_04": "200",
+-        "Eng_Street_05": "200",
++        "Eng_Street_01": "750",
++        "Eng_Street_02": "1",
++        "Eng_Street_03": "1",
++        "Eng_Street_04": "1",
++        "Eng_Street_05": "1",
+         "Fin_Hideout": "1000",
+         "Frm_Barn": "500",
+         "Frm_Cornfield": "500",
+@@ -37,23 +38,24 @@
+         "Frm_Slaughterhouse_Calamari": "0",
+         "Glo_Level_01": "750",
+         "Hos_Treatment": "1000",
+-        "Hti_Manor": "500",
+-        "Hti_Manor02": "500",
++        "Hti_Manor": "750",
++        "Hti_Manor02": "1",
+         "Hti_Manor_Calamari": "0",
+-        "Hti_Shrine": "500",
+-        "Hti_Shrine02": "500",
+-        "Ind_CoalTower": "200",
+-        "Ind_CoalTower02": "200",
+-        "Ind_Forest": "200",
+-        "Ind_Forest02": "200",
+-        "Ind_Foundry": "200",
+-        "Ind_Foundry02": "200",
+-        "Ind_Mine": "200",
+-        "Ind_Mine02": "200",
++        "Hti_Shrine": "750",
++        "Hti_Shrine02": "1",
++        "Ind_CoalTower": "500",
++        "Ind_CoalTower02": "1",
++        "Ind_Forest": "500",
++        "Ind_Forest02": "1",
++        "Ind_Foundry": "500",
++        "Ind_Foundry02": "1",
++        "Ind_Mine": "500",
++        "Ind_Mine02": "1",
+         "Ind_Mine_Calamari": "0",
+-        "Ind_Storehouse": "200",
+-        "Ind_Storehouse02": "200",
+-        "Ion_level_01": "1000",
++        "Ind_Storehouse": "500",
++        "Ind_Storehouse02": "1",
++        "Ion_Shack": "750",
++        "Ion_level_01": "750",
+         "Jnk_Garage": "500",
+         "Jnk_GasStation": "500",
+         "Jnk_Lodge": "500",
+@@ -63,8 +65,8 @@
+         "Jnk_Scrapyard_Cake": "0",
+         "Jnk_Scrapyard_Calamari": "0",
+         "Kny_Cottage": "750",
+-        "Kny_Cottage02": "750",
+-        "Kny_Cottage03": "750",
++        "Kny_Cottage02": "1",
++        "Kny_Cottage03": "1",
+         "Mtr_Level_1": "1000",
+         "Qat_Lab": "1000",
+         "Qtm_Level_01": "1000",
+@@ -123,31 +125,44 @@
+       "Priority": "4"
+     },
+     {
+-      "Description": "Killswitch",
+-      "EndDate": "2024-12-12T15:59:00",
++      "Description": "RemovedFromRotation",
++      "GameModes": [
++        "Online",
++        "SecretBotMatch",
++        "TutorialBotMatch",
++        "ChocolateBox",
++        "SeasonalEvent",
++        "SeasonalEvent_FuelGenerator"
++      ],
+       "MapsWeight": {
+-        "Glo_Level_01": "0"
++        "Eng_Street_02": "0",
++        "Eng_Street_03": "0",
++        "Eng_Street_04": "0",
++        "Eng_Street_05": "0",
++        "Hti_Manor02": "0",
++        "Hti_Shrine02": "0",
++        "Ind_CoalTower02": "0",
++        "Ind_Forest02": "0",
++        "Ind_Foundry02": "0",
++        "Ind_Mine02": "0",
++        "Ind_Storehouse02": "0",
++        "Kny_Cottage02": "0",
++        "Kny_Cottage03": "0"
+       },
+-      "Priority": "5",
+-      "StartDate": "2024-11-25T15:00:00"
++      "Priority": "5"
+     },
+     {
+-      "Description": "Map_Boost",
+-      "EndDate": "2024-12-15T15:59:00",
++      "Description": "EventMapAdjust",
++      "GameModes": [
++        "SeasonalEvent_FuelGenerator"
++      ],
+       "MapsWeight": {
+-        "Glo_Level_01": "7000"
+-      },
+-      "Priority": "5",
+-      "StartDate": "2024-12-12T16:00:00"
+-    },
+-    {
+-      "Description": "Map_Boost",
+-      "EndDate": "2024-12-18T15:59:00",
+-      "MapsWeight": {
+-        "Glo_Level_01": "4500"
++        "Eng_Street_01": "100",
++        "Qat_Lab": "100",
++        "Qtm_Level_02": "100",
++        "Wal_Level_01": "100"
+       },
+-      "Priority": "5",
+-      "StartDate": "2024-12-15T16:00:00"
++      "Priority": "6"
+     }
+   ]
+ }

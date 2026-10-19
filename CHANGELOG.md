@@ -2,6 +2,32 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [8.6.0_2377854live](versions/8.6.0_2377854live/CHANGES.md)
+
+Built 2025-04-08 14:07 UTC · **+1** added · **~18** modified · **−6** removed
+
+- ~ [`GameConfigs.json`](versions/8.6.0_2377854live/diffs/GameConfigs.json.diff)
+- ~ [`GameConfigsDS.json`](versions/8.6.0_2377854live/diffs/GameConfigsDS.json.diff)
+- ~ [`archiveJournals/storyJournals.json`](versions/8.6.0_2377854live/diffs/archiveJournals/storyJournals.json.diff)
+- ~ [`archiveQuests/Tome02.json`](versions/8.6.0_2377854live/diffs/archiveQuests/Tome02.json.diff)
+- ~ [`archiveQuests/Tome03.json`](versions/8.6.0_2377854live/diffs/archiveQuests/Tome03.json.diff)
+- ~ [`archiveQuests/Tome15.json`](versions/8.6.0_2377854live/diffs/archiveQuests/Tome15.json.diff)
+- ~ [`bloodwebGenerationRules.json`](versions/8.6.0_2377854live/diffs/bloodwebGenerationRules.json.diff)
+- ~ [`catalog.json`](versions/8.6.0_2377854live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/8.6.0_2377854live/diffs/collections.json.diff)
+- ~ [`contentSchedule.json`](versions/8.6.0_2377854live/diffs/contentSchedule.json.diff)
+- ~ [`coreRituals.json`](versions/8.6.0_2377854live/diffs/coreRituals.json.diff)
+- ~ [`dlcList.json`](versions/8.6.0_2377854live/diffs/dlcList.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.6.0_2377854live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`freetoplay/EU/event.json`](versions/8.6.0_2377854live/diffs/freetoplay/EU/event.json.diff)
+- ~ [`freetoplay/NA/event.json`](versions/8.6.0_2377854live/diffs/freetoplay/NA/event.json.diff)
+- ~ [`prestige/prestige.json`](versions/8.6.0_2377854live/diffs/prestige/prestige.json.diff)
+- ~ [`recommendations.json`](versions/8.6.0_2377854live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/8.6.0_2377854live/diffs/specialEventsContent.json.diff)
+- \+ [`archiveQuests/Spring2025.json`](versions/8.6.0_2377854live/archiveQuests/Spring2025.json)
+- − `contentMetadata.json`
+- … and 5 more in [CHANGES.md](versions/8.6.0_2377854live/CHANGES.md)
+
 ## [8.5.2_2369089live](versions/8.5.2_2369089live/CHANGES.md)
 
 Built 2025-04-01 15:07 UTC · **+5** added · **~10** modified · **−0** removed

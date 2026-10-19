@@ -269,8 +269,16 @@
         "dlcId": "Hubble"
       },
       {
-        "availableStartDate": "2024-01-30T01:00:00",
-        "dlcId": "Zodiac"
+        "availableStartDate": "2023-07-25T01:00:00",
+        "dlcId": "Venus"
+      },
+      {
+        "availableStartDate": "2023-08-29T01:00:00",
+        "dlcId": "Wormhole"
+      },
+      {
+        "availableStartDate": "2023-11-28T01:00:00",
+        "dlcId": "Yerkes"
       }
     ]
   },
@@ -279,10 +287,13 @@
   "enableBotsInCustomMatch": true,
   "enableConsoleSuspendSave": true,
   "enableConsumableQueryFromKraken": true,
+  "enableContainerAgressiveMemorySaving": false,
+  "enableDSQuestsUpdate": false,
   "enableGetUpInteraction": true,
   "enableHapticVibration": true,
   "enableLimitRegressionEvents": true,
-  "enableLobbyLeaveSave": false,
+  "enableLobbyLeaveSave": true,
+  "enableLocalStartSnapping": true,
   "enableMoriPreviewButton": true,
   "enableNetAsyncLoading": true,
   "enablePlayStationTrophiesIISSync": true,
@@ -395,6 +406,13 @@
       "timeCapWithoutProgress": 1000.0
     },
     {
+      "hardcapTimeout": 30.0,
+      "possibleHangTime": 10.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForMutatorsComponentLogic",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
       "hardcapTimeout": 15.0,
       "possibleHangTime": 5.0,
       "sourceName": "DBDGameMode",
@@ -472,6 +490,7 @@
       "shipping-live-internal"
     ]
   },
+  "marketing": {},
   "match": {
     "maxEndGameCollapseSeconds": 300,
     "maxMatchSeconds": 3600
@@ -508,6 +527,25 @@
   "security": {
     "allowClientGuestProviderOnServerLogin": false,
     "allowServerCheats": false
+  },
+  "seenPopupsConfig": {
+    "MarketingInvitationPopup": {
+      "configs": [
+        {
+          "id": "NewUser",
+          "maxTimes": -1,
+          "minLoginThreshold": 2,
+          "sessionsPerPopup": 3
+        },
+        {
+          "id": "ExperiencedUser",
+          "maxTimes": -1,
+          "minLoginThreshold": 50,
+          "sessionsPerPopup": 2
+        }
+      ],
+      "id": "MarketingInvitationPopup"
+    }
   },
   "socialCrossfriendsPlatforms": {
     "egs": true,

@@ -2,20 +2,18 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.0.1_2520463live` · built 2025-06-26 14:08 UTC
+**Latest version:** `9.0.1_2520490live` · built 2025-06-26 14:16 UTC
 
-[What changed](versions/9.0.1_2520463live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.0.1_2520490live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **6** modified · **0** removed, compared with `9.0.1_2518194live`.
+**0** added · **4** modified · **0** removed, compared with `9.0.1_2520463live`.
 
-- ~ [`catalog.json`](versions/9.0.1_2520463live/diffs/catalog.json.diff)
-- ~ [`challengeLocs/challengeText_en.json`](versions/9.0.1_2520463live/diffs/challengeLocs/challengeText_en.json.diff)
-- ~ [`challengeLocs/challengeText_fr.json`](versions/9.0.1_2520463live/diffs/challengeLocs/challengeText_fr.json.diff)
-- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/9.0.1_2520463live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.0.1_2520463live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`recommendations.json`](versions/9.0.1_2520463live/diffs/recommendations.json.diff)
+- ~ [`GameConfigs.json`](versions/9.0.1_2520490live/diffs/GameConfigs.json.diff)
+- ~ [`challengeSets.json`](versions/9.0.1_2520490live/diffs/challengeSets.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.0.1_2520490live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`gameplayTunables.json`](versions/9.0.1_2520490live/diffs/gameplayTunables.json.diff)
 
 ## Browse
 
@@ -37,7 +35,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-66 versions tracked so far.
+67 versions tracked so far.
 
 ---
 

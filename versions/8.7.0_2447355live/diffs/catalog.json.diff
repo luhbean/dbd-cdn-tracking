@@ -1,0 +1,33 @@
+--- a/catalog.json
++++ b/catalog.json
+@@ -32787,6 +32787,12 @@
+       "item"
+     ],
+     "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 50
++      }
++    ],
+     "eventCostList": [],
+     "id": "DO_017",
+     "metaData": {
+@@ -267311,7 +267317,7 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
+-        "price": 70
++        "price": 120
+       }
+     ],
+     "id": "Recurring_Charm_Bundle_250513",
+@@ -267321,7 +267327,7 @@
+       "fullPrice": [
+         {
+           "currencyId": "Cells",
+-          "price": 70
++          "price": 120
+         }
+       ],
+       "hiddenIfOwned": false,

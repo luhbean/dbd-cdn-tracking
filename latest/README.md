@@ -1,16 +1,22 @@
-# Latest live content · 9.0.2_2635105live
+# Latest live content · 9.1.0_2636147live
 
-Built 2025-07-22 14:05 UTC · [what changed in this version](../versions/9.0.2_2635105live/CHANGES.md) · [← back](../README.md)
+Built 2025-07-22 17:29 UTC · [what changed in this version](../versions/9.1.0_2636147live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Game data (94)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (1)](#images) · [Game data (94)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
 - [`GameConfigs.json`](GameConfigs.json) — client game configuration
 - [`GameConfigsDS.json`](GameConfigsDS.json) — dedicated server configuration
 - [`dynamicContent/DynamicContent.json`](dynamicContent/DynamicContent.json) — the manifest of every file below
+
+## Images
+
+<p>
+<a href="images/T_UI_SpecialPack_Rift2.png"><img src="images/T_UI_SpecialPack_Rift2.png" alt="T_UI_SpecialPack_Rift2.png" title="T_UI_SpecialPack_Rift2.png" width="200"></a>
+</p>
 
 ## Game data
 

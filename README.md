@@ -2,18 +2,20 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.1.0_2658184live` · built 2025-07-31 14:59 UTC
+**Latest version:** `9.1.0_2660852live` · built 2025-08-01 14:07 UTC
 
-[What changed](versions/9.1.0_2658184live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.1.0_2660852live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **4** modified · **0** removed, compared with `9.1.0_2655894live`.
+**0** added · **6** modified · **0** removed, compared with `9.1.0_2658184live`.
 
-- ~ [`challengeLocs/challengeText_fr.json`](versions/9.1.0_2658184live/diffs/challengeLocs/challengeText_fr.json.diff)
-- ~ [`contentSchedule.json`](versions/9.1.0_2658184live/diffs/contentSchedule.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.0_2658184live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`itemsKillswitch.json`](versions/9.1.0_2658184live/diffs/itemsKillswitch.json.diff)
+- ~ [`archiveQuests/Tome07.json`](versions/9.1.0_2660852live/diffs/archiveQuests/Tome07.json.diff)
+- ~ [`archiveQuests/Tome08.json`](versions/9.1.0_2660852live/diffs/archiveQuests/Tome08.json.diff)
+- ~ [`catalog.json`](versions/9.1.0_2660852live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.1.0_2660852live/diffs/challengeSets.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.0_2660852live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_zh-Hans.json`](versions/9.1.0_2660852live/diffs/loadingText/specialEventsLoadingText_zh-Hans.json.diff)
 
 ## Browse
 
@@ -35,7 +37,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-114 versions tracked so far.
+115 versions tracked so far.
 
 ---
 

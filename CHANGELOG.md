@@ -2,6 +2,17 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.1.0_2660852live](versions/9.1.0_2660852live/CHANGES.md)
+
+Built 2025-08-01 14:07 UTC · **+0** added · **~6** modified · **−0** removed
+
+- ~ [`archiveQuests/Tome07.json`](versions/9.1.0_2660852live/diffs/archiveQuests/Tome07.json.diff)
+- ~ [`archiveQuests/Tome08.json`](versions/9.1.0_2660852live/diffs/archiveQuests/Tome08.json.diff)
+- ~ [`catalog.json`](versions/9.1.0_2660852live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.1.0_2660852live/diffs/challengeSets.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.0_2660852live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_zh-Hans.json`](versions/9.1.0_2660852live/diffs/loadingText/specialEventsLoadingText_zh-Hans.json.diff)
+
 ## [9.1.0_2658184live](versions/9.1.0_2658184live/CHANGES.md)
 
 Built 2025-07-31 14:59 UTC · **+0** added · **~4** modified · **−0** removed

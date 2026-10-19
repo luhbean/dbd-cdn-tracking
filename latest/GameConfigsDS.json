@@ -104,6 +104,13 @@
     "DDoSDetectionAnalytics": true
   },
   "disconnectionPenalty": {
+    "ReasonsWhichSendAnalyticsWhenDisabled": [
+      "leave_game",
+      "afk_killer",
+      "afk_survivor",
+      "invalid_ownership",
+      "go_next"
+    ],
     "reasons": [
       "leave_game",
       "afk_killer",

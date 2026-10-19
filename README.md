@@ -2,24 +2,23 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `8.2.0_2054297live` · built 2024-10-03 14:48 UTC
+**Latest version:** `8.3.1_2085946live` · built 2024-10-22 19:46 UTC
 
-[What changed](versions/8.2.0_2054297live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/8.3.1_2085946live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**7** added · **3** modified · **0** removed, compared with `8.1.0_1920500live`.
+**0** added · **2** modified · **7** removed, compared with `8.2.0_2054297live`.
 
-- ~ [`GameConfigs.json`](versions/8.2.0_2054297live/diffs/GameConfigs.json.diff)
-- ~ [`GameConfigsDS.json`](versions/8.2.0_2054297live/diffs/GameConfigsDS.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/8.2.0_2054297live/diffs/dynamicContent/DynamicContent.json.diff)
-- \+ [`images/T_UI_CollectionBanner_AutumnFashion.png`](versions/8.2.0_2054297live/images/T_UI_CollectionBanner_AutumnFashion.png)
-- \+ [`images/T_UI_CollectionBanner_Castlevania.png`](versions/8.2.0_2054297live/images/T_UI_CollectionBanner_Castlevania.png)
-- \+ [`images/T_UI_CollectionBanner_Chucky2.png`](versions/8.2.0_2054297live/images/T_UI_CollectionBanner_Chucky2.png)
-- \+ [`images/T_UI_CollectionBanner_Ghostface.png`](versions/8.2.0_2054297live/images/T_UI_CollectionBanner_Ghostface.png)
-- \+ [`images/T_UI_SpecialPack_DaysGoneBy.png`](versions/8.2.0_2054297live/images/T_UI_SpecialPack_DaysGoneBy.png)
-- \+ [`images/T_UI_SpecialPack_Dredge.png`](versions/8.2.0_2054297live/images/T_UI_SpecialPack_Dredge.png)
-- \+ [`images/T_UI_SpecialPack_Firemoon.png`](versions/8.2.0_2054297live/images/T_UI_SpecialPack_Firemoon.png)
+- ~ [`GameConfigs.json`](versions/8.3.1_2085946live/diffs/GameConfigs.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.3.1_2085946live/diffs/dynamicContent/DynamicContent.json.diff)
+- − `images/T_UI_CollectionBanner_AutumnFashion.png`
+- − `images/T_UI_CollectionBanner_Castlevania.png`
+- − `images/T_UI_CollectionBanner_Chucky2.png`
+- − `images/T_UI_CollectionBanner_Ghostface.png`
+- − `images/T_UI_SpecialPack_DaysGoneBy.png`
+- − `images/T_UI_SpecialPack_Dredge.png`
+- − `images/T_UI_SpecialPack_Firemoon.png`
 
 ## Browse
 
@@ -41,7 +40,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-10 versions tracked so far.
+11 versions tracked so far.
 
 ---
 

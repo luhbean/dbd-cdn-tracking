@@ -2,6 +2,20 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [8.3.1_2085946live](versions/8.3.1_2085946live/CHANGES.md)
+
+Built 2024-10-22 19:46 UTC · **+0** added · **~2** modified · **−7** removed
+
+- ~ [`GameConfigs.json`](versions/8.3.1_2085946live/diffs/GameConfigs.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.3.1_2085946live/diffs/dynamicContent/DynamicContent.json.diff)
+- − `images/T_UI_CollectionBanner_AutumnFashion.png`
+- − `images/T_UI_CollectionBanner_Castlevania.png`
+- − `images/T_UI_CollectionBanner_Chucky2.png`
+- − `images/T_UI_CollectionBanner_Ghostface.png`
+- − `images/T_UI_SpecialPack_DaysGoneBy.png`
+- − `images/T_UI_SpecialPack_Dredge.png`
+- − `images/T_UI_SpecialPack_Firemoon.png`
+
 ## [8.2.0_2054297live](versions/8.2.0_2054297live/CHANGES.md)
 
 Built 2024-10-03 14:48 UTC · **+7** added · **~3** modified · **−0** removed

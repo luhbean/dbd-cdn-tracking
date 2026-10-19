@@ -1,0 +1,58 @@
+--- a/GameConfigs.json
++++ b/GameConfigs.json
+@@ -4,7 +4,7 @@
+   "RTMTimeoutThreshold": -1.0,
+   "analytics": {
+     "autoflushFrequency": 60,
+-    "autoflushInGameFrequency": 60,
++    "autoflushInGameFrequency": 3600,
+     "detailedScoreTypeBlacklist": [
+       "GameEvent.Survivor.Enter.Tile",
+       "GameEvent.ScareACrow",
+@@ -821,7 +821,6 @@
+   "enableAntiMoveHack": true,
+   "enableBotsInCustomMatch": true,
+   "enableChallengeSystem": false,
+-  "enableConsoleSuspendSave": true,
+   "enableConsumableQueryFromKraken": true,
+   "enableContainerAgressiveMemorySaving": false,
+   "enableDSQuestsUpdate": true,
+@@ -839,7 +838,7 @@
+   "enableGetUpInteraction": true,
+   "enableHapticVibration": true,
+   "enableLimitRegressionEvents": true,
+-  "enableLobbyLeaveSave": true,
++  "enableLobbyKickPlayerForCharacterOwnership": false,
+   "enableLocalStartSnapping": true,
+   "enableMoriPreviewButton": true,
+   "enableNetAsyncLoading": true,
+@@ -849,7 +848,14 @@
+   "enablePostIISCinematic": true,
+   "enableRealtimeMoriPreview": true,
+   "enableSimulateMovementOptimization": [
+-    "switch"
++    "Switch",
++    "PS4",
++    "Steam",
++    "WinGDK",
++    "Xbox",
++    "PS5",
++    "Epic",
++    "XSX"
+   ],
+   "enableUmgStore": true,
+   "enableWinGDKAccountMismatchPopup": true,
+@@ -962,6 +968,13 @@
+       "possibleHangTime": 10.0,
+       "sourceName": "DBDGameMode",
+       "stepName": "WaitingForMutatorsComponentLogic",
++      "timeCapWithoutProgress": 1000.0
++    },
++    {
++      "hardcapTimeout": 15.0,
++      "possibleHangTime": 5.0,
++      "sourceName": "DBDGameMode",
++      "stepName": "WaitingForAIInitialization",
+       "timeCapWithoutProgress": 1000.0
+     },
+     {

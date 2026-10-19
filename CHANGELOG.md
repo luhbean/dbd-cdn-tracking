@@ -2,6 +2,29 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.0.1_2524801live](versions/9.0.1_2524801live/CHANGES.md)
+
+Built 2025-06-26 20:38 UTC · **+0** added · **~18** modified · **−0** removed
+
+- ~ [`challengeLocs/challengeText_de.json`](versions/9.0.1_2524801live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.0.1_2524801live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/9.0.1_2524801live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/9.0.1_2524801live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_ja.json`](versions/9.0.1_2524801live/diffs/challengeLocs/challengeText_ja.json.diff)
+- ~ [`challengeLocs/challengeText_ko.json`](versions/9.0.1_2524801live/diffs/challengeLocs/challengeText_ko.json.diff)
+- ~ [`challengeLocs/challengeText_pl.json`](versions/9.0.1_2524801live/diffs/challengeLocs/challengeText_pl.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.0.1_2524801live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_ru.json`](versions/9.0.1_2524801live/diffs/challengeLocs/challengeText_ru.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/9.0.1_2524801live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`challengeLocs/challengeText_tr.json`](versions/9.0.1_2524801live/diffs/challengeLocs/challengeText_tr.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/9.0.1_2524801live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.0.1_2524801live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_ko.json`](versions/9.0.1_2524801live/diffs/loadingText/specialEventsLoadingText_ko.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_pl.json`](versions/9.0.1_2524801live/diffs/loadingText/specialEventsLoadingText_pl.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_ru.json`](versions/9.0.1_2524801live/diffs/loadingText/specialEventsLoadingText_ru.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_tr.json`](versions/9.0.1_2524801live/diffs/loadingText/specialEventsLoadingText_tr.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_zh-Hant.json`](versions/9.0.1_2524801live/diffs/loadingText/specialEventsLoadingText_zh-Hant.json.diff)
+
 ## [9.0.1_2521013live](versions/9.0.1_2521013live/CHANGES.md)
 
 Built 2025-06-26 17:28 UTC · **+0** added · **~4** modified · **−0** removed

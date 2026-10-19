@@ -1,0 +1,988 @@
+{
+  "locText": [
+    {
+      "text": "Diário",
+      "textId": "CHALLENGESET_DailyTab_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_Daily_INFO",
+      "textId": "CHALLENGESET_Daily_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookOrUnhook_TITLE",
+      "textId": "CHALLENGE_HookOrUnhook_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookOrUnhook_DESC",
+      "textId": "CHALLENGE_HookOrUnhook_DESC"
+    },
+    {
+      "text": "Enganche {0} Sobrevivente(s)",
+      "textId": "CHALLENGE_Hook_INFO"
+    },
+    {
+      "text": "Desenganche {0} Sobrevivente(s) com segurança",
+      "textId": "CHALLENGE_Unhook_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HitOrHeal_TITLE",
+      "textId": "CHALLENGE_HitOrHeal_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HitOrHeal_DESC",
+      "textId": "CHALLENGE_HitOrHeal_DESC"
+    },
+    {
+      "text": "Acerte {0} ataque(s) básico(s)",
+      "textId": "CHALLENGE_Hit_INFO"
+    },
+    {
+      "text": "Cure um total de {0} estado(s) de saúde",
+      "textId": "CHALLENGE_Heal_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenOrGenSkillCheck_TITLE",
+      "textId": "CHALLENGE_BreakGenOrGenSkillCheck_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenOrGenSkillCheck_DESC",
+      "textId": "CHALLENGE_BreakGenOrGenSkillCheck_DESC"
+    },
+    {
+      "text": "Quebre {0} gerador(es)",
+      "textId": "CHALLENGE_BreakGen_INFO"
+    },
+    {
+      "text": "Conclua {0} teste(s) de perícia de gerador",
+      "textId": "CHALLENGE_GenSkillCheck_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_KillSurvivorOrRepairGens_TITLE",
+      "textId": "CHALLENGE_KillSurvivorOrRepairGens_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_KillSurvivorOrRepairGens_DESC",
+      "textId": "CHALLENGE_KillSurvivorOrRepairGens_DESC"
+    },
+    {
+      "text": "Mate {0} Sobrevivente(s)",
+      "textId": "CHALLENGE_Kill_INFO"
+    },
+    {
+      "text": "Repare um total de {0} gerador(es)",
+      "textId": "CHALLENGE_Repair_INFO"
+    },
+    {
+      "text": "Recompensas Ensanguentadas",
+      "textId": "CHALLENGE_EarnBloodpoints_TITLE"
+    },
+    {
+      "text": "@#CHALENGE_EarnBloodpoints_DESC",
+      "textId": "CHALENGE_EarnBloodpoints_DESC"
+    },
+    {
+      "text": "Obtenha {0} Pontos de Sangue",
+      "textId": "CHALENGE_EarnBloodpoints_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteTrial_TITLE",
+      "textId": "CHALLENGE_CompleteTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteTrial_DESC",
+      "textId": "CHALLENGE_CompleteTrial_DESC"
+    },
+    {
+      "text": "Complete {0} partida(s)",
+      "textId": "CHALLENGE_CompleteTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrBeChased_TITLE",
+      "textId": "CHALLENGE_ChaseOrBeChased_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrBeChased_DESC",
+      "textId": "CHALLENGE_ChaseOrBeChased_DESC"
+    },
+    {
+      "text": "Persiga por {0} s",
+      "textId": "CHALLENGE_Chase_INFO"
+    },
+    {
+      "text": "Seja perseguido por {0} s",
+      "textId": "CHALLENGE_BeChased_INFO"
+    },
+    {
+      "text": "MISSÕES DIÁRIAS",
+      "textId": "LIST_Daily_TITLE"
+    },
+    {
+      "text": "Modo 2x8",
+      "textId": "CHALLENGESET_CalamariJerky_TITLE"
+    },
+    {
+      "text": "Missões devem ser concluídas no Modo 2x8",
+      "textId": "CHALLENGESET_CalamariJerky_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests1_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests1_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_DESC"
+    },
+    {
+      "text": "Complete {0} missão(ões) do Modo 2x8",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests2_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests2_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_DESC"
+    },
+    {
+      "text": "Complete {0} missão(ões) do Modo 2x8",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests3_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests3_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_DESC"
+    },
+    {
+      "text": "Complete {0} missão(ões) do Modo 2x8",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PlayAsCharacterOrClass_TITLE",
+      "textId": "CHALLENGE_PlayAsCharacterOrClass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PlayAsCharacterOrClass_",
+      "textId": "CHALLENGE_PlayAsCharacterOrClass_"
+    },
+    {
+      "text": "Jogue como {1} por {0} partida(s)",
+      "textId": "CHALLENGE_PlayAsCharacter_INFO"
+    },
+    {
+      "text": "Jogue como {1} em {0} partida(s).",
+      "textId": "CHALLENGE_PlayAsClass_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_Crow_TITLE",
+      "textId": "CHALLENGE_Crow_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Crow_DESC",
+      "textId": "CHALLENGE_Crow_DESC"
+    },
+    {
+      "text": "Perturbe {0} corvo(s)",
+      "textId": "CHALLENGE_Crow_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE",
+      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_DESC",
+      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_DESC"
+    },
+    {
+      "text": "Quebre {0} barricada(s)",
+      "textId": "CHALLENGE_BreakPallets_INFO"
+    },
+    {
+      "text": "Derrube {0} barricada(s) durante uma perseguição",
+      "textId": "CHALLENGE_PalletDropInChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrSucceedHealSkillCheck_TITLE",
+      "textId": "CHALLENGE_DownOrSucceedHealSkillCheck_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrSucceedHealSkillCheck_DESC",
+      "textId": "CHALLENGE_DownOrSucceedHealSkillCheck_DESC"
+    },
+    {
+      "text": "Derrube {0} Sobrevivente(s)",
+      "textId": "CHALLENGE_Down_INFO"
+    },
+    {
+      "text": "Tenha sucesso em {0} testes de perícia enquanto cura um Sobrevivente.",
+      "textId": "CHALLENGE_SucceedHealSkillCheck_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrPlayAsClass_TITLE",
+      "textId": "CHALLENGE_ChaseOrPlayAsClass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrPlayAsClass_DESC",
+      "textId": "CHALLENGE_ChaseOrPlayAsClass_DESC"
+    },
+    {
+      "text": "Missões de Conclusão do Modo 2x8",
+      "textId": "LIST_Calamari_TITLE_1"
+    },
+    {
+      "text": "Missões do Modo 2x8 - Parte 1",
+      "textId": "LIST_Calamari_TITLE_2"
+    },
+    {
+      "text": "Missões do Modo 2x8 - Parte 2",
+      "textId": "LIST_Calamari_TITLE_3"
+    },
+    {
+      "text": "Missões do Modo 2x8 - Parte 3",
+      "textId": "LIST_Calamari_TITLE_4"
+    },
+    {
+      "text": "Mistura Caótica",
+      "textId": "CHALLENGESET_ChocolateBoxJerky_TITLE"
+    },
+    {
+      "text": "Missões devem ser concluídas na Mistura Caótica",
+      "textId": "CHALLENGESET_ChocolateBoxJerky_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests1_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests1_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_DESC"
+    },
+    {
+      "text": "Complete {0} missão(ões) da Mistura Caótica",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests2_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests2_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_DESC"
+    },
+    {
+      "text": "Complete {0} missão(ões) da Mistura Caótica",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests3_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests3_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_DESC"
+    },
+    {
+      "text": "Complete {0} missão(ões) da Mistura Caótica",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_INFO"
+    },
+    {
+      "text": "Reverente",
+      "textId": "CHALLENGE_Sacrifice_TITLE"
+    },
+    {
+      "text": "Sacrifique <b>{0} Sobrevivente(s)</b> à Entidade.",
+      "textId": "CHALLENGE_Sacrifice_DESC"
+    },
+    {
+      "text": "Sacrifique {0} Sobrevivente(s)",
+      "textId": "CHALLENGE_Sacrifice_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_Repair_TITLE",
+      "textId": "CHALLENGE_Repair_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Repair_DESC",
+      "textId": "CHALLENGE_Repair_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_Hit_TITLE",
+      "textId": "CHALLENGE_Hit_TITLE"
+    },
+    {
+      "text": "Os ataques básicos dos Assassinos não dependem do poder deles. São uma boa maneira de derrubar Sobreviventes.",
+      "textId": "CHALLENGE_Hit_DESC"
+    },
+    {
+      "text": "Artista da Fuga",
+      "textId": "CHALLENGE_Escape_TITLE"
+    },
+    {
+      "text": "Escape de <b>{0} partida(s)</b>.",
+      "textId": "CHALLENGE_Escape_DESC"
+    },
+    {
+      "text": "Escape de {0} partida(s)",
+      "textId": "CHALLENGE_Escape_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_EarnEmblemsGold_TITLE",
+      "textId": "CHALLENGE_EarnEmblemsGold_TITLE"
+    },
+    {
+      "text": "Obtenha {0} Emblemas de Ouro.",
+      "textId": "CHALLENGE_EarnEmblemsGold_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPallet_TITLE",
+      "textId": "CHALLENGE_BreakPallet_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPallet_DESC",
+      "textId": "CHALLENGE_BreakPallet_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_VaultInChase_TITLE",
+      "textId": "CHALLENGE_VaultInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_VaultInChase_DESC",
+      "textId": "CHALLENGE_VaultInChase_DESC"
+    },
+    {
+      "text": "Pule sobre um obstáculo {0} vez(es) em uma partida",
+      "textId": "CHALLENGE_VaultInChase_INFO"
+    },
+    {
+      "text": "Missões de Conclusão da Mistura Caótica",
+      "textId": "LIST_ChocolateBox_TITLE_1"
+    },
+    {
+      "text": "Missões da Mistura Caótica - Parte 1",
+      "textId": "LIST_ChocolateBox_TITLE_2"
+    },
+    {
+      "text": "Missões da Mistura Caótica - Parte 2",
+      "textId": "LIST_ChocolateBox_TITLE_3"
+    },
+    {
+      "text": "Missões da Mistura Caótica - Parte 3",
+      "textId": "LIST_ChocolateBox_TITLE_4"
+    },
+    {
+      "text": "Passe da Fenda",
+      "textId": "CHALLENGESET_BattlePass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_BattlePass_INFO",
+      "textId": "CHALLENGESET_BattlePass_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChallenges_TITLE",
+      "textId": "CHALLENGE_CompleteChallenges_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChallenges_DESC",
+      "textId": "CHALLENGE_CompleteChallenges_DESC"
+    },
+    {
+      "text": "Complete {0} missão(ões) esta semana",
+      "textId": "CHALLENGE_CompleteChallenges_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffSingleTrial_TITLE",
+      "textId": "CHALLENGE_HookDiffSingleTrial_TITLE"
+    },
+    {
+      "text": "Sobreviventes enganchados devem ser salvos por outros Sobreviventes, o que torna mais difícil para eles se concentrarem no conserto de geradores.",
+      "textId": "CHALLENGE_HookDiffSingleTrial_DESC"
+    },
+    {
+      "text": "Enganche {0} Sobreviventes diferentes numa única partida",
+      "textId": "CHALLENGE_HookDiffOneTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HideInTerrorRadius_TITLE",
+      "textId": "CHALLENGE_HideInTerrorRadius_TITLE"
+    },
+    {
+      "text": "Esconda-se no Raio de Terror por {0} s",
+      "textId": "CHALLENGE_HideInTerrorRadius_DESC"
+    },
+    {
+      "text": "Esconda-se dentro do Raio de Terror do Assassino sem ser pego por um total de {0} s.",
+      "textId": "CHALLENGE_HideInTerrorRadius_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CarryOrEscapeChase_TITLE",
+      "textId": "CHALLENGE_CarryOrEscapeChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CarryOrEscapeChase_DESC",
+      "textId": "CHALLENGE_CarryOrEscapeChase_DESC"
+    },
+    {
+      "text": "Carregue Sobreviventes por mais de {0} m",
+      "textId": "CHALLENGE_Carry_INFO"
+    },
+    {
+      "text": "Escape de {0} perseguição(ões)",
+      "textId": "CHALLENGE_EscapeChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivorOrBlindWhileCarry_TITLE",
+      "textId": "CHALLENGE_GrabSurvivorOrBlindWhileCarry_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivorOrBlindWhileCarry_DESC",
+      "textId": "CHALLENGE_GrabSurvivorOrBlindWhileCarry_DESC"
+    },
+    {
+      "text": "Interrompa e agarre {0} Sobrevivente(s)",
+      "textId": "CHALLENGE_GrabSurvivor_INFO"
+    },
+    {
+      "text": "Cegue o Assassino enquanto ele estiver carregando um Sobrevivente {0} vez(es)",
+      "textId": "CHALLENGE_BlindCarry_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_RevealSurvivorAura_TITLE",
+      "textId": "CHALLENGE_RevealSurvivorAura_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_RevealSurvivorAura_DESC",
+      "textId": "CHALLENGE_RevealSurvivorAura_DESC"
+    },
+    {
+      "text": "Revele as auras dos Sobreviventes por {0} s",
+      "textId": "CHALLENGE_RevealSurvivorAurasForDuration_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GenSkillCheckSingleTrial_TITLE",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GenSkillCheckSingleTrial_DESC",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_DESC"
+    },
+    {
+      "text": "Obtenha sucesso em {0} teste(s) de perícia enquanto trabalha em um gerador numa só partida",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_MoriOrPalletStun_TITLE",
+      "textId": "CHALLENGE_MoriOrPalletStun_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_MoriOrPalletStun_DESC",
+      "textId": "CHALLENGE_MoriOrPalletStun_DESC"
+    },
+    {
+      "text": "Mate {0} Sobrevivente(s) com as mãos",
+      "textId": "CHALLENGE_Mori_INFO"
+    },
+    {
+      "text": "Atordoe {0} Assassino(s) com barricadas",
+      "textId": "CHALLENGE_PalletStun_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ScourgeHook_TITLE",
+      "textId": "CHALLENGE_ScourgeHook_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ScourgeHook_DESC",
+      "textId": "CHALLENGE_ScourgeHook_DESC"
+    },
+    {
+      "text": "Enganche {0} Sobrevivente(s) em Ganchos do Tormento",
+      "textId": "CHALLENGE_ScourgeHook_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrConsumeMed_TITLE",
+      "textId": "CHALLENGE_DownOrConsumeMed_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrConsumeMed_DESC",
+      "textId": "CHALLENGE_DownOrConsumeMed_DESC"
+    },
+    {
+      "text": "Esgote {0} Kit(s) Médico(s)",
+      "textId": "CHALLENGE_ConsumeMedkit_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGen_TITLE",
+      "textId": "CHALLENGE_BreakGen_TITLE"
+    },
+    {
+      "text": "Danifique geradores que estão parcialmente reparados para reduzir seu progresso.",
+      "textId": "CHALLENGE_BreakGen_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_CoopAction_TITLE",
+      "textId": "CHALLENGE_CoopAction_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CoopAction_DESC",
+      "textId": "CHALLENGE_CoopAction_DESC"
+    },
+    {
+      "text": "Realize ações cooperativas por um total de {0} s",
+      "textId": "CHALLENGE_CoopAction_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HitAuraTimeOrEscapeRare_TITLE",
+      "textId": "CHALLENGE_HitAuraTimeOrEscapeRare_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HitAuraTimeOrEscapeRare_DESC",
+      "textId": "CHALLENGE_HitAuraTimeOrEscapeRare_DESC"
+    },
+    {
+      "text": "Acerte {0} Sobrevivente(s) dentro de 10 s após revelar suas auras",
+      "textId": "CHALLENGE_HitAura_INFO"
+    },
+    {
+      "text": "Fuja de {0} partida com um item Raro ou melhor",
+      "textId": "CHALLENGE_EscapeRare_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivor_TITLE",
+      "textId": "CHALLENGE_GrabSurvivor_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivor_DESC",
+      "textId": "CHALLENGE_GrabSurvivor_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeToolBox_TITLE",
+      "textId": "CHALLENGE_ConsumeToolBox_TITLE"
+    },
+    {
+      "text": "Caixa de ferramentas que ajuda a reparar geradores mais rápido.",
+      "textId": "CHALLENGE_ConsumeToolBox_DESC"
+    },
+    {
+      "text": "Esgote {0} caixa(s) de ferramentas",
+      "textId": "CHALLENGE_ConsumeToolBox_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_FinishNoGateEscapeOrEscape_TITLE",
+      "textId": "CHALLENGE_FinishNoGateEscapeOrEscape_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_FinishNoGateEscapeOrEscape_DESC",
+      "textId": "CHALLENGE_FinishNoGateEscapeOrEscape_DESC"
+    },
+    {
+      "text": "Termine {0} partida(s) sem que nenhum Sobrevivente fuja pelos portões de saída",
+      "textId": "CHALLENGE_FinishNoGateEscape_INFO"
+    },
+    {
+      "text": "Perseguição Letal",
+      "textId": "CHALLENGE_Chase_TITLE"
+    },
+    {
+      "text": "Persiga os Sobreviventes por um total de <b>{0} s</b>.",
+      "textId": "CHALLENGE_Chase_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BeChased_TITLE",
+      "textId": "CHALLENGE_BeChased_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BeChased_DESC",
+      "textId": "CHALLENGE_BeChased_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_Kill_TITLE",
+      "textId": "CHALLENGE_Kill_TITLE"
+    },
+    {
+      "text": "Após ser derrubado, você pode matar o último Sobrevivente em uma partida sem enganchá-lo.",
+      "textId": "CHALLENGE_Kill_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_EarnEmblemsSilver_TITLE",
+      "textId": "CHALLENGE_EarnEmblemsSilver_TITLE"
+    },
+    {
+      "text": "Obtenha {0} Emblema(s) de Prata",
+      "textId": "CHALLENGE_EarnEmblemsSilver_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_TITLE",
+      "textId": "CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_DESC",
+      "textId": "CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_DESC"
+    },
+    {
+      "text": "Enganche {0} Sobrevivente(s) numa só partida",
+      "textId": "CHALLENGE_HookSingleTrial_INFO"
+    },
+    {
+      "text": "Seja perseguido por {0} s em uma única partida",
+      "textId": "CHALLENGE_BeChasedSingleTrial_INFO"
+    },
+    {
+      "text": "Vitalizador",
+      "textId": "CHALLENGE_Heal_TITLE"
+    },
+    {
+      "text": "Cure um total de <b>{0} estado(s) de saúde</b>.",
+      "textId": "CHALLENGE_Heal_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletOrClenseTotems_TITLE",
+      "textId": "CHALLENGE_BreakPalletOrClenseTotems_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletOrClenseTotems_DESC",
+      "textId": "CHALLENGE_BreakPalletOrClenseTotems_DESC"
+    },
+    {
+      "text": "Purifique {0} Totem(ns)",
+      "textId": "CHALLENGE_CleanseTotem_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_TITLE",
+      "textId": "CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_DESC",
+      "textId": "CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_DESC"
+    },
+    {
+      "text": "Quebre {0} gerador(es) numa só partida",
+      "textId": "CHALLENGE_BreakGenSingleTrial_INFO"
+    },
+    {
+      "text": "Entre em um armário {0} vez(es) para escapar de uma perseguição ou dentro de 5 s após escapar de uma perseguição numa só partida",
+      "textId": "CHALLENGE_EscapeChaseLockerSingleTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BlindCarry_TITLE",
+      "textId": "CHALLENGE_BlindCarry_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BlindCarry_DESC",
+      "textId": "CHALLENGE_BlindCarry_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_DownNearPalletsOrReviveDying_TITLE",
+      "textId": "CHALLENGE_DownNearPalletsOrReviveDying_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownNearPalletsOrReviveDying_DESC",
+      "textId": "CHALLENGE_DownNearPalletsOrReviveDying_DESC"
+    },
+    {
+      "text": "Derrube {0} Sobrevivente(s) perto de uma barricada",
+      "textId": "CHALLENGE_DownNearPallet_INFO"
+    },
+    {
+      "text": "Cure {0} Sobrevivente(s) do estado Morrendo",
+      "textId": "CHALLENGE_ReviveDying_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_TITLE",
+      "textId": "CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_DESC",
+      "textId": "CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_DESC"
+    },
+    {
+      "text": "Caia durante uma perseguição {0} vez(es) numa só partida",
+      "textId": "CHALLENGE_FallInChaseOneTrial_INFO"
+    },
+    {
+      "text": "Nocaute",
+      "textId": "CHALLENGE_Down_TITLE"
+    },
+    {
+      "text": "Derrube <b>{0} Sobrevivente(s)</b>.",
+      "textId": "CHALLENGE_Down_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeMedkit_TITLE",
+      "textId": "CHALLENGE_ConsumeMedkit_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeMedkit_DESC",
+      "textId": "CHALLENGE_ConsumeMedkit_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteRiftQuests_TITLE",
+      "textId": "CHALLENGE_CompleteRiftQuests_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteRiftQuests_DESC",
+      "textId": "CHALLENGE_CompleteRiftQuests_DESC"
+    },
+    {
+      "text": "Complete {0} missão(ões) do Passe da Fenda",
+      "textId": "CHALLENGE_CompleteRiftQuests_INFO"
+    },
+    {
+      "text": "Missões do Passe da Fenda - Semana 1",
+      "textId": "LIST_BattlePass_TITLE_1"
+    },
+    {
+      "text": "Missões do Passe da Fenda - Semana 2",
+      "textId": "LIST_BattlePass_TITLE_2"
+    },
+    {
+      "text": "Missões do Passe da Fenda - Semana 3",
+      "textId": "LIST_BattlePass_TITLE_3"
+    },
+    {
+      "text": "Missões do Passe da Fenda - Semana 4",
+      "textId": "LIST_BattlePass_TITLE_4"
+    },
+    {
+      "text": "Missões do Passe da Fenda - Semana 5",
+      "textId": "LIST_BattlePass_TITLE_5"
+    },
+    {
+      "text": "Missões do Passe da Fenda - Semana 6",
+      "textId": "LIST_BattlePass_TITLE_6"
+    },
+    {
+      "text": "Missões do Passe da Fenda - Semana 7",
+      "textId": "LIST_BattlePass_TITLE_7"
+    },
+    {
+      "text": "Missões do Passe da Fenda - Semana 8",
+      "textId": "LIST_BattlePass_TITLE_8"
+    },
+    {
+      "text": "Missões do Passe da Fenda - Semana 9",
+      "textId": "LIST_BattlePass_TITLE_9"
+    },
+    {
+      "text": "Missões do Passe da Fenda - Semana 10",
+      "textId": "LIST_BattlePass_TITLE_10"
+    },
+    {
+      "text": "Missões do Passe da Fenda - Semana 11",
+      "textId": "LIST_BattlePass_TITLE_11"
+    },
+    {
+      "text": "Missões do Passe da Fenda - Semana 12",
+      "textId": "LIST_BattlePass_TITLE_12"
+    },
+    {
+      "text": "Missões de Conclusão do Passe da Fenda",
+      "textId": "LIST_BattlePass_TITLE_0"
+    },
+    {
+      "text": "Meta",
+      "textId": "CHALLENGESET_Milestone_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_Milestone_INFO",
+      "textId": "CHALLENGESET_Milestone_INFO"
+    },
+    {
+      "text": "Macabro",
+      "textId": "CHALLENGE_Hook_TITLE"
+    },
+    {
+      "text": "Enganche <b>{0} Sobrevivente(s)</b>.",
+      "textId": "CHALLENGE_Hook_DESC"
+    },
+    {
+      "text": "Missões de Meta",
+      "textId": "LIST_Milestone_TITLE"
+    },
+    {
+      "text": "BAILE DE MÁSCARAS MACABRO",
+      "textId": "CHALLENGESET_AnniversaryKetchupSet_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_AnniversaryKetchupSet__INFO",
+      "textId": "CHALLENGESET_AnniversaryKetchupSet__INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeQuests_TITLE",
+      "textId": "CHALLENGE_CompleteModeQuests_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeQuests_DESC",
+      "textId": "CHALLENGE_CompleteModeQuests_DESC"
+    },
+    {
+      "text": "Complete {0} missão(ões) de {1}",
+      "textId": "CHALLENGE_CompleteModeQuests_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeTrial_TITLE",
+      "textId": "CHALLENGE_CompleteModeTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeTrial_DESC",
+      "textId": "CHALLENGE_CompleteModeTrial_DESC"
+    },
+    {
+      "text": "Complete {0} partida(s) de {1}",
+      "textId": "CHALLENGE_CompleteModeTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CollectInvitation_TITLE",
+      "textId": "CHALLENGE_CollectInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CollectInvitation_DESC",
+      "textId": "CHALLENGE_CollectInvitation_DESC"
+    },
+    {
+      "text": "Colete um Convite das Pilastras do Baile {0} vez(es)",
+      "textId": "CHALLENGE_CollectInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbility_TITLE",
+      "textId": "CHALLENGE_AnyInvitationAbility_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbility_DESC",
+      "textId": "CHALLENGE_AnyInvitationAbility_DESC"
+    },
+    {
+      "text": "Ative qualquer habilidade do Convite {0} vez(es)",
+      "textId": "CHALLENGE_AnyInvitationAbility_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PalletBreakInvitation_TITLE",
+      "textId": "CHALLENGE_PalletBreakInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PalletBreakInvitation_DESC",
+      "textId": "CHALLENGE_PalletBreakInvitation_DESC"
+    },
+    {
+      "text": "Ative o Convite para quebrar uma barricada ou parede destrutível {0} vez(es)",
+      "textId": "CHALLENGE_PalletBreakInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PalletSummonInvitation_TITLE",
+      "textId": "CHALLENGE_PalletSummonInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PalletSummonInvitation_DESC",
+      "textId": "CHALLENGE_PalletSummonInvitation_DESC"
+    },
+    {
+      "text": "Ative o Convite para fazer surgir uma barricada de grupo {0} vez(es)",
+      "textId": "CHALLENGE_PalletSummonInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_OutlastNumberOfEffects_TITLE",
+      "textId": "CHALLENGE_OutlastNumberOfEffects_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_OutlastNumberOfEffects_DESC",
+      "textId": "CHALLENGE_OutlastNumberOfEffects_DESC"
+    },
+    {
+      "text": "Experimente efeitos dos Truques da Tryks {0} vez(es)",
+      "textId": "CHALLENGE_OutlastNumberOfEffects_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_RemoteHookInvitation_TITLE",
+      "textId": "CHALLENGE_RemoteHookInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_RemoteHookInvitation_DESC",
+      "textId": "CHALLENGE_RemoteHookInvitation_DESC"
+    },
+    {
+      "text": "Use o poder do Convite para enganchar um Sobrevivente de forma remota {0} vez(es)",
+      "textId": "CHALLENGE_RemoteHookInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_VaultBlockInvitation_TITLE",
+      "textId": "CHALLENGE_VaultBlockInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_VaultBlockInvitation_DESC",
+      "textId": "CHALLENGE_VaultBlockInvitation_DESC"
+    },
+    {
+      "text": "Durante uma perseguição, ative o Convite para impedir o Assassino de pular por janelas {0} vez(es)",
+      "textId": "CHALLENGE_VaultBlockInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityInChase_TITLE",
+      "textId": "CHALLENGE_AnyInvitationAbilityInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityInChase_DESC",
+      "textId": "CHALLENGE_AnyInvitationAbilityInChase_DESC"
+    },
+    {
+      "text": "Durante uma perseguição, ative qualquer habilidade do Convite {0} vez(es)",
+      "textId": "CHALLENGE_AnyInvitationAbilityInChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityOutOfChase_TITLE",
+      "textId": "CHALLENGE_AnyInvitationAbilityOutOfChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityOutOfChase_DESC",
+      "textId": "CHALLENGE_AnyInvitationAbilityOutOfChase_DESC"
+    },
+    {
+      "text": "Enquanto não estiver em uma perseguição, ative qualquer habilidade do Convite {0} vez(es)",
+      "textId": "CHALLENGE_AnyInvitationAbilityOutOfChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_NegateStunInvitation_TITLE",
+      "textId": "CHALLENGE_NegateStunInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_NegateStunInvitation_DESC",
+      "textId": "CHALLENGE_NegateStunInvitation_DESC"
+    },
+    {
+      "text": "Durante uma perseguição, ative o Convite para suportar qualquer atordoamento {0} vez(es)",
+      "textId": "CHALLENGE_NegateStunInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_QuietModeInvitation_TITLE",
+      "textId": "CHALLENGE_QuietModeInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_QuietModeInvitation_DESC",
+      "textId": "CHALLENGE_QuietModeInvitation_DESC"
+    },
+    {
+      "text": "Reduza as suas quedas, Gemidos de Dor e/ou Poças de Sangue usando o poder do Convite {0} vez(es)",
+      "textId": "CHALLENGE_QuietModeInvitation_INFO"
+    },
+    {
+      "text": "Missões de Conclusão do Baile de Máscaras Macabro\\n",
+      "textId": "LIST_Anniversary_TITLE_1"
+    },
+    {
+      "text": "Missões do Baile de Máscaras Macabro - Parte 1",
+      "textId": "LIST_Anniversary_TITLE_2"
+    },
+    {
+      "text": "Missões do Baile de Máscaras Macabro - Parte 2",
+      "textId": "LIST_Anniversary_TITLE_3"
+    },
+    {
+      "text": "Missões do Baile de Máscaras Macabro - Parte 3",
+      "textId": "LIST_Anniversary_TITLE_4"
+    },
+    {
+      "text": "Missões do Baile de Máscaras Macabro - Parte 4",
+      "textId": "LIST_Anniversary_TITLE_5"
+    }
+  ]
+}

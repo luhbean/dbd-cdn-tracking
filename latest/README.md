@@ -1,10 +1,10 @@
-# Latest live content · 9.1.0_2662773live
+# Latest live content · 9.1.0_2663963live
 
-Built 2025-08-04 17:11 UTC · [what changed in this version](../versions/9.1.0_2662773live/CHANGES.md) · [← back](../README.md)
+Built 2025-08-05 14:28 UTC · [what changed in this version](../versions/9.1.0_2663963live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (7)](#images) · [Game data (94)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (8)](#images) · [Game data (94)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -15,6 +15,7 @@ This folder always holds the newest version. Its commit history shows every chan
 ## Images
 
 <p>
+<a href="images/T_UI_CollectionBanner_TombRaider_2.png"><img src="images/T_UI_CollectionBanner_TombRaider_2.png" alt="T_UI_CollectionBanner_TombRaider_2.png" title="T_UI_CollectionBanner_TombRaider_2.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_Rift2.png"><img src="images/T_UI_SpecialPack_Rift2.png" alt="T_UI_SpecialPack_Rift2.png" title="T_UI_SpecialPack_Rift2.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_TombRaider_2.png"><img src="images/T_UI_SpecialPack_TombRaider_2.png" alt="T_UI_SpecialPack_TombRaider_2.png" title="T_UI_SpecialPack_TombRaider_2.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_GenQuest1.png"><img src="images/T_UI_Tutorial_ImageBG_GenQuest1.png" alt="T_UI_Tutorial_ImageBG_GenQuest1.png" title="T_UI_Tutorial_ImageBG_GenQuest1.png" width="200"></a>

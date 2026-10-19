@@ -2,6 +2,25 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.1.0_2670116live](versions/9.1.0_2670116live/CHANGES.md)
+
+Built 2025-08-08 14:47 UTC · **+3** added · **~10** modified · **−1** removed
+
+- ~ [`catalog.json`](versions/9.1.0_2670116live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_de.json`](versions/9.1.0_2670116live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.1.0_2670116live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/9.1.0_2670116live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_fr.json`](versions/9.1.0_2670116live/diffs/challengeLocs/challengeText_fr.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/9.1.0_2670116live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.1.0_2670116live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/9.1.0_2670116live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`collections.json`](versions/9.1.0_2670116live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.0_2670116live/diffs/dynamicContent/DynamicContent.json.diff)
+- \+ [`images/T_UI_CollectionBanner_TombRaider_2.png`](versions/9.1.0_2670116live/images/T_UI_CollectionBanner_TombRaider_2.png)
+- \+ [`images/T_UI_SpecialPack_Rift2.png`](versions/9.1.0_2670116live/images/T_UI_SpecialPack_Rift2.png)
+- \+ [`images/T_UI_SpecialPack_TombRaider_2.png`](versions/9.1.0_2670116live/images/T_UI_SpecialPack_TombRaider_2.png)
+- − `images/T_UI_CollectionBanner_CounterCulture.png`
+
 ## [9.1.1_2667139live](versions/9.1.1_2667139live/CHANGES.md)
 
 Built 2025-08-06 15:16 UTC · **+1** added · **~4** modified · **−3** removed

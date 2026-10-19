@@ -2,35 +2,28 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.0.0_2504249live` · built 2025-06-13 14:39 UTC
+**Latest version:** `9.0.0_2506295live` · built 2025-06-16 14:14 UTC
 
-[What changed](versions/9.0.0_2504249live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.0.0_2506295live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **46** modified · **0** removed, compared with `8.7.2_2502161live`.
+**0** added · **14** modified · **0** removed, compared with `9.0.0_2504249live`.
 
-- ~ [`GameConfigs.json`](versions/9.0.0_2504249live/diffs/GameConfigs.json.diff)
-- ~ [`GameConfigsDS.json`](versions/9.0.0_2504249live/diffs/GameConfigsDS.json.diff)
-- ~ [`bloodwebGenerationRules.json`](versions/9.0.0_2504249live/diffs/bloodwebGenerationRules.json.diff)
-- ~ [`catalog.json`](versions/9.0.0_2504249live/diffs/catalog.json.diff)
-- ~ [`challengeLocs/challengeText_de.json`](versions/9.0.0_2504249live/diffs/challengeLocs/challengeText_de.json.diff)
-- ~ [`challengeLocs/challengeText_en.json`](versions/9.0.0_2504249live/diffs/challengeLocs/challengeText_en.json.diff)
-- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.0.0_2504249live/diffs/challengeLocs/challengeText_es-MX.json.diff)
-- ~ [`challengeLocs/challengeText_es.json`](versions/9.0.0_2504249live/diffs/challengeLocs/challengeText_es.json.diff)
-- ~ [`challengeLocs/challengeText_fr.json`](versions/9.0.0_2504249live/diffs/challengeLocs/challengeText_fr.json.diff)
-- ~ [`challengeLocs/challengeText_it.json`](versions/9.0.0_2504249live/diffs/challengeLocs/challengeText_it.json.diff)
-- ~ [`challengeLocs/challengeText_ja.json`](versions/9.0.0_2504249live/diffs/challengeLocs/challengeText_ja.json.diff)
-- ~ [`challengeLocs/challengeText_ko.json`](versions/9.0.0_2504249live/diffs/challengeLocs/challengeText_ko.json.diff)
-- ~ [`challengeLocs/challengeText_pl.json`](versions/9.0.0_2504249live/diffs/challengeLocs/challengeText_pl.json.diff)
-- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.0.0_2504249live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
-- ~ [`challengeLocs/challengeText_ru.json`](versions/9.0.0_2504249live/diffs/challengeLocs/challengeText_ru.json.diff)
-- ~ [`challengeLocs/challengeText_th.json`](versions/9.0.0_2504249live/diffs/challengeLocs/challengeText_th.json.diff)
-- ~ [`challengeLocs/challengeText_tr.json`](versions/9.0.0_2504249live/diffs/challengeLocs/challengeText_tr.json.diff)
-- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/9.0.0_2504249live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
-- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/9.0.0_2504249live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
-- ~ [`challengeSets.json`](versions/9.0.0_2504249live/diffs/challengeSets.json.diff)
-- … and 26 more in [CHANGES.md](versions/9.0.0_2504249live/CHANGES.md)
+- ~ [`catalog.json`](versions/9.0.0_2506295live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/9.0.0_2506295live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.0.0_2506295live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_de.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_de.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_es-MX.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_es-MX.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_es.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_es.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_it.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_it.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_ko.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_ko.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_pl.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_pl.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_pt-BR.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_pt-BR.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_ru.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_ru.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_th.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_th.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_tr.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_tr.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_zh-Hant.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_zh-Hant.json.diff)
 
 ## Browse
 
@@ -52,7 +45,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-51 versions tracked so far.
+52 versions tracked so far.
 
 ---
 

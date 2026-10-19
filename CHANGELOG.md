@@ -2,6 +2,25 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.0.0_2506295live](versions/9.0.0_2506295live/CHANGES.md)
+
+Built 2025-06-16 14:14 UTC · **+0** added · **~14** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/9.0.0_2506295live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/9.0.0_2506295live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.0.0_2506295live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_de.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_de.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_es-MX.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_es-MX.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_es.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_es.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_it.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_it.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_ko.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_ko.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_pl.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_pl.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_pt-BR.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_pt-BR.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_ru.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_ru.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_th.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_th.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_tr.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_tr.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_zh-Hant.json`](versions/9.0.0_2506295live/diffs/loadingText/specialEventsLoadingText_zh-Hant.json.diff)
+
 ## [9.0.0_2504249live](versions/9.0.0_2504249live/CHANGES.md)
 
 Built 2025-06-13 14:39 UTC · **+0** added · **~46** modified · **−0** removed

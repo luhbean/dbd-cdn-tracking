@@ -1,0 +1,1216 @@
+{
+  "Spring2024": {
+    "level": [
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_SPR2024_L1_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 10,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "AP_007",
+            "type": "inventory"
+          },
+          {
+            "amount": 100,
+            "id": "SpringEventCurrency",
+            "type": "currency"
+          }
+        ],
+        "nodes": {
+          "node_SPR2024_L1_01": {
+            "clientInfoId": "SpringEventRepairFinish",
+            "coordinates": {
+              "x": 50.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_SPR2024_L1_06",
+              "node_SPR2024_L1_10",
+              "node_SPR2024_L1_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "SpringEventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EventGeneratorRepaired",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L1_02": {
+            "clientInfoId": "SpringEventHook",
+            "coordinates": {
+              "x": 60.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_SPR2024_L1_04",
+              "node_SPR2024_L1_05",
+              "node_SPR2024_L1_09"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "SpringEventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookedOnEventHook",
+                    "repetition": 4
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L1_03": {
+            "clientInfoId": "SpringEventGainCharge",
+            "coordinates": {
+              "x": 25.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_SPR2024_L1_Start01",
+              "node_SPR2024_L1_01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventGainCharge": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "SpringEventGainCharge",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SpringEventGainCharge",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L1_04": {
+            "clientInfoId": "SpringEventPlaceZone",
+            "coordinates": {
+              "x": 35.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_SPR2024_L1_02",
+              "node_SPR2024_L1_Start01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventPlaceZone": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "SpringEventPlaceZone",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SpringEventPlaceZone",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L1_05": {
+            "clientInfoId": "SpringEventStealChargeKiller",
+            "coordinates": {
+              "x": 30.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_SPR2024_L1_02",
+              "node_SPR2024_L1_Reward01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventStealChargeKiller": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "SpringEventStealChargeKiller",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SpringEventStealCharge",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L1_06": {
+            "clientInfoId": "SpringEventStealChargeSurvivor",
+            "coordinates": {
+              "x": 30.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_SPR2024_L1_01",
+              "node_SPR2024_L1_Reward01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventStealChargeSurvivor": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "SpringEventStealChargeSurvivor",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SpringEventStealCharge",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L1_07": {
+            "clientInfoId": "SpringEventHitInZone",
+            "coordinates": {
+              "x": 55.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_SPR2024_L1_Reward02",
+              "node_SPR2024_L1_09"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventHitInZone": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "SpringEventHitInZone",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SpringEventHitInZone",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L1_08": {
+            "clientInfoId": "SpringEventHideInTerrorRadiusInZone",
+            "coordinates": {
+              "x": 45.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_SPR2024_L1_Reward02",
+              "node_SPR2024_L1_10"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventHideInTerrorRadiusInZone": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 20,
+                "objectiveId": "SpringEventHideInTerrorRadiusInZone",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SpringEventHideInTerrorRadiusInZone",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L1_09": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 75.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_SPR2024_L1_02",
+              "node_SPR2024_L1_End01",
+              "node_SPR2024_L1_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpoints": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 50000,
+                "objectiveId": "EarnBloodpoints",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L1_10": {
+            "clientInfoId": "EarnEmblemsGold",
+            "coordinates": {
+              "x": 65.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_SPR2024_L1_01",
+              "node_SPR2024_L1_End01",
+              "node_SPR2024_L1_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsGold": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "EarnEmblemsGold",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Gold",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L1_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 85.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_SPR2024_L1_10",
+              "node_SPR2024_L1_09"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_SPR2024_L1_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 50.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_SPR2024_L1_06",
+              "node_SPR2024_L1_05"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 50,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L1_Reward02": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 70.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_SPR2024_L1_07",
+              "node_SPR2024_L1_08"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 50,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L1_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 15.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_SPR2024_L1_03",
+              "node_SPR2024_L1_04"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_SPR2024_L1_Start01"
+        ],
+        "startDate": "2024-03-18T15:00:00",
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      },
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_SPR2024_L2_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 1,
+            "id": "SwedenKiller_Mask021",
+            "type": "inventory"
+          },
+          {
+            "amount": 1,
+            "id": "S24_Head021",
+            "type": "inventory"
+          },
+          {
+            "amount": 200,
+            "id": "SpringEventCurrency",
+            "type": "currency"
+          }
+        ],
+        "nodes": {
+          "node_SPR2024_L2_01": {
+            "clientInfoId": "SpringEventRepairFinish",
+            "coordinates": {
+              "x": 30.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_SPR2024_L2_Start01",
+              "node_SPR2024_L2_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "SpringEventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EventGeneratorRepaired",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L2_02": {
+            "clientInfoId": "SpringEventHook",
+            "coordinates": {
+              "x": 20.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_SPR2024_L2_Start01",
+              "node_SPR2024_L2_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 6,
+                "objectiveId": "SpringEventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookedOnEventHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L2_03": {
+            "clientInfoId": "SpringEventGainCharge",
+            "coordinates": {
+              "x": 25.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_SPR2024_L2_02",
+              "node_SPR2024_L2_04",
+              "node_SPR2024_L2_01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventGainCharge": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "SpringEventGainCharge",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SpringEventGainCharge",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L2_04": {
+            "clientInfoId": "SpringEventPlaceZone",
+            "coordinates": {
+              "x": 40.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_SPR2024_L2_03",
+              "node_SPR2024_L2_05",
+              "node_SPR2024_L2_06",
+              "node_SPR2024_L2_09"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventPlaceZone": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "SpringEventPlaceZone",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SpringEventPlaceZone",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L2_05": {
+            "clientInfoId": "SpringEventStealChargeKiller",
+            "coordinates": {
+              "x": 30.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_SPR2024_L2_04",
+              "node_SPR2024_L2_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventStealChargeKiller": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "SpringEventStealChargeKiller",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SpringEventStealCharge",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L2_06": {
+            "clientInfoId": "SpringEventStealChargeSurvivor",
+            "coordinates": {
+              "x": 40.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_SPR2024_L2_04",
+              "node_SPR2024_L2_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventStealChargeSurvivor": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "SpringEventStealChargeSurvivor",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SpringEventStealCharge",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L2_07": {
+            "clientInfoId": "SpringEventHitInZone",
+            "coordinates": {
+              "x": 50.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_SPR2024_L2_05",
+              "node_SPR2024_L2_11"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventHitInZone": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "SpringEventHitInZone",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SpringEventHitInZone",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L2_08": {
+            "clientInfoId": "SpringEventHideInTerrorRadiusInZone",
+            "coordinates": {
+              "x": 75.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_SPR2024_L2_06",
+              "node_SPR2024_L2_11"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SpringEventHideInTerrorRadiusInZone": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 40,
+                "objectiveId": "SpringEventHideInTerrorRadiusInZone",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SpringEventHideInTerrorRadiusInZone",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L2_09": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 55.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_SPR2024_L2_04",
+              "node_SPR2024_L2_11"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpoints": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 75000,
+                "objectiveId": "EarnBloodpoints",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L2_10": {
+            "clientInfoId": "EarnEmblemsIridescent",
+            "coordinates": {
+              "x": 80.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_SPR2024_L2_End01",
+              "node_SPR2024_L2_11"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsIridescent": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "EarnEmblemsIridescent",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Iridescent",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L2_11": {
+            "clientInfoId": "UnhookOrHook",
+            "coordinates": {
+              "x": 60.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_SPR2024_L2_09",
+              "node_SPR2024_L2_07",
+              "node_SPR2024_L2_08",
+              "node_SPR2024_L2_10"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "UnhookOrHook": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 8,
+                "objectiveId": "UnhookOrHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.UnhookOrHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "SpringEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_SPR2024_L2_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 85.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_SPR2024_L2_10"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_SPR2024_L2_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 10.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_SPR2024_L2_01",
+              "node_SPR2024_L2_02"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_SPR2024_L2_Start01"
+        ],
+        "startDate": "2024-03-25T15:00:00",
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      }
+    ],
+    "newTomePopup": false,
+    "riftId": "Tome18",
+    "specialEventId": "Spring2024"
+  }
+}

@@ -1,14 +1,50 @@
-# Latest live content · 8.3.2_2182351live
+# Latest live content · 8.4.2_2231971live
 
-Built 2024-11-27 22:36 UTC · [what changed in this version](../versions/8.3.2_2182351live/CHANGES.md) · [← back](../README.md)
+Built 2025-01-21 20:32 UTC · [what changed in this version](../versions/8.4.2_2231971live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core)
+[Core (3)](#core) · [Images (5)](#images) · [Game data (88)](#game-data) · [Localized text (90)](#localized-text)
 
 ## Core
 
 - [`GameConfigs.json`](GameConfigs.json) — client game configuration
 - [`GameConfigsDS.json`](GameConfigsDS.json) — dedicated server configuration
 - [`dynamicContent/DynamicContent.json`](dynamicContent/DynamicContent.json) — the manifest of every file below
+
+## Images
+
+<p>
+<a href="images/T_UI_CollectionBanner_DungeonsAndDragons2.png"><img src="images/T_UI_CollectionBanner_DungeonsAndDragons2.png" alt="T_UI_CollectionBanner_DungeonsAndDragons2.png" title="T_UI_CollectionBanner_DungeonsAndDragons2.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_BoneChill2023.png"><img src="images/T_UI_SpecialPack_BoneChill2023.png" alt="T_UI_SpecialPack_BoneChill2023.png" title="T_UI_SpecialPack_BoneChill2023.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_DungeonsAndDragons.png"><img src="images/T_UI_SpecialPack_DungeonsAndDragons.png" alt="T_UI_SpecialPack_DungeonsAndDragons.png" title="T_UI_SpecialPack_DungeonsAndDragons.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_JunjiIto.png"><img src="images/T_UI_SpecialPack_JunjiIto.png" alt="T_UI_SpecialPack_JunjiIto.png" title="T_UI_SpecialPack_JunjiIto.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_WinterTales.png"><img src="images/T_UI_SpecialPack_WinterTales.png" alt="T_UI_SpecialPack_WinterTales.png" title="T_UI_SpecialPack_WinterTales.png" width="200"></a>
+</p>
+
+## Game data
+
+| Folder | Files |
+|---|---|
+| `archiveJournals/` | [storyJournals](archiveJournals/storyJournals.json) |
+| `archiveQuests/` | [Anniversary2022](archiveQuests/Anniversary2022.json) · [Anniversary2023](archiveQuests/Anniversary2023.json) · [Anniversary2024](archiveQuests/Anniversary2024.json) · [CalamariV1](archiveQuests/CalamariV1.json) · [CalamariV2](archiveQuests/CalamariV2.json) · [ChocolateBoxGelato](archiveQuests/ChocolateBoxGelato.json) · [ChocolateBoxV1](archiveQuests/ChocolateBoxV1.json) · [DreadByDaylightZodiac](archiveQuests/DreadByDaylightZodiac.json) · [FireflyV1](archiveQuests/FireflyV1.json) · [Halloween2021](archiveQuests/Halloween2021.json) · [Halloween2022](archiveQuests/Halloween2022.json) · [Halloween2023](archiveQuests/Halloween2023.json) · [Halloween2024](archiveQuests/Halloween2024.json) · [Spring2024](archiveQuests/Spring2024.json) · [Summer2023](archiveQuests/Summer2023.json) · [Tome01](archiveQuests/Tome01.json) · [Tome02](archiveQuests/Tome02.json) · [Tome03](archiveQuests/Tome03.json) · [Tome04](archiveQuests/Tome04.json) · [Tome05](archiveQuests/Tome05.json) · [Tome06](archiveQuests/Tome06.json) · [Tome07](archiveQuests/Tome07.json) · [Tome08](archiveQuests/Tome08.json) · [Tome09](archiveQuests/Tome09.json) · [Tome10](archiveQuests/Tome10.json) · [Tome11](archiveQuests/Tome11.json) · [Tome12](archiveQuests/Tome12.json) · [Tome13](archiveQuests/Tome13.json) · [Tome14](archiveQuests/Tome14.json) · [Tome15](archiveQuests/Tome15.json) · [Tome16](archiveQuests/Tome16.json) · [Tome17](archiveQuests/Tome17.json) · [Tome18](archiveQuests/Tome18.json) · [Tome19](archiveQuests/Tome19.json) · [Tome20](archiveQuests/Tome20.json) · [Tome21](archiveQuests/Tome21.json) · [Winter2022](archiveQuests/Winter2022.json) · [Winter2023](archiveQuests/Winter2023.json) · [Winter2024](archiveQuests/Winter2024.json) |
+| `archiveRewardData/` | [content](archiveRewardData/content.json) |
+| `archiveRewardGrid/` | [Tome01](archiveRewardGrid/Tome01.json) · [Tome02](archiveRewardGrid/Tome02.json) · [Tome03](archiveRewardGrid/Tome03.json) · [Tome04](archiveRewardGrid/Tome04.json) · [Tome05](archiveRewardGrid/Tome05.json) · [Tome06](archiveRewardGrid/Tome06.json) · [Tome07](archiveRewardGrid/Tome07.json) · [Tome08](archiveRewardGrid/Tome08.json) · [Tome09](archiveRewardGrid/Tome09.json) · [Tome10](archiveRewardGrid/Tome10.json) · [Tome11](archiveRewardGrid/Tome11.json) · [Tome12](archiveRewardGrid/Tome12.json) · [Tome13](archiveRewardGrid/Tome13.json) · [Tome14](archiveRewardGrid/Tome14.json) · [Tome15](archiveRewardGrid/Tome15.json) · [Tome16](archiveRewardGrid/Tome16.json) · [Tome17](archiveRewardGrid/Tome17.json) · [Tome18](archiveRewardGrid/Tome18.json) · [Tome19](archiveRewardGrid/Tome19.json) · [Tome20](archiveRewardGrid/Tome20.json) · [Tome21](archiveRewardGrid/Tome21.json) |
+| `(root)` | [bloodwebGenerationRules](bloodwebGenerationRules.json) · [bonusPointEventsContent](bonusPointEventsContent.json) · [catalog](catalog.json) · [cinematics](cinematics.json) · [collections](collections.json) · [contentMetadata](contentMetadata.json) · [contentSchedule](contentSchedule.json) · [coreRituals](coreRituals.json) · [crossPromoCampaigns](crossPromoCampaigns.json) · [emblemTunable](emblemTunable.json) · [featureLocks](featureLocks.json) · [itemsKillswitch](itemsKillswitch.json) · [randomRewards](randomRewards.json) · [ranksThresholds](ranksThresholds.json) · [recommendations](recommendations.json) · [specialEventsContent](specialEventsContent.json) |
+| `consents/` | [definition](consents/eula/v4/definition.json) · [definition](consents/eula_psn_eu/v5/definition.json) · [definition](consents/eula_psn_na/v5/definition.json) · [definition](consents/marketing/v2/definition.json) · [definition](consents/privacy/v3/definition.json) |
+| `experimentalFeatures/` | [experimentalFeatures](experimentalFeatures/experimentalFeatures.json) |
+| `freetoplay/` | [event](freetoplay/EU/event.json) · [event](freetoplay/NA/event.json) |
+| `onboarding/` | [onboarding](onboarding/onboarding.json) |
+| `prestige/` | [prestige](prestige/prestige.json) |
+
+## Localized text
+
+| Content | Languages |
+|---|---|
+| `consents/eula/v4` | [de](consents/eula/v4/de.json) · [en](consents/eula/v4/en.json) · [es-MX](consents/eula/v4/es-MX.json) · [es](consents/eula/v4/es.json) · [fr](consents/eula/v4/fr.json) · [it](consents/eula/v4/it.json) · [ja](consents/eula/v4/ja.json) · [ko](consents/eula/v4/ko.json) · [pl](consents/eula/v4/pl.json) · [pt-BR](consents/eula/v4/pt-BR.json) · [ru](consents/eula/v4/ru.json) · [th](consents/eula/v4/th.json) · [tr](consents/eula/v4/tr.json) · [zh-Hans](consents/eula/v4/zh-Hans.json) · [zh-Hant](consents/eula/v4/zh-Hant.json) |
+| `consents/eula_psn_eu/v5` | [de](consents/eula_psn_eu/v5/de.json) · [en](consents/eula_psn_eu/v5/en.json) · [es-MX](consents/eula_psn_eu/v5/es-MX.json) · [es](consents/eula_psn_eu/v5/es.json) · [fr](consents/eula_psn_eu/v5/fr.json) · [it](consents/eula_psn_eu/v5/it.json) · [ja](consents/eula_psn_eu/v5/ja.json) · [ko](consents/eula_psn_eu/v5/ko.json) · [pl](consents/eula_psn_eu/v5/pl.json) · [pt-BR](consents/eula_psn_eu/v5/pt-BR.json) · [ru](consents/eula_psn_eu/v5/ru.json) · [th](consents/eula_psn_eu/v5/th.json) · [tr](consents/eula_psn_eu/v5/tr.json) · [zh-Hans](consents/eula_psn_eu/v5/zh-Hans.json) · [zh-Hant](consents/eula_psn_eu/v5/zh-Hant.json) |
+| `consents/eula_psn_na/v5` | [de](consents/eula_psn_na/v5/de.json) · [en](consents/eula_psn_na/v5/en.json) · [es-MX](consents/eula_psn_na/v5/es-MX.json) · [es](consents/eula_psn_na/v5/es.json) · [fr](consents/eula_psn_na/v5/fr.json) · [it](consents/eula_psn_na/v5/it.json) · [ja](consents/eula_psn_na/v5/ja.json) · [ko](consents/eula_psn_na/v5/ko.json) · [pl](consents/eula_psn_na/v5/pl.json) · [pt-BR](consents/eula_psn_na/v5/pt-BR.json) · [ru](consents/eula_psn_na/v5/ru.json) · [th](consents/eula_psn_na/v5/th.json) · [tr](consents/eula_psn_na/v5/tr.json) · [zh-Hans](consents/eula_psn_na/v5/zh-Hans.json) · [zh-Hant](consents/eula_psn_na/v5/zh-Hant.json) |
+| `consents/marketing/v2` | [de](consents/marketing/v2/de.json) · [en](consents/marketing/v2/en.json) · [es-MX](consents/marketing/v2/es-MX.json) · [es](consents/marketing/v2/es.json) · [fr](consents/marketing/v2/fr.json) · [it](consents/marketing/v2/it.json) · [ja](consents/marketing/v2/ja.json) · [ko](consents/marketing/v2/ko.json) · [pl](consents/marketing/v2/pl.json) · [pt-BR](consents/marketing/v2/pt-BR.json) · [ru](consents/marketing/v2/ru.json) · [th](consents/marketing/v2/th.json) · [tr](consents/marketing/v2/tr.json) · [zh-Hans](consents/marketing/v2/zh-Hans.json) · [zh-Hant](consents/marketing/v2/zh-Hant.json) |
+| `consents/privacy/v3` | [de](consents/privacy/v3/de.json) · [en](consents/privacy/v3/en.json) · [es-MX](consents/privacy/v3/es-MX.json) · [es](consents/privacy/v3/es.json) · [fr](consents/privacy/v3/fr.json) · [it](consents/privacy/v3/it.json) · [ja](consents/privacy/v3/ja.json) · [ko](consents/privacy/v3/ko.json) · [pl](consents/privacy/v3/pl.json) · [pt-BR](consents/privacy/v3/pt-BR.json) · [ru](consents/privacy/v3/ru.json) · [th](consents/privacy/v3/th.json) · [tr](consents/privacy/v3/tr.json) · [zh-Hans](consents/privacy/v3/zh-Hans.json) · [zh-Hant](consents/privacy/v3/zh-Hant.json) |
+| `loadingText` | [specialEventsLoadingText_de](loadingText/specialEventsLoadingText_de.json) · [specialEventsLoadingText_en](loadingText/specialEventsLoadingText_en.json) · [specialEventsLoadingText_es-MX](loadingText/specialEventsLoadingText_es-MX.json) · [specialEventsLoadingText_es](loadingText/specialEventsLoadingText_es.json) · [specialEventsLoadingText_fr](loadingText/specialEventsLoadingText_fr.json) · [specialEventsLoadingText_it](loadingText/specialEventsLoadingText_it.json) · [specialEventsLoadingText_ja](loadingText/specialEventsLoadingText_ja.json) · [specialEventsLoadingText_ko](loadingText/specialEventsLoadingText_ko.json) · [specialEventsLoadingText_pl](loadingText/specialEventsLoadingText_pl.json) · [specialEventsLoadingText_pt-BR](loadingText/specialEventsLoadingText_pt-BR.json) · [specialEventsLoadingText_ru](loadingText/specialEventsLoadingText_ru.json) · [specialEventsLoadingText_th](loadingText/specialEventsLoadingText_th.json) · [specialEventsLoadingText_tr](loadingText/specialEventsLoadingText_tr.json) · [specialEventsLoadingText_zh-Hans](loadingText/specialEventsLoadingText_zh-Hans.json) · [specialEventsLoadingText_zh-Hant](loadingText/specialEventsLoadingText_zh-Hant.json) |
 

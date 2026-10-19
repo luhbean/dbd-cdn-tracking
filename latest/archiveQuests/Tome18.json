@@ -1,0 +1,3779 @@
+{
+  "Tome18": {
+    "level": [
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_T18_L1_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 10,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "ZO_BDG_08",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_T18_L1_01": {
+            "clientInfoId": "HitSpearedSurvivorsRedeemerInTrial",
+            "coordinates": {
+              "x": 50.0,
+              "y": 65.0
+            },
+            "journal": [
+              "TOME18_01"
+            ],
+            "neighbors": [
+              "node_T18_L1_02",
+              "node_T18_L1_06"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "HitSpearedSurvivorsRedeemerInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "Gunslinger"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "HitSpearedSurvivorsRedeemerInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HitSpearedSurvivorsRedeemer",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_02": {
+            "clientInfoId": "EnhancedChainsawSprintDistanceHillbillyInTrial",
+            "coordinates": {
+              "x": 58.0,
+              "y": 90.0
+            },
+            "journal": [
+              "TOME18_01"
+            ],
+            "neighbors": [
+              "node_T18_L1_05",
+              "node_T18_L1_01"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "EnhancedChainsawSprintDistanceHillbillyInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "HillBilly"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "EnhancedChainsawSprintDistanceHillbillyInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;Distance:1600",
+                    "questEventId": "QuestEvent.EnhancedChainsawSprintDistanceHillbilly",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_03": {
+            "clientInfoId": "HaveEntityBlockGeneratorsWithDeadMansSwitchAsDeathslingerInTrial",
+            "coordinates": {
+              "x": 95.0,
+              "y": 40.0
+            },
+            "journal": [
+              "TOME18_01"
+            ],
+            "neighbors": [
+              "node_T18_L1_04",
+              "node_T18_L1_End01"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "HaveEntityBlockGeneratorsWithPerkAsCharacterInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "Gunslinger"
+                    ]
+                  },
+                  {
+                    "key": "perk",
+                    "value": [
+                      "DeadMansSwitch"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "HaveEntityBlockGeneratorsWithPerkAsCharacterInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;ObjectTypes:Generator",
+                    "questEventId": "QuestEvent.HaveEntityBlockObjects",
+                    "repetition": 2
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_04": {
+            "clientInfoId": "InflictObliviousStatusForDurationWithHexRetributionAsDeathslingerInTrial",
+            "coordinates": {
+              "x": 88.0,
+              "y": 15.0
+            },
+            "journal": [
+              "TOME18_01"
+            ],
+            "neighbors": [
+              "node_T18_L1_CM01",
+              "node_T18_L1_03"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "InflictObliviousStatusForDurationWithPerkAsCharacterInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "Gunslinger"
+                    ]
+                  },
+                  {
+                    "key": "perk",
+                    "value": [
+                      "HexRetribution"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "InflictObliviousStatusForDurationWithPerkAsCharacterInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.InflictObliviousStatusForDuration",
+                    "repetition": 30
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_05": {
+            "clientInfoId": "ChainsawWallAfterSprintHillbillyInTrial",
+            "coordinates": {
+              "x": 83.0,
+              "y": 90.0
+            },
+            "journal": [
+              "TOME18_01"
+            ],
+            "neighbors": [
+              "node_T18_L1_08",
+              "node_T18_L1_End01",
+              "node_T18_L1_02"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "ChainsawWallAfterSprintHillbillyInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "HillBilly"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "ChainsawWallAfterSprintHillbillyInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;TimeLimit:0.5",
+                    "questEventId": "QuestEvent.ChainsawWallAfterSprintHillbilly",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_06": {
+            "clientInfoId": "ApplyHinderedToKillerWithS40P01AsS40InTrial",
+            "coordinates": {
+              "x": 30.0,
+              "y": 70.0
+            },
+            "journal": [
+              "TOME18_02"
+            ],
+            "neighbors": [
+              "node_T18_L1_14",
+              "node_T18_L1_01"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "ApplyHinderedToKillerWithPerkAsCharacterInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "S40"
+                    ]
+                  },
+                  {
+                    "key": "perk",
+                    "value": [
+                      "S40P01"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "ApplyHinderedToKillerWithPerkAsCharacterInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.ApplyHinderedToKiller",
+                    "repetition": 2
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_07": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 55.0,
+              "y": 45.0
+            },
+            "neighbors": [
+              "node_T18_L1_12",
+              "node_T18_L1_15",
+              "node_T18_L1_11",
+              "node_T18_L1_16"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpoints": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 40000,
+                "objectiveId": "EarnBloodpoints",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_08": {
+            "clientInfoId": "EarnEmblemsSilver",
+            "coordinates": {
+              "x": 75.0,
+              "y": 75.0
+            },
+            "neighbors": [
+              "node_T18_L1_11",
+              "node_T18_L1_Glyph01",
+              "node_T18_L1_05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsSilver": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "EarnEmblemsSilver",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Silver",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_09": {
+            "clientInfoId": "HookDifferent",
+            "coordinates": {
+              "x": 33.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_T18_L1_10",
+              "node_T18_L1_12"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HookDifferent": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "HookDifferent",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookDifferent",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_10": {
+            "clientInfoId": "Down",
+            "coordinates": {
+              "x": 20.0,
+              "y": 15.0
+            },
+            "neighbors": [
+              "node_T18_L1_Start01",
+              "node_T18_L1_09"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Down": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 5,
+                "objectiveId": "Down",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "target:other",
+                    "questEventId": "QuestEvent.Down",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_11": {
+            "clientInfoId": "BreakWallsPalletsGens",
+            "coordinates": {
+              "x": 63.0,
+              "y": 65.0
+            },
+            "neighbors": [
+              "node_T18_L1_07",
+              "node_T18_L1_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "BreakWallsPalletsGens": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 8,
+                "objectiveId": "BreakWallsPalletsGens",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.BreakWallsPalletsGens",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_12": {
+            "clientInfoId": "HookObsession",
+            "coordinates": {
+              "x": 45.0,
+              "y": 25.0
+            },
+            "neighbors": [
+              "node_T18_L1_09",
+              "node_T18_L1_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HookObsession": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "HookObsession",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookObsession",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_13": {
+            "clientInfoId": "Heal",
+            "coordinates": {
+              "x": 15.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_T18_L1_Start01",
+              "node_T18_L1_14"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HealPerc": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 100,
+                "objectiveId": "HealPerc",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Heal",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_14": {
+            "clientInfoId": "ConsumeToolbox",
+            "coordinates": {
+              "x": 28.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_T18_L1_13",
+              "node_T18_L1_15",
+              "node_T18_L1_06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "ConsumeToolbox": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "ConsumeToolbox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;ItemName:Toolbox",
+                    "questEventId": "QuestEvent.ConsumeItem",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_15": {
+            "clientInfoId": "SkillCheckSuccess",
+            "coordinates": {
+              "x": 40.0,
+              "y": 45.0
+            },
+            "neighbors": [
+              "node_T18_L1_14",
+              "node_T18_L1_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SkillCheckSuccess": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "SkillCheckSuccess",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SkillCheckSuccess",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_16": {
+            "clientInfoId": "Unhook",
+            "coordinates": {
+              "x": 65.0,
+              "y": 25.0
+            },
+            "neighbors": [
+              "node_T18_L1_07",
+              "node_T18_L1_CM01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Unhook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "Unhook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Unhook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_CM01": {
+            "clientInfoId": "ZodiacCM",
+            "coordinates": {
+              "x": 78.0,
+              "y": 35.0
+            },
+            "journal": [
+              "TOME18_02"
+            ],
+            "neighbors": [
+              "node_T18_L1_16",
+              "node_T18_L1_Glyph01",
+              "node_T18_L1_04"
+            ],
+            "nodeType": "quest:contextual",
+            "objectives": {
+              "ZodiacCML1": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "ZodiacCML1",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CoreMemory",
+                    "repetition": 1
+                  }
+                ],
+                "specialBehaviours": [
+                  {
+                    "id": "ZodiacCoreMemory",
+                    "params": "FragmentsToSpawn:1;FragmentsToCollect:1;ShardDespawnTimer:40;FragmentSpawnRange:400;"
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 93.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_T18_L1_Glyph01",
+              "node_T18_L1_05",
+              "node_T18_L1_03"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_T18_L1_Glyph01": {
+            "clientInfoId": "GreenGlyph",
+            "coordinates": {
+              "x": 85.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_T18_L1_CM01",
+              "node_T18_L1_End01",
+              "node_T18_L1_08"
+            ],
+            "nodeType": "quest:contextual",
+            "objectives": {
+              "GreenGlyph": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "GreenGlyph",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.GreenGlyph",
+                    "repetition": 1
+                  }
+                ],
+                "specialBehaviours": [
+                  {
+                    "id": "GreenGlyph"
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L1_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 7.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_T18_L1_13",
+              "node_T18_L1_10"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_T18_L1_Start01"
+        ],
+        "startDate": "2024-01-31T16:00:00",
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      },
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_T18_L2_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 15,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "ZO_BDG_07",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_T18_L2_01": {
+            "clientInfoId": "SpearSurvivorsAtRangeRedeemerInTrial",
+            "coordinates": {
+              "x": 30.0,
+              "y": 60.0
+            },
+            "journal": [
+              "TOME18_01"
+            ],
+            "neighbors": [
+              "node_T18_L2_08"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "SpearSurvivorsAtRangeRedeemerInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "Gunslinger"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "SpearSurvivorsAtRangeRedeemerInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;Distance:1000",
+                    "questEventId": "QuestEvent.SpearSurvivorsAtRangeRedeemer",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_02": {
+            "clientInfoId": "SpearBusySurvivorsRedeemerInTrial",
+            "coordinates": {
+              "x": 65.0,
+              "y": 75.0
+            },
+            "journal": [
+              "TOME18_01"
+            ],
+            "neighbors": [
+              "node_T18_L2_11",
+              "node_T18_L2_03"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "SpearBusySurvivorsRedeemerInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "Gunslinger"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "SpearBusySurvivorsRedeemerInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SpearBusySurvivorsRedeemer",
+                    "repetition": 2
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_03": {
+            "clientInfoId": "RevealSurvivorAurasForDurationAsDeathslingerInTrial",
+            "coordinates": {
+              "x": 87.0,
+              "y": 80.0
+            },
+            "journal": [
+              "TOME18_01"
+            ],
+            "neighbors": [
+              "node_T18_L2_02",
+              "node_T18_L2_05"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "RevealSurvivorAurasForDurationAsCharacterInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "Gunslinger"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "RevealSurvivorAurasForDurationAsCharacterInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.RevealSurvivorAurasForDuration",
+                    "repetition": 30
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_04": {
+            "clientInfoId": "EnhancedChainsawHitHillbillyInTrial",
+            "coordinates": {
+              "x": 27.0,
+              "y": 35.0
+            },
+            "journal": [
+              "TOME18_01"
+            ],
+            "neighbors": [
+              "node_T18_L2_08"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "EnhancedChainsawHitHillbillyInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "Hillbilly"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "EnhancedChainsawHitHillbillyInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EnhancedChainsawHitHillbilly",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_05": {
+            "clientInfoId": "ChainsawAfterSprintHillbillyInTrial",
+            "coordinates": {
+              "x": 92.0,
+              "y": 45.0
+            },
+            "journal": [
+              "TOME18_01"
+            ],
+            "neighbors": [
+              "node_T18_L2_03",
+              "node_T18_L2_End01"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "ChainsawAfterSprintHillbillyInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "Hillbilly"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "ChainsawAfterSprintHillbillyInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;Distance:30",
+                    "questEventId": "QuestEvent.ChainsawAfterSprintHillbilly",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_06": {
+            "clientInfoId": "StunBlindAsS40InTrial",
+            "coordinates": {
+              "x": 75.0,
+              "y": 10.0
+            },
+            "journal": [
+              "TOME18_02"
+            ],
+            "neighbors": [
+              "node_T18_L2_End01",
+              "node_T18_L2_07"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "StunBlindAsCharacterInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "S40"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "StunBlindAsCharacterInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.StunBlind",
+                    "repetition": 2
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_07": {
+            "clientInfoId": "RepairFinishInTrial",
+            "coordinates": {
+              "x": 58.0,
+              "y": 10.0
+            },
+            "journal": [
+              "TOME18_02"
+            ],
+            "neighbors": [
+              "node_T18_L2_06",
+              "node_T18_L2_13"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "RepairFinishInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "RepairFinishInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.RepairFinish",
+                    "repetition": 2
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_08": {
+            "clientInfoId": "GeneratorSkillCheckSuccessOrBreakGens",
+            "coordinates": {
+              "x": 45.0,
+              "y": 45.0
+            },
+            "neighbors": [
+              "node_T18_L2_11",
+              "node_T18_L2_Glyph01",
+              "node_T18_L2_CM01",
+              "node_T18_L2_04",
+              "node_T18_L2_01",
+              "node_T18_L2_Glyph02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "GeneratorSkillCheckSuccessOrBreakGens": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 10,
+                "objectiveId": "GeneratorSkillCheckSuccessOrBreakGens",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.GeneratorSkillCheckSuccessOrBreakGens",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_09": {
+            "clientInfoId": "Chase",
+            "coordinates": {
+              "x": 5.0,
+              "y": 65.0
+            },
+            "neighbors": [
+              "node_T18_L2_Start01",
+              "node_T18_L2_10"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Chase": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 120,
+                "objectiveId": "Chase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Chase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_10": {
+            "clientInfoId": "HitExposed",
+            "coordinates": {
+              "x": 27.0,
+              "y": 85.0
+            },
+            "neighbors": [
+              "node_T18_L2_09",
+              "node_T18_L2_11"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HitExposed": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "HitExposed",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HitExposed",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_11": {
+            "clientInfoId": "Carry",
+            "coordinates": {
+              "x": 47.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_T18_L2_10",
+              "node_T18_L2_02",
+              "node_T18_L2_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Carry": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 100,
+                "objectiveId": "Carry",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Carry",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_12": {
+            "clientInfoId": "VaultInChase",
+            "coordinates": {
+              "x": 5.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_T18_L2_Start01",
+              "node_T18_L2_13"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "VaultInChase": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 5,
+                "objectiveId": "VaultInChase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.VaultInChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_13": {
+            "clientInfoId": "EscapeChase",
+            "coordinates": {
+              "x": 20.0,
+              "y": 5.0
+            },
+            "neighbors": [
+              "node_T18_L2_12",
+              "node_T18_L2_07",
+              "node_T18_L2_CM01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EscapeChase": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "EscapeChase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EscapeChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_CM01": {
+            "clientInfoId": "ZodiacCM",
+            "coordinates": {
+              "x": 42.0,
+              "y": 20.0
+            },
+            "journal": [
+              "TOME18_02"
+            ],
+            "neighbors": [
+              "node_T18_L2_08",
+              "node_T18_L2_13"
+            ],
+            "nodeType": "quest:contextual",
+            "objectives": {
+              "ZodiacCML2": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "ZodiacCML2",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CoreMemory",
+                    "repetition": 1
+                  }
+                ],
+                "specialBehaviours": [
+                  {
+                    "id": "ZodiacCoreMemory",
+                    "params": "FragmentsToSpawn:1;FragmentsToCollect:1;ShardDespawnTimer:35;FragmentSpawnRange:800;"
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 87.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_T18_L2_Glyph02",
+              "node_T18_L2_06",
+              "node_T18_L2_05",
+              "node_T18_L2_Glyph01"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_T18_L2_Glyph01": {
+            "clientInfoId": "WhiteGlyph",
+            "coordinates": {
+              "x": 60.0,
+              "y": 55.0
+            },
+            "neighbors": [
+              "node_T18_L2_08",
+              "node_T18_L2_End01"
+            ],
+            "nodeType": "quest:contextual",
+            "objectives": {
+              "WhiteGlyph": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "WhiteGlyph",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.WhiteGlyph",
+                    "repetition": 1
+                  }
+                ],
+                "specialBehaviours": [
+                  {
+                    "id": "WhiteGlyph"
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_Glyph02": {
+            "clientInfoId": "PurpleGlyph",
+            "coordinates": {
+              "x": 63.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_T18_L2_End01",
+              "node_T18_L2_08"
+            ],
+            "nodeType": "quest:contextual",
+            "objectives": {
+              "PurpleGlyph": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "PurpleGlyph",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.PurpleGlyph",
+                    "repetition": 1
+                  }
+                ],
+                "specialBehaviours": [
+                  {
+                    "id": "PurpleGlyph"
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L2_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 15.0,
+              "y": 45.0
+            },
+            "neighbors": [
+              "node_T18_L2_12",
+              "node_T18_L2_09"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_T18_L2_Start01"
+        ],
+        "startDate": "2024-02-14T16:00:00",
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      },
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_T18_L3_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 20,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "ZO_BNR_04",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_T18_L3_01": {
+            "clientInfoId": "StunBlindAsS40InTrial",
+            "coordinates": {
+              "x": 7.0,
+              "y": 70.0
+            },
+            "journal": [
+              "TOME18_02"
+            ],
+            "neighbors": [
+              "node_T18_L3_04",
+              "node_T18_L3_02"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "StunBlindAsCharacterInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "S40"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "StunBlindAsCharacterInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.StunBlind",
+                    "repetition": 3
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 50000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_02": {
+            "clientInfoId": "EarnEmblemsLightbringerIridescentAsS40InTrial",
+            "coordinates": {
+              "x": 20.0,
+              "y": 85.0
+            },
+            "journal": [
+              "TOME18_02"
+            ],
+            "neighbors": [
+              "node_T18_L3_01",
+              "node_T18_L3_03"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "EarnEmblemsLightbringerIridescentAsCharacterInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "S40"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "EarnEmblemsLightbringerIridescentAsCharacterInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemName:Emblem_Survivor_Lightbringer;EmblemQuality:Iridescent",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 50000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_03": {
+            "clientInfoId": "ExtendItemChargesWithStreetwiseAsS05InTrial",
+            "coordinates": {
+              "x": 37.0,
+              "y": 90.0
+            },
+            "journal": [
+              "TOME18_02"
+            ],
+            "neighbors": [
+              "node_T18_L3_02",
+              "node_T18_L3_08"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "ExtendItemChargesWithPerkAsCharacterInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "Nea"
+                    ]
+                  },
+                  {
+                    "key": "perk",
+                    "value": [
+                      "streetwise"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "ExtendItemChargesWithPerkAsCharacterInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.ExtendItemCharges",
+                    "repetition": 4
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 50000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_04": {
+            "clientInfoId": "EscapeChaseInTrial",
+            "coordinates": {
+              "x": 5.0,
+              "y": 40.0
+            },
+            "journal": [
+              "TOME18_02"
+            ],
+            "neighbors": [
+              "node_T18_L3_Start01",
+              "node_T18_L3_01"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "EscapeChaseInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "EscapeChaseInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EscapeChase",
+                    "repetition": 3
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 50000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_05": {
+            "clientInfoId": "HookDifferentInTrial",
+            "coordinates": {
+              "x": 95.0,
+              "y": 25.0
+            },
+            "journal": [
+              "TOME18_03"
+            ],
+            "neighbors": [
+              "node_T18_L3_07",
+              "node_T18_L3_Glyph01"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "HookDifferentInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "HookDifferentInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookDifferent",
+                    "repetition": 3
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 50000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_06": {
+            "clientInfoId": "SacrificeInTrial",
+            "coordinates": {
+              "x": 67.0,
+              "y": 5.0
+            },
+            "journal": [
+              "TOME18_03"
+            ],
+            "neighbors": [
+              "node_T18_L3_14",
+              "node_T18_L3_07"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "SacrificeInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "SacrificeInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Sacrifice",
+                    "repetition": 3
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 50000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_07": {
+            "clientInfoId": "HookObsessionInTrial",
+            "coordinates": {
+              "x": 85.0,
+              "y": 10.0
+            },
+            "journal": [
+              "TOME18_03"
+            ],
+            "neighbors": [
+              "node_T18_L3_06",
+              "node_T18_L3_05"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "HookObsessionInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "HookObsessionInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookObsession",
+                    "repetition": 2
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 50000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_08": {
+            "clientInfoId": "UnhookOrHook",
+            "coordinates": {
+              "x": 42.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_T18_L3_15",
+              "node_T18_L3_10",
+              "node_T18_L3_14",
+              "node_T18_L3_11",
+              "node_T18_L3_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "UnhookOrHook": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 8,
+                "objectiveId": "UnhookOrHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.UnhookOrHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_09": {
+            "clientInfoId": "PalletDropInChaseOrBreakPallets",
+            "coordinates": {
+              "x": 58.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_T18_L3_14",
+              "node_T18_L3_11",
+              "node_T18_L3_12",
+              "node_T18_L3_CM01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "PalletDropInChaseOrBreakPallets": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 6,
+                "objectiveId": "PalletDropInChaseOrBreakPallets",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.PalletDropInChaseOrBreakPallets",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_10": {
+            "clientInfoId": "KillObsession",
+            "coordinates": {
+              "x": 27.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_T18_L3_Start01",
+              "node_T18_L3_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "KillObsession": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "KillObsession",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "questEventId": "QuestEvent.KillObsession",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_11": {
+            "clientInfoId": "Sacrifice",
+            "coordinates": {
+              "x": 50.0,
+              "y": 75.0
+            },
+            "neighbors": [
+              "node_T18_L3_08",
+              "node_T18_L3_09"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Sacrifice": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 8,
+                "objectiveId": "Sacrifice",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "questEventId": "QuestEvent.Sacrifice",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_12": {
+            "clientInfoId": "Hook",
+            "coordinates": {
+              "x": 73.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_T18_L3_09",
+              "node_T18_L3_Glyph01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Hook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 8,
+                "objectiveId": "Hook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Hook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_13": {
+            "clientInfoId": "SkillCheckGreatSuccess",
+            "coordinates": {
+              "x": 20.0,
+              "y": 45.0
+            },
+            "neighbors": [
+              "node_T18_L3_15",
+              "node_T18_L3_Start01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SkillCheckGreatSuccess": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "SkillCheckGreatSuccess",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SkillCheckGreatSuccess",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_14": {
+            "clientInfoId": "SabotageFinish",
+            "coordinates": {
+              "x": 50.0,
+              "y": 25.0
+            },
+            "neighbors": [
+              "node_T18_L3_08",
+              "node_T18_L3_09",
+              "node_T18_L3_06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SabotageFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 6,
+                "objectiveId": "SabotageFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SabotageFinish",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_15": {
+            "clientInfoId": "ProtectionHit",
+            "coordinates": {
+              "x": 32.0,
+              "y": 65.0
+            },
+            "neighbors": [
+              "node_T18_L3_08",
+              "node_T18_L3_13"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "ProtectionHit": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "ProtectionHit",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.ProtectionHit",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_CM01": {
+            "clientInfoId": "ZodiacCM",
+            "coordinates": {
+              "x": 65.0,
+              "y": 85.0
+            },
+            "journal": [
+              "TOME18_02"
+            ],
+            "neighbors": [
+              "node_T18_L3_09",
+              "node_T18_L3_End01"
+            ],
+            "nodeType": "quest:contextual",
+            "objectives": {
+              "ZodiacCML3": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "ZodiacCML3",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CoreMemory",
+                    "repetition": 1
+                  }
+                ],
+                "specialBehaviours": [
+                  {
+                    "id": "ZodiacCoreMemory",
+                    "params": "FragmentsToSpawn:2;FragmentsToCollect:2;ShardDespawnTimer:30;FragmentSpawnRange:1200;"
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 50000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 77.0,
+              "y": 75.0
+            },
+            "neighbors": [
+              "node_T18_L3_Glyph01",
+              "node_T18_L3_CM01"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_T18_L3_Glyph01": {
+            "clientInfoId": "OrangeGlyph",
+            "coordinates": {
+              "x": 87.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_T18_L3_12",
+              "node_T18_L3_End01",
+              "node_T18_L3_05"
+            ],
+            "nodeType": "quest:contextual",
+            "objectives": {
+              "OrangeGlyph": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "OrangeGlyph",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.OrangeGlyph",
+                    "repetition": 1
+                  },
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookAfterOrangeGlyphActivated",
+                    "repetition": 6
+                  }
+                ],
+                "specialBehaviours": [
+                  {
+                    "id": "OrangeGlyph3"
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 50000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L3_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 15.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_T18_L3_04",
+              "node_T18_L3_13",
+              "node_T18_L3_10"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_T18_L3_Start01"
+        ],
+        "startDate": "2024-02-28T16:00:00",
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      },
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_T18_L4_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 25,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "ZO_BNR_03",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_T18_L4_01": {
+            "clientInfoId": "ExtendItemChargesWithStreetwiseInTrial",
+            "coordinates": {
+              "x": 75.0,
+              "y": 5.0
+            },
+            "journal": [
+              "TOME18_03"
+            ],
+            "neighbors": [
+              "node_T18_L4_13",
+              "node_T18_L4_03"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "ExtendItemChargesWithPerkInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  },
+                  {
+                    "key": "perk",
+                    "value": [
+                      "Streetwise"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "ExtendItemChargesWithPerkInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.ExtendItemCharges",
+                    "repetition": 3
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 60000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_02": {
+            "clientInfoId": "MissInRangeInTrial",
+            "coordinates": {
+              "x": 40.0,
+              "y": 75.0
+            },
+            "journal": [
+              "TOME18_03"
+            ],
+            "neighbors": [
+              "node_T18_L4_16"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "MissInRangeInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "MissInRangeInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:any;TimeLimit:20;NearDistance:500",
+                    "questEventId": "QuestEvent.MissInRange",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 60000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_03": {
+            "clientInfoId": "ApplyHinderedToKillerInTrial",
+            "coordinates": {
+              "x": 92.0,
+              "y": 20.0
+            },
+            "journal": [
+              "TOME18_03"
+            ],
+            "neighbors": [
+              "node_T18_L4_01",
+              "node_T18_L4_04"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "ApplyHinderedToKillerInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "ApplyHinderedToKillerInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.ApplyHinderedToKiller",
+                    "repetition": 3
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 60000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_04": {
+            "clientInfoId": "EarnEmblemsIridescentInTrial",
+            "coordinates": {
+              "x": 95.0,
+              "y": 50.0
+            },
+            "journal": [
+              "TOME18_03"
+            ],
+            "neighbors": [
+              "node_T18_L4_03",
+              "node_T18_L4_Glyph02"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "EarnEmblemsIridescentInTrial": {
+                "conditions": [],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "EarnEmblemsIridescentInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Iridescent",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 2
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 60000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_05": {
+            "clientInfoId": "SpearSurvivorsAtRangeRedeemerInTrial",
+            "coordinates": {
+              "x": 7.0,
+              "y": 50.0
+            },
+            "journal": [
+              "TOME18_03"
+            ],
+            "neighbors": [
+              "node_T18_L4_09"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "SpearSurvivorsAtRangeRedeemerInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "Gunslinger"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "SpearSurvivorsAtRangeRedeemerInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;Distance:1000",
+                    "questEventId": "QuestEvent.SpearSurvivorsAtRangeRedeemer",
+                    "repetition": 2
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 60000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_06": {
+            "clientInfoId": "EnhancedChainsawSprintDistanceHillbillyInTrial",
+            "coordinates": {
+              "x": 77.0,
+              "y": 90.0
+            },
+            "journal": [
+              "TOME18_03"
+            ],
+            "neighbors": [
+              "node_T18_L4_07"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "EnhancedChainsawSprintDistanceHillbillyInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "Hillbilly"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "EnhancedChainsawSprintDistanceHillbillyInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;Distance:1600",
+                    "questEventId": "QuestEvent.EnhancedChainsawSprintDistanceHillbilly",
+                    "repetition": 2
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 60000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_07": {
+            "clientInfoId": "HookConsecutiveDifferent",
+            "coordinates": {
+              "x": 65.0,
+              "y": 75.0
+            },
+            "neighbors": [
+              "node_T18_L4_16",
+              "node_T18_L4_11",
+              "node_T18_L4_06",
+              "node_T18_L4_12"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HookConsecutiveDifferent": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 5,
+                "objectiveId": "HookConsecutiveDifferent",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;time:60",
+                    "questEventId": "QuestEvent.HookConsecutiveDifferent",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 45000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_08": {
+            "clientInfoId": "Kill",
+            "coordinates": {
+              "x": 25.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_T18_L4_09",
+              "node_T18_L4_CM01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Kill": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 12,
+                "objectiveId": "Kill",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Kill",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 45000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_09": {
+            "clientInfoId": "Sacrifice",
+            "coordinates": {
+              "x": 12.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_T18_L4_10",
+              "node_T18_L4_08",
+              "node_T18_L4_05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Sacrifice": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 12,
+                "objectiveId": "Sacrifice",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Sacrifice",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 45000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_10": {
+            "clientInfoId": "HitAura",
+            "coordinates": {
+              "x": 22.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_T18_L4_Start01",
+              "node_T18_L4_09"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HitAura": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 10,
+                "objectiveId": "HitAura",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;TimeLimit:30",
+                    "questEventId": "QuestEvent.HitAura",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 45000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_11": {
+            "clientInfoId": "DownStatusEffect",
+            "coordinates": {
+              "x": 85.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_T18_L4_07",
+              "node_T18_L4_Glyph02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "DownStatusEffect": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 5,
+                "objectiveId": "DownStatusEffect",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.DownDebuffStatusEffect",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 45000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_12": {
+            "clientInfoId": "EarnEmblemsIridescent",
+            "coordinates": {
+              "x": 50.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_T18_L4_16",
+              "node_T18_L4_CM01",
+              "node_T18_L4_13",
+              "node_T18_L4_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsIridescent": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 6,
+                "objectiveId": "EarnEmblemsIridescent",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Iridescent",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 45000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_13": {
+            "clientInfoId": "VaultInChase",
+            "coordinates": {
+              "x": 60.0,
+              "y": 15.0
+            },
+            "neighbors": [
+              "node_T18_L4_Glyph01",
+              "node_T18_L4_12",
+              "node_T18_L4_01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "VaultInChase": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 8,
+                "objectiveId": "VaultInChase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.VaultInChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 45000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_14": {
+            "clientInfoId": "SabotageFinishInTerrorRadius",
+            "coordinates": {
+              "x": 25.0,
+              "y": 65.0
+            },
+            "neighbors": [
+              "node_T18_L4_Start01",
+              "node_T18_L4_15"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SabotageFinishInTerrorRadius": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "SabotageFinishInTerrorRadius",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SabotageFinishInTerrorRadius",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 45000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_15": {
+            "clientInfoId": "HideInTerrorRadius",
+            "coordinates": {
+              "x": 15.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_T18_L4_14",
+              "node_T18_L4_16"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HideInTerrorRadius": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 120,
+                "objectiveId": "HideInTerrorRadius",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HideInTerrorRadius",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 45000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_16": {
+            "clientInfoId": "EscapeGate",
+            "coordinates": {
+              "x": 50.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_T18_L4_15",
+              "node_T18_L4_12",
+              "node_T18_L4_07",
+              "node_T18_L4_02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EscapeGate": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "EscapeGate",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EscapeGate",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 45000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_CM01": {
+            "clientInfoId": "XRayCM",
+            "coordinates": {
+              "x": 40.0,
+              "y": 15.0
+            },
+            "journal": [
+              "TOME18_03"
+            ],
+            "neighbors": [
+              "node_T18_L4_12",
+              "node_T18_L4_08"
+            ],
+            "nodeType": "quest:contextual",
+            "objectives": {
+              "XRayCML4": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "XRayCML4",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CoreMemory",
+                    "repetition": 1
+                  }
+                ],
+                "specialBehaviours": [
+                  {
+                    "id": "XRayCoreMemory",
+                    "params": "FragmentsToSpawn:2;FragmentsToCollect:2;ShardDespawnTimer:25;FragmentSpawnRange:1600;"
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 60000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 60.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_T18_L4_Glyph02"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_T18_L4_Glyph01": {
+            "clientInfoId": "GreenGlyph",
+            "coordinates": {
+              "x": 75.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_T18_L4_Glyph02",
+              "node_T18_L4_13"
+            ],
+            "nodeType": "quest:contextual",
+            "objectives": {
+              "GreenGlyph": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 8,
+                "objectiveId": "GreenGlyph",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.GreenGlyph",
+                    "repetition": 1
+                  }
+                ],
+                "specialBehaviours": [
+                  {
+                    "id": "GreenGlyph"
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 60000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_Glyph02": {
+            "clientInfoId": "RedGlyph",
+            "coordinates": {
+              "x": 75.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_T18_L4_11",
+              "node_T18_L4_End01",
+              "node_T18_L4_Glyph01",
+              "node_T18_L4_04"
+            ],
+            "nodeType": "quest:contextual",
+            "objectives": {
+              "RedGlyph": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "RedGlyph",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.RedGlyph",
+                    "repetition": 1
+                  }
+                ],
+                "specialBehaviours": [
+                  {
+                    "id": "RedGlyph"
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 60000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_T18_L4_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 40.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_T18_L4_14",
+              "node_T18_L4_10"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_T18_L4_Start01"
+        ],
+        "startDate": "2024-03-20T15:00:00",
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      }
+    ],
+    "newTomePopup": true,
+    "riftId": "Tome18"
+  }
+}

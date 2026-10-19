@@ -1,0 +1,1692 @@
+{
+  "Halloween2022": {
+    "level": [
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_HAL1_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 10,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "PL_044",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_HAL1_01": {
+            "clientInfoId": "Halloween2022EventRepairFinish",
+            "coordinates": {
+              "x": 70.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL1_02",
+              "node_HAL1_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Halloween2022EventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "Halloween2022EventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Halloween2022EventRepairFinish",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL1_02": {
+            "clientInfoId": "Unhook",
+            "coordinates": {
+              "x": 75.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL1_01",
+              "node_HAL1_11"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Unhook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "Unhook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Unhook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL1_03": {
+            "clientInfoId": "HealOther",
+            "coordinates": {
+              "x": 20.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL1_05",
+              "node_HAL1_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HealOtherPerc": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 200,
+                "objectiveId": "HealOtherPerc",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;target:other",
+                    "questEventId": "QuestEvent.Heal",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL1_04": {
+            "clientInfoId": "CleanseFinish",
+            "coordinates": {
+              "x": 45.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_HAL1_01",
+              "node_HAL1_12",
+              "node_HAL1_03",
+              "node_HAL1_Reward02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CleanseFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "CleanseFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CleanseFinish",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL1_05": {
+            "clientInfoId": "DepositEnergySurvivor",
+            "coordinates": {
+              "x": 15.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL1_Start01",
+              "node_HAL1_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "DepositEnergy": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 15,
+                "objectiveId": "DepositEnergy",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.DepositEnergy",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL1_06": {
+            "clientInfoId": "Halloween2022EventHook",
+            "coordinates": {
+              "x": 75.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_HAL1_07",
+              "node_HAL1_11"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Halloween2022EventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 3,
+                "objectiveId": "Halloween2022EventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Halloween2022EventHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL1_07": {
+            "clientInfoId": "BreakGens",
+            "coordinates": {
+              "x": 70.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL1_06",
+              "node_HAL1_09"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "BreakGens": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 5,
+                "objectiveId": "BreakGens",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.BreakGens",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL1_08": {
+            "clientInfoId": "Hit",
+            "coordinates": {
+              "x": 20.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL1_10",
+              "node_HAL1_09"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Hit": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 8,
+                "objectiveId": "Hit",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Hit",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL1_09": {
+            "clientInfoId": "Sacrifice",
+            "coordinates": {
+              "x": 45.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_HAL1_07",
+              "node_HAL1_Reward01",
+              "node_HAL1_08",
+              "node_HAL1_12"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Sacrifice": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "Sacrifice",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "questEventId": "QuestEvent.Sacrifice",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL1_10": {
+            "clientInfoId": "DepositEnergyKiller",
+            "coordinates": {
+              "x": 15.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_HAL1_Start01",
+              "node_HAL1_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "DepositEnergy": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 15,
+                "objectiveId": "DepositEnergy",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.DepositEnergy",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL1_11": {
+            "clientInfoId": "DepositEnergyMed",
+            "coordinates": {
+              "x": 85.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL1_End01",
+              "node_HAL1_06",
+              "node_HAL1_02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "DepositEnergyMed": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 1,
+                "objectiveId": "DepositEnergyMed",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;TierSize:Medium",
+                    "questEventId": "QuestEvent.DepositEnergyTier",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL1_12": {
+            "clientInfoId": "EarnEmblemsBronzeInTrial",
+            "coordinates": {
+              "x": 40.0,
+              "y": 50.0
+            },
+            "journal": [
+              "Halloween2022"
+            ],
+            "neighbors": [
+              "node_HAL1_09",
+              "node_HAL1_13",
+              "node_HAL1_14",
+              "node_HAL1_04"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "EarnEmblemsBronzeInTrial": {
+                "conditions": [],
+                "incrementWithEventRepetitions": false,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 1,
+                "objectiveId": "EarnEmblemsBronzeInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Bronze",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 4
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL1_13": {
+            "clientInfoId": "CommunityDepositEnergySml",
+            "coordinates": {
+              "x": 60.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL1_12",
+              "node_HAL1_Reward03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CommunityDepositEnergySml": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 1,
+                "objectiveId": "CommunityDepositEnergySml",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;TierSize:Small",
+                    "questEventId": "QuestEvent.DepositEnergyTier",
+                    "repetition": 1
+                  }
+                ]
+              },
+              "CommunityDepositEnergySml_Community": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": true,
+                "maxProgressionPerPlayer": 3,
+                "neededProgression": 50000,
+                "objectiveId": "CommunityDepositEnergySml_Community",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;TierSize:Small",
+                    "questEventId": "QuestEvent.DepositEnergyTier",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL1_14": {
+            "clientInfoId": "CommunityHalloweenEventPumpkinDestroyed",
+            "coordinates": {
+              "x": 60.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_HAL1_Reward04",
+              "node_HAL1_12"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HalloweenEventPumpkinDestroyed": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "HalloweenEventPumpkinDestroyed",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HalloweenEventPumpkinDestroyed",
+                    "repetition": 1
+                  }
+                ]
+              },
+              "HalloweenEventPumpkinDestroyed_Community": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": true,
+                "maxProgressionPerPlayer": 4,
+                "neededProgression": 50000,
+                "objectiveId": "HalloweenEventPumpkinDestroyed_Community",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HalloweenEventPumpkinDestroyed",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL1_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 95.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL1_11"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_HAL1_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 45.0,
+              "y": 0.0
+            },
+            "neighbors": [
+              "node_HAL1_09"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "WI_Body011",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL1_Reward02": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 45.0,
+              "y": 100.0
+            },
+            "neighbors": [
+              "node_HAL1_04"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "GS_Torso021",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL1_Reward03": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 65.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL1_13"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "PL_042",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL1_Reward04": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 55.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL1_14"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "PL_043",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL1_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 5.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL1_10",
+              "node_HAL1_05"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_HAL1_Start01"
+        ],
+        "startDate": "2022-10-13T15:00:00",
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      },
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_HAL2_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 10,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "PL_050",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_HAL2_01": {
+            "clientInfoId": "Halloween2022EventRepairFinish",
+            "coordinates": {
+              "x": 75.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_HAL2_13",
+              "node_HAL2_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Halloween2022EventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 4,
+                "objectiveId": "Halloween2022EventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Halloween2022EventRepairFinish",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2_02": {
+            "clientInfoId": "CoopAction",
+            "coordinates": {
+              "x": 10.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2_Start01",
+              "node_HAL2_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CoopAction": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 90,
+                "objectiveId": "CoopAction",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CoopAction",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2_03": {
+            "clientInfoId": "CollectEnergyFromStuns",
+            "coordinates": {
+              "x": 60.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_HAL2_12",
+              "node_HAL2_01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CollectEnergyFromStuns": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 6,
+                "objectiveId": "CollectEnergyFromStuns",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CollectEnergyFromStuns",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2_04": {
+            "clientInfoId": "Escape",
+            "coordinates": {
+              "x": 20.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL2_02",
+              "node_HAL2_11"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Escape": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "Escape",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Escape",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2_05": {
+            "clientInfoId": "RepairFinishInTrial",
+            "coordinates": {
+              "x": 45.0,
+              "y": 50.0
+            },
+            "journal": [
+              "Halloween2022"
+            ],
+            "neighbors": [
+              "node_HAL2_12",
+              "node_HAL2_Reward03"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "RepairFinishInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 1,
+                "objectiveId": "RepairFinishInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.RepairFinish",
+                    "repetition": 2
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2_06": {
+            "clientInfoId": "HookDifferentInTrial",
+            "coordinates": {
+              "x": 35.0,
+              "y": 30.0
+            },
+            "journal": [
+              "Halloween2022"
+            ],
+            "neighbors": [
+              "node_HAL2_12",
+              "node_HAL2_Reward01"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "HookDifferentInTrial": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 1,
+                "objectiveId": "HookDifferentInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookDifferent",
+                    "repetition": 4
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2_07": {
+            "clientInfoId": "Halloween2022EventHook",
+            "coordinates": {
+              "x": 75.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL2_10",
+              "node_HAL2_14"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Halloween2022EventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 6,
+                "objectiveId": "Halloween2022EventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Halloween2022EventHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2_08": {
+            "clientInfoId": "Down",
+            "coordinates": {
+              "x": 10.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_HAL2_Start02",
+              "node_HAL2_09"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Down": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 8,
+                "objectiveId": "Down",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "questEventId": "QuestEvent.Down",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2_09": {
+            "clientInfoId": "BreakWallsPalletsGens",
+            "coordinates": {
+              "x": 25.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL2_11",
+              "node_HAL2_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "BreakWallsPalletsGens": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 15,
+                "objectiveId": "BreakWallsPalletsGens",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.BreakWallsPalletsGens",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2_10": {
+            "clientInfoId": "CollectEnergyFromDowns",
+            "coordinates": {
+              "x": 60.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL2_12",
+              "node_HAL2_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CollectEnergyFromDowns": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 9,
+                "objectiveId": "CollectEnergyFromDowns",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CollectEnergyFromDowns",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2_11": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 35.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2_09",
+              "node_HAL2_04",
+              "node_HAL2_12"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpoints": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 50000,
+                "objectiveId": "EarnBloodpoints",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2_12": {
+            "clientInfoId": "HalloweenEventPumpkinDestroyedTreat",
+            "coordinates": {
+              "x": 45.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_HAL2_03",
+              "node_HAL2_10",
+              "node_HAL2_11",
+              "node_HAL2_06",
+              "node_HAL2_05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HalloweenEventPumpkinDestroyedTreat": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "HalloweenEventPumpkinDestroyedTreat",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HalloweenEventPumpkinDestroyedTreat",
+                    "repetition": 1
+                  }
+                ],
+                "specialBehaviours": [
+                  {
+                    "id": "PumpkinHalloween2021"
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2_13": {
+            "clientInfoId": "CommunityDepositEnergyLrgInTrial",
+            "coordinates": {
+              "x": 85.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2_01",
+              "node_HAL2_14",
+              "node_HAL2_Reward02",
+              "node_HAL2_End01"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "CommunityDepositEnergyLrgInTrial": {
+                "conditions": [],
+                "incrementWithEventRepetitions": false,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 1,
+                "objectiveId": "CommunityDepositEnergyLrgInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;TierSize:Large",
+                    "questEventId": "QuestEvent.DepositEnergyTier",
+                    "repetition": 1
+                  }
+                ]
+              },
+              "CommunityDepositEnergyLrgInTrial_Community": {
+                "conditions": [],
+                "incrementWithEventRepetitions": false,
+                "isCommunityObjective": true,
+                "maxProgressionPerPlayer": 3,
+                "neededProgression": 50000,
+                "objectiveId": "CommunityDepositEnergyLrgInTrial_Community",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;TierSize:Large",
+                    "questEventId": "QuestEvent.DepositEnergyTier",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2_14": {
+            "clientInfoId": "CommunityDepositEnergyInTrial",
+            "coordinates": {
+              "x": 95.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_HAL2_13",
+              "node_HAL2_End01",
+              "node_HAL2_Reward04",
+              "node_HAL2_07"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "CommunityDepositEnergyInTrial": {
+                "conditions": [],
+                "incrementWithEventRepetitions": false,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 1,
+                "objectiveId": "CommunityDepositEnergyInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.DepositEnergy",
+                    "repetition": 30
+                  }
+                ]
+              },
+              "CommunityDepositEnergyInTrial_Community": {
+                "conditions": [],
+                "incrementWithEventRepetitions": false,
+                "isCommunityObjective": true,
+                "maxProgressionPerPlayer": 1,
+                "neededProgression": 50000,
+                "objectiveId": "CommunityDepositEnergyInTrial_Community",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.DepositEnergy",
+                    "repetition": 30
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 100.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_HAL2_14",
+              "node_HAL2_13"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_HAL2_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 25.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_HAL2_06"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "WI_Hair011",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2_Reward02": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 70.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2_13"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "WI_W011",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2_Reward03": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 40.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL2_05"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "GS_Head021",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2_Reward04": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 95.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL2_14"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "GS_Legs021",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 5.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_HAL2_02"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_HAL2_Start02": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 0.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_HAL2_08"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_HAL2_Start01",
+          "node_HAL2_Start02"
+        ],
+        "startDate": "2022-10-20T15:00:00",
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      }
+    ],
+    "newTomePopup": false,
+    "riftId": "Tome13",
+    "specialEventId": "Halloween2022"
+  }
+}

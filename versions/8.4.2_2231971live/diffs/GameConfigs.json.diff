@@ -1,0 +1,287 @@
+--- a/GameConfigs.json
++++ b/GameConfigs.json
+@@ -2,6 +2,9 @@
+   "DSProviderOnShutdownNotificationDelay": 15.0,
+   "GameLoadingTimeout": -1.0,
+   "RTMTimeoutThreshold": -1.0,
++  "afk": {
++    "minimumMatchTime": 60
++  },
+   "analytics": {
+     "autoflushFrequency": 60,
+     "autoflushInGameFrequency": 3600,
+@@ -185,7 +188,6 @@
+       "GameEvent.Slasher.Oni.DemonMode.End",
+       "GameEvent.CamperEscape.ThroughHatch",
+       "GameEvent.K28.CancelTeleportInteraction",
+-      "GameEvent.Camper.Pallet.PullUp.Complete",
+       "GameEvent.Killer.K30.Guard3ChaseEnded",
+       "GameEvent.CamperSicknessLevelChanged.Decrease",
+       "GameEvent.Killer.K33.TailAttack.HitSurvivor",
+@@ -368,6 +370,7 @@
+       "FrameHikeAnalytics",
+       "FreeTrialLoginAnalytics",
+       "GPUAnalytics",
++      "InboxAnalytics",
+       "InvalidLoadoutAnalytics",
+       "LevelLoadingStepAnalytics",
+       "LevelLoadingTimeoutAnalytics",
+@@ -407,6 +410,8 @@
+       "HangAnalytics",
+       "HeartbeatPerfAnalytics",
+       "IAPCanceledAnalytics",
++      "InboxErrorAnalytics",
++      "InboxLoadedAnalytics",
+       "KrakenRequestAnalytics",
+       "LogAnalytics",
+       "LogPresencePluginAnalytics",
+@@ -524,10 +529,105 @@
+     "xsx": true
+   },
+   "dedicatedServer": {
+-    "latencyRetryCooldownSeconds": 600,
++    "endpointsHTTP": [
++      {
++        "address": "https://gamelift.eu-west-1.amazonaws.com/ping",
++        "regionId": "eu-west-1"
++      },
++      {
++        "address": "https://gamelift.ap-southeast-1.amazonaws.com/ping",
++        "regionId": "ap-southeast-1"
++      },
++      {
++        "address": "https://gamelift.ap-southeast-2.amazonaws.com/ping",
++        "regionId": "ap-southeast-2"
++      },
++      {
++        "address": "https://gamelift.ap-northeast-2.amazonaws.com/ping",
++        "regionId": "ap-northeast-2"
++      },
++      {
++        "address": "https://gamelift.eu-central-1.amazonaws.com/ping",
++        "regionId": "eu-central-1"
++      },
++      {
++        "address": "https://gamelift.ap-northeast-1.amazonaws.com/ping",
++        "regionId": "ap-northeast-1"
++      },
++      {
++        "address": "https://gamelift.us-east-1.amazonaws.com/ping",
++        "regionId": "us-east-1"
++      },
++      {
++        "address": "https://gamelift.sa-east-1.amazonaws.com/ping",
++        "regionId": "sa-east-1"
++      },
++      {
++        "address": "https://ec2.ap-east-1.amazonaws.com/ping",
++        "regionId": "ap-east-1"
++      },
++      {
++        "address": "https://gamelift.us-west-2.amazonaws.com/ping",
++        "regionId": "us-west-2"
++      }
++    ],
++    "endpointsUDP": [
++      {
++        "address": "gamelift-ping.eu-west-1.api.aws",
++        "port": 7770,
++        "regionId": "eu-west-1"
++      },
++      {
++        "address": "gamelift-ping.ap-southeast-1.api.aws",
++        "port": 7770,
++        "regionId": "ap-southeast-1"
++      },
++      {
++        "address": "gamelift-ping.ap-southeast-2.api.aws",
++        "port": 7770,
++        "regionId": "ap-southeast-2"
++      },
++      {
++        "address": "gamelift-ping.ap-northeast-2.api.aws",
++        "port": 7770,
++        "regionId": "ap-northeast-2"
++      },
++      {
++        "address": "gamelift-ping.eu-central-1.api.aws",
++        "port": 7770,
++        "regionId": "eu-central-1"
++      },
++      {
++        "address": "gamelift-ping.ap-northeast-1.api.aws",
++        "port": 7770,
++        "regionId": "ap-northeast-1"
++      },
++      {
++        "address": "gamelift-ping.us-east-1.api.aws",
++        "port": 7770,
++        "regionId": "us-east-1"
++      },
++      {
++        "address": "gamelift-ping.sa-east-1.api.aws",
++        "port": 7770,
++        "regionId": "sa-east-1"
++      },
++      {
++        "address": "gamelift-ping.ap-east-1.api.aws",
++        "port": 7770,
++        "regionId": "ap-east-1"
++      },
++      {
++        "address": "gamelift-ping.us-west-2.api.aws",
++        "port": 7770,
++        "regionId": "us-west-2"
++      }
++    ],
++    "latencyRetryCooldownSeconds": 600.0,
+     "suspiciousEnabledBuilds": [
+-      "DBD_Live_DS_Lin_Test_472_1566101"
+-    ]
++      "DBD_Churros_DS_Lin_Test_409_1759908"
++    ],
++    "useUDPLatencyPings": false
+   },
+   "disableNavigationDuringMatchmaking": false,
+   "disconnectionBotReplacement": {
+@@ -815,7 +915,9 @@
+       }
+     ]
+   },
+-  "dynamicContent": {},
++  "dynamicContent": {
++    "DynamicContentKillswitchPlatforms": []
++  },
+   "enableAlwaysSendCrashWithUI": false,
+   "enableAntiCamping": true,
+   "enableAntiMoveHack": true,
+@@ -823,18 +925,9 @@
+   "enableChallengeSystem": false,
+   "enableConsumableQueryFromKraken": true,
+   "enableContainerAgressiveMemorySaving": false,
++  "enableCrossPromoPopupDisplay": true,
+   "enableDSQuestsUpdate": true,
+   "enableFirstMoveAfterForcedUpdates": true,
+-  "enableFullProfileSaveAtLocation": [
+-    "LeavingOfflineLobby",
+-    "LeavingOnlineLobby",
+-    "OnSuspend",
+-    "OnQuit",
+-    "OnSettingsChanged",
+-    "OnFlagChanged",
+-    "CheatEntered",
+-    "IISMigrateCharacterData"
+-  ],
+   "enableGetUpInteraction": true,
+   "enableHapticVibration": true,
+   "enableLimitRegressionEvents": true,
+@@ -1044,6 +1137,9 @@
+       }
+     ]
+   },
++  "inbox": {
++    "QrCodeKillswitchPlatforms": []
++  },
+   "jwt": {
+     "enabled": true,
+     "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvVHc2Mk5NQ0dtNVVOWjUzeTNaagp0Y1dxRk5jOE83UlRzQ0d2WHNCOWRNRGFqRzFnOTFyUzZEc2hiWTJFNk84MVlRdGlSUGRYcUgzcWVLUjcvdU53CkhwOWVVbWM4NzVPcS9xQldkWldjZEk0V3RmUWM3Z0FrMzR0ZUhhMU10VG1XL3QrVEtVajJBekRjVHZXNkpjcXUKWmdqRzkvSlR2dzM4RzEyQXFjWHZ5K3hFam4zL2ptQ0oxOGZWWWRuQ0I1ZWFEQkFoMFluTzQxaGIyODZDS0pwRwozT25wTHFyeWlzVzFnOTZ1ZWxKQnhVelRydnVKK2JJS2VFSWdqdURobHpaNU4yeW5tbHNodXlRWm15ME50VE14CjNqMlVoSkNtS3JsNTdKMzhnUnpRczJqSDBKT3ExZkhsOEhXMHlUT1dLQVNxbkNqaVp0NG5QUGJVdXpVY1JYcEEKeXdJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+@@ -1089,6 +1185,99 @@
+     "hiddenQueueDelayResetThreshold": 300,
+     "randomQueueDelayMax": 30,
+     "randomQueueDelayMin": 10
++  },
++  "saveFullProfileLocations": {
++    "locationInfoList": [
++      {
++        "locations": [
++          "OnSuspend",
++          "OnQuit",
++          "OnSettingsChanged",
++          "OnFlagChanged",
++          "CheatEntered",
++          "IISMigrateCharacterData"
++        ],
++        "platform": "default"
++      },
++      {
++        "locations": [
++          "LeavingOfflineLobby",
++          "LeavingOnlineLobby",
++          "OnSuspend",
++          "OnQuit",
++          "OnSettingsChanged",
++          "OnFlagChanged",
++          "CheatEntered",
++          "IISMigrateCharacterData"
++        ],
++        "platform": "steamdeck"
++      },
++      {
++        "locations": [
++          "LeavingOfflineLobby",
++          "LeavingOnlineLobby",
++          "OnSuspend",
++          "OnQuit",
++          "OnSettingsChanged",
++          "OnFlagChanged",
++          "CheatEntered",
++          "IISMigrateCharacterData"
++        ],
++        "platform": "switch"
++      },
++      {
++        "locations": [
++          "LeavingOfflineLobby",
++          "LeavingOnlineLobby",
++          "OnSuspend",
++          "OnQuit",
++          "OnSettingsChanged",
++          "OnFlagChanged",
++          "CheatEntered",
++          "IISMigrateCharacterData"
++        ],
++        "platform": "xbox"
++      },
++      {
++        "locations": [
++          "LeavingOfflineLobby",
++          "LeavingOnlineLobby",
++          "OnSuspend",
++          "OnQuit",
++          "OnSettingsChanged",
++          "OnFlagChanged",
++          "CheatEntered",
++          "IISMigrateCharacterData"
++        ],
++        "platform": "xsx"
++      },
++      {
++        "locations": [
++          "LeavingOfflineLobby",
++          "LeavingOnlineLobby",
++          "OnSuspend",
++          "OnQuit",
++          "OnSettingsChanged",
++          "OnFlagChanged",
++          "CheatEntered",
++          "IISMigrateCharacterData"
++        ],
++        "platform": "ps4"
++      },
++      {
++        "locations": [
++          "LeavingOfflineLobby",
++          "LeavingOnlineLobby",
++          "OnSuspend",
++          "OnQuit",
++          "OnSettingsChanged",
++          "OnFlagChanged",
++          "CheatEntered",
++          "IISMigrateCharacterData"
++        ],
++        "platform": "ps5"
++      }
++    ]
+   },
+   "security": {
+     "allowClientGuestProviderOnServerLogin": false,

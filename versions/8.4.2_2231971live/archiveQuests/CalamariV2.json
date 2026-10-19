@@ -1,0 +1,938 @@
+{
+  "CalamariV2": {
+    "level": [
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_CalamariV2_L1_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 10,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "FU_BDG_14",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_CalamariV2_L1_01": {
+            "clientInfoId": "PlayAsClassSurvivor",
+            "coordinates": {
+              "x": 25.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L1_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "PlayAsClass": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  },
+                  {
+                    "key": "class",
+                    "value": [
+                      "Medic"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "PlayAsClass",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.FinishedPlaying",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L1_02": {
+            "clientInfoId": "PlayAsClassSurvivor",
+            "coordinates": {
+              "x": 70.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L1_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "PlayAsClass": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  },
+                  {
+                    "key": "class",
+                    "value": [
+                      "Tactician"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "PlayAsClass",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.FinishedPlaying",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L1_03": {
+            "clientInfoId": "Crow",
+            "coordinates": {
+              "x": 55.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L1_07",
+              "node_CalamariV2_L1_08",
+              "node_CalamariV2_L1_02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CrowInCalamari": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 20,
+                "objectiveId": "CrowInCalamari",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Crow",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L1_04": {
+            "clientInfoId": "PalletDropInChaseOrBreakPallets",
+            "coordinates": {
+              "x": 40.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L1_06",
+              "node_CalamariV2_L1_01",
+              "node_CalamariV2_L1_05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "PalletDropInChaseOrBreakPalletsInCalamari": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "PalletDropInChaseOrBreakPalletsInCalamari",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.PalletDropInChaseOrBreakPallets",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L1_05": {
+            "clientInfoId": "UnhookOrHook",
+            "coordinates": {
+              "x": 55.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L1_04",
+              "node_CalamariV2_L1_07",
+              "node_CalamariV2_L1_End01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "UnhookOrHookInCalamari": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "UnhookOrHookInCalamari",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.UnhookOrHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L1_06": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 40.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L1_08",
+              "node_CalamariV2_L1_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpointsInCalamari": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 50000,
+                "objectiveId": "EarnBloodpointsInCalamari",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L1_07": {
+            "clientInfoId": "ChasedByOrChase",
+            "coordinates": {
+              "x": 55.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L1_05",
+              "node_CalamariV2_L1_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "ChasedByOrChaseInCalamari": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 120,
+                "objectiveId": "ChasedByOrChaseInCalamari",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:meOrOther",
+                    "questEventId": "QuestEvent.Chase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L1_08": {
+            "clientInfoId": "GeneratorSkillCheckSuccessOrBreakGens",
+            "coordinates": {
+              "x": 40.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L1_Start01",
+              "node_CalamariV2_L1_06",
+              "node_CalamariV2_L1_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "GeneratorSkillCheckSuccessOrBreakGensInCalamari": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 6,
+                "objectiveId": "GeneratorSkillCheckSuccessOrBreakGensInCalamari",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.GeneratorSkillCheckSuccessOrBreakGens",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L1_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 70.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L1_05"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_CalamariV2_L1_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 25.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L1_08"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_CalamariV2_L1_Start01"
+        ],
+        "startDate": "2024-11-12T16:00:00",
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      },
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_CalamariV2_L2_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 10,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "FU_BDG_15",
+            "type": "inventory"
+          },
+          {
+            "amount": 1,
+            "id": "FU_BNR_09",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_CalamariV2_L2_01": {
+            "clientInfoId": "PlayAsClassSurvivor",
+            "coordinates": {
+              "x": 35.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L2_End01",
+              "node_CalamariV2_L2_02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "PlayAsClass": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  },
+                  {
+                    "key": "class",
+                    "value": [
+                      "Survivalist"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "PlayAsClass",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.FinishedPlaying",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L2_02": {
+            "clientInfoId": "PlayAsClassSurvivor",
+            "coordinates": {
+              "x": 35.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L2_08",
+              "node_CalamariV2_L2_01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "PlayAsClass": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  },
+                  {
+                    "key": "class",
+                    "value": [
+                      "Scout"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "PlayAsClass",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.FinishedPlaying",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L2_03": {
+            "clientInfoId": "Crow",
+            "coordinates": {
+              "x": 65.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L2_End01",
+              "node_CalamariV2_L2_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CrowInCalamari": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 25,
+                "objectiveId": "CrowInCalamari",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Crow",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L2_04": {
+            "clientInfoId": "ChasedByOrChase",
+            "coordinates": {
+              "x": 65.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L2_03",
+              "node_CalamariV2_L2_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "ChasedByOrChaseInCalamari": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 150,
+                "objectiveId": "ChasedByOrChaseInCalamari",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:meOrOther",
+                    "questEventId": "QuestEvent.Chase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L2_05": {
+            "clientInfoId": "GeneratorSkillCheckSuccessOrBreakGens",
+            "coordinates": {
+              "x": 35.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L2_08",
+              "node_CalamariV2_L2_Start01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "GeneratorSkillCheckSuccessOrBreakGensInCalamari": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 6,
+                "objectiveId": "GeneratorSkillCheckSuccessOrBreakGensInCalamari",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.GeneratorSkillCheckSuccessOrBreakGens",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L2_06": {
+            "clientInfoId": "PalletDropInChaseOrBreakPallets",
+            "coordinates": {
+              "x": 65.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L2_Start01",
+              "node_CalamariV2_L2_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "PalletDropInChaseOrBreakPalletsInCalamari": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "PalletDropInChaseOrBreakPalletsInCalamari",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.PalletDropInChaseOrBreakPallets",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L2_07": {
+            "clientInfoId": "SucceedHealingSkillCheckOrDown",
+            "coordinates": {
+              "x": 55.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L2_04",
+              "node_CalamariV2_L2_08",
+              "node_CalamariV2_L2_06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SucceedHealingSkillCheckOrDownInCalamari": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 6,
+                "objectiveId": "SucceedHealingSkillCheckOrDownInCalamari",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SucceedHealingSkillCheckOrDown",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L2_08": {
+            "clientInfoId": "UnhookOrHook",
+            "coordinates": {
+              "x": 45.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L2_07",
+              "node_CalamariV2_L2_02",
+              "node_CalamariV2_L2_05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "UnhookOrHookInCalamari": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Calamari"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "UnhookOrHookInCalamari",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.UnhookOrHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_CalamariV2_L2_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 50.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L2_01",
+              "node_CalamariV2_L2_03"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_CalamariV2_L2_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 50.0,
+              "y": 0.0
+            },
+            "neighbors": [
+              "node_CalamariV2_L2_05",
+              "node_CalamariV2_L2_06"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_CalamariV2_L2_Start01"
+        ],
+        "startDate": "2024-11-19T16:00:00",
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      }
+    ],
+    "newTomePopup": false,
+    "riftId": "Tome21",
+    "specialEventId": "CalamariV2"
+  }
+}

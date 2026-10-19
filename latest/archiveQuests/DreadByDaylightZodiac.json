@@ -1,0 +1,383 @@
+{
+  "DreadByDaylightZodiac": {
+    "level": [
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_ZodiacLTE_L1_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 10,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "ZO_BDG_13",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_ZodiacLTE_L1_01": {
+            "clientInfoId": "Crow",
+            "coordinates": {
+              "x": 15.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ZodiacLTE_L1_Start01",
+              "node_ZodiacLTE_L1_05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Crow": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 40,
+                "objectiveId": "Crow",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Crow",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ZodiacLTE_L1_02": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 45.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ZodiacLTE_L1_05",
+              "node_ZodiacLTE_L1_03",
+              "node_ZodiacLTE_L1_Reward03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpoints": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 75000,
+                "objectiveId": "EarnBloodpoints",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ZodiacLTE_L1_03": {
+            "clientInfoId": "PalletDropInChaseOrBreakPallets",
+            "coordinates": {
+              "x": 60.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ZodiacLTE_L1_02",
+              "node_ZodiacLTE_L1_04",
+              "node_ZodiacLTE_L1_Reward04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "PalletDropInChaseOrBreakPallets": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 12,
+                "objectiveId": "PalletDropInChaseOrBreakPallets",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.PalletDropInChaseOrBreakPallets",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ZodiacLTE_L1_04": {
+            "clientInfoId": "UnhookOrHook",
+            "coordinates": {
+              "x": 75.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ZodiacLTE_L1_03",
+              "node_ZodiacLTE_L1_06",
+              "node_ZodiacLTE_L1_Reward05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "UnhookOrHook": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 6,
+                "objectiveId": "UnhookOrHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.UnhookOrHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ZodiacLTE_L1_05": {
+            "clientInfoId": "GeneratorSkillCheckSuccessOrBreakGens",
+            "coordinates": {
+              "x": 30.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ZodiacLTE_L1_01",
+              "node_ZodiacLTE_L1_02",
+              "node_ZodiacLTE_L1_Reward02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "GeneratorSkillCheckSuccessOrBreakGens": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 12,
+                "objectiveId": "GeneratorSkillCheckSuccessOrBreakGens",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.GeneratorSkillCheckSuccessOrBreakGens",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ZodiacLTE_L1_06": {
+            "clientInfoId": "EarnEmblemsGold",
+            "coordinates": {
+              "x": 90.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ZodiacLTE_L1_04",
+              "node_ZodiacLTE_L1_End01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsGold": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 6,
+                "objectiveId": "EarnEmblemsGold",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Gold",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ZodiacLTE_L1_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 100.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ZodiacLTE_L1_06"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_ZodiacLTE_L1_Reward02": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 30.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_ZodiacLTE_L1_05"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "ZO_024",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_ZodiacLTE_L1_Reward03": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 45.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_ZodiacLTE_L1_02"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "ZO_BNR_05",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_ZodiacLTE_L1_Reward04": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 60.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_ZodiacLTE_L1_03"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "ZO_BDG_12",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_ZodiacLTE_L1_Reward05": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 75.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_ZodiacLTE_L1_04"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "ZO_BNR_10",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_ZodiacLTE_L1_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 0.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ZodiacLTE_L1_01"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_ZodiacLTE_L1_Start01"
+        ],
+        "startDate": "2024-02-07T16:00:00",
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      }
+    ],
+    "newTomePopup": false,
+    "riftId": "Tome18",
+    "specialEventId": "DreadByDaylightZodiac"
+  }
+}

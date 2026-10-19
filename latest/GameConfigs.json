@@ -1,4 +1,5 @@
 {
+  "DSProviderOnShutdownNotificationDelay": 90.0,
   "GameLoadingTimeout": -1.0,
   "RTMTimeoutThreshold": -1.0,
   "analytics": {
@@ -130,83 +131,163 @@
     "dlcAdditionalInfo": [
       {
         "dlcId": "development",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "BaseGame",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "80suitcase",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "bloodletting",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "bloodstainedSack",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "charityChest",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "GStar2017",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "ChineseEventOct2017",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "DeathGarden",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "Kabuki",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "StoreItem",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "Pulcinella",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "UmbraCust1",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "UmbraCust2",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "headCase",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "OrionCust",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "lastBreath",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "dlcId": "WalesCust",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "EpicBrillFreeWeek",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "EpicBrillGeneral",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "EpicSilentHillEdition",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "EpicUltimateEdition",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "ACPack_01",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "ACPack_02",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "ACPack_03",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "ACPack_04",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "ACPack_05",
+        "isChapterDlc": "false",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "ACPack_06",
+        "isChapterDlc": "false",
         "isShownInGameStore": false
       },
       {
         "availableStartDate": "2024-01-08T11:00:00",
-        "dlcId": "HeritagePack1"
+        "dlcId": "HeritagePack1",
+        "isChapterDlc": "false"
       },
       {
         "availableStartDate": "2024-01-08T11:00:00",
-        "dlcId": "HeritagePack2"
+        "dlcId": "HeritagePack2",
+        "isChapterDlc": "false"
       },
       {
         "availableStartDate": "2024-01-08T11:00:00",
-        "dlcId": "HeritagePack3"
+        "dlcId": "HeritagePack3",
+        "isChapterDlc": "false"
+      },
+      {
+        "availableStartDate": "2024-05-14T11:00:00",
+        "dlcId": "HeritagePack4",
+        "isChapterDlc": "false"
       },
       {
         "availableEndDate": "2024-01-08T11:00:00",
@@ -269,6 +350,38 @@
         "dlcId": "Hubble"
       },
       {
+        "availableEndDate": "2024-05-14T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Ion"
+      },
+      {
+        "availableEndDate": "2024-05-14T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Meteor"
+      },
+      {
+        "availableEndDate": "2024-05-14T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Quantum"
+      },
+      {
+        "availableEndDate": "2024-05-14T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Saturn"
+      },
+      {
+        "availableEndDate": "2023-07-18T14:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "UmbraCust1",
+        "isChapterDlc": "false"
+      },
+      {
+        "availableEndDate": "2023-07-18T14:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "UmbraCust2",
+        "isChapterDlc": "false"
+      },
+      {
         "availableStartDate": "2023-07-25T01:00:00",
         "dlcId": "Venus"
       },
@@ -282,13 +395,27 @@
       }
     ]
   },
+  "dynamicContent": {
+    "DynamicContentKillswitchPlatforms": [
+      "egs",
+      "grdk",
+      "ps4",
+      "ps5",
+      "steam",
+      "switch",
+      "xbox",
+      "xsx"
+    ]
+  },
   "enableAntiCamping": true,
   "enableAntiMoveHack": true,
   "enableBotsInCustomMatch": true,
+  "enableChallengeSystem": false,
   "enableConsoleSuspendSave": true,
   "enableConsumableQueryFromKraken": true,
   "enableContainerAgressiveMemorySaving": false,
   "enableDSQuestsUpdate": false,
+  "enableFirstMoveAfterForcedUpdates": false,
   "enableGetUpInteraction": true,
   "enableHapticVibration": true,
   "enableLimitRegressionEvents": true,
@@ -300,6 +427,8 @@
   "enablePlayerIdInSurvey": true,
   "enablePlayersConnectionStatus": true,
   "enablePostIISCinematic": true,
+  "enableRealtimeMoriPreview": true,
+  "enableUmgStore": true,
   "enableWinGDKAccountMismatchPopup": true,
   "friendsList": {
     "maxFriendSuggestionsFacebook": 4,

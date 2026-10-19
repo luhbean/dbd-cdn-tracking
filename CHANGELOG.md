@@ -2,6 +2,14 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [7.7.0_1796729live](versions/7.7.0_1796729live/CHANGES.md)
+
+Built 2024-05-28 15:33 UTC · **+1** added · **~2** modified · **−0** removed
+
+- ~ [`GameConfigs.json`](versions/7.7.0_1796729live/diffs/GameConfigs.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/7.7.0_1796729live/diffs/dynamicContent/DynamicContent.json.diff)
+- \+ [`images/T_UI_CollectionBanner_Aftermath.png`](versions/7.7.0_1796729live/images/T_UI_CollectionBanner_Aftermath.png)
+
 ## [7.6.2_1731307live](versions/7.6.2_1731307live/CHANGES.md)
 
 Built 2024-04-18 21:12 UTC · no content changes

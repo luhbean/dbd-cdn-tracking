@@ -2,16 +2,22 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.1.0_2666980live` · built 2025-08-06 14:24 UTC
+**Latest version:** `9.1.1_2667139live` · built 2025-08-06 15:16 UTC
 
-[What changed](versions/9.1.0_2666980live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.1.1_2667139live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **2** modified · **0** removed, compared with `9.1.0_2666751live`.
+**1** added · **4** modified · **3** removed, compared with `9.1.0_2666980live`.
 
-- ~ [`catalog.json`](versions/9.1.0_2666980live/diffs/catalog.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.0_2666980live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`catalog.json`](versions/9.1.1_2667139live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/9.1.1_2667139live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.1_2667139live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/9.1.1_2667139live/diffs/itemsKillswitch.json.diff)
+- \+ [`images/T_UI_CollectionBanner_CounterCulture.png`](versions/9.1.1_2667139live/images/T_UI_CollectionBanner_CounterCulture.png)
+- − `images/T_UI_CollectionBanner_TombRaider_2.png`
+- − `images/T_UI_SpecialPack_Rift2.png`
+- − `images/T_UI_SpecialPack_TombRaider_2.png`
 
 ## Browse
 
@@ -33,7 +39,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-127 versions tracked so far.
+128 versions tracked so far.
 
 ---
 

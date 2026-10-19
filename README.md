@@ -2,24 +2,13 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.1.0_2663963live` · built 2025-08-05 14:28 UTC
+**Latest version:** `9.1.0_2664183live` · built 2025-08-05 14:53 UTC
 
-[What changed](versions/9.1.0_2663963live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.1.0_2664183live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**1** added · **9** modified · **0** removed, compared with `9.1.0_2662773live`.
-
-- ~ [`catalog.json`](versions/9.1.0_2663963live/diffs/catalog.json.diff)
-- ~ [`challengeLocs/challengeText_ko.json`](versions/9.1.0_2663963live/diffs/challengeLocs/challengeText_ko.json.diff)
-- ~ [`challengeLocs/challengeText_pl.json`](versions/9.1.0_2663963live/diffs/challengeLocs/challengeText_pl.json.diff)
-- ~ [`challengeLocs/challengeText_ru.json`](versions/9.1.0_2663963live/diffs/challengeLocs/challengeText_ru.json.diff)
-- ~ [`challengeLocs/challengeText_tr.json`](versions/9.1.0_2663963live/diffs/challengeLocs/challengeText_tr.json.diff)
-- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/9.1.0_2663963live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
-- ~ [`collections.json`](versions/9.1.0_2663963live/diffs/collections.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.0_2663963live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`recommendations.json`](versions/9.1.0_2663963live/diffs/recommendations.json.diff)
-- \+ [`images/T_UI_CollectionBanner_TombRaider_2.png`](versions/9.1.0_2663963live/images/T_UI_CollectionBanner_TombRaider_2.png)
+**0** added · **0** modified · **0** removed, compared with `9.1.0_2663963live`.
 
 ## Browse
 
@@ -41,7 +30,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-119 versions tracked so far.
+120 versions tracked so far.
 
 ---
 

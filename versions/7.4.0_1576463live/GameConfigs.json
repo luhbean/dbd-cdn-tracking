@@ -1,0 +1,373 @@
+{
+  "GameLoadingTimeout": -1.0,
+  "RTMTimeoutThreshold": -1.0,
+  "analytics": {
+    "detailedScoreTypeBlacklist": [
+      "GameEvent.Survivor.Enter.Tile",
+      "GameEvent.ScareACrow",
+      "GameEvent.Camper.SkillCheck.Success.Bonus",
+      "GameEvent.Camper.Crouch.Start",
+      "GameEvent.Camper.Crouch.Stop",
+      "GameEvent.Camper.SkillCheck.Success.Good",
+      "GameEvent.RepairDamagedGenerator",
+      "GameEvent.PlayerStoppedGeneratorRepair",
+      "GameEvent.Slasher.BasicAttack.Start",
+      "GameEvent.ScoreEvent.Slasher.ChaseStart",
+      "GameEvent.ScoreEvent.Slasher.Chase.PerSecond",
+      "GameEvent.ScoreEvent.Camper.Chase.PerSecond",
+      "GameEvent.Chase.End",
+      "GameEvent.ScoreEvent.Camper.GeneratorProgressWhileChased",
+      "GameEvent.Camper.LandFromFalling",
+      "GameEvent.SlasherPostAttackSuccess",
+      "GameEvent.SlasherPreAttackSuccess",
+      "GameEvent.ScoreEvent.Camper.EscapeChase",
+      "GameEvent.Hook.HookedSurvivorChanged",
+      "GameEvent.Survivor.ApplyBuffToOtherSurvivor"
+    ],
+    "detailedScoreTypeWhitelist": [
+      "*"
+    ],
+    "gameConsoleLogMinimumVerbosity": "NoLogging",
+    "gameInitVerbose": false,
+    "maxFramesUntilSend": 1000,
+    "maxTrackedRecurrences": 5,
+    "performanceContextWhitelist": [
+      "InGame",
+      "OnlineLobby"
+    ],
+    "performanceSamplingLocalisation": [
+      "InGame"
+    ],
+    "performanceSamplingRate": 3600,
+    "performanceSamplingRule": "KL",
+    "performanceSamplingWhitelist": [
+      "InGame"
+    ],
+    "scoreTypeWhitelist": [
+      "*"
+    ]
+  },
+  "animBudgeter": {
+    "enabled": false,
+    "ps4Budget": 5.77,
+    "ps5Budget": 1.48,
+    "steamBudgets": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "switchBudget": 6.0,
+    "xboxOneBudget": 4.014,
+    "xsxBudget": 1.23
+  },
+  "archives": {
+    "communityNodeRefreshInterval": 5
+  },
+  "beginnerTutorialLevel": {
+    "levelToHideTutorial": 5,
+    "prestigeToHideTutorial": 0
+  },
+  "botMatch": {
+    "DSPlatformSBM": [
+      "egs",
+      "grdk",
+      "nintendo",
+      "ps4",
+      "ps5",
+      "psn",
+      "psnV3",
+      "stadia",
+      "steam",
+      "switch",
+      "xbox",
+      "xsx"
+    ],
+    "DSPlatformTutorialBotMatch": [
+      "egs",
+      "grdk",
+      "nintendo",
+      "ps4",
+      "ps5",
+      "psn",
+      "psnV3",
+      "stadia",
+      "steam",
+      "switch",
+      "xbox",
+      "xsx"
+    ]
+  },
+  "contentVersion": {
+    "clientNewContentForceReboot": false,
+    "dsNewContentCatalogItemValidation": false,
+    "dsNewContentShutdown": true,
+    "dsNewContentShutdownMaxMinutes": 1.0,
+    "dsNewContentShutdownMinMinutes": 0.0
+  },
+  "crossPromoManagerPlatforms": {
+    "egs": false,
+    "grdk": false,
+    "ps4": true,
+    "ps5": true,
+    "stadia": false,
+    "steam": true,
+    "switch": false,
+    "xbox": true,
+    "xsx": true
+  },
+  "dedicatedServer": {
+    "latencyRetryCooldownSeconds": 600,
+    "newContentShutdown": true,
+    "newContentShutdownMaxMinutes": 0.2,
+    "newContentShutdownMinMinutes": 0.1
+  },
+  "disableNavigationDuringMatchmaking": false,
+  "disconnectionBotReplacement": {
+    "enableDisconnectionBotReplacement": true,
+    "replacementBotRank": 15,
+    "usePlayerRankForReplacementBot": false
+  },
+  "dlc": {
+    "dlcAdditionalInfo": [
+      {
+        "availableStartDate": "2024-01-08T11:00:00",
+        "dlcId": "HeritagePack1"
+      },
+      {
+        "availableStartDate": "2024-01-08T11:00:00",
+        "dlcId": "HeritagePack2"
+      },
+      {
+        "availableStartDate": "2024-01-08T11:00:00",
+        "dlcId": "HeritagePack3"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Guam"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Haiti"
+      }
+    ]
+  },
+  "enableAntiCamping": true,
+  "enableAntiMoveHack": true,
+  "enableBotsInCustomMatch": true,
+  "enableConsumableQueryFromKraken": true,
+  "enableGetUpInteraction": true,
+  "enableHapticVibration": true,
+  "enableMoriPreviewButton": true,
+  "enableNetAsyncLoading": true,
+  "enablePlayStationTrophiesIISSync": true,
+  "enablePlayerIdInSurvey": true,
+  "enablePlayersConnectionStatus": true,
+  "enablePostIISCinematic": true,
+  "enableWinGDKAccountMismatchPopup": true,
+  "friendsList": {
+    "maxFriendSuggestionsFacebook": 4,
+    "maxFriendSuggestionsGoogle": 4,
+    "maxFriendSuggestionsRecentlyPlayed": 4
+  },
+  "hitValidation": {
+    "enable": true,
+    "enableCollisionCheck": false,
+    "recorder": {
+      "cacheTimespan": 0.25
+    },
+    "validators": [
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 300.0,
+        "name": "default"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 200.0,
+        "name": "hatchet"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 200.0,
+        "name": "bomb"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 200.0,
+        "name": "harpoon"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 350.0,
+        "name": "oni"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 800.0,
+        "name": "whip"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 200.0,
+        "name": "defaultprojectile"
+      }
+    ]
+  },
+  "jwt": {
+    "enabled": true,
+    "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvVHc2Mk5NQ0dtNVVOWjUzeTNaagp0Y1dxRk5jOE83UlRzQ0d2WHNCOWRNRGFqRzFnOTFyUzZEc2hiWTJFNk84MVlRdGlSUGRYcUgzcWVLUjcvdU53CkhwOWVVbWM4NzVPcS9xQldkWldjZEk0V3RmUWM3Z0FrMzR0ZUhhMU10VG1XL3QrVEtVajJBekRjVHZXNkpjcXUKWmdqRzkvSlR2dzM4RzEyQXFjWHZ5K3hFam4zL2ptQ0oxOGZWWWRuQ0I1ZWFEQkFoMFluTzQxaGIyODZDS0pwRwozT25wTHFyeWlzVzFnOTZ1ZWxKQnhVelRydnVKK2JJS2VFSWdqdURobHpaNU4yeW5tbHNodXlRWm15ME50VE14CjNqMlVoSkNtS3JsNTdKMzhnUnpRczJqSDBKT3ExZkhsOEhXMHlUT1dLQVNxbkNqaVp0NG5QUGJVdXpVY1JYcEEKeXdJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+  },
+  "krakenSdkValidation": {
+    "enabled": true,
+    "useWhitelist": true,
+    "whitelist": [
+      "public-test-internal",
+      "shipping-live-internal"
+    ]
+  },
+  "loading": {
+    "globalTimeout": {
+      "expectedTimeout": 150.0,
+      "hardcapTimeout": 210.0,
+      "stepName": "Global",
+      "timeCapWithoutProgress": 59.0
+    },
+    "timeoutPerSteps": [
+      {
+        "expectedTimeout": 90.0,
+        "hardcapTimeout": 240.0,
+        "stepName": "WaitingForProceduralLevelBuilder",
+        "timeCapWithoutProgress": 60.0
+      },
+      {
+        "expectedTimeout": 18.0,
+        "hardcapTimeout": 75.0,
+        "stepName": "WaitingForPlayersToBeSpawned",
+        "timeCapWithoutProgress": 1000.0
+      },
+      {
+        "expectedTimeout": 5.0,
+        "hardcapTimeout": 80.0,
+        "stepName": "WaitingForAIPawnToBeSpawned",
+        "timeCapWithoutProgress": 1000.0
+      },
+      {
+        "expectedTimeout": 5.0,
+        "hardcapTimeout": 15.0,
+        "stepName": "WaitingForKillerSpecificStateComponentLogic",
+        "timeCapWithoutProgress": 1000.0
+      },
+      {
+        "expectedTimeout": 5.0,
+        "hardcapTimeout": 15.0,
+        "stepName": "WaitingForMapSpecificComponentLogic",
+        "timeCapWithoutProgress": 1000.0
+      },
+      {
+        "expectedTimeout": 5.0,
+        "hardcapTimeout": 15.0,
+        "stepName": "WaitingForAssetPreloader",
+        "timeCapWithoutProgress": 1000.0
+      },
+      {
+        "expectedTimeout": 25.0,
+        "hardcapTimeout": 120.0,
+        "stepName": "WaitingForLoadoutAndTheme",
+        "timeCapWithoutProgress": 1000.0
+      },
+      {
+        "expectedTimeout": 8.0,
+        "hardcapTimeout": 65.0,
+        "stepName": "WaitingForPIAToBeSpawnedAndInitialized",
+        "timeCapWithoutProgress": 1000.0
+      },
+      {
+        "expectedTimeout": 10.0,
+        "hardcapTimeout": 30.0,
+        "stepName": "WaitingForNavmeshComputation",
+        "timeCapWithoutProgress": 1000.0
+      },
+      {
+        "expectedTimeout": 5.0,
+        "hardcapTimeout": 15.0,
+        "stepName": "SetGameLoadedAndReadyToPlay",
+        "timeCapWithoutProgress": 1000.0
+      },
+      {
+        "expectedTimeout": 45.0,
+        "hardcapTimeout": 210.0,
+        "stepName": "WaitingForIntroToBeDone",
+        "timeCapWithoutProgress": 1000.0
+      },
+      {
+        "expectedTimeout": 10.0,
+        "hardcapTimeout": 30.0,
+        "stepName": "LoadingCompleted",
+        "timeCapWithoutProgress": 1000.0
+      }
+    ]
+  },
+  "match": {
+    "maxEndGameCollapseSeconds": 300,
+    "maxMatchSeconds": 3600
+  },
+  "matchmakingCrossplayPlatforms": {
+    "egs": true,
+    "grdk": true,
+    "ps4": true,
+    "ps5": true,
+    "stadia": true,
+    "steam": true,
+    "switch": true,
+    "xbox": true,
+    "xsx": true
+  },
+  "mirrorsDefaultRetryPolicy": {
+    "enabled": true,
+    "retryCount": 5,
+    "timeout": 5
+  },
+  "online": {
+    "hiddenProgressiveQueueDelays": [
+      0,
+      0,
+      10,
+      20,
+      40,
+      60
+    ],
+    "hiddenQueueDelayResetThreshold": 300,
+    "randomQueueDelayMax": 30,
+    "randomQueueDelayMin": 10
+  },
+  "security": {
+    "allowClientGuestProviderOnServerLogin": false,
+    "allowServerCheats": false
+  },
+  "socialCrossfriendsPlatforms": {
+    "egs": true,
+    "grdk": true,
+    "ps4": true,
+    "ps5": true,
+    "stadia": true,
+    "steam": true,
+    "switch": true,
+    "xbox": true,
+    "xsx": true
+  },
+  "socialCrossprogressionPlatforms": {
+    "egs": true,
+    "grdk": false,
+    "ps4": false,
+    "ps5": false,
+    "stadia": true,
+    "steam": true,
+    "switch": false,
+    "xbox": false,
+    "xsx": false
+  }
+}

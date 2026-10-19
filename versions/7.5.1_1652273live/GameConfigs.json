@@ -1,0 +1,534 @@
+{
+  "GameLoadingTimeout": -1.0,
+  "RTMTimeoutThreshold": -1.0,
+  "analytics": {
+    "detailedScoreTypeBlacklist": [
+      "GameEvent.Survivor.Enter.Tile",
+      "GameEvent.ScareACrow",
+      "GameEvent.Camper.SkillCheck.Success.Bonus",
+      "GameEvent.Camper.Crouch.Start",
+      "GameEvent.Camper.Crouch.Stop",
+      "GameEvent.Camper.SkillCheck.Success.Good",
+      "GameEvent.RepairDamagedGenerator",
+      "GameEvent.PlayerStoppedGeneratorRepair",
+      "GameEvent.Slasher.BasicAttack.Start",
+      "GameEvent.ScoreEvent.Slasher.ChaseStart",
+      "GameEvent.ScoreEvent.Slasher.Chase.PerSecond",
+      "GameEvent.ScoreEvent.Camper.Chase.PerSecond",
+      "GameEvent.Chase.End",
+      "GameEvent.ScoreEvent.Camper.GeneratorProgressWhileChased",
+      "GameEvent.Camper.LandFromFalling",
+      "GameEvent.SlasherPostAttackSuccess",
+      "GameEvent.SlasherPreAttackSuccess",
+      "GameEvent.ScoreEvent.Camper.EscapeChase",
+      "GameEvent.Hook.HookedSurvivorChanged",
+      "GameEvent.Survivor.ApplyBuffToOtherSurvivor"
+    ],
+    "detailedScoreTypeWhitelist": [
+      "*"
+    ],
+    "gameConsoleLogMinimumVerbosity": "NoLogging",
+    "gameInitVerbose": false,
+    "maxFramesUntilSend": 1000,
+    "maxTrackedRecurrences": 5,
+    "performanceContextWhitelist": [
+      "InGame",
+      "OnlineLobby"
+    ],
+    "performanceSamplingRate": 300,
+    "performanceSamplingRule": "KL",
+    "performanceSamplingWhitelist": [
+      "InGame"
+    ],
+    "scoreTypeWhitelist": [
+      "*"
+    ]
+  },
+  "animBudgeter": {
+    "enabled": false,
+    "ps4Budget": 5.77,
+    "ps5Budget": 1.48,
+    "steamBudgets": [
+      4.0,
+      4.0,
+      4.0,
+      4.0,
+      4.0
+    ],
+    "switchBudget": 6.0,
+    "xboxOneBudget": 4.014,
+    "xsxBudget": 1.23
+  },
+  "archives": {
+    "communityNodeRefreshInterval": 5
+  },
+  "beginnerTutorialLevel": {
+    "levelToHideTutorial": 5,
+    "prestigeToHideTutorial": 0
+  },
+  "botMatch": {
+    "DSPlatformSBM": [
+      "egs",
+      "grdk",
+      "nintendo",
+      "ps4",
+      "ps5",
+      "psn",
+      "psnV3",
+      "stadia",
+      "steam",
+      "switch",
+      "xbox",
+      "xsx"
+    ],
+    "DSPlatformTutorialBotMatch": [
+      "egs",
+      "grdk",
+      "nintendo",
+      "ps4",
+      "ps5",
+      "psn",
+      "psnV3",
+      "stadia",
+      "steam",
+      "switch",
+      "xbox",
+      "xsx"
+    ]
+  },
+  "contentVersion": {
+    "clientNewContentForceReboot": false,
+    "dsNewContentCatalogItemValidation": false,
+    "dsNewContentShutdown": true,
+    "dsNewContentShutdownMaxMinutes": 1.0,
+    "dsNewContentShutdownMinMinutes": 0.0
+  },
+  "crossPromoManagerPlatforms": {
+    "egs": false,
+    "grdk": false,
+    "ps4": true,
+    "ps5": true,
+    "stadia": false,
+    "steam": true,
+    "switch": false,
+    "xbox": true,
+    "xsx": true
+  },
+  "dedicatedServer": {
+    "latencyRetryCooldownSeconds": 600,
+    "newContentShutdown": true,
+    "newContentShutdownMaxMinutes": 0.2,
+    "newContentShutdownMinMinutes": 0.1
+  },
+  "disableNavigationDuringMatchmaking": false,
+  "disconnectionBotReplacement": {
+    "enableDisconnectionBotReplacement": true,
+    "replacementBotRank": 15,
+    "usePlayerRankForReplacementBot": false
+  },
+  "dlc": {
+    "dlcAdditionalInfo": [
+      {
+        "dlcId": "development",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "80suitcase",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "bloodletting",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "bloodstainedSack",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "charityChest",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "GStar2017",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "ChineseEventOct2017",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "DeathGarden",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "Kabuki",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "StoreItem",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "Pulcinella",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "UmbraCust1",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "UmbraCust2",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "headCase",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "OrionCust",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "lastBreath",
+        "isShownInGameStore": false
+      },
+      {
+        "dlcId": "WalesCust",
+        "isShownInGameStore": false
+      },
+      {
+        "availableStartDate": "2024-01-08T11:00:00",
+        "dlcId": "HeritagePack1"
+      },
+      {
+        "availableStartDate": "2024-01-08T11:00:00",
+        "dlcId": "HeritagePack2"
+      },
+      {
+        "availableStartDate": "2024-01-08T11:00:00",
+        "dlcId": "HeritagePack3"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "fleshAndMud"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "sparkofMadness"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Guam"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Haiti"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Kenya"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Mali"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Sweden"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Ukraine"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Yemen"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Aurora"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Comet"
+      },
+      {
+        "availableEndDate": "2024-01-08T11:00:00",
+        "availableStartDate": "2020-01-01T01:00:00",
+        "dlcId": "Hubble"
+      },
+      {
+        "availableStartDate": "2024-01-30T01:00:00",
+        "dlcId": "Zodiac"
+      }
+    ]
+  },
+  "enableAntiCamping": true,
+  "enableAntiMoveHack": true,
+  "enableBotsInCustomMatch": true,
+  "enableConsoleSuspendSave": true,
+  "enableConsumableQueryFromKraken": true,
+  "enableGetUpInteraction": true,
+  "enableHapticVibration": true,
+  "enableLimitRegressionEvents": true,
+  "enableLobbyLeaveSave": false,
+  "enableMoriPreviewButton": true,
+  "enableNetAsyncLoading": true,
+  "enablePlayStationTrophiesIISSync": true,
+  "enablePlayerIdInSurvey": true,
+  "enablePlayersConnectionStatus": true,
+  "enablePostIISCinematic": true,
+  "enableWinGDKAccountMismatchPopup": true,
+  "friendsList": {
+    "maxFriendSuggestionsFacebook": 4,
+    "maxFriendSuggestionsGoogle": 4,
+    "maxFriendSuggestionsRecentlyPlayed": 4
+  },
+  "hangTimes": [
+    {
+      "hardcapTimeout": 0.0,
+      "possibleHangTime": 10.0,
+      "sourceName": "StartupInitializer",
+      "stepName": "*",
+      "timeCapWithoutProgress": 0.0
+    },
+    {
+      "hardcapTimeout": 0.0,
+      "possibleHangTime": 40.0,
+      "sourceName": "StartupInitializer",
+      "stepName": "LoadingS3PrestigeData",
+      "timeCapWithoutProgress": 0.0
+    },
+    {
+      "hardcapTimeout": 0.0,
+      "possibleHangTime": 40.0,
+      "sourceName": "StartupInitializer",
+      "stepName": "LoadingPlayerIndependentShopData",
+      "timeCapWithoutProgress": 0.0
+    },
+    {
+      "hardcapTimeout": 0.0,
+      "possibleHangTime": 0.0,
+      "sourceName": "StartupInitializer",
+      "stepName": "ValidateSignIn",
+      "timeCapWithoutProgress": 0.0
+    },
+    {
+      "hardcapTimeout": 210.0,
+      "possibleHangTime": 150.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "*",
+      "timeCapWithoutProgress": 59.0
+    },
+    {
+      "hardcapTimeout": 240.0,
+      "possibleHangTime": 90.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForProceduralLevelBuilder",
+      "timeCapWithoutProgress": 60.0
+    },
+    {
+      "hardcapTimeout": 75.0,
+      "possibleHangTime": 18.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForPlayersToBeSpawned",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 80.0,
+      "possibleHangTime": 5.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForAIPawnToBeSpawned",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 15.0,
+      "possibleHangTime": 5.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForKillerSpecificStateComponentLogic",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 15.0,
+      "possibleHangTime": 5.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForMapSpecificComponentLogic",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 15.0,
+      "possibleHangTime": 5.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForAssetPreloader",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 120.0,
+      "possibleHangTime": 25.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForLoadoutAndTheme",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 65.0,
+      "possibleHangTime": 8.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForPIAToBeSpawnedAndInitialized",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 30.0,
+      "possibleHangTime": 10.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForNavmeshComputation",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 15.0,
+      "possibleHangTime": 5.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "SetGameLoadedAndReadyToPlay",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 210.0,
+      "possibleHangTime": 45.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "WaitingForIntroToBeDone",
+      "timeCapWithoutProgress": 1000.0
+    },
+    {
+      "hardcapTimeout": 30.0,
+      "possibleHangTime": 10.0,
+      "sourceName": "DBDGameMode",
+      "stepName": "LoadingCompleted",
+      "timeCapWithoutProgress": 1000.0
+    }
+  ],
+  "hitValidation": {
+    "enable": true,
+    "enableCollisionCheck": false,
+    "recorder": {
+      "cacheTimespan": 0.25
+    },
+    "validators": [
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 300.0,
+        "name": "default"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 200.0,
+        "name": "hatchet"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 200.0,
+        "name": "bomb"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 200.0,
+        "name": "harpoon"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 350.0,
+        "name": "oni"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 800.0,
+        "name": "whip"
+      },
+      {
+        "capsuleInflation": 50.0,
+        "maximumDistance": 200.0,
+        "name": "defaultprojectile"
+      }
+    ]
+  },
+  "jwt": {
+    "enabled": true,
+    "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvVHc2Mk5NQ0dtNVVOWjUzeTNaagp0Y1dxRk5jOE83UlRzQ0d2WHNCOWRNRGFqRzFnOTFyUzZEc2hiWTJFNk84MVlRdGlSUGRYcUgzcWVLUjcvdU53CkhwOWVVbWM4NzVPcS9xQldkWldjZEk0V3RmUWM3Z0FrMzR0ZUhhMU10VG1XL3QrVEtVajJBekRjVHZXNkpjcXUKWmdqRzkvSlR2dzM4RzEyQXFjWHZ5K3hFam4zL2ptQ0oxOGZWWWRuQ0I1ZWFEQkFoMFluTzQxaGIyODZDS0pwRwozT25wTHFyeWlzVzFnOTZ1ZWxKQnhVelRydnVKK2JJS2VFSWdqdURobHpaNU4yeW5tbHNodXlRWm15ME50VE14CjNqMlVoSkNtS3JsNTdKMzhnUnpRczJqSDBKT3ExZkhsOEhXMHlUT1dLQVNxbkNqaVp0NG5QUGJVdXpVY1JYcEEKeXdJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+  },
+  "krakenSdkValidation": {
+    "enabled": true,
+    "useWhitelist": true,
+    "whitelist": [
+      "public-test-internal",
+      "shipping-live-internal"
+    ]
+  },
+  "match": {
+    "maxEndGameCollapseSeconds": 300,
+    "maxMatchSeconds": 3600
+  },
+  "matchmakingCrossplayPlatforms": {
+    "egs": true,
+    "grdk": true,
+    "ps4": true,
+    "ps5": true,
+    "stadia": true,
+    "steam": true,
+    "switch": true,
+    "xbox": true,
+    "xsx": true
+  },
+  "mirrorsDefaultRetryPolicy": {
+    "enabled": true,
+    "retryCount": 5,
+    "timeout": 5
+  },
+  "online": {
+    "hiddenProgressiveQueueDelays": [
+      0,
+      0,
+      10,
+      20,
+      40,
+      60
+    ],
+    "hiddenQueueDelayResetThreshold": 300,
+    "randomQueueDelayMax": 30,
+    "randomQueueDelayMin": 10
+  },
+  "security": {
+    "allowClientGuestProviderOnServerLogin": false,
+    "allowServerCheats": false
+  },
+  "socialCrossfriendsPlatforms": {
+    "egs": true,
+    "grdk": true,
+    "ps4": true,
+    "ps5": true,
+    "stadia": true,
+    "steam": true,
+    "switch": true,
+    "xbox": true,
+    "xsx": true
+  },
+  "socialCrossprogressionPlatforms": {
+    "egs": true,
+    "grdk": false,
+    "ps4": false,
+    "ps5": false,
+    "stadia": true,
+    "steam": true,
+    "switch": false,
+    "xbox": false,
+    "xsx": false
+  }
+}

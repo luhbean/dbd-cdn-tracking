@@ -2,18 +2,21 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `8.6.1_2410955live` · built 2025-04-17 12:44 UTC
+**Latest version:** `8.6.2_2430333live` · built 2025-05-02 14:46 UTC
 
-[What changed](versions/8.6.1_2410955live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/8.6.2_2430333live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **4** modified · **0** removed, compared with `8.6.0_2377854live`.
+**0** added · **7** modified · **0** removed, compared with `8.6.1_2410955live`.
 
-- ~ [`GameConfigs.json`](versions/8.6.1_2410955live/diffs/GameConfigs.json.diff)
-- ~ [`catalog.json`](versions/8.6.1_2410955live/diffs/catalog.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/8.6.1_2410955live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`recommendations.json`](versions/8.6.1_2410955live/diffs/recommendations.json.diff)
+- ~ [`GameConfigs.json`](versions/8.6.2_2430333live/diffs/GameConfigs.json.diff)
+- ~ [`archiveRewardData/content.json`](versions/8.6.2_2430333live/diffs/archiveRewardData/content.json.diff)
+- ~ [`catalog.json`](versions/8.6.2_2430333live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/8.6.2_2430333live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.6.2_2430333live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/8.6.2_2430333live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/8.6.2_2430333live/diffs/specialEventsContent.json.diff)
 
 ## Browse
 
@@ -35,7 +38,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-19 versions tracked so far.
+20 versions tracked so far.
 
 ---
 

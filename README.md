@@ -2,19 +2,20 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.0.1_2518194live` · built 2025-06-25 15:02 UTC
+**Latest version:** `9.0.1_2520463live` · built 2025-06-26 14:08 UTC
 
-[What changed](versions/9.0.1_2518194live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.0.1_2520463live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **5** modified · **0** removed, compared with `9.0.0_2516948live`.
+**0** added · **6** modified · **0** removed, compared with `9.0.1_2518194live`.
 
-- ~ [`catalog.json`](versions/9.0.1_2518194live/diffs/catalog.json.diff)
-- ~ [`challengeLocs/challengeText_en.json`](versions/9.0.1_2518194live/diffs/challengeLocs/challengeText_en.json.diff)
-- ~ [`collections.json`](versions/9.0.1_2518194live/diffs/collections.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.0.1_2518194live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`recommendations.json`](versions/9.0.1_2518194live/diffs/recommendations.json.diff)
+- ~ [`catalog.json`](versions/9.0.1_2520463live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_en.json`](versions/9.0.1_2520463live/diffs/challengeLocs/challengeText_en.json.diff)
+- ~ [`challengeLocs/challengeText_fr.json`](versions/9.0.1_2520463live/diffs/challengeLocs/challengeText_fr.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/9.0.1_2520463live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.0.1_2520463live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/9.0.1_2520463live/diffs/recommendations.json.diff)
 
 ## Browse
 
@@ -36,7 +37,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-65 versions tracked so far.
+66 versions tracked so far.
 
 ---
 

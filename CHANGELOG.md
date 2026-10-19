@@ -2,6 +2,13 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.0.1_2528528live](versions/9.0.1_2528528live/CHANGES.md)
+
+Built 2025-06-27 16:57 UTC · **+0** added · **~2** modified · **−0** removed
+
+- ~ [`bloodwebGenerationRules.json`](versions/9.0.1_2528528live/diffs/bloodwebGenerationRules.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.0.1_2528528live/diffs/dynamicContent/DynamicContent.json.diff)
+
 ## [9.0.1_2528504live](versions/9.0.1_2528504live/CHANGES.md)
 
 Built 2025-06-27 16:54 UTC · no content changes

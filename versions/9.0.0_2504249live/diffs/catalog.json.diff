@@ -1,0 +1,6210 @@
+--- a/catalog.json
++++ b/catalog.json
+@@ -4145,7 +4145,7 @@
+       "characterStartingInventory": [
+         {
+           "autoEquip": true,
+-          "itemId": "Addon_K39_08",
++          "itemId": "Addon_K39_01",
+           "itemType": "ItemAddOn",
+           "quantity": 5
+         },
+@@ -4157,7 +4157,7 @@
+         },
+         {
+           "autoEquip": false,
+-          "itemId": "Addon_K39_03",
++          "itemId": "Addon_K39_08",
+           "itemType": "ItemAddOn",
+           "quantity": 5
+         }
+@@ -4227,6 +4227,52 @@
+   },
+   {
+     "categories": [
++      "character"
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 500
++      }
++    ],
++    "id": "K40",
++    "metaData": {
++      "character": "268435495",
++      "characterStartingInventory": [
++        {
++          "autoEquip": true,
++          "itemId": "Addon_K40_01",
++          "itemType": "ItemAddOn",
++          "quantity": 5
++        },
++        {
++          "autoEquip": true,
++          "itemId": "Addon_K40_03",
++          "itemType": "ItemAddOn",
++          "quantity": 5
++        },
++        {
++          "autoEquip": false,
++          "itemId": "Addon_K40_07",
++          "itemType": "ItemAddOn",
++          "quantity": 5
++        }
++      ],
++      "defaultCustomization": [
++        "K40_Body01",
++        "K40_Head01",
++        "K40_Weapon01"
++      ],
++      "entitledByDefault": false,
++      "hiddenIfNotOwned": false,
++      "role": "Slasher"
++    },
++    "nonSecure": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
+       "entitlement"
+     ],
+     "defaultCost": [
+@@ -6454,7 +6500,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -6958,10 +7004,14 @@
+         {
+           "endDate": "2024-03-31T15:00:00",
+           "startDate": "2024-03-18T15:00:00"
++        },
++        {
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "base_itemId": "AV_Head022",
+@@ -8267,10 +8317,14 @@
+         {
+           "endDate": "2024-03-31T15:00:00",
+           "startDate": "2024-03-18T15:00:00"
++        },
++        {
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "base_itemId": "AV_Legs022",
+@@ -9707,6 +9761,32 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "AV_Torso021_03",
++    "metaData": {
++      "base_itemId": "AV_Torso021_03",
++      "character": "Ace",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 360
+       },
+       {
+@@ -9721,10 +9801,14 @@
+         {
+           "endDate": "2024-03-31T15:00:00",
+           "startDate": "2024-03-18T15:00:00"
++        },
++        {
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "base_itemId": "AV_Torso022",
+@@ -12716,7 +12800,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -14240,6 +14324,33 @@
+     "consumable": false,
+     "defaultCost": [
+       {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "BE_W029",
++    "metaData": {
++      "base_itemId": "BE_W029",
++      "character": "Bear",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Weapon"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
+         "currencyId": "Cells",
+         "price": 250
+       },
+@@ -15478,7 +15589,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -15587,7 +15698,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -15723,7 +15834,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -18418,7 +18529,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -18439,6 +18550,33 @@
+   },
+   {
+     "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "CM_Head032",
++    "metaData": {
++      "base_itemId": "CM_Head032",
++      "character": "Claudette",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Head"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
+       "item",
+       "default"
+     ],
+@@ -20007,7 +20145,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -21506,6 +21644,32 @@
+       {
+         "currencyId": "Cells",
+         "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "CM_Torso027_03",
++    "metaData": {
++      "base_itemId": "CM_Torso027_03",
++      "character": "Claudette",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 250
+       },
+       {
+         "currencyId": "Shards",
+@@ -21734,7 +21898,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -23314,7 +23478,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -27489,6 +27653,32 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "DF_Torso030_02",
++    "metaData": {
++      "base_itemId": "DF_Torso030_02",
++      "character": "Dwight",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 400
+       },
+       {
+@@ -29192,6 +29382,35 @@
+       "outfitId": "DK_outfit_02_01",
+       "rarity": "Rare",
+       "releaseDate": "2018-06-12T00:00:00",
++      "type": "Head",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "DK_Head030",
++    "metaData": {
++      "base_itemId": "DK_Head030",
++      "character": "Smoke",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "outfitId": "DK_outfit_030",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
+       "type": "Head",
+       "unbreakable": false
+     },
+@@ -30526,6 +30745,35 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "DK_Legs030",
++    "metaData": {
++      "base_itemId": "DK_Legs030",
++      "character": "Smoke",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "outfitId": "DK_outfit_030",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Legs",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 250
+       },
+       {
+@@ -31806,6 +32054,32 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "DK_Torso021_02",
++    "metaData": {
++      "base_itemId": "DK_Torso021_02",
++      "character": "Smoke",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 400
+       },
+       {
+@@ -32105,6 +32379,35 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "DK_Torso030",
++    "metaData": {
++      "base_itemId": "DK_Torso030",
++      "character": "Smoke",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "outfitId": "DK_outfit_030",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Torso",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 50
+       }
+     ],
+@@ -33948,8 +34251,12 @@
+           "startDate": "2024-03-18T15:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
++        },
++        {
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "base_itemId": "DO_Body020",
+@@ -35155,10 +35462,14 @@
+         {
+           "endDate": "2024-03-31T15:00:00",
+           "startDate": "2024-03-18T15:00:00"
++        },
++        {
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "base_itemId": "DO_Head020",
+@@ -35278,7 +35589,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -36053,10 +36364,14 @@
+         {
+           "endDate": "2024-03-31T15:00:00",
+           "startDate": "2024-03-18T15:00:00"
++        },
++        {
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "base_itemId": "DO_W020",
+@@ -36202,6 +36517,33 @@
+   },
+   {
+     "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "DO_W027",
++    "metaData": {
++      "base_itemId": "DO_W027",
++      "character": "Killer07",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Weapon"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
+       "item",
+       "default"
+     ],
+@@ -38097,13 +38439,14 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+       "base_itemId": "FK_Body010",
+       "character": "Pig",
+       "entitledByDefault": false,
++      "eventID": "Anniversary2024",
+       "limitedTimeEndDate": "2024-07-04T15:00:00",
+       "outfitId": "FK_outfit_010",
+       "rarity": "VeryRare",
+@@ -38317,13 +38660,14 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+       "base_itemId": "FK_Mask010",
+       "character": "Pig",
+       "entitledByDefault": false,
++      "eventID": "Anniversary2024",
+       "limitedTimeEndDate": "2024-07-04T15:00:00",
+       "outfitId": "FK_outfit_010",
+       "rarity": "VeryRare",
+@@ -38537,13 +38881,14 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+       "base_itemId": "FK_W010",
+       "character": "Pig",
+       "entitledByDefault": false,
++      "eventID": "Anniversary2024",
+       "limitedTimeEndDate": "2024-07-04T15:00:00",
+       "outfitId": "FK_outfit_010",
+       "rarity": "VeryRare",
+@@ -40847,13 +41192,14 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+       "base_itemId": "FM_Head025",
+       "character": "Feng",
+       "entitledByDefault": false,
++      "eventID": "Anniversary2023",
+       "limitedTimeEndDate": "2024-07-04T15:00:00",
+       "outfitId": "FM_outfit_025",
+       "rarity": "VeryRare",
+@@ -42674,13 +43020,14 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+       "base_itemId": "FM_Legs025",
+       "character": "Feng",
+       "entitledByDefault": false,
++      "eventID": "Anniversary2023",
+       "limitedTimeEndDate": "2024-07-04T15:00:00",
+       "outfitId": "FM_outfit_025",
+       "rarity": "VeryRare",
+@@ -44620,13 +44967,14 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+       "base_itemId": "FM_Torso025",
+       "character": "Feng",
+       "entitledByDefault": false,
++      "eventID": "Anniversary2023",
+       "limitedTimeEndDate": "2024-07-04T15:00:00",
+       "outfitId": "FM_outfit_025",
+       "rarity": "VeryRare",
+@@ -44848,6 +45196,32 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "FM_Torso030_02",
++    "metaData": {
++      "base_itemId": "FM_Torso030_02",
++      "character": "Feng",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -45340,7 +45714,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -46860,7 +47234,6 @@
+       "base_itemId": "GE_BDG_03",
+       "character": "any",
+       "entitledByDefault": false,
+-      "eventID": "0",
+       "rarity": "VeryRare",
+       "releaseDate": "2018-06-12T00:00:00",
+       "type": "Badge"
+@@ -47171,7 +47544,6 @@
+       "base_itemId": "GE_BNR_03",
+       "character": "any",
+       "entitledByDefault": false,
+-      "eventID": "0",
+       "rarity": "VeryRare",
+       "releaseDate": "2018-06-12T00:00:00",
+       "type": "Banner"
+@@ -49029,7 +49401,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -51219,7 +51591,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -54008,6 +54380,32 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "GS_Torso028_02",
++    "metaData": {
++      "base_itemId": "GS_Torso028_02",
++      "character": "Kate",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 400
+       },
+       {
+@@ -56236,7 +56634,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -58080,6 +58478,33 @@
+     "consumable": false,
+     "defaultCost": [
+       {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "HK_W025",
++    "metaData": {
++      "base_itemId": "HK_W025",
++      "character": "Spirit",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Weapon"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
+         "currencyId": "Cells",
+         "price": 25
+       }
+@@ -59831,7 +60256,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -62236,6 +62661,32 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "HS_Torso022_03",
++    "metaData": {
++      "base_itemId": "HS_Torso022_03",
++      "character": "Adam",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 400
+       },
+       {
+@@ -64100,6 +64551,33 @@
+       "entitledByDefault": false,
+       "rarity": "Rare",
+       "releaseDate": "2025-04-02T15:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 120
++      }
++    ],
++    "eventCostList": [],
++    "id": "IC_BDG_11",
++    "metaData": {
++      "base_itemId": "IC_BDG_11",
++      "character": "any",
++      "entitledByDefault": false,
++      "eventID": "ChocolateBoxKetchup",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-04-07T15:00:00",
+       "type": "Badge"
+     },
+     "nonSecure": false,
+@@ -67240,6 +67718,33 @@
+   },
+   {
+     "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "JP_Head031",
++    "metaData": {
++      "base_itemId": "JP_Head031",
++      "character": "Jake",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Head"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
+       "item",
+       "default"
+     ],
+@@ -69959,6 +70464,32 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "JP_Torso022_02",
++    "metaData": {
++      "base_itemId": "JP_Torso022_02",
++      "character": "Jake",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -74388,7 +74919,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -76835,7 +77366,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -79304,7 +79835,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -82183,7 +82714,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -82645,7 +83176,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -83030,7 +83561,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -83840,7 +84371,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -84440,7 +84971,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -85107,7 +85638,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -85807,7 +86338,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -87137,7 +87668,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -87718,7 +88249,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -87811,7 +88342,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -88413,7 +88944,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -89148,8 +89679,12 @@
+           "startDate": "2024-03-18T15:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
++        },
++        {
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "base_itemId": "K31_Body012",
+@@ -89766,10 +90301,14 @@
+         {
+           "endDate": "2024-03-31T15:00:00",
+           "startDate": "2024-03-18T15:00:00"
++        },
++        {
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "base_itemId": "K31_Head012",
+@@ -89859,7 +90398,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -90525,10 +91064,14 @@
+         {
+           "endDate": "2024-03-31T15:00:00",
+           "startDate": "2024-03-18T15:00:00"
++        },
++        {
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "base_itemId": "K31_W012",
+@@ -91404,7 +91947,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -93755,7 +94298,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -94266,7 +94809,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -94776,7 +95319,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -95269,6 +95812,41 @@
+       "releaseDate": "2025-01-16T16:00:00",
+       "type": "Torso",
+       "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 360
++      }
++    ],
++    "eventCostList": [],
++    "id": "K36_Body008",
++    "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2025-07-16T16:00:00",
++          "startDate": "2025-06-25T15:00:00"
++        }
++      ],
++      "base_itemId": "K36_Body008",
++      "character": "K36",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "outfitId": "K36_outfit_008",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Torso",
++      "unbreakable": true
+     },
+     "nonSecure": false,
+     "premium": false,
+@@ -95378,6 +95956,41 @@
+   },
+   {
+     "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 360
++      }
++    ],
++    "eventCostList": [],
++    "id": "K36_Head008",
++    "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2025-07-16T16:00:00",
++          "startDate": "2025-06-25T15:00:00"
++        }
++      ],
++      "base_itemId": "K36_Head008",
++      "character": "K36",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "outfitId": "K36_outfit_008",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Head",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
+       "item",
+       "default"
+     ],
+@@ -95539,6 +96152,41 @@
+   },
+   {
+     "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 360
++      }
++    ],
++    "eventCostList": [],
++    "id": "K36_W008",
++    "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2025-07-16T16:00:00",
++          "startDate": "2025-06-25T15:00:00"
++        }
++      ],
++      "base_itemId": "K36_W008",
++      "character": "K36",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "outfitId": "K36_outfit_008",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Weapon",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
+       "item",
+       "default"
+     ],
+@@ -96187,7 +96835,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -96587,7 +97235,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -96608,6 +97256,33 @@
+   },
+   {
+     "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "K38_Head008",
++    "metaData": {
++      "base_itemId": "K38_Head008",
++      "character": "K38",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Head"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
+       "item",
+       "default"
+     ],
+@@ -97081,7 +97756,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -97687,7 +98362,361 @@
+       "rarity": "Common",
+       "releaseDate": "2018-06-12T00:00:00",
+       "type": "Weapon",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 495
++      }
++    ],
++    "eventCostList": [],
++    "id": "K40_Body006",
++    "metaData": {
++      "base_itemId": "K40_Body006",
++      "character": "K40",
++      "entitledByDefault": false,
++      "outfitId": "K40_outfit_006",
++      "rarity": "Legendary",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 495
++      }
++    ],
++    "eventCostList": [],
++    "id": "K40_Body007",
++    "metaData": {
++      "base_itemId": "K40_Body007",
++      "character": "K40",
++      "entitledByDefault": false,
++      "outfitId": "K40_outfit_007",
++      "rarity": "Legendary",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 360
++      }
++    ],
++    "eventCostList": [],
++    "id": "K40_Body008",
++    "metaData": {
++      "base_itemId": "K40_Body008",
++      "character": "K40",
++      "entitledByDefault": false,
++      "outfitId": "K40_outfit_008",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 360
++      }
++    ],
++    "eventCostList": [],
++    "id": "K40_Body009",
++    "metaData": {
++      "base_itemId": "K40_Body009",
++      "character": "K40",
++      "entitledByDefault": false,
++      "outfitId": "K40_outfit_009",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item",
++      "default"
++    ],
++    "consumable": false,
++    "eventCostList": [],
++    "id": "K40_Body01",
++    "metaData": {
++      "base_itemId": "K40_Body01",
++      "character": "K40",
++      "entitledByDefault": true,
++      "outfitId": "K40_outfit_01",
++      "rarity": "Common",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Torso",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "eventCostList": [],
++    "id": "K40_Body01_P01",
++    "metaData": {
++      "base_itemId": "K40_Body01_P01",
++      "character": "K40",
++      "entitledByDefault": false,
++      "outfitId": "K40_outfit_01_P01",
++      "rarity": "Rare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Torso",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 495
++      }
++    ],
++    "eventCostList": [],
++    "id": "K40_Head006",
++    "metaData": {
++      "base_itemId": "K40_Head006",
++      "character": "K40",
++      "entitledByDefault": false,
++      "outfitId": "K40_outfit_006",
++      "rarity": "Legendary",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Head",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 495
++      }
++    ],
++    "eventCostList": [],
++    "id": "K40_Head007",
++    "metaData": {
++      "base_itemId": "K40_Head007",
++      "character": "K40",
++      "entitledByDefault": false,
++      "outfitId": "K40_outfit_007",
++      "rarity": "Legendary",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Head",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 360
++      }
++    ],
++    "eventCostList": [],
++    "id": "K40_Head008",
++    "metaData": {
++      "base_itemId": "K40_Head008",
++      "character": "K40",
++      "entitledByDefault": false,
++      "outfitId": "K40_outfit_008",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Head",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 360
++      }
++    ],
++    "eventCostList": [],
++    "id": "K40_Head009",
++    "metaData": {
++      "base_itemId": "K40_Head009",
++      "character": "K40",
++      "entitledByDefault": false,
++      "outfitId": "K40_outfit_009",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Head",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item",
++      "default"
++    ],
++    "consumable": false,
++    "eventCostList": [],
++    "id": "K40_Head01",
++    "metaData": {
++      "base_itemId": "K40_Head01",
++      "character": "K40",
++      "entitledByDefault": true,
++      "outfitId": "K40_outfit_01",
++      "rarity": "Common",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Head",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "eventCostList": [],
++    "id": "K40_Head01_P01",
++    "metaData": {
++      "base_itemId": "K40_Head01_P01",
++      "character": "K40",
++      "entitledByDefault": false,
++      "outfitId": "K40_outfit_01_P01",
++      "rarity": "Rare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Head",
+       "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "eventCostList": [],
++    "id": "K40_PCharm001",
++    "metaData": {
++      "base_itemId": "K40_PCharm001",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "Uncommon",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Charm"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "eventCostList": [],
++    "id": "K40_PCharm002",
++    "metaData": {
++      "base_itemId": "K40_PCharm002",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "Uncommon",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Charm"
+     },
+     "nonSecure": false,
+     "premium": false,
+@@ -97699,9 +98728,186 @@
+       "item"
+     ],
+     "consumable": false,
++    "eventCostList": [],
++    "id": "K40_PCharm003",
++    "metaData": {
++      "base_itemId": "K40_PCharm003",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "Uncommon",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Charm"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 495
++      }
++    ],
++    "eventCostList": [],
++    "id": "K40_W006",
++    "metaData": {
++      "base_itemId": "K40_W006",
++      "character": "K40",
++      "entitledByDefault": false,
++      "outfitId": "K40_outfit_006",
++      "rarity": "Legendary",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Weapon",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 495
++      }
++    ],
++    "eventCostList": [],
++    "id": "K40_W007",
++    "metaData": {
++      "base_itemId": "K40_W007",
++      "character": "K40",
++      "entitledByDefault": false,
++      "outfitId": "K40_outfit_007",
++      "rarity": "Legendary",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Weapon",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 360
++      }
++    ],
++    "eventCostList": [],
++    "id": "K40_W008",
++    "metaData": {
++      "base_itemId": "K40_W008",
++      "character": "K40",
++      "entitledByDefault": false,
++      "outfitId": "K40_outfit_008",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Weapon",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 360
++      }
++    ],
++    "eventCostList": [],
++    "id": "K40_W009",
++    "metaData": {
++      "base_itemId": "K40_W009",
++      "character": "K40",
++      "entitledByDefault": false,
++      "outfitId": "K40_outfit_009",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Weapon",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "eventCostList": [],
++    "id": "K40_W01_P01",
++    "metaData": {
++      "base_itemId": "K40_W01_P01",
++      "character": "K40",
++      "entitledByDefault": false,
++      "outfitId": "K40_outfit_01_P01",
++      "rarity": "Rare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Weapon",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item",
++      "default"
++    ],
++    "consumable": false,
++    "eventCostList": [],
++    "id": "K40_Weapon01",
++    "metaData": {
++      "base_itemId": "K40_Weapon01",
++      "character": "K40",
++      "entitledByDefault": true,
++      "outfitId": "K40_outfit_01",
++      "rarity": "Common",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Weapon",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 35
+       },
+       {
+@@ -97778,6 +98984,445 @@
+       "rarity": "VeryRare",
+       "releaseDate": "2018-06-12T00:00:00",
+       "type": "Charm"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 80
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BDG_01",
++    "metaData": {
++      "base_itemId": "KE_BDG_01",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 120
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BDG_02",
++    "metaData": {
++      "base_itemId": "KE_BDG_02",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 120
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BDG_03",
++    "metaData": {
++      "base_itemId": "KE_BDG_03",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 120
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BDG_04",
++    "metaData": {
++      "base_itemId": "KE_BDG_04",
++      "character": "any",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 100
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BDG_05",
++    "metaData": {
++      "base_itemId": "KE_BDG_05",
++      "character": "any",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 100
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BDG_06",
++    "metaData": {
++      "base_itemId": "KE_BDG_06",
++      "character": "any",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 120
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BDG_09",
++    "metaData": {
++      "base_itemId": "KE_BDG_09",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 120
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BDG_10",
++    "metaData": {
++      "base_itemId": "KE_BDG_10",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 80
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BDG_11",
++    "metaData": {
++      "base_itemId": "KE_BDG_11",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 120
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BDG_12",
++    "metaData": {
++      "base_itemId": "KE_BDG_12",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 120
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BDG_13",
++    "metaData": {
++      "base_itemId": "KE_BDG_13",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 120
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BDG_14",
++    "metaData": {
++      "base_itemId": "KE_BDG_14",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 120
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BDG_15",
++    "metaData": {
++      "base_itemId": "KE_BDG_15",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 120
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BDG_16",
++    "metaData": {
++      "base_itemId": "KE_BDG_16",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "eventCostList": [],
++    "id": "KE_BDG_17",
++    "metaData": {
++      "base_itemId": "KE_BDG_17",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 100
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BNR_01",
++    "metaData": {
++      "base_itemId": "KE_BNR_01",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Banner"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BNR_02",
++    "metaData": {
++      "base_itemId": "KE_BNR_02",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Banner"
+     },
+     "nonSecure": false,
+     "premium": false,
+@@ -97792,6 +99437,244 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BNR_03",
++    "metaData": {
++      "base_itemId": "KE_BNR_03",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Banner"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 100
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BNR_04",
++    "metaData": {
++      "base_itemId": "KE_BNR_04",
++      "character": "any",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "Rare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Banner"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 100
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BNR_05",
++    "metaData": {
++      "base_itemId": "KE_BNR_05",
++      "character": "any",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Banner"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 200
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BNR_06",
++    "metaData": {
++      "base_itemId": "KE_BNR_06",
++      "character": "any",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "Ascended",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Banner"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BNR_08",
++    "metaData": {
++      "base_itemId": "KE_BNR_08",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Banner"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 100
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BNR_09",
++    "metaData": {
++      "base_itemId": "KE_BNR_09",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Banner"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BNR_10",
++    "metaData": {
++      "base_itemId": "KE_BNR_10",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Banner"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 200
++      }
++    ],
++    "eventCostList": [],
++    "id": "KE_BNR_11",
++    "metaData": {
++      "base_itemId": "KE_BNR_11",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "Ascended",
++      "releaseDate": "2018-06-12T00:00:00",
++      "type": "Banner"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 100
++      }
++    ],
++    "eventCostList": [],
++    "id": "KET_001",
++    "metaData": {
++      "base_itemId": "KET_001",
++      "character": "any",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Charm"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 400
+       },
+       {
+@@ -100344,7 +102227,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -102631,7 +104514,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -104839,6 +106722,32 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "KS_Torso021_02",
++    "metaData": {
++      "base_itemId": "KS_Torso021_02",
++      "character": "Jeff",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 400
+       }
+     ],
+@@ -108179,7 +110088,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -110913,7 +112822,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -113506,6 +115415,32 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "MS_Torso022_02",
++    "metaData": {
++      "base_itemId": "MS_Torso022_02",
++      "character": "Jane",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -115255,7 +117190,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -118963,6 +120898,32 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "MT_Torso028_02",
++    "metaData": {
++      "base_itemId": "MT_Torso028_02",
++      "character": "Meg",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -120960,7 +122921,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -122426,7 +124387,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -124323,7 +126284,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -124549,6 +126510,32 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "NK_Torso028_03",
++    "metaData": {
++      "base_itemId": "NK_Torso028_03",
++      "character": "Nea",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 400
+       },
+       {
+@@ -126508,13 +128495,14 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+       "base_itemId": "OK_Body014",
+       "character": "Ghostface",
+       "entitledByDefault": false,
++      "eventID": "Anniversary2023",
+       "limitedTimeEndDate": "2024-07-04T15:00:00",
+       "outfitId": "OK_outfit_014",
+       "rarity": "VeryRare",
+@@ -127012,13 +129000,14 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+       "base_itemId": "OK_Mask014",
+       "character": "Ghostface",
+       "entitledByDefault": false,
++      "eventID": "Anniversary2023",
+       "limitedTimeEndDate": "2024-07-04T15:00:00",
+       "outfitId": "OK_outfit_014",
+       "rarity": "VeryRare",
+@@ -127479,13 +129468,14 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+       "base_itemId": "OK_W014",
+       "character": "Ghostface",
+       "entitledByDefault": false,
++      "eventID": "Anniversary2023",
+       "limitedTimeEndDate": "2024-07-04T15:00:00",
+       "outfitId": "OK_outfit_014",
+       "rarity": "VeryRare",
+@@ -136293,7 +138283,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -138830,6 +140820,32 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "S23_Torso026_02",
++    "metaData": {
++      "base_itemId": "S23_Torso026_02",
++      "character": "S23",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 360
+       },
+       {
+@@ -139335,7 +141351,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -139764,7 +141780,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -140636,7 +142652,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -141761,6 +143777,32 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "S24_Torso020_02",
++    "metaData": {
++      "base_itemId": "S24_Torso020_02",
++      "character": "S24",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 400
+       }
+     ],
+@@ -141769,7 +143811,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -142703,7 +144745,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -145047,6 +147089,32 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "S25_Torso022_02",
++    "metaData": {
++      "base_itemId": "S25_Torso022_02",
++      "character": "S25",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -146892,7 +148960,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -147373,10 +149441,14 @@
+         {
+           "endDate": "2024-03-31T15:00:00",
+           "startDate": "2024-03-18T15:00:00"
++        },
++        {
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "base_itemId": "S28_Head023",
+@@ -148443,10 +150515,14 @@
+         {
+           "endDate": "2024-03-31T15:00:00",
+           "startDate": "2024-03-18T15:00:00"
++        },
++        {
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "base_itemId": "S28_Legs023",
+@@ -149760,6 +151836,32 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "S28_Torso022_02",
++    "metaData": {
++      "base_itemId": "S28_Torso022_02",
++      "character": "S28",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 360
+       },
+       {
+@@ -149774,10 +151876,14 @@
+         {
+           "endDate": "2024-03-31T15:00:00",
+           "startDate": "2024-03-18T15:00:00"
++        },
++        {
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "base_itemId": "S28_Torso023",
+@@ -150233,7 +152339,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -151846,6 +153952,32 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "S29_Torso016_02",
++    "metaData": {
++      "base_itemId": "S29_Torso016_02",
++      "character": "S29",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -152906,7 +155038,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -153554,7 +155686,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -154390,7 +156522,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -154780,6 +156912,32 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "S31_Torso015_02",
++    "metaData": {
++      "base_itemId": "S31_Torso015_02",
++      "character": "S31",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -156922,6 +159080,33 @@
+       "releaseDate": "2025-06-03T15:00:00",
+       "type": "Head",
+       "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "S34_Head024",
++    "metaData": {
++      "base_itemId": "S34_Head024",
++      "character": "S34",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Head"
+     },
+     "nonSecure": false,
+     "premium": false,
+@@ -158320,6 +160505,32 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "S34_Torso016_02",
++    "metaData": {
++      "base_itemId": "S34_Torso016_02",
++      "character": "S34",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -159167,7 +161378,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -160606,6 +162817,32 @@
+       {
+         "currencyId": "Cells",
+         "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "S35_Torso014_02",
++    "metaData": {
++      "base_itemId": "S35_Torso014_02",
++      "character": "S35",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 250
+       },
+       {
+         "currencyId": "Shards",
+@@ -161458,7 +163695,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -163009,6 +165246,32 @@
+       {
+         "currencyId": "Cells",
+         "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "S36_Torso015_02",
++    "metaData": {
++      "base_itemId": "S36_Torso015_02",
++      "character": "S36",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 250
+       },
+       {
+         "currencyId": "Shards",
+@@ -163562,7 +165825,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -164994,6 +167257,32 @@
+       {
+         "currencyId": "Cells",
+         "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "S37_Torso014_02",
++    "metaData": {
++      "base_itemId": "S37_Torso014_02",
++      "character": "S37",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 250
+       },
+       {
+         "currencyId": "Shards",
+@@ -165680,13 +167969,14 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+       "base_itemId": "S38_Head013",
+       "character": "S38",
+       "entitledByDefault": false,
++      "eventID": "Anniversary2024",
+       "limitedTimeEndDate": "2024-07-04T15:00:00",
+       "outfitId": "S38_outfit_013",
+       "rarity": "VeryRare",
+@@ -166040,13 +168330,14 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+       "base_itemId": "S38_Legs013",
+       "character": "S38",
+       "entitledByDefault": false,
++      "eventID": "Anniversary2024",
+       "limitedTimeEndDate": "2024-07-04T15:00:00",
+       "outfitId": "S38_outfit_013",
+       "rarity": "VeryRare",
+@@ -166460,13 +168751,14 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+       "base_itemId": "S38_Torso013",
+       "character": "S38",
+       "entitledByDefault": false,
++      "eventID": "Anniversary2024",
+       "limitedTimeEndDate": "2024-07-04T15:00:00",
+       "outfitId": "S38_outfit_013",
+       "rarity": "VeryRare",
+@@ -168268,6 +170560,33 @@
+     "consumable": false,
+     "defaultCost": [
+       {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "S41_Head018",
++    "metaData": {
++      "base_itemId": "S41_Head018",
++      "character": "S41",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Head"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
+         "currencyId": "Cells",
+         "price": 100
+       },
+@@ -169485,6 +171804,32 @@
+       "entitledByDefault": false,
+       "rarity": "Rare",
+       "releaseDate": "2025-02-25T16:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "S41_Torso015_01",
++    "metaData": {
++      "base_itemId": "S41_Torso015_01",
++      "character": "S41",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -169971,6 +172316,41 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "S42_Accessory011",
++    "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2025-07-16T16:00:00",
++          "startDate": "2025-06-25T15:00:00"
++        }
++      ],
++      "base_itemId": "S42_Accessory011",
++      "character": "S42",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "outfitId": "S42_outfit_011",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Head",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 100
+       }
+     ],
+@@ -170184,6 +172564,41 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "S42_Legs011",
++    "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2025-07-16T16:00:00",
++          "startDate": "2025-06-25T15:00:00"
++        }
++      ],
++      "base_itemId": "S42_Legs011",
++      "character": "S42",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "outfitId": "S42_outfit_011",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Legs",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 100
+       }
+     ],
+@@ -170635,6 +173050,41 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "S42_Torso011",
++    "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2025-07-16T16:00:00",
++          "startDate": "2025-06-25T15:00:00"
++        }
++      ],
++      "base_itemId": "S42_Torso011",
++      "character": "S42",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "outfitId": "S42_outfit_011",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Torso",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 100
+       }
+     ],
+@@ -172513,7 +174963,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -172539,6 +174989,33 @@
+     "consumable": false,
+     "defaultCost": [
+       {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "S45_Head013",
++    "metaData": {
++      "base_itemId": "S45_Head013",
++      "character": "S45",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Head"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
+         "currencyId": "Cells",
+         "price": 100
+       },
+@@ -172817,7 +175294,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -173357,6 +175834,32 @@
+   },
+   {
+     "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "S45_Torso009_01",
++    "metaData": {
++      "base_itemId": "S45_Torso009_01",
++      "character": "S45",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
+       "item",
+       "default"
+     ],
+@@ -173394,7 +175897,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -173946,6 +176449,33 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "S46_Head010",
++    "metaData": {
++      "base_itemId": "S46_Head010",
++      "character": "S46",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Head"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -174932,6 +177462,32 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "S46_Torso011",
++    "metaData": {
++      "base_itemId": "S46_Torso011",
++      "character": "S46",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 100
+       },
+       {
+@@ -175549,6 +178105,32 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "SS_Torso023_02",
++    "metaData": {
++      "base_itemId": "SS_Torso023_02",
++      "character": "Yui",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 360
+       }
+     ],
+@@ -176400,7 +178982,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -176951,7 +179533,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -177449,7 +180031,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -178396,7 +180978,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -178926,7 +181508,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -182493,7 +185075,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -183382,7 +185964,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -184333,7 +186915,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -187869,7 +190451,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -189530,6 +192112,33 @@
+   },
+   {
+     "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "TN_W024",
++    "metaData": {
++      "base_itemId": "TN_W024",
++      "character": "Nurse",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Weapon"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
+       "item",
+       "default"
+     ],
+@@ -192555,7 +195164,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -194096,6 +196705,33 @@
+     "consumable": false,
+     "defaultCost": [
+       {
++        "currencyId": "AnniversaryEventCurrency",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "TR_W028",
++    "metaData": {
++      "base_itemId": "TR_W028",
++      "character": "Chuckles",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Weapon"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
+         "currencyId": "Cells",
+         "price": 250
+       },
+@@ -195328,6 +197964,35 @@
+       {
+         "currencyId": "Cells",
+         "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "TW_Body023",
++    "metaData": {
++      "base_itemId": "TW_Body023",
++      "character": "Bob",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "outfitId": "TW_outfit_023",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Torso",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
+       },
+       {
+         "currencyId": "Shards",
+@@ -196393,6 +199058,35 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "TW_Head023",
++    "metaData": {
++      "base_itemId": "TW_Head023",
++      "character": "Bob",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "outfitId": "TW_outfit_023",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Head",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
+     "unique": true
+   },
+   {
+@@ -197198,6 +199892,35 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "TW_W023",
++    "metaData": {
++      "base_itemId": "TW_W023",
++      "character": "Bob",
++      "entitledByDefault": false,
++      "eventID": "Anniversary2025",
++      "outfitId": "TW_outfit_023",
++      "rarity": "VeryRare",
++      "releaseDate": "2025-06-25T15:00:00",
++      "type": "Weapon",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 250
+       },
+       {
+@@ -198501,7 +201224,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -200838,7 +203561,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -203462,6 +206185,32 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 250
++      }
++    ],
++    "eventCostList": [],
++    "id": "US_Torso022_02",
++    "metaData": {
++      "base_itemId": "US_Torso022_02",
++      "character": "Zarina",
++      "entitledByDefault": false,
++      "rarity": "Rare",
++      "releaseDate": "2025-06-17T15:00:00",
++      "type": "Torso"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -207267,7 +210016,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -215021,10 +217770,14 @@
+         {
+           "endDate": "2024-03-31T15:00:00",
+           "startDate": "2024-03-18T15:00:00"
++        },
++        {
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "character": "Ace",
+@@ -215742,7 +218495,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -217515,7 +220268,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -218834,6 +221587,28 @@
+     ],
+     "consumable": false,
+     "defaultCost": [],
++    "id": "DK_outfit_030",
++    "metaData": {
++      "character": "Smoke",
++      "discountPercentage": 0.1,
++      "items": [
++        "DK_Head030",
++        "DK_Torso030",
++        "DK_Legs030"
++      ],
++      "releaseDate": "2025-06-25T15:00:00",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
+     "id": "DO_outfit_007_01",
+     "metaData": {
+       "character": "Killer07",
+@@ -219187,10 +221962,14 @@
+         {
+           "endDate": "2024-03-31T15:00:00",
+           "startDate": "2024-03-18T15:00:00"
++        },
++        {
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "character": "Killer07",
+@@ -220110,7 +222889,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -220737,7 +223516,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -227535,7 +230314,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -227878,7 +230657,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -228616,7 +231395,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -229095,8 +231874,12 @@
+           "startDate": "2024-03-18T15:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
++        },
++        {
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "character": "K31",
+@@ -230115,7 +232898,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -230468,6 +233251,34 @@
+     ],
+     "consumable": false,
+     "defaultCost": [],
++    "id": "K36_outfit_008",
++    "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2025-07-16T16:00:00",
++          "startDate": "2025-06-25T15:00:00"
++        }
++      ],
++      "character": "K36",
++      "discountPercentage": 0.0,
++      "items": [
++        "K36_Head008",
++        "K36_Body008",
++        "K36_W008"
++      ],
++      "releaseDate": "2025-06-25T15:00:00",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
+     "id": "K36_outfit_01",
+     "metaData": {
+       "character": "K36",
+@@ -230674,7 +233485,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -231017,6 +233828,28 @@
+         "K39_W02"
+       ],
+       "releaseDate": "2025-04-02T15:00:00",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
++    "id": "K40_outfit_006",
++    "metaData": {
++      "character": "K40",
++      "discountPercentage": 0.0,
++      "items": [
++        "K40_Head006",
++        "K40_Body006",
++        "K40_W006"
++      ],
++      "releaseDate": "2025-06-17T15:00:00",
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -231029,6 +233862,118 @@
+     ],
+     "consumable": false,
+     "defaultCost": [],
++    "id": "K40_outfit_007",
++    "metaData": {
++      "character": "K40",
++      "discountPercentage": 0.0,
++      "items": [
++        "K40_Head007",
++        "K40_Body007",
++        "K40_W007"
++      ],
++      "releaseDate": "2025-06-17T15:00:00",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
++    "id": "K40_outfit_008",
++    "metaData": {
++      "character": "K40",
++      "discountPercentage": 0.0,
++      "items": [
++        "K40_Head008",
++        "K40_Body008",
++        "K40_W008"
++      ],
++      "releaseDate": "2025-06-17T15:00:00",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
++    "id": "K40_outfit_009",
++    "metaData": {
++      "character": "K40",
++      "discountPercentage": 0.0,
++      "items": [
++        "K40_Head009",
++        "K40_Body009",
++        "K40_W009"
++      ],
++      "releaseDate": "2025-06-17T15:00:00",
++      "unbreakable": true
++    },
++    "nonSecure": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
++    "id": "K40_outfit_01",
++    "metaData": {
++      "character": "K40",
++      "discountPercentage": 0.0,
++      "items": [
++        "K40_Head01",
++        "K40_Body01",
++        "K40_Weapon01"
++      ],
++      "limitedTimeEndDate": "",
++      "releaseDate": "2018-06-12T00:00:00",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
++    "id": "K40_outfit_01_P01",
++    "metaData": {
++      "character": "K40",
++      "discountPercentage": 0.0,
++      "items": [
++        "K40_Head01_P01",
++        "K40_Body01_P01",
++        "K40_W01_P01"
++      ],
++      "limitedTimeEndDate": "",
++      "releaseDate": "2018-06-12T00:00:00",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
+     "id": "Kate_outfit_001",
+     "metaData": {
+       "character": "Kate",
+@@ -236294,7 +239239,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -237152,7 +240097,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -239566,10 +242511,14 @@
+         {
+           "endDate": "2024-03-31T15:00:00",
+           "startDate": "2024-03-18T15:00:00"
++        },
++        {
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "character": "S24",
+@@ -241394,8 +244343,12 @@
+           "startDate": "2024-03-18T15:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
++        },
++        {
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "character": "S28",
+@@ -242229,7 +245182,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2023-06-22T15:00:00"
+         }
+       ],
+@@ -245201,7 +248154,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -246169,6 +249122,34 @@
+     },
+     "nonSecure": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
++    "id": "S42_outfit_011",
++    "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2025-07-16T16:00:00",
++          "startDate": "2025-06-25T15:00:00"
++        }
++      ],
++      "character": "S42",
++      "discountPercentage": 0.1,
++      "items": [
++        "S42_Accessory011",
++        "S42_Torso011",
++        "S42_Legs011"
++      ],
++      "releaseDate": "2025-06-25T15:00:00",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -246808,7 +249789,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-04-29T15:00:00",
++          "endDate": "2025-04-29T16:00:00",
+           "startDate": "2025-04-07T15:00:00"
+         }
+       ],
+@@ -248885,10 +251866,14 @@
+         {
+           "endDate": "2024-03-31T15:00:00",
+           "startDate": "2024-03-18T15:00:00"
++        },
++        {
++          "endDate": "2025-03-10T16:00:00",
++          "startDate": "2025-01-07T16:00:00"
+         },
+         {
+-          "endDate": "2025-04-29T15:00:00",
+-          "startDate": "2025-04-07T15:00:00"
++          "endDate": "2025-04-29T16:00:00",
++          "startDate": "2025-04-07T16:00:00"
+         }
+       ],
+       "character": "Oni",
+@@ -249917,7 +252902,7 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2024-07-04T15:00:00",
++          "endDate": "2025-07-16T16:00:00",
+           "startDate": "2024-06-13T15:00:00"
+         }
+       ],
+@@ -251431,6 +254416,28 @@
+     ],
+     "consumable": false,
+     "defaultCost": [],
++    "id": "TW_outfit_023",
++    "metaData": {
++      "character": "Bob",
++      "discountPercentage": 0.1,
++      "items": [
++        "TW_Head023",
++        "TW_Body023",
++        "TW_W023"
++      ],
++      "releaseDate": "2025-06-25T15:00:00",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
+     "id": "UK_outfit_006",
+     "metaData": {
+       "character": "Gunslinger",
+@@ -255859,6 +258866,386 @@
+         "zh-Hant": "《龍與地下城》組合包"
+       },
+       "startDate": "2025-01-16T16:00:00"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DF_Torso030_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "MT_Torso028_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "CM_Torso027_03",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JP_Torso022_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "NK_Torso028_03",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "AV_Torso021_03",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FM_Torso030_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "GS_Torso028_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DK_Torso021_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "HS_Torso022_03",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "KS_Torso021_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "MS_Torso022_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "SS_Torso023_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "US_Torso022_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S23_Torso026_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S24_Torso020_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S25_Torso022_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S28_Torso022_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S29_Torso016_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S31_Torso015_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S34_Torso016_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S35_Torso014_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S36_Torso015_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S37_Torso014_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S41_Torso015_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S45_Torso009_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S46_Torso011",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 4050
++      }
++    ],
++    "id": "FNAF_Shirt_Bundle",
++    "metaData": {
++      "discount": 0.4,
++      "endDate": "2025-07-01T15:00:00",
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 6750
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "maxItemCount": 1,
++        "overrideDefaults": true,
++        "type": "EStoreSpecialPackImageType::ComposedImage"
++      },
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 1200,
++      "specialPackTitle": {
++        "de": "„Freddy Fazbears T-Shirt“-Paket",
++        "en": "Freddy Fazbear's T-Shirt Bundle",
++        "es": "Paquete de Camiseta de Freddy Fazbear",
++        "es-MX": "Paquete Camiseta de Freddy Fazbear",
++        "fr": "Lot de Maillots Freddy Fazbear",
++        "it": "Bundle Maglietta di Freddy Fazbear",
++        "ja": "フレディファズベアーズのTシャツバンドル",
++        "ko": "프레디 파즈베어 티셔츠 번들",
++        "pl": "Zestaw z koszulką Freddy Fazbear",
++        "pt-BR": "Conjunto de Camisetas do Freddy Fazbear",
++        "ru": "Набор «Футболка Фредди Фазбера»",
++        "th": "แพ็กรวมเสื้อยืดของเฟรดดี้ แฟซแบร์",
++        "tr": "Freddy Fazbear Tişört Paketi",
++        "zh-Hans": "费斯熊弗莱迪T恤组合包",
++        "zh-Hant": "費斯熊佛萊迪的T恤組合包"
++      }
+     },
+     "nonSecure": false,
+     "premium": false,
+@@ -261578,6 +264965,216 @@
+         "zh-Hant": "《獵魔士》角色組合包"
+       },
+       "startDate": "2025-06-03T15:00:00"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K21_Head013",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "KK_Mask026",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K32_Head007",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "SwedenKiller_Mask014",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 1120
++      }
++    ],
++    "id": "TM_Killer_Mask_Bundle",
++    "metaData": {
++      "discount": 0.3,
++      "endDate": "2025-07-16T15:00:00",
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 1600
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "maxItemCount": 3,
++        "overrideDefaults": true,
++        "type": "EStoreSpecialPackImageType::ComposedImage"
++      },
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 0,
++      "specialPackTitle": {
++        "de": "Killer-Maskenpaket für die Unheimliche Maskerade",
++        "en": "Twisted Masquerade Killer Mask Bundle",
++        "es": "Paquete de máscaras de asesino de Mascarada retorcida",
++        "es-MX": "Paquete de máscaras de asesino de Mascarada retorcida",
++        "fr": "Lot de masques de tueurs de la Mascarade pervertie",
++        "it": "Bundle maschere per killer di Mascherata contorta",
++        "ja": "ねじれた仮面舞踏会用の殺人鬼の仮面バンドル",
++        "ko": "뒤틀린 가면 무도회 살인마 가면 번들",
++        "pl": "Pakiet masek „Wynaturzona Maskarada” dla zabójców",
++        "pt-BR": "Pacote de Máscaras de Assassino Baile de Máscaras Macabro",
++        "ru": "Набор масок для убийц «Порочный маскарад»",
++        "th": "แพ็กรวมหน้ากากฆาตกรในงานแฟนซีหน้ากากวิปริต",
++        "tr": "Sapkın Maskeli Balo Katil Maskesi Paketi",
++        "zh-Hans": "扭曲假面舞会杀手面具组合包",
++        "zh-Hant": "扭曲假面殺手面具組合包"
++      },
++      "startDate": "2025-06-25T15:00:00"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S29_Head011",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S37_Head007",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "MT_Head025",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "US_Head018",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 1120
++      }
++    ],
++    "id": "TM_Survivor_Mask_Bundle",
++    "metaData": {
++      "discount": 0.3,
++      "endDate": "2025-07-16T15:00:00",
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 1600
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "maxItemCount": 3,
++        "overrideDefaults": true,
++        "type": "EStoreSpecialPackImageType::ComposedImage"
++      },
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 0,
++      "specialPackTitle": {
++        "de": "Überlebenden-Maskenpaket für die Unheimliche Maskerade",
++        "en": "Twisted Masquerade Survivor Mask Bundle",
++        "es": "Paquete de máscaras de superviviente de Mascarada retorcida",
++        "es-MX": "Paquete de máscaras de sobreviviente de Mascarada retorcida",
++        "fr": "Lot de masques de survivants de la Mascarade pervertie",
++        "it": "Bundle maschere per sopravvissuto di Mascherata contorta",
++        "ja": "ねじれた仮面舞踏会用の生存者の仮面バンドル",
++        "ko": "뒤틀린 가면 무도회 생존자 가면 번들",
++        "pl": "Pakiet masek „Wynaturzona Maskarada” dla ocalałych",
++        "pt-BR": "Pacote de Máscaras de Sobrevivente Baile de Máscaras Macabro",
++        "ru": "Набор масок для выживших «Порочный маскарад»",
++        "th": "แพ็กรวมหน้ากากผู้รอดชีวิตในงานแฟนซีหน้ากากวิปริต",
++        "tr": "Sapkın Maskeli Balo Kurban Maskesi Paketi",
++        "zh-Hans": "扭曲假面舞会逃生者面具组合包",
++        "zh-Hant": "扭曲假面倖存者面具組合包"
++      },
++      "startDate": "2025-06-25T15:00:00"
+     },
+     "nonSecure": false,
+     "premium": false,
+@@ -264826,6 +268423,236 @@
+         "zh-Hant": "秘書IV - 信念"
+       },
+       "startDate": "2025-03-25T16:00:00"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K35_Head008",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K35_Body008",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K35_W008",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "CH_001",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "CH_002",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "CH_003",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "CH_004",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "CH_BDG_05",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "CH_BDG_06",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "CH_BDG_07",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "CH_BNR_04",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "CH_BNR_05",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "CH_BNR_06",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 1221
++      }
++    ],
++    "id": "TwistedMasqueradeBundle",
++    "metaData": {
++      "discount": 0.4,
++      "endDate": "2025-07-16T15:00:00",
++      "fullDescription": {
++        "de": "Enthält Eventbelohnungen der Unheimlichen Maskerade 2024.",
++        "en": "Includes Twisted Masquerade event rewards from 2024.",
++        "es": "Incluye recompensas del evento Mascarada retorcida de 2024.",
++        "es-MX": "Incluye recompensas del evento Mascarada retorcida de 2024.",
++        "fr": "Comprend les récompenses d'événement de la Mascarade pervertie de 2024.",
++        "it": "Include le ricompense dell'evento Mascherata contorta del 2024.",
++        "ja": "2024年のねじれた仮面舞踏会イベントの報酬が含まれます。",
++        "ko": "2024년의 뒤틀린 가면 무도회 이벤트 보상이 포함되어 있습니다.",
++        "pl": "Zawiera nagrody z wydarzenia „Wynaturzona Maskarada” z 2024 roku.",
++        "pt-BR": "Inclui as recompensas do evento Baile de Máscaras Macabro de 2024.",
++        "ru": "Включает награды события «Порочный маскарад» 2024 года.",
++        "th": "มีรางวัลจากอีเวนต์งานแฟนซีหน้ากากวิปริตเมื่อปี 2024 ด้วย",
++        "tr": "2024 yılına ait Sapkın Maskeli Balo etkinlik ödüllerini de içerir.",
++        "zh-Hans": "包括2024年以来扭曲假面舞会活动奖励。",
++        "zh-Hant": "包含2024扭曲假面活動獎勵。"
++      },
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 2035
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "maxItemCount": 3,
++        "overrideDefaults": true,
++        "type": "EStoreSpecialPackImageType::ComposedImage"
++      },
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 0,
++      "specialPackTitle": {
++        "de": "„Unheimliche Maskerade“-Paket",
++        "en": "Twisted Masquerade Bundle",
++        "es": "Paquete de Mascarada retorcida",
++        "es-MX": "Paquete Mascarada retorcida",
++        "fr": "Lot Mascarade pervertie",
++        "it": "Bundle Mascherata contorta",
++        "ja": "ねじれた仮面舞踏会バンドル",
++        "ko": "뒤틀린 가면 무도회 번들",
++        "pl": "Pakiet „Wynaturzona Maskarada”",
++        "pt-BR": "Pacote Baile de Máscaras Macabro",
++        "ru": "Набор «Порочный маскарад»",
++        "th": "แพ็กรวมงานแฟนซีหน้ากากวิปริต",
++        "tr": "Sapkın Maskeli Balo aketi",
++        "zh-Hans": "扭曲假面舞会组合包",
++        "zh-Hant": "扭曲假面組合包"
++      },
++      "startDate": "2025-06-25T15:00:00"
+     },
+     "nonSecure": false,
+     "premium": false,
+@@ -267962,8 +271789,113 @@
+       {
+         "amount": 1,
+         "gameSpecificData": {
++          "hasPriorityForPackImageComposition": true,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DF_Head018_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": true,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DF_Torso015_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": true,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DF_Legs003_03",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
+           "hasPriorityForPackImageComposition": false,
+           "ignoreOwnership": false,
++          "includeInOwnership": false,
++          "includeInPricing": false,
++          "type": "Customization"
++        },
++        "id": "DR_007",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 1080
++      }
++    ],
++    "id": "From_The_Rift_Bundle_250617",
++    "metaData": {
++      "discount": 0.1,
++      "endDate": "2025-06-24T15:00:00",
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 1200
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "maxItemCount": 1,
++        "overrideDefaults": true,
++        "type": "EStoreSpecialPackImageType::ComposedImage"
++      },
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 60,
++      "specialPackTitle": {
++        "de": "„Aus dem Spalt“-Paket",
++        "en": "From The Rift Bundle",
++        "es": "Paquete de Desde la grieta",
++        "es-MX": "Paquete Desde la Grieta",
++        "fr": "Lot De la Faille",
++        "it": "Dal bundle Spaccatura",
++        "ja": "リフトからバンドル",
++        "ko": "균열로부터 번들",
++        "pl": "Pakiet Ze Szczeliny",
++        "pt-BR": "Pacote Direto da Fenda",
++        "ru": "Набор «Из разрыва»",
++        "th": "แพ็กรวมจากรอยแยก",
++        "tr": "Yarık İçerisinden Paketi",
++        "zh-Hans": "来自裂隙组合包",
++        "zh-Hant": "裂縫組合包"
++      },
++      "startDate": "2025-06-17T15:00:00"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
+           "includeInOwnership": true,
+           "includeInPricing": true,
+           "type": "Customization"
+@@ -270071,6 +274003,30 @@
+     "consumptionCurrenciesList": [],
+     "consumptionObjectList": [],
+     "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TO_008",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "VI_008",
++        "type": "inventory"
++      },
+       {
+         "amount": 1,
+         "gameSpecificData": {
+@@ -270080,6 +274036,86 @@
+           "includeInPricing": true,
+           "type": "Customization"
+         },
++        "id": "ZA_008",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "BI_008",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 200
++      }
++    ],
++    "id": "Recurring_Charm_Bundle_250617",
++    "metaData": {
++      "discount": 0.0,
++      "endDate": "2025-06-24T15:00:00",
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 200
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "overrideDefaults": false
++      },
++      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_Charm.T_UI_SpecialPack_Charm",
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 55,
++      "specialPackTitle": {
++        "de": "Wöchentliches Glücksbringerpaket",
++        "en": "Weekly Charm Bundle",
++        "es": "Paquete de amuletos semanales",
++        "es-MX": "Lote de amuletos semanal",
++        "fr": "Lot de charmes hebdomadaire",
++        "it": "Bundle di amuleti settimanale",
++        "ja": "今週の魔よけバンドル",
++        "ko": "주간 부적 번들",
++        "pl": "Pakiet cotygodniowego talizmanu",
++        "pt-BR": "Pacote Semanal de Amuleto",
++        "ru": "Еженедельный набор амулетов",
++        "th": "แพ็กรวมเครื่องรางประจำสัปดาห์",
++        "tr": "Haftalık Muska Paketi",
++        "zh-Hans": "每周护符组合包",
++        "zh-Hant": "每週護身符組合包"
++      },
++      "startDate": "2025-06-17T15:00:00"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
+         "id": "KS_Head011",
+         "type": "inventory"
+       },
+@@ -273393,6 +277429,206 @@
+         "zh-Hant": "每週開發者精選組合包"
+       },
+       "startDate": "2025-06-10T15:00:00"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DF_Head028",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DF_Torso028",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DF_Legs028",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "MT_Head013",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "MT_Torso013",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "MT_Legs013",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "CM_Head019",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "CM_Torso019",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "CM_Legs019",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JP_Head08_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JP_Torso014_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JP_Legs014_01",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 2808
++      }
++    ],
++    "id": "Recurring_Dev_Bundle_250617",
++    "metaData": {
++      "discount": 0.4,
++      "endDate": "2025-06-24T15:00:00",
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 4680
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "overrideDefaults": false
++      },
++      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_DevPicks.T_UI_SpecialPack_DevPicks",
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 56,
++      "specialPackTitle": {
++        "de": "Wöchentliches Entwicklerwahlpaket",
++        "en": "Weekly Developer Choice Bundle",
++        "es": "Paquete de selección de desarrolladores semanal",
++        "es-MX": "Paquete de selección del equipo de desarrollo semanal",
++        "fr": "Lot Choix des développeurs hebdomadaire",
++        "it": "Bundle Scelte dello sviluppatore settimanale",
++        "ja": "今週の開発者のオススメバンドル",
++        "ko": "주간 개발자의 선택 번들",
++        "pl": "Cotygodniowy pakiet wyborów twórców",
++        "pt-BR": "Pacote Semanal de Escolha dos Desenvolvedores",
++        "ru": "Еженедельный набор «Выбор разработчиков»",
++        "th": "แพ็กรวมผู้พัฒนาคัดสรรประจำสัปดาห์",
++        "tr": "Haftalık Geliştirici Seçimi Paketi",
++        "zh-Hans": "每周开发者特选组合包",
++        "zh-Hant": "每週開發者精選組合包"
++      },
++      "startDate": "2025-06-17T15:00:00"
+     },
+     "nonSecure": false,
+     "premium": false,
+@@ -275598,6 +279834,111 @@
+         "zh-Hant": "每週殺手組合包"
+       },
+       "startDate": "2025-06-10T15:00:00"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": true,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K28_Head006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": true,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K28_Body006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": true,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K28_W006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": false,
++          "includeInPricing": false,
++          "type": "Character"
++        },
++        "id": "K28",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 1080
++      }
++    ],
++    "id": "Recurring_Killer_Bundle_250617",
++    "metaData": {
++      "discount": 0.1,
++      "endDate": "2025-06-24T15:00:00",
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 1200
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "maxItemCount": 2,
++        "overrideDefaults": true,
++        "type": "EStoreSpecialPackImageType::ComposedImage"
++      },
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 46,
++      "specialPackTitle": {
++        "de": "Wöchentliches Killerpaket",
++        "en": "Weekly Killer Bundle",
++        "es": "Paquete de asesino semanal",
++        "es-MX": "Paquete de asesino semanal",
++        "fr": "Lot de tueur hebdomadaire",
++        "it": "Bundle killer settimanale",
++        "ja": "今週の殺人鬼バンドル",
++        "ko": "주간 살인마 번들",
++        "pl": "Cotygodniowy pakiet zabójcy",
++        "pt-BR": "Pacote Semanal de Assassino",
++        "ru": "Недельный набор убийц",
++        "th": "แพ็กรวมฆาตกรประจำสัปดาห์",
++        "tr": "Haftalık Katil Paketi",
++        "zh-Hans": "每周杀手组合包",
++        "zh-Hant": "每週殺手組合包"
++      },
++      "startDate": "2025-06-17T15:00:00"
+     },
+     "nonSecure": false,
+     "premium": false,
+@@ -277803,6 +282144,111 @@
+         "zh-Hant": "每週倖存者組合包"
+       },
+       "startDate": "2025-06-10T15:00:00"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": true,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S31_Head006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": true,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S31_Torso006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": true,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S31_Legs006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": false,
++          "includeInPricing": false,
++          "type": "Character"
++        },
++        "id": "S31",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 1080
++      }
++    ],
++    "id": "Recurring_Survivor_Bundle_250617",
++    "metaData": {
++      "discount": 0.0,
++      "endDate": "2025-06-24T15:00:00",
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 1080
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "maxItemCount": 2,
++        "overrideDefaults": true,
++        "type": "EStoreSpecialPackImageType::ComposedImage"
++      },
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 51,
++      "specialPackTitle": {
++        "de": "Wöchentliches Überlebendenpaket",
++        "en": "Weekly Survivor Bundle",
++        "es": "Paquete de superviviente semanal",
++        "es-MX": "Paquete de sobreviviente semanal",
++        "fr": "Lot de survivant hebdomadaire",
++        "it": "Bundle sopravvissuto settimanale",
++        "ja": "今週の生存者バンドル",
++        "ko": "주간 생존자 번들",
++        "pl": "Cotygodniowy pakiet ocalałego",
++        "pt-BR": "Pacote Semanal de Sobrevivente",
++        "ru": "Недельный набор выживших",
++        "th": "แพ็กรวมผู้รอดชีวิตประจำสัปดาห์",
++        "tr": "Haftalık Kurban Paketi",
++        "zh-Hans": "每周逃生者组合包",
++        "zh-Hant": "每週倖存者組合包"
++      },
++      "startDate": "2025-06-17T15:00:00"
+     },
+     "nonSecure": false,
+     "premium": false,

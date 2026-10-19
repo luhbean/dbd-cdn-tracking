@@ -1,0 +1,32 @@
+--- a/GameConfigsDS.json
++++ b/GameConfigsDS.json
+@@ -1,4 +1,5 @@
+ {
++  "UseLegacyMapOfferingsBehaviour": false,
+   "analyticsRulesDedicatedServer": {
+     "BL": [
+       "AtlantaControlsSettingsAnalytics",
+@@ -41,6 +42,7 @@
+       "MatchIncentivesGrantedAnalytics",
+       "ProceduralGenerationAnalytics",
+       "ScoreAnalytics",
++      "SurvivorExposerChangedAnalytics",
+       "TinkererUndetectableHitNearGeneratorAnalytics",
+       "TinkererUndetectableInterruptAnalytics"
+     ],
+@@ -100,6 +102,15 @@
+   "ddos": {
+     "DDoSDetection": true,
+     "DDoSDetectionAnalytics": true
++  },
++  "disconnectionPenalty": {
++    "reasons": [
++      "leave_game",
++      "afk_killer",
++      "afk_survivor",
++      "invalid_ownership",
++      "go_next"
++    ]
+   },
+   "mapHistoryWeights": {
+     "0": 0.0001,

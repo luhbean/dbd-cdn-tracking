@@ -1,0 +1,59 @@
+--- a/GameConfigs.json
++++ b/GameConfigs.json
+@@ -333,6 +333,7 @@
+       "LegionKillerAnalytics",
+       "LegionSurvivorAnalytics",
+       "LightbornAuraRevealedAnalytics",
++      "LightingAnalytics",
+       "LoadOutLobbyAnalytics",
+       "LoadingTimeoutAnalytics",
+       "MatchIncentivesFetchedAnalytics",
+@@ -450,7 +451,7 @@
+   "analyticsRulesHVS": {
+     "DetailedScoreAnalytics": "HVSPlus",
+     "FrameHikeAnalytics": "HVSStrict",
+-    "GameInitAnalytics": "HVSStrict",
++    "GameInitAnalytics": "HVSStrictDS",
+     "LoadingStepAnalytics": "HVSStrict",
+     "MemoryUsageAnalytics": "HVSStrict",
+     "MenuFlowAnalytics": "HVSStrict",
+@@ -695,8 +696,9 @@
+   "enableContainerAgressiveMemorySaving": false,
+   "enableCrossPromoPopupDisplay": true,
+   "enableDSQuestsUpdate": true,
+-  "enableDeniedStateTransition": false,
++  "enableDeniedStateTransition": true,
+   "enableFirstMoveAfterForcedUpdates": true,
++  "enableGammaPopup": true,
+   "enableGetUpInteraction": true,
+   "enableHapticVibration": true,
+   "enableLimitRegressionEvents": true,
+@@ -930,6 +932,28 @@
+   "marketing": {},
+   "match": {
+     "disableSurrender": false,
++    "emblemBonusThresholds": [
++      {
++        "addedMultiplier": 0.0,
++        "requiredPoints": 0
++      },
++      {
++        "addedMultiplier": 0.0,
++        "requiredPoints": 4
++      },
++      {
++        "addedMultiplier": 0.0,
++        "requiredPoints": 7
++      },
++      {
++        "addedMultiplier": 0.0,
++        "requiredPoints": 10
++      },
++      {
++        "addedMultiplier": 0.0,
++        "requiredPoints": 13
++      }
++    ],
+     "maxEndGameCollapseSeconds": 300,
+     "maxMatchSeconds": 3600
+   },

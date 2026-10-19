@@ -1,0 +1,214 @@
+--- a/recommendations.json
++++ b/recommendations.json
+@@ -417,37 +417,32 @@
+       "inclusionVersion": "8.7.2"
+     },
+     {
+-      "activeFrom": "2025-06-03T15:00:00",
+-      "activeTo": "2025-06-17T15:00:00",
++      "activeFrom": "2025-05-17T15:00:00",
++      "activeTo": "2025-06-25T15:00:00",
+       "entries": [
+         {
+-          "entryId": "TheWitcher",
++          "entryId": "FNAF",
+           "type": "Collection",
+           "weight": 0
+         },
+         {
+-          "entryId": "TheWitcherBundle",
++          "entryId": "FNAF_Shirt_Bundle",
+           "type": "SpecialPack",
+           "weight": 0
+         },
+         {
+-          "entryId": "TheWitcherCharacterBundle",
++          "entryId": "TheWitcherBundle",
+           "type": "SpecialPack",
+           "weight": 0
+         },
+         {
+           "entryId": "Rift_1_Bundle",
+           "type": "SpecialPack",
+-          "weight": 0
+-        },
+-        {
+-          "entryId": "Jerky",
+-          "type": "ChapterPack",
+           "weight": 0
+         }
+       ],
+-      "id": "Jerky_W7",
+-      "inclusionVersion": "8.7.2"
++      "id": "KetchupW1",
++      "inclusionVersion": "9.0.0"
+     }
+   ],
+   "featuredChapterPackRecommendations": [
+@@ -455,6 +450,13 @@
+       "activeFrom": "2023-09-08T00:00:00Z",
+       "activeTo": "2033-09-08T00:00:00Z",
+       "chapterPacks": [
++        {
++          "associatedDlcId": "Ketchup",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_FiveNightsAtFreddys.T_UI_ChapterBundle_FiveNightsAtFreddys"
++          },
++          "weight": "0"
++        },
+         {
+           "associatedDlcId": "Jerky",
+           "image": {
+@@ -549,6 +551,13 @@
+       "activeTo": "2033-09-04T00:00:00Z",
+       "characters": [
+         {
++          "characterIndex": "268435495",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Ketchup/K40_TheAnimatronic_Portrait.K40_TheAnimatronic_Portrait"
++          },
++          "weight": "0"
++        },
++        {
+           "characterIndex": "45",
+           "image": {
+             "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Jerky/S46_OrelaRose_Portrait.S46_OrelaRose_Portrait"
+@@ -1256,116 +1265,71 @@
+       ]
+     },
+     {
+-      "activeFrom": "2025-06-03T15:00:00",
+-      "activeTo": "2025-06-10T15:00:00",
+-      "id": "JerkyW5",
++      "activeFrom": "2025-06-01T15:00:00",
++      "activeTo": "2025-06-25T15:00:00",
++      "id": "Ketchup_W1",
+       "recommendations": [
+         {
+-          "category": "outfit",
+-          "id": "S39_outfit_011",
+-          "weight": 29
++          "category": "chapterPack",
++          "id": "Ketchup",
++          "weight": 0
+         },
+         {
+           "category": "outfit",
+-          "id": "S38_outfit_007",
+-          "weight": 28
++          "id": "K40_outfit_007",
++          "weight": 15
+         },
+         {
+           "category": "outfit",
+-          "id": "K35_outfit_007",
+-          "weight": 27
++          "id": "K40_outfit_006",
++          "weight": 14
+         },
+         {
+           "category": "outfit",
+-          "id": "S34_outfit_023",
+-          "weight": 40
++          "id": "K40_outfit_008",
++          "weight": 0
+         },
+         {
+           "category": "outfit",
+-          "id": "K26_outfit_020",
+-          "weight": 39
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S41_outfit_017",
+-          "weight": 38
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S28_outfit_030",
+-          "weight": 37
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "GS_outfit_037",
+-          "weight": 36
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K30_outfit_018",
+-          "weight": 35
++          "id": "K40_outfit_009",
++          "weight": 0
+         }
+       ]
+     },
+     {
+-      "activeFrom": "2025-06-10T15:00:00",
++      "activeFrom": "2025-06-03T15:00:00",
+       "activeTo": "2025-06-17T15:00:00",
+-      "id": "JerkyW6",
++      "id": "JerkyW5",
+       "recommendations": [
+-        {
+-          "category": "outfit",
+-          "id": "S39_outfit_011",
+-          "weight": 29
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S38_outfit_007",
+-          "weight": 28
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K35_outfit_007",
+-          "weight": 27
+-        },
+         {
+           "category": "outfit",
+           "id": "S34_outfit_023",
+-          "weight": 40
++          "weight": 10
+         },
+         {
+           "category": "outfit",
+           "id": "K26_outfit_020",
+-          "weight": 39
++          "weight": 9
+         },
+         {
+           "category": "outfit",
+           "id": "S41_outfit_017",
+-          "weight": 38
++          "weight": 8
+         },
+         {
+           "category": "outfit",
+           "id": "S28_outfit_030",
+-          "weight": 37
++          "weight": 7
+         },
+         {
+           "category": "outfit",
+           "id": "GS_outfit_037",
+-          "weight": 36
++          "weight": 6
+         },
+         {
+           "category": "outfit",
+           "id": "K30_outfit_018",
+-          "weight": 35
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "FM_outfit_024",
+-          "weight": 45
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K31_outfit_013",
+-          "weight": 46
++          "weight": 5
+         }
+       ]
+     }

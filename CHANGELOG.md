@@ -2,6 +2,25 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.0.2_2537520live](versions/9.0.2_2537520live/CHANGES.md)
+
+Built 2025-07-04 15:47 UTC · **+0** added · **~14** modified · **−0** removed
+
+- ~ [`challengeLocs/challengeText_de.json`](versions/9.0.2_2537520live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.0.2_2537520live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/9.0.2_2537520live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/9.0.2_2537520live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_ko.json`](versions/9.0.2_2537520live/diffs/challengeLocs/challengeText_ko.json.diff)
+- ~ [`challengeLocs/challengeText_pl.json`](versions/9.0.2_2537520live/diffs/challengeLocs/challengeText_pl.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.0.2_2537520live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_ru.json`](versions/9.0.2_2537520live/diffs/challengeLocs/challengeText_ru.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/9.0.2_2537520live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`challengeLocs/challengeText_tr.json`](versions/9.0.2_2537520live/diffs/challengeLocs/challengeText_tr.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/9.0.2_2537520live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/9.0.2_2537520live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.0.2_2537520live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_fr.json`](versions/9.0.2_2537520live/diffs/loadingText/specialEventsLoadingText_fr.json.diff)
+
 ## [9.0.2_2534514live](versions/9.0.2_2534514live/CHANGES.md)
 
 Built 2025-07-03 16:58 UTC · **+0** added · **~5** modified · **−0** removed

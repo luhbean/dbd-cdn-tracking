@@ -1,0 +1,992 @@
+{
+  "locText": [
+    {
+      "text": "デイリー",
+      "textId": "CHALLENGESET_DailyTab_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_Daily_INFO",
+      "textId": "CHALLENGESET_Daily_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookOrUnhook_TITLE",
+      "textId": "CHALLENGE_HookOrUnhook_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookOrUnhook_DESC",
+      "textId": "CHALLENGE_HookOrUnhook_DESC"
+    },
+    {
+      "text": "生存者{0}人をフックに吊るす",
+      "textId": "CHALLENGE_Hook_INFO"
+    },
+    {
+      "text": "生存者{0}人を安全にフックから救助する",
+      "textId": "CHALLENGE_Unhook_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HitOrHeal_TITLE",
+      "textId": "CHALLENGE_HitOrHeal_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HitOrHeal_DESC",
+      "textId": "CHALLENGE_HitOrHeal_DESC"
+    },
+    {
+      "text": "生存者に通常攻撃を{0}回命中させる",
+      "textId": "CHALLENGE_Hit_INFO"
+    },
+    {
+      "text": "健康状態を合計で{0}回分回復する",
+      "textId": "CHALLENGE_Heal_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenOrGenSkillCheck_TITLE",
+      "textId": "CHALLENGE_BreakGenOrGenSkillCheck_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenOrGenSkillCheck_DESC",
+      "textId": "CHALLENGE_BreakGenOrGenSkillCheck_DESC"
+    },
+    {
+      "text": "発電機を{0}台破壊する",
+      "textId": "CHALLENGE_BreakGen_INFO"
+    },
+    {
+      "text": "修理のスキルチェックに{0}回成功する",
+      "textId": "CHALLENGE_GenSkillCheck_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_KillSurvivorOrRepairGens_TITLE",
+      "textId": "CHALLENGE_KillSurvivorOrRepairGens_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_KillSurvivorOrRepairGens_DESC",
+      "textId": "CHALLENGE_KillSurvivorOrRepairGens_DESC"
+    },
+    {
+      "text": "生存者{0}人を処刑するか殺害する",
+      "textId": "CHALLENGE_Kill_INFO"
+    },
+    {
+      "text": "発電機を合計{0}台修理する",
+      "textId": "CHALLENGE_Repair_INFO"
+    },
+    {
+      "text": "血の報酬",
+      "textId": "CHALLENGE_EarnBloodpoints_TITLE"
+    },
+    {
+      "text": "他の生存者と協力したり殺人鬼の特殊能力を使うことなど、様々なアクションを行うことでブラッドポイントを獲得できます。",
+      "textId": "CHALENGE_EarnBloodpoints_DESC"
+    },
+    {
+      "text": "{0}ブラッドポイントを獲得する",
+      "textId": "CHALENGE_EarnBloodpoints_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteTrial_TITLE",
+      "textId": "CHALLENGE_CompleteTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteTrial_DESC",
+      "textId": "CHALLENGE_CompleteTrial_DESC"
+    },
+    {
+      "text": "儀式を{0}回完了する",
+      "textId": "CHALLENGE_CompleteTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrBeChased_TITLE",
+      "textId": "CHALLENGE_ChaseOrBeChased_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrBeChased_DESC",
+      "textId": "CHALLENGE_ChaseOrBeChased_DESC"
+    },
+    {
+      "text": "{0}秒間追跡する",
+      "textId": "CHALLENGE_Chase_INFO"
+    },
+    {
+      "text": "{0}秒間追跡される",
+      "textId": "CHALLENGE_BeChased_INFO"
+    },
+    {
+      "text": "デイリークエスト",
+      "textId": "LIST_Daily_TITLE"
+    },
+    {
+      "text": "2対8",
+      "textId": "CHALLENGESET_CalamariJerky_TITLE"
+    },
+    {
+      "text": "クエストは2対8で完了する必要があります",
+      "textId": "CHALLENGESET_CalamariJerky_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests1_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests1_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_DESC"
+    },
+    {
+      "text": "2対8クエストを{0}個完了する",
+      "textId": "CHALLENGE_CompleteCalamariQuests1_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests2_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests2_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_DESC"
+    },
+    {
+      "text": "2対8クエストを{0}個完了する",
+      "textId": "CHALLENGE_CompleteCalamariQuests2_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests3_TITLE",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteCalamariQuests3_DESC",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_DESC"
+    },
+    {
+      "text": "2対8クエストを{0}個完了する",
+      "textId": "CHALLENGE_CompleteCalamariQuests3_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PlayAsCharacterOrClass_TITLE",
+      "textId": "CHALLENGE_PlayAsCharacterOrClass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PlayAsCharacterOrClass_",
+      "textId": "CHALLENGE_PlayAsCharacterOrClass_"
+    },
+    {
+      "text": "{0}回の儀式で{1}としてプレイする",
+      "textId": "CHALLENGE_PlayAsCharacter_INFO"
+    },
+    {
+      "text": "{0}回の儀式で{1}としてプレイする",
+      "textId": "CHALLENGE_PlayAsClass_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_Crow_TITLE",
+      "textId": "CHALLENGE_Crow_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Crow_DESC",
+      "textId": "CHALLENGE_Crow_DESC"
+    },
+    {
+      "text": "カラスを{0}羽騒がせる",
+      "textId": "CHALLENGE_Crow_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE",
+      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_DESC",
+      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_DESC"
+    },
+    {
+      "text": "パレットを{0}枚破壊する",
+      "textId": "CHALLENGE_BreakPallets_INFO"
+    },
+    {
+      "text": "追跡中にパレットを{0}枚倒す",
+      "textId": "CHALLENGE_PalletDropInChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrSucceedHealSkillCheck_TITLE",
+      "textId": "CHALLENGE_DownOrSucceedHealSkillCheck_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrSucceedHealSkillCheck_DESC",
+      "textId": "CHALLENGE_DownOrSucceedHealSkillCheck_DESC"
+    },
+    {
+      "text": "生存者{0}人をダウンさせる",
+      "textId": "CHALLENGE_Down_INFO"
+    },
+    {
+      "text": "生存者を治療中、スキルチェックに{0}回成功する",
+      "textId": "CHALLENGE_SucceedHealSkillCheck_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrPlayAsClass_TITLE",
+      "textId": "CHALLENGE_ChaseOrPlayAsClass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrPlayAsClass_DESC",
+      "textId": "CHALLENGE_ChaseOrPlayAsClass_DESC"
+    },
+    {
+      "text": "2対8 完了クエスト",
+      "textId": "LIST_Calamari_TITLE_1"
+    },
+    {
+      "text": "2対8クエスト - パート1",
+      "textId": "LIST_Calamari_TITLE_2"
+    },
+    {
+      "text": "2対8クエスト - パート2",
+      "textId": "LIST_Calamari_TITLE_3"
+    },
+    {
+      "text": "2対8クエスト - パート3",
+      "textId": "LIST_Calamari_TITLE_4"
+    },
+    {
+      "text": "カオスシャッフル",
+      "textId": "CHALLENGESET_ChocolateBoxJerky_TITLE"
+    },
+    {
+      "text": "クエストはカオスシャッフルで完了する必要があります",
+      "textId": "CHALLENGESET_ChocolateBoxJerky_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests1_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests1_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_DESC"
+    },
+    {
+      "text": "カオスシャッフルクエストを{0}個完了する",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests1_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests2_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests2_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_DESC"
+    },
+    {
+      "text": "カオスシャッフルクエストを{0}個完了する",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests2_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests3_TITLE",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChocolateBoxQuests3_DESC",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_DESC"
+    },
+    {
+      "text": "カオスシャッフルクエストを{0}個完了する",
+      "textId": "CHALLENGE_CompleteChocolateBoxQuests3_INFO"
+    },
+    {
+      "text": "厳粛",
+      "textId": "CHALLENGE_Sacrifice_TITLE"
+    },
+    {
+      "text": "<b>生存者{0}人</b>をエンティティに捧げる。",
+      "textId": "CHALLENGE_Sacrifice_DESC"
+    },
+    {
+      "text": "生存者{0}人を処刑する",
+      "textId": "CHALLENGE_Sacrifice_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_Repair_TITLE",
+      "textId": "CHALLENGE_Repair_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Repair_DESC",
+      "textId": "CHALLENGE_Repair_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_Hit_TITLE",
+      "textId": "CHALLENGE_Hit_TITLE"
+    },
+    {
+      "text": "殺人鬼の通常攻撃は特殊能力とは関係なく使える攻撃で、生存者をダウンさせるのに有効な手段です。",
+      "textId": "CHALLENGE_Hit_DESC"
+    },
+    {
+      "text": "脱出アーティスト",
+      "textId": "CHALLENGE_Escape_TITLE"
+    },
+    {
+      "text": "<b>儀式を{0}回</b>脱出する。",
+      "textId": "CHALLENGE_Escape_DESC"
+    },
+    {
+      "text": "儀式を{0}回脱出する",
+      "textId": "CHALLENGE_Escape_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_EarnEmblemsGold_TITLE",
+      "textId": "CHALLENGE_EarnEmblemsGold_TITLE"
+    },
+    {
+      "text": "金のエンブレムを{0}個獲得する",
+      "textId": "CHALLENGE_EarnEmblemsGold_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPallet_TITLE",
+      "textId": "CHALLENGE_BreakPallet_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPallet_DESC",
+      "textId": "CHALLENGE_BreakPallet_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_VaultInChase_TITLE",
+      "textId": "CHALLENGE_VaultInChase_TITLE"
+    },
+    {
+      "text": "殺人鬼は障害物で減速するので、生存者がパレットや窓を乗り越えると追跡を長引かせることができます。",
+      "textId": "CHALLENGE_VaultInChase_DESC"
+    },
+    {
+      "text": "追跡中に乗り越えを{0}回行う",
+      "textId": "CHALLENGE_VaultInChase_INFO"
+    },
+    {
+      "text": "カオスシャッフル 完了クエスト",
+      "textId": "LIST_ChocolateBox_TITLE_1"
+    },
+    {
+      "text": "カオスシャッフルクエスト - パート1",
+      "textId": "LIST_ChocolateBox_TITLE_2"
+    },
+    {
+      "text": "カオスシャッフルクエスト - パート2",
+      "textId": "LIST_ChocolateBox_TITLE_3"
+    },
+    {
+      "text": "カオスシャッフルクエスト - パート3",
+      "textId": "LIST_ChocolateBox_TITLE_4"
+    },
+    {
+      "text": "リフトパス",
+      "textId": "CHALLENGESET_BattlePass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_BattlePass_INFO",
+      "textId": "CHALLENGESET_BattlePass_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChallenges_TITLE",
+      "textId": "CHALLENGE_CompleteChallenges_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChallenges_DESC",
+      "textId": "CHALLENGE_CompleteChallenges_DESC"
+    },
+    {
+      "text": "今週のクエストを{0}個完了する",
+      "textId": "CHALLENGE_CompleteChallenges_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffSingleTrial_TITLE",
+      "textId": "CHALLENGE_HookDiffSingleTrial_TITLE"
+    },
+    {
+      "text": "フックに吊るされた生存者は別の生存者に救助される必要があるので、彼らが発電機を修理するのを遅らせます。",
+      "textId": "CHALLENGE_HookDiffSingleTrial_DESC"
+    },
+    {
+      "text": "1回の儀式で異なる生存者{0}人をフックに吊るす",
+      "textId": "CHALLENGE_HookDiffOneTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HideInTerrorRadius_TITLE",
+      "textId": "CHALLENGE_HideInTerrorRadius_TITLE"
+    },
+    {
+      "text": "脅威範囲内で{0}秒間隠れる",
+      "textId": "CHALLENGE_HideInTerrorRadius_DESC"
+    },
+    {
+      "text": "殺人鬼の脅威範囲内で捕まらずに合計{0}秒間隠れる",
+      "textId": "CHALLENGE_HideInTerrorRadius_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CarryOrEscapeChase_TITLE",
+      "textId": "CHALLENGE_CarryOrEscapeChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CarryOrEscapeChase_DESC",
+      "textId": "CHALLENGE_CarryOrEscapeChase_DESC"
+    },
+    {
+      "text": "生存者を{0}メートル運ぶ",
+      "textId": "CHALLENGE_Carry_INFO"
+    },
+    {
+      "text": "追跡から{0}回逃れる",
+      "textId": "CHALLENGE_EscapeChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivorOrBlindWhileCarry_TITLE",
+      "textId": "CHALLENGE_GrabSurvivorOrBlindWhileCarry_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivorOrBlindWhileCarry_DESC",
+      "textId": "CHALLENGE_GrabSurvivorOrBlindWhileCarry_DESC"
+    },
+    {
+      "text": "生存者{0}人を妨害して捕まえる",
+      "textId": "CHALLENGE_GrabSurvivor_INFO"
+    },
+    {
+      "text": "生存者を運んでいる殺人鬼を{0}回目眩ましする",
+      "textId": "CHALLENGE_BlindCarry_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_RevealSurvivorAura_TITLE",
+      "textId": "CHALLENGE_RevealSurvivorAura_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_RevealSurvivorAura_DESC",
+      "textId": "CHALLENGE_RevealSurvivorAura_DESC"
+    },
+    {
+      "text": "生存者のオーラを{0}秒間、可視化する",
+      "textId": "CHALLENGE_RevealSurvivorAurasForDuration_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GenSkillCheckSingleTrial_TITLE",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GenSkillCheckSingleTrial_DESC",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_DESC"
+    },
+    {
+      "text": "1回の儀式で修理のスキルチェックに{0}回成功する",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_MoriOrPalletStun_TITLE",
+      "textId": "CHALLENGE_MoriOrPalletStun_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_MoriOrPalletStun_DESC",
+      "textId": "CHALLENGE_MoriOrPalletStun_DESC"
+    },
+    {
+      "text": "生存者{0}人を殺害する",
+      "textId": "CHALLENGE_Mori_INFO"
+    },
+    {
+      "text": "パレットで殺人鬼を{0}回怯ませる",
+      "textId": "CHALLENGE_PalletStun_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ScourgeHook_TITLE",
+      "textId": "CHALLENGE_ScourgeHook_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ScourgeHook_DESC",
+      "textId": "CHALLENGE_ScourgeHook_DESC"
+    },
+    {
+      "text": "生存者{0}人を悶絶のフックに吊るす",
+      "textId": "CHALLENGE_ScourgeHook_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrConsumeMed_TITLE",
+      "textId": "CHALLENGE_DownOrConsumeMed_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrConsumeMed_DESC",
+      "textId": "CHALLENGE_DownOrConsumeMed_DESC"
+    },
+    {
+      "text": "医療キットを{0}個使い果たす",
+      "textId": "CHALLENGE_ConsumeMedkit_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGen_TITLE",
+      "textId": "CHALLENGE_BreakGen_TITLE"
+    },
+    {
+      "text": "途中まで修理の進んだ発電機にダメージを与えると、修理の進行状況を後退させられます。",
+      "textId": "CHALLENGE_BreakGen_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_CoopAction_TITLE",
+      "textId": "CHALLENGE_CoopAction_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CoopAction_DESC",
+      "textId": "CHALLENGE_CoopAction_DESC"
+    },
+    {
+      "text": "共同作業を合計{0}秒間行う",
+      "textId": "CHALLENGE_CoopAction_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HitAuraTimeOrEscapeRare_TITLE",
+      "textId": "CHALLENGE_HitAuraTimeOrEscapeRare_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HitAuraTimeOrEscapeRare_DESC",
+      "textId": "CHALLENGE_HitAuraTimeOrEscapeRare_DESC"
+    },
+    {
+      "text": "そのオーラが表示されてから10秒以内に生存者{0}人に攻撃を命中させる",
+      "textId": "CHALLENGE_HitAura_INFO"
+    },
+    {
+      "text": "レア以上のアイテムを持って儀式を{0}回脱出する",
+      "textId": "CHALLENGE_EscapeRare_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivor_TITLE",
+      "textId": "CHALLENGE_GrabSurvivor_TITLE"
+    },
+    {
+      "text": "殺人鬼は、発電機やトーテムにアクションを行っていたり、障害物を乗り越えていたりする生存者を直接捕まえられます。",
+      "textId": "CHALLENGE_GrabSurvivor_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeToolBox_TITLE",
+      "textId": "CHALLENGE_ConsumeToolBox_TITLE"
+    },
+    {
+      "text": "工具箱を使うと発電機をより速く修理できます。",
+      "textId": "CHALLENGE_ConsumeToolBox_DESC"
+    },
+    {
+      "text": "工具箱を{0}個使い果たす",
+      "textId": "CHALLENGE_ConsumeToolBox_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_FinishNoGateEscapeOrEscape_TITLE",
+      "textId": "CHALLENGE_FinishNoGateEscapeOrEscape_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_FinishNoGateEscapeOrEscape_DESC",
+      "textId": "CHALLENGE_FinishNoGateEscapeOrEscape_DESC"
+    },
+    {
+      "text": "生存者を1人も脱出ゲートから逃さずに儀式を{0}回終える",
+      "textId": "CHALLENGE_FinishNoGateEscape_INFO"
+    },
+    {
+      "text": "危険な追跡",
+      "textId": "CHALLENGE_Chase_TITLE"
+    },
+    {
+      "text": "赤い傷マークを追って、走っている生存者を見つけましょう。",
+      "textId": "CHALLENGE_Chase_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BeChased_TITLE",
+      "textId": "CHALLENGE_BeChased_TITLE"
+    },
+    {
+      "text": "追跡をできる限り長引かせましょう。そうすることで、他の生存者が発電機の修理に専念できます。",
+      "textId": "CHALLENGE_BeChased_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_Kill_TITLE",
+      "textId": "CHALLENGE_Kill_TITLE"
+    },
+    {
+      "text": "生存者を処刑したり殺害したりするほど、エンティティからより多くの報酬が得られます。",
+      "textId": "CHALLENGE_Kill_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_EarnEmblemsSilver_TITLE",
+      "textId": "CHALLENGE_EarnEmblemsSilver_TITLE"
+    },
+    {
+      "text": "銀のエンブレムを{0}個獲得する。",
+      "textId": "CHALLENGE_EarnEmblemsSilver_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_TITLE",
+      "textId": "CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_DESC",
+      "textId": "CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_DESC"
+    },
+    {
+      "text": "1回の儀式で生存者{0}人をフックに吊るす",
+      "textId": "CHALLENGE_HookSingleTrial_INFO"
+    },
+    {
+      "text": "1回の儀式で{0}秒間追跡される",
+      "textId": "CHALLENGE_BeChasedSingleTrial_INFO"
+    },
+    {
+      "text": "命を与えるもの",
+      "textId": "CHALLENGE_Heal_TITLE"
+    },
+    {
+      "text": "健康状態を合計で{0}回分回復する",
+      "textId": "CHALLENGE_Heal_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletOrClenseTotems_TITLE",
+      "textId": "CHALLENGE_BreakPalletOrClenseTotems_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletOrClenseTotems_DESC",
+      "textId": "CHALLENGE_BreakPalletOrClenseTotems_DESC"
+    },
+    {
+      "text": "トーテムを{0}個浄化する",
+      "textId": "CHALLENGE_CleanseTotem_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_TITLE",
+      "textId": "CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_DESC",
+      "textId": "CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_DESC"
+    },
+    {
+      "text": "1回の儀式で発電機を{0}台破壊する",
+      "textId": "CHALLENGE_BreakGenSingleTrial_INFO"
+    },
+    {
+      "text": "1回の儀式で{0}回、追跡中または追跡から逃れて5秒以内にロッカーに入る",
+      "textId": "CHALLENGE_EscapeChaseLockerSingleTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BlindCarry_TITLE",
+      "textId": "CHALLENGE_BlindCarry_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BlindCarry_DESC",
+      "textId": "CHALLENGE_BlindCarry_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_DownNearPalletsOrReviveDying_TITLE",
+      "textId": "CHALLENGE_DownNearPalletsOrReviveDying_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownNearPalletsOrReviveDying_DESC",
+      "textId": "CHALLENGE_DownNearPalletsOrReviveDying_DESC"
+    },
+    {
+      "text": "1枚のパレットの近くで生存者{0}人をダウンさせる",
+      "textId": "CHALLENGE_DownNearPallet_INFO"
+    },
+    {
+      "text": "生存者{0}人を瀕死状態から回復する",
+      "textId": "CHALLENGE_ReviveDying_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_TITLE",
+      "textId": "CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_DESC",
+      "textId": "CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_DESC"
+    },
+    {
+      "text": "1回の儀式で{0}回、追跡されている間に落ちる",
+      "textId": "CHALLENGE_FallInChaseOneTrial_INFO"
+    },
+    {
+      "text": "ノックアウト",
+      "textId": "CHALLENGE_Down_TITLE"
+    },
+    {
+      "text": "<b>生存者{0}人</b>をダウンさせる。",
+      "textId": "CHALLENGE_Down_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeMedkit_TITLE",
+      "textId": "CHALLENGE_ConsumeMedkit_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeMedkit_DESC",
+      "textId": "CHALLENGE_ConsumeMedkit_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteRiftQuests_TITLE",
+      "textId": "CHALLENGE_CompleteRiftQuests_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteRiftQuests_DESC",
+      "textId": "CHALLENGE_CompleteRiftQuests_DESC"
+    },
+    {
+      "text": "リフトパスクエストを{0}個完了する",
+      "textId": "CHALLENGE_CompleteRiftQuests_INFO"
+    },
+    {
+      "text": "リフトパスクエスト - 第1週",
+      "textId": "LIST_BattlePass_TITLE_1"
+    },
+    {
+      "text": "リフトパスクエスト - 第2週",
+      "textId": "LIST_BattlePass_TITLE_2"
+    },
+    {
+      "text": "リフトパスクエスト - 第3週",
+      "textId": "LIST_BattlePass_TITLE_3"
+    },
+    {
+      "text": "リフトパスクエスト - 第4週",
+      "textId": "LIST_BattlePass_TITLE_4"
+    },
+    {
+      "text": "リフトパスクエスト - 第5週",
+      "textId": "LIST_BattlePass_TITLE_5"
+    },
+    {
+      "text": "リフトパスクエスト - 第6週",
+      "textId": "LIST_BattlePass_TITLE_6"
+    },
+    {
+      "text": "リフトパスクエスト - 第7週",
+      "textId": "LIST_BattlePass_TITLE_7"
+    },
+    {
+      "text": "リフトパスクエスト - 第8週",
+      "textId": "LIST_BattlePass_TITLE_8"
+    },
+    {
+      "text": "リフトパスクエスト - 第9週",
+      "textId": "LIST_BattlePass_TITLE_9"
+    },
+    {
+      "text": "リフトパスクエスト - 第10週",
+      "textId": "LIST_BattlePass_TITLE_10"
+    },
+    {
+      "text": "リフトパスクエスト - 第11週",
+      "textId": "LIST_BattlePass_TITLE_11"
+    },
+    {
+      "text": "リフトパスクエスト - 第12週",
+      "textId": "LIST_BattlePass_TITLE_12"
+    },
+    {
+      "text": "リストパス完了クエスト",
+      "textId": "LIST_BattlePass_TITLE_0"
+    },
+    {
+      "text": "マイルストーン",
+      "textId": "CHALLENGESET_Milestone_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_Milestone_INFO",
+      "textId": "CHALLENGESET_Milestone_INFO"
+    },
+    {
+      "text": "身の毛もよだつ",
+      "textId": "CHALLENGE_Hook_TITLE"
+    },
+    {
+      "text": "<b>生存者を{0}人</b>をフックに吊るす。",
+      "textId": "CHALLENGE_Hook_DESC"
+    },
+    {
+      "text": "マイルストーンクエスト",
+      "textId": "LIST_Milestone_TITLE"
+    },
+    {
+      "text": "ねじれた仮面舞踏会",
+      "textId": "CHALLENGESET_AnniversaryKetchupSet_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_AnniversaryKetchupSet__INFO",
+      "textId": "CHALLENGESET_AnniversaryKetchupSet__INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeQuests_TITLE",
+      "textId": "CHALLENGE_CompleteModeQuests_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeQuests_DESC",
+      "textId": "CHALLENGE_CompleteModeQuests_DESC"
+    },
+    {
+      "text": "{1}クエストを{0}個完了する",
+      "textId": "CHALLENGE_CompleteModeQuests_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeTrial_TITLE",
+      "textId": "CHALLENGE_CompleteModeTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteModeTrial_DESC",
+      "textId": "CHALLENGE_CompleteModeTrial_DESC"
+    },
+    {
+      "text": "{1}の儀式を{0}回完了する",
+      "textId": "CHALLENGE_CompleteModeTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CollectInvitation_TITLE",
+      "textId": "CHALLENGE_CollectInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CollectInvitation_DESC",
+      "textId": "CHALLENGE_CollectInvitation_DESC"
+    },
+    {
+      "text": "仮面舞踏会の柱から招待状を{0}回、回収する\r",
+      "textId": "CHALLENGE_CollectInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbility_TITLE",
+      "textId": "CHALLENGE_AnyInvitationAbility_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbility_DESC",
+      "textId": "CHALLENGE_AnyInvitationAbility_DESC"
+    },
+    {
+      "text": "招待状のアビリティを{0}回発動する",
+      "textId": "CHALLENGE_AnyInvitationAbility_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PalletBreakInvitation_TITLE",
+      "textId": "CHALLENGE_PalletBreakInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PalletBreakInvitation_DESC",
+      "textId": "CHALLENGE_PalletBreakInvitation_DESC"
+    },
+    {
+      "text": "招待状を発動し、パレットまたは破壊可能な壁を{0}回破壊する。",
+      "textId": "CHALLENGE_PalletBreakInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_PalletSummonInvitation_TITLE",
+      "textId": "CHALLENGE_PalletSummonInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_PalletSummonInvitation_DESC",
+      "textId": "CHALLENGE_PalletSummonInvitation_DESC"
+    },
+    {
+      "text": "招待状を発動し、パーティーパレットを{0}回置く。",
+      "textId": "CHALLENGE_PalletSummonInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_OutlastNumberOfEffects_TITLE",
+      "textId": "CHALLENGE_OutlastNumberOfEffects_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_OutlastNumberOfEffects_DESC",
+      "textId": "CHALLENGE_OutlastNumberOfEffects_DESC"
+    },
+    {
+      "text": "トリクスの袋の効果を{0}回体験する",
+      "textId": "CHALLENGE_OutlastNumberOfEffects_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_RemoteHookInvitation_TITLE",
+      "textId": "CHALLENGE_RemoteHookInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_RemoteHookInvitation_DESC",
+      "textId": "CHALLENGE_RemoteHookInvitation_DESC"
+    },
+    {
+      "text": "招待状を発動し、離れたフックに生存者を{0}回吊るす（遠隔フック）。",
+      "textId": "CHALLENGE_RemoteHookInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_VaultBlockInvitation_TITLE",
+      "textId": "CHALLENGE_VaultBlockInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_VaultBlockInvitation_DESC",
+      "textId": "CHALLENGE_VaultBlockInvitation_DESC"
+    },
+    {
+      "text": "追跡中に招待状を発動し、殺人鬼に対して窓の乗り越えを{0}回ブロックする。",
+      "textId": "CHALLENGE_VaultBlockInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityInChase_TITLE",
+      "textId": "CHALLENGE_AnyInvitationAbilityInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityInChase_DESC",
+      "textId": "CHALLENGE_AnyInvitationAbilityInChase_DESC"
+    },
+    {
+      "text": "追跡中に招待状のアビリティを{0}回発動する",
+      "textId": "CHALLENGE_AnyInvitationAbilityInChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityOutOfChase_TITLE",
+      "textId": "CHALLENGE_AnyInvitationAbilityOutOfChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_AnyInvitationAbilityOutOfChase_DESC",
+      "textId": "CHALLENGE_AnyInvitationAbilityOutOfChase_DESC"
+    },
+    {
+      "text": "追跡中でないときに招待状のアビリティを{0}回発動する",
+      "textId": "CHALLENGE_AnyInvitationAbilityOutOfChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_NegateStunInvitation_TITLE",
+      "textId": "CHALLENGE_NegateStunInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_NegateStunInvitation_DESC",
+      "textId": "CHALLENGE_NegateStunInvitation_DESC"
+    },
+    {
+      "text": "追跡中に招待状を発動し、怯みを{0}回我慢する。",
+      "textId": "CHALLENGE_NegateStunInvitation_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_QuietModeInvitation_TITLE",
+      "textId": "CHALLENGE_QuietModeInvitation_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_QuietModeInvitation_DESC",
+      "textId": "CHALLENGE_QuietModeInvitation_DESC"
+    },
+    {
+      "text": "招待状の力を使って、自分の足音、うめき声、血痕を{0}回抑える。",
+      "textId": "CHALLENGE_QuietModeInvitation_INFO"
+    },
+    {
+      "text": "ねじれた仮面舞踏会 完了クエスト",
+      "textId": "LIST_Anniversary_TITLE_1"
+    },
+    {
+      "text": "ねじれた仮面舞踏会クエスト - パート1",
+      "textId": "LIST_Anniversary_TITLE_2"
+    },
+    {
+      "text": "ねじれた仮面舞踏会クエスト - パート2",
+      "textId": "LIST_Anniversary_TITLE_3"
+    },
+    {
+      "text": "ねじれた仮面舞踏会クエスト - パート3",
+      "textId": "LIST_Anniversary_TITLE_4"
+    },
+    {
+      "text": "ねじれた仮面舞踏会クエスト - パート4",
+      "textId": "LIST_Anniversary_TITLE_5"
+    },
+    {
+      "text": "ねじれた仮面舞踏会クエスト - パート5",
+      "textId": "LIST_Anniversary_TITLE_6"
+    }
+  ]
+}

@@ -2,15 +2,26 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.0.2_2630066live` · built 2025-07-18 20:43 UTC
+**Latest version:** `9.0.2_2635105live` · built 2025-07-22 14:05 UTC
 
-[What changed](versions/9.0.2_2630066live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.0.2_2635105live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **1** modified · **0** removed, compared with `9.0.2_2627710live`.
+**0** added · **12** modified · **0** removed, compared with `9.0.2_2630066live`.
 
-- ~ [`GameConfigsDS.json`](versions/9.0.2_2630066live/diffs/GameConfigsDS.json.diff)
+- ~ [`catalog.json`](versions/9.0.2_2635105live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_de.json`](versions/9.0.2_2635105live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.0.2_2635105live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/9.0.2_2635105live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/9.0.2_2635105live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_ja.json`](versions/9.0.2_2635105live/diffs/challengeLocs/challengeText_ja.json.diff)
+- ~ [`challengeLocs/challengeText_ko.json`](versions/9.0.2_2635105live/diffs/challengeLocs/challengeText_ko.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.0.2_2635105live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/9.0.2_2635105live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/9.0.2_2635105live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
+- ~ [`collections.json`](versions/9.0.2_2635105live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.0.2_2635105live/diffs/dynamicContent/DynamicContent.json.diff)
 
 ## Browse
 
@@ -32,7 +43,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-99 versions tracked so far.
+100 versions tracked so far.
 
 ---
 

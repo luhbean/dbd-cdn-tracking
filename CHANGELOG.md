@@ -2,6 +2,14 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [8.7.0_2444932live](versions/8.7.0_2444932live/CHANGES.md)
+
+Built 2025-05-12 15:53 UTC · **+0** added · **~3** modified · **−0** removed
+
+- ~ [`GameConfigs.json`](versions/8.7.0_2444932live/diffs/GameConfigs.json.diff)
+- ~ [`catalog.json`](versions/8.7.0_2444932live/diffs/catalog.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.7.0_2444932live/diffs/dynamicContent/DynamicContent.json.diff)
+
 ## [8.7.0_2443350live](versions/8.7.0_2443350live/CHANGES.md)
 
 Built 2025-05-12 12:12 UTC · **+0** added · **~2** modified · **−0** removed

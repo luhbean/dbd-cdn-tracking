@@ -1,0 +1,616 @@
+{
+  "locText": [
+    {
+      "text": "Täglich",
+      "textId": "CHALLENGESET_DailyTab_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_Daily_INFO",
+      "textId": "CHALLENGESET_Daily_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookOrUnhook_TITLE",
+      "textId": "CHALLENGE_HookOrUnhook_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookOrUnhook_DESC",
+      "textId": "CHALLENGE_HookOrUnhook_DESC"
+    },
+    {
+      "text": "Hake {0} Überlebende(n) fest.",
+      "textId": "CHALLENGE_Hook_INFO"
+    },
+    {
+      "text": "Rette {0} Überlebende(n) sicher vom Haken.",
+      "textId": "CHALLENGE_Unhook_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HitOrHeal_TITLE",
+      "textId": "CHALLENGE_HitOrHeal_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HitOrHeal_DESC",
+      "textId": "CHALLENGE_HitOrHeal_DESC"
+    },
+    {
+      "text": "Führe {0} erfolgreiche Grundangriff(e) aus.",
+      "textId": "CHALLENGE_Hit_INFO"
+    },
+    {
+      "text": "Heile insgesamt {0} Gesundheitsstatus.",
+      "textId": "CHALLENGE_Heal_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenOrGenSkillCheck_TITLE",
+      "textId": "CHALLENGE_BreakGenOrGenSkillCheck_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenOrGenSkillCheck_DESC",
+      "textId": "CHALLENGE_BreakGenOrGenSkillCheck_DESC"
+    },
+    {
+      "text": "Beschädige {0} Generator(en).",
+      "textId": "CHALLENGE_BreakGen_INFO"
+    },
+    {
+      "text": "Schließe {0} Fähigkeitscheck(s) an Generatoren erfolgreich ab.",
+      "textId": "CHALLENGE_GenSkillCheck_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_KillSurvivorOrRepairGens_TITLE",
+      "textId": "CHALLENGE_KillSurvivorOrRepairGens_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_KillSurvivorOrRepairGens_DESC",
+      "textId": "CHALLENGE_KillSurvivorOrRepairGens_DESC"
+    },
+    {
+      "text": "Töte {0} Überlebende(n).",
+      "textId": "CHALLENGE_Kill_INFO"
+    },
+    {
+      "text": "Repariere insgesamt {0} Generator(en).",
+      "textId": "CHALLENGE_Repair_INFO"
+    },
+    {
+      "text": "Blutige Belohnungen",
+      "textId": "CHALLENGE_EarnBloodpoints_TITLE"
+    },
+    {
+      "text": "@#CHALENGE_EarnBloodpoints_DESC",
+      "textId": "CHALENGE_EarnBloodpoints_DESC"
+    },
+    {
+      "text": "Verdiene {0} Blutpunkte.",
+      "textId": "CHALENGE_EarnBloodpoints_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteTrial_TITLE",
+      "textId": "CHALLENGE_CompleteTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteTrial_DESC",
+      "textId": "CHALLENGE_CompleteTrial_DESC"
+    },
+    {
+      "text": "Schließe {0} Prüfung(en) ab.",
+      "textId": "CHALLENGE_CompleteTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrBeChased_TITLE",
+      "textId": "CHALLENGE_ChaseOrBeChased_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ChaseOrBeChased_DESC",
+      "textId": "CHALLENGE_ChaseOrBeChased_DESC"
+    },
+    {
+      "text": "Jage {0} Sekunden lang.",
+      "textId": "CHALLENGE_Chase_INFO"
+    },
+    {
+      "text": "Werde {0} Sekunden lang gejagt.",
+      "textId": "CHALLENGE_BeChased_INFO"
+    },
+    {
+      "text": "TÄGLICHE QUESTS",
+      "textId": "LIST_Daily_TITLE"
+    },
+    {
+      "text": "Spaltpass",
+      "textId": "CHALLENGESET_BattlePass_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_BattlePass_INFO",
+      "textId": "CHALLENGESET_BattlePass_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChallenges_TITLE",
+      "textId": "CHALLENGE_CompleteChallenges_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteChallenges_DESC",
+      "textId": "CHALLENGE_CompleteChallenges_DESC"
+    },
+    {
+      "text": "Schließe {0} Quest(s) ab.",
+      "textId": "CHALLENGE_CompleteChallenges_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffSingleTrial_TITLE",
+      "textId": "CHALLENGE_HookDiffSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffSingleTrial_DESC",
+      "textId": "CHALLENGE_HookDiffSingleTrial_DESC"
+    },
+    {
+      "text": "Hake {0} verschiedene Überlebende in einer Prüfung fest.",
+      "textId": "CHALLENGE_HookDiffOneTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HideInTerrorRadius_TITLE",
+      "textId": "CHALLENGE_HideInTerrorRadius_TITLE"
+    },
+    {
+      "text": "Versteck dich {0} Sekunden lang im Terrorradius.",
+      "textId": "CHALLENGE_HideInTerrorRadius_DESC"
+    },
+    {
+      "text": "Verstecke dich insgesamt {0} Sekunden innerhalb des Terrorradius des Killers.",
+      "textId": "CHALLENGE_HideInTerrorRadius_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_CarryOrEscapeChase_TITLE",
+      "textId": "CHALLENGE_CarryOrEscapeChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CarryOrEscapeChase_DESC",
+      "textId": "CHALLENGE_CarryOrEscapeChase_DESC"
+    },
+    {
+      "text": "Trage Überlebende {0} Meter weit.",
+      "textId": "CHALLENGE_Carry_INFO"
+    },
+    {
+      "text": "Entkomme {0} Jagd(en).",
+      "textId": "CHALLENGE_EscapeChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivorOrBlindWhileCarry_TITLE",
+      "textId": "CHALLENGE_GrabSurvivorOrBlindWhileCarry_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivorOrBlindWhileCarry_DESC",
+      "textId": "CHALLENGE_GrabSurvivorOrBlindWhileCarry_DESC"
+    },
+    {
+      "text": "Störe und ergreife {0} Überlebende(n).",
+      "textId": "CHALLENGE_GrabSurvivor_INFO"
+    },
+    {
+      "text": "Blende den Killer {0}-mal, während dieser einen Überlebenden trägt.",
+      "textId": "CHALLENGE_BlindCarry_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_RevealSurvivorAura_TITLE",
+      "textId": "CHALLENGE_RevealSurvivorAura_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_RevealSurvivorAura_DESC",
+      "textId": "CHALLENGE_RevealSurvivorAura_DESC"
+    },
+    {
+      "text": "Enthülle die Auren von Überlebenden für {0} Sekunden.",
+      "textId": "CHALLENGE_RevealSurvivorAurasForDuration_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GenSkillCheckSingleTrial_TITLE",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GenSkillCheckSingleTrial_DESC",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_DESC"
+    },
+    {
+      "text": "Schaffe {0} Fähigkeitscheck(s) an einem Generator in einer einzigen Prüfung.",
+      "textId": "CHALLENGE_GenSkillCheckSingleTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_MoriOrPalletStun_TITLE",
+      "textId": "CHALLENGE_MoriOrPalletStun_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_MoriOrPalletStun_DESC",
+      "textId": "CHALLENGE_MoriOrPalletStun_DESC"
+    },
+    {
+      "text": "Töte {0} Überlebende(n) mit deinen Händen.",
+      "textId": "CHALLENGE_Mori_INFO"
+    },
+    {
+      "text": "Betäube {0} Killer mit Paletten.",
+      "textId": "CHALLENGE_PalletStun_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_ScourgeHook_TITLE",
+      "textId": "CHALLENGE_ScourgeHook_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ScourgeHook_DESC",
+      "textId": "CHALLENGE_ScourgeHook_DESC"
+    },
+    {
+      "text": "Hake {0} Überlebende(n) an Geißelhaken fest.",
+      "textId": "CHALLENGE_ScourgeHook_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_VaultInChase_TITLE",
+      "textId": "CHALLENGE_VaultInChase_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_VaultInChase_DESC",
+      "textId": "CHALLENGE_VaultInChase_DESC"
+    },
+    {
+      "text": "Springe {0}-mal während einer Jagd.",
+      "textId": "CHALLENGE_VaultInChase_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_EarnEmblemsGold_TITLE",
+      "textId": "CHALLENGE_EarnEmblemsGold_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_EarnEmblemsGold_DESC",
+      "textId": "CHALLENGE_EarnEmblemsGold_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrConsumeMed_TITLE",
+      "textId": "CHALLENGE_DownOrConsumeMed_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownOrConsumeMed_DESC",
+      "textId": "CHALLENGE_DownOrConsumeMed_DESC"
+    },
+    {
+      "text": "Strecke {0} Überlebende(n) nieder.",
+      "textId": "CHALLENGE_Down_INFO"
+    },
+    {
+      "text": "Brauche {0} Sani-Kasten/Kästen vollständig auf.",
+      "textId": "CHALLENGE_ConsumeMedkit_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGen_TITLE",
+      "textId": "CHALLENGE_BreakGen_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGen_DESC",
+      "textId": "CHALLENGE_BreakGen_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_CoopAction_TITLE",
+      "textId": "CHALLENGE_CoopAction_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CoopAction_DESC",
+      "textId": "CHALLENGE_CoopAction_DESC"
+    },
+    {
+      "text": "Führe insgesamt {0} Sekunden lang kooperative Aktionen aus.",
+      "textId": "CHALLENGE_CoopAction_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HitAuraTimeOrEscapeRare_TITLE",
+      "textId": "CHALLENGE_HitAuraTimeOrEscapeRare_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HitAuraTimeOrEscapeRare_DESC",
+      "textId": "CHALLENGE_HitAuraTimeOrEscapeRare_DESC"
+    },
+    {
+      "text": "Triff {0} Überlebende, nachdem du ihre Auren in den letzte 10 Sekunden enthüllt hast.",
+      "textId": "CHALLENGE_HitAura_INFO"
+    },
+    {
+      "text": "Entkomme {0} Prüfung(en) mit einem Gegenstand der Seltenheit „selten“ oder besser.",
+      "textId": "CHALLENGE_EscapeRare_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivor_TITLE",
+      "textId": "CHALLENGE_GrabSurvivor_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_GrabSurvivor_DESC",
+      "textId": "CHALLENGE_GrabSurvivor_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeToolBox_TITLE",
+      "textId": "CHALLENGE_ConsumeToolBox_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeToolBox_DESC",
+      "textId": "CHALLENGE_ConsumeToolBox_DESC"
+    },
+    {
+      "text": "Brauche {0} Werkzeugkiste(n) vollständig auf.",
+      "textId": "CHALLENGE_ConsumeToolBox_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_FinishNoGateEscapeOrEscape_TITLE",
+      "textId": "CHALLENGE_FinishNoGateEscapeOrEscape_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_FinishNoGateEscapeOrEscape_DESC",
+      "textId": "CHALLENGE_FinishNoGateEscapeOrEscape_DESC"
+    },
+    {
+      "text": "Beende eine Prüfung, in der kein Überlebender durch die Ausgangstore entwischen konnte.",
+      "textId": "CHALLENGE_FinishNoGateEscape_INFO"
+    },
+    {
+      "text": "Entkomme {0} Prüfung(en).",
+      "textId": "CHALLENGE_Escape_INFO"
+    },
+    {
+      "text": "Tödliche Verfolgung",
+      "textId": "CHALLENGE_Chase_TITLE"
+    },
+    {
+      "text": "Jage die Überlebenden insgesamt <b>{0} Sekunden lang</b>.",
+      "textId": "CHALLENGE_Chase_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BeChased_TITLE",
+      "textId": "CHALLENGE_BeChased_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BeChased_DESC",
+      "textId": "CHALLENGE_BeChased_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_Kill_TITLE",
+      "textId": "CHALLENGE_Kill_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Kill_DESC",
+      "textId": "CHALLENGE_Kill_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_Repair_TITLE",
+      "textId": "CHALLENGE_Repair_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Repair_DESC",
+      "textId": "CHALLENGE_Repair_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_EarnEmblemsSilver_TITLE",
+      "textId": "CHALLENGE_EarnEmblemsSilver_TITLE"
+    },
+    {
+      "text": "Verdiene {0} Silberemblem(e).",
+      "textId": "CHALLENGE_EarnEmblemsSilver_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_TITLE",
+      "textId": "CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_DESC",
+      "textId": "CHALLENGE_HookSingleTrialOrBeChasedSingleTrial_DESC"
+    },
+    {
+      "text": "Hake {0} Überlebende(n) in einer einzigen Prüfung fest.",
+      "textId": "CHALLENGE_HookSingleTrial_INFO"
+    },
+    {
+      "text": "Werde in einer einzigen Prüfung {0} Sekunden lang gejagt.",
+      "textId": "CHALLENGE_BeChasedSingleTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_Crow_TITLE",
+      "textId": "CHALLENGE_Crow_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Crow_DESC",
+      "textId": "CHALLENGE_Crow_DESC"
+    },
+    {
+      "text": "Störe {0} Krähe(n).",
+      "textId": "CHALLENGE_Crow_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_Hit_TITLE",
+      "textId": "CHALLENGE_Hit_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_Hit_DESC",
+      "textId": "CHALLENGE_Hit_DESC"
+    },
+    {
+      "text": "Lebensschenker",
+      "textId": "CHALLENGE_Heal_TITLE"
+    },
+    {
+      "text": "Heile insgesamt <b>{0} Gesundheitsstatus</b> eines beliebigen Überlebenden.",
+      "textId": "CHALLENGE_Heal_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletOrClenseTotems_TITLE",
+      "textId": "CHALLENGE_BreakPalletOrClenseTotems_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakPalletOrClenseTotems_DESC",
+      "textId": "CHALLENGE_BreakPalletOrClenseTotems_DESC"
+    },
+    {
+      "text": "Zerstöre {0} Palette(n).",
+      "textId": "CHALLENGE_BreakPallets_INFO"
+    },
+    {
+      "text": "Zerstöre {0} Totem(s).",
+      "textId": "CHALLENGE_CleanseTotem_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_TITLE",
+      "textId": "CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_DESC",
+      "textId": "CHALLENGE_BreakGenSingleTrialOrEscapeChaseLockerSingleTrial_DESC"
+    },
+    {
+      "text": "Beschädige {0} Generator(en) in einer einzigen Prüfung.",
+      "textId": "CHALLENGE_BreakGenSingleTrial_INFO"
+    },
+    {
+      "text": "Betritt in einer einzigen Prüfung {0}-mal einen Schließschrank bei einer Jagd oder 5 Sek. danach.",
+      "textId": "CHALLENGE_EscapeChaseLockerSingleTrial_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_BlindCarry_TITLE",
+      "textId": "CHALLENGE_BlindCarry_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_BlindCarry_DESC",
+      "textId": "CHALLENGE_BlindCarry_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_DownNearPalletsOrReviveDying_TITLE",
+      "textId": "CHALLENGE_DownNearPalletsOrReviveDying_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_DownNearPalletsOrReviveDying_DESC",
+      "textId": "CHALLENGE_DownNearPalletsOrReviveDying_DESC"
+    },
+    {
+      "text": "Strecke {0} Überlebende(n) in der Nähe einer Palette nieder.",
+      "textId": "CHALLENGE_DownNearPallet_INFO"
+    },
+    {
+      "text": "Heile {0} Überlebende(n) im Todesstatus.",
+      "textId": "CHALLENGE_ReviveDying_INFO"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_TITLE",
+      "textId": "CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_DESC",
+      "textId": "CHALLENGE_HookDiffOneTrialOrFallInChaseOneTrial_DESC"
+    },
+    {
+      "text": "Stürze in einer einzigen Prüfung {0}-mal während einer Jagd.",
+      "textId": "CHALLENGE_FallInChaseOneTrial_INFO"
+    },
+    {
+      "text": "Ausgeschaltet",
+      "textId": "CHALLENGE_Down_TITLE"
+    },
+    {
+      "text": "Strecke <b>{0} Überlebende(n)</b> nieder.",
+      "textId": "CHALLENGE_Down_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeMedkit_TITLE",
+      "textId": "CHALLENGE_ConsumeMedkit_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_ConsumeMedkit_DESC",
+      "textId": "CHALLENGE_ConsumeMedkit_DESC"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteRiftQuests_TITLE",
+      "textId": "CHALLENGE_CompleteRiftQuests_TITLE"
+    },
+    {
+      "text": "@#CHALLENGE_CompleteRiftQuests_DESC",
+      "textId": "CHALLENGE_CompleteRiftQuests_DESC"
+    },
+    {
+      "text": "Schließe {0} Spaltpass-Quest(s) ab.",
+      "textId": "CHALLENGE_CompleteRiftQuests_INFO"
+    },
+    {
+      "text": "Spaltpass-Quests – Woche 1",
+      "textId": "LIST_BattlePass_TITLE_1"
+    },
+    {
+      "text": "Spaltpass-Quests – Woche 2",
+      "textId": "LIST_BattlePass_TITLE_2"
+    },
+    {
+      "text": "Spaltpass-Quests – Woche 3",
+      "textId": "LIST_BattlePass_TITLE_3"
+    },
+    {
+      "text": "Spaltpass-Quests – Woche 4",
+      "textId": "LIST_BattlePass_TITLE_4"
+    },
+    {
+      "text": "Spaltpass-Quests – Woche 5",
+      "textId": "LIST_BattlePass_TITLE_5"
+    },
+    {
+      "text": "Spaltpass-Quests – Woche 6",
+      "textId": "LIST_BattlePass_TITLE_6"
+    },
+    {
+      "text": "Spaltpass-Quests – Woche 7",
+      "textId": "LIST_BattlePass_TITLE_7"
+    },
+    {
+      "text": "Spaltpass-Quests – Woche 8",
+      "textId": "LIST_BattlePass_TITLE_8"
+    },
+    {
+      "text": "Spaltpass-Quests – Woche 9",
+      "textId": "LIST_BattlePass_TITLE_9"
+    },
+    {
+      "text": "Spaltpass-Quests – Woche 10",
+      "textId": "LIST_BattlePass_TITLE_10"
+    },
+    {
+      "text": "Spaltpass-Quests – Woche 11",
+      "textId": "LIST_BattlePass_TITLE_11"
+    },
+    {
+      "text": "Spaltpass-Quests – Woche 12",
+      "textId": "LIST_BattlePass_TITLE_12"
+    },
+    {
+      "text": "Spaltpass-Abschlussquests",
+      "textId": "LIST_BattlePass_TITLE_0"
+    },
+    {
+      "text": "Meilenstein",
+      "textId": "CHALLENGESET_Milestone_TITLE"
+    },
+    {
+      "text": "@#CHALLENGESET_Milestone_INFO",
+      "textId": "CHALLENGESET_Milestone_INFO"
+    },
+    {
+      "text": "Ekelig",
+      "textId": "CHALLENGE_Hook_TITLE"
+    },
+    {
+      "text": "Hake <b>{0} Überlebende(n)</b> fest.",
+      "textId": "CHALLENGE_Hook_DESC"
+    },
+    {
+      "text": "Fluchtkünstler",
+      "textId": "CHALLENGE_Escape_TITLE"
+    },
+    {
+      "text": "Entkomme <b>{0} Prüfung(en)</b>.",
+      "textId": "CHALLENGE_Escape_DESC"
+    },
+    {
+      "text": "Meilenstein-Quests",
+      "textId": "LIST_Milestone_TITLE"
+    }
+  ]
+}

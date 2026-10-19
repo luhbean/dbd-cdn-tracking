@@ -2,6 +2,32 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [8.7.0_2443247live](versions/8.7.0_2443247live/CHANGES.md)
+
+Built 2025-05-12 11:45 UTC · **+18** added · **~90** modified · **−1** removed
+
+- ~ [`GameConfigs.json`](versions/8.7.0_2443247live/diffs/GameConfigs.json.diff)
+- ~ [`GameConfigsDS.json`](versions/8.7.0_2443247live/diffs/GameConfigsDS.json.diff)
+- ~ [`archiveRewardData/content.json`](versions/8.7.0_2443247live/diffs/archiveRewardData/content.json.diff)
+- ~ [`bloodwebGenerationRules.json`](versions/8.7.0_2443247live/diffs/bloodwebGenerationRules.json.diff)
+- ~ [`catalog.json`](versions/8.7.0_2443247live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/8.7.0_2443247live/diffs/collections.json.diff)
+- ~ [`consents/eula/v4/de.json`](versions/8.7.0_2443247live/diffs/consents/eula/v4/de.json.diff)
+- ~ [`consents/eula/v4/en.json`](versions/8.7.0_2443247live/diffs/consents/eula/v4/en.json.diff)
+- ~ [`consents/eula/v4/es-MX.json`](versions/8.7.0_2443247live/diffs/consents/eula/v4/es-MX.json.diff)
+- ~ [`consents/eula/v4/es.json`](versions/8.7.0_2443247live/diffs/consents/eula/v4/es.json.diff)
+- ~ [`consents/eula/v4/fr.json`](versions/8.7.0_2443247live/diffs/consents/eula/v4/fr.json.diff)
+- ~ [`consents/eula/v4/it.json`](versions/8.7.0_2443247live/diffs/consents/eula/v4/it.json.diff)
+- ~ [`consents/eula/v4/ja.json`](versions/8.7.0_2443247live/diffs/consents/eula/v4/ja.json.diff)
+- ~ [`consents/eula/v4/ko.json`](versions/8.7.0_2443247live/diffs/consents/eula/v4/ko.json.diff)
+- ~ [`consents/eula/v4/pl.json`](versions/8.7.0_2443247live/diffs/consents/eula/v4/pl.json.diff)
+- ~ [`consents/eula/v4/pt-BR.json`](versions/8.7.0_2443247live/diffs/consents/eula/v4/pt-BR.json.diff)
+- ~ [`consents/eula/v4/ru.json`](versions/8.7.0_2443247live/diffs/consents/eula/v4/ru.json.diff)
+- ~ [`consents/eula/v4/th.json`](versions/8.7.0_2443247live/diffs/consents/eula/v4/th.json.diff)
+- ~ [`consents/eula/v4/tr.json`](versions/8.7.0_2443247live/diffs/consents/eula/v4/tr.json.diff)
+- ~ [`consents/eula/v4/zh-Hans.json`](versions/8.7.0_2443247live/diffs/consents/eula/v4/zh-Hans.json.diff)
+- … and 89 more in [CHANGES.md](versions/8.7.0_2443247live/CHANGES.md)
+
 ## [8.6.2_2430333live](versions/8.6.2_2430333live/CHANGES.md)
 
 Built 2025-05-02 14:46 UTC · **+0** added · **~7** modified · **−0** removed

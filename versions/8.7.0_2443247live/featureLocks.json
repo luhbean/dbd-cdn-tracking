@@ -1,0 +1,121 @@
+{
+  "featureLocks": [
+    {
+      "condition": [
+        {
+          "left": "matchCount:total",
+          "operator": ">=",
+          "right": "6"
+        }
+      ],
+      "id": "ARCHIVES"
+    },
+    {
+      "condition": [
+        {
+          "left": "matchCount:total",
+          "operator": ">=",
+          "right": "6"
+        }
+      ],
+      "id": "EVENTSTORE"
+    },
+    {
+      "condition": [
+        {
+          "left": "matchCount:total",
+          "operator": ">=",
+          "right": "5"
+        }
+      ],
+      "id": "CUSTOMGAME"
+    },
+    {
+      "condition": [
+        {
+          "left": "matchCount:killer",
+          "operator": ">=",
+          "right": "1"
+        }
+      ],
+      "id": "BLOODWEB",
+      "role": "killer"
+    },
+    {
+      "condition": [
+        {
+          "left": "matchCount:survivor",
+          "operator": ">=",
+          "right": "1"
+        }
+      ],
+      "id": "BLOODWEB",
+      "role": "survivor"
+    },
+    {
+      "condition": [
+        {
+          "left": "matchCount:killer",
+          "operator": ">=",
+          "right": "3"
+        }
+      ],
+      "id": "OFFERINGS",
+      "role": "killer"
+    },
+    {
+      "condition": [
+        {
+          "left": "matchCount:survivor",
+          "operator": ">=",
+          "right": "4"
+        }
+      ],
+      "id": "OFFERINGS",
+      "role": "survivor"
+    },
+    {
+      "condition": [
+        {
+          "left": "matchCount:survivor",
+          "operator": ">=",
+          "right": "1"
+        }
+      ],
+      "id": "ITEMS",
+      "role": "survivor"
+    },
+    {
+      "condition": [
+        {
+          "left": "matchCount:killer",
+          "operator": ">=",
+          "right": "1"
+        }
+      ],
+      "id": "ADDONS",
+      "role": "killer"
+    },
+    {
+      "condition": [
+        {
+          "left": "matchCount:survivor",
+          "operator": ">=",
+          "right": "2"
+        }
+      ],
+      "id": "ADDONS",
+      "role": "survivor"
+    },
+    {
+      "condition": [
+        {
+          "left": "matchCount:total",
+          "operator": ">=",
+          "right": "6"
+        }
+      ],
+      "id": "LTE"
+    }
+  ]
+}

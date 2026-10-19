@@ -2,6 +2,26 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [8.5.2_2369089live](versions/8.5.2_2369089live/CHANGES.md)
+
+Built 2025-04-01 15:07 UTC · **+5** added · **~10** modified · **−0** removed
+
+- ~ [`GameConfigs.json`](versions/8.5.2_2369089live/diffs/GameConfigs.json.diff)
+- ~ [`GameConfigsDS.json`](versions/8.5.2_2369089live/diffs/GameConfigsDS.json.diff)
+- ~ [`catalog.json`](versions/8.5.2_2369089live/diffs/catalog.json.diff)
+- ~ [`contentMetadata.json`](versions/8.5.2_2369089live/diffs/contentMetadata.json.diff)
+- ~ [`crossPromoCampaigns.json`](versions/8.5.2_2369089live/diffs/crossPromoCampaigns.json.diff)
+- ~ [`dlcList.json`](versions/8.5.2_2369089live/diffs/dlcList.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.5.2_2369089live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_zh-Hans.json`](versions/8.5.2_2369089live/diffs/loadingText/specialEventsLoadingText_zh-Hans.json.diff)
+- ~ [`recommendations.json`](versions/8.5.2_2369089live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/8.5.2_2369089live/diffs/specialEventsContent.json.diff)
+- \+ [`images/T_UI_SpecialPack_Tome1.png`](versions/8.5.2_2369089live/images/T_UI_SpecialPack_Tome1.png)
+- \+ [`images/T_UI_SpecialPack_Tome2.png`](versions/8.5.2_2369089live/images/T_UI_SpecialPack_Tome2.png)
+- \+ [`images/T_UI_SpecialPack_Tome3.png`](versions/8.5.2_2369089live/images/T_UI_SpecialPack_Tome3.png)
+- \+ [`images/T_UI_SpecialPack_Tome4.png`](versions/8.5.2_2369089live/images/T_UI_SpecialPack_Tome4.png)
+- \+ [`images/T_UI_SpecialPack_Wasteland.png`](versions/8.5.2_2369089live/images/T_UI_SpecialPack_Wasteland.png)
+
 ## [8.5.0_2335221live](versions/8.5.0_2335221live/CHANGES.md)
 
 Built 2025-03-18 14:31 UTC · **+0** added · **~11** modified · **−0** removed

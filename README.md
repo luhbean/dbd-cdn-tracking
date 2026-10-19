@@ -2,25 +2,29 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `8.5.0_2335221live` · built 2025-03-18 14:31 UTC
+**Latest version:** `8.5.2_2369089live` · built 2025-04-01 15:07 UTC
 
-[What changed](versions/8.5.0_2335221live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/8.5.2_2369089live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **11** modified · **0** removed, compared with `8.5.1_2282865live`.
+**5** added · **10** modified · **0** removed, compared with `8.5.0_2335221live`.
 
-- ~ [`GameConfigs.json`](versions/8.5.0_2335221live/diffs/GameConfigs.json.diff)
-- ~ [`GameConfigsDS.json`](versions/8.5.0_2335221live/diffs/GameConfigsDS.json.diff)
-- ~ [`bonusPointEventsContent.json`](versions/8.5.0_2335221live/diffs/bonusPointEventsContent.json.diff)
-- ~ [`catalog.json`](versions/8.5.0_2335221live/diffs/catalog.json.diff)
-- ~ [`collections.json`](versions/8.5.0_2335221live/diffs/collections.json.diff)
-- ~ [`contentMetadata.json`](versions/8.5.0_2335221live/diffs/contentMetadata.json.diff)
-- ~ [`contentSchedule.json`](versions/8.5.0_2335221live/diffs/contentSchedule.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/8.5.0_2335221live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`ranksThresholds.json`](versions/8.5.0_2335221live/diffs/ranksThresholds.json.diff)
-- ~ [`recommendations.json`](versions/8.5.0_2335221live/diffs/recommendations.json.diff)
-- ~ [`specialEventsContent.json`](versions/8.5.0_2335221live/diffs/specialEventsContent.json.diff)
+- ~ [`GameConfigs.json`](versions/8.5.2_2369089live/diffs/GameConfigs.json.diff)
+- ~ [`GameConfigsDS.json`](versions/8.5.2_2369089live/diffs/GameConfigsDS.json.diff)
+- ~ [`catalog.json`](versions/8.5.2_2369089live/diffs/catalog.json.diff)
+- ~ [`contentMetadata.json`](versions/8.5.2_2369089live/diffs/contentMetadata.json.diff)
+- ~ [`crossPromoCampaigns.json`](versions/8.5.2_2369089live/diffs/crossPromoCampaigns.json.diff)
+- ~ [`dlcList.json`](versions/8.5.2_2369089live/diffs/dlcList.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.5.2_2369089live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_zh-Hans.json`](versions/8.5.2_2369089live/diffs/loadingText/specialEventsLoadingText_zh-Hans.json.diff)
+- ~ [`recommendations.json`](versions/8.5.2_2369089live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/8.5.2_2369089live/diffs/specialEventsContent.json.diff)
+- \+ [`images/T_UI_SpecialPack_Tome1.png`](versions/8.5.2_2369089live/images/T_UI_SpecialPack_Tome1.png)
+- \+ [`images/T_UI_SpecialPack_Tome2.png`](versions/8.5.2_2369089live/images/T_UI_SpecialPack_Tome2.png)
+- \+ [`images/T_UI_SpecialPack_Tome3.png`](versions/8.5.2_2369089live/images/T_UI_SpecialPack_Tome3.png)
+- \+ [`images/T_UI_SpecialPack_Tome4.png`](versions/8.5.2_2369089live/images/T_UI_SpecialPack_Tome4.png)
+- \+ [`images/T_UI_SpecialPack_Wasteland.png`](versions/8.5.2_2369089live/images/T_UI_SpecialPack_Wasteland.png)
 
 ## Browse
 
@@ -42,7 +46,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-16 versions tracked so far.
+17 versions tracked so far.
 
 ---
 

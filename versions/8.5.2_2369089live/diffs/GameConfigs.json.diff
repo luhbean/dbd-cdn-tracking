@@ -1,0 +1,27 @@
+--- a/GameConfigs.json
++++ b/GameConfigs.json
+@@ -240,7 +240,7 @@
+       "*"
+     ],
+     "gameConsoleLogMinimumVerbosity": "NoLogging",
+-    "gameInitVerbose": true,
++    "gameInitVerbose": false,
+     "maxFramesUntilSend": 1000,
+     "maxTrackedRecurrences": 5,
+     "performanceContextWhitelist": [
+@@ -269,6 +269,7 @@
+       "MatchmakingSurviveWithFriendsAnalytics",
+       "MemoryUsageAnalytics",
+       "PerformanceChartingAnalytics",
++      "RTMAnalytics",
+       "S3CommandAnalytics",
+       "SaveGameSaveResultAnalytics",
+       "SaveGameSummaryPlayerStatsAnalytics",
+@@ -430,7 +431,6 @@
+       "PartyJoinFailureAnalytics",
+       "PartyJoinedAnalytics",
+       "PerformanceAnalytics",
+-      "RTMAnalytics",
+       "RTMConnectionLostAnalytics",
+       "S3CommandErrorAnalytics",
+       "SaveGameErrorAnalytics",

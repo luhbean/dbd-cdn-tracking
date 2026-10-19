@@ -1,16 +1,26 @@
-# Latest live content · 8.5.0_2335221live
+# Latest live content · 8.5.2_2369089live
 
-Built 2025-03-18 14:31 UTC · [what changed in this version](../versions/8.5.0_2335221live/CHANGES.md) · [← back](../README.md)
+Built 2025-04-01 15:07 UTC · [what changed in this version](../versions/8.5.2_2369089live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Game data (92)](#game-data) · [Localized text (90)](#localized-text)
+[Core (3)](#core) · [Images (5)](#images) · [Game data (92)](#game-data) · [Localized text (90)](#localized-text)
 
 ## Core
 
 - [`GameConfigs.json`](GameConfigs.json) — client game configuration
 - [`GameConfigsDS.json`](GameConfigsDS.json) — dedicated server configuration
 - [`dynamicContent/DynamicContent.json`](dynamicContent/DynamicContent.json) — the manifest of every file below
+
+## Images
+
+<p>
+<a href="images/T_UI_SpecialPack_Tome1.png"><img src="images/T_UI_SpecialPack_Tome1.png" alt="T_UI_SpecialPack_Tome1.png" title="T_UI_SpecialPack_Tome1.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Tome2.png"><img src="images/T_UI_SpecialPack_Tome2.png" alt="T_UI_SpecialPack_Tome2.png" title="T_UI_SpecialPack_Tome2.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Tome3.png"><img src="images/T_UI_SpecialPack_Tome3.png" alt="T_UI_SpecialPack_Tome3.png" title="T_UI_SpecialPack_Tome3.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Tome4.png"><img src="images/T_UI_SpecialPack_Tome4.png" alt="T_UI_SpecialPack_Tome4.png" title="T_UI_SpecialPack_Tome4.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Wasteland.png"><img src="images/T_UI_SpecialPack_Wasteland.png" alt="T_UI_SpecialPack_Wasteland.png" title="T_UI_SpecialPack_Wasteland.png" width="200"></a>
+</p>
 
 ## Game data
 

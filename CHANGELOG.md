@@ -2,6 +2,17 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.0.0_2520745live](versions/9.0.0_2520745live/CHANGES.md)
+
+Built 2025-06-26 15:51 UTC · **+0** added · **~6** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/9.0.0_2520745live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_fr.json`](versions/9.0.0_2520745live/diffs/challengeLocs/challengeText_fr.json.diff)
+- ~ [`collections.json`](versions/9.0.0_2520745live/diffs/collections.json.diff)
+- ~ [`consents/eula/v4/de.json`](versions/9.0.0_2520745live/diffs/consents/eula/v4/de.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.0.0_2520745live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/9.0.0_2520745live/diffs/recommendations.json.diff)
+
 ## [9.0.1_2520490live](versions/9.0.1_2520490live/CHANGES.md)
 
 Built 2025-06-26 14:16 UTC · **+0** added · **~4** modified · **−0** removed

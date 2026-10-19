@@ -3,7 +3,7 @@
   "GameLoadingTimeout": -1.0,
   "RTMTimeoutThreshold": -1.0,
   "afk": {
-    "minimumMatchTime": 60
+    "minimumMatchTime": 120
   },
   "analytics": {
     "autoflushFrequency": 60,
@@ -216,7 +216,6 @@
       "GameEvent.ScoreEvent.Killer.K25.LamentConfiguration.PickUp",
       "GameEvent.Camper.Heal.WithPerk.ForThePeople",
       "GameEvent.Camper.Attach.Trap",
-      "GameEvent.CamperInjuredBleedoutKO",
       "GameEvent.Slasher.KillEnd",
       "GameEvent.DestroyBreakableWithPower.Start",
       "GameEvent.ResetAllFountains",
@@ -241,7 +240,7 @@
       "*"
     ],
     "gameConsoleLogMinimumVerbosity": "NoLogging",
-    "gameInitVerbose": false,
+    "gameInitVerbose": true,
     "maxFramesUntilSend": 1000,
     "maxTrackedRecurrences": 5,
     "performanceContextWhitelist": [
@@ -270,7 +269,6 @@
       "MatchmakingSurviveWithFriendsAnalytics",
       "MemoryUsageAnalytics",
       "PerformanceChartingAnalytics",
-      "RTMAnalytics",
       "S3CommandAnalytics",
       "SaveGameSaveResultAnalytics",
       "SaveGameSummaryPlayerStatsAnalytics",
@@ -432,6 +430,7 @@
       "PartyJoinFailureAnalytics",
       "PartyJoinedAnalytics",
       "PerformanceAnalytics",
+      "RTMAnalytics",
       "RTMConnectionLostAnalytics",
       "S3CommandErrorAnalytics",
       "SaveGameErrorAnalytics",
@@ -511,7 +510,7 @@
   },
   "contentVersion": {
     "clientNewContentForceReboot": true,
-    "clientNewContentRebootMaxSeconds": 30.0,
+    "clientNewContentRebootMaxSeconds": 60.0,
     "clientNewContentRebootMinSeconds": 0.0,
     "dsNewContentCatalogItemValidation": false,
     "dsNewContentShutdown": true,
@@ -658,18 +657,13 @@
         "address": "gamelift-ping.eu-west-2.api.aws",
         "port": 7770,
         "regionId": "eu-west-2"
-      },
-      {
-        "address": "gamelift-ping.ap-south-1.api.aws",
-        "port": 7770,
-        "regionId": "ap-south-1"
       }
     ],
     "latencyRetryCooldownSeconds": 600.0,
     "suspiciousEnabledBuilds": [
       "DBD_Churros_DS_Lin_Test_409_1759908"
     ],
-    "useUDPLatencyPings": false
+    "useUDPLatencyPings": true
   },
   "disableNavigationDuringMatchmaking": false,
   "disconnectionBotReplacement": {
@@ -693,7 +687,7 @@
   "enableGetUpInteraction": true,
   "enableHapticVibration": true,
   "enableLimitRegressionEvents": true,
-  "enableLobbyKickPlayerForCharacterOwnership": false,
+  "enableLobbyKickPlayerForCharacterOwnership": true,
   "enableLocalStartSnapping": true,
   "enableMoriPreviewButton": true,
   "enableNetAsyncLoading": true,

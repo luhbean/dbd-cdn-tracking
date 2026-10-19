@@ -1,0 +1,1843 @@
+--- a/dynamicContent/DynamicContent.json
++++ b/dynamicContent/DynamicContent.json
+@@ -9,8 +9,24 @@
+       "uri": "images/T_UI_SpecialPack_Wasteland.png"
+     },
+     {
++      "contentVersion": "c83b395285eedb20d5731ee161c8c95d6694acae",
++      "downloadStrategy": "preferPackaged",
++      "enableChecksum": false,
++      "packagedPath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_Tome22.T_UI_SpecialPack_Tome22",
++      "schema": "s3verbin://",
++      "uri": "images/T_UI_SpecialPack_Tome22.png"
++    },
++    {
++      "contentVersion": "4a8dc6836775f6b633fec22081aeb9b07f45724a",
++      "downloadStrategy": "preferRemote",
++      "enableChecksum": false,
++      "packagedPath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_IronMaiden.T_UI_SpecialPack_IronMaiden",
++      "schema": "s3verbin://",
++      "uri": "images/T_UI_SpecialPack_IronMaiden.png"
++    },
++    {
+       "contentVersion": "a376acfc87e5939f7f625755a9f1a39c886334bd",
+-      "downloadStrategy": "preferPackaged",
++      "downloadStrategy": "preferRemote",
+       "enableChecksum": false,
+       "packagedPath": "/Game/UI/UMGAssets/Icons/Banners/CollectionBanners/T_UI_CollectionBanner_ResidentEvil_V2.T_UI_CollectionBanner_ResidentEvil_V2",
+       "schema": "s3verbin://",
+@@ -18,7 +34,7 @@
+     },
+     {
+       "contentVersion": "53964bcb15e57ecf8ea8c3fb65b6991aa31f8b12",
+-      "downloadStrategy": "preferPackaged",
++      "downloadStrategy": "preferRemote",
+       "enableChecksum": false,
+       "packagedPath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_ResidentEvil_V2.T_UI_SpecialPack_ResidentEvil_V2",
+       "schema": "s3verbin://",
+@@ -33,7 +49,31 @@
+       "uri": "images/T_UI_CollectionBanner_ArtistsFromTheFog_V2.png"
+     },
+     {
+-      "contentVersion": "67c93987330b11212afe4082b156c42ed073f6fe",
++      "contentVersion": "6b6cc597f89669c958c0f2180cc08d20d368d896",
++      "downloadStrategy": "preferPackaged",
++      "enableChecksum": false,
++      "packagedPath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_ArtistsFromTheFog.T_UI_SpecialPack_ArtistsFromTheFog",
++      "schema": "s3verbin://",
++      "uri": "images/T_UI_SpecialPack_ArtistsFromTheFog.png"
++    },
++    {
++      "contentVersion": "0e887f7f4810dad4a46b8d4cbcb4b36b2d2a67c5",
++      "downloadStrategy": "preferPackaged",
++      "enableChecksum": false,
++      "packagedPath": "/Game/UI/UMGAssets/Icons/Banners/CollectionBanners/T_UI_CollectionBanner_LunarNewYear2025.T_UI_CollectionBanner_LunarNewYear2025",
++      "schema": "s3verbin://",
++      "uri": "images/T_UI_CollectionBanner_LunarNewYear2025.png"
++    },
++    {
++      "contentVersion": "2982adcbf6304b4510b40e1f62ba09a384b8499c",
++      "downloadStrategy": "preferPackaged",
++      "enableChecksum": false,
++      "packagedPath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_LunarNewYear2025.T_UI_SpecialPack_LunarNewYear2025",
++      "schema": "s3verbin://",
++      "uri": "images/T_UI_SpecialPack_LunarNewYear2025.png"
++    },
++    {
++      "contentVersion": "40bacfa0cfb91ee0682afcad0b976f0eb8811913",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -41,7 +81,7 @@
+       "uri": "catalog.json"
+     },
+     {
+-      "contentVersion": "788b6e45e5f6f0f29d5237db487c0666397b6528",
++      "contentVersion": "4c08a2553fd3679b8f0847453afaf80ff937d48a",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -49,7 +89,7 @@
+       "uri": "bonusPointEventsContent.json"
+     },
+     {
+-      "contentVersion": "6655edc636a0770868614915ae463e2342631a2a",
++      "contentVersion": "0c805e05a4d450919eb0559d457340ec1132ee28",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -57,7 +97,7 @@
+       "uri": "freetoplay/NA/event.json"
+     },
+     {
+-      "contentVersion": "6655edc636a0770868614915ae463e2342631a2a",
++      "contentVersion": "0c805e05a4d450919eb0559d457340ec1132ee28",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -65,7 +105,7 @@
+       "uri": "freetoplay/EU/event.json"
+     },
+     {
+-      "contentVersion": "543cd72e4e78a2b2222587d307e0db8cb593e032",
++      "contentVersion": "46b10f27c38075004e18952439dcf2335b7f2bae",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -73,7 +113,7 @@
+       "uri": "archiveQuests/Anniversary2022.json"
+     },
+     {
+-      "contentVersion": "8273e156250160bdcd648b2c30a93a8c51c9f22f",
++      "contentVersion": "b30ad432f9321c9eca5072c2e7a8654f45d33913",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -81,7 +121,7 @@
+       "uri": "archiveQuests/Anniversary2023.json"
+     },
+     {
+-      "contentVersion": "bc3a487e7fd70ceb6c50b76d3ce3cec9260988dd",
++      "contentVersion": "6598fa9ab37dbce6fb86dd31bae207898e82e8ef",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -89,7 +129,7 @@
+       "uri": "archiveQuests/Anniversary2024.json"
+     },
+     {
+-      "contentVersion": "a408fa0d35cd973148d69b66da450e6061df4e72",
++      "contentVersion": "d0b0a380642085ccd59643fb0d250f1f96a26972",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -97,7 +137,7 @@
+       "uri": "archiveQuests/CalamariV1.json"
+     },
+     {
+-      "contentVersion": "71ad6e3e2c1d333a18f5e73e68b8ee4658dbd556",
++      "contentVersion": "4b8b9534c7f1c7dd42e82190a69fd978ce1544b9",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -105,7 +145,7 @@
+       "uri": "archiveQuests/CalamariV2.json"
+     },
+     {
+-      "contentVersion": "963cf47cc485623f3a1a5965bf8b3299d610c3e2",
++      "contentVersion": "4416ef4cd4846e4907c0a88c13465b1960734c93",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -113,7 +153,7 @@
+       "uri": "archiveQuests/CalamariV3.json"
+     },
+     {
+-      "contentVersion": "407b1d48b0b6d1ffb96f5a1dae5585e019b419cc",
++      "contentVersion": "6c3e87772d6217628dabd7672d131ddc0a83ee5d",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -121,7 +161,7 @@
+       "uri": "archiveQuests/ChocolateBoxGelato.json"
+     },
+     {
+-      "contentVersion": "2262e42dcf42eb7387966da10979b40715e1cdf9",
++      "contentVersion": "a247517cddce7cfa0f4b81564cbd272166c56361",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -129,7 +169,7 @@
+       "uri": "archiveQuests/ChocolateBoxV1.json"
+     },
+     {
+-      "contentVersion": "6b12ac012f05769e892c082f6518ebd32f610eab",
++      "contentVersion": "4315f96dae67085847bb72975e6381b1dda3395b",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -137,7 +177,7 @@
+       "uri": "archiveQuests/DreadByDaylightZodiac.json"
+     },
+     {
+-      "contentVersion": "80a29841bca62c52e00331de3bc2bb4e20509060",
++      "contentVersion": "1062ef8360209c2da91e037555c8c713ae528320",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -145,7 +185,7 @@
+       "uri": "archiveQuests/FireflyV1.json"
+     },
+     {
+-      "contentVersion": "7c01b56b768aa030f6ecc2327dd34eb38a2a44a6",
++      "contentVersion": "33faa556b13db0569edb9021cb63e7ff86cdb922",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -153,7 +193,7 @@
+       "uri": "archiveQuests/Halloween2021.json"
+     },
+     {
+-      "contentVersion": "57e4ff1396924d2086371eadec19248faf05ac83",
++      "contentVersion": "ae2d0b9dcb88d278ea4cdfe6826599ccda6e0d2b",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -161,7 +201,7 @@
+       "uri": "archiveQuests/Halloween2022.json"
+     },
+     {
+-      "contentVersion": "5b218ca07d7df70ac32c6e16621c520a04587efe",
++      "contentVersion": "ee137fdb9a0f9f905493cff8d8683f27ed17a095",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -169,7 +209,7 @@
+       "uri": "archiveQuests/Halloween2023.json"
+     },
+     {
+-      "contentVersion": "61d0e728f66fa0af60b6faba8a0c27dd7c5e65fb",
++      "contentVersion": "0ed663a9ee71a6934f06e116d596d576381c3f4b",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -177,7 +217,7 @@
+       "uri": "archiveQuests/Halloween2024.json"
+     },
+     {
+-      "contentVersion": "c225ca9dbc1a433a739e2f2ec350b6260e5b1a9f",
++      "contentVersion": "7db83d4d533bdc22db92a9390ccbe20b06a21af4",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -185,7 +225,7 @@
+       "uri": "archiveQuests/Spring2024.json"
+     },
+     {
+-      "contentVersion": "12e1fa2470d5a0812664c0c922fa61a667b09c6f",
++      "contentVersion": "3bfe564c7fa1c7df3e1b9a179bf95e906c6ab69d",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -193,7 +233,7 @@
+       "uri": "archiveQuests/Summer2023.json"
+     },
+     {
+-      "contentVersion": "4f81d96a4a7e8f5c6091bcd265c63303e5f64855",
++      "contentVersion": "a55a2d271c5bfc01529a7fb8cd1e2b1e34d7b942",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -201,7 +241,7 @@
+       "uri": "archiveQuests/Tome01.json"
+     },
+     {
+-      "contentVersion": "cd3746537274d6874f044b382efaa5fe8333c928",
++      "contentVersion": "0997a07b8c444b2edf29a545f49598a3edcaed9b",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -209,7 +249,7 @@
+       "uri": "archiveQuests/Tome02.json"
+     },
+     {
+-      "contentVersion": "9847d4aad35952d72c0d3932dfb6283829fc8cac",
++      "contentVersion": "73819905307fe0506c6b903a307f6137505aaf6d",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -217,7 +257,7 @@
+       "uri": "archiveQuests/Tome03.json"
+     },
+     {
+-      "contentVersion": "5d8c114b55ae6821c795376ea6cb488f7f21449d",
++      "contentVersion": "b31c09305af6668f8e3775b7661a03b9d51798c6",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -225,7 +265,7 @@
+       "uri": "archiveQuests/Tome04.json"
+     },
+     {
+-      "contentVersion": "c657b5e7066a6175ee306b511e9360509594b777",
++      "contentVersion": "39f22c4741a8477b9c7c1fca01381a86c25688dc",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -233,7 +273,7 @@
+       "uri": "archiveQuests/Tome05.json"
+     },
+     {
+-      "contentVersion": "6f1942f0d4adcf5e663b798ed66148af57df46f4",
++      "contentVersion": "d3ad12cbc6985f5d53967372283655e7bc17f8ca",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -241,7 +281,7 @@
+       "uri": "archiveQuests/Tome06.json"
+     },
+     {
+-      "contentVersion": "bbfef48e50487debc04d01d0e3f29e7494e38b5c",
++      "contentVersion": "34ec480819e5e2e141a20efbdb642e89e14a0a66",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -249,7 +289,7 @@
+       "uri": "archiveQuests/Tome07.json"
+     },
+     {
+-      "contentVersion": "3f501474d90b4734b0e63230770844af65a19ae6",
++      "contentVersion": "b7b2c7a8e828d5c884d45b4da2b3311145465413",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -257,7 +297,7 @@
+       "uri": "archiveQuests/Tome08.json"
+     },
+     {
+-      "contentVersion": "f387646c722c10de1889a50eeec1f67cdc783ce4",
++      "contentVersion": "ff12a1645d17031b23a0494abccf90e96aef17a4",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -265,7 +305,7 @@
+       "uri": "archiveQuests/Tome09.json"
+     },
+     {
+-      "contentVersion": "64077f50db4bdfb2cca60ff5bcf9f7cfac62ddf7",
++      "contentVersion": "89712dc50fa971c2734f2c30d77fe89a825fede0",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -273,7 +313,7 @@
+       "uri": "archiveQuests/Tome10.json"
+     },
+     {
+-      "contentVersion": "4e4a0b0407317fbc2d8bb6cf0796b00ab996c2c1",
++      "contentVersion": "be272f9a8eb3f49140f02b7819b32e715f49a83a",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -281,7 +321,7 @@
+       "uri": "archiveQuests/Tome11.json"
+     },
+     {
+-      "contentVersion": "d7221731d2d834cb3551c160e766ad4cf5f60ee0",
++      "contentVersion": "900f8e259f79c8ce352a10245917b7e5f4aba5e3",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -289,7 +329,7 @@
+       "uri": "archiveQuests/Tome12.json"
+     },
+     {
+-      "contentVersion": "33a105c6dbbba31758c19b359c65e68849976b87",
++      "contentVersion": "cdaa5ee143306177bb79b9bd6f786769ab67095c",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -297,7 +337,7 @@
+       "uri": "archiveQuests/Tome13.json"
+     },
+     {
+-      "contentVersion": "c14ac1c93887519dab614aad9edac4e1cde894f3",
++      "contentVersion": "2141f033f3f876a03863f5132739ee04cc8c0c22",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -305,7 +345,7 @@
+       "uri": "archiveQuests/Tome14.json"
+     },
+     {
+-      "contentVersion": "d0c22309377e813e8d7ff1af7104e3a97a672e5d",
++      "contentVersion": "05fe8c6aa34d8e45e7038390d0a18f30fa3c4f2f",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -313,7 +353,7 @@
+       "uri": "archiveQuests/Tome15.json"
+     },
+     {
+-      "contentVersion": "2590e03b6eb88be1d515f90fcfc5774abb6ed0b9",
++      "contentVersion": "271fb3da1b4f8ff3679d66277573026435a32605",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -321,7 +361,7 @@
+       "uri": "archiveQuests/Tome16.json"
+     },
+     {
+-      "contentVersion": "51c64855b61f141da69b5470f96a9a3462da314c",
++      "contentVersion": "3ae0a6c143e6f39d264fa5881b18b75cf7698988",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -329,7 +369,7 @@
+       "uri": "archiveQuests/Tome17.json"
+     },
+     {
+-      "contentVersion": "23651fb40b82a41c12d563d73bad259dcce5f3ba",
++      "contentVersion": "064fba4401cebf7caa7abcd2702f10ea13f48480",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -337,7 +377,7 @@
+       "uri": "archiveQuests/Tome18.json"
+     },
+     {
+-      "contentVersion": "74a14f743cac5948af61efcc9ea98d1c3fb5d57b",
++      "contentVersion": "d17f684fb3236974450a4c0856083f329986af4a",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -345,7 +385,7 @@
+       "uri": "archiveQuests/Tome19.json"
+     },
+     {
+-      "contentVersion": "0cbaa769bce888fbc17a7dc0edafeea5f74564c8",
++      "contentVersion": "cf9a4aec439ba16b99042302ff07245dc3cf2a7c",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -353,7 +393,7 @@
+       "uri": "archiveQuests/Tome20.json"
+     },
+     {
+-      "contentVersion": "b52ee95864ffae5c721a6101919988a0ef321039",
++      "contentVersion": "b0e1289f8dbb87f29ce7485d96cdf29296b4ad02",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -361,7 +401,7 @@
+       "uri": "archiveQuests/Tome21.json"
+     },
+     {
+-      "contentVersion": "a6997e7cdd2185cf37ab2f9867bbf2374bc27f0b",
++      "contentVersion": "04a4f167db2fbdb1b5cd2f2b7f79bb90a7831db2",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -369,7 +409,7 @@
+       "uri": "archiveQuests/Tome22.json"
+     },
+     {
+-      "contentVersion": "b692744cb64c6833f69a4c64a4db1c9e3f0f318b",
++      "contentVersion": "d3cea3c31a25bdec987c9a5cee9724fa9146693a",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -377,7 +417,7 @@
+       "uri": "archiveQuests/Winter2022.json"
+     },
+     {
+-      "contentVersion": "f38ae7e4984c6fb43f3b1724f2d3c34a9859405d",
++      "contentVersion": "f963def28f08452077b79ecf4c9be6f63e724cc1",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -385,7 +425,7 @@
+       "uri": "archiveQuests/Winter2023.json"
+     },
+     {
+-      "contentVersion": "4bdccc334d366842d33a8b305242f1f2105b9bf8",
++      "contentVersion": "f6919b39a9fe6eb48d6c899416c016f0914a12b1",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -393,7 +433,7 @@
+       "uri": "archiveQuests/Winter2024.json"
+     },
+     {
+-      "contentVersion": "7b62df5047f5c2550a9dd59633fcb9bf5153e555",
++      "contentVersion": "918905524b31654aae25516c6b2d126a09dbcc7f",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -401,7 +441,7 @@
+       "uri": "archiveRewardGrid/Tome01.json"
+     },
+     {
+-      "contentVersion": "a8ad812439317ca636261a4788a83a611f968362",
++      "contentVersion": "27e261ee0c93c8b14802e312da8d07ae4ca736a4",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -409,7 +449,7 @@
+       "uri": "archiveRewardGrid/Tome02.json"
+     },
+     {
+-      "contentVersion": "524ce3c7b8e768a86d2ddffc8c9986d5f1832f36",
++      "contentVersion": "a95e311b99d18ca326e36d9f87c0fef16dd69742",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -417,7 +457,7 @@
+       "uri": "archiveRewardGrid/Tome03.json"
+     },
+     {
+-      "contentVersion": "7fa0c4a4e9ac0ab63556144da9fdcc2907933ab3",
++      "contentVersion": "54696fb10eb40ab0dfdea0fed5a22a3cd8f03f81",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -425,7 +465,7 @@
+       "uri": "archiveRewardGrid/Tome04.json"
+     },
+     {
+-      "contentVersion": "80116f550c08e8b0caa1bdfdb7722cb49e2afbc3",
++      "contentVersion": "e855f0647509b81a1eee4023775c0cbc30ac33f2",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -433,7 +473,7 @@
+       "uri": "archiveRewardGrid/Tome05.json"
+     },
+     {
+-      "contentVersion": "4e1b681a9cf1883c5cd7261ce6fbaa2590e9a595",
++      "contentVersion": "9998905b0f8134e8071b7bb44d442d0445033251",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -441,7 +481,7 @@
+       "uri": "archiveRewardGrid/Tome06.json"
+     },
+     {
+-      "contentVersion": "54b12c7b686758d66f835419138a39be87c46ad4",
++      "contentVersion": "8d92d5f0af92b7131f345e7a77dc90936ecb7930",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -449,7 +489,7 @@
+       "uri": "archiveRewardGrid/Tome07.json"
+     },
+     {
+-      "contentVersion": "d72f3ca1c9c0a82be00ecef69d1182319812643a",
++      "contentVersion": "8b5c38b4c5e3f7e1472689218e334aac31f6b5c6",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -457,7 +497,7 @@
+       "uri": "archiveRewardGrid/Tome08.json"
+     },
+     {
+-      "contentVersion": "b1461a9956e3e5a7be7b60cfc035ef55bcb80e98",
++      "contentVersion": "70764cd744f5419589ffffbb58a5e803c23adf05",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -465,7 +505,7 @@
+       "uri": "archiveRewardGrid/Tome09.json"
+     },
+     {
+-      "contentVersion": "6bc1dc85aa5fc57c08d99e7b59b2282e2ca7755b",
++      "contentVersion": "50d038632f6cac82e4e834ed50655712cd5f59ee",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -473,7 +513,7 @@
+       "uri": "archiveRewardGrid/Tome10.json"
+     },
+     {
+-      "contentVersion": "58e617c6f11d26f209ade0677feef6027a657a8f",
++      "contentVersion": "cd94babd16745fa8df4aed2deca52999474a4e50",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -481,7 +521,7 @@
+       "uri": "archiveRewardGrid/Tome11.json"
+     },
+     {
+-      "contentVersion": "32a74024a2f47217324f3291d3fb9d60e7b23ab0",
++      "contentVersion": "6d922f888bdc8a8bb86fa0dc941d12692003930f",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -489,7 +529,7 @@
+       "uri": "archiveRewardGrid/Tome12.json"
+     },
+     {
+-      "contentVersion": "84e1950699f7c0e2185fd953a7d29f30e9b36b3e",
++      "contentVersion": "628757827f6938e74102b53fa86f769a1e49a5e6",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -497,7 +537,7 @@
+       "uri": "archiveRewardGrid/Tome13.json"
+     },
+     {
+-      "contentVersion": "5b7df475cc80e38ac8d254f55ae0707c2903da57",
++      "contentVersion": "46ca2a59adf5c98f56f5f248c75173c008e952c1",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -505,7 +545,7 @@
+       "uri": "archiveRewardGrid/Tome14.json"
+     },
+     {
+-      "contentVersion": "dcbd3f1c48c56a8503fc3857143a4665bcd9489a",
++      "contentVersion": "29dcab0442326436a600d2b29b1304ab711fd134",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -513,7 +553,7 @@
+       "uri": "archiveRewardGrid/Tome15.json"
+     },
+     {
+-      "contentVersion": "7bcc4e8794c68d36f0f3218423a9ec1d74630740",
++      "contentVersion": "f5f571495311a6624ae9d99351ddea2c3463810f",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -521,7 +561,7 @@
+       "uri": "archiveRewardGrid/Tome16.json"
+     },
+     {
+-      "contentVersion": "f753071337d81d7afaab3e00cf004d15005b8fa8",
++      "contentVersion": "0016f661ce559225ef92dc0c639f0d010c90e638",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -529,7 +569,7 @@
+       "uri": "archiveRewardGrid/Tome17.json"
+     },
+     {
+-      "contentVersion": "047156bdd3262f9703e70bec7dc097c8e65365b0",
++      "contentVersion": "557ef1bf569b7baacef104c4710f625b7ca5b5fd",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -537,7 +577,7 @@
+       "uri": "archiveRewardGrid/Tome18.json"
+     },
+     {
+-      "contentVersion": "8239856f3666272405423a28f9593e6bee9a8da6",
++      "contentVersion": "ce64243b1dc52c43e940917b6a9ba21933be864a",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -545,7 +585,7 @@
+       "uri": "archiveRewardGrid/Tome19.json"
+     },
+     {
+-      "contentVersion": "5da7f840b17b2a5116cd5497e1a0c888f752b401",
++      "contentVersion": "90315813692c8690133215aaaa843190fb4686c2",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -553,7 +593,7 @@
+       "uri": "archiveRewardGrid/Tome20.json"
+     },
+     {
+-      "contentVersion": "8063d04af4a183fc20a1fe75445fa722e4db1ef7",
++      "contentVersion": "0fec865848c93e8083f8f2b1a8eaf142608c7366",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -561,7 +601,7 @@
+       "uri": "archiveRewardGrid/Tome21.json"
+     },
+     {
+-      "contentVersion": "3a2395e8c308e701a2f78e904c7e333f49b6ee99",
++      "contentVersion": "bfd46aee2b4030267a96d5f6feb9506afd70ceda",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -569,7 +609,7 @@
+       "uri": "archiveRewardGrid/Tome22.json"
+     },
+     {
+-      "contentVersion": "9c02f0be71804f495cc6f49273058acc6b491185",
++      "contentVersion": "4f644ed511341b9181acd30d2e09b57c7cf4feb8",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -577,7 +617,7 @@
+       "uri": "archiveRewardData/content.json"
+     },
+     {
+-      "contentVersion": "cf9f72fe407e0690bc735d5169db53e7ecd640d6",
++      "contentVersion": "99affd0e54bdc9e5c9d6aa5e6e03c50436e69bb9",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -585,7 +625,7 @@
+       "uri": "archiveJournals/storyJournals.json"
+     },
+     {
+-      "contentVersion": "b52bf5ff81021f0308d215af1a36074566ae4850",
++      "contentVersion": "6a8d1a116a6d9e0ecd0daf19bb6d2d0b4ef2d668",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -593,7 +633,7 @@
+       "uri": "onboarding/onboarding.json"
+     },
+     {
+-      "contentVersion": "e3fcaf44d91d7f751e697b5748255a06fa2da3a1",
++      "contentVersion": "76a1b218dc002ce905b75d4f509a2e9de05dc2d5",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -601,7 +641,7 @@
+       "uri": "experimentalFeatures/experimentalFeatures.json"
+     },
+     {
+-      "contentVersion": "440de2fc3176af4d7027ff760cfda523e9412dd2",
++      "contentVersion": "ee69057254ca3904d8f033af6a3ccc89181010e6",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -609,7 +649,7 @@
+       "uri": "bloodwebGenerationRules.json"
+     },
+     {
+-      "contentVersion": "79cd1acde3a2a7b55fd2af29b9b4b7dd11b8236a",
++      "contentVersion": "cf014653c0f6326c81e5f3a26c9c5d88e322b41d",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -617,7 +657,7 @@
+       "uri": "recommendations.json"
+     },
+     {
+-      "contentVersion": "8610fa286987a6092b12dc92ffebf2b7575e4bae",
++      "contentVersion": "4d400296286c31459337ba8af9be0b4eed0b6145",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -625,7 +665,7 @@
+       "uri": "prestige/prestige.json"
+     },
+     {
+-      "contentVersion": "4ad2509c7fa278e7cd571b9372deacad0e8b5958",
++      "contentVersion": "31155d862b5764c89839db268b4c11ee6724c0c2",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -633,7 +673,7 @@
+       "uri": "dlcList.json"
+     },
+     {
+-      "contentVersion": "5d039ec0441787596eeb9ffc55d74e669c2864a5",
++      "contentVersion": "f63dad95474cf55233b373006cfd64b92842d9bd",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -641,7 +681,7 @@
+       "uri": "contentMetadata.json"
+     },
+     {
+-      "contentVersion": "9674bf34ea4436494c2a5b5dd54d89df6007451b",
++      "contentVersion": "558d0432e11496ae83536ab41ecaa1246aabffae",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -649,7 +689,7 @@
+       "uri": "consents/eula/v4/definition.json"
+     },
+     {
+-      "contentVersion": "069fa5e13ff17ad488a03600c4659c12d3b7ed12",
++      "contentVersion": "eb1e62ca8816709dcb0e23b604fcb451b075c311",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -657,7 +697,7 @@
+       "uri": "consents/eula/v4/de.json"
+     },
+     {
+-      "contentVersion": "5fcc3459ae048a15c319707a395090eb973ea478",
++      "contentVersion": "ba25aaaded9c3e29126670c56b9d054a9dc291a3",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -665,7 +705,7 @@
+       "uri": "consents/eula/v4/en.json"
+     },
+     {
+-      "contentVersion": "42dca980f6335c3cc51f770c70494d77033317c7",
++      "contentVersion": "e8870d4b2424dcd2ad287e26d0bc8257c150b90a",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -673,7 +713,7 @@
+       "uri": "consents/eula/v4/es.json"
+     },
+     {
+-      "contentVersion": "dcfbb205a77b0b0225daf53f1ea58ef703d4a3b9",
++      "contentVersion": "5af3a241cd12d68e66c3df8a5c0c6a24e9030007",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -681,7 +721,7 @@
+       "uri": "consents/eula/v4/es-MX.json"
+     },
+     {
+-      "contentVersion": "6c444f63b9e378d7dcce445a5dae080cfcf0a21a",
++      "contentVersion": "99051138b44f346411e0cb2e227995a39819e9b4",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -689,7 +729,7 @@
+       "uri": "consents/eula/v4/fr.json"
+     },
+     {
+-      "contentVersion": "d1d712141e77ff11695012730ec6a4a61e3c47cf",
++      "contentVersion": "6dd66a94be6656566aafe619370556116241ffba",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -697,7 +737,7 @@
+       "uri": "consents/eula/v4/it.json"
+     },
+     {
+-      "contentVersion": "10d4fd9ae4bf96005b72a28b272cd4793cbdec2d",
++      "contentVersion": "89bf15a2733f9ba4d892264aa4e20de1ad868f85",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -705,7 +745,7 @@
+       "uri": "consents/eula/v4/ja.json"
+     },
+     {
+-      "contentVersion": "8df6972a771177528fe52c92abb21db421bce559",
++      "contentVersion": "40b151a5ad81d849fa0b725dffa057f3cebe4b2e",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -713,7 +753,7 @@
+       "uri": "consents/eula/v4/ko.json"
+     },
+     {
+-      "contentVersion": "18fdeacfff10301fe47a730efdf6081782638900",
++      "contentVersion": "49f7288d633bf3e7629d8caeb22a421984d1434b",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -721,7 +761,7 @@
+       "uri": "consents/eula/v4/pl.json"
+     },
+     {
+-      "contentVersion": "405edfbd79ec05c3c6a1d6a709977defd79b987d",
++      "contentVersion": "fd9027f300fc351385f0ab704369020df85a6753",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -729,7 +769,7 @@
+       "uri": "consents/eula/v4/pt-BR.json"
+     },
+     {
+-      "contentVersion": "2271be5bb59e04c8064086a33ae1846d74d471db",
++      "contentVersion": "c09ba1777d9bb3d589cb40f79442f80c15b3a2bc",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -737,7 +777,7 @@
+       "uri": "consents/eula/v4/ru.json"
+     },
+     {
+-      "contentVersion": "77dc02edab56ffa2c8960e2257ad93b269d57e90",
++      "contentVersion": "560ab417d9249496e4d329bce029daea49ef49d3",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -745,7 +785,7 @@
+       "uri": "consents/eula/v4/th.json"
+     },
+     {
+-      "contentVersion": "0df49353a3ce29ee4788bfee85dc36e54bc84c3f",
++      "contentVersion": "38b7ea7848a47bbf023c6e5dd7997991152ab9cd",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -753,7 +793,7 @@
+       "uri": "consents/eula/v4/tr.json"
+     },
+     {
+-      "contentVersion": "7c90a3823d38c08df1ef91545a7a3c7bf3a69970",
++      "contentVersion": "5a791ce11d43ff14b2d9d2ad5c1198a4ce6591c8",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -761,7 +801,7 @@
+       "uri": "consents/eula/v4/zh-Hans.json"
+     },
+     {
+-      "contentVersion": "4fa1f56779099164e43c449caea1a44d7f1989be",
++      "contentVersion": "6a19123c82b48c53a1fafeb4a74a2f5a85751123",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -769,7 +809,7 @@
+       "uri": "consents/eula/v4/zh-Hant.json"
+     },
+     {
+-      "contentVersion": "8f35b92567cbbdd6359edf6c19fba80daa121585",
++      "contentVersion": "51e01493c1259e0684f863111f1e4858f334ff3f",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -777,7 +817,7 @@
+       "uri": "consents/eula_psn_na/v5/definition.json"
+     },
+     {
+-      "contentVersion": "2ddda7f182d5797ff00d8fbc728bc2fe84c2d4ed",
++      "contentVersion": "dd4ac2b5ce3c860a0b339618905876f59f61b50a",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -785,7 +825,7 @@
+       "uri": "consents/eula_psn_na/v5/de.json"
+     },
+     {
+-      "contentVersion": "319340c9904d865a9fe144298564b47e1e467dfc",
++      "contentVersion": "715b0860f44cb6750456c2df5d031a618fb545df",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -793,7 +833,7 @@
+       "uri": "consents/eula_psn_na/v5/en.json"
+     },
+     {
+-      "contentVersion": "bce351d9f6a204af510f89c53bccd30c1cf18785",
++      "contentVersion": "dbf64521662f3e84a651b9126a1c76bd887bef4b",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -801,7 +841,7 @@
+       "uri": "consents/eula_psn_na/v5/es.json"
+     },
+     {
+-      "contentVersion": "b7082dbca0aec9f6294e46ec874d7c3dfa4ab293",
++      "contentVersion": "9f1487d9b7a05cd76c650e8c295a930071bdaa2b",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -809,7 +849,7 @@
+       "uri": "consents/eula_psn_na/v5/es-MX.json"
+     },
+     {
+-      "contentVersion": "7942008900f117a7b7b939fa79556a56067b248a",
++      "contentVersion": "e23288d497ec1c610613c55affbde8ded5ab3bf9",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -817,7 +857,7 @@
+       "uri": "consents/eula_psn_na/v5/fr.json"
+     },
+     {
+-      "contentVersion": "f39c1b31c0c726a6a3279bdaaf38596856c630fd",
++      "contentVersion": "dc2ec2918a0fb702aa4492c1b5fc49fd34763339",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -825,7 +865,7 @@
+       "uri": "consents/eula_psn_na/v5/it.json"
+     },
+     {
+-      "contentVersion": "017fe36d6056b666181269405a1ddfa5fd72afc0",
++      "contentVersion": "d817af4572c91ec320b537e3cc3a5a937694ec13",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -833,7 +873,7 @@
+       "uri": "consents/eula_psn_na/v5/ja.json"
+     },
+     {
+-      "contentVersion": "2f894c36267483e8e69ff0ea3a07ecce78c6b824",
++      "contentVersion": "72d8fea91937da7ebb7647e41fcb8d033afb56fb",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -841,7 +881,7 @@
+       "uri": "consents/eula_psn_na/v5/ko.json"
+     },
+     {
+-      "contentVersion": "3aad14009ed7c584c7d7884de64da1a1eff11337",
++      "contentVersion": "66c813f18ee59c901ef79c78d6ac0d2c52c7daa5",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -849,7 +889,7 @@
+       "uri": "consents/eula_psn_na/v5/pl.json"
+     },
+     {
+-      "contentVersion": "25e0700e23121efd8a3a0ff35c9453c2560d9f8f",
++      "contentVersion": "ab6636fe9b9efaf57dc71128c08ed3dd9afd8ccf",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -857,7 +897,7 @@
+       "uri": "consents/eula_psn_na/v5/pt-BR.json"
+     },
+     {
+-      "contentVersion": "193b9adf66545a72ff97fe62924b5fe049ae0cad",
++      "contentVersion": "bf29d74a98c783685f3db4a70451941595391794",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -865,7 +905,7 @@
+       "uri": "consents/eula_psn_na/v5/ru.json"
+     },
+     {
+-      "contentVersion": "ee8c41d3fec3d114c7721a730b5fde50ff5ec178",
++      "contentVersion": "c3ddc9d0175337261479f0011a01b692d6d825ca",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -873,7 +913,7 @@
+       "uri": "consents/eula_psn_na/v5/th.json"
+     },
+     {
+-      "contentVersion": "59c56bddd9ec98aed50c221493512042426fb171",
++      "contentVersion": "4842a9195acf8ee9b63ed67d87f36138beb6950b",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -881,7 +921,7 @@
+       "uri": "consents/eula_psn_na/v5/tr.json"
+     },
+     {
+-      "contentVersion": "c35ce00824dece2cf9c83e66b169bfdbdfa15a97",
++      "contentVersion": "88c9af4389ad2268c930088fcef0c06bf248ea4e",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -889,7 +929,7 @@
+       "uri": "consents/eula_psn_na/v5/zh-Hans.json"
+     },
+     {
+-      "contentVersion": "a2faa1416b4e4d0115dbef49a0c98fa3659cc21c",
++      "contentVersion": "dd14900b53ebdcd1b4e3bd259440b7b081f7ac5d",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -897,7 +937,7 @@
+       "uri": "consents/eula_psn_na/v5/zh-Hant.json"
+     },
+     {
+-      "contentVersion": "69d68deaff8cbaa61b36e388c0a302c871e230de",
++      "contentVersion": "caa282d52bfcbd5c001241af8fe015d1ff34c385",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -905,7 +945,7 @@
+       "uri": "consents/eula_psn_eu/v5/definition.json"
+     },
+     {
+-      "contentVersion": "9a78eb8ca28752ba68a054c994c2203127a8e8a7",
++      "contentVersion": "d0a0580ee8be0e298be2a287f72d0daae74f577a",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -913,7 +953,7 @@
+       "uri": "consents/eula_psn_eu/v5/de.json"
+     },
+     {
+-      "contentVersion": "2bc9119092f658aeb5343c28d3f14de81145b00e",
++      "contentVersion": "a2300d473407092470ffed97af0145f0b09534f2",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -921,7 +961,7 @@
+       "uri": "consents/eula_psn_eu/v5/en.json"
+     },
+     {
+-      "contentVersion": "6a39d0a25c80e46ae6d5a3e99ec147f04ec898d4",
++      "contentVersion": "0dcfe593be4e6bbef27db40c54ae8ee5376c8254",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -929,7 +969,7 @@
+       "uri": "consents/eula_psn_eu/v5/es.json"
+     },
+     {
+-      "contentVersion": "6309eb6e47c6751499935d53d6ce94609c884db7",
++      "contentVersion": "59a5a187ec9c2b85b7ac379affa88d2656a4de33",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -937,7 +977,7 @@
+       "uri": "consents/eula_psn_eu/v5/es-MX.json"
+     },
+     {
+-      "contentVersion": "f9d02b0f2e113f092d597929c119e619db772b6a",
++      "contentVersion": "36efd55a09cf06115f5819cb0a215f36e396dea5",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -945,7 +985,7 @@
+       "uri": "consents/eula_psn_eu/v5/fr.json"
+     },
+     {
+-      "contentVersion": "8bc086a0355042ae77448cda295d305aed801153",
++      "contentVersion": "68b4b5d4a52f724479dc13b4dae866d891278d77",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -953,7 +993,7 @@
+       "uri": "consents/eula_psn_eu/v5/it.json"
+     },
+     {
+-      "contentVersion": "bbb22247495162c201f239c54e40c02e9185478c",
++      "contentVersion": "3462fa4d46edc1372b5d90f8a2fc8a0053413246",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -961,7 +1001,7 @@
+       "uri": "consents/eula_psn_eu/v5/ja.json"
+     },
+     {
+-      "contentVersion": "3273198da0bac8bd16e54e7dd5d8fbc983482256",
++      "contentVersion": "ab76d4258647eafbe77aefb4f398251a4373124b",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -969,7 +1009,7 @@
+       "uri": "consents/eula_psn_eu/v5/ko.json"
+     },
+     {
+-      "contentVersion": "590df1e6c4484a57c42fd32586a6ba173f9fb355",
++      "contentVersion": "9b05d64802aa100e1dc704b05ab82b14ca2d6f7a",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -977,7 +1017,7 @@
+       "uri": "consents/eula_psn_eu/v5/pl.json"
+     },
+     {
+-      "contentVersion": "d2dda15258e67554f80f4ce9c7fc993271e8aa59",
++      "contentVersion": "13f2d96b32ed09cb189c403080c55b0535bf7734",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -985,7 +1025,7 @@
+       "uri": "consents/eula_psn_eu/v5/pt-BR.json"
+     },
+     {
+-      "contentVersion": "c1fefbd798e37dc56d575cd1faf41ddabeaaf9c2",
++      "contentVersion": "6ebed6db6f47fd3878ed6af7220e1940d83ec9fb",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -993,7 +1033,7 @@
+       "uri": "consents/eula_psn_eu/v5/ru.json"
+     },
+     {
+-      "contentVersion": "6c29b5854c5c4328ae6a0ccd3c1b70ed4ad75c3e",
++      "contentVersion": "a16903d07f9dd03d30d32a0bd65302773bd031c5",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1001,7 +1041,7 @@
+       "uri": "consents/eula_psn_eu/v5/th.json"
+     },
+     {
+-      "contentVersion": "f32c736928e180cfa28aaafa08848f4161db14df",
++      "contentVersion": "c8018c2f35bfed613e3640ef44c659f05bbbf64c",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1009,7 +1049,7 @@
+       "uri": "consents/eula_psn_eu/v5/tr.json"
+     },
+     {
+-      "contentVersion": "e5c2914391cebbfe629ba0d01010e227b1acbf06",
++      "contentVersion": "9db20925584b0204955d7f5d023f0f94aa4cdd9f",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1017,7 +1057,7 @@
+       "uri": "consents/eula_psn_eu/v5/zh-Hans.json"
+     },
+     {
+-      "contentVersion": "f5197f3a062cc7d684e2a345c7aeb8a2c1afa9d1",
++      "contentVersion": "6459b1ed08c7a531717f697cbf304cf6630a0079",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1025,7 +1065,7 @@
+       "uri": "consents/eula_psn_eu/v5/zh-Hant.json"
+     },
+     {
+-      "contentVersion": "9bd79a2ec6bdd9608b361af7ca91ed7d98ece93a",
++      "contentVersion": "96ae8275451439e3aeb140c19774679bef5c6d1b",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1033,7 +1073,7 @@
+       "uri": "consents/privacy/v3/definition.json"
+     },
+     {
+-      "contentVersion": "487a0a73ca7caed6a1f707901b0160d45f7d7bca",
++      "contentVersion": "f2d9527e40b395ad23dd93566af8d3c9773d21da",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1041,7 +1081,7 @@
+       "uri": "consents/privacy/v3/de.json"
+     },
+     {
+-      "contentVersion": "4e50596ab66d88632e468cd45c3183f9b6d93d61",
++      "contentVersion": "6d2faa8a9eaa6636784cf438b9cecdd47f4c13ff",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1049,7 +1089,7 @@
+       "uri": "consents/privacy/v3/en.json"
+     },
+     {
+-      "contentVersion": "1c01c1c39c98d07c956a18280747d40c1d4e215b",
++      "contentVersion": "d81f00e84a358919eeb8964aa524a958c509361a",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1057,7 +1097,7 @@
+       "uri": "consents/privacy/v3/es.json"
+     },
+     {
+-      "contentVersion": "29927da0a4f0a92d2994b63ea8ab315ce2721144",
++      "contentVersion": "de51c6080fca0583bd8d610a7714f3037b97ec37",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1065,7 +1105,7 @@
+       "uri": "consents/privacy/v3/es-MX.json"
+     },
+     {
+-      "contentVersion": "5131b3304998e08a60b3f472143e70ad87ff8483",
++      "contentVersion": "5f9e7eaee071484b2cad748cd175a78cd5b6dd19",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1073,7 +1113,7 @@
+       "uri": "consents/privacy/v3/fr.json"
+     },
+     {
+-      "contentVersion": "e3f8e5c110c1bc9164fbc0e56cac010a46f6645d",
++      "contentVersion": "978dfd8f00b0ed23c60b5e47fb238cc56d44bb4d",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1081,7 +1121,7 @@
+       "uri": "consents/privacy/v3/it.json"
+     },
+     {
+-      "contentVersion": "1d9189f6b641de34bcb72906b079bbd4399bb856",
++      "contentVersion": "eb15912075ceb6c6b18741a14a67e4595eeafaf5",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1089,7 +1129,7 @@
+       "uri": "consents/privacy/v3/ja.json"
+     },
+     {
+-      "contentVersion": "1e044176d80a108acdd0b6937eb103e1b757e40f",
++      "contentVersion": "a4ce26207f319fc3334c654be6ae7888090ed9c7",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1097,7 +1137,7 @@
+       "uri": "consents/privacy/v3/ko.json"
+     },
+     {
+-      "contentVersion": "9349a140e462d98dd45306f4593c43ec9743514e",
++      "contentVersion": "13cbacc52dd1a000a398d9f2ac53fb4e32a948e4",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1105,7 +1145,7 @@
+       "uri": "consents/privacy/v3/pl.json"
+     },
+     {
+-      "contentVersion": "209c04374785a8da00160fa5f8eb2005647385b8",
++      "contentVersion": "39f708e5f7ef701a57ddc805965803e13b040671",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1113,7 +1153,7 @@
+       "uri": "consents/privacy/v3/pt-BR.json"
+     },
+     {
+-      "contentVersion": "0552a7023da81925e4c5a177333f2fe6834a127f",
++      "contentVersion": "94f3518d12f4cc393cacc9ce4e42cdbc727ab798",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1121,7 +1161,7 @@
+       "uri": "consents/privacy/v3/ru.json"
+     },
+     {
+-      "contentVersion": "7dcb94b6f911122587a046def2ddd833ddfd01fb",
++      "contentVersion": "20568a4288383f4d99d1e66672facb03d5131fd9",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1129,7 +1169,7 @@
+       "uri": "consents/privacy/v3/th.json"
+     },
+     {
+-      "contentVersion": "133ddaca32823d338d71f04c7350d3db06c46336",
++      "contentVersion": "594ad7b428facacfc42c0b2523444dcdc76d964d",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1137,7 +1177,7 @@
+       "uri": "consents/privacy/v3/tr.json"
+     },
+     {
+-      "contentVersion": "2078a3025c470455065eb5fd982d49d180cc6adb",
++      "contentVersion": "cf10f55e62d53dccbfeb3ae3c5f890ce896f8675",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1145,7 +1185,7 @@
+       "uri": "consents/privacy/v3/zh-Hans.json"
+     },
+     {
+-      "contentVersion": "6175b31bc083354eedd5efd1b0328d969c7df1a5",
++      "contentVersion": "b3b0a693bfe5503bec92594dcacc166c661816c8",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1153,7 +1193,7 @@
+       "uri": "consents/privacy/v3/zh-Hant.json"
+     },
+     {
+-      "contentVersion": "d359c2e3220ebd5ec9569eb1824e6b90c6a6e419",
++      "contentVersion": "92176e2b802035a0a1b2f440767ca7dc88f28fd4",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1161,7 +1201,7 @@
+       "uri": "consents/marketing/v2/definition.json"
+     },
+     {
+-      "contentVersion": "310aa60423ae72ec676bda2fcac27cce968ad742",
++      "contentVersion": "7ec823d3050bb4ae5f24a70b5e42a86ffe05e529",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1169,7 +1209,7 @@
+       "uri": "consents/marketing/v2/de.json"
+     },
+     {
+-      "contentVersion": "d46bb7ab9ffd3adaa6aafb682b124a3158ec498e",
++      "contentVersion": "793852f02c547c819320e026c45d0aa1c0a1d569",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1177,7 +1217,7 @@
+       "uri": "consents/marketing/v2/en.json"
+     },
+     {
+-      "contentVersion": "5f57382c016790d602bf954359427aac82d84593",
++      "contentVersion": "1fde012d75c1a5567672cee2770ec0c2b1e8594a",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1185,7 +1225,7 @@
+       "uri": "consents/marketing/v2/es.json"
+     },
+     {
+-      "contentVersion": "5bd93a216840e126f676d1e389e6caf7802f6f90",
++      "contentVersion": "e361c39da6ee119bfe8434139e92e21f20703ae2",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1193,7 +1233,7 @@
+       "uri": "consents/marketing/v2/es-MX.json"
+     },
+     {
+-      "contentVersion": "ad4e63ed4c57640ccdfe477453c52a63c15a58ea",
++      "contentVersion": "071bcfb15df946dc3d4871fc34ea73b581fa1c7b",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1201,7 +1241,7 @@
+       "uri": "consents/marketing/v2/fr.json"
+     },
+     {
+-      "contentVersion": "007942bb7f9df3bc62a105a95fa791029869f415",
++      "contentVersion": "72992cafc3d055778eaeb8b071e52510a8de3ea9",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1209,7 +1249,7 @@
+       "uri": "consents/marketing/v2/it.json"
+     },
+     {
+-      "contentVersion": "9f702da8622d6954fe622da07106c24418473870",
++      "contentVersion": "c84e4edea797e5121f6df990994407c774aeae25",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1217,7 +1257,7 @@
+       "uri": "consents/marketing/v2/ja.json"
+     },
+     {
+-      "contentVersion": "4569d4ac07da6fec1801dfce4ad810989f7aef36",
++      "contentVersion": "3aaee6674c9811d12cb26ecfbc89b9fbf72de0f3",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1225,7 +1265,7 @@
+       "uri": "consents/marketing/v2/ko.json"
+     },
+     {
+-      "contentVersion": "b9c92b74d49a8a439ff476d608f1f6a4baa70707",
++      "contentVersion": "52f31bccdb69586f5c94724196bdd8b45404b51a",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1233,7 +1273,7 @@
+       "uri": "consents/marketing/v2/pl.json"
+     },
+     {
+-      "contentVersion": "ce1f96f0a0677ea9de89786ade23360437a9a4a3",
++      "contentVersion": "beaf2ff28f7c71a6a61902613ea3584652f7e3b9",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1241,7 +1281,7 @@
+       "uri": "consents/marketing/v2/pt-BR.json"
+     },
+     {
+-      "contentVersion": "103bc4e666edbc8736e182543f9b2f3d36a29483",
++      "contentVersion": "021077d557ddf83fbf0b76dddbfd81ae72f81525",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1249,7 +1289,7 @@
+       "uri": "consents/marketing/v2/ru.json"
+     },
+     {
+-      "contentVersion": "ffae5bca9233f75b32d74d7b44385098493098f5",
++      "contentVersion": "b034e236c1a60049dba143a3ec0513436f4d95d2",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1257,7 +1297,7 @@
+       "uri": "consents/marketing/v2/th.json"
+     },
+     {
+-      "contentVersion": "757d2f195c0c916bd14c7ed80be7d60199c3f8e2",
++      "contentVersion": "6c1f4666b4d269e5a65c8394254cc20316ce1059",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1265,7 +1305,7 @@
+       "uri": "consents/marketing/v2/tr.json"
+     },
+     {
+-      "contentVersion": "ba70586f50f3686f6d0347cca9d092056dde4478",
++      "contentVersion": "632e127a50c76099ee02fd1fe630cab53173e07e",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1273,7 +1313,7 @@
+       "uri": "consents/marketing/v2/zh-Hans.json"
+     },
+     {
+-      "contentVersion": "3dae2c71fb48295c7d9f09a42a70e2a8b90e33cc",
++      "contentVersion": "f000cb02d0ad72adc5eda5a03986107b91d4b94d",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1281,7 +1321,7 @@
+       "uri": "consents/marketing/v2/zh-Hant.json"
+     },
+     {
+-      "contentVersion": "1ccd9db98df84a30d6273a5ec92d89c422df6940",
++      "contentVersion": "a0f53ed4ec793b6b714dce84edc9b3a8cd253cec",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1289,7 +1329,7 @@
+       "uri": "specialEventsContent.json"
+     },
+     {
+-      "contentVersion": "128668fa6794ffb57e754c5d55a85b7f72a0429d",
++      "contentVersion": "af5136972d3a5b87531ac07faf93e5098588b7b3",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1297,7 +1337,7 @@
+       "uri": "coreRituals.json"
+     },
+     {
+-      "contentVersion": "7be029014090beb601d11f7375a472889975bb1e",
++      "contentVersion": "39958f74156d978d092134fdba9aad0a1d2fbfc7",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1305,7 +1345,7 @@
+       "uri": "randomRewards.json"
+     },
+     {
+-      "contentVersion": "428091a621f3e3fdb448e5f04b482a44cf1aba25",
++      "contentVersion": "6208e7db10ea3c9db66f21ea38491c80c7c4c9c2",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1313,7 +1353,7 @@
+       "uri": "emblemTunable.json"
+     },
+     {
+-      "contentVersion": "c22ccd5630bdc5cdbfb45cfdd75429ce39019400",
++      "contentVersion": "34682aed230fd7e9cc92a0e609ae70a20e06bdf7",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1321,7 +1361,7 @@
+       "uri": "ranksThresholds.json"
+     },
+     {
+-      "contentVersion": "f0845bf73d5147ff911bd05df8fda227acd442f9",
++      "contentVersion": "43d329b01b2c05bf67733f61e41f22d30da1fe9a",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1329,7 +1369,7 @@
+       "uri": "itemsKillswitch.json"
+     },
+     {
+-      "contentVersion": "5703619f7eb56ec8cb3cf29c837fb0a7cef386df",
++      "contentVersion": "46e6b9351e9bb7b9b2e123786853722f83e20d4a",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1337,7 +1377,7 @@
+       "uri": "cinematics.json"
+     },
+     {
+-      "contentVersion": "6bcf78d670a7debdfbcd18cb223efcf7b215b2ec",
++      "contentVersion": "d29a1af8aba5f72252860b680c7fb79c2d0d74e9",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1345,7 +1385,7 @@
+       "uri": "featureLocks.json"
+     },
+     {
+-      "contentVersion": "abcae2e7432815a037389343cdee58d28911ea92",
++      "contentVersion": "9d2f48af0eb5d38f4c5aecbb4e0dd982d8db893b",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1353,7 +1393,7 @@
+       "uri": "contentSchedule.json"
+     },
+     {
+-      "contentVersion": "7f77b3f15c87c2b3433cdc5d87cbedba16e87c29",
++      "contentVersion": "305d2ff7625c6e11ac939f4341bc2a5a4f2255a4",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1361,7 +1401,7 @@
+       "uri": "crossPromoCampaigns.json"
+     },
+     {
+-      "contentVersion": "190c12bdfbb405f47e556d44b07d4e04e1e39ef0",
++      "contentVersion": "aa1b247aa751d7d4b0f00ba0170c09afee0cbd89",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1369,7 +1409,7 @@
+       "uri": "collections.json"
+     },
+     {
+-      "contentVersion": "ed692234e783450e71cad971a47219d7ded16a42",
++      "contentVersion": "faee3ddf08842c13f0c6e9cb1f66fde2f7f2dd46",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1377,7 +1417,7 @@
+       "uri": "loadingText/specialEventsLoadingText_en.json"
+     },
+     {
+-      "contentVersion": "8ddf68da2ae23c19a3c92d10880f1a905e0e235b",
++      "contentVersion": "9642729360aa6d5dfbf1323f7e708683459e2397",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1385,7 +1425,7 @@
+       "uri": "loadingText/specialEventsLoadingText_de.json"
+     },
+     {
+-      "contentVersion": "e89405d13e493828e8e803daf052e3111574997a",
++      "contentVersion": "2c015f7b7391120a847210b6cef0fbdd7a8d3864",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1393,7 +1433,7 @@
+       "uri": "loadingText/specialEventsLoadingText_es.json"
+     },
+     {
+-      "contentVersion": "0c61b26a797a1a1be5a8d7d48c2375d2e9c8b3c5",
++      "contentVersion": "a1248599712cdc6adeab8f129f3f88ab0eb32716",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1401,7 +1441,7 @@
+       "uri": "loadingText/specialEventsLoadingText_es-MX.json"
+     },
+     {
+-      "contentVersion": "d0b62ced23f3e52444f0950ec9390898e022515b",
++      "contentVersion": "da3d5746389450bcddb2c7fc61de11e3c676f488",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1409,7 +1449,7 @@
+       "uri": "loadingText/specialEventsLoadingText_fr.json"
+     },
+     {
+-      "contentVersion": "5315a32f3dab5fb74f3d2c90f6374d1f0498db39",
++      "contentVersion": "59599f0882c41b39c70a456e1176e6c1b00c74d5",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1417,7 +1457,7 @@
+       "uri": "loadingText/specialEventsLoadingText_it.json"
+     },
+     {
+-      "contentVersion": "b35f4a74320eec0b2c343817bed617cc6431edc4",
++      "contentVersion": "13c475d0de1496b382e28fb92175460a6bd45894",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1425,7 +1465,7 @@
+       "uri": "loadingText/specialEventsLoadingText_ja.json"
+     },
+     {
+-      "contentVersion": "7d82d0e82dd4016d2f105e5efca47b49289658c1",
++      "contentVersion": "77e1664d464f1c363b566ebb0bcae69980f153ae",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1433,7 +1473,7 @@
+       "uri": "loadingText/specialEventsLoadingText_ko.json"
+     },
+     {
+-      "contentVersion": "e24fbfe0cf710dbf1e4e795c4492e7525a9a1237",
++      "contentVersion": "540eb6b78fa7d2df7ec5226a0505a14f073cc678",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1441,7 +1481,7 @@
+       "uri": "loadingText/specialEventsLoadingText_pl.json"
+     },
+     {
+-      "contentVersion": "6e77d2f4e877a05fbc16434743e34c68675126d4",
++      "contentVersion": "d9d831f8a1fa611174820a3cdf73a95fb1f9212f",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1449,7 +1489,7 @@
+       "uri": "loadingText/specialEventsLoadingText_pt-BR.json"
+     },
+     {
+-      "contentVersion": "3c9d1230e84db9286a793a5c417565790b5e5382",
++      "contentVersion": "297b33b1ce1c8d51d2bafd08f1781b56683edbcc",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1457,7 +1497,7 @@
+       "uri": "loadingText/specialEventsLoadingText_ru.json"
+     },
+     {
+-      "contentVersion": "821ff3d9819d2490397693819bcea5d2dced6df5",
++      "contentVersion": "2fbcd8b16406628f34e9bb4694436ccb5942d908",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1465,7 +1505,7 @@
+       "uri": "loadingText/specialEventsLoadingText_th.json"
+     },
+     {
+-      "contentVersion": "72b1963d94b9f487f7912b4ce945fe6acee1f400",
++      "contentVersion": "f8c62f84f8550127c4f6cf26c1994fce810d0aa8",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1473,7 +1513,7 @@
+       "uri": "loadingText/specialEventsLoadingText_tr.json"
+     },
+     {
+-      "contentVersion": "bdc4d9266d69d7205d7c36452d439fdaa7160838",
++      "contentVersion": "ec64c35f2daaca615bc0584d883c7d8e5f6c959c",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1481,7 +1521,7 @@
+       "uri": "loadingText/specialEventsLoadingText_zh-Hans.json"
+     },
+     {
+-      "contentVersion": "e562b24b2cb9511d41abf9746164b18bf95d01f7",
++      "contentVersion": "7a73094f2cf2345fd63868418ce568ca00909413",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1489,7 +1529,7 @@
+       "uri": "loadingText/specialEventsLoadingText_zh-Hant.json"
+     },
+     {
+-      "contentVersion": "e4d806914c958f28c4decc917ddaf93519d479c0",
++      "contentVersion": "1e27241e416fd02776c9db2b349341961556ab2f",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1497,7 +1537,7 @@
+       "uri": "news/versionedNews.json"
+     },
+     {
+-      "contentVersion": "e4d806914c958f28c4decc917ddaf93519d479c0",
++      "contentVersion": "1e27241e416fd02776c9db2b349341961556ab2f",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1505,7 +1545,7 @@
+       "uri": "news/versionedNews_en.json"
+     },
+     {
+-      "contentVersion": "c1287e7e09640c33209cf9aa3c14b0b6d7becd21",
++      "contentVersion": "31027e101275f6154e240181c79d894ca7e8b84b",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1513,7 +1553,7 @@
+       "uri": "news/versionedNews_de.json"
+     },
+     {
+-      "contentVersion": "50fc6544fa4cbcb3ddd5333e83ff678d63286dac",
++      "contentVersion": "9cd15cd4f3fde1304b0dcf008c9a5e2567f59552",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1521,7 +1561,7 @@
+       "uri": "news/versionedNews_es.json"
+     },
+     {
+-      "contentVersion": "8ac7605621b51f799be2bb7dfd9f126bed504719",
++      "contentVersion": "279f44ed9c0657aaa213dbb2424f00aa8fdb67ec",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1529,7 +1569,7 @@
+       "uri": "news/versionedNews_es-MX.json"
+     },
+     {
+-      "contentVersion": "c4af2be489e0cdc3d117b74f187045ff6fe31163",
++      "contentVersion": "2c2f5bc89c5ef89640df62df0e210dd5a9857209",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1537,7 +1577,7 @@
+       "uri": "news/versionedNews_fr.json"
+     },
+     {
+-      "contentVersion": "c3c200ca490abb31c502e99eca0a1ba02b83c5ee",
++      "contentVersion": "1ffdd6e13a4a485201a0e662c629c58684b1118d",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1545,7 +1585,7 @@
+       "uri": "news/versionedNews_it.json"
+     },
+     {
+-      "contentVersion": "ecbeda98e2270b8785fb9b6b8e60e97149ba1875",
++      "contentVersion": "ce550e8997c9f5cf8a94b3ce8e3343959d0be19a",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1553,7 +1593,7 @@
+       "uri": "news/versionedNews_ja.json"
+     },
+     {
+-      "contentVersion": "19b2af3164c6ebcdd6232bbe5af2724a43ff6c14",
++      "contentVersion": "247ad0f1c01f702cdb6aeb4456a0a787052756fe",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1561,7 +1601,7 @@
+       "uri": "news/versionedNews_ko.json"
+     },
+     {
+-      "contentVersion": "06fdfc8577247b92dc654ce4d291114d5c340671",
++      "contentVersion": "b972b81bc3bf825e290ac43fe4a544df97244a61",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1569,7 +1609,7 @@
+       "uri": "news/versionedNews_pl.json"
+     },
+     {
+-      "contentVersion": "671740d5afa3aa7810f2714bef7e64a979b4a961",
++      "contentVersion": "a86a2b35145ca9f94be3084d603d98df586919f0",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1577,7 +1617,7 @@
+       "uri": "news/versionedNews_pt-BR.json"
+     },
+     {
+-      "contentVersion": "0df9a9b8d5724a441326d3cb4a0919d581d412ef",
++      "contentVersion": "cfee4f0bf979dbd85ad21fdec1d67f271c1d24a7",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1585,7 +1625,7 @@
+       "uri": "news/versionedNews_ru.json"
+     },
+     {
+-      "contentVersion": "4a05738e4f82589f0d1910ab05e175eb00dd62e1",
++      "contentVersion": "1a4af6d0d2ec08cabee741e3250a5cb302e974a3",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1593,7 +1633,7 @@
+       "uri": "news/versionedNews_th.json"
+     },
+     {
+-      "contentVersion": "337ca27cba9a67ee18e8eb03dd09906c424fe68b",
++      "contentVersion": "b0f6c8289f9e5e472295d929a68492cbebc20b4b",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1601,7 +1641,7 @@
+       "uri": "news/versionedNews_tr.json"
+     },
+     {
+-      "contentVersion": "0803ae3397f3752a44644bcca0411da4d541762f",
++      "contentVersion": "128ebfd8d1d94de9c7a089ecef2029acf19a79e9",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",
+@@ -1609,7 +1649,7 @@
+       "uri": "news/versionedNews_zh-Hans.json"
+     },
+     {
+-      "contentVersion": "f0f86081279b6df2c0af984c10cfdfec637205c8",
++      "contentVersion": "b4e7e318aaa2b479c1e9a125eea1a1d71181018c",
+       "downloadStrategy": "preferRemote",
+       "enableChecksum": true,
+       "packagedPath": "",

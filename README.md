@@ -2,35 +2,25 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `8.5.1_2282865live` · built 2025-02-11 16:07 UTC
+**Latest version:** `8.5.0_2335221live` · built 2025-03-18 14:31 UTC
 
-[What changed](versions/8.5.1_2282865live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/8.5.0_2335221live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**4** added · **14** modified · **5** removed, compared with `8.4.2_2231971live`.
+**0** added · **11** modified · **0** removed, compared with `8.5.1_2282865live`.
 
-- ~ [`GameConfigs.json`](versions/8.5.1_2282865live/diffs/GameConfigs.json.diff)
-- ~ [`archiveJournals/storyJournals.json`](versions/8.5.1_2282865live/diffs/archiveJournals/storyJournals.json.diff)
-- ~ [`archiveQuests/Tome02.json`](versions/8.5.1_2282865live/diffs/archiveQuests/Tome02.json.diff)
-- ~ [`archiveRewardData/content.json`](versions/8.5.1_2282865live/diffs/archiveRewardData/content.json.diff)
-- ~ [`bonusPointEventsContent.json`](versions/8.5.1_2282865live/diffs/bonusPointEventsContent.json.diff)
-- ~ [`catalog.json`](versions/8.5.1_2282865live/diffs/catalog.json.diff)
-- ~ [`collections.json`](versions/8.5.1_2282865live/diffs/collections.json.diff)
-- ~ [`contentMetadata.json`](versions/8.5.1_2282865live/diffs/contentMetadata.json.diff)
-- ~ [`contentSchedule.json`](versions/8.5.1_2282865live/diffs/contentSchedule.json.diff)
-- ~ [`crossPromoCampaigns.json`](versions/8.5.1_2282865live/diffs/crossPromoCampaigns.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/8.5.1_2282865live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`itemsKillswitch.json`](versions/8.5.1_2282865live/diffs/itemsKillswitch.json.diff)
-- ~ [`recommendations.json`](versions/8.5.1_2282865live/diffs/recommendations.json.diff)
-- ~ [`specialEventsContent.json`](versions/8.5.1_2282865live/diffs/specialEventsContent.json.diff)
-- \+ [`archiveQuests/CalamariV3.json`](versions/8.5.1_2282865live/archiveQuests/CalamariV3.json)
-- \+ [`archiveQuests/Tome22.json`](versions/8.5.1_2282865live/archiveQuests/Tome22.json)
-- \+ [`archiveRewardGrid/Tome22.json`](versions/8.5.1_2282865live/archiveRewardGrid/Tome22.json)
-- \+ [`dlcList.json`](versions/8.5.1_2282865live/dlcList.json)
-- − `images/T_UI_CollectionBanner_DungeonsAndDragons2.png`
-- − `images/T_UI_SpecialPack_BoneChill2023.png`
-- … and 3 more in [CHANGES.md](versions/8.5.1_2282865live/CHANGES.md)
+- ~ [`GameConfigs.json`](versions/8.5.0_2335221live/diffs/GameConfigs.json.diff)
+- ~ [`GameConfigsDS.json`](versions/8.5.0_2335221live/diffs/GameConfigsDS.json.diff)
+- ~ [`bonusPointEventsContent.json`](versions/8.5.0_2335221live/diffs/bonusPointEventsContent.json.diff)
+- ~ [`catalog.json`](versions/8.5.0_2335221live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/8.5.0_2335221live/diffs/collections.json.diff)
+- ~ [`contentMetadata.json`](versions/8.5.0_2335221live/diffs/contentMetadata.json.diff)
+- ~ [`contentSchedule.json`](versions/8.5.0_2335221live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.5.0_2335221live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`ranksThresholds.json`](versions/8.5.0_2335221live/diffs/ranksThresholds.json.diff)
+- ~ [`recommendations.json`](versions/8.5.0_2335221live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/8.5.0_2335221live/diffs/specialEventsContent.json.diff)
 
 ## Browse
 
@@ -52,7 +42,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-15 versions tracked so far.
+16 versions tracked so far.
 
 ---
 

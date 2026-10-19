@@ -1,0 +1,547 @@
+--- a/challengeLocs/challengeText_zh-Hans.json
++++ b/challengeLocs/challengeText_zh-Hans.json
+@@ -113,22 +113,6 @@
+       "textId": "CHALLENGE_BeChased_INFO"
+     },
+     {
+-      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE",
+-      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_DESC",
+-      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_DESC"
+-    },
+-    {
+-      "text": "破坏{0}处木板",
+-      "textId": "CHALLENGE_BreakPallets_INFO"
+-    },
+-    {
+-      "text": "被追杀时，扔下{0}处木板",
+-      "textId": "CHALLENGE_PalletDropInChase_INFO"
+-    },
+-    {
+       "text": "每日任务",
+       "textId": "LIST_Daily_TITLE"
+     },
+@@ -203,6 +187,22 @@
+     {
+       "text": "惊扰{0}只乌鸦",
+       "textId": "CHALLENGE_Crow_INFO"
++    },
++    {
++      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE",
++      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE"
++    },
++    {
++      "text": "@#CHALLENGE_BreakPalletsOrPalletDropInChase_DESC",
++      "textId": "CHALLENGE_BreakPalletsOrPalletDropInChase_DESC"
++    },
++    {
++      "text": "破坏{0}处木板",
++      "textId": "CHALLENGE_BreakPallets_INFO"
++    },
++    {
++      "text": "被追杀时，扔下{0}处木板",
++      "textId": "CHALLENGE_PalletDropInChase_INFO"
+     },
+     {
+       "text": "@#CHALLENGE_DownOrSucceedHealSkillCheck_TITLE",
+@@ -987,498 +987,6 @@
+     {
+       "text": "@#LIST_Anniversary_TITLE_6",
+       "textId": "LIST_Anniversary_TITLE_6"
+-    },
+-    {
+-      "text": "渐入迷雾",
+-      "textId": "CHALLENGESET_Onboarding_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGESET_Onboarding_INFO",
+-      "textId": "CHALLENGESET_Onboarding_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_PlayTrialWithFourPerks_TITLE",
+-      "textId": "CHALLENGE_PlayTrialWithFourPerks_TITLE"
+-    },
+-    {
+-      "text": "技能允许杀手和逃生者解锁特殊能力。",
+-      "textId": "CHALLENGE_PlayTrialWithFourPerks_DESC"
+-    },
+-    {
+-      "text": "使用4项技能完成{0}场对局",
+-      "textId": "CHALLENGE_PlayTrialWithFourPerks_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_PlayTrialWithCosmetic_TITLE",
+-      "textId": "CHALLENGE_PlayTrialWithCosmetic_TITLE"
+-    },
+-    {
+-      "text": "自定义逃生者和杀手的外观物品。完成教程，获得免费外观物品。",
+-      "textId": "CHALLENGE_PlayTrialWithCosmetic_DESC"
+-    },
+-    {
+-      "text": "使用非默认外观物品完成 {0}场对局",
+-      "textId": "CHALLENGE_PlayTrialWithCosmetic_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_StoreGetFreeItem_TITLE",
+-      "textId": "CHALLENGE_StoreGetFreeItem_TITLE"
+-    },
+-    {
+-      "text": "访问商店领取每周免费赠礼",
+-      "textId": "CHALLENGE_StoreGetFreeItem_DESC"
+-    },
+-    {
+-      "text": "获取商店免费赠礼",
+-      "textId": "CHALLENGE_StoreGetFreeItem_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_PlayAsKiller_TITLE",
+-      "textId": "CHALLENGE_PlayAsKiller_TITLE"
+-    },
+-    {
+-      "text": "女猎手可以远距离投掷飞斧伤害逃生者。",
+-      "textId": "CHALLENGE_PlayAsKiller_DESC"
+-    },
+-    {
+-      "text": "扮演女猎手，完成1场对局。",
+-      "textId": "CHALLENGE_PlayAsKiller_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_PlayAsKillerUsingPerk_TITLE",
+-      "textId": "CHALLENGE_PlayAsKillerUsingPerk_TITLE"
+-    },
+-    {
+-      "text": "技能可以让杀手解锁特殊能力。",
+-      "textId": "CHALLENGE_PlayAsKillerUsingPerk_DESC"
+-    },
+-    {
+-      "text": "扮演设陷者，使用所向无敌技能，完成1场对局。",
+-      "textId": "CHALLENGE_PlayAsKillerUsingPerk_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_BreakPalletWall_TITLE",
+-      "textId": "CHALLENGE_BreakPalletWall_TITLE"
+-    },
+-    {
+-      "text": "清除障碍物让你可以更轻松地追赶逃生者。",
+-      "textId": "CHALLENGE_BreakPalletWall_DESC"
+-    },
+-    {
+-      "text": "破坏木板或墙壁{0}次",
+-      "textId": "CHALLENGE_BreakPalletsWall_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_HitDifferentSingleTrial_TITLE",
+-      "textId": "CHALLENGE_HitDifferentSingleTrial_TITLE"
+-    },
+-    {
+-      "text": "杀手的普通攻击与杀手能力无关。这是击倒逃生者的绝佳手段。",
+-      "textId": "CHALLENGE_HitDifferentSingleTrial_DESC"
+-    },
+-    {
+-      "text": "在单场对局中，普通攻击命中{0}名不同的逃生者",
+-      "textId": "CHALLENGE_HitDifferentSingleTrial_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_DownDifferentSingleTrial_TITLE",
+-      "textId": "CHALLENGE_DownDifferentSingleTrial_TITLE"
+-    },
+-    {
+-      "text": "击倒逃生者能够减慢他们的进度。",
+-      "textId": "CHALLENGE_DownDifferentSingleTrial_DESC"
+-    },
+-    {
+-      "text": "在单场对局中，击倒{0}名不同的逃生者",
+-      "textId": "CHALLENGE_DownDifferentSingleTrial_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_KillSingleTrial_TITLE",
+-      "textId": "CHALLENGE_KillSingleTrial_TITLE"
+-    },
+-    {
+-      "text": "在一场对局中献祭或击杀至少3名逃生者是强大杀手的标志。",
+-      "textId": "CHALLENGE_KillSingleTrial_DESC"
+-    },
+-    {
+-      "text": "单场对局中献祭或击杀{0}名逃生者",
+-      "textId": "CHALLENGE_KillSingleTrial_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_Mori_TITLE",
+-      "textId": "CHALLENGE_Mori_TITLE"
+-    },
+-    {
+-      "text": "最后一名逃生者被击倒后，你无需将其挂上钩子就可以击杀该名逃生者。",
+-      "textId": "CHALLENGE_Mori_DESC"
+-    },
+-    {
+-      "text": "@#CHALLENGE_CompleteRoleChallengesKiller_TITLE",
+-      "textId": "CHALLENGE_CompleteRoleChallengesKiller_TITLE"
+-    },
+-    {
+-      "text": "你是一名暴戾、嗜血的杀手。恶灵很满意。",
+-      "textId": "CHALLENGE_CompleteRoleChallengesKiller_DESC"
+-    },
+-    {
+-      "text": "完成所有杀手任务",
+-      "textId": "CHALLENGE_CompleteRoleChallengesKiller_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_PlayAsSurvivor_TITLE",
+-      "textId": "CHALLENGE_PlayAsSurvivor_TITLE"
+-    },
+-    {
+-      "text": "梅格·托马斯是一位速度型逃生者。她的技能能够帮助你躲避、逃脱杀手的追逐。",
+-      "textId": "CHALLENGE_PlayAsSurvivorr_DESC"
+-    },
+-    {
+-      "text": "扮演梅格·托马斯，完成1场对局。",
+-      "textId": "CHALLENGE_PlayAsSurvivor_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_PlayAsSurvivorUsingPerk_TITLE",
+-      "textId": "CHALLENGE_PlayAsSurvivorUsingPerk_TITLE"
+-    },
+-    {
+-      "text": "技能可以让逃生者解锁特殊能力。",
+-      "textId": "CHALLENGE_PlayAsSurvivorUsingPerk_DESC"
+-    },
+-    {
+-      "text": "扮演德怀特·费菲尔德，使用携手合作技能，完成1场对局",
+-      "textId": "CHALLENGE_PlayAsSurvivorUsingPerk_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_GenSkillCheck_TITLE",
+-      "textId": "CHALLENGE_GenSkillCheck_TITLE"
+-    },
+-    {
+-      "text": "修理发电机时，需要时刻为检定做好准备。检定失败会发出噪音，引起杀手注意。",
+-      "textId": "CHALLENGE_GenSkillCheck_DESC"
+-    },
+-    {
+-      "text": "@#CHALLENGE_HealSkillCheck_TITLE",
+-      "textId": "CHALLENGE_HealSkillCheck_TITLE"
+-    },
+-    {
+-      "text": "治疗时，请随时做好检定的准备。检定失败会发出噪音，引起杀手的注意。",
+-      "textId": "CHALLENGE_HealSkillCheck_DESC"
+-    },
+-    {
+-      "text": "成功完成{0}次治疗检定",
+-      "textId": "CHALLENGE_HealSkillCheck_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_SabotageHookWithToolBox_TITLE",
+-      "textId": "CHALLENGE_SabotageHookWithToolBox_TITLE"
+-    },
+-    {
+-      "text": "工具箱可以破坏并暂时禁用钩子，地下室钩子除外。",
+-      "textId": "CHALLENGE_SabotageHookWithToolBox_DESC"
+-    },
+-    {
+-      "text": "使用工具箱破坏{0}个钩子",
+-      "textId": "CHALLENGE_SabotageHookWithToolBox_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_HealWithMedkit_TITLE",
+-      "textId": "CHALLENGE_HealWithMedkit_TITLE"
+-    },
+-    {
+-      "text": "医疗箱帮助你更快地治疗逃生者。",
+-      "textId": "CHALLENGE_HealWithMedkit_DESC"
+-    },
+-    {
+-      "text": "使用医疗箱治疗{0}名逃生者",
+-      "textId": "CHALLENGE_HealWithMedkit_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_RepairFinish_TITLE",
+-      "textId": "CHALLENGE_RepairFinish_TITLE"
+-    },
+-    {
+-      "text": "修理发电机，打开出口大门并成功逃脱。修理完成后，杀手无法将大门关闭。",
+-      "textId": "CHALLENGE_RepairFinish_DESC"
+-    },
+-    {
+-      "text": "修理{0}台发电机",
+-      "textId": "CHALLENGE_RepairFinish_INFO"
+-    },
+-    {
+-      "text": "通过出口大门或地道成功逃脱{0}次。",
+-      "textId": "CHALLENGE_EscapeGateHatch_TITLE"
+-    },
+-    {
+-      "text": "濒死并不意味着失败。你可能会被击杀，但同时你分散了杀手的注意力，为队友创造了机会。当然，成功逃脱是主要目标。",
+-      "textId": "CHALLENGE_EscapeGateHatch_DESC"
+-    },
+-    {
+-      "text": "@#CHALLENGE_PalletStun_TITLE",
+-      "textId": "CHALLENGE_PalletStun_TITLE"
+-    },
+-    {
+-      "text": "你无法伤害杀手，但你可以减慢其速度。使用木板命中杀手可以将其击晕。",
+-      "textId": "CHALLENGE_PalletStun_DESC"
+-    },
+-    {
+-      "text": "@#CHALLENGE_OpenChests_TITLE",
+-      "textId": "CHALLENGE_OpenChests_TITLE"
+-    },
+-    {
+-      "text": "宝箱分散在地图之上，其中含有能够帮助你生存的随机道具。",
+-      "textId": "CHALLENGE_OpenChests_DESC"
+-    },
+-    {
+-      "text": "开启{0}个箱子",
+-      "textId": "CHALLENGE_OpenChests_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_CompleteRoleChallenges_TITLE",
+-      "textId": "CHALLENGE_CompleteRoleChallenges_TITLE"
+-    },
+-    {
+-      "text": "完成所有逃生者任务",
+-      "textId": "CHALLENGE_CompleteRoleChallenges_DESC"
+-    },
+-    {
+-      "text": "完成所有{0}任务。",
+-      "textId": "CHALLENGE_CompleteRoleChallenges_INFO"
+-    },
+-    {
+-      "text": "渐入迷雾任务",
+-      "textId": "LIST_Onboarding_TITLE_General"
+-    },
+-    {
+-      "text": "杀手任务",
+-      "textId": "LIST_Onboarding_TITLE_Killer"
+-    },
+-    {
+-      "text": "逃生者任务",
+-      "textId": "LIST_Onboarding_TITLE_Survivor"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnGatekeeperOrLightbringerGold_TITLE",
+-      "textId": "CHALLENGE_EarnGatekeeperOrLightbringerGold_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnGatekeeperOrLightbringerGold_DESC",
+-      "textId": "CHALLENGE_EarnGatekeeperOrLightbringerGold_DESC"
+-    },
+-    {
+-      "text": "获得{0}块黄金一夫当关徽章",
+-      "textId": "CHALLENGE_EarnGatekeeperGold_INFO"
+-    },
+-    {
+-      "text": "获得{0}块黄金光明使者徽章",
+-      "textId": "CHALLENGE_EarnLightbringerGold_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnChaserOrEvaderGold_TITLE",
+-      "textId": "CHALLENGE_EarnChaserOrEvaderGold_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnChaserOrEvaderGold_DESC",
+-      "textId": "CHALLENGE_EarnChaserOrEvaderGold_DESC"
+-    },
+-    {
+-      "text": "获得{0}块黄金赶尽杀绝徽章",
+-      "textId": "CHALLENGE_EarnChaserGold_INFO"
+-    },
+-    {
+-      "text": "获得{0}块黄金东躲西藏徽章",
+-      "textId": "CHALLENGE_EarnEvaderGold_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnDevoutOrUnbrokenGold_TITLE",
+-      "textId": "CHALLENGE_EarnDevoutOrUnbrokenGold_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnDevoutOrUnbrokenGold_DESC",
+-      "textId": "CHALLENGE_EarnDevoutOrUnbrokenGold_DESC"
+-    },
+-    {
+-      "text": "获得{0}块黄金虔诚徽章",
+-      "textId": "CHALLENGE_EarnDevoutGold_INFO"
+-    },
+-    {
+-      "text": "获得{0}块黄金百折不摧徽章",
+-      "textId": "CHALLENGE_EarnUnbrokenGold_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnMaliciousOrBenevolentGold_TITLE",
+-      "textId": "CHALLENGE_EarnMaliciousOrBenevolentGold_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnMaliciousOrBenevolentGold_DESC",
+-      "textId": "CHALLENGE_EarnMaliciousOrBenevolentGold_DESC"
+-    },
+-    {
+-      "text": "获得{0}块黄金心狠手辣徽章",
+-      "textId": "CHALLENGE_EarnMaliciousGold_INFO"
+-    },
+-    {
+-      "text": "获得{0}块黄金助人为乐徽章",
+-      "textId": "CHALLENGE_EarnBenevolentGold_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_CloseHatch_TITLE",
+-      "textId": "CHALLENGE_CloseHatch_TITLE"
+-    },
+-    {
+-      "text": "当仅剩一名存活的逃生者时，该逃生者可以通过地图上隐藏的地道逃脱。关闭地道，减慢其逃脱速度。",
+-      "textId": "CHALLENGE_CloseHatch_DESC"
+-    },
+-    {
+-      "text": "关闭地道{0}次",
+-      "textId": "CHALLENGE_CloseHatch_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EscapeThroughHatch_TITLE",
+-      "textId": "CHALLENGE_EscapeThroughHatch_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EscapeThroughHatch_DESC",
+-      "textId": "CHALLENGE_EscapeThroughHatch_DESC"
+-    },
+-    {
+-      "text": "通过地道逃脱，累计{0}次",
+-      "textId": "CHALLENGE_EscapeThroughHatch_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnGatekeeperOrLightbringerIridescent_TITLE",
+-      "textId": "CHALLENGE_EarnGatekeeperOrLightbringerIridescent_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnGatekeeperOrLightbringerIridescent_DESC",
+-      "textId": "CHALLENGE_EarnGatekeeperOrLightbringerIridescent_DESC"
+-    },
+-    {
+-      "text": "获得{0}块荧虹一夫当关徽章",
+-      "textId": "CHALLENGE_EarnGatekeeperIridescent_INFO"
+-    },
+-    {
+-      "text": "获得{0}块荧虹光明使者徽章",
+-      "textId": "CHALLENGE_EarnLightbringerIridescent_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_BreakGenSingleTrial_TITLE",
+-      "textId": "CHALLENGE_BreakGenSingleTrial_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_BreakGenSingleTrial_DESC",
+-      "textId": "CHALLENGE_BreakGenSingleTrial_DESC"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnChaserOrEvaderIridescent_TITLE",
+-      "textId": "CHALLENGE_EarnChaserOrEvaderIridescent_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnChaserOrEvaderIridescent_DESC",
+-      "textId": "CHALLENGE_EarnChaserOrEvaderIridescent_DESC"
+-    },
+-    {
+-      "text": "获得{0}块荧虹赶尽杀绝徽章",
+-      "textId": "CHALLENGE_EarnChaserIridescent_INFO"
+-    },
+-    {
+-      "text": "获得{0}块荧虹东躲西藏徽章",
+-      "textId": "CHALLENGE_EarnEvaderIridescent_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_ChaseSingleTrial_TITLE",
+-      "textId": "CHALLENGE_ChaseSingleTrial_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_ChaseSingleTrial_DESC",
+-      "textId": "CHALLENGE_ChaseSingleTrial_DESC"
+-    },
+-    {
+-      "text": "在单场对局中，累计追逐{0}秒",
+-      "textId": "CHALLENGE_ChaseSingleTrial_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_BeChasedSingleTrial_TITLE",
+-      "textId": "CHALLENGE_BeChasedSingleTrial_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_BeChasedSingleTrial_DESC",
+-      "textId": "CHALLENGE_BeChasedSingleTrial_DESC"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnDevoutOrUnbrokenIridescent_TITLE",
+-      "textId": "CHALLENGE_EarnDevoutOrUnbrokenIridescent_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnDevoutOrUnbrokenIridescent_DESC",
+-      "textId": "CHALLENGE_EarnDevoutOrUnbrokenIridescent_DESC"
+-    },
+-    {
+-      "text": "获得{0}块荧虹虔诚徽章",
+-      "textId": "CHALLENGE_EarnDevoutIridescent_INFO"
+-    },
+-    {
+-      "text": "获得{0}块荧虹百折不摧徽章",
+-      "textId": "CHALLENGE_EarnUnbrokenIridescent_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_SabotageHook_TITLE",
+-      "textId": "CHALLENGE_SabotageHook_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_SabotageHook_DESC",
+-      "textId": "CHALLENGE_SabotageHook_DESC"
+-    },
+-    {
+-      "text": "破坏{0}个钩子",
+-      "textId": "CHALLENGE_SabotageHook_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnMaliciousOrBenevolentIridescent_TITLE",
+-      "textId": "CHALLENGE_EarnMaliciousOrBenevolentIridescent_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnMaliciousOrBenevolentIridescent_DESC",
+-      "textId": "CHALLENGE_EarnMaliciousOrBenevolentIridescent_DESC"
+-    },
+-    {
+-      "text": "获得{0}块荧虹心狠手辣徽章",
+-      "textId": "CHALLENGE_EarnMaliciousIridescent_INFO"
+-    },
+-    {
+-      "text": "获得{0}块荧虹助人为乐徽章",
+-      "textId": "CHALLENGE_EarnBenevolentIridescent_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_Unhook_TITLE",
+-      "textId": "CHALLENGE_Unhook_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_Unhook_DESC",
+-      "textId": "CHALLENGE_Unhook_DESC"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnEmblemsIridescent_TITLE",
+-      "textId": "CHALLENGE_EarnEmblemsIridescent_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EarnEmblemsIridescent_DESC",
+-      "textId": "CHALLENGE_EarnEmblemsIridescent_DESC"
+-    },
+-    {
+-      "text": "获得{0}块荧虹徽章",
+-      "textId": "CHALLENGE_EarnEmblemsIridescent_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_DownWithStatusEffect_TITLE",
+-      "textId": "CHALLENGE_DownWithStatusEffect_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_DownWithStatusEffect_DESC",
+-      "textId": "CHALLENGE_DownWithStatusEffect_DESC"
+-    },
+-    {
+-      "text": "击倒受到状态效果影响的逃生者，累计{0}名",
+-      "textId": "CHALLENGE_DownWithStatusEffect_INFO"
+     }
+   ]
+ }

@@ -1,0 +1,240 @@
+--- a/archiveQuests/Tome08.json
++++ b/archiveQuests/Tome08.json
+@@ -3689,7 +3689,7 @@
+             "clientInfoId": "RepairCoop",
+             "coordinates": {
+               "x": 40.0,
+-              "y": 23.07692308
++              "y": 23.076923076923077
+             },
+             "neighbors": [
+               "node_T8L4_06",
+@@ -3736,8 +3736,8 @@
+           "node_T8L4_02": {
+             "clientInfoId": "StunBlind",
+             "coordinates": {
+-              "x": 6.666666667,
+-              "y": 23.07692308
++              "x": 6.666666666666667,
++              "y": 23.076923076923077
+             },
+             "neighbors": [
+               "node_T8L4_Start01",
+@@ -3783,8 +3783,8 @@
+           "node_T8L4_03": {
+             "clientInfoId": "SkillCheckSuccessInTerrorRadius",
+             "coordinates": {
+-              "x": 26.66666667,
+-              "y": 23.07692308
++              "x": 26.666666666666668,
++              "y": 23.076923076923077
+             },
+             "neighbors": [
+               "node_T8L4_01",
+@@ -3830,8 +3830,8 @@
+           "node_T8L4_04": {
+             "clientInfoId": "SabotageFinish",
+             "coordinates": {
+-              "x": 66.66666667,
+-              "y": 69.23076923
++              "x": 66.66666666666667,
++              "y": 69.23076923076923
+             },
+             "neighbors": [
+               "node_T8L4_12",
+@@ -3877,7 +3877,7 @@
+           "node_T8L4_05": {
+             "clientInfoId": "UnhookWhoUnhooked",
+             "coordinates": {
+-              "x": 46.66666667,
++              "x": 46.666666666666664,
+               "y": 0.0
+             },
+             "neighbors": [
+@@ -3924,8 +3924,8 @@
+           "node_T8L4_06": {
+             "clientInfoId": "Carry",
+             "coordinates": {
+-              "x": 53.33333333,
+-              "y": 23.07692308
++              "x": 53.333333333333336,
++              "y": 23.076923076923077
+             },
+             "neighbors": [
+               "node_T8L4_07",
+@@ -3972,7 +3972,7 @@
+             "clientInfoId": "Kill",
+             "coordinates": {
+               "x": 60.0,
+-              "y": 46.15384615
++              "y": 46.15384615384615
+             },
+             "neighbors": [
+               "node_T8L4_06",
+@@ -4019,8 +4019,8 @@
+           "node_T8L4_08": {
+             "clientInfoId": "BreakGens",
+             "coordinates": {
+-              "x": 33.33333333,
+-              "y": 46.15384615
++              "x": 33.333333333333336,
++              "y": 46.15384615384615
+             },
+             "neighbors": [
+               "node_T8L4_09",
+@@ -4067,7 +4067,7 @@
+             "clientInfoId": "Chase",
+             "coordinates": {
+               "x": 20.0,
+-              "y": 46.15384615
++              "y": 46.15384615384615
+             },
+             "neighbors": [
+               "node_T8L4_10",
+@@ -4115,7 +4115,7 @@
+             "clientInfoId": "HookConsecutiveDifferent",
+             "coordinates": {
+               "x": 20.0,
+-              "y": 69.23076923
++              "y": 69.23076923076923
+             },
+             "neighbors": [
+               "node_T8L4_09",
+@@ -4161,8 +4161,8 @@
+           "node_T8L4_11": {
+             "clientInfoId": "Hit",
+             "coordinates": {
+-              "x": 86.66666667,
+-              "y": 46.15384615
++              "x": 86.66666666666667,
++              "y": 46.15384615384615
+             },
+             "neighbors": [
+               "node_T8L4_07",
+@@ -4208,8 +4208,8 @@
+           "node_T8L4_12": {
+             "clientInfoId": "EarnEmblemsIridescent",
+             "coordinates": {
+-              "x": 53.33333333,
+-              "y": 69.23076923
++              "x": 53.333333333333336,
++              "y": 69.23076923076923
+             },
+             "neighbors": [
+               "node_T8L4_07",
+@@ -4251,7 +4251,7 @@
+             "clientInfoId": "EarnBloodpoints",
+             "coordinates": {
+               "x": 40.0,
+-              "y": 69.23076923
++              "y": 69.23076923076923
+             },
+             "neighbors": [
+               "node_T8L4_10",
+@@ -4291,8 +4291,8 @@
+           "node_T8L4_14": {
+             "clientInfoId": "StunCarryingWithPowerStruggleInTrial",
+             "coordinates": {
+-              "x": 33.33333333,
+-              "y": 92.30769231
++              "x": 33.333333333333336,
++              "y": 92.3076923076923
+             },
+             "journal": [
+               "Tome08_Observer"
+@@ -4348,7 +4348,7 @@
+             "clientInfoId": "EscapeWithItemRarityAsElodieInTrial",
+             "coordinates": {
+               "x": 80.0,
+-              "y": 69.23076923
++              "y": 69.23076923076923
+             },
+             "journal": [
+               "Tome08_Observer"
+@@ -4380,7 +4380,7 @@
+                 "questEvent": [
+                   {
+                     "operation": ">=",
+-                    "parameters": "instigator:me;ItemRarity:VeryRare",
++                    "parameters": "instigator:me;ItemRarity:UltraRare",
+                     "questEventId": "QuestEvent.EscapeWithItemRarity",
+                     "repetition": 1
+                   }
+@@ -4403,8 +4403,8 @@
+           "node_T8L4_16": {
+             "clientInfoId": "HuntressHitNoHatchetsInTrial",
+             "coordinates": {
+-              "x": 86.66666667,
+-              "y": 92.30769231
++              "x": 86.66666666666667,
++              "y": 92.3076923076923
+             },
+             "journal": [
+               "Tome08_Observer"
+@@ -4460,7 +4460,7 @@
+             "clientInfoId": "HuntressHatchetDistanceHitInTrial",
+             "coordinates": {
+               "x": 60.0,
+-              "y": 92.30769231
++              "y": 92.3076923076923
+             },
+             "journal": [
+               "Tome08_Observer"
+@@ -4515,8 +4515,8 @@
+           "node_T8L4_18": {
+             "clientInfoId": "HitUndetectableWithBeastOfPreyInTrial",
+             "coordinates": {
+-              "x": 73.33333333,
+-              "y": 23.07692308
++              "x": 73.33333333333333,
++              "y": 23.076923076923077
+             },
+             "journal": [
+               "Tome08_Observer"
+@@ -4572,7 +4572,7 @@
+             "clientInfoId": "End",
+             "coordinates": {
+               "x": 100.0,
+-              "y": 69.23076923
++              "y": 69.23076923076923
+             },
+             "neighbors": [
+               "node_T8L4_16",
+@@ -4584,7 +4584,7 @@
+           "node_T8L4_End02": {
+             "clientInfoId": "End",
+             "coordinates": {
+-              "x": 86.66666667,
++              "x": 86.66666666666667,
+               "y": 0.0
+             },
+             "neighbors": [
+@@ -4596,8 +4596,8 @@
+           "node_T8L4_Glyph01": {
+             "clientInfoId": "YellowGlyph",
+             "coordinates": {
+-              "x": 13.33333333,
+-              "y": 92.30769231
++              "x": 13.333333333333334,
++              "y": 92.3076923076923
+             },
+             "neighbors": [
+               "node_T8L4_Start01",
+@@ -4648,7 +4648,7 @@
+           "node_T8L4_Glyph02": {
+             "clientInfoId": "BlueGlyphEscape",
+             "coordinates": {
+-              "x": 66.66666667,
++              "x": 66.66666666666667,
+               "y": 0.0
+             },
+             "neighbors": [
+@@ -4707,7 +4707,7 @@
+             "clientInfoId": "Start",
+             "coordinates": {
+               "x": 0.0,
+-              "y": 46.15384615
++              "y": 46.15384615384615
+             },
+             "neighbors": [
+               "node_T8L4_09",

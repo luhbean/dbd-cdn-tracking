@@ -1235,7 +1235,7 @@
             ]
           },
           "node_T15_L2_03": {
-            "clientInfoId": "BreakPalletsGensInTrial",
+            "clientInfoId": "TrapSurvivorGoInActiveInTrial",
             "coordinates": {
               "x": 90.0,
               "y": 30.0
@@ -1249,24 +1249,30 @@
             ],
             "nodeType": "quest:challenge",
             "objectives": {
-              "BreakPalletsGensInTrial": {
+              "DownAfterClawTrapInTrial": {
                 "conditions": [
                   {
                     "key": "role",
                     "value": [
                       "killer"
                     ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "K31"
+                    ]
                   }
                 ],
                 "incrementWithEventRepetitions": false,
                 "neededProgression": 1,
-                "objectiveId": "BreakPalletsGensInTrial",
+                "objectiveId": "DownAfterClawTrapInTrial",
                 "questEvent": [
                   {
                     "operation": ">=",
-                    "parameters": "instigator:me",
-                    "questEventId": "QuestEvent.BreakPalletsGens",
-                    "repetition": 10
+                    "parameters": "instigator:other",
+                    "questEventId": "QuestEvent.TrapSurvivorGoInActive",
+                    "repetition": 1
                   }
                 ]
               }
@@ -2048,7 +2054,7 @@
                 "specialBehaviours": [
                   {
                     "id": "TitanCoreMemory",
-                    "params": "FragmentsToSpawn:9;FragmentsToCollect:4"
+                    "params": "fragmentsToSpawn:9;fragmentsToCollect:4"
                   }
                 ]
               }

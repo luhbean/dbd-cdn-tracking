@@ -4122,7 +4122,7 @@
             ]
           },
           "node_T16_L4_14": {
-            "clientInfoId": "ConsumeMedkit",
+            "clientInfoId": "Interact90WithItemAddedToMap",
             "coordinates": {
               "x": 70.0,
               "y": 20.0
@@ -4134,7 +4134,7 @@
             ],
             "nodeType": "quest:task",
             "objectives": {
-              "ConsumeMedkit": {
+              "Interact90WithItemAddedToMap": {
                 "conditions": [
                   {
                     "key": "role",
@@ -4144,13 +4144,13 @@
                   }
                 ],
                 "incrementWithEventRepetitions": true,
-                "neededProgression": 5,
-                "objectiveId": "ConsumeMedkit",
+                "neededProgression": 90,
+                "objectiveId": "Interact90WithItemAddedToMap",
                 "questEvent": [
                   {
                     "operation": ">=",
-                    "parameters": "instigator:me;ItemName:Medkit",
-                    "questEventId": "QuestEvent.ConsumeItem",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.InteractWithItemAddedToMap",
                     "repetition": 1
                   }
                 ]

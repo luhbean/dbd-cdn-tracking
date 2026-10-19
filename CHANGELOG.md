@@ -2,6 +2,15 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [8.7.1_2457430live](versions/8.7.1_2457430live/CHANGES.md)
+
+Built 2025-05-20 14:48 UTC · **+0** added · **~4** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/8.7.1_2457430live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/8.7.1_2457430live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.7.1_2457430live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/8.7.1_2457430live/diffs/recommendations.json.diff)
+
 ## [8.7.1_2453999live](versions/8.7.1_2453999live/CHANGES.md)
 
 Built 2025-05-15 17:18 UTC · **+0** added · **~1** modified · **−0** removed

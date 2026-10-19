@@ -2,15 +2,23 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.0.0_2512687live` · built 2025-06-19 14:57 UTC
+**Latest version:** `9.0.0_2513835live` · built 2025-06-19 19:31 UTC
 
-[What changed](versions/9.0.0_2512687live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.0.0_2513835live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **1** modified · **0** removed, compared with `9.0.0_2512407live`.
+**0** added · **9** modified · **0** removed, compared with `9.0.0_2512687live`.
 
-- ~ [`GameConfigs.json`](versions/9.0.0_2512687live/diffs/GameConfigs.json.diff)
+- ~ [`bloodwebGenerationRules.json`](versions/9.0.0_2513835live/diffs/bloodwebGenerationRules.json.diff)
+- ~ [`catalog.json`](versions/9.0.0_2513835live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_en.json`](versions/9.0.0_2513835live/diffs/challengeLocs/challengeText_en.json.diff)
+- ~ [`challengeLocs/challengeText_fr.json`](versions/9.0.0_2513835live/diffs/challengeLocs/challengeText_fr.json.diff)
+- ~ [`challengeSets.json`](versions/9.0.0_2513835live/diffs/challengeSets.json.diff)
+- ~ [`collections.json`](versions/9.0.0_2513835live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.0.0_2513835live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/9.0.0_2513835live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/9.0.0_2513835live/diffs/specialEventsContent.json.diff)
 
 ## Browse
 
@@ -32,7 +40,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-60 versions tracked so far.
+61 versions tracked so far.
 
 ---
 

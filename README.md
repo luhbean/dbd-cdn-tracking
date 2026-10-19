@@ -2,35 +2,18 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `8.6.0_2377854live` · built 2025-04-08 14:07 UTC
+**Latest version:** `8.6.1_2410955live` · built 2025-04-17 12:44 UTC
 
-[What changed](versions/8.6.0_2377854live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/8.6.1_2410955live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**1** added · **18** modified · **6** removed, compared with `8.5.2_2369089live`.
+**0** added · **4** modified · **0** removed, compared with `8.6.0_2377854live`.
 
-- ~ [`GameConfigs.json`](versions/8.6.0_2377854live/diffs/GameConfigs.json.diff)
-- ~ [`GameConfigsDS.json`](versions/8.6.0_2377854live/diffs/GameConfigsDS.json.diff)
-- ~ [`archiveJournals/storyJournals.json`](versions/8.6.0_2377854live/diffs/archiveJournals/storyJournals.json.diff)
-- ~ [`archiveQuests/Tome02.json`](versions/8.6.0_2377854live/diffs/archiveQuests/Tome02.json.diff)
-- ~ [`archiveQuests/Tome03.json`](versions/8.6.0_2377854live/diffs/archiveQuests/Tome03.json.diff)
-- ~ [`archiveQuests/Tome15.json`](versions/8.6.0_2377854live/diffs/archiveQuests/Tome15.json.diff)
-- ~ [`bloodwebGenerationRules.json`](versions/8.6.0_2377854live/diffs/bloodwebGenerationRules.json.diff)
-- ~ [`catalog.json`](versions/8.6.0_2377854live/diffs/catalog.json.diff)
-- ~ [`collections.json`](versions/8.6.0_2377854live/diffs/collections.json.diff)
-- ~ [`contentSchedule.json`](versions/8.6.0_2377854live/diffs/contentSchedule.json.diff)
-- ~ [`coreRituals.json`](versions/8.6.0_2377854live/diffs/coreRituals.json.diff)
-- ~ [`dlcList.json`](versions/8.6.0_2377854live/diffs/dlcList.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/8.6.0_2377854live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`freetoplay/EU/event.json`](versions/8.6.0_2377854live/diffs/freetoplay/EU/event.json.diff)
-- ~ [`freetoplay/NA/event.json`](versions/8.6.0_2377854live/diffs/freetoplay/NA/event.json.diff)
-- ~ [`prestige/prestige.json`](versions/8.6.0_2377854live/diffs/prestige/prestige.json.diff)
-- ~ [`recommendations.json`](versions/8.6.0_2377854live/diffs/recommendations.json.diff)
-- ~ [`specialEventsContent.json`](versions/8.6.0_2377854live/diffs/specialEventsContent.json.diff)
-- \+ [`archiveQuests/Spring2025.json`](versions/8.6.0_2377854live/archiveQuests/Spring2025.json)
-- − `contentMetadata.json`
-- … and 5 more in [CHANGES.md](versions/8.6.0_2377854live/CHANGES.md)
+- ~ [`GameConfigs.json`](versions/8.6.1_2410955live/diffs/GameConfigs.json.diff)
+- ~ [`catalog.json`](versions/8.6.1_2410955live/diffs/catalog.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.6.1_2410955live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/8.6.1_2410955live/diffs/recommendations.json.diff)
 
 ## Browse
 
@@ -52,7 +35,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-18 versions tracked so far.
+19 versions tracked so far.
 
 ---
 

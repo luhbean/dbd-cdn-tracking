@@ -1,0 +1,724 @@
+--- a/recommendations.json
++++ b/recommendations.json
+@@ -510,8 +510,8 @@
+       "activeTo": "2025-07-17T15:00:00",
+       "entries": [
+         {
+-          "entryId": "BouletBrothers",
+-          "type": "Collection",
++          "entryId": "Boulet_Brothers_Bundle",
++          "type": "SpecialPack",
+           "weight": 0
+         },
+         {
+@@ -539,56 +539,144 @@
+       "inclusionVersion": "9.0.0"
+     },
+     {
+-      "activeFrom": "2025-06-26T15:00:00",
+-      "activeTo": "2025-08-05T15:00:00",
++      "activeFrom": "2025-07-17T15:00:00",
++      "activeTo": "2025-07-29T15:00:00",
+       "entries": [
+         {
+-          "entryId": "TheWalkingDead",
++          "entryId": "WaterfrontMassacre",
+           "type": "Collection",
+-          "weight": 10
++          "weight": 0
+         },
+         {
+-          "entryId": "Rift_2_Bundle",
++          "entryId": "Boulet_Brothers_Bundle",
+           "type": "SpecialPack",
+-          "weight": 9
++          "weight": 0
++        },
++        {
++          "entryId": "FNAF",
++          "type": "Collection",
++          "weight": 0
+         },
+         {
+-          "entryId": "WaterfrontMassacre",
++          "entryId": "TwistedMasquerade",
+           "type": "Collection",
+-          "weight": 8
++          "weight": 0
++        },
++        {
++          "entryId": "Rift_1_Bundle",
++          "type": "SpecialPack",
++          "weight": 0
+         }
+       ],
+-      "id": "Lasagna",
+-      "inclusionVersion": "9.0.0"
++      "id": "KetchupW5",
++      "inclusionVersion": "9.0.2"
+     }
+   ],
+   "featuredChapterPackRecommendations": [
+     {
+       "activeFrom": "2023-09-08T00:00:00Z",
+       "activeTo": "2033-09-08T00:00:00Z",
+-      "chapterPacks": [],
+-      "id": "Test"
+-    }
+-  ],
+-  "featuredCharacterRecommendations": [
+-    {
+-      "activeFrom": "2025-04-04T16:00:00Z",
+-      "activeTo": "2033-09-04T00:00:00Z",
+-      "characters": [
++      "chapterPacks": [
++        {
++          "associatedDlcId": "Ketchup",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_FiveNightsAtFreddys.T_UI_ChapterBundle_FiveNightsAtFreddys"
++          },
++          "weight": "0"
++        },
++        {
++          "associatedDlcId": "Jerky",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_SteadyPulse.T_UI_ChapterBundle_SteadyPulse"
++          },
++          "weight": "0"
++        },
++        {
++          "associatedDlcId": "Icecream",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_TokyoGhoul.T_UI_ChapterBundle_TokyoGhoul"
++          },
++          "weight": "0"
++        },
++        {
++          "associatedDlcId": "Gelato",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_DoomedCourse.T_UI_ChapterBundle_DoomedCourse"
++          },
++          "weight": "0"
++        },
++        {
++          "associatedDlcId": "Eclair",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_Castlevania.T_UI_ChapterBundle_Castlevania"
++          },
++          "weight": "0"
++        },
++        {
++          "associatedDlcId": "Donut",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_TombRaider.T_UI_ChapterBundle_TombRaider"
++          },
++          "weight": "0"
++        },
++        {
++          "associatedDlcId": "Churros",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_DungeonsAndDragons.T_UI_ChapterBundle_DungeonsAndDragons"
++          },
++          "weight": "0"
++        },
++        {
++          "associatedDlcId": "ApplePie",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_AllThingsWicked.T_UI_ChapterBundle_AllThingsWicked"
++          },
++          "weight": "0"
++        },
++        {
++          "associatedDlcId": "Zodiac",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_AlanWake.T_UI_ChapterBundle_AlanWake"
++          },
++          "weight": "0"
++        },
++        {
++          "associatedDlcId": "Yerkes",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_Chucky.T_UI_ChapterBundle_Chucky"
++          },
++          "weight": "0"
++        },
+         {
+-          "characterIndex": "47",
++          "associatedDlcId": "Wormhole",
+           "image": {
+-            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Lasagna/S48_MichonneGrimes_Portrait.S48_MichonneGrimes_Portrait"
++            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_Alien.T_UI_ChapterBundle_Alien"
+           },
+           "weight": "0"
+         },
+         {
+-          "characterIndex": "46",
++          "associatedDlcId": "Venus",
+           "image": {
+-            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Lasagna/S47_RickGrimes_Portrait.S47_RickGrimes_Portrait"
++            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_NicolasCage.T_UI_ChapterBundle_NicolasCage"
+           },
+           "weight": "0"
+         },
++        {
++          "associatedDlcId": "Umbra",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_EndTransmission.T_UI_ChapterBundle_EndTransmission"
++          },
++          "weight": "0"
++        }
++      ],
++      "id": "Test"
++    }
++  ],
++  "featuredCharacterRecommendations": [
++    {
++      "activeFrom": "2025-04-04T16:00:00Z",
++      "activeTo": "2033-09-04T00:00:00Z",
++      "characters": [
+         {
+           "characterIndex": "268435495",
+           "image": {
+@@ -963,7 +1051,7 @@
+     },
+     {
+       "activeFrom": "2024-12-12T16:00:00",
+-      "activeTo": "2024-12-17T16:00:00",
++      "activeTo": "2025-01-07T16:00:00",
+       "id": "GelatoW4",
+       "recommendations": [
+         {
+@@ -1019,308 +1107,6 @@
+       ]
+     },
+     {
+-      "activeFrom": "2024-12-17T16:00:00",
+-      "activeTo": "2025-01-07T16:00:00",
+-      "id": "GelatoW5",
+-      "recommendations": [
+-        {
+-          "category": "outfit",
+-          "id": "FM_outfit_036",
+-          "weight": 15
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "KK_outfit_036",
+-          "weight": 14
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K21_outfit_020",
+-          "weight": 13
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S29_outfit_020",
+-          "weight": 12
+-        },
+-        {
+-          "category": "item",
+-          "id": "S41_Torso013",
+-          "weight": 11
+-        },
+-        {
+-          "category": "item",
+-          "id": "S45_Torso008",
+-          "weight": 10
+-        },
+-        {
+-          "category": "item",
+-          "id": "S40_Torso011",
+-          "weight": 9
+-        },
+-        {
+-          "category": "item",
+-          "id": "S42_Torso009",
+-          "weight": 8
+-        },
+-        {
+-          "category": "item",
+-          "id": "S42_Torso010",
+-          "weight": 7
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "TW_outfit_019",
+-          "weight": 25
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "KS_outfit_020",
+-          "weight": 24
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K28_outfit_008",
+-          "weight": 23
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "DK_outfit_017",
+-          "weight": 22
+-        }
+-      ]
+-    },
+-    {
+-      "activeFrom": "2025-01-07T16:00:00",
+-      "activeTo": "2025-01-16T16:00:00",
+-      "id": "GelatoW6",
+-      "recommendations": [
+-        {
+-          "category": "outfit",
+-          "id": "HK_outfit_024",
+-          "weight": 12
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K26_outfit_018",
+-          "weight": 11
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K28_outfit_016",
+-          "weight": 10
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "GS_outfit_034",
+-          "weight": 9
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S25_outfit_028",
+-          "weight": 8
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "SwedenSurvivor_outfit_028",
+-          "weight": 7
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K23_outfit_026",
+-          "weight": 6
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K22_outfit_013",
+-          "weight": 5
+-        }
+-      ]
+-    },
+-    {
+-      "activeFrom": "2025-01-07T16:00:00",
+-      "activeTo": "2025-01-13T16:00:00",
+-      "id": "GelatoW6_2",
+-      "recommendations": [
+-        {
+-          "category": "outfit",
+-          "id": "S45_outfit_006",
+-          "weight": 3
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S45_outfit_006_01",
+-          "weight": 2
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K38_outfit_006",
+-          "weight": 4
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K38_outfit_02",
+-          "weight": 0
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K38_outfit_02_01",
+-          "weight": 0
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S45_outfit_02",
+-          "weight": 0
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S45_outfit_02_01",
+-          "weight": 0
+-        }
+-      ]
+-    },
+-    {
+-      "activeFrom": "2025-01-13T16:00:00",
+-      "activeTo": "2025-01-16T16:00:00",
+-      "id": "GelatoW7",
+-      "recommendations": [
+-        {
+-          "category": "outfit",
+-          "id": "TC_outfit_018",
+-          "weight": 25
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S38_outfit_008",
+-          "weight": 24
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S23_outfit_010",
+-          "weight": 23
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "DF_outfit_029",
+-          "weight": 22
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "CM_outfit_017",
+-          "weight": 21
+-        }
+-      ]
+-    },
+-    {
+-      "activeFrom": "2025-01-16T16:00:00",
+-      "activeTo": "2025-01-22T16:00:00",
+-      "id": "GelatoW8",
+-      "recommendations": [
+-        {
+-          "category": "outfit",
+-          "id": "TC_outfit_018",
+-          "weight": 25
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S38_outfit_008",
+-          "weight": 24
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S23_outfit_010",
+-          "weight": 23
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "DF_outfit_029",
+-          "weight": 22
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "CM_outfit_017",
+-          "weight": 21
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K36_outfit_007",
+-          "weight": 31
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S24_outfit_023",
+-          "weight": 30
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "US_outfit_026",
+-          "weight": 29
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "HS_outfit_026",
+-          "weight": 28
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S37_outfit_018",
+-          "weight": 27
+-        }
+-      ]
+-    },
+-    {
+-      "activeFrom": "2025-01-22T16:00:00",
+-      "activeTo": "2025-01-28T16:00:00",
+-      "id": "GelatoW9",
+-      "recommendations": [
+-        {
+-          "category": "outfit",
+-          "id": "K36_outfit_007",
+-          "weight": 5
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S24_outfit_023",
+-          "weight": 4
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "US_outfit_026",
+-          "weight": 3
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "HS_outfit_026",
+-          "weight": 2
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S37_outfit_018",
+-          "weight": 1
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "DO_outfit_021",
+-          "weight": 9
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K21_outfit_009",
+-          "weight": 8
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "JP_outfit_024",
+-          "weight": 7
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "TR_outfit_023",
+-          "weight": 6
+-        }
+-      ]
+-    },
+-    {
+       "activeFrom": "2025-03-02T15:00:00",
+       "activeTo": "2025-05-15T15:00:00",
+       "id": "JerkyW1",
+@@ -1961,9 +1747,9 @@
+       ]
+     },
+     {
+-      "activeFrom": "2025-07-29T15:00:00",
+-      "activeTo": "2025-08-05T15:00:00",
+-      "id": "LasagnaW1",
++      "activeFrom": "2025-07-17T15:00:00",
++      "activeTo": "2025-07-22T15:00:00",
++      "id": "Ketchup_W5",
+       "recommendations": [
+         {
+           "category": "chapterPack",
+@@ -1972,140 +1758,135 @@
+         },
+         {
+           "category": "outfit",
+-          "id": "S47_outfit_008",
+-          "weight": 50
++          "id": "K26_outfit_021",
++          "weight": 33
+         },
+         {
+           "category": "outfit",
+-          "id": "S47_outfit_006",
+-          "weight": 49
++          "id": "BE_outfit_028",
++          "weight": 32
+         },
+         {
+           "category": "outfit",
+-          "id": "S48_outfit_007",
+-          "weight": 48
++          "id": "S37_outfit_022",
++          "weight": 31
+         },
+         {
+           "category": "outfit",
+-          "id": "S47_outfit_007",
+-          "weight": 47
++          "id": "S31_outfit_023",
++          "weight": 30
+         },
+         {
+           "category": "outfit",
+-          "id": "S48_outfit_006",
+-          "weight": 46
++          "id": "S45_outfit_012",
++          "weight": 29
+         },
+         {
+           "category": "outfit",
+-          "id": "S41_outfit_011",
+-          "weight": 35
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S34_outfit_019",
+-          "weight": 34
++          "id": "S35_outfit_022",
++          "weight": 28
+         },
+         {
+           "category": "outfit",
+-          "id": "GK_outfit_022",
+-          "weight": 33
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K23_outfit_023",
+-          "weight": 32
+-        },
+-        {
+-          "category": "outfit",
+           "id": "K33_outfit_012",
+-          "weight": 31
++          "weight": 38
+         },
+         {
+           "category": "outfit",
+           "id": "S46_outfit_009",
+-          "weight": 30
++          "weight": 37
+         },
+         {
+           "category": "outfit",
+           "id": "S24_outfit_025",
+-          "weight": 29
++          "weight": 36
+         },
+         {
+           "category": "outfit",
+           "id": "AV_outfit_028",
+-          "weight": 28
++          "weight": 35
+         }
+       ]
+     },
+     {
+-      "activeFrom": "2025-08-05T15:00:00",
+-      "activeTo": "2025-08-12T15:00:00",
+-      "id": "LasagnaW2",
++      "activeFrom": "2025-07-22T15:00:00",
++      "activeTo": "2025-07-29T15:00:00",
++      "id": "Ketchup_W6",
+       "recommendations": [
+         {
+           "category": "chapterPack",
+           "id": "Ketchup",
+           "weight": 0
++        },
++        {
++          "category": "outfit",
++          "id": "K26_outfit_021",
++          "weight": 33
++        },
++        {
++          "category": "outfit",
++          "id": "BE_outfit_028",
++          "weight": 32
+         },
+         {
+           "category": "outfit",
+-          "id": "S47_outfit_008",
+-          "weight": 50
++          "id": "S37_outfit_022",
++          "weight": 31
+         },
+         {
+           "category": "outfit",
+-          "id": "S47_outfit_006",
+-          "weight": 49
++          "id": "S31_outfit_023",
++          "weight": 30
+         },
+         {
+           "category": "outfit",
+-          "id": "S48_outfit_007",
+-          "weight": 48
++          "id": "S45_outfit_012",
++          "weight": 29
+         },
+         {
+           "category": "outfit",
+-          "id": "S47_outfit_007",
+-          "weight": 47
++          "id": "S35_outfit_022",
++          "weight": 28
+         },
+         {
+           "category": "outfit",
+-          "id": "S48_outfit_006",
+-          "weight": 46
++          "id": "K33_outfit_012",
++          "weight": 38
+         },
+         {
+           "category": "outfit",
+-          "id": "S41_outfit_011",
+-          "weight": 35
++          "id": "S46_outfit_009",
++          "weight": 37
+         },
+         {
+           "category": "outfit",
+-          "id": "S34_outfit_019",
+-          "weight": 34
++          "id": "S24_outfit_025",
++          "weight": 36
+         },
+         {
+           "category": "outfit",
+-          "id": "GK_outfit_022",
+-          "weight": 33
++          "id": "AV_outfit_028",
++          "weight": 35
+         },
+         {
+           "category": "outfit",
+-          "id": "K23_outfit_023",
+-          "weight": 32
++          "id": "S41_outfit_011",
++          "weight": 43
+         },
+         {
+           "category": "outfit",
+-          "id": "S43_outfit_010",
+-          "weight": 53
++          "id": "S34_outfit_019",
++          "weight": 42
+         },
+         {
+           "category": "outfit",
+-          "id": "S43_outfit_011",
+-          "weight": 52
++          "id": "GK_outfit_022",
++          "weight": 41
+         },
+         {
+           "category": "outfit",
+-          "id": "S43_outfit_009",
+-          "weight": 51
++          "id": "K23_outfit_023",
++          "weight": 40
+         }
+       ]
+     }
+@@ -5322,7 +5103,7 @@
+     },
+     {
+       "activeFrom": "2025-06-26T15:00:00",
+-      "activeTo": "2025-07-17T15:00:00",
++      "activeTo": "2025-07-24T15:00:00",
+       "id": "Anniversary",
+       "recommendations": [
+         {
+@@ -5443,7 +5224,7 @@
+         {
+           "category": "outfit",
+           "id": "K28_outfit_016",
+-          "weight": 0
++          "weight": 2
+         },
+         {
+           "category": "outfit",

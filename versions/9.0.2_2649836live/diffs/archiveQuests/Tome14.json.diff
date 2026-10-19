@@ -1,0 +1,37 @@
+--- a/archiveQuests/Tome14.json
++++ b/archiveQuests/Tome14.json
+@@ -315,7 +315,7 @@
+             ]
+           },
+           "node_T14_L1_06": {
+-            "clientInfoId": "VaultInChaseInTrial",
++            "clientInfoId": "InteractWithItemAddedToMapInTrial",
+             "coordinates": {
+               "x": 30.0,
+               "y": 5.0
+@@ -330,7 +330,7 @@
+             ],
+             "nodeType": "quest:challenge",
+             "objectives": {
+-              "VaultInChaseInTrial": {
++              "InteractWithItemAddedToMapInTrial": {
+                 "conditions": [
+                   {
+                     "key": "role",
+@@ -341,13 +341,13 @@
+                 ],
+                 "incrementWithEventRepetitions": false,
+                 "neededProgression": 1,
+-                "objectiveId": "VaultInChaseInTrial",
++                "objectiveId": "InteractWithItemAddedToMapInTrial",
+                 "questEvent": [
+                   {
+                     "operation": ">=",
+                     "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.VaultInChase",
+-                    "repetition": 2
++                    "questEventId": "QuestEvent.InteractWithItemAddedToMap",
++                    "repetition": 90
+                   }
+                 ]
+               }

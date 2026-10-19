@@ -1,0 +1,48 @@
+--- a/GameConfigs.json
++++ b/GameConfigs.json
+@@ -391,7 +391,6 @@
+       "QuestNotificationAnalytics",
+       "QuestTrackingAnalytics",
+       "ReportAnalytics",
+-      "SpectatingAnalytics",
+       "SubscriptionRewardsAnalytics",
+       "WalesCypherAnalytics"
+     ],
+@@ -697,7 +696,6 @@
+   "enableCrossPromoPopupDisplay": true,
+   "enableDSQuestsUpdate": true,
+   "enableDeniedStateTransition": true,
+-  "enableEncryption": true,
+   "enableFirstMoveAfterForcedUpdates": true,
+   "enableGammaPopup": true,
+   "enableGetUpInteraction": true,
+@@ -920,8 +918,8 @@
+     "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvVHc2Mk5NQ0dtNVVOWjUzeTNaagp0Y1dxRk5jOE83UlRzQ0d2WHNCOWRNRGFqRzFnOTFyUzZEc2hiWTJFNk84MVlRdGlSUGRYcUgzcWVLUjcvdU53CkhwOWVVbWM4NzVPcS9xQldkWldjZEk0V3RmUWM3Z0FrMzR0ZUhhMU10VG1XL3QrVEtVajJBekRjVHZXNkpjcXUKWmdqRzkvSlR2dzM4RzEyQXFjWHZ5K3hFam4zL2ptQ0oxOGZWWWRuQ0I1ZWFEQkFoMFluTzQxaGIyODZDS0pwRwozT25wTHFyeWlzVzFnOTZ1ZWxKQnhVelRydnVKK2JJS2VFSWdqdURobHpaNU4yeW5tbHNodXlRWm15ME50VE14CjNqMlVoSkNtS3JsNTdKMzhnUnpRczJqSDBKT3ExZkhsOEhXMHlUT1dLQVNxbkNqaVp0NG5QUGJVdXpVY1JYcEEKeXdJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+   },
+   "krakenSdkValidation": {
+-    "enabled": false,
+-    "useWhitelist": false,
++    "enabled": true,
++    "useWhitelist": true,
+     "whitelist": [
+       "public-test-internal",
+       "shipping-live-internal"
+@@ -976,11 +974,14 @@
+   },
+   "online": {
+     "hiddenProgressiveQueueDelays": [
+-      0.0,
+-      0.0,
+-      1.0
++      0,
++      0,
++      10,
++      20,
++      40,
++      60
+     ],
+-    "hiddenQueueDelayResetThreshold": 1.0,
++    "hiddenQueueDelayResetThreshold": 300,
+     "randomQueueDelayMax": 30,
+     "randomQueueDelayMin": 10
+   },

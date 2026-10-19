@@ -1,0 +1,34 @@
+--- a/catalog.json
++++ b/catalog.json
+@@ -291239,10 +291239,10 @@
+       {
+         "amount": 1,
+         "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
++          "hasPriorityForPackImageComposition": true,
+           "ignoreOwnership": false,
+-          "includeInOwnership": false,
+-          "includeInPricing": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
+           "type": "Customization"
+         },
+         "id": "VI_011",
+@@ -291252,7 +291252,7 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
+-        "price": 1020
++        "price": 1063
+       }
+     ],
+     "id": "From_The_Rift_Bundle_250729",
+@@ -291262,7 +291262,7 @@
+       "fullPrice": [
+         {
+           "currencyId": "Cells",
+-          "price": 1200
++          "price": 1250
+         }
+       ],
+       "hiddenIfOwned": false,

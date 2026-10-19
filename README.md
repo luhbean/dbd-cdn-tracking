@@ -2,17 +2,17 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `7.7.0_1796729live` · built 2024-05-28 15:33 UTC
+**Latest version:** `8.0.0_1817890live` · built 2024-06-11 15:22 UTC
 
-[What changed](versions/7.7.0_1796729live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/8.0.0_1817890live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**1** added · **2** modified · **0** removed, compared with `7.6.2_1731307live`.
+**0** added · **2** modified · **1** removed, compared with `7.7.0_1796729live`.
 
-- ~ [`GameConfigs.json`](versions/7.7.0_1796729live/diffs/GameConfigs.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/7.7.0_1796729live/diffs/dynamicContent/DynamicContent.json.diff)
-- \+ [`images/T_UI_CollectionBanner_Aftermath.png`](versions/7.7.0_1796729live/images/T_UI_CollectionBanner_Aftermath.png)
+- ~ [`GameConfigs.json`](versions/8.0.0_1817890live/diffs/GameConfigs.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.0.0_1817890live/diffs/dynamicContent/DynamicContent.json.diff)
+- − `images/T_UI_CollectionBanner_Aftermath.png`
 
 ## Browse
 
@@ -34,7 +34,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-6 versions tracked so far.
+7 versions tracked so far.
 
 ---
 

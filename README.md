@@ -2,35 +2,35 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `8.4.2_2231971live` · built 2025-01-21 20:32 UTC
+**Latest version:** `8.5.1_2282865live` · built 2025-02-11 16:07 UTC
 
-[What changed](versions/8.4.2_2231971live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/8.5.1_2282865live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**183** added · **2** modified · **0** removed, compared with `8.3.2_2182351live`.
+**4** added · **14** modified · **5** removed, compared with `8.4.2_2231971live`.
 
-- ~ [`GameConfigs.json`](versions/8.4.2_2231971live/diffs/GameConfigs.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/8.4.2_2231971live/diffs/dynamicContent/DynamicContent.json.diff)
-- \+ [`archiveJournals/storyJournals.json`](versions/8.4.2_2231971live/archiveJournals/storyJournals.json)
-- \+ [`archiveQuests/Anniversary2022.json`](versions/8.4.2_2231971live/archiveQuests/Anniversary2022.json)
-- \+ [`archiveQuests/Anniversary2023.json`](versions/8.4.2_2231971live/archiveQuests/Anniversary2023.json)
-- \+ [`archiveQuests/Anniversary2024.json`](versions/8.4.2_2231971live/archiveQuests/Anniversary2024.json)
-- \+ [`archiveQuests/CalamariV1.json`](versions/8.4.2_2231971live/archiveQuests/CalamariV1.json)
-- \+ [`archiveQuests/CalamariV2.json`](versions/8.4.2_2231971live/archiveQuests/CalamariV2.json)
-- \+ [`archiveQuests/ChocolateBoxGelato.json`](versions/8.4.2_2231971live/archiveQuests/ChocolateBoxGelato.json)
-- \+ [`archiveQuests/ChocolateBoxV1.json`](versions/8.4.2_2231971live/archiveQuests/ChocolateBoxV1.json)
-- \+ [`archiveQuests/DreadByDaylightZodiac.json`](versions/8.4.2_2231971live/archiveQuests/DreadByDaylightZodiac.json)
-- \+ [`archiveQuests/FireflyV1.json`](versions/8.4.2_2231971live/archiveQuests/FireflyV1.json)
-- \+ [`archiveQuests/Halloween2021.json`](versions/8.4.2_2231971live/archiveQuests/Halloween2021.json)
-- \+ [`archiveQuests/Halloween2022.json`](versions/8.4.2_2231971live/archiveQuests/Halloween2022.json)
-- \+ [`archiveQuests/Halloween2023.json`](versions/8.4.2_2231971live/archiveQuests/Halloween2023.json)
-- \+ [`archiveQuests/Halloween2024.json`](versions/8.4.2_2231971live/archiveQuests/Halloween2024.json)
-- \+ [`archiveQuests/Spring2024.json`](versions/8.4.2_2231971live/archiveQuests/Spring2024.json)
-- \+ [`archiveQuests/Summer2023.json`](versions/8.4.2_2231971live/archiveQuests/Summer2023.json)
-- \+ [`archiveQuests/Tome01.json`](versions/8.4.2_2231971live/archiveQuests/Tome01.json)
-- \+ [`archiveQuests/Tome02.json`](versions/8.4.2_2231971live/archiveQuests/Tome02.json)
-- … and 165 more in [CHANGES.md](versions/8.4.2_2231971live/CHANGES.md)
+- ~ [`GameConfigs.json`](versions/8.5.1_2282865live/diffs/GameConfigs.json.diff)
+- ~ [`archiveJournals/storyJournals.json`](versions/8.5.1_2282865live/diffs/archiveJournals/storyJournals.json.diff)
+- ~ [`archiveQuests/Tome02.json`](versions/8.5.1_2282865live/diffs/archiveQuests/Tome02.json.diff)
+- ~ [`archiveRewardData/content.json`](versions/8.5.1_2282865live/diffs/archiveRewardData/content.json.diff)
+- ~ [`bonusPointEventsContent.json`](versions/8.5.1_2282865live/diffs/bonusPointEventsContent.json.diff)
+- ~ [`catalog.json`](versions/8.5.1_2282865live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/8.5.1_2282865live/diffs/collections.json.diff)
+- ~ [`contentMetadata.json`](versions/8.5.1_2282865live/diffs/contentMetadata.json.diff)
+- ~ [`contentSchedule.json`](versions/8.5.1_2282865live/diffs/contentSchedule.json.diff)
+- ~ [`crossPromoCampaigns.json`](versions/8.5.1_2282865live/diffs/crossPromoCampaigns.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.5.1_2282865live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/8.5.1_2282865live/diffs/itemsKillswitch.json.diff)
+- ~ [`recommendations.json`](versions/8.5.1_2282865live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/8.5.1_2282865live/diffs/specialEventsContent.json.diff)
+- \+ [`archiveQuests/CalamariV3.json`](versions/8.5.1_2282865live/archiveQuests/CalamariV3.json)
+- \+ [`archiveQuests/Tome22.json`](versions/8.5.1_2282865live/archiveQuests/Tome22.json)
+- \+ [`archiveRewardGrid/Tome22.json`](versions/8.5.1_2282865live/archiveRewardGrid/Tome22.json)
+- \+ [`dlcList.json`](versions/8.5.1_2282865live/dlcList.json)
+- − `images/T_UI_CollectionBanner_DungeonsAndDragons2.png`
+- − `images/T_UI_SpecialPack_BoneChill2023.png`
+- … and 3 more in [CHANGES.md](versions/8.5.1_2282865live/CHANGES.md)
 
 ## Browse
 
@@ -52,7 +52,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-14 versions tracked so far.
+15 versions tracked so far.
 
 ---
 

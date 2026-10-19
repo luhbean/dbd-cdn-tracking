@@ -1,0 +1,82 @@
+--- a/contentSchedule.json
++++ b/contentSchedule.json
+@@ -13,8 +13,11 @@
+       "MapsWeight": {
+         "Apl_Level_01": "1000",
+         "Asy_Asylum": "750",
++        "Asy_Asylum_Calamari": "0",
+         "Asy_Chapel": "750",
++        "Asy_Chapel_Calamari": "0",
+         "Brl_MaHouse": "750",
++        "Brl_MaHouse_Calamari": "0",
+         "Brl_Temple": "750",
+         "Ecl_Level_01": "750",
+         "Ecl_Level_WestSide": "750",
+@@ -28,12 +31,15 @@
+         "Frm_Cornfield": "500",
+         "Frm_Cornfield_Cake": "0",
+         "Frm_Farmhouse": "500",
++        "Frm_Farmhouse_Calamari": "0",
+         "Frm_Silo": "500",
+         "Frm_Slaughterhouse": "500",
++        "Frm_Slaughterhouse_Calamari": "0",
+         "Glo_Level_01": "750",
+         "Hos_Treatment": "1000",
+         "Hti_Manor": "500",
+         "Hti_Manor02": "500",
++        "Hti_Manor_Calamari": "0",
+         "Hti_Shrine": "500",
+         "Hti_Shrine02": "500",
+         "Ind_CoalTower": "200",
+@@ -44,6 +50,7 @@
+         "Ind_Foundry02": "200",
+         "Ind_Mine": "200",
+         "Ind_Mine02": "200",
++        "Ind_Mine_Calamari": "0",
+         "Ind_Storehouse": "200",
+         "Ind_Storehouse02": "200",
+         "Ion_level_01": "1000",
+@@ -51,6 +58,7 @@
+         "Jnk_GasStation": "500",
+         "Jnk_Lodge": "500",
+         "Jnk_Office": "500",
++        "Jnk_Office_Calamari": "0",
+         "Jnk_Scrapyard": "500",
+         "Jnk_Scrapyard_Cake": "0",
+         "Jnk_Scrapyard_Calamari": "0",
+@@ -66,10 +74,35 @@
+         "Swp_PaleRose": "750",
+         "Uba_Level_01": "1000",
+         "Ukr_Saloon": "1000",
++        "Ukr_Saloon_Calamari": "0",
+         "Wal_Level_01": "1000",
+         "Wrm_Level_01": "1000"
+       },
+       "Priority": "0"
++    },
++    {
++      "Description": "Calamari Map List",
++      "GameModes": [
++        "Calamari"
++      ],
++      "MapsWeight": {
++        "Asy_Asylum_Calamari": "300",
++        "Asy_Chapel_Calamari": "500",
++        "Brl_MaHouse_Calamari": "500",
++        "Ecl_Level03_Calamari": "2500",
++        "Frm_Farmhouse_Calamari": "100",
++        "Frm_Slaughterhouse_Calamari": "300",
++        "Hti_Manor_Calamari": "500",
++        "Hti_Temple_Calamari": "300",
++        "Ind_CoalTower_Calamari": "500",
++        "Ind_Mine_Calamari": "300",
++        "Jnk_GasStation_Calamari": "300",
++        "Jnk_Office_Calamari": "300",
++        "Jnk_Scrapyard_Calamari": "100",
++        "Kny_Chalet_Calamari": "500",
++        "Ukr_Saloon_Calamari": "500"
++      },
++      "Priority": "3"
+     },
+     {
+       "Description": "Firefly Map List",

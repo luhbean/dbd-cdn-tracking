@@ -2,6 +2,32 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [8.5.1_2282865live](versions/8.5.1_2282865live/CHANGES.md)
+
+Built 2025-02-11 16:07 UTC · **+4** added · **~14** modified · **−5** removed
+
+- ~ [`GameConfigs.json`](versions/8.5.1_2282865live/diffs/GameConfigs.json.diff)
+- ~ [`archiveJournals/storyJournals.json`](versions/8.5.1_2282865live/diffs/archiveJournals/storyJournals.json.diff)
+- ~ [`archiveQuests/Tome02.json`](versions/8.5.1_2282865live/diffs/archiveQuests/Tome02.json.diff)
+- ~ [`archiveRewardData/content.json`](versions/8.5.1_2282865live/diffs/archiveRewardData/content.json.diff)
+- ~ [`bonusPointEventsContent.json`](versions/8.5.1_2282865live/diffs/bonusPointEventsContent.json.diff)
+- ~ [`catalog.json`](versions/8.5.1_2282865live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/8.5.1_2282865live/diffs/collections.json.diff)
+- ~ [`contentMetadata.json`](versions/8.5.1_2282865live/diffs/contentMetadata.json.diff)
+- ~ [`contentSchedule.json`](versions/8.5.1_2282865live/diffs/contentSchedule.json.diff)
+- ~ [`crossPromoCampaigns.json`](versions/8.5.1_2282865live/diffs/crossPromoCampaigns.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/8.5.1_2282865live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/8.5.1_2282865live/diffs/itemsKillswitch.json.diff)
+- ~ [`recommendations.json`](versions/8.5.1_2282865live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/8.5.1_2282865live/diffs/specialEventsContent.json.diff)
+- \+ [`archiveQuests/CalamariV3.json`](versions/8.5.1_2282865live/archiveQuests/CalamariV3.json)
+- \+ [`archiveQuests/Tome22.json`](versions/8.5.1_2282865live/archiveQuests/Tome22.json)
+- \+ [`archiveRewardGrid/Tome22.json`](versions/8.5.1_2282865live/archiveRewardGrid/Tome22.json)
+- \+ [`dlcList.json`](versions/8.5.1_2282865live/dlcList.json)
+- − `images/T_UI_CollectionBanner_DungeonsAndDragons2.png`
+- − `images/T_UI_SpecialPack_BoneChill2023.png`
+- … and 3 more in [CHANGES.md](versions/8.5.1_2282865live/CHANGES.md)
+
 ## [8.4.2_2231971live](versions/8.4.2_2231971live/CHANGES.md)
 
 Built 2025-01-21 20:32 UTC · **+183** added · **~2** modified · **−0** removed

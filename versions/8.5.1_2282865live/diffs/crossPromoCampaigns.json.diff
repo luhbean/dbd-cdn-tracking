@@ -1,0 +1,128 @@
+--- a/crossPromoCampaigns.json
++++ b/crossPromoCampaigns.json
+@@ -2,7 +2,7 @@
+   "Campaigns": {
+     "DBD-Store-Promo": {
+       "activeFromDate": "2024-10-26T16:30:00",
+-      "activeToDate": "2024-12-12T16:00:00",
++      "activeToDate": "2024-12-10T16:00:00",
+       "campaignId": "DBD-Store-Promo",
+       "daysBetweenViews": 3,
+       "inclusionVersion": "8.4.0",
+@@ -364,10 +364,10 @@
+       }
+     },
+     "DBD-Store-Promo_2": {
+-      "activeFromDate": "2024-12-12T16:00:00",
+-      "activeToDate": "2025-12-12T16:00:00",
++      "activeFromDate": "2024-12-10T16:00:00",
++      "activeToDate": "2025-12-10T16:00:00",
+       "campaignId": "DBD-Store-Promo_2",
+-      "daysBetweenViews": 90,
++      "daysBetweenViews": 7,
+       "inclusionVersion": "8.4.0",
+       "maxViews": 50,
+       "message": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"607AA67841910F2602C538AFA38C2439\", \"DBD_STORE_PROMO_MESSAGE_NODISCOUNT\")",
+@@ -724,102 +724,6 @@
+         "tr": "Dead by Daylight Resmi Mağazası",
+         "zh-Hans": "《黎明杀机》官方商店",
+         "zh-Hant": "《黎明死線》官方商店"
+-      }
+-    },
+-    "DevVideoTest": {
+-      "activeFromDate": "1024-07-16T15:00:00",
+-      "activeToDate": "1024-07-17T15:00:00",
+-      "campaignId": "DevVideoTest",
+-      "daysBetweenViews": 1,
+-      "inclusionVersion": "8.2.0",
+-      "maxViews": 1,
+-      "message": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"4E713B8341BABE7ADBC5A1A9419AF09B\", \"The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display\")",
+-      "messageTranslations": {
+-        "de": "@#The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display",
+-        "en": "@#The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display",
+-        "es": "@#The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display",
+-        "es-MX": "@#The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display",
+-        "fr": "@#The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display",
+-        "it": "@#The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display",
+-        "ja": "@#The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display",
+-        "ko": "@#The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display",
+-        "pl": "@#The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display",
+-        "pt-BR": "@#The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display",
+-        "ru": "@#The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display",
+-        "th": "@#The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display",
+-        "tr": "@#The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display",
+-        "zh-Hans": "@#The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display",
+-        "zh-Hant": "@#The goal of this campaign is to test the video support capabilities of the cross-promo campaign pop-up display"
+-      },
+-      "platformSpecificContent": {
+-        "steam": {
+-          "buttonLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"CCF241ED4254293E26FC80BA5E718228\", \"A button\")",
+-          "buttonLabelTranslations": {
+-            "de": "@#A button",
+-            "en": "@#A button",
+-            "es": "@#A button",
+-            "es-MX": "@#A button",
+-            "fr": "@#A button",
+-            "it": "@#A button",
+-            "ja": "@#A button",
+-            "ko": "@#A button",
+-            "pl": "@#A button",
+-            "pt-BR": "@#A button",
+-            "ru": "@#A button",
+-            "th": "@#A button",
+-            "tr": "@#A button",
+-            "zh-Hans": "@#A button",
+-            "zh-Hant": "@#A button"
+-          },
+-          "imagesURI": [
+-            "/Game/UI/UMGAssets/Icons/Marketing/BhvrAccountQRCode.BhvrAccountQRCode"
+-          ],
+-          "instructionText": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"3CFDEC384259269E2AF3DCAE0187D821\", \"The instructions\")",
+-          "instructionTextTranslations": {
+-            "de": "@#The instructions",
+-            "en": "@#The instructions",
+-            "es": "@#The instructions",
+-            "es-MX": "@#The instructions",
+-            "fr": "@#The instructions",
+-            "it": "@#The instructions",
+-            "ja": "@#The instructions",
+-            "ko": "@#The instructions",
+-            "pl": "@#The instructions",
+-            "pt-BR": "@#The instructions",
+-            "ru": "@#The instructions",
+-            "th": "@#The instructions",
+-            "tr": "@#The instructions",
+-            "zh-Hans": "@#The instructions",
+-            "zh-Hant": "@#The instructions"
+-          },
+-          "keyArtImagePath": "/Engine/EngineResources/DefaultVolumeTexture2D.DefaultVolumeTexture2D",
+-          "linkType": "ECrossPromoMediaResourceLinkType::External",
+-          "linkURI": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+-          "videosURI": [
+-            "/Game/Movies/MoriPreview/K01_018_Mori.K01_018_Mori"
+-          ]
+-        }
+-      },
+-      "segmentationTags": [
+-        "steam"
+-      ],
+-      "title": "INVTEXT(\"A DEV test promo campaign\")",
+-      "titleTranslations": {
+-        "de": "A DEV test promo campaign",
+-        "en": "A DEV test promo campaign",
+-        "es": "A DEV test promo campaign",
+-        "es-MX": "A DEV test promo campaign",
+-        "fr": "A DEV test promo campaign",
+-        "it": "A DEV test promo campaign",
+-        "ja": "A DEV test promo campaign",
+-        "ko": "A DEV test promo campaign",
+-        "pl": "A DEV test promo campaign",
+-        "pt-BR": "A DEV test promo campaign",
+-        "ru": "A DEV test promo campaign",
+-        "th": "A DEV test promo campaign",
+-        "tr": "A DEV test promo campaign",
+-        "zh-Hans": "A DEV test promo campaign",
+-        "zh-Hant": "A DEV test promo campaign"
+       }
+     },
+     "Launch001-2024-09-03": {

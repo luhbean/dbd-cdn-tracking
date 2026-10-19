@@ -392,6 +392,7 @@
       "ClientLogoutAnalytics",
       "CustomerSupportAnalytics",
       "CustomerSupportClientLoginAnalytics",
+      "CustomizationAuditAnalytics",
       "DDoSDetectionAnalytics",
       "DisconnectionAnalytics",
       "EACClientAuthChallengeAnalytics",
@@ -569,6 +570,22 @@
       {
         "address": "https://gamelift.us-west-2.amazonaws.com/ping",
         "regionId": "us-west-2"
+      },
+      {
+        "address": "https://gamelift.us-east-2.amazonaws.com/ping",
+        "regionId": "us-east-2"
+      },
+      {
+        "address": "https://gamelift.ca-central-1.amazonaws.com/ping",
+        "regionId": "ca-central-1"
+      },
+      {
+        "address": "https://gamelift.us-west-1.amazonaws.com/ping",
+        "regionId": "us-west-1"
+      },
+      {
+        "address": "https://gamelift.eu-west-2.amazonaws.com/ping",
+        "regionId": "eu-west-2"
       }
     ],
     "endpointsUDP": [
@@ -621,6 +638,31 @@
         "address": "gamelift-ping.us-west-2.api.aws",
         "port": 7770,
         "regionId": "us-west-2"
+      },
+      {
+        "address": "gamelift-ping.us-east-2.api.aws",
+        "port": 7770,
+        "regionId": "us-east-2"
+      },
+      {
+        "address": "gamelift-ping.ca-central-1.api.aws",
+        "port": 7770,
+        "regionId": "ca-central-1"
+      },
+      {
+        "address": "gamelift-ping.us-west-1.api.aws",
+        "port": 7770,
+        "regionId": "us-west-1"
+      },
+      {
+        "address": "gamelift-ping.eu-west-2.api.aws",
+        "port": 7770,
+        "regionId": "eu-west-2"
+      },
+      {
+        "address": "gamelift-ping.ap-south-1.api.aws",
+        "port": 7770,
+        "regionId": "ap-south-1"
       }
     ],
     "latencyRetryCooldownSeconds": 600.0,
@@ -634,286 +676,6 @@
     "enableDisconnectionBotReplacement": true,
     "replacementBotRank": 15,
     "usePlayerRankForReplacementBot": false
-  },
-  "dlc": {
-    "dlcAdditionalInfo": [
-      {
-        "dlcId": "development",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "BaseGame",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "80suitcase",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "bloodletting",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "bloodstainedSack",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "charityChest",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "GStar2017",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "ChineseEventOct2017",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "DeathGarden",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "Kabuki",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "StoreItem",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "Pulcinella",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "UmbraCust1",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "UmbraCust2",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "headCase",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "OrionCust",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "lastBreath",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "WalesCust",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "EpicBrillFreeWeek",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "EpicBrillGeneral",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "EpicSilentHillEdition",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "EpicUltimateEdition",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "ACPack_01",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "ACPack_02",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "ACPack_03",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "ACPack_04",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "ACPack_05",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "dlcId": "ACPack_06",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "availableStartDate": "2024-01-08T11:00:00",
-        "dlcId": "HeritagePack1",
-        "isChapterDlc": "false"
-      },
-      {
-        "availableStartDate": "2024-01-08T11:00:00",
-        "dlcId": "HeritagePack2",
-        "isChapterDlc": "false"
-      },
-      {
-        "availableStartDate": "2024-01-08T11:00:00",
-        "dlcId": "HeritagePack3",
-        "isChapterDlc": "false"
-      },
-      {
-        "availableStartDate": "2024-05-14T11:00:00",
-        "dlcId": "HeritagePack4",
-        "isChapterDlc": "false"
-      },
-      {
-        "availableEndDate": "2024-01-08T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "fleshAndMud"
-      },
-      {
-        "availableEndDate": "2024-01-08T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "sparkofMadness"
-      },
-      {
-        "availableEndDate": "2024-01-08T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "Guam"
-      },
-      {
-        "availableEndDate": "2024-01-08T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "Haiti"
-      },
-      {
-        "availableEndDate": "2024-01-08T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "Kenya"
-      },
-      {
-        "availableEndDate": "2024-01-08T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "Mali"
-      },
-      {
-        "availableEndDate": "2024-01-08T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "Sweden"
-      },
-      {
-        "availableEndDate": "2024-01-08T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "Ukraine"
-      },
-      {
-        "availableEndDate": "2024-01-08T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "Yemen"
-      },
-      {
-        "availableEndDate": "2024-01-08T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "Aurora"
-      },
-      {
-        "availableEndDate": "2024-01-08T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "Comet"
-      },
-      {
-        "availableEndDate": "2024-01-08T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "Hubble"
-      },
-      {
-        "availableEndDate": "2024-05-14T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "Ion"
-      },
-      {
-        "availableEndDate": "2024-05-14T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "Meteor"
-      },
-      {
-        "availableEndDate": "2024-05-14T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "Quantum"
-      },
-      {
-        "availableEndDate": "2024-05-14T11:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "Saturn"
-      },
-      {
-        "availableEndDate": "2023-07-18T14:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "UmbraCust1",
-        "isChapterDlc": "false"
-      },
-      {
-        "availableEndDate": "2023-07-18T14:00:00",
-        "availableStartDate": "2020-01-01T01:00:00",
-        "dlcId": "UmbraCust2",
-        "isChapterDlc": "false"
-      },
-      {
-        "availableStartDate": "2023-07-25T01:00:00",
-        "dlcId": "Venus"
-      },
-      {
-        "availableStartDate": "2023-08-29T01:00:00",
-        "dlcId": "Wormhole"
-      },
-      {
-        "availableStartDate": "2023-11-28T01:00:00",
-        "dlcId": "Yerkes"
-      },
-      {
-        "availableStartDate": "2024-06-03T11:00:00",
-        "dlcId": "ChurrosCust",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      },
-      {
-        "availableStartDate": "2024-07-16T16:00:00",
-        "dlcId": "DonutCust",
-        "isChapterDlc": "false",
-        "isShownInGameStore": false
-      }
-    ]
   },
   "dynamicContent": {
     "DynamicContentKillswitchPlatforms": []
@@ -953,6 +715,9 @@
   ],
   "enableUmgStore": true,
   "enableWinGDKAccountMismatchPopup": true,
+  "entitlementConfig": {
+    "scopeEntitlementLeniencySec": 900
+  },
   "friendsList": {
     "maxFriendSuggestionsFacebook": 4,
     "maxFriendSuggestionsGoogle": 4,
@@ -1151,6 +916,9 @@
       "public-test-internal",
       "shipping-live-internal"
     ]
+  },
+  "lobbyBot": {
+    "enableBotfill": true
   },
   "marketing": {},
   "match": {

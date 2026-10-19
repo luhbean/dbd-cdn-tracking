@@ -502,7 +502,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
-                    "parameters": "target:other",
+                    "parameters": "instigator:me;target:other",
                     "questEventId": "QuestEvent.Kill",
                     "repetition": 1
                   }
@@ -550,7 +550,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
-                    "parameters": "target:other",
+                    "parameters": "instigator:me;target:other",
                     "questEventId": "QuestEvent.Hook",
                     "repetition": 1
                   }
@@ -1208,8 +1208,8 @@
           "nodeEnd": {
             "clientInfoId": "End",
             "coordinates": {
-              "x": 93.33333333333333,
-              "y": 73.84615384615384
+              "x": 93.33333333,
+              "y": 73.84615385
             },
             "neighbors": [
               "node_L2_10",
@@ -1220,8 +1220,8 @@
           "nodeStart": {
             "clientInfoId": "Start",
             "coordinates": {
-              "x": 8.88888888888889,
-              "y": 50.76923076923077
+              "x": 8.888888889,
+              "y": 50.76923077
             },
             "neighbors": [
               "node_L2_11",
@@ -1232,8 +1232,8 @@
           "node_L2_01": {
             "clientInfoId": "EarnEmblemsSilver",
             "coordinates": {
-              "x": 62.22222222222222,
-              "y": 73.84615384615384
+              "x": 62.22222222,
+              "y": 73.84615385
             },
             "neighbors": [
               "node_L2_05",
@@ -1274,8 +1274,8 @@
           "node_L2_02": {
             "clientInfoId": "EarnEmblemsEvader",
             "coordinates": {
-              "x": 35.55555555555556,
-              "y": 27.692307692307693
+              "x": 35.55555556,
+              "y": 27.69230769
             },
             "neighbors": [
               "node_L2_14",
@@ -1322,8 +1322,8 @@
           "node_L2_03": {
             "clientInfoId": "Stun",
             "coordinates": {
-              "x": 62.22222222222222,
-              "y": 27.692307692307693
+              "x": 62.22222222,
+              "y": 27.69230769
             },
             "neighbors": [
               "node_L2_05",
@@ -1370,8 +1370,8 @@
           "node_L2_04": {
             "clientInfoId": "Escape",
             "coordinates": {
-              "x": 48.888888888888886,
-              "y": 27.692307692307693
+              "x": 48.88888889,
+              "y": 27.69230769
             },
             "neighbors": [
               "node_L2_15",
@@ -1418,8 +1418,8 @@
           "node_L2_05": {
             "clientInfoId": "AddItemToMap",
             "coordinates": {
-              "x": 62.22222222222222,
-              "y": 50.76923076923077
+              "x": 62.22222222,
+              "y": 50.76923077
             },
             "neighbors": [
               "node_L2_14",
@@ -1467,8 +1467,8 @@
           "node_L2_06": {
             "clientInfoId": "Unhook",
             "coordinates": {
-              "x": 75.55555555555556,
-              "y": 27.692307692307693
+              "x": 75.55555556,
+              "y": 27.69230769
             },
             "neighbors": [
               "node_L2_03",
@@ -1514,8 +1514,8 @@
           "node_L2_07": {
             "clientInfoId": "EscapeChase",
             "coordinates": {
-              "x": 82.22222222222223,
-              "y": 50.76923076923077
+              "x": 82.22222222,
+              "y": 50.76923077
             },
             "neighbors": [
               "node_L2_05",
@@ -1562,7 +1562,7 @@
             "clientInfoId": "Repair",
             "coordinates": {
               "x": 20.0,
-              "y": 27.692307692307693
+              "y": 27.69230769
             },
             "neighbors": [
               "node_L2_02",
@@ -1608,8 +1608,8 @@
           "node_L2_09": {
             "clientInfoId": "EarnEmblemsChaser",
             "coordinates": {
-              "x": 42.22222222222222,
-              "y": 73.84615384615384
+              "x": 42.22222222,
+              "y": 73.84615385
             },
             "neighbors": [
               "node_L2_11",
@@ -1655,8 +1655,8 @@
           "node_L2_10": {
             "clientInfoId": "SacrificeEndgame",
             "coordinates": {
-              "x": 75.55555555555556,
-              "y": 73.84615384615384
+              "x": 75.55555556,
+              "y": 73.84615385
             },
             "neighbors": [
               "nodeEnd",
@@ -1679,7 +1679,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
-                    "parameters": "target:other",
+                    "parameters": "instigator:me;target:other",
                     "questEventId": "QuestEvent.SacrificeEndgame",
                     "repetition": 1
                   }
@@ -1702,8 +1702,8 @@
           "node_L2_11": {
             "clientInfoId": "Scream",
             "coordinates": {
-              "x": 28.88888888888889,
-              "y": 50.76923076923077
+              "x": 28.88888889,
+              "y": 50.76923077
             },
             "neighbors": [
               "node_L2_09",
@@ -1749,8 +1749,8 @@
           "node_L2_12": {
             "clientInfoId": "EscapeAsDavidKingInTrial",
             "coordinates": {
-              "x": 75.55555555555556,
-              "y": 4.615384615384615
+              "x": 75.55555556,
+              "y": 4.615384615
             },
             "journal": [
               "Tome02_King"
@@ -1804,8 +1804,8 @@
           "node_L2_13": {
             "clientInfoId": "EscapeWithNoMitherInTrial",
             "coordinates": {
-              "x": 62.22222222222222,
-              "y": 4.615384615384615
+              "x": 62.22222222,
+              "y": 4.615384615
             },
             "journal": [
               "Tome02_King"
@@ -1860,8 +1860,8 @@
           "node_L2_14": {
             "clientInfoId": "StunHeadOnInTrial",
             "coordinates": {
-              "x": 48.888888888888886,
-              "y": 50.76923076923077
+              "x": 48.88888889,
+              "y": 50.76923077
             },
             "journal": [
               "Tome02_Jane"
@@ -1916,8 +1916,8 @@
           "node_L2_15": {
             "clientInfoId": "ProtectionHitInTrial",
             "coordinates": {
-              "x": 48.888888888888886,
-              "y": 4.615384615384615
+              "x": 48.88888889,
+              "y": 4.615384615
             },
             "journal": [
               "Tome02_King"
@@ -1967,7 +1967,7 @@
             "clientInfoId": "BreakPalletsWithSpiritFuryInTrial",
             "coordinates": {
               "x": 80.0,
-              "y": 96.92307692307692
+              "y": 96.92307692
             },
             "journal": [
               "Tome02_Spirit"
@@ -2022,8 +2022,8 @@
           "node_L2_17": {
             "clientInfoId": "DoctorInflictMadnessDifferentInTrial",
             "coordinates": {
-              "x": 15.555555555555555,
-              "y": 73.84615384615384
+              "x": 15.55555556,
+              "y": 73.84615385
             },
             "journal": [
               "Tome02_Doctor"
@@ -2055,7 +2055,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
-                    "parameters": "target:other",
+                    "parameters": "instigator:me;target:other",
                     "questEventId": "QuestEvent.DoctorInflictMadnessDifferent",
                     "repetition": 4
                   }
@@ -2078,8 +2078,8 @@
           "node_L2_18": {
             "clientInfoId": "MoriObsessionWithRancorInTrial",
             "coordinates": {
-              "x": 68.88888888888889,
-              "y": 96.92307692307692
+              "x": 68.88888889,
+              "y": 96.92307692
             },
             "journal": [
               "Tome02_Spirit"
@@ -2133,8 +2133,8 @@
           "node_L2_19": {
             "clientInfoId": "ChaseEachSurvivorWithMonitorAndAbuseInTrial",
             "coordinates": {
-              "x": 28.88888888888889,
-              "y": 73.84615384615384
+              "x": 28.88888889,
+              "y": 73.84615385
             },
             "journal": [
               "Tome02_Doctor"
@@ -2188,8 +2188,8 @@
           "node_L2_20": {
             "clientInfoId": "EscapeAsJaneInTrial",
             "coordinates": {
-              "x": 88.88888888888889,
-              "y": 27.692307692307693
+              "x": 88.88888889,
+              "y": 27.69230769
             },
             "journal": [
               "Tome02_Jane"
@@ -2243,8 +2243,8 @@
           "node_L2_21": {
             "clientInfoId": "HookInTrial",
             "coordinates": {
-              "x": 4.444444444444445,
-              "y": 73.84615384615384
+              "x": 4.444444444,
+              "y": 73.84615385
             },
             "journal": [
               "Tome02_Doctor"
@@ -2269,6 +2269,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
+                    "parameters": "instigator:me",
                     "questEventId": "QuestEvent.Hook",
                     "repetition": 5
                   }
@@ -2291,8 +2292,8 @@
           "node_L2_22": {
             "clientInfoId": "GrabInTrial",
             "coordinates": {
-              "x": 93.33333333333333,
-              "y": 96.92307692307692
+              "x": 93.33333333,
+              "y": 96.92307692
             },
             "journal": [
               "Tome02_Spirit"
@@ -2317,6 +2318,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
+                    "parameters": "instigator:me",
                     "questEventId": "QuestEvent.Grab",
                     "repetition": 1
                   }
@@ -2804,6 +2806,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
+                    "parameters": "instigator:me",
                     "questEventId": "QuestEvent.SacrificeEndgame",
                     "repetition": 1
                   }
@@ -2852,7 +2855,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
-                    "parameters": "target:other",
+                    "parameters": "instigator:me;target:other",
                     "questEventId": "QuestEvent.Down",
                     "repetition": 1
                   }
@@ -3134,6 +3137,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
+                    "parameters": "instigator:me",
                     "questEventId": "QuestEvent.DoctorInflictMadness3",
                     "repetition": 3
                   }
@@ -3239,6 +3243,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
+                    "parameters": "instigator:me",
                     "questEventId": "QuestEvent.SpiritHitPostPhase",
                     "repetition": 2
                   }
@@ -3294,6 +3299,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
+                    "parameters": "instigator:me",
                     "questEventId": "QuestEvent.Down",
                     "repetition": 5
                   }
@@ -3343,6 +3349,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
+                    "parameters": "instigator:me",
                     "questEventId": "QuestEvent.Hook",
                     "repetition": 6
                   }
@@ -3806,6 +3813,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
+                    "parameters": "instigator:me",
                     "questEventId": "QuestEvent.EarnBloodpoints",
                     "repetition": 1
                   }
@@ -4675,7 +4683,7 @@
                 "questEvent": [
                   {
                     "operation": ">=",
-                    "parameters": "target:other",
+                    "parameters": "instigator:me;target:other",
                     "questEventId": "QuestEvent.Down",
                     "repetition": 8
                   }

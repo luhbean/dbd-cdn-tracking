@@ -1,10 +1,10 @@
-# Latest live content · 9.6.2_3336889live
+# Latest live content · 9.6.0_3339702live
 
-Built 2026-05-12 13:38 UTC · [what changed in this version](../versions/9.6.2_3336889live/CHANGES.md) · [← back](../README.md)
+Built 2026-05-12 14:04 UTC · [what changed in this version](../versions/9.6.0_3339702live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (5)](#images) · [Game data (97)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (10)](#images) · [Game data (97)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -15,8 +15,13 @@ This folder always holds the newest version. Its commit history shows every chan
 ## Images
 
 <p>
-<a href="images/T_UI_CollectionBanner_DarkOvergrowth.png"><img src="images/T_UI_CollectionBanner_DarkOvergrowth.png" alt="T_UI_CollectionBanner_DarkOvergrowth.png" title="T_UI_CollectionBanner_DarkOvergrowth.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_DarkOvergrowth.png"><img src="images/T_UI_SpecialPack_DarkOvergrowth.png" alt="T_UI_SpecialPack_DarkOvergrowth.png" title="T_UI_SpecialPack_DarkOvergrowth.png" width="200"></a>
+<a href="images/T_UI_CollectionBanner_Aliens_Hudson.png"><img src="images/T_UI_CollectionBanner_Aliens_Hudson.png" alt="T_UI_CollectionBanner_Aliens_Hudson.png" title="T_UI_CollectionBanner_Aliens_Hudson.png" width="200"></a>
+<a href="images/T_UI_CollectionBanner_AoT_2.png"><img src="images/T_UI_CollectionBanner_AoT_2.png" alt="T_UI_CollectionBanner_AoT_2.png" title="T_UI_CollectionBanner_AoT_2.png" width="200"></a>
+<a href="images/T_UI_CollectionBanner_SeoulSights_Kwon.png"><img src="images/T_UI_CollectionBanner_SeoulSights_Kwon.png" alt="T_UI_CollectionBanner_SeoulSights_Kwon.png" title="T_UI_CollectionBanner_SeoulSights_Kwon.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Aliens_Hudson.png"><img src="images/T_UI_SpecialPack_Aliens_Hudson.png" alt="T_UI_SpecialPack_Aliens_Hudson.png" title="T_UI_SpecialPack_Aliens_Hudson.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_AoT_2.png"><img src="images/T_UI_SpecialPack_AoT_2.png" alt="T_UI_SpecialPack_AoT_2.png" title="T_UI_SpecialPack_AoT_2.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Rift5.png"><img src="images/T_UI_SpecialPack_Rift5.png" alt="T_UI_SpecialPack_Rift5.png" title="T_UI_SpecialPack_Rift5.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_SeoulSights_Kwon.png"><img src="images/T_UI_SpecialPack_SeoulSights_Kwon.png" alt="T_UI_SpecialPack_SeoulSights_Kwon.png" title="T_UI_SpecialPack_SeoulSights_Kwon.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_GenQuest1.png"><img src="images/T_UI_Tutorial_ImageBG_GenQuest1.png" alt="T_UI_Tutorial_ImageBG_GenQuest1.png" title="T_UI_Tutorial_ImageBG_GenQuest1.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_cosmetic.png"><img src="images/T_UI_Tutorial_ImageBG_cosmetic.png" alt="T_UI_Tutorial_ImageBG_cosmetic.png" title="T_UI_Tutorial_ImageBG_cosmetic.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_gift.png"><img src="images/T_UI_Tutorial_ImageBG_gift.png" alt="T_UI_Tutorial_ImageBG_gift.png" title="T_UI_Tutorial_ImageBG_gift.png" width="200"></a>

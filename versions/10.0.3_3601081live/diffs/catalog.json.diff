@@ -1,0 +1,33 @@
+--- a/catalog.json
++++ b/catalog.json
+@@ -45224,6 +45224,12 @@
+       "item"
+     ],
+     "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 120
++      }
++    ],
+     "eventCostList": [],
+     "id": "EC_BDG_05",
+     "metaData": {
+@@ -395813,7 +395819,7 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
+-        "price": 1770
++        "price": 1842
+       }
+     ],
+     "id": "Recurring_Dev_Bundle_260728",
+@@ -395824,7 +395830,7 @@
+       "fullPrice": [
+         {
+           "currencyId": "Cells",
+-          "price": 2950
++          "price": 3070
+         }
+       ],
+       "hiddenIfOwned": false,

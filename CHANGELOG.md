@@ -2,6 +2,16 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.2.2_2802910live](versions/9.2.2_2802910live/CHANGES.md)
+
+Built 2025-10-15 14:57 UTC · **+0** added · **~5** modified · **−0** removed
+
+- ~ [`archiveQuests/Tome08.json`](versions/9.2.2_2802910live/diffs/archiveQuests/Tome08.json.diff)
+- ~ [`challengeLocs/challengeText_fr.json`](versions/9.2.2_2802910live/diffs/challengeLocs/challengeText_fr.json.diff)
+- ~ [`challengeLocs/challengeText_ja.json`](versions/9.2.2_2802910live/diffs/challengeLocs/challengeText_ja.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.2.2_2802910live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/9.2.2_2802910live/diffs/itemsKillswitch.json.diff)
+
 ## [9.2.2_2801235live](versions/9.2.2_2801235live/CHANGES.md)
 
 Built 2025-10-14 14:23 UTC · **+0** added · **~5** modified · **−0** removed

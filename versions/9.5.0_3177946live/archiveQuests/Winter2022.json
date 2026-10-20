@@ -1,0 +1,1757 @@
+{
+  "Winter2022": {
+    "level": [
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_WIN1_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 10,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "QU_004",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_WIN1_01": {
+            "clientInfoId": "WinterEventRepairFinish",
+            "coordinates": {
+              "x": 10.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_WIN1_Start01",
+              "node_WIN1_02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "WinterEventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "WinterEventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.WinterEventRepairFinish",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN1_02": {
+            "clientInfoId": "Unhook",
+            "coordinates": {
+              "x": 25.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_WIN1_01",
+              "node_WIN1_Reward01",
+              "node_WIN1_14"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Unhook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "Unhook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Unhook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN1_03": {
+            "clientInfoId": "HealOther",
+            "coordinates": {
+              "x": 60.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_WIN1_04",
+              "node_WIN1_13",
+              "node_WIN1_06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HealOtherPerc": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 200,
+                "objectiveId": "HealOtherPerc",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;target:other",
+                    "questEventId": "QuestEvent.Heal",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN1_04": {
+            "clientInfoId": "CleanseFinish",
+            "coordinates": {
+              "x": 45.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_WIN1_14",
+              "node_WIN1_Reward02",
+              "node_WIN1_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CleanseFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "CleanseFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CleanseFinish",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN1_05": {
+            "clientInfoId": "EscapeChase",
+            "coordinates": {
+              "x": 80.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_WIN1_Reward07",
+              "node_WIN1_13",
+              "node_WIN1_Reward06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EscapeChase": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "EscapeChase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EscapeChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN1_06": {
+            "clientInfoId": "SnowmenHitSurvivor",
+            "coordinates": {
+              "x": 65.0,
+              "y": 0.0
+            },
+            "neighbors": [
+              "node_WIN1_03",
+              "node_WIN1_Reward06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SnowmenHitSurvivor": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 1,
+                "objectiveId": "SnowmenHitSurvivor",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SnowmenHitSurvivor",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN1_07": {
+            "clientInfoId": "BreakGens",
+            "coordinates": {
+              "x": 85.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_WIN1_Reward07",
+              "node_WIN1_13",
+              "node_WIN1_Reward05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "BreakGens": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 5,
+                "objectiveId": "BreakGens",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.BreakGens",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN1_08": {
+            "clientInfoId": "Hit",
+            "coordinates": {
+              "x": 60.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_WIN1_09",
+              "node_WIN1_13",
+              "node_WIN1_Reward03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Hit": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 8,
+                "objectiveId": "Hit",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Hit",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN1_09": {
+            "clientInfoId": "Sacrifice",
+            "coordinates": {
+              "x": 50.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_WIN1_14",
+              "node_WIN1_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Sacrifice": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 3,
+                "objectiveId": "Sacrifice",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "questEventId": "QuestEvent.Sacrifice",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN1_10": {
+            "clientInfoId": "Down",
+            "coordinates": {
+              "x": 15.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_WIN1_11",
+              "node_WIN1_Reward04",
+              "node_WIN1_14"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Down": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 4,
+                "objectiveId": "Down",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "questEventId": "QuestEvent.Down",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN1_11": {
+            "clientInfoId": "WinterEventHook",
+            "coordinates": {
+              "x": 0.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_WIN1_Start01",
+              "node_WIN1_10"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "WinterEventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 4,
+                "objectiveId": "WinterEventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.WinterEventHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN1_12": {
+            "clientInfoId": "SnowmenHitKiller",
+            "coordinates": {
+              "x": 25.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_WIN1_14",
+              "node_WIN1_Reward03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SnowmenHitKiller": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 1,
+                "objectiveId": "SnowmenHitKiller",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SnowmenHitKiller",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN1_13": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 70.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_WIN1_05",
+              "node_WIN1_07",
+              "node_WIN1_08",
+              "node_WIN1_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpoints": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 30000,
+                "objectiveId": "EarnBloodpoints",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN1_14": {
+            "clientInfoId": "EarnEmblemsSilver",
+            "coordinates": {
+              "x": 35.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_WIN1_02",
+              "node_WIN1_10",
+              "node_WIN1_09",
+              "node_WIN1_12",
+              "node_WIN1_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsSilver": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 4,
+                "objectiveId": "EarnEmblemsSilver",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Silver",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN1_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 100.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_WIN1_Reward07"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_WIN1_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 20.0,
+              "y": 0.0
+            },
+            "neighbors": [
+              "node_WIN1_02"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "S31_Torso008",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_WIN1_Reward02": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 40.0,
+              "y": 0.0
+            },
+            "neighbors": [
+              "node_WIN1_04"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "DK_Head017",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_WIN1_Reward03": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 40.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_WIN1_12",
+              "node_WIN1_08"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "QU_002",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_WIN1_Reward04": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 10.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_WIN1_10"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "UK_W012",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_WIN1_Reward05": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 85.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_WIN1_07"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "K28_Head008",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_WIN1_Reward06": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 85.0,
+              "y": 0.0
+            },
+            "neighbors": [
+              "node_WIN1_06",
+              "node_WIN1_05"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "QU_001",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_WIN1_Reward07": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 100.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_WIN1_End01",
+              "node_WIN1_07",
+              "node_WIN1_05"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "K28_Body01_WinterEvent2022",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_WIN1_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 0.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_WIN1_01",
+              "node_WIN1_11"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_WIN1_Start01"
+        ],
+        "startDate": "2022-12-08T16:00:00",
+        "startDateInMs": 1670515200,
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      },
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_WIN2_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 10,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "QU_011",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_WIN2_01": {
+            "clientInfoId": "WinterEventRepairFinish",
+            "coordinates": {
+              "x": 35.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_WIN2_13",
+              "node_WIN2_06",
+              "node_WIN2_14"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "WinterEventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 3,
+                "objectiveId": "WinterEventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.WinterEventRepairFinish",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2_02": {
+            "clientInfoId": "SabotageFinish",
+            "coordinates": {
+              "x": 10.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_WIN2_Start01",
+              "node_WIN2_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SabotageFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 3,
+                "objectiveId": "SabotageFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SabotageFinish",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2_03": {
+            "clientInfoId": "CoopAction",
+            "coordinates": {
+              "x": 20.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_WIN2_02",
+              "node_WIN2_13",
+              "node_WIN2_Reward06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CoopAction": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 120,
+                "objectiveId": "CoopAction",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CoopAction",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2_04": {
+            "clientInfoId": "Escape",
+            "coordinates": {
+              "x": 65.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_WIN2_Reward05",
+              "node_WIN2_05",
+              "node_WIN2_14"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Escape": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "Escape",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Escape",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2_05": {
+            "clientInfoId": "Unhook",
+            "coordinates": {
+              "x": 80.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_WIN2_04",
+              "node_WIN2_Reward02",
+              "node_WIN2_Reward01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Unhook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 4,
+                "objectiveId": "Unhook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Unhook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2_06": {
+            "clientInfoId": "SnowmenHitSurvivor",
+            "coordinates": {
+              "x": 50.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_WIN2_01",
+              "node_WIN2_Reward01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SnowmenHitSurvivor": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 1,
+                "objectiveId": "SnowmenHitSurvivor",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SnowmenHitSurvivor",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2_07": {
+            "clientInfoId": "WinterEventHook",
+            "coordinates": {
+              "x": 35.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_WIN2_13",
+              "node_WIN2_11",
+              "node_WIN2_14"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "WinterEventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 6,
+                "objectiveId": "WinterEventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.WinterEventHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2_08": {
+            "clientInfoId": "Carry",
+            "coordinates": {
+              "x": 65.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_WIN2_Reward05",
+              "node_WIN2_12",
+              "node_WIN2_14"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Carry": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 90,
+                "objectiveId": "Carry",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Carry",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2_09": {
+            "clientInfoId": "BreakWallsPalletsGens",
+            "coordinates": {
+              "x": 10.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_WIN2_Start01",
+              "node_WIN2_10"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "BreakWallsPalletsGens": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 15,
+                "objectiveId": "BreakWallsPalletsGens",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.BreakWallsPalletsGens",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2_10": {
+            "clientInfoId": "Chase",
+            "coordinates": {
+              "x": 20.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_WIN2_09",
+              "node_WIN2_Reward07",
+              "node_WIN2_13"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Chase": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 120,
+                "objectiveId": "Chase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Chase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2_11": {
+            "clientInfoId": "SnowmanSurpriseHit",
+            "coordinates": {
+              "x": 50.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_WIN2_07",
+              "node_WIN2_Reward04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SnowmanSurpriseHit": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 1,
+                "objectiveId": "SnowmanSurpriseHit",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SnowmanSurpriseHit",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2_12": {
+            "clientInfoId": "Kill",
+            "coordinates": {
+              "x": 80.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_WIN2_08",
+              "node_WIN2_Reward03",
+              "node_WIN2_Reward04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Kill": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 3,
+                "objectiveId": "Kill",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "questEventId": "QuestEvent.Kill",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2_13": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 20.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_WIN2_10",
+              "node_WIN2_03",
+              "node_WIN2_07",
+              "node_WIN2_01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpoints": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 50000,
+                "objectiveId": "EarnBloodpoints",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2_14": {
+            "clientInfoId": "EarnEmblemsGold",
+            "coordinates": {
+              "x": 50.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_WIN2_07",
+              "node_WIN2_01",
+              "node_WIN2_04",
+              "node_WIN2_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsGold": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 3,
+                "objectiveId": "EarnEmblemsGold",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Gold",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 100.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_WIN2_Reward03",
+              "node_WIN2_Reward02"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_WIN2_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 65.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_WIN2_06",
+              "node_WIN2_05"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "DK_Torso017",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_WIN2_Reward02": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 90.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_WIN2_05",
+              "node_WIN2_End01"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "DK_Legs017",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_WIN2_Reward03": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 90.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_WIN2_End01",
+              "node_WIN2_12"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "K28_W008",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_WIN2_Reward04": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 65.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_WIN2_11",
+              "node_WIN2_12"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "K28_Body008",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_WIN2_Reward05": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 80.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_WIN2_04",
+              "node_WIN2_08"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "K30_Head01_WinterEvent2022",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_WIN2_Reward06": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 35.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_WIN2_03"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "S34_Torso008",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_WIN2_Reward07": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 35.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_WIN2_10"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "BE_W016",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_WIN2_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 0.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_WIN2_02",
+              "node_WIN2_09"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_WIN2_Start01"
+        ],
+        "startDate": "2022-12-15T16:00:00",
+        "startDateInMs": 1671120000,
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      }
+    ],
+    "newTomePopup": false,
+    "riftId": "Tome13",
+    "specialEventId": "Winter2022"
+  }
+}

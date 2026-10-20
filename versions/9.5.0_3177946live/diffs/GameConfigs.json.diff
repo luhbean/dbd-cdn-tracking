@@ -1,0 +1,259 @@
+--- a/GameConfigs.json
++++ b/GameConfigs.json
+@@ -1,7 +1,11 @@
+ {
+-  "DSProviderOnShutdownNotificationDelay": 90.0,
++  "BHVRDynamicContent": {
++    "enabled": true
++  },
++  "DSProviderOnShutdownNotificationDelay": 15.0,
+   "GameLoadingTimeout": -1.0,
+-  "RTMTimeoutThreshold": -1.0,
++  "RTMHandshakeTimeoutThreshold": -1.0,
++  "RTMTimeoutThreshold": 30.0,
+   "afk": {
+     "minimumMatchTime": 120
+   },
+@@ -255,7 +259,15 @@
+     "scoreTypeWhitelist": [
+       "*"
+     ]
++  },
++  "analyticsEndpoints": {
++    "DeltaDnaAnalytics": "https://collect14352dbdmb.deltadna.net/collect/api/86609205096052418441976264915429",
++    "DeltaDnaEngageAddress": "https://engage14352dbdmb.deltadna.net/86609205096052418441976264915429",
++    "KrakenAnalytics": "https://gamelogs.live.bhvrdbd.com/api/v1/gameDataAnalytics/batch",
++    "KrakenAnalyticsV2": "https://gamelogs.live.bhvrdbd.com/api/v1/gameDataAnalytics/v2/batch",
++    "KrakenLogs": "https://gamelogs.live.bhvrdbd.com/api/v1/gameLogs/batch"
+   },
++  "analyticsPayloadSizeLimit": "102400",
+   "analyticsRules": {
+     "BL": [
+       "CannibalAnalytics",
+@@ -460,9 +472,12 @@
+     "xboxOneBudget": 4.014,
+     "xsxBudget": 1.23
+   },
++  "appsflyerCustomerIdEnabled": "false",
+   "archives": {
+     "communityNodeRefreshInterval": 5
+   },
++  "assetManagementCdnPath": "https://cdn.live.bhvrdbd.com",
++  "banReasonEnum": "{\"0\":\"Harassment\",\"1\":\"Griefing\",\"2\":\"Exploits\",\"3\":\"Unsportsmanlike\"}",
+   "beginnerTutorialLevel": {
+     "levelToHideTutorial": 5,
+     "prestigeToHideTutorial": 0
+@@ -497,6 +512,11 @@
+       "xsx"
+     ]
+   },
++  "buttonSequenceEnable": {
++    "WalesCypher": true
++  },
++  "cancelMatchOnDisconnectDuringLoading": "true",
++  "cdnRootFolderPath": "4fabea45-bce0-4461-8950-162659636437",
+   "cinematic": {
+     "enablePostIISCinematic": true,
+     "postISSCinematicVersionRemap": {}
+@@ -525,6 +545,9 @@
+     "xbox": true,
+     "xsx": true
+   },
++  "dbdUsingLootTables": "false",
++  "ddosDetection": "true",
++  "ddosDetectionAnalytics": "true",
+   "dedicatedServer": {
+     "endpointsHTTP": [
+       {
+@@ -668,18 +691,18 @@
+     ],
+     "useUDPLatencyPings": true
+   },
++  "disableBloodlust": "false",
+   "disableNavigationDuringMatchmaking": false,
+   "disconnectionBotReplacement": {
+     "enableDisconnectionBotReplacement": true,
+     "replacementBotRank": 15,
+     "usePlayerRankForReplacementBot": false
+   },
++  "displayRankOnTally": "false",
+   "dynamicContent": {
+-    "DynamicContentKillswitchPlatforms": [
+-      "switch"
+-    ]
++    "DynamicContentKillswitchPlatforms": []
+   },
+-  "enableAlwaysSendCrashWithUI": true,
++  "enableAlwaysSendCrashWithUI": false,
+   "enableAntiCamping": true,
+   "enableAntiMoveHack": true,
+   "enableBattlePass": true,
+@@ -701,12 +724,14 @@
+   "enableLocalStartSnapping": true,
+   "enableMoriPreviewButton": true,
+   "enableNetAsyncLoading": true,
++  "enablePerkDescriptionOverhaul": true,
+   "enablePlayStationTrophiesIISSync": true,
+   "enablePlayerIdInSurvey": true,
+   "enablePlayersConnectionStatus": true,
+   "enablePostIISCinematic": true,
+   "enableRealtimeMoriPreview": true,
+   "enableReplaceDisabledCharacter": true,
++  "enableRtmValidationOnBoot": "true",
+   "enableSimulateMovementOptimization": [
+     "Switch",
+     "PS4",
+@@ -719,14 +744,34 @@
+   ],
+   "enableUmgStore": true,
+   "enableWinGDKAccountMismatchPopup": true,
++  "enabledGPUBreadcrumbsHardware": [
++    "RTX 3060"
++  ],
+   "entitlementConfig": {
+     "scopeEntitlementLeniencySec": 900
+   },
++  "frameHikeAnalyticLogBufferSize": "5",
++  "frameHikeThreshold": "10",
+   "friendsList": {
+     "maxFriendSuggestionsFacebook": 4,
+     "maxFriendSuggestionsGoogle": 4,
+     "maxFriendSuggestionsRecentlyPlayed": 4
++  },
++  "gameClientVersionCheckEnabled": "true",
++  "gameliftEndpoints": {
++    "ap-east-1": "https://ec2.ap-east-1.amazonaws.com/ping",
++    "ap-northeast-1": "https://gamelift.ap-northeast-1.amazonaws.com/ping",
++    "ap-northeast-2": "https://gamelift.ap-northeast-2.amazonaws.com/ping",
++    "ap-southeast-1": "https://gamelift.ap-southeast-1.amazonaws.com/ping",
++    "ap-southeast-2": "https://gamelift.ap-southeast-2.amazonaws.com/ping",
++    "eu-central-1": "https://gamelift.eu-central-1.amazonaws.com/ping",
++    "eu-west-1": "https://gamelift.eu-west-1.amazonaws.com/ping",
++    "sa-east-1": "https://gamelift.sa-east-1.amazonaws.com/ping",
++    "us-east-1": "https://gamelift.us-east-1.amazonaws.com/ping",
++    "us-west-2": "https://gamelift.us-west-2.amazonaws.com/ping"
+   },
++  "gameliftIdleInstanceShutdownTimer": "86400",
++  "gameliftInstanceShutdownTimer": "7200",
+   "hangTimes": [
+     {
+       "hardcapTimeout": 0.0,
+@@ -913,6 +958,8 @@
+     "enabled": true,
+     "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvVHc2Mk5NQ0dtNVVOWjUzeTNaagp0Y1dxRk5jOE83UlRzQ0d2WHNCOWRNRGFqRzFnOTFyUzZEc2hiWTJFNk84MVlRdGlSUGRYcUgzcWVLUjcvdU53CkhwOWVVbWM4NzVPcS9xQldkWldjZEk0V3RmUWM3Z0FrMzR0ZUhhMU10VG1XL3QrVEtVajJBekRjVHZXNkpjcXUKWmdqRzkvSlR2dzM4RzEyQXFjWHZ5K3hFam4zL2ptQ0oxOGZWWWRuQ0I1ZWFEQkFoMFluTzQxaGIyODZDS0pwRwozT25wTHFyeWlzVzFnOTZ1ZWxKQnhVelRydnVKK2JJS2VFSWdqdURobHpaNU4yeW5tbHNodXlRWm15ME50VE14CjNqMlVoSkNtS3JsNTdKMzhnUnpRczJqSDBKT3ExZkhsOEhXMHlUT1dLQVNxbkNqaVp0NG5QUGJVdXpVY1JYcEEKeXdJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
+   },
++  "krakenRequestAnalyticsLevel": "NetworkError",
++  "krakenRsaPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuq878RHxy7gwEGnjh/vXcOH+1evTjEA9ygzmKEmG4s2xfNTXgneht6IsCSt5rGgpB3SabgdfUlfZyNNcwx18H7PGdsEwDcbrpZvNsgVt12oSXANjUaWDhUFJ1mVV3QmRIMyknWsA7pRX5Vy1Jr9vZ6IfFopGD++OEGsGooCA7CLGi0+E2v9UvKu/CU+PeaLNTriLa/R8B2YnhmNtSa94U+6sxNt4tzY85+TOfM7SMIgagQcZgREnXsSYhHWs4zfrz6ANaKzi4x0Tep0rK1kTnVv431+VA2zcvFahujVYncQIim+Ivee3TttJMBygxQUGR2/0qJfMkjitldpR3c3sIQIDAQAB",
+   "krakenSdkValidation": {
+     "enabled": false,
+     "useWhitelist": false,
+@@ -952,6 +999,7 @@
+     "maxEndGameCollapseSeconds": 300,
+     "maxMatchSeconds": 3600
+   },
++  "matchmakingAllowCrossplay": "true",
+   "matchmakingCrossplayPlatforms": {
+     "egs": true,
+     "grdk": true,
+@@ -963,11 +1011,29 @@
+     "xbox": true,
+     "xsx": true
+   },
++  "matchmakingIncentiveConfig": {
++    "killer": {
++      "acceptable_ratio": 0.33,
++      "long_ratio": 0.56,
++      "moderate_ratio": 0.43
++    },
++    "survivor": {
++      "acceptable_ratio": 0.86,
++      "long_ratio": 0.92,
++      "moderate_ratio": 0.9
++    }
++  },
++  "matchmakingUseQueueApi": "true",
++  "maxMessagesPerSecondConfig": "3",
+   "mirrorsDefaultRetryPolicy": {
+     "enabled": true,
+     "retryCount": 5,
+     "timeout": 5
+   },
++  "msEndpoint": "https://xbox1-live2.bhvrdbd.com/restservice.svc",
++  "msEndpointGrdk": "https://wstore-live2.bhvrdbd.com/restservice.svc",
++  "netconnectionClampToAverageFramerate": "true",
++  "networkFenceAnalyticsBufferSize": "30",
+   "online": {
+     "hiddenProgressiveQueueDelays": [
+       0.0,
+@@ -978,6 +1044,55 @@
+     "randomQueueDelayMax": 30,
+     "randomQueueDelayMin": 10
+   },
++  "penaltySecondsConfig": "10",
++  "prepareToMessageSecondsConfig": "2",
++  "purchaseExtraTimePremiumBundle": "12",
++  "readOnlyConfigs": {
++    "readonlyConfigs": [
++      "ANALYTICS_ENDPOINTS",
++      "ANALYTICS_PAYLOAD_SIZE_LIMIT",
++      "APPSFLYER_CUSTOMER_ID_ENABLED",
++      "ASSET_MANAGEMENT_CDN_PATH",
++      "BAN_REASON_ENUM",
++      "BUTTON_SEQUENCE_ENABLE",
++      "CANCEL_MATCH_ON_DISCONNECT_DURING_LOADING",
++      "CDN_ROOT_FOLDER_PATH",
++      "DBD_USING_LOOT_TABLES",
++      "DDOS_DETECTION",
++      "DDOS_DETECTION_ANALYTICS",
++      "DISABLE_BLOODLUST",
++      "DISPLAY_RANK_ON_TALLY",
++      "ENABLE_RTM_VALIDATION_ON_BOOT",
++      "FRAME_HIKE_ANALYTIC_LOG_BUFFER_SIZE",
++      "FRAME_HIKE_THRESHOLD",
++      "GAME_CLIENT_VERSION_CHECK_ENABLED",
++      "GAMELIFT_ENDPOINTS",
++      "GAMELIFT_IDLE_INSTANCE_SHUTDOWN_TIMER",
++      "GAMELIFT_INSTANCE_SHUTDOWN_TIMER",
++      "KRAKEN_REQUEST_ANALYTICS_LEVEL",
++      "KRAKEN_RSA_PUBLIC_KEY",
++      "MATCHMAKING_ALLOW_CROSSPLAY",
++      "MATCHMAKING_INCENTIVE_CONFIG",
++      "MATCHMAKING_USE_QUEUE_API",
++      "MAX_MESSAGES_PER_SECOND_CONFIG",
++      "MS_ENDPOINT",
++      "MS_ENDPOINT_GRDK",
++      "NETCONNECTION_CLAMP_TO_AVERAGE_FRAMERATE",
++      "NETWORK_FENCE_ANALYTICS_BUFFER_SIZE",
++      "PENALTY_SECONDS_CONFIG",
++      "PREPARE_TO_MESSAGE_SECONDS_CONFIG",
++      "PURCHASE_EXTRA_TIME_PREMIUM_BUNDLE",
++      "READ_ONLY_CONFIGS",
++      "RECOMMENDATION_RECENT_RELEASE_THRESHOLD",
++      "RICH_PRESENCE_PLAYER_TIMER_RATE",
++      "RICH_PRESENCE_SERVER_TIMER_RATE",
++      "SEGMENTATION_V2_ENABLED",
++      "SOCIAL_PLATFORM_FRIENDLIST_QUERY_RATE"
++    ]
++  },
++  "recommendationRecentReleaseThreshold": "7",
++  "richPresencePlayerTimerRate": "830",
++  "richPresenceServerTimerRate": "0",
+   "saveFullProfileLocations": {
+     "locationInfoList": [
+       {
+@@ -1076,6 +1191,7 @@
+     "allowServerCheats": false
+   },
+   "seenPopupsConfig": {},
++  "segmentationV2Enabled": "true",
+   "socialCrossfriendsPlatforms": {
+     "egs": true,
+     "grdk": true,
+@@ -1097,5 +1213,6 @@
+     "switch": true,
+     "xbox": true,
+     "xsx": true
+-  }
++  },
++  "socialPlatformFriendlistQueryRate": "10"
+ }

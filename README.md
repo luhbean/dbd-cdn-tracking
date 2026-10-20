@@ -2,33 +2,30 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.4.0_3077323live` · built 2026-02-04 18:28 UTC
+**Latest version:** `9.4.1_3077304live` · built 2026-02-04 18:28 UTC
 
-[What changed](versions/9.4.0_3077323live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.4.1_3077304live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**8** added · **11** modified · **0** removed, compared with `9.4.1_3072485live`.
+**0** added · **10** modified · **6** removed, compared with `9.4.0_3077323live`.
 
-- ~ [`GameConfigs.json`](versions/9.4.0_3077323live/diffs/GameConfigs.json.diff)
-- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.4.0_3077323live/diffs/archiveJournals/archiveS3Journals.json.diff)
-- ~ [`catalog.json`](versions/9.4.0_3077323live/diffs/catalog.json.diff)
-- ~ [`challengeSets.json`](versions/9.4.0_3077323live/diffs/challengeSets.json.diff)
-- ~ [`collections.json`](versions/9.4.0_3077323live/diffs/collections.json.diff)
-- ~ [`contentSchedule.json`](versions/9.4.0_3077323live/diffs/contentSchedule.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.4.0_3077323live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`freetoplay/EU/event.json`](versions/9.4.0_3077323live/diffs/freetoplay/EU/event.json.diff)
-- ~ [`freetoplay/NA/event.json`](versions/9.4.0_3077323live/diffs/freetoplay/NA/event.json.diff)
-- ~ [`recommendations.json`](versions/9.4.0_3077323live/diffs/recommendations.json.diff)
-- ~ [`specialEventsContent.json`](versions/9.4.0_3077323live/diffs/specialEventsContent.json.diff)
-- \+ [`images/T_UI_ChapterBundle_StrangerThings_Chapter2.png`](versions/9.4.0_3077323live/images/T_UI_ChapterBundle_StrangerThings_Chapter2.png)
-- \+ [`images/T_UI_CollectionBanner_EldritchNightmares.png`](versions/9.4.0_3077323live/images/T_UI_CollectionBanner_EldritchNightmares.png)
-- \+ [`images/T_UI_CollectionBanner_StrangerThings_Chapter2.png`](versions/9.4.0_3077323live/images/T_UI_CollectionBanner_StrangerThings_Chapter2.png)
-- \+ [`images/T_UI_SpecialPack_EldritchNightmares.png`](versions/9.4.0_3077323live/images/T_UI_SpecialPack_EldritchNightmares.png)
-- \+ [`images/T_UI_SpecialPack_Rift4.png`](versions/9.4.0_3077323live/images/T_UI_SpecialPack_Rift4.png)
-- \+ [`images/T_UI_SpecialPack_StrangerThings_Chapter2.png`](versions/9.4.0_3077323live/images/T_UI_SpecialPack_StrangerThings_Chapter2.png)
-- \+ [`images/T_UI_icon_Event_FogCarnival.png`](versions/9.4.0_3077323live/images/T_UI_icon_Event_FogCarnival.png)
-- \+ [`images/T_UI_icon_Event_LunarYear.png`](versions/9.4.0_3077323live/images/T_UI_icon_Event_LunarYear.png)
+- ~ [`GameConfigs.json`](versions/9.4.1_3077304live/diffs/GameConfigs.json.diff)
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.4.1_3077304live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`catalog.json`](versions/9.4.1_3077304live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.4.1_3077304live/diffs/challengeSets.json.diff)
+- ~ [`contentSchedule.json`](versions/9.4.1_3077304live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.4.1_3077304live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`freetoplay/EU/event.json`](versions/9.4.1_3077304live/diffs/freetoplay/EU/event.json.diff)
+- ~ [`freetoplay/NA/event.json`](versions/9.4.1_3077304live/diffs/freetoplay/NA/event.json.diff)
+- ~ [`recommendations.json`](versions/9.4.1_3077304live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/9.4.1_3077304live/diffs/specialEventsContent.json.diff)
+- − `images/T_UI_ChapterBundle_StrangerThings_Chapter2.png`
+- − `images/T_UI_CollectionBanner_StrangerThings_Chapter2.png`
+- − `images/T_UI_SpecialPack_Rift4.png`
+- − `images/T_UI_SpecialPack_StrangerThings_Chapter2.png`
+- − `images/T_UI_icon_Event_FogCarnival.png`
+- − `images/T_UI_icon_Event_LunarYear.png`
 
 ## Browse
 
@@ -50,7 +47,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-331 versions tracked so far.
+332 versions tracked so far.
 
 ---
 

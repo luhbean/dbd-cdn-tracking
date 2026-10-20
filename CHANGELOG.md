@@ -2,6 +2,27 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.4.1_3077304live](versions/9.4.1_3077304live/CHANGES.md)
+
+Built 2026-02-04 18:28 UTC · **+0** added · **~10** modified · **−6** removed
+
+- ~ [`GameConfigs.json`](versions/9.4.1_3077304live/diffs/GameConfigs.json.diff)
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.4.1_3077304live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`catalog.json`](versions/9.4.1_3077304live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.4.1_3077304live/diffs/challengeSets.json.diff)
+- ~ [`contentSchedule.json`](versions/9.4.1_3077304live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.4.1_3077304live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`freetoplay/EU/event.json`](versions/9.4.1_3077304live/diffs/freetoplay/EU/event.json.diff)
+- ~ [`freetoplay/NA/event.json`](versions/9.4.1_3077304live/diffs/freetoplay/NA/event.json.diff)
+- ~ [`recommendations.json`](versions/9.4.1_3077304live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/9.4.1_3077304live/diffs/specialEventsContent.json.diff)
+- − `images/T_UI_ChapterBundle_StrangerThings_Chapter2.png`
+- − `images/T_UI_CollectionBanner_StrangerThings_Chapter2.png`
+- − `images/T_UI_SpecialPack_Rift4.png`
+- − `images/T_UI_SpecialPack_StrangerThings_Chapter2.png`
+- − `images/T_UI_icon_Event_FogCarnival.png`
+- − `images/T_UI_icon_Event_LunarYear.png`
+
 ## [9.4.0_3077323live](versions/9.4.0_3077323live/CHANGES.md)
 
 Built 2026-02-04 18:28 UTC · **+8** added · **~11** modified · **−0** removed

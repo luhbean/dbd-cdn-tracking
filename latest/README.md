@@ -1,10 +1,10 @@
-# Latest live content · 9.4.0_3077323live
+# Latest live content · 9.4.1_3077304live
 
-Built 2026-02-04 18:28 UTC · [what changed in this version](../versions/9.4.0_3077323live/CHANGES.md) · [← back](../README.md)
+Built 2026-02-04 18:28 UTC · [what changed in this version](../versions/9.4.1_3077304live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (12)](#images) · [Game data (97)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (6)](#images) · [Game data (97)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -15,18 +15,12 @@ This folder always holds the newest version. Its commit history shows every chan
 ## Images
 
 <p>
-<a href="images/T_UI_ChapterBundle_StrangerThings_Chapter2.png"><img src="images/T_UI_ChapterBundle_StrangerThings_Chapter2.png" alt="T_UI_ChapterBundle_StrangerThings_Chapter2.png" title="T_UI_ChapterBundle_StrangerThings_Chapter2.png" width="200"></a>
 <a href="images/T_UI_CollectionBanner_EldritchNightmares.png"><img src="images/T_UI_CollectionBanner_EldritchNightmares.png" alt="T_UI_CollectionBanner_EldritchNightmares.png" title="T_UI_CollectionBanner_EldritchNightmares.png" width="200"></a>
-<a href="images/T_UI_CollectionBanner_StrangerThings_Chapter2.png"><img src="images/T_UI_CollectionBanner_StrangerThings_Chapter2.png" alt="T_UI_CollectionBanner_StrangerThings_Chapter2.png" title="T_UI_CollectionBanner_StrangerThings_Chapter2.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_EldritchNightmares.png"><img src="images/T_UI_SpecialPack_EldritchNightmares.png" alt="T_UI_SpecialPack_EldritchNightmares.png" title="T_UI_SpecialPack_EldritchNightmares.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_ModernTales.png"><img src="images/T_UI_SpecialPack_ModernTales.png" alt="T_UI_SpecialPack_ModernTales.png" title="T_UI_SpecialPack_ModernTales.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_Rift4.png"><img src="images/T_UI_SpecialPack_Rift4.png" alt="T_UI_SpecialPack_Rift4.png" title="T_UI_SpecialPack_Rift4.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_StrangerThings_Chapter2.png"><img src="images/T_UI_SpecialPack_StrangerThings_Chapter2.png" alt="T_UI_SpecialPack_StrangerThings_Chapter2.png" title="T_UI_SpecialPack_StrangerThings_Chapter2.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_GenQuest1.png"><img src="images/T_UI_Tutorial_ImageBG_GenQuest1.png" alt="T_UI_Tutorial_ImageBG_GenQuest1.png" title="T_UI_Tutorial_ImageBG_GenQuest1.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_cosmetic.png"><img src="images/T_UI_Tutorial_ImageBG_cosmetic.png" alt="T_UI_Tutorial_ImageBG_cosmetic.png" title="T_UI_Tutorial_ImageBG_cosmetic.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_gift.png"><img src="images/T_UI_Tutorial_ImageBG_gift.png" alt="T_UI_Tutorial_ImageBG_gift.png" title="T_UI_Tutorial_ImageBG_gift.png" width="200"></a>
-<a href="images/T_UI_icon_Event_FogCarnival.png"><img src="images/T_UI_icon_Event_FogCarnival.png" alt="T_UI_icon_Event_FogCarnival.png" title="T_UI_icon_Event_FogCarnival.png" width="200"></a>
-<a href="images/T_UI_icon_Event_LunarYear.png"><img src="images/T_UI_icon_Event_LunarYear.png" alt="T_UI_icon_Event_LunarYear.png" title="T_UI_icon_Event_LunarYear.png" width="200"></a>
 </p>
 
 ## Game data

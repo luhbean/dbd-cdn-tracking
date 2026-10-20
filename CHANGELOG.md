@@ -2,6 +2,16 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.5.0_3193091live](versions/9.5.0_3193091live/CHANGES.md)
+
+Built 2026-03-19 10:29 UTC · **+0** added · **~5** modified · **−0** removed
+
+- ~ [`challengeLocs/challengeText_fr.json`](versions/9.5.0_3193091live/diffs/challengeLocs/challengeText_fr.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/9.5.0_3193091live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
+- ~ [`challengeSets.json`](versions/9.5.0_3193091live/diffs/challengeSets.json.diff)
+- ~ [`dlcList.json`](versions/9.5.0_3193091live/diffs/dlcList.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.5.0_3193091live/diffs/dynamicContent/DynamicContent.json.diff)
+
 ## [9.5.0_3186804live](versions/9.5.0_3186804live/CHANGES.md)
 
 Built 2026-03-17 16:33 UTC · **+0** added · **~9** modified · **−0** removed

@@ -2,6 +2,19 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.2.0_3885422live](versions/10.2.0_3885422live/CHANGES.md)
+
+Built 2026-10-14 15:48 UTC · **+3** added · **~5** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/10.2.0_3885422live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/10.2.0_3885422live/diffs/challengeSets.json.diff)
+- ~ [`dlcList.json`](versions/10.2.0_3885422live/diffs/dlcList.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.0_3885422live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/10.2.0_3885422live/diffs/recommendations.json.diff)
+- \+ [`images/T_UI_CollectionBanner_NieR.png`](versions/10.2.0_3885422live/images/T_UI_CollectionBanner_NieR.png)
+- \+ [`images/T_UI_SpecialPack_NieR.png`](versions/10.2.0_3885422live/images/T_UI_SpecialPack_NieR.png)
+- \+ [`images/T_UI_SpecialPack_Rift7.png`](versions/10.2.0_3885422live/images/T_UI_SpecialPack_Rift7.png)
+
 ## [10.2.1_3885041live](versions/10.2.1_3885041live/CHANGES.md)
 
 Built 2026-10-14 13:35 UTC · **+0** added · **~4** modified · **−3** removed

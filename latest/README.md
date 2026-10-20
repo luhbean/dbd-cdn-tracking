@@ -1,10 +1,10 @@
-# Latest live content · 10.2.1_3885041live
+# Latest live content · 10.2.0_3885422live
 
-Built 2026-10-14 13:35 UTC · [what changed in this version](../versions/10.2.1_3885041live/CHANGES.md) · [← back](../README.md)
+Built 2026-10-14 15:48 UTC · [what changed in this version](../versions/10.2.0_3885422live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (3)](#images) · [Game data (99)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (6)](#images) · [Game data (99)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -15,6 +15,9 @@ This folder always holds the newest version. Its commit history shows every chan
 ## Images
 
 <p>
+<a href="images/T_UI_CollectionBanner_NieR.png"><img src="images/T_UI_CollectionBanner_NieR.png" alt="T_UI_CollectionBanner_NieR.png" title="T_UI_CollectionBanner_NieR.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_NieR.png"><img src="images/T_UI_SpecialPack_NieR.png" alt="T_UI_SpecialPack_NieR.png" title="T_UI_SpecialPack_NieR.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Rift7.png"><img src="images/T_UI_SpecialPack_Rift7.png" alt="T_UI_SpecialPack_Rift7.png" title="T_UI_SpecialPack_Rift7.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_GenQuest1.png"><img src="images/T_UI_Tutorial_ImageBG_GenQuest1.png" alt="T_UI_Tutorial_ImageBG_GenQuest1.png" title="T_UI_Tutorial_ImageBG_GenQuest1.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_cosmetic.png"><img src="images/T_UI_Tutorial_ImageBG_cosmetic.png" alt="T_UI_Tutorial_ImageBG_cosmetic.png" title="T_UI_Tutorial_ImageBG_cosmetic.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_gift.png"><img src="images/T_UI_Tutorial_ImageBG_gift.png" alt="T_UI_Tutorial_ImageBG_gift.png" title="T_UI_Tutorial_ImageBG_gift.png" width="200"></a>

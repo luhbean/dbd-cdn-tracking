@@ -2,6 +2,17 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.2.0_2781061live](versions/9.2.0_2781061live/CHANGES.md)
+
+Built 2025-09-29 19:09 UTC · **+0** added · **~6** modified · **−0** removed
+
+- ~ [`GameConfigs.json`](versions/9.2.0_2781061live/diffs/GameConfigs.json.diff)
+- ~ [`catalog.json`](versions/9.2.0_2781061live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_en.json`](versions/9.2.0_2781061live/diffs/challengeLocs/challengeText_en.json.diff)
+- ~ [`challengeLocs/challengeText_fr.json`](versions/9.2.0_2781061live/diffs/challengeLocs/challengeText_fr.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/9.2.0_2781061live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.2.0_2781061live/diffs/dynamicContent/DynamicContent.json.diff)
+
 ## [9.2.0_2778761live](versions/9.2.0_2778761live/CHANGES.md)
 
 Built 2025-09-26 15:58 UTC · no content changes

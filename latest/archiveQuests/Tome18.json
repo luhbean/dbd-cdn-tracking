@@ -2005,7 +2005,7 @@
             ]
           },
           "node_T18_L3_03": {
-            "clientInfoId": "ExtendItemChargesWithStreetwiseAsS05InTrial",
+            "clientInfoId": "FallInChaseWithBalancedLandingInTrial",
             "coordinates": {
               "x": 37.0,
               "y": 90.0
@@ -2019,7 +2019,7 @@
             ],
             "nodeType": "quest:challenge",
             "objectives": {
-              "ExtendItemChargesWithPerkAsCharacterInTrial": {
+              "FallInChaseWithPerkInTrial": {
                 "conditions": [
                   {
                     "key": "role",
@@ -2028,27 +2028,21 @@
                     ]
                   },
                   {
-                    "key": "character",
-                    "value": [
-                      "Nea"
-                    ]
-                  },
-                  {
                     "key": "perk",
                     "value": [
-                      "streetwise"
+                      "Balanced_Landing"
                     ]
                   }
                 ],
                 "incrementWithEventRepetitions": false,
                 "neededProgression": 1,
-                "objectiveId": "ExtendItemChargesWithPerkAsCharacterInTrial",
+                "objectiveId": "FallInChaseWithPerkInTrial",
                 "questEvent": [
                   {
                     "operation": ">=",
-                    "parameters": "instigator:me",
-                    "questEventId": "QuestEvent.ExtendItemCharges",
-                    "repetition": 4
+                    "parameters": "instigator:me;Distance:250",
+                    "questEventId": "QuestEvent.FallInChase",
+                    "repetition": 3
                   }
                 ]
               }

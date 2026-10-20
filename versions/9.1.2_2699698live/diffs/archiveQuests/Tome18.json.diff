@@ -1,0 +1,54 @@
+--- a/archiveQuests/Tome18.json
++++ b/archiveQuests/Tome18.json
+@@ -2005,7 +2005,7 @@
+             ]
+           },
+           "node_T18_L3_03": {
+-            "clientInfoId": "ExtendItemChargesWithStreetwiseAsS05InTrial",
++            "clientInfoId": "FallInChaseWithBalancedLandingInTrial",
+             "coordinates": {
+               "x": 37.0,
+               "y": 90.0
+@@ -2019,36 +2019,30 @@
+             ],
+             "nodeType": "quest:challenge",
+             "objectives": {
+-              "ExtendItemChargesWithPerkAsCharacterInTrial": {
++              "FallInChaseWithPerkInTrial": {
+                 "conditions": [
+                   {
+                     "key": "role",
+                     "value": [
+                       "survivor"
+-                    ]
+-                  },
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "Nea"
+                     ]
+                   },
+                   {
+                     "key": "perk",
+                     "value": [
+-                      "streetwise"
++                      "Balanced_Landing"
+                     ]
+                   }
+                 ],
+                 "incrementWithEventRepetitions": false,
+                 "neededProgression": 1,
+-                "objectiveId": "ExtendItemChargesWithPerkAsCharacterInTrial",
++                "objectiveId": "FallInChaseWithPerkInTrial",
+                 "questEvent": [
+                   {
+                     "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.ExtendItemCharges",
+-                    "repetition": 4
++                    "parameters": "instigator:me;Distance:250",
++                    "questEventId": "QuestEvent.FallInChase",
++                    "repetition": 3
+                   }
+                 ]
+               }

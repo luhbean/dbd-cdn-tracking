@@ -1,0 +1,783 @@
+--- a/challengeSets.json
++++ b/challengeSets.json
+@@ -1682,780 +1682,6 @@
+     "type": "Event",
+     "uiAssets": {}
+   },
+-  "ChapterQuests_Quiche": {
+-    "additionalInfoStringId": "CHALLENGESET_Chapter39Quests_INFO",
+-    "challengeList": [
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteRiftQuests_DESC",
+-            "id": "ChapterQuests_Quiche-Overarching-O_CompleteRiftQuestsA",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "ChapterQuests_Quiche"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteChapterQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "QUI_BDG_02",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-03-17T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteRiftQuests_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_CompleteRiftQuests_DESC",
+-            "id": "ChapterQuests_Quiche-Overarching-O_CompleteRiftQuestsB",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "ChapterQuests_Quiche"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteChapterQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "QUI_BNR_01",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-03-17T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteRiftQuests_TITLE",
+-            "type": "overarching"
+-          }
+-        ],
+-        "endDate": "2026-03-24T14:59:00",
+-        "listId": "ChapterQuests_Quiche-Overarching",
+-        "listOrder": 0,
+-        "listTitleStringId": "LIST_OverarchingChapterQuests_TITLE",
+-        "startDate": "2026-03-17T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_PlayAsKillerOrAnyKiller_DESC",
+-            "id": "ChapterQuests_Quiche-Quest_List_1-B_PlayAsKillerOrAnyKiller",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlayingKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10
+-                ],
+-                "objectiveId": "FinishedPlayingKiller",
+-                "objectiveInfo": "CHALLENGE_PlayAnyKiller_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PlayAsCharacterInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "K23"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "PlayAsCharacterInTrial",
+-                "objectiveInfo": "CHALLENGE_PlayAsKiller_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "startDate": "2026-03-17T15:00:00",
+-            "titleStringId": "CHALLENGE_PlayAsKillerOrAnyKiller_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_PlayAsSurvivorOrAnySurvivor_DESC",
+-            "id": "ChapterQuests_Quiche-Quest_List_1-B_PlayAsSurvivorOrAnySurvivor",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlayingKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10
+-                ],
+-                "objectiveId": "FinishedPlayingKiller",
+-                "objectiveInfo": "CHALLENGE_PlayAnySurvivor_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PlayAsCharacterInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "S52"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "PlayAsCharacterInTrial",
+-                "objectiveInfo": "CHALLENGE_PlayAsSurvivor_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingSurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "startDate": "2026-03-17T15:00:00",
+-            "titleStringId": "CHALLENGE_PlayAsSurvivorOrAnySurvivor_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_BreakGenOrGenSkillCheck_DESC",
+-            "id": "ChapterQuests_Quiche-Quest_List_1-D_BreakGenOrGenSkillCheck",
+-            "isRecurring": false,
+-            "objectives": {
+-              "BreakGens": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  15
+-                ],
+-                "objectiveId": "BreakGens",
+-                "objectiveInfo": "CHALLENGE_BreakGen_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakGens",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "GenSkillCheckGreatSuccessInTrialWithPerk": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "GenSkillCheckGreatSuccessInTrialWithPerk",
+-                "objectiveInfo": "CHALLENGE_GenSkillCheck_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.GeneratorSkillCheckSuccess",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "Bloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "startDate": "2026-03-17T15:00:00",
+-            "titleStringId": "CHALLENGE_BreakGenOrGenSkillCheck_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_KillSurvivorOrRepairGens_DESC",
+-            "id": "ChapterQuests_Quiche-Quest_List_1-D_KillSurvivorOrRepairGens",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Kill": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  6
+-                ],
+-                "objectiveId": "Kill",
+-                "objectiveInfo": "CHALLENGE_Kill_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Kill",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "RepairPerc": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  600
+-                ],
+-                "objectiveId": "RepairPerc",
+-                "objectiveInfo": "CHALLENGE_Repair_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Percentage",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Repair",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "startDate": "2026-03-17T15:00:00",
+-            "titleStringId": "CHALLENGE_KillSurvivorOrRepairGens_TITLE",
+-            "type": "dual"
+-          }
+-        ],
+-        "endDate": "2026-03-24T14:59:00",
+-        "listId": "ChapterQuests_Quiche-Quest_List_1",
+-        "listOrder": 1,
+-        "listTitleStringId": "LIST_ChapterQuests_TITLE_1",
+-        "startDate": "2026-03-17T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_HookAsKillerOrAnyKiller_DESC",
+-            "id": "ChapterQuests_Quiche-Quest_List_2-B_HookAsKillerOrAnyKiller",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Hook": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  40
+-                ],
+-                "objectiveId": "Hook",
+-                "objectiveInfo": "CHALLENGE_HookAsAnyKiller_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Hook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "HookAsKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "K23"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "HookAsKiller",
+-                "objectiveInfo": "CHALLENGE_HookAsKiller_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.HookAsKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "startDate": "2026-03-20T15:00:00",
+-            "titleStringId": "CHALLENGE_HookAsKillerOrAnyKiller_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_BreakGenAsKillerOrAnyKiller_DESC",
+-            "id": "ChapterQuests_Quiche-Quest_List_2-B_BreakGenAsKillerOrAnyKiller",
+-            "isRecurring": false,
+-            "objectives": {
+-              "BreakGens": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  30
+-                ],
+-                "objectiveId": "BreakGens",
+-                "objectiveInfo": "CHALLENGE_BreakGensAnyKiller_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakGens",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "BreakGensAsKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "K23"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  15
+-                ],
+-                "objectiveId": "BreakGensAsKiller",
+-                "objectiveInfo": "CHALLENGE_BreakGenAsKiller_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakGensAsKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "startDate": "2026-03-20T15:00:00",
+-            "titleStringId": "CHALLENGE_BreakGenAsKillerOrAnyKiller_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_CarryOrEscapeChase_DESC",
+-            "id": "ChapterQuests_Quiche-Quest_List_2-D_CarryOrEscapeChase",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Carry": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  400
+-                ],
+-                "objectiveId": "Carry",
+-                "objectiveInfo": "CHALLENGE_Carry_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Carry",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "EscapeChase": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10
+-                ],
+-                "objectiveId": "EscapeChase",
+-                "objectiveInfo": "CHALLENGE_EscapeChase_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.EscapeChase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "startDate": "2026-03-20T15:00:00",
+-            "titleStringId": "CHALLENGE_CarryOrEscapeChase_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_EarnEmblemsGold_DESC",
+-            "id": "ChapterQuests_Quiche-Quest_List_2-B_EarnEmblemsGold",
+-            "isRecurring": false,
+-            "objectives": {
+-              "EarnEmblemsGold": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "EarnEmblemsGold",
+-                "objectiveInfo": "CHALLENGE_EarnEmblemsGold_DESC",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemQuality:Gold",
+-                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "startDate": "2026-03-20T15:00:00",
+-            "titleStringId": "CHALLENGE_EarnEmblemsGold_TITLE",
+-            "type": "basic"
+-          }
+-        ],
+-        "endDate": "2026-03-24T14:59:00",
+-        "listId": "ChapterQuests_Quiche-Quest_List_2",
+-        "listOrder": 2,
+-        "listTitleStringId": "LIST_ChapterQuests_TITLE_2",
+-        "startDate": "2026-03-20T15:00:00"
+-      }
+-    ],
+-    "endDate": "2026-03-24T15:00:00",
+-    "endDateInMs": 1774364400,
+-    "eventID": "MapShowcaseQuiche",
+-    "mask": 0,
+-    "startDate": "2026-03-17T15:00:00",
+-    "startDateInMs": 1773759600,
+-    "tabOrder": 1,
+-    "tabTitleStringId": "CHALLENGESET_Chapter39Quests_TITLE",
+-    "titleLocalizationText": {
+-      "de": "Kapitelquests – Trickster",
+-      "en": "Chapter Quests - Trickster",
+-      "es": "Misiones del capítulo: el Traicionero",
+-      "es-MX": "Misiones de capítulo - El Embaucador",
+-      "fr": "Quêtes de chapitre — Farceur",
+-      "it": "Missioni del capitolo - Ingannatore",
+-      "ja": "チャプタークエスト - トリックスター",
+-      "ko": "챕터 퀘스트 - 트릭스터",
+-      "pl": "Zadania rozdziału – Magik",
+-      "pt-BR": "Missões do Capítulo – Trapaça",
+-      "ru": "Задания главы — Трюкач",
+-      "th": "เควสต์ประจำบท - ทริกสเตอร์",
+-      "tr": "Bölüm Görevleri - Dümenci",
+-      "zh-Hans": "章节任务 - 骗术师",
+-      "zh-Hant": "章節任務 - 騙術師"
+-    },
+-    "type": "Event",
+-    "uiAssets": {
+-      "iconPath": "/DBDUICore/Assets/Common/Event/Community/T_UI_icon_Event_Killer.T_UI_icon_Event_Killer",
+-      "rewardPopupBannerPath": "/DBDUICore/Assets/Common/Event/Community/T_UI_icon_Event_Killer.T_UI_icon_Event_Killer"
+-    }
+-  },
+   "Daily_Set": {
+     "additionalInfoStringId": "CHALLENGESET_Daily_INFO",
+     "challengeList": [

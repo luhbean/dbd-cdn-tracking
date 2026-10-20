@@ -1,0 +1,36 @@
+--- a/contentSchedule.json
++++ b/contentSchedule.json
+@@ -177,14 +177,32 @@
+         "Brl_MaHouse": "50",
+         "Ecl_Level_01": "50",
+         "Ecl_Level_WestSide": "50",
+-        "Fin_Hideout": "50",
+         "Hos_Treatment": "0",
+         "Qat_Lab": "0",
+         "Qtm_Level_02": "0",
++        "Swp_GrimPantry": "0",
+         "Uba_Level_01": "0",
+         "Wal_Level_01": "0"
+       },
+       "Priority": "6"
++    },
++    {
++      "Description": "Killswitch",
++      "GameModes": [
++        "Online",
++        "KillYourFriends",
++        "SecretBotMatch",
++        "TutorialBotMatch",
++        "ChocolateBox",
++        "SeasonalEvent",
++        "SeasonalEvent_FuelGenerator"
++      ],
++      "MapsWeight": {
++        "Eng_Street_01": "0",
++        "Swp_GrimPantry": "0",
++        "Swp_PaleRose": "0"
++      },
++      "Priority": "7"
+     }
+   ]
+ }

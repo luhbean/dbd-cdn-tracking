@@ -2,24 +2,25 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `10.0.2_3480390live` · built 2026-07-02 17:51 UTC
+**Latest version:** `10.0.1_3480977live` · built 2026-07-02 18:57 UTC
 
-[What changed](versions/10.0.2_3480390live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/10.0.1_3480977live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **9** modified · **1** removed, compared with `10.0.1_3479410live`.
+**1** added · **10** modified · **0** removed, compared with `10.0.2_3480390live`.
 
-- ~ [`archiveJournals/archiveS3Journals.json`](versions/10.0.2_3480390live/diffs/archiveJournals/archiveS3Journals.json.diff)
-- ~ [`archiveJournals/storyJournals.json`](versions/10.0.2_3480390live/diffs/archiveJournals/storyJournals.json.diff)
-- ~ [`archiveQuests/Tome18.json`](versions/10.0.2_3480390live/diffs/archiveQuests/Tome18.json.diff)
-- ~ [`catalog.json`](versions/10.0.2_3480390live/diffs/catalog.json.diff)
-- ~ [`collections.json`](versions/10.0.2_3480390live/diffs/collections.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/10.0.2_3480390live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`itemsKillswitch.json`](versions/10.0.2_3480390live/diffs/itemsKillswitch.json.diff)
-- ~ [`narrativeCollections.json`](versions/10.0.2_3480390live/diffs/narrativeCollections.json.diff)
-- ~ [`recommendations.json`](versions/10.0.2_3480390live/diffs/recommendations.json.diff)
-- − `images/T_UI_icon_Event_LaFogata.png`
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/10.0.1_3480977live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`archiveJournals/storyJournals.json`](versions/10.0.1_3480977live/diffs/archiveJournals/storyJournals.json.diff)
+- ~ [`archiveQuests/Tome18.json`](versions/10.0.1_3480977live/diffs/archiveQuests/Tome18.json.diff)
+- ~ [`bonusPointEventsContent.json`](versions/10.0.1_3480977live/diffs/bonusPointEventsContent.json.diff)
+- ~ [`catalog.json`](versions/10.0.1_3480977live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/10.0.1_3480977live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.0.1_3480977live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/10.0.1_3480977live/diffs/itemsKillswitch.json.diff)
+- ~ [`narrativeCollections.json`](versions/10.0.1_3480977live/diffs/narrativeCollections.json.diff)
+- ~ [`recommendations.json`](versions/10.0.1_3480977live/diffs/recommendations.json.diff)
+- \+ [`images/T_UI_icon_Event_LaFogata.png`](versions/10.0.1_3480977live/images/T_UI_icon_Event_LaFogata.png)
 
 ## Browse
 
@@ -41,7 +42,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-494 versions tracked so far.
+495 versions tracked so far.
 
 ---
 

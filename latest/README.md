@@ -1,10 +1,10 @@
-# Latest live content · 10.0.2_3480390live
+# Latest live content · 10.0.1_3480977live
 
-Built 2026-07-02 17:51 UTC · [what changed in this version](../versions/10.0.2_3480390live/CHANGES.md) · [← back](../README.md)
+Built 2026-07-02 18:57 UTC · [what changed in this version](../versions/10.0.1_3480977live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (7)](#images) · [Game data (98)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (8)](#images) · [Game data (98)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -22,6 +22,7 @@ This folder always holds the newest version. Its commit history shows every chan
 <a href="images/T_UI_Tutorial_ImageBG_GenQuest1.png"><img src="images/T_UI_Tutorial_ImageBG_GenQuest1.png" alt="T_UI_Tutorial_ImageBG_GenQuest1.png" title="T_UI_Tutorial_ImageBG_GenQuest1.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_cosmetic.png"><img src="images/T_UI_Tutorial_ImageBG_cosmetic.png" alt="T_UI_Tutorial_ImageBG_cosmetic.png" title="T_UI_Tutorial_ImageBG_cosmetic.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_gift.png"><img src="images/T_UI_Tutorial_ImageBG_gift.png" alt="T_UI_Tutorial_ImageBG_gift.png" title="T_UI_Tutorial_ImageBG_gift.png" width="200"></a>
+<a href="images/T_UI_icon_Event_LaFogata.png"><img src="images/T_UI_icon_Event_LaFogata.png" alt="T_UI_icon_Event_LaFogata.png" title="T_UI_icon_Event_LaFogata.png" width="200"></a>
 </p>
 
 ## Game data

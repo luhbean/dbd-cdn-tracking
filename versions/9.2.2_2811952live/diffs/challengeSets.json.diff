@@ -1,0 +1,1204 @@
+--- a/challengeSets.json
++++ b/challengeSets.json
+@@ -1,1192 +1,4 @@
+ {
+-  "CalamariMaple": {
+-    "additionalInfoStringId": "CHALLENGESET_CalamariLasagna_INFO",
+-    "challengeList": [
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteModeQuests_DESC",
+-            "id": "CalamariMaple-List_1-O_CompleteModeQuests1",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "CalamariMaple"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteModeQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "NA_BDG_03",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2025-11-06T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeQuests_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_CompleteModeQuests_DESC",
+-            "id": "CalamariMaple-List_1-O_CompleteModeQuests2",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "CalamariMaple"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  6
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteModeQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "NA_011",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2025-11-06T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeQuests_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_CompleteModeQuests_DESC",
+-            "id": "CalamariMaple-List_1-O_CompleteModeQuests3",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "CalamariMaple"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  9
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteModeQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "NA_BNR_02",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2025-11-06T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeQuests_TITLE",
+-            "type": "overarching"
+-          }
+-        ],
+-        "endDate": "2025-11-20T16:00:00",
+-        "listId": "CalamariMaple-List_1",
+-        "listOrder": 0,
+-        "listTitleStringId": "LIST_Calamari_TITLE_1",
+-        "startDate": "2025-11-06T16:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteModeTrialOrTrial_DESC",
+-            "id": "CalamariMaple-List_2-D_CompleteModeTrialOrTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlaying": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  6
+-                ],
+-                "objectiveId": "FinishedPlaying",
+-                "objectiveInfo": "CHALLENGE_CompleteTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "FinishedPlayingMode": {
+-                "conditions": [
+-                  {
+-                    "key": "gameTypes",
+-                    "value": [
+-                      "Calamari"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "FinishedPlayingMode",
+-                "objectiveInfo": "CHALLENGE_CompleteModeTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingMode",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-06T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeTrialOrTrial_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_PlayAsCharacterOrClass_",
+-            "id": "CalamariMaple-List_2-D_PlayAsCharacterOrClass",
+-            "isRecurring": false,
+-            "objectives": {
+-              "PlayAsCharacterInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "K37"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "PlayAsCharacterInTrial",
+-                "objectiveInfo": "CHALLENGE_PlayAsCharacter_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PlayAsClass": {
+-                "conditions": [
+-                  {
+-                    "key": "class",
+-                    "value": [
+-                      "Tactician"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "PlayAsClass",
+-                "objectiveInfo": "CHALLENGE_PlayAsClass_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "class"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingSurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-06T16:00:00",
+-            "titleStringId": "CHALLENGE_PlayAsCharacterOrClass_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_ChaseOrBeChased_DESC",
+-            "id": "CalamariMaple-List_2-D_ChaseOrBeChased",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Chase": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  500
+-                ],
+-                "objectiveId": "Chase",
+-                "objectiveInfo": "CHALLENGE_Chase_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Time",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;target:other",
+-                    "questEventId": "QuestEvent.Chase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "ChasedByKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  150
+-                ],
+-                "objectiveId": "ChasedByKiller",
+-                "objectiveInfo": "CHALLENGE_BeChased_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Time",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "target:me;instigator:other",
+-                    "questEventId": "QuestEvent.ChasedByOrChase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-06T16:00:00",
+-            "titleStringId": "CHALLENGE_ChaseOrBeChased_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_HitOrHeal_DESC",
+-            "id": "CalamariMaple-List_2-D_HitOrHeal",
+-            "isRecurring": false,
+-            "objectives": {
+-              "HealPerc": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1000
+-                ],
+-                "objectiveId": "HealPerc",
+-                "objectiveInfo": "CHALLENGE_Heal_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Percentage",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Heal",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "Hit": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  50
+-                ],
+-                "objectiveId": "Hit",
+-                "objectiveInfo": "CHALLENGE_Hit_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Hit",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-06T16:00:00",
+-            "titleStringId": "CHALLENGE_HitOrHeal_TITLE",
+-            "type": "dual"
+-          }
+-        ],
+-        "endDate": "2025-11-20T16:00:00",
+-        "listId": "CalamariMaple-List_2",
+-        "listOrder": 1,
+-        "listTitleStringId": "LIST_Calamari_TITLE_2",
+-        "startDate": "2025-11-06T16:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteModeTrialOrTrial_DESC",
+-            "id": "CalamariMaple-List_3-D_CompleteModeTrialOrTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlaying": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  12
+-                ],
+-                "objectiveId": "FinishedPlaying",
+-                "objectiveInfo": "CHALLENGE_CompleteTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "FinishedPlayingMode": {
+-                "conditions": [
+-                  {
+-                    "key": "gameTypes",
+-                    "value": [
+-                      "Calamari"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  6
+-                ],
+-                "objectiveId": "FinishedPlayingMode",
+-                "objectiveInfo": "CHALLENGE_CompleteModeTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingMode",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-10T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeTrialOrTrial_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_PlayAsCharacterOrClass_",
+-            "id": "CalamariMaple-List_3-D_PlayAsCharacterOrClass",
+-            "isRecurring": false,
+-            "objectives": {
+-              "PlayAsCharacterInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "K20"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "PlayAsCharacterInTrial",
+-                "objectiveInfo": "CHALLENGE_PlayAsCharacter_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PlayAsClass": {
+-                "conditions": [
+-                  {
+-                    "key": "class",
+-                    "value": [
+-                      "Scout"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "PlayAsClass",
+-                "objectiveInfo": "CHALLENGE_PlayAsClass_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "class"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingSurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-10T16:00:00",
+-            "titleStringId": "CHALLENGE_PlayAsCharacterOrClass_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_BreakPalletsOrPalletDropInChase_DESC",
+-            "id": "CalamariMaple-List_3-D_BreakPalletsOrPalletDropInChase",
+-            "isRecurring": false,
+-            "objectives": {
+-              "BreakPallets": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "BreakPallets",
+-                "objectiveInfo": "CHALLENGE_BreakPallets_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakPallets",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PalletDropInChase": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "PalletDropInChase",
+-                "objectiveInfo": "CHALLENGE_PalletDropInChase_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.PalletDropInChase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-10T16:00:00",
+-            "titleStringId": "CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_MoriOrEscape_DESC",
+-            "id": "CalamariMaple-List_3-D_MoriOrEscape",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Escape": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "Escape",
+-                "objectiveInfo": "CHALLENGE_Escape_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Escape",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "Mori": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "Mori",
+-                "objectiveInfo": "CHALLENGE_Mori_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Mori",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-10T16:00:00",
+-            "titleStringId": "CHALLENGE_MoriOrEscape_TITLE",
+-            "type": "dual"
+-          }
+-        ],
+-        "endDate": "2025-11-20T16:00:00",
+-        "listId": "CalamariMaple-List_3",
+-        "listOrder": 2,
+-        "listTitleStringId": "LIST_Calamari_TITLE_3",
+-        "startDate": "2025-11-10T16:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteModeTrialOrTrial_DESC",
+-            "id": "CalamariMaple-List_4-D_CompleteModeTrialOrTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlaying": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  18
+-                ],
+-                "objectiveId": "FinishedPlaying",
+-                "objectiveInfo": "CHALLENGE_CompleteTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "FinishedPlayingMode": {
+-                "conditions": [
+-                  {
+-                    "key": "gameTypes",
+-                    "value": [
+-                      "Calamari"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  9
+-                ],
+-                "objectiveId": "FinishedPlayingMode",
+-                "objectiveInfo": "CHALLENGE_CompleteModeTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingMode",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-14T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeTrialOrTrial_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_PlayAsKillerClassOrSurvivorClass_DESC",
+-            "id": "CalamariMaple-List_4-D_PlayAsKillerClassOrSurvivorClass",
+-            "isRecurring": false,
+-            "objectives": {
+-              "PlayAsClassKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "class",
+-                    "value": [
+-                      "Phantom"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "PlayAsClassKiller",
+-                "objectiveInfo": "CHALLENGE_PlayAsClass_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "class"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PlayAsClassSurvivor": {
+-                "conditions": [
+-                  {
+-                    "key": "class",
+-                    "value": [
+-                      "Survivalist"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "PlayAsClassSurvivor",
+-                "objectiveInfo": "CHALLENGE_PlayAsClass_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "class"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingSurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-14T16:00:00",
+-            "titleStringId": "CHALLENGE_PlayAsKillerClassOrSurvivorClass_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_HookOrUnhook_DESC",
+-            "id": "CalamariMaple-List_4-D_HookOrUnhook",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Hook": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "Hook",
+-                "objectiveInfo": "CHALLENGE_Hook_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Hook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "Unhook": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10
+-                ],
+-                "objectiveId": "Unhook",
+-                "objectiveInfo": "CHALLENGE_Unhook_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Unhook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-14T16:00:00",
+-            "titleStringId": "CHALLENGE_HookOrUnhook_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_BreakGenOrGenSkillCheck_DESC",
+-            "id": "CalamariMaple-List_4-D_BreakGenOrGenSkillCheck",
+-            "isRecurring": false,
+-            "objectives": {
+-              "BreakGens": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  15
+-                ],
+-                "objectiveId": "BreakGens",
+-                "objectiveInfo": "CHALLENGE_BreakGen_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakGens",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "GenSkillCheckGreatSuccessInTrialWithPerk": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  25
+-                ],
+-                "objectiveId": "GenSkillCheckGreatSuccessInTrialWithPerk",
+-                "objectiveInfo": "CHALLENGE_GenSkillCheck_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.GeneratorSkillCheckSuccess",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-14T16:00:00",
+-            "titleStringId": "CHALLENGE_BreakGenOrGenSkillCheck_TITLE",
+-            "type": "dual"
+-          }
+-        ],
+-        "endDate": "2025-11-20T16:00:00",
+-        "listId": "CalamariMaple-List_4",
+-        "listOrder": 3,
+-        "listTitleStringId": "LIST_Calamari_TITLE_4",
+-        "startDate": "2025-11-14T16:00:00"
+-      }
+-    ],
+-    "endDate": "2025-11-20T16:00:00",
+-    "eventID": "CalamariV6",
+-    "mask": 0,
+-    "startDate": "2025-11-06T16:00:00",
+-    "tabOrder": 2,
+-    "tabTitleStringId": "CHALLENGESET_CalamariLasagna_TITLE",
+-    "titleLocalizationText": {
+-      "de": "2V8",
+-      "en": "2V8",
+-      "es": "2V8",
+-      "es-MX": "2V8",
+-      "fr": "2V8",
+-      "it": "2V8",
+-      "ja": "2対8",
+-      "ko": "2V8",
+-      "pl": "2 na 8",
+-      "pt-BR": "2V8",
+-      "ru": "2 против 8",
+-      "th": "2V8",
+-      "tr": "2'ye 8",
+-      "zh-Hans": "2V8",
+-      "zh-Hant": "2v8模式"
+-    },
+-    "type": "Event",
+-    "uiAssets": {}
+-  },
+   "Daily_Set": {
+     "additionalInfoStringId": "CHALLENGESET_Daily_INFO",
+     "challengeList": [
+@@ -2603,7 +1415,7 @@
+             "type": "dual"
+           }
+         ],
+-        "endDate": "2025-10-21T15:00:00",
++        "endDate": "2025-10-20T15:00:00",
+         "listId": "DbdDay_2025_Set-DbDDay_QuestList_2",
+         "listOrder": 2,
+         "listTitleStringId": "DbDDay_QuestList_2_Title",

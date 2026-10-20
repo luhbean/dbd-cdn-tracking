@@ -2,6 +2,14 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.2.3_2866417live](versions/9.2.3_2866417live/CHANGES.md)
+
+Built 2025-11-14 20:59 UTC · **+0** added · **~3** modified · **−0** removed
+
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.2.3_2866417live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_ja.json`](versions/9.2.3_2866417live/diffs/loadingText/specialEventsLoadingText_ja.json.diff)
+- ~ [`ranksThresholds.json`](versions/9.2.3_2866417live/diffs/ranksThresholds.json.diff)
+
 ## [9.2.3_2860143live](versions/9.2.3_2860143live/CHANGES.md)
 
 Built 2025-11-12 16:16 UTC · **+0** added · **~2** modified · **−0** removed

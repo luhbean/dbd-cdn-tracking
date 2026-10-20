@@ -2,24 +2,16 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.3.2_3039045live` · built 2026-01-19 16:00 UTC
+**Latest version:** `9.3.2_3039690live` · built 2026-01-19 18:04 UTC
 
-[What changed](versions/9.3.2_3039045live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.3.2_3039690live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **10** modified · **0** removed, compared with `9.3.2_3025872live`.
+**0** added · **2** modified · **0** removed, compared with `9.3.2_3039045live`.
 
-- ~ [`catalog.json`](versions/9.3.2_3039045live/diffs/catalog.json.diff)
-- ~ [`challengeLocs/challengeText_de.json`](versions/9.3.2_3039045live/diffs/challengeLocs/challengeText_de.json.diff)
-- ~ [`challengeLocs/challengeText_pl.json`](versions/9.3.2_3039045live/diffs/challengeLocs/challengeText_pl.json.diff)
-- ~ [`challengeLocs/challengeText_tr.json`](versions/9.3.2_3039045live/diffs/challengeLocs/challengeText_tr.json.diff)
-- ~ [`challengeSets.json`](versions/9.3.2_3039045live/diffs/challengeSets.json.diff)
-- ~ [`contentSchedule.json`](versions/9.3.2_3039045live/diffs/contentSchedule.json.diff)
-- ~ [`dlcList.json`](versions/9.3.2_3039045live/diffs/dlcList.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.3.2_3039045live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`recommendations.json`](versions/9.3.2_3039045live/diffs/recommendations.json.diff)
-- ~ [`specialEventsContent.json`](versions/9.3.2_3039045live/diffs/specialEventsContent.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.3.2_3039690live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/9.3.2_3039690live/diffs/itemsKillswitch.json.diff)
 
 ## Browse
 
@@ -41,7 +33,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-313 versions tracked so far.
+314 versions tracked so far.
 
 ---
 

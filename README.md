@@ -2,21 +2,16 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `10.2.0_3886165live` · built 2026-10-14 20:44 UTC
+**Latest version:** `10.2.0_3887828live` · built 2026-10-15 12:58 UTC
 
-[What changed](versions/10.2.0_3886165live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/10.2.0_3887828live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**3** added · **4** modified · **0** removed, compared with `10.2.1_3886173live`.
+**0** added · **2** modified · **0** removed, compared with `10.2.0_3886165live`.
 
-- ~ [`catalog.json`](versions/10.2.0_3886165live/diffs/catalog.json.diff)
-- ~ [`dlcList.json`](versions/10.2.0_3886165live/diffs/dlcList.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.0_3886165live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`recommendations.json`](versions/10.2.0_3886165live/diffs/recommendations.json.diff)
-- \+ [`images/T_UI_CollectionBanner_NieR.png`](versions/10.2.0_3886165live/images/T_UI_CollectionBanner_NieR.png)
-- \+ [`images/T_UI_SpecialPack_NieR.png`](versions/10.2.0_3886165live/images/T_UI_SpecialPack_NieR.png)
-- \+ [`images/T_UI_SpecialPack_Rift7.png`](versions/10.2.0_3886165live/images/T_UI_SpecialPack_Rift7.png)
+- ~ [`catalog.json`](versions/10.2.0_3887828live/diffs/catalog.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.0_3887828live/diffs/dynamicContent/DynamicContent.json.diff)
 
 ## Coming up
 
@@ -44,7 +39,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-596 versions tracked so far.
+597 versions tracked so far.
 
 ---
 

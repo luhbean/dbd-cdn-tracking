@@ -1,10 +1,10 @@
-# Latest live content · 10.0.1_3469754live
+# Latest live content · 10.0.0_3469671live
 
-Built 2026-06-26 17:01 UTC · [what changed in this version](../versions/10.0.1_3469754live/CHANGES.md) · [← back](../README.md)
+Built 2026-06-26 17:02 UTC · [what changed in this version](../versions/10.0.0_3469671live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (8)](#images) · [Game data (98)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (14)](#images) · [Game data (98)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -15,9 +15,15 @@ This folder always holds the newest version. Its commit history shows every chan
 ## Images
 
 <p>
-<a href="images/T_UI_CollectionBanner_TheLifeRoad.png"><img src="images/T_UI_CollectionBanner_TheLifeRoad.png" alt="T_UI_CollectionBanner_TheLifeRoad.png" title="T_UI_CollectionBanner_TheLifeRoad.png" width="200"></a>
+<a href="images/T_UI_ChapterBundle_Jason.png"><img src="images/T_UI_ChapterBundle_Jason.png" alt="T_UI_ChapterBundle_Jason.png" title="T_UI_ChapterBundle_Jason.png" width="200"></a>
+<a href="images/T_UI_ChapterBundle_TheLifeRoad.png"><img src="images/T_UI_ChapterBundle_TheLifeRoad.png" alt="T_UI_ChapterBundle_TheLifeRoad.png" title="T_UI_ChapterBundle_TheLifeRoad.png" width="200"></a>
+<a href="images/T_UI_CollectionBanner_Black_Banquet.png"><img src="images/T_UI_CollectionBanner_Black_Banquet.png" alt="T_UI_CollectionBanner_Black_Banquet.png" title="T_UI_CollectionBanner_Black_Banquet.png" width="200"></a>
+<a href="images/T_UI_CollectionBanner_Ice_Nine_Kills.png"><img src="images/T_UI_CollectionBanner_Ice_Nine_Kills.png" alt="T_UI_CollectionBanner_Ice_Nine_Kills.png" title="T_UI_CollectionBanner_Ice_Nine_Kills.png" width="200"></a>
+<a href="images/T_UI_CollectionBanner_Jason.png"><img src="images/T_UI_CollectionBanner_Jason.png" alt="T_UI_CollectionBanner_Jason.png" title="T_UI_CollectionBanner_Jason.png" width="200"></a>
+<a href="images/T_UI_S53_ShaneWiigwaas_Portrait.png"><img src="images/T_UI_S53_ShaneWiigwaas_Portrait.png" alt="T_UI_S53_ShaneWiigwaas_Portrait.png" title="T_UI_S53_ShaneWiigwaas_Portrait.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_Black_Banquet.png"><img src="images/T_UI_SpecialPack_Black_Banquet.png" alt="T_UI_SpecialPack_Black_Banquet.png" title="T_UI_SpecialPack_Black_Banquet.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_TheLifeRoad.png"><img src="images/T_UI_SpecialPack_TheLifeRoad.png" alt="T_UI_SpecialPack_TheLifeRoad.png" title="T_UI_SpecialPack_TheLifeRoad.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Ice_Nine_Kills.png"><img src="images/T_UI_SpecialPack_Ice_Nine_Kills.png" alt="T_UI_SpecialPack_Ice_Nine_Kills.png" title="T_UI_SpecialPack_Ice_Nine_Kills.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Jason.png"><img src="images/T_UI_SpecialPack_Jason.png" alt="T_UI_SpecialPack_Jason.png" title="T_UI_SpecialPack_Jason.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_TwistedMasquerade_2025_Bundle.png"><img src="images/T_UI_SpecialPack_TwistedMasquerade_2025_Bundle.png" alt="T_UI_SpecialPack_TwistedMasquerade_2025_Bundle.png" title="T_UI_SpecialPack_TwistedMasquerade_2025_Bundle.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_GenQuest1.png"><img src="images/T_UI_Tutorial_ImageBG_GenQuest1.png" alt="T_UI_Tutorial_ImageBG_GenQuest1.png" title="T_UI_Tutorial_ImageBG_GenQuest1.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_cosmetic.png"><img src="images/T_UI_Tutorial_ImageBG_cosmetic.png" alt="T_UI_Tutorial_ImageBG_cosmetic.png" title="T_UI_Tutorial_ImageBG_cosmetic.png" width="200"></a>

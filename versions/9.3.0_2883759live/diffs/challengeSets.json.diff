@@ -1,0 +1,319 @@
+--- a/challengeSets.json
++++ b/challengeSets.json
+@@ -4790,316 +4790,6 @@
+     "type": "Onboarding",
+     "uiAssets": {}
+   },
+-  "PTB_Test": {
+-    "additionalInfoStringId": "TEST_CommunityQuests_INFO",
+-    "challengeList": [
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_PlayAnyKillerOrPlayAnySurvivor_DESC",
+-            "id": "PTB_Test-CommunityQuests-C_PlayAnyKillerOrPlayAnySurvivor",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlayingKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "FinishedPlayingKiller",
+-                "objectiveInfo": "CHALLENGE_CommunityPlayAnyKiller_INFO",
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "FinishedPlayingKiller_Community": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": true,
+-                "maxProgressionPerPlayer": 20000,
+-                "neededProgression": [
+-                  20000
+-                ],
+-                "objectiveId": "FinishedPlayingKiller_Community",
+-                "objectiveInfo": "CHALLENGE_CommunityPlayAnyKiller_INFO",
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "FinishedPlayingSurvivor": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "FinishedPlayingSurvivor",
+-                "objectiveInfo": "CHALLENGE_CommunityPlayAnySurvivor_INFO",
+-                "objectiveOrder": 2,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingSurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "FinishedPlayingSurvivor_Community": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": true,
+-                "maxProgressionPerPlayer": 20000,
+-                "neededProgression": [
+-                  20000
+-                ],
+-                "objectiveId": "FinishedPlayingSurvivor_Community",
+-                "objectiveInfo": "CHALLENGE_CommunityPlayAnySurvivor_INFO",
+-                "objectiveOrder": 3,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingSurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "startDate": "2025-11-04T15:00:00",
+-            "titleStringId": "CHALLENGE_PlayAnyKillerOrPlayAnySurvivor_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_HookOrUnhook_DESC",
+-            "id": "PTB_Test-CommunityQuests-C_HookOrUnhook",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Hook": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "Hook",
+-                "objectiveInfo": "CHALLENGE_CommunityHook_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Hook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "Hook_Community": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": true,
+-                "maxProgressionPerPlayer": 150000,
+-                "neededProgression": [
+-                  150000
+-                ],
+-                "objectiveId": "Hook_Community",
+-                "objectiveInfo": "CHALLENGE_CommunityHook_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Hook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "Unhook": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "Unhook",
+-                "objectiveInfo": "CHALLENGE_CommunityUnhook_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 2,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Unhook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "Unhook_Community": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": true,
+-                "maxProgressionPerPlayer": 100000,
+-                "neededProgression": [
+-                  100000
+-                ],
+-                "objectiveId": "Unhook_Community",
+-                "objectiveInfo": "CHALLENGE_CommunityUnhook_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 3,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Unhook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "startDate": "2025-11-04T15:00:00",
+-            "titleStringId": "CHALLENGE_HookOrUnhook_TITLE",
+-            "type": "dual"
+-          }
+-        ],
+-        "endDate": "2025-11-10T15:00:00",
+-        "listId": "PTB_Test-CommunityQuests",
+-        "listOrder": 0,
+-        "listTitleStringId": "DbbDay_CommunityQuests_Title",
+-        "startDate": "2025-11-04T15:00:00"
+-      }
+-    ],
+-    "endDate": "2025-11-10T15:00:00",
+-    "mask": 0,
+-    "startDate": "2025-11-04T15:00:00",
+-    "tabOrder": 0,
+-    "tabTitleStringId": "DbbDay_CommunityQuests_Title",
+-    "titleLocalizationText": {
+-      "de": "Community-Quests",
+-      "en": "Community Quests",
+-      "es": "Misiones de la comunidad",
+-      "es-MX": "Misiones de la comunidad",
+-      "fr": "Quêtes de la communauté",
+-      "it": "Missioni community",
+-      "ja": "コミュニティクエスト",
+-      "ko": "커뮤니티 퀘스트",
+-      "pl": "Zadania społeczności",
+-      "pt-BR": "Missões da Comunidade",
+-      "ru": "Задания сообщества",
+-      "th": "เควสต์ชุมชน",
+-      "tr": "Topluluk Görevleri",
+-      "zh-Hans": "社区任务",
+-      "zh-Hant": "社群任務"
+-    },
+-    "type": "MicroEvent",
+-    "uiAssets": {}
+-  },
+   "Rift_03_QuestSet": {
+     "additionalInfoStringId": "CHALLENGESET_BattlePass_INFO",
+     "challengeList": [

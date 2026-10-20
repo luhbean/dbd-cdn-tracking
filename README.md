@@ -2,21 +2,19 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.4.2_3088141live` · built 2026-02-10 13:12 UTC
+**Latest version:** `9.4.2_3093271live` · built 2026-02-11 15:11 UTC
 
-[What changed](versions/9.4.2_3088141live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.4.2_3093271live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **7** modified · **0** removed, compared with `9.4.1_3084999live`.
+**0** added · **5** modified · **0** removed, compared with `9.4.2_3088141live`.
 
-- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.4.2_3088141live/diffs/archiveJournals/archiveS3Journals.json.diff)
-- ~ [`catalog.json`](versions/9.4.2_3088141live/diffs/catalog.json.diff)
-- ~ [`challengeSets.json`](versions/9.4.2_3088141live/diffs/challengeSets.json.diff)
-- ~ [`contentSchedule.json`](versions/9.4.2_3088141live/diffs/contentSchedule.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.4.2_3088141live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`recommendations.json`](versions/9.4.2_3088141live/diffs/recommendations.json.diff)
-- ~ [`specialEventsContent.json`](versions/9.4.2_3088141live/diffs/specialEventsContent.json.diff)
+- ~ [`catalog.json`](versions/9.4.2_3093271live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.4.2_3093271live/diffs/challengeSets.json.diff)
+- ~ [`contentSchedule.json`](versions/9.4.2_3093271live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.4.2_3093271live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/9.4.2_3093271live/diffs/recommendations.json.diff)
 
 ## Browse
 
@@ -38,7 +36,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-339 versions tracked so far.
+340 versions tracked so far.
 
 ---
 

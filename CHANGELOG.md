@@ -2,6 +2,14 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.3.2_2954235live](versions/9.3.2_2954235live/CHANGES.md)
+
+Built 2025-12-09 13:59 UTC · **+0** added · **~3** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/9.3.2_2954235live/diffs/catalog.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.3.2_2954235live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/9.3.2_2954235live/diffs/itemsKillswitch.json.diff)
+
 ## [9.3.2_2952423live](versions/9.3.2_2952423live/CHANGES.md)
 
 Built 2025-12-08 19:48 UTC · **+0** added · **~20** modified · **−0** removed

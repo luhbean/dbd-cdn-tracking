@@ -2,6 +2,10 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.3.0_2881006live](versions/9.3.0_2881006live/CHANGES.md)
+
+Built 2025-11-24 18:05 UTC · no content changes
+
 ## [9.3.0_2880935live](versions/9.3.0_2880935live/CHANGES.md)
 
 Built 2025-11-24 17:26 UTC · **+0** added · **~8** modified · **−0** removed

@@ -2,6 +2,21 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.3.2_3039045live](versions/9.3.2_3039045live/CHANGES.md)
+
+Built 2026-01-19 16:00 UTC · **+0** added · **~10** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/9.3.2_3039045live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_de.json`](versions/9.3.2_3039045live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_pl.json`](versions/9.3.2_3039045live/diffs/challengeLocs/challengeText_pl.json.diff)
+- ~ [`challengeLocs/challengeText_tr.json`](versions/9.3.2_3039045live/diffs/challengeLocs/challengeText_tr.json.diff)
+- ~ [`challengeSets.json`](versions/9.3.2_3039045live/diffs/challengeSets.json.diff)
+- ~ [`contentSchedule.json`](versions/9.3.2_3039045live/diffs/contentSchedule.json.diff)
+- ~ [`dlcList.json`](versions/9.3.2_3039045live/diffs/dlcList.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.3.2_3039045live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/9.3.2_3039045live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/9.3.2_3039045live/diffs/specialEventsContent.json.diff)
+
 ## [9.3.2_3025872live](versions/9.3.2_3025872live/CHANGES.md)
 
 Built 2026-01-13 15:23 UTC · **+0** added · **~3** modified · **−0** removed

@@ -1,0 +1,42 @@
+--- a/archiveQuests/Tome20.json
++++ b/archiveQuests/Tome20.json
+@@ -3796,7 +3796,7 @@
+             "nodeType": "narrative"
+           },
+           "node_T20_L4_Glyph01": {
+-            "clientInfoId": "WhiteGlyph",
++            "clientInfoId": "YellowGlyph",
+             "coordinates": {
+               "x": 43.0,
+               "y": 40.0
+@@ -3806,7 +3806,7 @@
+             ],
+             "nodeType": "quest:contextual",
+             "objectives": {
+-              "WhiteGlyph": {
++              "YellowGlyph": {
+                 "conditions": [
+                   {
+                     "key": "role",
+@@ -3817,18 +3817,18 @@
+                 ],
+                 "incrementWithEventRepetitions": true,
+                 "neededProgression": 2,
+-                "objectiveId": "WhiteGlyph",
++                "objectiveId": "YellowGlyph",
+                 "questEvent": [
+                   {
+                     "operation": ">=",
+                     "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.WhiteGlyph",
++                    "questEventId": "QuestEvent.YellowGlyph",
+                     "repetition": 1
+                   }
+                 ],
+                 "specialBehaviours": [
+                   {
+-                    "id": "WhiteGlyph"
++                    "id": "YellowGlyph"
+                   }
+                 ]
+               }

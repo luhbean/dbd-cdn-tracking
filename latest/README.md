@@ -1,10 +1,10 @@
-# Latest live content · 10.1.1_3710109live
+# Latest live content · 10.1.2_3714264live
 
-Built 2026-09-03 18:19 UTC · [what changed in this version](../versions/10.1.1_3710109live/CHANGES.md) · [← back](../README.md)
+Built 2026-09-04 14:18 UTC · [what changed in this version](../versions/10.1.2_3714264live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (3)](#images) · [Game data (98)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (5)](#images) · [Game data (98)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -15,6 +15,8 @@ This folder always holds the newest version. Its commit history shows every chan
 ## Images
 
 <p>
+<a href="images/T_UI_CollectionBanner_HallowedBlight_Jason.png"><img src="images/T_UI_CollectionBanner_HallowedBlight_Jason.png" alt="T_UI_CollectionBanner_HallowedBlight_Jason.png" title="T_UI_CollectionBanner_HallowedBlight_Jason.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_HallowedBlight_Jason.png"><img src="images/T_UI_SpecialPack_HallowedBlight_Jason.png" alt="T_UI_SpecialPack_HallowedBlight_Jason.png" title="T_UI_SpecialPack_HallowedBlight_Jason.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_GenQuest1.png"><img src="images/T_UI_Tutorial_ImageBG_GenQuest1.png" alt="T_UI_Tutorial_ImageBG_GenQuest1.png" title="T_UI_Tutorial_ImageBG_GenQuest1.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_cosmetic.png"><img src="images/T_UI_Tutorial_ImageBG_cosmetic.png" alt="T_UI_Tutorial_ImageBG_cosmetic.png" title="T_UI_Tutorial_ImageBG_cosmetic.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_gift.png"><img src="images/T_UI_Tutorial_ImageBG_gift.png" alt="T_UI_Tutorial_ImageBG_gift.png" title="T_UI_Tutorial_ImageBG_gift.png" width="200"></a>

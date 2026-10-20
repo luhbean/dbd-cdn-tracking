@@ -1,0 +1,3393 @@
+--- a/catalog.json
++++ b/catalog.json
+@@ -4651,7 +4651,8 @@
+       "defaultCustomization": [
+         "S54_Head01",
+         "S54_Legs01",
+-        "S54_Torso01"
++        "S54_Torso01",
++        "S54_Torso01_04"
+       ],
+       "entitledByDefault": false,
+       "hiddenIfNotOwned": false,
+@@ -27694,10 +27695,6 @@
+       {
+         "currencyId": "Cells",
+         "price": 400
+-      },
+-      {
+-        "currencyId": "Shards",
+-        "price": 7200
+       }
+     ],
+     "eventCostList": [],
+@@ -102848,6 +102845,35 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "K30_Body022",
++    "metaData": {
++      "base_itemId": "K30_Body022",
++      "character": "K30",
++      "entitledByDefault": false,
++      "outfitId": "K30_outfit_022",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-10-01T15:00:00",
++      "releaseDateInMs": 1790866800000,
++      "type": "Torso",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -103715,7 +103741,36 @@
+       "item"
+     ],
+     "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
+     "eventCostList": [],
++    "id": "K30_Head022",
++    "metaData": {
++      "base_itemId": "K30_Head022",
++      "character": "K30",
++      "entitledByDefault": false,
++      "outfitId": "K30_outfit_022",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-10-01T15:00:00",
++      "releaseDateInMs": 1790866800000,
++      "type": "Head",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "eventCostList": [],
+     "id": "K30_PCharm001",
+     "metaData": {
+       "base_itemId": "K30_PCharm001",
+@@ -104802,6 +104857,35 @@
+   },
+   {
+     "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "K30_W022",
++    "metaData": {
++      "base_itemId": "K30_W022",
++      "character": "K30",
++      "entitledByDefault": false,
++      "outfitId": "K30_outfit_022",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-10-01T15:00:00",
++      "releaseDateInMs": 1790866800000,
++      "type": "Weapon",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
+       "item",
+       "default"
+     ],
+@@ -114605,6 +114689,35 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "K38_Body011",
++    "metaData": {
++      "base_itemId": "K38_Body011",
++      "character": "K38",
++      "entitledByDefault": false,
++      "outfitId": "K38_outfit_011",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-10-01T15:00:00",
++      "releaseDateInMs": 1790866800000,
++      "type": "Torso",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 100
+       },
+       {
+@@ -115097,6 +115210,35 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "K38_Head011",
++    "metaData": {
++      "base_itemId": "K38_Head011",
++      "character": "K38",
++      "entitledByDefault": false,
++      "outfitId": "K38_outfit_011",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-10-01T15:00:00",
++      "releaseDateInMs": 1790866800000,
++      "type": "Head",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 100
+       },
+       {
+@@ -115658,6 +115800,35 @@
+       "releaseDate": "2025-12-09T16:00:00",
+       "releaseDateInMs": 1765296000000,
+       "type": "Weapon"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "K38_W011",
++    "metaData": {
++      "base_itemId": "K38_W011",
++      "character": "K38",
++      "entitledByDefault": false,
++      "outfitId": "K38_outfit_011",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-10-01T15:00:00",
++      "releaseDateInMs": 1790866800000,
++      "type": "Weapon",
++      "unbreakable": false
+     },
+     "nonSecure": false,
+     "premium": false,
+@@ -119152,6 +119323,35 @@
+       "rarity": "VeryRare",
+       "releaseDate": "2026-06-16T15:00:00",
+       "releaseDateInMs": 1781622000000,
++      "type": "Torso",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "K43_Body008",
++    "metaData": {
++      "base_itemId": "K43_Body008",
++      "character": "K43",
++      "entitledByDefault": false,
++      "outfitId": "K43_outfit_008",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-10-01T15:00:00",
++      "releaseDateInMs": 1790866800000,
+       "type": "Torso",
+       "unbreakable": false
+     },
+@@ -119325,6 +119525,35 @@
+   },
+   {
+     "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "K43_Head008",
++    "metaData": {
++      "base_itemId": "K43_Head008",
++      "character": "K43",
++      "entitledByDefault": false,
++      "outfitId": "K43_outfit_008",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-10-01T15:00:00",
++      "releaseDateInMs": 1790866800000,
++      "type": "Head",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
+       "item",
+       "default"
+     ],
+@@ -119541,6 +119770,35 @@
+       "rarity": "VeryRare",
+       "releaseDate": "2026-06-16T15:00:00",
+       "releaseDateInMs": 1781622000000,
++      "type": "Weapon",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "K43_W008",
++    "metaData": {
++      "base_itemId": "K43_W008",
++      "character": "K43",
++      "entitledByDefault": false,
++      "outfitId": "K43_outfit_008",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-10-01T15:00:00",
++      "releaseDateInMs": 1790866800000,
+       "type": "Weapon",
+       "unbreakable": false
+     },
+@@ -143147,6 +143405,35 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "MT_Head037",
++    "metaData": {
++      "base_itemId": "MT_Head037",
++      "character": "Meg",
++      "entitledByDefault": false,
++      "outfitId": "MT_outfit_037",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-09-22T15:00:00",
++      "releaseDateInMs": 1790089200000,
++      "type": "Head",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -145077,6 +145364,35 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "MT_Legs037",
++    "metaData": {
++      "base_itemId": "MT_Legs037",
++      "character": "Meg",
++      "entitledByDefault": false,
++      "outfitId": "MT_outfit_037",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-09-22T15:00:00",
++      "releaseDateInMs": 1790089200000,
++      "type": "Legs",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -147717,6 +148033,35 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "MT_Torso037",
++    "metaData": {
++      "base_itemId": "MT_Torso037",
++      "character": "Meg",
++      "entitledByDefault": false,
++      "outfitId": "MT_outfit_037",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-09-22T15:00:00",
++      "releaseDateInMs": 1790089200000,
++      "type": "Torso",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -161528,6 +161873,33 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 120
++      }
++    ],
++    "eventCostList": [],
++    "id": "POU_BDG_39",
++    "metaData": {
++      "base_itemId": "POU_BDG_39",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2026-08-25T15:00:00",
++      "releaseDateInMs": 1787670000000,
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 150
+       }
+     ],
+@@ -166380,8 +166752,8 @@
+       "character": "any",
+       "entitledByDefault": false,
+       "rarity": "VeryRare",
+-      "releaseDate": "2026-09-08T15:00:00",
+-      "releaseDateInMs": 1788879600000,
++      "releaseDate": "2026-08-25T15:00:00",
++      "releaseDateInMs": 1787670000000,
+       "type": "Badge"
+     },
+     "nonSecure": false,
+@@ -201396,6 +201768,35 @@
+     "nonSecure": false,
+     "premium": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "S34_Head027",
++    "metaData": {
++      "base_itemId": "S34_Head027",
++      "character": "S34",
++      "entitledByDefault": false,
++      "outfitId": "S34_outfit_027",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-09-22T15:00:00",
++      "releaseDateInMs": 1790089200000,
++      "type": "Head",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -202412,6 +202813,35 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "S34_Legs027",
++    "metaData": {
++      "base_itemId": "S34_Legs027",
++      "character": "S34",
++      "entitledByDefault": false,
++      "outfitId": "S34_outfit_027",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-09-22T15:00:00",
++      "releaseDateInMs": 1790089200000,
++      "type": "Legs",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 250
+       },
+       {
+@@ -203841,6 +204271,35 @@
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "S34_Torso027",
++    "metaData": {
++      "base_itemId": "S34_Torso027",
++      "character": "S34",
++      "entitledByDefault": false,
++      "outfitId": "S34_outfit_027",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-09-22T15:00:00",
++      "releaseDateInMs": 1790089200000,
++      "type": "Torso",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
+         "price": 250
+       },
+       {
+@@ -228260,10 +228719,6 @@
+       {
+         "currencyId": "Cells",
+         "price": 400
+-      },
+-      {
+-        "currencyId": "Shards",
+-        "price": 7200
+       }
+     ],
+     "eventCostList": [],
+@@ -228637,10 +229092,6 @@
+       {
+         "currencyId": "Cells",
+         "price": 400
+-      },
+-      {
+-        "currencyId": "Shards",
+-        "price": 7200
+       }
+     ],
+     "eventCostList": [],
+@@ -229363,10 +229814,6 @@
+       {
+         "currencyId": "Cells",
+         "price": 400
+-      },
+-      {
+-        "currencyId": "Shards",
+-        "price": 7200
+       }
+     ],
+     "eventCostList": [],
+@@ -230904,10 +231351,6 @@
+       {
+         "currencyId": "Cells",
+         "price": 400
+-      },
+-      {
+-        "currencyId": "Shards",
+-        "price": 7200
+       }
+     ],
+     "eventCostList": [],
+@@ -231286,10 +231729,6 @@
+       {
+         "currencyId": "Cells",
+         "price": 400
+-      },
+-      {
+-        "currencyId": "Shards",
+-        "price": 7200
+       }
+     ],
+     "eventCostList": [],
+@@ -231825,10 +232264,6 @@
+       {
+         "currencyId": "Cells",
+         "price": 400
+-      },
+-      {
+-        "currencyId": "Shards",
+-        "price": 7200
+       }
+     ],
+     "eventCostList": [],
+@@ -232400,6 +232835,35 @@
+   },
+   {
+     "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "S53_Head007",
++    "metaData": {
++      "base_itemId": "S53_Head007",
++      "character": "S53",
++      "entitledByDefault": false,
++      "outfitId": "S53_outfit_007",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-09-22T15:00:00",
++      "releaseDateInMs": 1790089200000,
++      "type": "Head",
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
+       "item",
+       "default"
+     ],
+@@ -232670,6 +233134,35 @@
+       "releaseDateInMs": 1782399600000,
+       "type": "Legs",
+       "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "S53_Legs007",
++    "metaData": {
++      "base_itemId": "S53_Legs007",
++      "character": "S53",
++      "entitledByDefault": false,
++      "outfitId": "S53_outfit_007",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-09-22T15:00:00",
++      "releaseDateInMs": 1790089200000,
++      "type": "Legs",
++      "unbreakable": false
+     },
+     "nonSecure": false,
+     "premium": false,
+@@ -233143,6 +233636,35 @@
+       "releaseDateInMs": 1782399600000,
+       "type": "Torso",
+       "unbreakable": true
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 400
++      }
++    ],
++    "eventCostList": [],
++    "id": "S53_Torso007",
++    "metaData": {
++      "base_itemId": "S53_Torso007",
++      "character": "S53",
++      "entitledByDefault": false,
++      "outfitId": "S53_outfit_007",
++      "rarity": "VeryRare",
++      "releaseDate": "2026-09-22T15:00:00",
++      "releaseDateInMs": 1790089200000,
++      "type": "Torso",
++      "unbreakable": false
+     },
+     "nonSecure": false,
+     "premium": false,
+@@ -234576,7 +235098,8 @@
+   },
+   {
+     "categories": [
+-      "item"
++      "item",
++      "default"
+     ],
+     "consumable": false,
+     "defaultCost": [
+@@ -234590,7 +235113,7 @@
+     "metaData": {
+       "base_itemId": "S54_Torso01_04",
+       "character": "S54",
+-      "entitledByDefault": false,
++      "entitledByDefault": true,
+       "rarity": "Common",
+       "releaseDate": "2018-06-12T00:00:00",
+       "releaseDateInMs": 1528761600000,
+@@ -262250,8 +262773,8 @@
+       "character": "any",
+       "entitledByDefault": false,
+       "rarity": "VeryRare",
+-      "releaseDate": "2026-09-08T15:00:00",
+-      "releaseDateInMs": 1788879600000,
++      "releaseDate": "2026-08-25T15:00:00",
++      "releaseDateInMs": 1787670000000,
+       "type": "Charm"
+     },
+     "nonSecure": false,
+@@ -262277,8 +262800,62 @@
+       "character": "any",
+       "entitledByDefault": false,
+       "rarity": "VeryRare",
+-      "releaseDate": "2026-09-08T15:00:00",
+-      "releaseDateInMs": 1788879600000,
++      "releaseDate": "2026-08-25T15:00:00",
++      "releaseDateInMs": 1787670000000,
++      "type": "Charm"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 50
++      }
++    ],
++    "eventCostList": [],
++    "id": "UDO_004",
++    "metaData": {
++      "base_itemId": "UDO_004",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2026-08-25T15:00:00",
++      "releaseDateInMs": 1787670000000,
++      "type": "Charm"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 50
++      }
++    ],
++    "eventCostList": [],
++    "id": "UDO_005",
++    "metaData": {
++      "base_itemId": "UDO_005",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2026-08-25T15:00:00",
++      "releaseDateInMs": 1787670000000,
+       "type": "Charm"
+     },
+     "nonSecure": false,
+@@ -262466,8 +263043,8 @@
+       "character": "any",
+       "entitledByDefault": false,
+       "rarity": "VeryRare",
+-      "releaseDate": "2026-09-08T15:00:00",
+-      "releaseDateInMs": 1788879600000,
++      "releaseDate": "2026-08-25T15:00:00",
++      "releaseDateInMs": 1787670000000,
+       "type": "Badge"
+     },
+     "nonSecure": false,
+@@ -262493,6 +263070,33 @@
+       "character": "any",
+       "entitledByDefault": false,
+       "rarity": "Rare",
++      "releaseDate": "2026-08-25T15:00:00",
++      "releaseDateInMs": 1787670000000,
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 120
++      }
++    ],
++    "eventCostList": [],
++    "id": "UDO_BDG_11",
++    "metaData": {
++      "base_itemId": "UDO_BDG_11",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
+       "releaseDate": "2026-08-25T15:00:00",
+       "releaseDateInMs": 1787670000000,
+       "type": "Badge"
+@@ -262571,6 +263175,33 @@
+     "id": "UDO_BDG_14",
+     "metaData": {
+       "base_itemId": "UDO_BDG_14",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2026-08-25T15:00:00",
++      "releaseDateInMs": 1787670000000,
++      "type": "Badge"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 120
++      }
++    ],
++    "eventCostList": [],
++    "id": "UDO_BDG_15",
++    "metaData": {
++      "base_itemId": "UDO_BDG_15",
+       "character": "any",
+       "entitledByDefault": false,
+       "rarity": "VeryRare",
+@@ -262601,8 +263232,8 @@
+       "character": "any",
+       "entitledByDefault": false,
+       "rarity": "VeryRare",
+-      "releaseDate": "2026-09-08T15:00:00",
+-      "releaseDateInMs": 1788879600000,
++      "releaseDate": "2026-08-25T15:00:00",
++      "releaseDateInMs": 1787670000000,
+       "type": "Banner"
+     },
+     "nonSecure": false,
+@@ -262709,8 +263340,62 @@
+       "character": "any",
+       "entitledByDefault": false,
+       "rarity": "VeryRare",
+-      "releaseDate": "2026-09-15T15:00:00",
+-      "releaseDateInMs": 1789484400000,
++      "releaseDate": "2026-08-25T15:00:00",
++      "releaseDateInMs": 1787670000000,
++      "type": "Banner"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
++    "id": "UDO_BNR_06",
++    "metaData": {
++      "base_itemId": "UDO_BNR_06",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2026-08-25T15:00:00",
++      "releaseDateInMs": 1787670000000,
++      "type": "Banner"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 200
++      }
++    ],
++    "eventCostList": [],
++    "id": "UDO_BNR_07",
++    "metaData": {
++      "base_itemId": "UDO_BNR_07",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "Ascended",
++      "releaseDate": "2026-08-25T15:00:00",
++      "releaseDateInMs": 1787670000000,
+       "type": "Banner"
+     },
+     "nonSecure": false,
+@@ -262757,6 +263442,33 @@
+       }
+     ],
+     "eventCostList": [],
++    "id": "UDO_BNR_09",
++    "metaData": {
++      "base_itemId": "UDO_BNR_09",
++      "character": "any",
++      "entitledByDefault": false,
++      "rarity": "VeryRare",
++      "releaseDate": "2026-08-25T15:00:00",
++      "releaseDateInMs": 1787670000000,
++      "type": "Banner"
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item"
++    ],
++    "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 150
++      }
++    ],
++    "eventCostList": [],
+     "id": "UDO_BNR_10",
+     "metaData": {
+       "base_itemId": "UDO_BNR_10",
+@@ -298814,6 +299526,29 @@
+     },
+     "nonSecure": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
++    "id": "K30_outfit_022",
++    "metaData": {
++      "character": "K30",
++      "discountPercentage": 0.1,
++      "items": [
++        "K30_Head022",
++        "K30_Body022",
++        "K30_W022"
++      ],
++      "releaseDate": "2026-10-01T15:00:00",
++      "releaseDateInMs": 1790866800000,
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -301098,6 +301833,29 @@
+     ],
+     "consumable": false,
+     "defaultCost": [],
++    "id": "K38_outfit_011",
++    "metaData": {
++      "character": "K38",
++      "discountPercentage": 0.1,
++      "items": [
++        "K38_Head011",
++        "K38_Body011",
++        "K38_W011"
++      ],
++      "releaseDate": "2026-10-01T15:00:00",
++      "releaseDateInMs": 1790866800000,
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
+     "id": "K38_outfit_01_01",
+     "metaData": {
+       "character": "K38",
+@@ -302052,6 +302810,29 @@
+     ],
+     "consumable": false,
+     "defaultCost": [],
++    "id": "K43_outfit_008",
++    "metaData": {
++      "character": "K43",
++      "discountPercentage": 0.1,
++      "items": [
++        "K43_Head008",
++        "K43_Body008",
++        "K43_W008"
++      ],
++      "releaseDate": "2026-10-01T15:00:00",
++      "releaseDateInMs": 1790866800000,
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
+     "id": "K43_outfit_01",
+     "metaData": {
+       "character": "K43",
+@@ -307475,6 +308256,29 @@
+     },
+     "nonSecure": false,
+     "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
++    "id": "MT_outfit_037",
++    "metaData": {
++      "character": "Meg",
++      "discountPercentage": 0.1,
++      "items": [
++        "MT_Head037",
++        "MT_Torso037",
++        "MT_Legs037"
++      ],
++      "releaseDate": "2026-09-22T15:00:00",
++      "releaseDateInMs": 1790089200000,
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -316891,6 +317695,29 @@
+     ],
+     "consumable": false,
+     "defaultCost": [],
++    "id": "S34_outfit_027",
++    "metaData": {
++      "character": "S34",
++      "discountPercentage": 0.1,
++      "items": [
++        "S34_Head027",
++        "S34_Torso027",
++        "S34_Legs027"
++      ],
++      "releaseDate": "2026-09-22T15:00:00",
++      "releaseDateInMs": 1790089200000,
++      "unbreakable": false
++    },
++    "nonSecure": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
+     "id": "S34_outfit_02_01",
+     "metaData": {
+       "character": "S34",
+@@ -323219,6 +324046,29 @@
+       "releaseDate": "2026-06-25T15:00:00",
+       "releaseDateInMs": 1782399600000,
+       "unbreakable": true
++    },
++    "nonSecure": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "outfit"
++    ],
++    "consumable": false,
++    "defaultCost": [],
++    "id": "S53_outfit_007",
++    "metaData": {
++      "character": "S53",
++      "discountPercentage": 0.1,
++      "items": [
++        "S53_Head007",
++        "S53_Torso007",
++        "S53_Legs007"
++      ],
++      "releaseDate": "2026-09-22T15:00:00",
++      "releaseDateInMs": 1790089200000,
++      "unbreakable": false
+     },
+     "nonSecure": false,
+     "purchasable": true,
+@@ -332162,8 +333012,8 @@
+     "id": "10.1.0_Gameplay_Expo",
+     "metaData": {
+       "discount": 0.4,
+-      "endDate": "2026-09-29T15:00:00",
+-      "endDateInMs": 1790694000000,
++      "endDate": "2026-09-15T15:00:00",
++      "endDateInMs": 1789484400000,
+       "fullPrice": [
+         {
+           "currencyId": "Cells",
+@@ -332194,9 +333044,306 @@
+         "tr": "Gameplay Expo Paketi",
+         "zh-Hans": "游戏博览会组合包",
+         "zh-Hant": "遊玩展組合包"
++      },
++      "startDate": "2026-09-01T15:00:00",
++      "startDateInMs": 1788274800000
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S28_Head032",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S28_Torso032",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S28_Legs032",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K28_Head015",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K28_Body015",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K28_W015",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 1440
++      }
++    ],
++    "id": "10.1.2_Autumn_Fashion",
++    "metaData": {
++      "discount": 0.4,
++      "endDate": "2026-10-06T15:00:00",
++      "endDateInMs": 1791298800000,
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 2400
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "overrideDefaults": false
++      },
++      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/News/Maple/T_UI_SpecialPack_AutumnFashion.T_UI_SpecialPack_AutumnFashion",
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 0,
++      "specialPackTitle": {
++        "de": "Herbstmode-Paket",
++        "en": "Autumn Fashion Bundle",
++        "es": "Paquete de Moda otoñal",
++        "es-MX": "Paquete Moda otoñal",
++        "fr": "Lot Mode automnale",
++        "it": "Bundle Moda autunnale",
++        "ja": "秋のファッションバンドル",
++        "ko": "가을 패션 번들",
++        "pl": "Pakiet Jesienna moda",
++        "pt-BR": "Pacote Moda Outono",
++        "ru": "Набор «Осенняя мода»",
++        "th": "แพ็กรวมแฟชั่นฤดูใบไม้ร่วง",
++        "tr": "Sonbahar Modası Paketi",
++        "zh-Hans": "秋日时尚组合包",
++        "zh-Hant": "秋季時尚組合包"
++      },
++      "startDate": "2026-09-22T15:00:00",
++      "startDateInMs": 1790089200000
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TR_Mask006",
++        "type": "inventory"
+       },
+-      "startDate": "2026-09-15T15:00:00",
+-      "startDateInMs": 1789484400000
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TR_Body006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TR_W006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TW_Head006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TW_Body006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TW_W006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TC_Torso006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TC_Legs006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TC_W006",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 1800
++      }
++    ],
++    "id": "10.1.2_Blighted_Bundle",
++    "metaData": {
++      "discount": 0.5,
++      "endDate": "2026-10-15T15:00:00",
++      "endDateInMs": 1792076400000,
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 3600
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "maxItemCount": 3,
++        "overrideDefaults": true,
++        "type": "EStoreSpecialPackImageType::ComposedImage"
++      },
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 0,
++      "specialPackTitle": {
++        "de": "„Heilige Fäule“-Paket",
++        "en": "Hallowed Blight Bundle",
++        "es": "Paquete de Plaga sagrada",
++        "es-MX": "Paquete Plaga sagrada",
++        "fr": "Lot Fléau consacré",
++        "it": "Bundle Sacra piaga",
++        "ja": "神聖なる疫病バンドル",
++        "ko": "신성한 황폐화 번들",
++        "pl": "Pakiet Halloweenowej Zarazy",
++        "pt-BR": "Pacote Dia da Praga",
++        "ru": "Набор «Священное увядание»",
++        "th": "แพ็กรวมโรคไม้ศักดิ์สิทธิ์",
++        "tr": "Kutsal Felaket Paketi",
++        "zh-Hans": "万圣枯萎组合包",
++        "zh-Hant": "萬聖枯萎組合包"
++      },
++      "startDate": "2026-10-01T15:00:00",
++      "startDateInMs": 1790866800000
+     },
+     "nonSecure": false,
+     "premium": false,
+@@ -363707,220 +364854,6 @@
+       },
+       "startDate": "2026-08-11T15:00:00",
+       "startDateInMs": 1786460400000
+-    },
+-    "nonSecure": false,
+-    "premium": false,
+-    "purchasable": true,
+-    "unique": true
+-  },
+-  {
+-    "categories": [
+-      "specialPack"
+-    ],
+-    "consumable": true,
+-    "consumptionCurrenciesList": [],
+-    "consumptionObjectList": [],
+-    "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": true,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "KK_Mask006_01",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": true,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "KK_Body027_01",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": true,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "KK_W011_01",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "LS_006",
+-        "type": "inventory"
+-      }
+-    ],
+-    "defaultCost": [
+-      {
+-        "currencyId": "Cells",
+-        "price": 1050
+-      }
+-    ],
+-    "id": "From_The_Rift_Bundle_260818",
+-    "metaData": {
+-      "discount": 0.15,
+-      "endDate": "2026-08-25T15:00:00",
+-      "endDateInMs": 1787670000000,
+-      "fullPrice": [
+-        {
+-          "currencyId": "Cells",
+-          "price": 1235
+-        }
+-      ],
+-      "hiddenIfOwned": false,
+-      "imageComposition": {
+-        "maxItemCount": 3,
+-        "overrideDefaults": true,
+-        "type": "EStoreSpecialPackImageType::ComposedImage"
+-      },
+-      "minNumberOfUnownedForPurchase": 1,
+-      "sortOrder": 60,
+-      "specialPackTitle": {
+-        "de": "„Aus dem Spalt“-Paket",
+-        "en": "From The Rift Bundle",
+-        "es": "Paquete de Desde la grieta",
+-        "es-MX": "Paquete Desde la Grieta",
+-        "fr": "Lot Venant de la Faille",
+-        "it": "Dal bundle Spaccatura",
+-        "ja": "リフトからバンドル",
+-        "ko": "균열로부터 번들",
+-        "pl": "Pakiet Ze Szczeliny",
+-        "pt-BR": "Pacote Direto da Fenda",
+-        "ru": "Набор «Из разрыва»",
+-        "th": "แพ็กรวมจากรอยแยก",
+-        "tr": "Yarık İçerisinden Paketi",
+-        "zh-Hans": "来自裂隙组合包",
+-        "zh-Hant": "裂縫組合包"
+-      },
+-      "startDate": "2026-08-18T15:00:00",
+-      "startDateInMs": 1787065200000
+-    },
+-    "nonSecure": false,
+-    "premium": false,
+-    "purchasable": true,
+-    "unique": true
+-  },
+-  {
+-    "categories": [
+-      "specialPack"
+-    ],
+-    "consumable": true,
+-    "consumptionCurrenciesList": [],
+-    "consumptionObjectList": [],
+-    "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": true,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "AV_Head014_01",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": true,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "AV_Torso014_01",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": true,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "AV_Legs014_01",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "ZO_017",
+-        "type": "inventory"
+-      }
+-    ],
+-    "defaultCost": [
+-      {
+-        "currencyId": "Cells",
+-        "price": 1042
+-      }
+-    ],
+-    "id": "From_The_Rift_Bundle_260825",
+-    "metaData": {
+-      "discount": 0.15,
+-      "endDate": "2026-09-01T15:00:00",
+-      "endDateInMs": 1788274800000,
+-      "fullPrice": [
+-        {
+-          "currencyId": "Cells",
+-          "price": 1225
+-        }
+-      ],
+-      "hiddenIfOwned": false,
+-      "imageComposition": {
+-        "maxItemCount": 3,
+-        "overrideDefaults": true,
+-        "type": "EStoreSpecialPackImageType::ComposedImage"
+-      },
+-      "minNumberOfUnownedForPurchase": 1,
+-      "sortOrder": 60,
+-      "specialPackTitle": {
+-        "de": "„Aus dem Spalt“-Paket",
+-        "en": "From The Rift Bundle",
+-        "es": "Paquete de Desde la grieta",
+-        "es-MX": "Paquete Desde la Grieta",
+-        "fr": "Lot Venant de la Faille",
+-        "it": "Dal bundle Spaccatura",
+-        "ja": "リフトからバンドル",
+-        "ko": "균열로부터 번들",
+-        "pl": "Pakiet Ze Szczeliny",
+-        "pt-BR": "Pacote Direto da Fenda",
+-        "ru": "Набор «Из разрыва»",
+-        "th": "แพ็กรวมจากรอยแยก",
+-        "tr": "Yarık İçerisinden Paketi",
+-        "zh-Hans": "来自裂隙组合包",
+-        "zh-Hant": "裂縫組合包"
+-      },
+-      "startDate": "2026-08-25T15:00:00",
+-      "startDateInMs": 1787670000000
+     },
+     "nonSecure": false,
+     "premium": false,
+@@ -363935,336 +364868,15 @@
+     "consumptionCurrenciesList": [],
+     "consumptionObjectList": [],
+     "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": true,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "CM_Head08_01",
+-        "type": "inventory"
+-      },
+       {
+         "amount": 1,
+         "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": true,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "CM_Torso08_01",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": true,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "CM_Legs08_01",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+           "hasPriorityForPackImageComposition": false,
+           "ignoreOwnership": false,
+           "includeInOwnership": true,
+           "includeInPricing": true,
+           "type": "Customization"
+         },
+-        "id": "RW_009",
+-        "type": "inventory"
+-      }
+-    ],
+-    "defaultCost": [
+-      {
+-        "currencyId": "Cells",
+-        "price": 1063
+-      }
+-    ],
+-    "id": "From_The_Rift_Bundle_260901",
+-    "metaData": {
+-      "discount": 0.15,
+-      "endDate": "2026-09-08T15:00:00",
+-      "endDateInMs": 1788879600000,
+-      "fullPrice": [
+-        {
+-          "currencyId": "Cells",
+-          "price": 1250
+-        }
+-      ],
+-      "hiddenIfOwned": false,
+-      "imageComposition": {
+-        "maxItemCount": 2,
+-        "overrideDefaults": true,
+-        "type": "EStoreSpecialPackImageType::ComposedImage"
+-      },
+-      "minNumberOfUnownedForPurchase": 1,
+-      "sortOrder": 60,
+-      "specialPackTitle": {
+-        "de": "„Aus dem Spalt“-Paket",
+-        "en": "From The Rift Bundle",
+-        "es": "Paquete de Desde la grieta",
+-        "es-MX": "Paquete Desde la Grieta",
+-        "fr": "Lot Venant de la Faille",
+-        "it": "Dal bundle Spaccatura",
+-        "ja": "リフトからバンドル",
+-        "ko": "균열로부터 번들",
+-        "pl": "Pakiet Ze Szczeliny",
+-        "pt-BR": "Pacote Direto da Fenda",
+-        "ru": "Набор «Из разрыва»",
+-        "th": "แพ็กรวมจากรอยแยก",
+-        "tr": "Yarık İçerisinden Paketi",
+-        "zh-Hans": "来自裂隙组合包",
+-        "zh-Hant": "裂縫組合包"
+-      },
+-      "startDate": "2026-09-01T15:00:00",
+-      "startDateInMs": 1788274800000
+-    },
+-    "nonSecure": false,
+-    "premium": false,
+-    "purchasable": true,
+-    "unique": true
+-  },
+-  {
+-    "categories": [
+-      "specialPack"
+-    ],
+-    "consumable": true,
+-    "consumptionCurrenciesList": [],
+-    "consumptionObjectList": [],
+-    "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": true,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "TR_Mask09_02",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": true,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "TR_Body09_02",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": true,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "TR_W09_02",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "XI_006",
+-        "type": "inventory"
+-      }
+-    ],
+-    "defaultCost": [
+-      {
+-        "currencyId": "Cells",
+-        "price": 1050
+-      }
+-    ],
+-    "id": "From_The_Rift_Bundle_260908",
+-    "metaData": {
+-      "discount": 0.15,
+-      "endDate": "2026-09-15T15:00:00",
+-      "endDateInMs": 1789484400000,
+-      "fullPrice": [
+-        {
+-          "currencyId": "Cells",
+-          "price": 1235
+-        }
+-      ],
+-      "hiddenIfOwned": false,
+-      "imageComposition": {
+-        "maxItemCount": 2,
+-        "overrideDefaults": true,
+-        "type": "EStoreSpecialPackImageType::ComposedImage"
+-      },
+-      "minNumberOfUnownedForPurchase": 1,
+-      "sortOrder": 60,
+-      "specialPackTitle": {
+-        "de": "„Aus dem Spalt“-Paket",
+-        "en": "From The Rift Bundle",
+-        "es": "Paquete de Desde la grieta",
+-        "es-MX": "Paquete Desde la Grieta",
+-        "fr": "Lot Venant de la Faille",
+-        "it": "Dal bundle Spaccatura",
+-        "ja": "リフトからバンドル",
+-        "ko": "균열로부터 번들",
+-        "pl": "Pakiet Ze Szczeliny",
+-        "pt-BR": "Pacote Direto da Fenda",
+-        "ru": "Набор «Из разрыва»",
+-        "th": "แพ็กรวมจากรอยแยก",
+-        "tr": "Yarık İçerisinden Paketi",
+-        "zh-Hans": "来自裂隙组合包",
+-        "zh-Hant": "裂縫組合包"
+-      },
+-      "startDate": "2026-09-08T15:00:00",
+-      "startDateInMs": 1788879600000
+-    },
+-    "nonSecure": false,
+-    "premium": false,
+-    "purchasable": true,
+-    "unique": true
+-  },
+-  {
+-    "categories": [
+-      "specialPack"
+-    ],
+-    "consumable": true,
+-    "consumptionCurrenciesList": [],
+-    "consumptionObjectList": [],
+-    "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": true,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "US_Head009_02",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": true,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "US_Torso009_02",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": true,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "US_Legs009_02",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "XI_007",
+-        "type": "inventory"
+-      }
+-    ],
+-    "defaultCost": [
+-      {
+-        "currencyId": "Cells",
+-        "price": 1050
+-      }
+-    ],
+-    "id": "From_The_Rift_Bundle_260915",
+-    "metaData": {
+-      "discount": 0.15,
+-      "endDate": "2026-09-22T15:00:00",
+-      "endDateInMs": 1790089200000,
+-      "fullPrice": [
+-        {
+-          "currencyId": "Cells",
+-          "price": 1235
+-        }
+-      ],
+-      "hiddenIfOwned": false,
+-      "imageComposition": {
+-        "maxItemCount": 2,
+-        "overrideDefaults": true,
+-        "type": "EStoreSpecialPackImageType::ComposedImage"
+-      },
+-      "minNumberOfUnownedForPurchase": 1,
+-      "sortOrder": 60,
+-      "specialPackTitle": {
+-        "de": "„Aus dem Spalt“-Paket",
+-        "en": "From The Rift Bundle",
+-        "es": "Paquete de Desde la grieta",
+-        "es-MX": "Paquete Desde la Grieta",
+-        "fr": "Lot Venant de la Faille",
+-        "it": "Dal bundle Spaccatura",
+-        "ja": "リフトからバンドル",
+-        "ko": "균열로부터 번들",
+-        "pl": "Pakiet Ze Szczeliny",
+-        "pt-BR": "Pacote Direto da Fenda",
+-        "ru": "Набор «Из разрыва»",
+-        "th": "แพ็กรวมจากรอยแยก",
+-        "tr": "Yarık İçerisinden Paketi",
+-        "zh-Hans": "来自裂隙组合包",
+-        "zh-Hant": "裂縫組合包"
+-      },
+-      "startDate": "2026-09-15T15:00:00",
+-      "startDateInMs": 1789484400000
+-    },
+-    "nonSecure": false,
+-    "premium": false,
+-    "purchasable": true,
+-    "unique": true
+-  },
+-  {
+-    "categories": [
+-      "specialPack"
+-    ],
+-    "consumable": true,
+-    "consumptionCurrenciesList": [],
+-    "consumptionObjectList": [],
+-    "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+         "id": "FL_008",
+         "type": "inventory"
+       },
+@@ -372836,42 +373448,6 @@
+     "consumptionCurrenciesList": [],
+     "consumptionObjectList": [],
+     "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "HU_020",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "HU_012",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "HO_005",
+-        "type": "inventory"
+-      },
+       {
+         "amount": 1,
+         "gameSpecificData": {
+@@ -372881,382 +373457,6 @@
+           "includeInPricing": true,
+           "type": "Customization"
+         },
+-        "id": "HO_001",
+-        "type": "inventory"
+-      }
+-    ],
+-    "defaultCost": [
+-      {
+-        "currencyId": "Cells",
+-        "price": 150
+-      }
+-    ],
+-    "id": "Recurring_Charm_Bundle_260818",
+-    "metaData": {
+-      "discount": 0.0,
+-      "endDate": "2026-08-25T15:00:00",
+-      "endDateInMs": 1787670000000,
+-      "fullPrice": [
+-        {
+-          "currencyId": "Cells",
+-          "price": 150
+-        }
+-      ],
+-      "hiddenIfOwned": false,
+-      "imageComposition": {
+-        "overrideDefaults": false
+-      },
+-      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_Charm.T_UI_SpecialPack_Charm",
+-      "minNumberOfUnownedForPurchase": 1,
+-      "sortOrder": 55,
+-      "specialPackTitle": {
+-        "de": "Wöchentliches Glücksbringerpaket",
+-        "en": "Weekly Charm Bundle",
+-        "es": "Paquete de amuletos semanales",
+-        "es-MX": "Lote de amuletos semanal",
+-        "fr": "Lot de charmes hebdomadaire",
+-        "it": "Bundle di amuleti settimanale",
+-        "ja": "今週の魔よけバンドル",
+-        "ko": "주간 부적 번들",
+-        "pl": "Pakiet cotygodniowego talizmanu",
+-        "pt-BR": "Pacote Semanal de Amuleto",
+-        "ru": "Еженедельный набор амулетов",
+-        "th": "แพ็กรวมเครื่องรางประจำสัปดาห์",
+-        "tr": "Haftalık Muska Paketi",
+-        "zh-Hans": "每周护符组合包",
+-        "zh-Hant": "每週護身符組合包"
+-      },
+-      "startDate": "2026-08-18T15:00:00",
+-      "startDateInMs": 1787065200000
+-    },
+-    "nonSecure": false,
+-    "premium": false,
+-    "purchasable": true,
+-    "unique": true
+-  },
+-  {
+-    "categories": [
+-      "specialPack"
+-    ],
+-    "consumable": true,
+-    "consumptionCurrenciesList": [],
+-    "consumptionObjectList": [],
+-    "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "RO_004",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "RO_010",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "BI_016",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "VE_002",
+-        "type": "inventory"
+-      }
+-    ],
+-    "defaultCost": [
+-      {
+-        "currencyId": "Cells",
+-        "price": 145
+-      }
+-    ],
+-    "id": "Recurring_Charm_Bundle_260825",
+-    "metaData": {
+-      "discount": 0.0,
+-      "endDate": "2026-09-01T15:00:00",
+-      "endDateInMs": 1788274800000,
+-      "fullPrice": [
+-        {
+-          "currencyId": "Cells",
+-          "price": 145
+-        }
+-      ],
+-      "hiddenIfOwned": false,
+-      "imageComposition": {
+-        "overrideDefaults": false
+-      },
+-      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_Charm.T_UI_SpecialPack_Charm",
+-      "minNumberOfUnownedForPurchase": 1,
+-      "sortOrder": 55,
+-      "specialPackTitle": {
+-        "de": "Wöchentliches Glücksbringerpaket",
+-        "en": "Weekly Charm Bundle",
+-        "es": "Paquete de amuletos semanales",
+-        "es-MX": "Lote de amuletos semanal",
+-        "fr": "Lot de charmes hebdomadaire",
+-        "it": "Bundle di amuleti settimanale",
+-        "ja": "今週の魔よけバンドル",
+-        "ko": "주간 부적 번들",
+-        "pl": "Pakiet cotygodniowego talizmanu",
+-        "pt-BR": "Pacote Semanal de Amuleto",
+-        "ru": "Еженедельный набор амулетов",
+-        "th": "แพ็กรวมเครื่องรางประจำสัปดาห์",
+-        "tr": "Haftalık Muska Paketi",
+-        "zh-Hans": "每周护符组合包",
+-        "zh-Hant": "每週護身符組合包"
+-      },
+-      "startDate": "2026-08-25T15:00:00",
+-      "startDateInMs": 1787670000000
+-    },
+-    "nonSecure": false,
+-    "premium": false,
+-    "purchasable": true,
+-    "unique": true
+-  },
+-  {
+-    "categories": [
+-      "specialPack"
+-    ],
+-    "consumable": true,
+-    "consumptionCurrenciesList": [],
+-    "consumptionObjectList": [],
+-    "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "FL_006",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "FL_009",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "FL_012",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "NO_020",
+-        "type": "inventory"
+-      }
+-    ],
+-    "defaultCost": [
+-      {
+-        "currencyId": "Cells",
+-        "price": 120
+-      }
+-    ],
+-    "id": "Recurring_Charm_Bundle_260901",
+-    "metaData": {
+-      "discount": 0.0,
+-      "endDate": "2026-09-08T15:00:00",
+-      "endDateInMs": 1788879600000,
+-      "fullPrice": [
+-        {
+-          "currencyId": "Cells",
+-          "price": 120
+-        }
+-      ],
+-      "hiddenIfOwned": false,
+-      "imageComposition": {
+-        "overrideDefaults": false
+-      },
+-      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_Charm.T_UI_SpecialPack_Charm",
+-      "minNumberOfUnownedForPurchase": 1,
+-      "sortOrder": 55,
+-      "specialPackTitle": {
+-        "de": "Wöchentliches Glücksbringerpaket",
+-        "en": "Weekly Charm Bundle",
+-        "es": "Paquete de amuletos semanales",
+-        "es-MX": "Lote de amuletos semanal",
+-        "fr": "Lot de charmes hebdomadaire",
+-        "it": "Bundle di amuleti settimanale",
+-        "ja": "今週の魔よけバンドル",
+-        "ko": "주간 부적 번들",
+-        "pl": "Pakiet cotygodniowego talizmanu",
+-        "pt-BR": "Pacote Semanal de Amuleto",
+-        "ru": "Еженедельный набор амулетов",
+-        "th": "แพ็กรวมเครื่องรางประจำสัปดาห์",
+-        "tr": "Haftalık Muska Paketi",
+-        "zh-Hans": "每周护符组合包",
+-        "zh-Hant": "每週護身符組合包"
+-      },
+-      "startDate": "2026-09-01T15:00:00",
+-      "startDateInMs": 1788274800000
+-    },
+-    "nonSecure": false,
+-    "premium": false,
+-    "purchasable": true,
+-    "unique": true
+-  },
+-  {
+-    "categories": [
+-      "specialPack"
+-    ],
+-    "consumable": true,
+-    "consumptionCurrenciesList": [],
+-    "consumptionObjectList": [],
+-    "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "FL_010",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "FL_011",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "NO_021",
+-        "type": "inventory"
+-      }
+-    ],
+-    "defaultCost": [
+-      {
+-        "currencyId": "Cells",
+-        "price": 150
+-      }
+-    ],
+-    "id": "Recurring_Charm_Bundle_260908",
+-    "metaData": {
+-      "discount": 0.0,
+-      "endDate": "2026-09-15T15:00:00",
+-      "endDateInMs": 1789484400000,
+-      "fullPrice": [
+-        {
+-          "currencyId": "Cells",
+-          "price": 150
+-        }
+-      ],
+-      "hiddenIfOwned": false,
+-      "imageComposition": {
+-        "overrideDefaults": false
+-      },
+-      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_Charm.T_UI_SpecialPack_Charm",
+-      "minNumberOfUnownedForPurchase": 1,
+-      "sortOrder": 55,
+-      "specialPackTitle": {
+-        "de": "Wöchentliches Glücksbringerpaket",
+-        "en": "Weekly Charm Bundle",
+-        "es": "Paquete de amuletos semanales",
+-        "es-MX": "Lote de amuletos semanal",
+-        "fr": "Lot de charmes hebdomadaire",
+-        "it": "Bundle di amuleti settimanale",
+-        "ja": "今週の魔よけバンドル",
+-        "ko": "주간 부적 번들",
+-        "pl": "Pakiet cotygodniowego talizmanu",
+-        "pt-BR": "Pacote Semanal de Amuleto",
+-        "ru": "Еженедельный набор амулетов",
+-        "th": "แพ็กรวมเครื่องรางประจำสัปดาห์",
+-        "tr": "Haftalık Muska Paketi",
+-        "zh-Hans": "每周护符组合包",
+-        "zh-Hant": "每週護身符組合包"
+-      },
+-      "startDate": "2026-09-08T15:00:00",
+-      "startDateInMs": 1788879600000
+-    },
+-    "nonSecure": false,
+-    "premium": false,
+-    "purchasable": true,
+-    "unique": true
+-  },
+-  {
+-    "categories": [
+-      "specialPack"
+-    ],
+-    "consumable": true,
+-    "consumptionCurrenciesList": [],
+-    "consumptionObjectList": [],
+-    "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+         "id": "K21_Head015",
+         "type": "inventory"
+       },
+@@ -386184,589 +386384,9 @@
+     "consumptionCurrenciesList": [],
+     "consumptionObjectList": [],
+     "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "HS_Head012",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "HS_Torso012",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "HS_Legs012",
+-        "type": "inventory"
+-      },
+       {
+         "amount": 1,
+         "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "HS_Head015",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "HS_Torso015",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "HS_Legs015",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "ZA_005",
+-        "type": "inventory"
+-      }
+-    ],
+-    "defaultCost": [
+-      {
+-        "currencyId": "Cells",
+-        "price": 1455
+-      }
+-    ],
+-    "id": "Recurring_Dev_Bundle_260818",
+-    "metaData": {
+-      "discount": 0.4,
+-      "endDate": "2026-08-25T15:00:00",
+-      "endDateInMs": 1787670000000,
+-      "fullPrice": [
+-        {
+-          "currencyId": "Cells",
+-          "price": 2425
+-        }
+-      ],
+-      "hiddenIfOwned": false,
+-      "imageComposition": {
+-        "overrideDefaults": false
+-      },
+-      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_DevPicks.T_UI_SpecialPack_DevPicks",
+-      "minNumberOfUnownedForPurchase": 1,
+-      "sortOrder": 56,
+-      "specialPackTitle": {
+-        "de": "Wöchentliches Entwicklerwahlpaket",
+-        "en": "Weekly Developer Choice Bundle",
+-        "es": "Paquete de selección de desarrolladores semanal",
+-        "es-MX": "Paquete de selección del equipo de desarrollo semanal",
+-        "fr": "Lot Choix des développeurs hebdomadaire",
+-        "it": "Bundle Scelte dello sviluppatore settimanale",
+-        "ja": "今週の開発者のオススメバンドル",
+-        "ko": "주간 개발자의 선택 번들",
+-        "pl": "Cotygodniowy pakiet wyborów twórców",
+-        "pt-BR": "Pacote Semanal de Escolha dos Desenvolvedores",
+-        "ru": "Еженедельный набор «Выбор разработчиков»",
+-        "th": "แพ็กรวมผู้พัฒนาคัดสรรประจำสัปดาห์",
+-        "tr": "Haftalık Geliştirici Seçimi Paketi",
+-        "zh-Hans": "每周开发者特选组合包",
+-        "zh-Hant": "每週開發者精選組合包"
+-      },
+-      "startDate": "2026-08-18T15:00:00",
+-      "startDateInMs": 1787065200000
+-    },
+-    "nonSecure": false,
+-    "premium": false,
+-    "purchasable": true,
+-    "unique": true
+-  },
+-  {
+-    "categories": [
+-      "specialPack"
+-    ],
+-    "consumable": true,
+-    "consumptionCurrenciesList": [],
+-    "consumptionObjectList": [],
+-    "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "S25_Head009",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "S25_Torso009",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "S25_Legs009",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "K23_Head008",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "K23_Body008",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "K23_Weapon008",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "BA_004",
+-        "type": "inventory"
+-      }
+-    ],
+-    "defaultCost": [
+-      {
+-        "currencyId": "Cells",
+-        "price": 1455
+-      }
+-    ],
+-    "id": "Recurring_Dev_Bundle_260825",
+-    "metaData": {
+-      "discount": 0.4,
+-      "endDate": "2026-09-01T15:00:00",
+-      "endDateInMs": 1788274800000,
+-      "fullPrice": [
+-        {
+-          "currencyId": "Cells",
+-          "price": 2425
+-        }
+-      ],
+-      "hiddenIfOwned": false,
+-      "imageComposition": {
+-        "overrideDefaults": false
+-      },
+-      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_DevPicks.T_UI_SpecialPack_DevPicks",
+-      "minNumberOfUnownedForPurchase": 1,
+-      "sortOrder": 56,
+-      "specialPackTitle": {
+-        "de": "Wöchentliches Entwicklerwahlpaket",
+-        "en": "Weekly Developer Choice Bundle",
+-        "es": "Paquete de selección de desarrolladores semanal",
+-        "es-MX": "Paquete de selección del equipo de desarrollo semanal",
+-        "fr": "Lot Choix des développeurs hebdomadaire",
+-        "it": "Bundle Scelte dello sviluppatore settimanale",
+-        "ja": "今週の開発者のオススメバンドル",
+-        "ko": "주간 개발자의 선택 번들",
+-        "pl": "Cotygodniowy pakiet wyborów twórców",
+-        "pt-BR": "Pacote Semanal de Escolha dos Desenvolvedores",
+-        "ru": "Еженедельный набор «Выбор разработчиков»",
+-        "th": "แพ็กรวมผู้พัฒนาคัดสรรประจำสัปดาห์",
+-        "tr": "Haftalık Geliştirici Seçimi Paketi",
+-        "zh-Hans": "每周开发者特选组合包",
+-        "zh-Hant": "每週開發者精選組合包"
+-      },
+-      "startDate": "2026-08-25T15:00:00",
+-      "startDateInMs": 1787670000000
+-    },
+-    "nonSecure": false,
+-    "premium": false,
+-    "purchasable": true,
+-    "unique": true
+-  },
+-  {
+-    "categories": [
+-      "specialPack"
+-    ],
+-    "consumable": true,
+-    "consumptionCurrenciesList": [],
+-    "consumptionObjectList": [],
+-    "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Character"
+-        },
+-        "id": "S49",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "S49_Head006_01",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "S49_Torso006_01",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "S49_Legs006_01",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "VI_009",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "HU_012",
+-        "type": "inventory"
+-      }
+-    ],
+-    "defaultCost": [
+-      {
+-        "currencyId": "Cells",
+-        "price": 1050
+-      }
+-    ],
+-    "id": "Recurring_Dev_Bundle_260901",
+-    "metaData": {
+-      "discount": 0.4,
+-      "endDate": "2026-09-08T15:00:00",
+-      "endDateInMs": 1788879600000,
+-      "fullPrice": [
+-        {
+-          "currencyId": "Cells",
+-          "price": 1750
+-        }
+-      ],
+-      "hiddenIfOwned": false,
+-      "imageComposition": {
+-        "overrideDefaults": false
+-      },
+-      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_DevPicks.T_UI_SpecialPack_DevPicks",
+-      "minNumberOfUnownedForPurchase": 1,
+-      "sortOrder": 56,
+-      "specialPackTitle": {
+-        "de": "Wöchentliches Entwicklerwahlpaket",
+-        "en": "Weekly Developer Choice Bundle",
+-        "es": "Paquete de selección de desarrolladores semanal",
+-        "es-MX": "Paquete de selección del equipo de desarrollo semanal",
+-        "fr": "Lot Choix des développeurs hebdomadaire",
+-        "it": "Bundle Scelte dello sviluppatore settimanale",
+-        "ja": "今週の開発者のオススメバンドル",
+-        "ko": "주간 개발자의 선택 번들",
+-        "pl": "Cotygodniowy pakiet wyborów twórców",
+-        "pt-BR": "Pacote Semanal de Escolha dos Desenvolvedores",
+-        "ru": "Еженедельный набор «Выбор разработчиков»",
+-        "th": "แพ็กรวมผู้พัฒนาคัดสรรประจำสัปดาห์",
+-        "tr": "Haftalık Geliştirici Seçimi Paketi",
+-        "zh-Hans": "每周开发者特选组合包",
+-        "zh-Hant": "每週開發者精選組合包"
+-      },
+-      "startDate": "2026-09-01T15:00:00",
+-      "startDateInMs": 1788274800000
+-    },
+-    "nonSecure": false,
+-    "premium": false,
+-    "purchasable": true,
+-    "unique": true
+-  },
+-  {
+-    "categories": [
+-      "specialPack"
+-    ],
+-    "consumable": true,
+-    "consumptionCurrenciesList": [],
+-    "consumptionObjectList": [],
+-    "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "S46_Head012",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "S46_Torso012",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "S46_Legs012",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "BE_Mask010",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "BE_Body010",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "BE_W010",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "LS_005",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "JE_004",
+-        "type": "inventory"
+-      },
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+-          "hasPriorityForPackImageComposition": false,
+-          "ignoreOwnership": false,
+-          "includeInOwnership": true,
+-          "includeInPricing": true,
+-          "type": "Customization"
+-        },
+-        "id": "PL_006",
+-        "type": "inventory"
+-      }
+-    ],
+-    "defaultCost": [
+-      {
+-        "currencyId": "Cells",
+-        "price": 1503
+-      }
+-    ],
+-    "id": "Recurring_Dev_Bundle_260908",
+-    "metaData": {
+-      "discount": 0.4,
+-      "endDate": "2026-09-15T15:00:00",
+-      "endDateInMs": 1789484400000,
+-      "fullPrice": [
+-        {
+-          "currencyId": "Cells",
+-          "price": 2505
+-        }
+-      ],
+-      "hiddenIfOwned": false,
+-      "imageComposition": {
+-        "overrideDefaults": false
+-      },
+-      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_DevPicks.T_UI_SpecialPack_DevPicks",
+-      "minNumberOfUnownedForPurchase": 1,
+-      "sortOrder": 56,
+-      "specialPackTitle": {
+-        "de": "Wöchentliches Entwicklerwahlpaket",
+-        "en": "Weekly Developer Choice Bundle",
+-        "es": "Paquete de selección de desarrolladores semanal",
+-        "es-MX": "Paquete de selección del equipo de desarrollo semanal",
+-        "fr": "Lot Choix des développeurs hebdomadaire",
+-        "it": "Bundle Scelte dello sviluppatore settimanale",
+-        "ja": "今週の開発者のオススメバンドル",
+-        "ko": "주간 개발자의 선택 번들",
+-        "pl": "Cotygodniowy pakiet wyborów twórców",
+-        "pt-BR": "Pacote Semanal de Escolha dos Desenvolvedores",
+-        "ru": "Еженедельный набор «Выбор разработчиков»",
+-        "th": "แพ็กรวมผู้พัฒนาคัดสรรประจำสัปดาห์",
+-        "tr": "Haftalık Geliştirici Seçimi Paketi",
+-        "zh-Hans": "每周开发者特选组合包",
+-        "zh-Hant": "每週開發者精選組合包"
+-      },
+-      "startDate": "2026-09-08T15:00:00",
+-      "startDateInMs": 1788879600000
+-    },
+-    "nonSecure": false,
+-    "premium": false,
+-    "purchasable": true,
+-    "unique": true
+-  },
+-  {
+-    "categories": [
+-      "specialPack"
+-    ],
+-    "consumable": true,
+-    "consumptionCurrenciesList": [],
+-    "consumptionObjectList": [],
+-    "consumptionReward": [
+-      {
+-        "amount": 1,
+-        "gameSpecificData": {
+           "hasPriorityForPackImageComposition": true,
+           "ignoreOwnership": false,
+           "includeInOwnership": true,
+@@ -401367,6 +400987,58 @@
+     "consumable": false,
+     "eventCostList": [],
+     "id": "BloodMoon_collection_item",
++    "isCollectionItem": true,
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item",
++      "collection"
++    ],
++    "collectionItemIds": [
++      "CM_Head015",
++      "CM_Torso015",
++      "CM_Legs015",
++      "FM_Head010",
++      "FM_Torso010",
++      "FM_Legs010",
++      "GK_Head010",
++      "GK_Body010",
++      "GK_W010",
++      "GK_Head019",
++      "GK_Body019",
++      "GK_W019",
++      "JP_Head030",
++      "JP_Torso030",
++      "JP_Legs030",
++      "K26_Head010",
++      "K26_Body010",
++      "K26_W010",
++      "K32_Head013",
++      "K32_Body013",
++      "K32_W013",
++      "KK_Mask017",
++      "KK_Body017",
++      "KK_W017",
++      "MK_Mask011",
++      "MK_Body011",
++      "MK_W011",
++      "S24_Head012",
++      "S24_Torso012",
++      "S24_Legs012",
++      "S25_Head021",
++      "S25_Torso021",
++      "S25_Legs021",
++      "SwedenSurvivor_Head018",
++      "SwedenSurvivor_Torso018",
++      "SwedenSurvivor_Legs018"
++    ],
++    "consumable": false,
++    "eventCostList": [],
++    "id": "Community_collection_item",
+     "isCollectionItem": true,
+     "nonSecure": false,
+     "premium": false,
+@@ -402479,9 +402151,6 @@
+       "K44_Head002_01",
+       "K44_Body002_01",
+       "K44_W002_01",
+-      "K44_Head006",
+-      "K44_Body006",
+-      "K44_W006",
+       "K44_Head01_01",
+       "K44_Body01_01",
+       "K44_W01_01",
+@@ -402639,6 +402308,182 @@
+     "consumable": false,
+     "eventCostList": [],
+     "id": "10.1.0_Alien_Collection_collection_item",
++    "isCollectionItem": true,
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item",
++      "collection"
++    ],
++    "collectionItemIds": [
++      "FM_Head035",
++      "FM_Torso035",
++      "FM_Legs035",
++      "GS_Head038",
++      "GS_Torso038",
++      "GS_Legs038",
++      "K28_Head015",
++      "K28_Body015",
++      "K28_W015",
++      "KK_Mask039",
++      "KK_Body039",
++      "KK_W039",
++      "MT_Head037",
++      "MT_Torso037",
++      "MT_Legs037",
++      "S25_Head026",
++      "S25_Torso026",
++      "S25_Legs026",
++      "S28_Head032",
++      "S28_Torso032",
++      "S28_Legs032",
++      "S34_Head027",
++      "S34_Torso027",
++      "S34_Legs027",
++      "S46_Head012",
++      "S46_Torso012",
++      "S46_Legs012",
++      "S53_Head007",
++      "S53_Torso007",
++      "S53_Legs007"
++    ],
++    "consumable": false,
++    "eventCostList": [],
++    "id": "10.1.2_AutumnFashion_collection_item",
++    "isCollectionItem": true,
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item",
++      "collection"
++    ],
++    "collectionItemIds": [
++      "BE_Mask007",
++      "BE_Body007",
++      "BE_W007",
++      "TW_Head006",
++      "TW_Body006",
++      "TW_W006",
++      "TR_Mask006",
++      "TR_Body006",
++      "TR_W006",
++      "CM_Head007",
++      "CM_Torso007",
++      "CM_Legs007",
++      "DK_Head013",
++      "DK_Torso013",
++      "DK_Legs013",
++      "DF_Head006",
++      "DF_Torso006",
++      "DF_Legs006",
++      "FK_Mask011",
++      "FK_Body011",
++      "FK_W011",
++      "FM_Head013",
++      "FM_Torso013",
++      "FM_Legs013",
++      "GK_Head009",
++      "GK_Body009",
++      "GK_W009",
++      "TC_Torso006",
++      "TC_Legs006",
++      "TC_W006",
++      "HK_Head008",
++      "HK_Body008",
++      "HK_W008",
++      "HS_Head014",
++      "HS_Torso014",
++      "HS_Legs014",
++      "JP_Head011",
++      "JP_Torso011",
++      "JP_Legs011",
++      "K20_Head008",
++      "K20_Body008",
++      "K20_W008",
++      "K21_Head007",
++      "K21_Body007",
++      "K21_W007",
++      "K24_Head007",
++      "K24_Body007",
++      "K24_Weapon007",
++      "K27_Head007",
++      "K27_Body007",
++      "K27_W007",
++      "K29_Head007",
++      "K29_Body007",
++      "K29_W007",
++      "K30_Head022",
++      "K30_Body022",
++      "K30_W022",
++      "K33_Head008",
++      "K33_Body008",
++      "K33_W008",
++      "K34_Head010",
++      "K34_Body010",
++      "K34_W010",
++      "K35_Head015",
++      "K35_Body015",
++      "K35_W015",
++      "K38_Head011",
++      "K38_Body011",
++      "K38_W011",
++      "K40_Head010",
++      "K40_Body010",
++      "K40_W010",
++      "K43_Head008",
++      "K43_Body008",
++      "K43_W008",
++      "DO_Head006",
++      "DO_Body006",
++      "DO_W006",
++      "KK_Mask018",
++      "KK_Body018",
++      "KK_W018",
++      "MK_Mask008",
++      "MK_Body008",
++      "MK_W008",
++      "NK_Head017",
++      "NK_Torso017",
++      "NK_Legs017",
++      "OK_Mask009",
++      "OK_Body009",
++      "OK_W009",
++      "S23_Head008",
++      "S23_Torso008",
++      "S23_Legs008",
++      "S30_Head008",
++      "S30_Torso008",
++      "S30_Legs008",
++      "S38_Head015",
++      "S38_Torso015",
++      "S38_Legs015",
++      "SwedenKiller_Mask013",
++      "SwedenKiller_Body013",
++      "SwedenKiller_W013",
++      "SwedenSurvivor_Head012",
++      "SwedenSurvivor_Torso012",
++      "SwedenSurvivor_Legs012",
++      "TN_Head009",
++      "TN_Body009",
++      "TN_W009",
++      "UK_Head018",
++      "UK_Body018",
++      "UK_W018",
++      "WI_Hair008",
++      "WI_Body008",
++      "WI_W008"
++    ],
++    "consumable": false,
++    "eventCostList": [],
++    "id": "10.1.2_HallowedBlight_collection_item",
+     "isCollectionItem": true,
+     "nonSecure": false,
+     "premium": false,

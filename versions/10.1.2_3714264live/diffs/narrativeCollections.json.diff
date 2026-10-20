@@ -1,0 +1,87 @@
+--- a/narrativeCollections.json
++++ b/narrativeCollections.json
+@@ -175,6 +175,37 @@
+             "startDate": 1787410800000
+           },
+           {
++            "id": "COLL_002_02",
++            "inclusionVersion": "10.1.2",
++            "index": 13,
++            "interaction": [
++              {
++                "isClientOnly": false,
++                "tagId": "AuroraPaintingNote"
++              }
++            ],
++            "requiredCollectibleIds": [
++              "COLL_001_01"
++            ],
++            "startDate": 1789484400000
++          },
++          {
++            "id": "COLL_002_03",
++            "inclusionVersion": "10.1.2",
++            "index": 14,
++            "interaction": [
++              {
++                "isClientOnly": false,
++                "tagId": "PaintersNote"
++              }
++            ],
++            "requiredCollectibleIds": [
++              "COLL_001_01",
++              "COLL_002_02"
++            ],
++            "startDate": 1789484400000
++          },
++          {
+             "id": "COLL_002_04",
+             "inclusionVersion": "10.1.0",
+             "index": 11,
+@@ -188,6 +219,24 @@
+               "COLL_001_01"
+             ],
+             "startDate": 1788274800000
++          },
++          {
++            "autoCompleteByCollectibles": [
++              "COLL_002_07"
++            ],
++            "id": "COLL_002_05",
++            "inclusionVersion": "10.1.2",
++            "index": 15,
++            "interaction": [
++              {
++                "isClientOnly": true,
++                "tagId": "CharredRemains"
++              }
++            ],
++            "requiredCollectibleIds": [
++              "COLL_001_01"
++            ],
++            "startDate": 1790089200000
+           },
+           {
+             "id": "COLL_002_06",
+@@ -203,6 +252,21 @@
+               "COLL_001_01"
+             ],
+             "startDate": 1788879600000
++          },
++          {
++            "id": "COLL_002_07",
++            "inclusionVersion": "10.1.2",
++            "index": 16,
++            "interaction": [
++              {
++                "isClientOnly": false,
++                "tagId": "ShrinePrototypeSpike"
++              }
++            ],
++            "requiredCollectibleIds": [
++              "COLL_001_01"
++            ],
++            "startDate": 1790694000000
+           }
+         ],
+         "id": "COLL_002",

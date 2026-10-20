@@ -2,6 +2,27 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.5.0_3209581live](versions/9.5.0_3209581live/CHANGES.md)
+
+Built 2026-03-25 18:31 UTC · **+8** added · **~8** modified · **−0** removed
+
+- ~ [`GameConfigs.json`](versions/9.5.0_3209581live/diffs/GameConfigs.json.diff)
+- ~ [`GameConfigsDS.json`](versions/9.5.0_3209581live/diffs/GameConfigsDS.json.diff)
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.5.0_3209581live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`catalog.json`](versions/9.5.0_3209581live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_en.json`](versions/9.5.0_3209581live/diffs/challengeLocs/challengeText_en.json.diff)
+- ~ [`challengeSets.json`](versions/9.5.0_3209581live/diffs/challengeSets.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.5.0_3209581live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`specialEventsContent.json`](versions/9.5.0_3209581live/diffs/specialEventsContent.json.diff)
+- \+ [`images/T_UI_ChapterBundle_AllKillComeback.png`](versions/9.5.0_3209581live/images/T_UI_ChapterBundle_AllKillComeback.png)
+- \+ [`images/T_UI_CollectionBanner_AllKillComeback.png`](versions/9.5.0_3209581live/images/T_UI_CollectionBanner_AllKillComeback.png)
+- \+ [`images/T_UI_CollectionBanner_Bloodmoon_Quiche.png`](versions/9.5.0_3209581live/images/T_UI_CollectionBanner_Bloodmoon_Quiche.png)
+- \+ [`images/T_UI_SpecialPack_AllKillComeback.png`](versions/9.5.0_3209581live/images/T_UI_SpecialPack_AllKillComeback.png)
+- \+ [`images/T_UI_SpecialPack_ArtistsFromTheFog_Haddie.png`](versions/9.5.0_3209581live/images/T_UI_SpecialPack_ArtistsFromTheFog_Haddie.png)
+- \+ [`images/T_UI_SpecialPack_Bloodmoon_Bundle.png`](versions/9.5.0_3209581live/images/T_UI_SpecialPack_Bloodmoon_Bundle.png)
+- \+ [`images/T_UI_SpecialPack_Bloodmoon_Quiche.png`](versions/9.5.0_3209581live/images/T_UI_SpecialPack_Bloodmoon_Quiche.png)
+- \+ [`images/T_UI_SpecialPack_EntombedRemains.png`](versions/9.5.0_3209581live/images/T_UI_SpecialPack_EntombedRemains.png)
+
 ## [9.5.1_3209280live](versions/9.5.1_3209280live/CHANGES.md)
 
 Built 2026-03-25 17:36 UTC · no content changes

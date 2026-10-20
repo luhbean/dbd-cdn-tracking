@@ -2,13 +2,30 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.1.3_2721569live` · built 2025-09-05 15:10 UTC
+**Latest version:** `9.1.3_2721637live` · built 2025-09-05 15:43 UTC
 
-[What changed](versions/9.1.3_2721569live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.1.3_2721637live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **0** modified · **0** removed, compared with `9.1.3_2721491live`.
+**0** added · **16** modified · **0** removed, compared with `9.1.3_2721569live`.
+
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.3_2721637live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_de.json`](versions/9.1.3_2721637live/diffs/loadingText/specialEventsLoadingText_de.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_en.json`](versions/9.1.3_2721637live/diffs/loadingText/specialEventsLoadingText_en.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_es-MX.json`](versions/9.1.3_2721637live/diffs/loadingText/specialEventsLoadingText_es-MX.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_es.json`](versions/9.1.3_2721637live/diffs/loadingText/specialEventsLoadingText_es.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_fr.json`](versions/9.1.3_2721637live/diffs/loadingText/specialEventsLoadingText_fr.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_it.json`](versions/9.1.3_2721637live/diffs/loadingText/specialEventsLoadingText_it.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_ja.json`](versions/9.1.3_2721637live/diffs/loadingText/specialEventsLoadingText_ja.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_ko.json`](versions/9.1.3_2721637live/diffs/loadingText/specialEventsLoadingText_ko.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_pl.json`](versions/9.1.3_2721637live/diffs/loadingText/specialEventsLoadingText_pl.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_pt-BR.json`](versions/9.1.3_2721637live/diffs/loadingText/specialEventsLoadingText_pt-BR.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_ru.json`](versions/9.1.3_2721637live/diffs/loadingText/specialEventsLoadingText_ru.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_th.json`](versions/9.1.3_2721637live/diffs/loadingText/specialEventsLoadingText_th.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_tr.json`](versions/9.1.3_2721637live/diffs/loadingText/specialEventsLoadingText_tr.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_zh-Hans.json`](versions/9.1.3_2721637live/diffs/loadingText/specialEventsLoadingText_zh-Hans.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_zh-Hant.json`](versions/9.1.3_2721637live/diffs/loadingText/specialEventsLoadingText_zh-Hant.json.diff)
 
 ## Browse
 
@@ -30,7 +47,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-163 versions tracked so far.
+164 versions tracked so far.
 
 ---
 

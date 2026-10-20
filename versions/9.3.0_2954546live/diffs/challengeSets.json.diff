@@ -1,0 +1,1812 @@
+--- a/challengeSets.json
++++ b/challengeSets.json
+@@ -1187,963 +1187,6 @@
+     "type": "Event",
+     "uiAssets": {}
+   },
+-  "ChocolateBoxOmeletSet": {
+-    "additionalInfoStringId": "CHALLENGESET_ChocolateBoxOmelet_INFO",
+-    "challengeList": [
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteChocolateBoxQuests1_DESC",
+-            "id": "ChocolateBoxOmeletSet-List_1-O_CompleteChocolateBoxQuests1",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "ChocolateBoxOmeletSet"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  4
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteChocolateBoxQuests1_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "OML_004",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-01-13T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteChocolateBoxQuests1_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_CompleteChocolateBoxQuests2_DESC",
+-            "id": "ChocolateBoxOmeletSet-List_1-O_CompleteChocolateBoxQuests2",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "ChocolateBoxOmeletSet"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  8
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteChocolateBoxQuests2_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "OM_BDG_09",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-01-13T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteChocolateBoxQuests2_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_CompleteChocolateBoxQuests3_DESC",
+-            "id": "ChocolateBoxOmeletSet-List_1-O_CompleteChocolateBoxQuests3",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "ChocolateBoxOmeletSet"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  12
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteChocolateBoxQuests3_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "OM_BNR_08",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-01-13T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteChocolateBoxQuests3_TITLE",
+-            "type": "overarching"
+-          }
+-        ],
+-        "endDate": "2026-01-27T14:00:00",
+-        "listId": "ChocolateBoxOmeletSet-List_1",
+-        "listOrder": 0,
+-        "listTitleStringId": "LIST_ChocolateBox_TITLE_1",
+-        "startDate": "2026-01-13T16:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteModeTrialOrTrial_DESC",
+-            "id": "ChocolateBoxOmeletSet-List_2-D_CompleteModeTrialOrTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlaying": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  7
+-                ],
+-                "objectiveId": "FinishedPlaying",
+-                "objectiveInfo": "CHALLENGE_CompleteTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "FinishedPlayingMode": {
+-                "conditions": [
+-                  {
+-                    "key": "gameTypes",
+-                    "value": [
+-                      "ChocolateBox"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  4
+-                ],
+-                "objectiveId": "FinishedPlayingMode",
+-                "objectiveInfo": "CHALLENGE_CompleteModeTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingMode",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-13T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeTrialOrTrial_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_HitOrHeal_DESC",
+-            "id": "ChocolateBoxOmeletSet-List_2-D_HitOrHeal",
+-            "isRecurring": false,
+-            "objectives": {
+-              "HealPerc": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  500
+-                ],
+-                "objectiveId": "HealPerc",
+-                "objectiveInfo": "CHALLENGE_Heal_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Percentage",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Heal",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "Hit": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  50
+-                ],
+-                "objectiveId": "Hit",
+-                "objectiveInfo": "CHALLENGE_Hit_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Hit",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-13T16:00:00",
+-            "titleStringId": "CHALLENGE_HitOrHeal_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_BreakPallet_DESC",
+-            "id": "ChocolateBoxOmeletSet-List_2-B_BreakPallet",
+-            "isRecurring": false,
+-            "objectives": {
+-              "BreakPallets": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "BreakPallets",
+-                "objectiveInfo": "CHALLENGE_BreakPallets_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakPallets",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-13T16:00:00",
+-            "titleStringId": "CHALLENGE_BreakPallet_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_HideInTerrorRadius_DESC",
+-            "id": "ChocolateBoxOmeletSet-List_2-B_HideInTerrorRadius",
+-            "isRecurring": false,
+-            "objectives": {
+-              "HideInTerrorRadius": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  120
+-                ],
+-                "objectiveId": "HideInTerrorRadius",
+-                "objectiveInfo": "CHALLENGE_HideInTerrorRadius_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Time",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.HideInTerrorRadius",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-13T16:00:00",
+-            "titleStringId": "CHALLENGE_HideInTerrorRadius_TITLE",
+-            "type": "basic"
+-          }
+-        ],
+-        "endDate": "2026-01-27T14:00:00",
+-        "listId": "ChocolateBoxOmeletSet-List_2",
+-        "listOrder": 1,
+-        "listTitleStringId": "LIST_ChocolateBox_TITLE_2",
+-        "startDate": "2026-01-13T16:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteModeTrialOrTrial_DESC",
+-            "id": "ChocolateBoxOmeletSet-List_3-D_CompleteModeTrialOrTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlaying": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  14
+-                ],
+-                "objectiveId": "FinishedPlaying",
+-                "objectiveInfo": "CHALLENGE_CompleteTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "FinishedPlayingMode": {
+-                "conditions": [
+-                  {
+-                    "key": "gameTypes",
+-                    "value": [
+-                      "ChocolateBox"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  8
+-                ],
+-                "objectiveId": "FinishedPlayingMode",
+-                "objectiveInfo": "CHALLENGE_CompleteModeTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingMode",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-13T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeTrialOrTrial_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_HookOrUnhook_DESC",
+-            "id": "ChocolateBoxOmeletSet-List_3-D_HookOrUnhook",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Hook": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "Hook",
+-                "objectiveInfo": "CHALLENGE_Hook_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Hook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "Unhook": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10
+-                ],
+-                "objectiveId": "Unhook",
+-                "objectiveInfo": "CHALLENGE_Unhook_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Unhook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-13T16:00:00",
+-            "titleStringId": "CHALLENGE_HookOrUnhook_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_Sacrifice_DESC",
+-            "id": "ChocolateBoxOmeletSet-List_3-B_Sacrifice",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Sacrifice": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "Sacrifice",
+-                "objectiveInfo": "CHALLENGE_Sacrifice_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Sacrifice",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-13T16:00:00",
+-            "titleStringId": "CHALLENGE_Sacrifice_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_EarnBenevolentGold_DESC",
+-            "id": "ChocolateBoxOmeletSet-List_3-B_EarnBenevolentGold",
+-            "isRecurring": false,
+-            "objectives": {
+-              "EarnEmblemsGold": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "EarnEmblemsGold",
+-                "objectiveInfo": "CHALLENGE_EarnBenevolentGold_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Survivor_Benevolent;EmblemQuality:Gold",
+-                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-13T16:00:00",
+-            "titleStringId": "CHALLENGE_EarnBenevolentGold_TITLE",
+-            "type": "basic"
+-          }
+-        ],
+-        "endDate": "2026-01-27T14:00:00",
+-        "listId": "ChocolateBoxOmeletSet-List_3",
+-        "listOrder": 2,
+-        "listTitleStringId": "LIST_ChocolateBox_TITLE_3",
+-        "startDate": "2026-01-13T16:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteModeTrialOrTrial_DESC",
+-            "id": "ChocolateBoxOmeletSet-List_4-D_CompleteModeTrialOrTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlaying": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "FinishedPlaying",
+-                "objectiveInfo": "CHALLENGE_CompleteTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "FinishedPlayingMode": {
+-                "conditions": [
+-                  {
+-                    "key": "gameTypes",
+-                    "value": [
+-                      "ChocolateBox"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  12
+-                ],
+-                "objectiveId": "FinishedPlayingMode",
+-                "objectiveInfo": "CHALLENGE_CompleteModeTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingMode",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-13T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeTrialOrTrial_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_ChaseOrBeChased_DESC",
+-            "id": "ChocolateBoxOmeletSet-List_4-D_ChaseOrBeChased",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Chase": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  500
+-                ],
+-                "objectiveId": "Chase",
+-                "objectiveInfo": "CHALLENGE_Chase_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Time",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;target:other",
+-                    "questEventId": "QuestEvent.Chase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "ChasedByKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  120
+-                ],
+-                "objectiveId": "ChasedByKiller",
+-                "objectiveInfo": "CHALLENGE_BeChased_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Time",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "target:me;instigator:other",
+-                    "questEventId": "QuestEvent.ChasedByOrChase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-13T16:00:00",
+-            "titleStringId": "CHALLENGE_ChaseOrBeChased_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_BreakGen_DESC",
+-            "id": "ChocolateBoxOmeletSet-List_4-B_BreakGen",
+-            "isRecurring": false,
+-            "objectives": {
+-              "BreakGens": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10
+-                ],
+-                "objectiveId": "BreakGens",
+-                "objectiveInfo": "CHALLENGE_BreakGen_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakGens",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-13T16:00:00",
+-            "titleStringId": "CHALLENGE_BreakGen_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_Repair_DESC",
+-            "id": "ChocolateBoxOmeletSet-List_4-B_Repair",
+-            "isRecurring": true,
+-            "objectives": {
+-              "RepairPerc": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  300
+-                ],
+-                "objectiveId": "RepairPerc",
+-                "objectiveInfo": "CHALLENGE_Repair_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Percentage",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Repair",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-13T16:00:00",
+-            "titleStringId": "CHALLENGE_Repair_TITLE",
+-            "type": "basic"
+-          }
+-        ],
+-        "endDate": "2026-01-27T14:00:00",
+-        "listId": "ChocolateBoxOmeletSet-List_4",
+-        "listOrder": 3,
+-        "listTitleStringId": "LIST_ChocolateBox_TITLE_4",
+-        "startDate": "2026-01-13T16:00:00"
+-      }
+-    ],
+-    "endDate": "2026-01-27T14:00:00",
+-    "eventID": "ChocolateBoxOmelet",
+-    "mask": 0,
+-    "startDate": "2026-01-13T16:00:00",
+-    "tabOrder": 2,
+-    "tabTitleStringId": "CHALLENGESET_ChocolateBoxJerky_TITLE",
+-    "titleLocalizationText": {
+-      "de": "Chaosroulette",
+-      "en": "Chaos Shuffle",
+-      "es": "Mezcla caótica",
+-      "es-MX": "Mezcla de caos",
+-      "fr": "Mélange du chaos",
+-      "it": "Ordine caotico",
+-      "ja": "カオスシャッフル",
+-      "ko": "혼돈 셔플",
+-      "pl": "Chaotyczne losowanie",
+-      "pt-BR": "Mistura Caótica",
+-      "ru": "Хаотичное перемешивание",
+-      "th": "สลับโกลาหล",
+-      "tr": "Kaos Kargaşası",
+-      "zh-Hans": "随技应变",
+-      "zh-Hant": "隨機洗牌"
+-    },
+-    "type": "Event",
+-    "uiAssets": {}
+-  },
+   "Daily_Set": {
+     "additionalInfoStringId": "CHALLENGESET_Daily_INFO",
+     "challengeList": [
+@@ -10718,845 +9761,6 @@
+       "zh-Hant": "裂縫通行證"
+     },
+     "type": "BattlePass",
+-    "uiAssets": {}
+-  },
+-  "SilentHillMovie_Set": {
+-    "additionalInfoStringId": "CHALLENGESET_SilentHillMovie_INFO",
+-    "challengeList": [
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_SilentHIllCompleteQuests_DESC",
+-            "id": "SilentHillMovie_Set-SilentHill_OverarchingQuests-O_SilentHillCompleteQuests1",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "SilentHillMovie_Set"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  4
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_SilentHillCompleteQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 20000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 100,
+-            "startDate": "2026-01-19T15:00:00",
+-            "titleStringId": "CHALLENGE_SilentHillCompleteQuests_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_SilentHIllCompleteQuests_DESC",
+-            "id": "SilentHillMovie_Set-SilentHill_OverarchingQuests-O_SilentHillCompleteQuests2",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "SilentHillMovie_Set"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  8
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_SilentHillCompleteQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 20000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 100,
+-            "startDate": "2026-01-19T15:00:00",
+-            "titleStringId": "CHALLENGE_SilentHillCompleteQuests_TITLE",
+-            "type": "overarching"
+-          }
+-        ],
+-        "endDate": "2026-01-26T15:00:00",
+-        "listId": "SilentHillMovie_Set-SilentHill_OverarchingQuests",
+-        "listOrder": 0,
+-        "listTitleStringId": "SilentHill_OverarchingQuests_Title",
+-        "startDate": "2026-01-19T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_PlayAsKillerOrAnyKiller_DESC",
+-            "id": "SilentHillMovie_Set-SilentHill_QuestList_1-B_PlayAsKillerOrAnyKiller",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlayingKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10
+-                ],
+-                "objectiveId": "FinishedPlayingKiller",
+-                "objectiveInfo": "CHALLENGE_PlayAnyKiller_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PlayAsCharacterInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "K20"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "PlayAsCharacterInTrial",
+-                "objectiveInfo": "CHALLENGE_PlayAsKiller_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-19T15:00:00",
+-            "titleStringId": "CHALLENGE_PlayAsKillerOrAnyKiller_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_PlayAsSurvivorOrAnySurvivor_DESC",
+-            "id": "SilentHillMovie_Set-SilentHill_QuestList_1-B_PlayAsSurvivorOrAnySurvivor",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlayingKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10
+-                ],
+-                "objectiveId": "FinishedPlayingKiller",
+-                "objectiveInfo": "CHALLENGE_PlayAnySurvivor_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PlayAsCharacterInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "S22"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "PlayAsCharacterInTrial",
+-                "objectiveInfo": "CHALLENGE_PlayAsSurvivor_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingSurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-19T15:00:00",
+-            "titleStringId": "CHALLENGE_PlayAsSurvivorOrAnySurvivor_TITLE",
+-            "type": "dual"
+-          }
+-        ],
+-        "endDate": "2026-01-26T15:00:00",
+-        "listId": "SilentHillMovie_Set-SilentHill_QuestList_1",
+-        "listOrder": 1,
+-        "listTitleStringId": "SilentHill_QuestList_1_Title",
+-        "startDate": "2026-01-19T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_EarnMaliciousOrBenevolentIridescent_DESC",
+-            "id": "SilentHillMovie_Set-SilentHill_QuestList_2-D_EarnMaliciousOrBenevolentIridescent",
+-            "isRecurring": false,
+-            "objectives": {
+-              "EarnEmblemsBenevolentIridescent": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "EarnEmblemsBenevolentIridescent",
+-                "objectiveInfo": "CHALLENGE_EarnBenevolentIridescent_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Survivor_Benevolent;EmblemQuality:Iridescent",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualitySurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "EarnEmblemsMaliciousIridescent": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "EarnEmblemsMaliciousIridescent",
+-                "objectiveInfo": "CHALLENGE_EarnMaliciousIridescent_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Killer_Malicious;EmblemQuality:Iridescent",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualityKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-19T15:00:00",
+-            "titleStringId": "CHALLENGE_EarnMaliciousOrBenevolentIridescent_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_HookAsKillerOrAnyKiller_DESC",
+-            "id": "SilentHillMovie_Set-SilentHill_QuestList_2-B_HookAsKillerOrAnyKiller",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Hook": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  40
+-                ],
+-                "objectiveId": "Hook",
+-                "objectiveInfo": "CHALLENGE_HookAsAnyKiller_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Hook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "HookAsKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "K20"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "HookAsKiller",
+-                "objectiveInfo": "CHALLENGE_HookAsKiller_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.HookAsKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-19T15:00:00",
+-            "titleStringId": "CHALLENGE_HookAsKillerOrAnyKiller_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_UnhookAsSurvivorOrAnySurvivor_DESC",
+-            "id": "SilentHillMovie_Set-SilentHill_QuestList_2-B_UnhookAsSurvivorOrAnySurvivor",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Unhook": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "Unhook",
+-                "objectiveInfo": "CHALLENGE_UnhookAsAnySurvivor_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Unhook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "UnhookAsCharacterInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "S22"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10
+-                ],
+-                "objectiveId": "UnhookAsCharacterInTrial",
+-                "objectiveInfo": "CHALLENGE_UnhookAsSurvivor_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.UnhookAsSurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-19T15:00:00",
+-            "titleStringId": "CHALLENGE_UnhookAsSurvivorOrAnySurvivor_TITLE",
+-            "type": "dual"
+-          }
+-        ],
+-        "endDate": "2026-01-26T15:00:00",
+-        "listId": "SilentHillMovie_Set-SilentHill_QuestList_2",
+-        "listOrder": 2,
+-        "listTitleStringId": "SilentHill_QuestList_2_Title",
+-        "startDate": "2026-01-19T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_EarnGatekeeperOrLightbringerIridescent_DESC",
+-            "id": "SilentHillMovie_Set-SilentHill_QuestList_3-D_EarnGatekeeperOrLightbringerIridescent",
+-            "isRecurring": false,
+-            "objectives": {
+-              "EarnEmblemsGatekeeperIridescent": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "EarnEmblemsGatekeeperIridescent",
+-                "objectiveInfo": "CHALLENGE_EarnGatekeeperIridescent_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Killer_Gatekeeper;EmblemQuality:Iridescent",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualityKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "EarnEmblemsLightbringerIridescent": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "EarnEmblemsLightbringerIridescent",
+-                "objectiveInfo": "CHALLENGE_EarnLightbringerIridescent_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Survivor_Lightbringer;EmblemQuality:Iridescent",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualitySurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-19T15:00:00",
+-            "titleStringId": "CHALLENGE_EarnGatekeeperOrLightbringerIridescent_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_BreakGenAsKillerOrAnyKiller_DESC",
+-            "id": "SilentHillMovie_Set-SilentHill_QuestList_3-B_BreakGenAsKillerOrAnyKiller",
+-            "isRecurring": false,
+-            "objectives": {
+-              "BreakGens": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  30
+-                ],
+-                "objectiveId": "BreakGens",
+-                "objectiveInfo": "CHALLENGE_BreakGensAnyKiller_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakGens",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "BreakGensAsKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "K20"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  15
+-                ],
+-                "objectiveId": "BreakGensAsKiller",
+-                "objectiveInfo": "CHALLENGE_BreakGenAsKiller_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakGensAsKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-19T15:00:00",
+-            "titleStringId": "CHALLENGE_BreakGenAsKillerOrAnyKiller_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_RepairGenAsSurvivorOrAnySurvivor_DESC",
+-            "id": "SilentHillMovie_Set-SilentHill_QuestList_3-B_RepairGenAsSurvivorOrAnySurvivor",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Repair": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1000
+-                ],
+-                "objectiveId": "Repair",
+-                "objectiveInfo": "CHALLENGE_RepairGenAnySurvivor_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Percentage",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Repair",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "RepairPerc": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "S22"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  500
+-                ],
+-                "objectiveId": "RepairPerc",
+-                "objectiveInfo": "CHALLENGE_RepairGenAsSurvivor_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Percentage",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.RepairGensAsSurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2026-01-19T15:00:00",
+-            "titleStringId": "CHALLENGE_RepairGenAsSurvivorOrAnySurvivor_TITLE",
+-            "type": "dual"
+-          }
+-        ],
+-        "endDate": "2026-01-26T15:00:00",
+-        "listId": "SilentHillMovie_Set-SilentHill_QuestList_3",
+-        "listOrder": 3,
+-        "listTitleStringId": "SilentHill_QuestList_3_Title",
+-        "startDate": "2026-01-19T15:00:00"
+-      }
+-    ],
+-    "endDate": "2026-01-26T15:00:00",
+-    "mask": 0,
+-    "startDate": "2026-01-19T15:00:00",
+-    "tabOrder": 1,
+-    "tabTitleStringId": "CHALLENGESET_SilentHillMovie_TITLE",
+-    "titleLocalizationText": {
+-      "de": "„Silent Hill“-Film",
+-      "en": "Silent Hill Movie",
+-      "es": "Película de Silent Hill",
+-      "es-MX": "Película de Silent Hill",
+-      "fr": "Silent Hill le film",
+-      "it": "Silent Hill (film)",
+-      "ja": "サイレントヒル（映画）",
+-      "ko": "사일런트 힐 영화",
+-      "pl": "Film Silent Hill",
+-      "pt-BR": "Filme de Silent Hill",
+-      "ru": "Фильм «Сайлент Хилл»",
+-      "th": "ภาพยนตร์ไซเลนต์ฮิลล์",
+-      "tr": "Silent Hill Filmi",
+-      "zh-Hans": "《寂静岭》电影",
+-      "zh-Hant": "沉默之丘電影"
+-    },
+-    "type": "MicroEvent",
+     "uiAssets": {}
+   },
+   "Winter_2025_Set": {

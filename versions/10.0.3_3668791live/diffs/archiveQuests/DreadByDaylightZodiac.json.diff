@@ -1,0 +1,114 @@
+--- a/archiveQuests/DreadByDaylightZodiac.json
++++ b/archiveQuests/DreadByDaylightZodiac.json
+@@ -2,12 +2,23 @@
+   "DreadByDaylightZodiac": {
+     "level": [
+       {
+-        "challengeRewards": [],
++        "challengeRewards": [
++          {
++            "amount": 0,
++            "id": "star",
++            "type": "progressionDbD"
++          }
++        ],
+         "end": [
+           "node_ZodiacLTE_L1_End01"
+         ],
+         "endNodeRewards": [
+           {
++            "amount": 10,
++            "id": "star",
++            "type": "progressionDbD"
++          },
++          {
+             "amount": 1,
+             "id": "ZO_BDG_13",
+             "type": "inventory"
+@@ -43,6 +54,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -77,6 +93,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+@@ -114,6 +135,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -149,6 +175,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+@@ -185,6 +216,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+@@ -221,6 +257,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -327,7 +368,13 @@
+         ],
+         "startDate": "2024-02-07T16:00:00",
+         "startDateInMs": 1707321600000,
+-        "taskRewards": []
++        "taskRewards": [
++          {
++            "amount": 0,
++            "id": "star",
++            "type": "progressionDbD"
++          }
++        ]
+       }
+     ],
+     "newTomePopup": false,

@@ -1,0 +1,985 @@
+--- a/archiveQuests/Tome18.json
++++ b/archiveQuests/Tome18.json
+@@ -2,11 +2,22 @@
+   "Tome18": {
+     "level": [
+       {
+-        "challengeRewards": [],
++        "challengeRewards": [
++          {
++            "amount": 0,
++            "id": "star",
++            "type": "progressionDbD"
++          }
++        ],
+         "end": [
+           "node_T18_L1_End01"
+         ],
+         "endNodeRewards": [
++          {
++            "amount": 10,
++            "id": "star",
++            "type": "progressionDbD"
++          },
+           {
+             "amount": 1,
+             "id": "ZO_BDG_08",
+@@ -59,6 +70,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 25000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -110,6 +126,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 25000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -166,6 +187,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 25000,
+                 "id": "Bloodpoints",
+@@ -224,6 +250,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 25000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -276,6 +307,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 25000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -332,6 +368,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 25000,
+                 "id": "Bloodpoints",
+@@ -368,6 +409,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+@@ -404,6 +450,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+@@ -446,6 +497,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+@@ -489,6 +545,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -530,6 +591,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+@@ -572,6 +638,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+@@ -614,6 +685,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+@@ -658,6 +734,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -699,6 +780,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+@@ -742,6 +828,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -793,6 +884,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 25000,
+                 "id": "Bloodpoints",
+@@ -847,6 +943,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 25000,
+                 "id": "Bloodpoints",
+@@ -872,15 +973,32 @@
+         ],
+         "startDate": "2024-01-31T16:00:00",
+         "startDateInMs": 1706716800000,
+-        "taskRewards": []
++        "taskRewards": [
++          {
++            "amount": 0,
++            "id": "star",
++            "type": "progressionDbD"
++          }
++        ]
+       },
+       {
+-        "challengeRewards": [],
++        "challengeRewards": [
++          {
++            "amount": 0,
++            "id": "star",
++            "type": "progressionDbD"
++          }
++        ],
+         "end": [
+           "node_T18_L2_End01"
+         ],
+         "endNodeRewards": [
+           {
++            "amount": 15,
++            "id": "star",
++            "type": "progressionDbD"
++          },
++          {
+             "amount": 1,
+             "id": "ZO_BDG_07",
+             "type": "inventory"
+@@ -930,6 +1048,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 35000,
+                 "id": "Bloodpoints",
+@@ -982,6 +1105,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 35000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -1032,6 +1160,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 35000,
+                 "id": "Bloodpoints",
+@@ -1083,6 +1216,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 35000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -1134,6 +1272,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 35000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -1184,6 +1327,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 35000,
+                 "id": "Bloodpoints",
+@@ -1229,6 +1377,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 35000,
+                 "id": "Bloodpoints",
+@@ -1268,6 +1421,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 25000,
+                 "id": "Bloodpoints",
+@@ -1311,6 +1469,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 25000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -1353,6 +1516,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 25000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -1395,6 +1563,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 25000,
+                 "id": "Bloodpoints",
+@@ -1437,6 +1610,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 25000,
+                 "id": "Bloodpoints",
+@@ -1480,6 +1658,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 25000,
+                 "id": "Bloodpoints",
+@@ -1532,6 +1715,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 35000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -1593,6 +1781,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 35000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -1639,6 +1832,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 35000,
+                 "id": "Bloodpoints",
+@@ -1664,15 +1862,32 @@
+         ],
+         "startDate": "2024-02-14T16:00:00",
+         "startDateInMs": 1707926400000,
+-        "taskRewards": []
++        "taskRewards": [
++          {
++            "amount": 0,
++            "id": "star",
++            "type": "progressionDbD"
++          }
++        ]
+       },
+       {
+-        "challengeRewards": [],
++        "challengeRewards": [
++          {
++            "amount": 0,
++            "id": "star",
++            "type": "progressionDbD"
++          }
++        ],
+         "end": [
+           "node_T18_L3_End01"
+         ],
+         "endNodeRewards": [
+           {
++            "amount": 20,
++            "id": "star",
++            "type": "progressionDbD"
++          },
++          {
+             "amount": 1,
+             "id": "ZO_BNR_04",
+             "type": "inventory"
+@@ -1724,6 +1939,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 50000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -1775,6 +1995,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 50000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -1826,6 +2051,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 50000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -1870,6 +2100,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 50000,
+                 "id": "Bloodpoints",
+@@ -1915,6 +2150,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 50000,
+                 "id": "Bloodpoints",
+@@ -1961,6 +2201,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 50000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -2005,6 +2250,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 50000,
+                 "id": "Bloodpoints",
+@@ -2044,6 +2294,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 30000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -2080,6 +2335,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 30000,
+                 "id": "Bloodpoints",
+@@ -2121,6 +2381,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 30000,
+                 "id": "Bloodpoints",
+@@ -2163,6 +2428,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 30000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -2205,6 +2475,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 30000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -2246,6 +2521,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 30000,
+                 "id": "Bloodpoints",
+@@ -2289,6 +2569,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 30000,
+                 "id": "Bloodpoints",
+@@ -2332,6 +2617,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 30000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -2383,6 +2673,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 50000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -2449,6 +2744,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 50000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -2474,14 +2774,31 @@
+         ],
+         "startDate": "2024-02-28T16:00:00",
+         "startDateInMs": 1709136000000,
+-        "taskRewards": []
++        "taskRewards": [
++          {
++            "amount": 0,
++            "id": "star",
++            "type": "progressionDbD"
++          }
++        ]
+       },
+       {
+-        "challengeRewards": [],
++        "challengeRewards": [
++          {
++            "amount": 0,
++            "id": "star",
++            "type": "progressionDbD"
++          }
++        ],
+         "end": [
+           "node_T18_L4_End01"
+         ],
+         "endNodeRewards": [
++          {
++            "amount": 25,
++            "id": "star",
++            "type": "progressionDbD"
++          },
+           {
+             "amount": 1,
+             "id": "ZO_BNR_03",
+@@ -2528,6 +2845,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 60000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -2571,6 +2893,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 60000,
+                 "id": "Bloodpoints",
+@@ -2617,6 +2944,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 60000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -2654,6 +2986,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 60000,
+                 "id": "Bloodpoints",
+@@ -2705,6 +3042,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 60000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -2755,6 +3097,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 60000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -2799,6 +3146,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 45000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -2840,6 +3192,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 45000,
+                 "id": "Bloodpoints",
+@@ -2883,6 +3240,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 45000,
+                 "id": "Bloodpoints",
+@@ -2926,6 +3288,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 45000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -2968,6 +3335,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 45000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -3005,6 +3377,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 45000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -3047,6 +3424,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 45000,
+                 "id": "Bloodpoints",
+@@ -3089,6 +3471,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 45000,
+                 "id": "Bloodpoints",
+@@ -3131,6 +3518,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 45000,
+                 "id": "Bloodpoints",
+@@ -3176,6 +3568,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 45000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -3227,6 +3624,11 @@
+             },
+             "reward": [
+               {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 60000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -3277,6 +3679,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 60000,
+                 "id": "Bloodpoints",
+@@ -3319,6 +3726,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 8,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 60000,
+                 "id": "Bloodpoints",
+@@ -3344,7 +3756,13 @@
+         ],
+         "startDate": "2024-03-20T15:00:00",
+         "startDateInMs": 1710946800000,
+-        "taskRewards": []
++        "taskRewards": [
++          {
++            "amount": 0,
++            "id": "star",
++            "type": "progressionDbD"
++          }
++        ]
+       }
+     ],
+     "newTomePopup": true,

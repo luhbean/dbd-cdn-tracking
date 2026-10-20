@@ -1,0 +1,776 @@
+--- a/catalog.json
++++ b/catalog.json
+@@ -26690,6 +26690,14 @@
+     "eventCostList": [],
+     "id": "DF_Head024",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-04-08T15:00:00",
++          "endDateInMs": 1775660400,
++          "startDate": "2025-04-01T15:00:00",
++          "startDateInMs": 1743519600
++        }
++      ],
+       "base_itemId": "DF_Head024",
+       "character": "Dwight",
+       "entitledByDefault": false,
+@@ -66417,13 +66425,19 @@
+           "endDateInMs": 1744124400,
+           "startDate": "2023-03-31T15:00:00",
+           "startDateInMs": 1680274800
++        },
++        {
++          "endDate": "2026-04-08T15:00:00",
++          "endDateInMs": 1775660400,
++          "startDate": "2026-04-01T15:00:00",
++          "startDateInMs": 1775055600
+         }
+       ],
+       "base_itemId": "HS_Head016",
+       "character": "Adam",
+       "entitledByDefault": false,
+-      "limitedTimeEndDate": "2025-04-08T15:00:00",
+-      "limitedTimeEndDateInMs": 1744124400,
++      "limitedTimeEndDate": "2026-04-08T15:00:00",
++      "limitedTimeEndDateInMs": 1775660400,
+       "rarity": "VeryRare",
+       "releaseDate": "2023-03-31T15:00:00",
+       "releaseDateInMs": 1680274800,
+@@ -74760,6 +74774,10 @@
+       {
+         "currencyId": "Cells",
+         "price": 400
++      },
++      {
++        "currencyId": "Shards",
++        "price": 7200
+       }
+     ],
+     "eventCostList": [],
+@@ -74770,14 +74788,14 @@
+       "entitledByDefault": false,
+       "outfitId": "JP_outfit_030",
+       "rarity": "VeryRare",
+-      "releaseDate": "2025-05-06T15:00:00",
+-      "releaseDateInMs": 1746543600,
++      "releaseDate": "2026-03-31T15:00:00",
++      "releaseDateInMs": 1774969200,
+       "type": "Head",
+       "unbreakable": false
+     },
+     "nonSecure": false,
+     "premium": false,
+-    "purchasable": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -76438,6 +76456,10 @@
+       {
+         "currencyId": "Cells",
+         "price": 400
++      },
++      {
++        "currencyId": "Shards",
++        "price": 7200
+       }
+     ],
+     "eventCostList": [],
+@@ -76448,14 +76470,14 @@
+       "entitledByDefault": false,
+       "outfitId": "JP_outfit_030",
+       "rarity": "VeryRare",
+-      "releaseDate": "2025-05-06T15:00:00",
+-      "releaseDateInMs": 1746543600,
++      "releaseDate": "2026-03-31T15:00:00",
++      "releaseDateInMs": 1774969200,
+       "type": "Legs",
+       "unbreakable": false
+     },
+     "nonSecure": false,
+     "premium": false,
+-    "purchasable": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -78010,6 +78032,10 @@
+       {
+         "currencyId": "Cells",
+         "price": 400
++      },
++      {
++        "currencyId": "Shards",
++        "price": 7200
+       }
+     ],
+     "eventCostList": [],
+@@ -78020,14 +78046,14 @@
+       "entitledByDefault": false,
+       "outfitId": "JP_outfit_030",
+       "rarity": "VeryRare",
+-      "releaseDate": "2025-05-06T15:00:00",
+-      "releaseDateInMs": 1746543600,
++      "releaseDate": "2026-03-31T15:00:00",
++      "releaseDateInMs": 1774969200,
+       "type": "Torso",
+       "unbreakable": false
+     },
+     "nonSecure": false,
+     "premium": false,
+-    "purchasable": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -104809,6 +104835,10 @@
+       {
+         "currencyId": "Cells",
+         "price": 400
++      },
++      {
++        "currencyId": "Shards",
++        "price": 7200
+       }
+     ],
+     "eventCostList": [],
+@@ -104819,14 +104849,14 @@
+       "entitledByDefault": false,
+       "outfitId": "K32_outfit_013",
+       "rarity": "VeryRare",
+-      "releaseDate": "2025-05-06T15:00:00",
+-      "releaseDateInMs": 1746543600,
++      "releaseDate": "2026-03-31T15:00:00",
++      "releaseDateInMs": 1774969200,
+       "type": "Torso",
+       "unbreakable": false
+     },
+     "nonSecure": false,
+     "premium": false,
+-    "purchasable": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -105420,6 +105450,10 @@
+       {
+         "currencyId": "Cells",
+         "price": 400
++      },
++      {
++        "currencyId": "Shards",
++        "price": 7200
+       }
+     ],
+     "eventCostList": [],
+@@ -105430,14 +105464,14 @@
+       "entitledByDefault": false,
+       "outfitId": "K32_outfit_013",
+       "rarity": "VeryRare",
+-      "releaseDate": "2025-05-06T15:00:00",
+-      "releaseDateInMs": 1746543600,
++      "releaseDate": "2026-03-31T15:00:00",
++      "releaseDateInMs": 1774969200,
+       "type": "Head",
+       "unbreakable": false
+     },
+     "nonSecure": false,
+     "premium": false,
+-    "purchasable": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -106016,6 +106050,10 @@
+       {
+         "currencyId": "Cells",
+         "price": 400
++      },
++      {
++        "currencyId": "Shards",
++        "price": 7200
+       }
+     ],
+     "eventCostList": [],
+@@ -106026,14 +106064,14 @@
+       "entitledByDefault": false,
+       "outfitId": "K32_outfit_013",
+       "rarity": "VeryRare",
+-      "releaseDate": "2025-05-06T15:00:00",
+-      "releaseDateInMs": 1746543600,
++      "releaseDate": "2026-03-31T15:00:00",
++      "releaseDateInMs": 1774969200,
+       "type": "Weapon",
+       "unbreakable": false
+     },
+     "nonSecure": false,
+     "premium": false,
+-    "purchasable": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -109092,13 +109130,19 @@
+           "endDateInMs": 1744124400,
+           "startDate": "2025-04-01T15:00:00",
+           "startDateInMs": 1743519600
++        },
++        {
++          "endDate": "2026-04-08T15:00:00",
++          "endDateInMs": 1775660400,
++          "startDate": "2026-04-01T15:00:00",
++          "startDateInMs": 1775055600
+         }
+       ],
+       "base_itemId": "K35_Head012",
+       "character": "K35",
+       "entitledByDefault": false,
+-      "limitedTimeEndDate": "2025-04-08T15:00:00",
+-      "limitedTimeEndDateInMs": 1744124400,
++      "limitedTimeEndDate": "2026-04-08T15:00:00",
++      "limitedTimeEndDateInMs": 1775660400,
+       "rarity": "VeryRare",
+       "releaseDate": "2025-04-01T15:00:00",
+       "releaseDateInMs": 1743519600,
+@@ -159856,6 +159900,12 @@
+       "item"
+     ],
+     "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 150
++      }
++    ],
+     "eventCostList": [],
+     "id": "QUI_BNR_11",
+     "metaData": {
+@@ -159877,6 +159927,12 @@
+       "item"
+     ],
+     "consumable": false,
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 150
++      }
++    ],
+     "eventCostList": [],
+     "id": "QUI_BNR_12",
+     "metaData": {
+@@ -192316,13 +192372,19 @@
+           "endDateInMs": 1744124400,
+           "startDate": "2024-04-01T13:00:00",
+           "startDateInMs": 1711976400
++        },
++        {
++          "endDate": "2026-04-08T15:00:00",
++          "endDateInMs": 1775660400,
++          "startDate": "2026-04-01T15:00:00",
++          "startDateInMs": 1775055600
+         }
+       ],
+       "base_itemId": "S34_Head018",
+       "character": "S34",
+       "entitledByDefault": false,
+-      "limitedTimeEndDate": "2025-04-08T15:00:00",
+-      "limitedTimeEndDateInMs": 1744124400,
++      "limitedTimeEndDate": "2026-04-08T15:00:00",
++      "limitedTimeEndDateInMs": 1775660400,
+       "rarity": "VeryRare",
+       "releaseDate": "2024-04-01T13:00:00",
+       "releaseDateInMs": 1711976400,
+@@ -276637,12 +276699,12 @@
+         "JP_Torso030",
+         "JP_Legs030"
+       ],
+-      "releaseDate": "2025-05-06T15:00:00",
+-      "releaseDateInMs": 1746543600,
++      "releaseDate": "2026-03-31T15:00:00",
++      "releaseDateInMs": 1774969200,
+       "unbreakable": false
+     },
+     "nonSecure": false,
+-    "purchasable": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -281842,12 +281904,12 @@
+         "K32_Body013",
+         "K32_W013"
+       ],
+-      "releaseDate": "2025-05-06T15:00:00",
+-      "releaseDateInMs": 1746543600,
++      "releaseDate": "2026-03-31T15:00:00",
++      "releaseDateInMs": 1774969200,
+       "unbreakable": false
+     },
+     "nonSecure": false,
+-    "purchasable": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -338893,7 +338955,7 @@
+       ],
+       "hiddenIfOwned": false,
+       "imageComposition": {
+-        "maxItemCount": 2,
++        "maxItemCount": 3,
+         "overrideDefaults": true,
+         "type": "EStoreSpecialPackImageType::ComposedImage"
+       },
+@@ -339000,7 +339062,7 @@
+       ],
+       "hiddenIfOwned": false,
+       "imageComposition": {
+-        "maxItemCount": 2,
++        "maxItemCount": 3,
+         "overrideDefaults": true,
+         "type": "EStoreSpecialPackImageType::ComposedImage"
+       },
+@@ -339025,6 +339087,125 @@
+       },
+       "startDate": "2026-03-24T15:00:00",
+       "startDateInMs": 1774364400
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": true,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DO_Head011_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": true,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DO_Body011_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": true,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DO_W011_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "HU_032",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "HU_019",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 1071
++      }
++    ],
++    "id": "From_The_Rift_Bundle_260331",
++    "metaData": {
++      "discount": 0.15,
++      "endDate": "2026-04-07T15:00:00",
++      "endDateInMs": 1775574000,
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 1260
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "maxItemCount": 3,
++        "overrideDefaults": true,
++        "type": "EStoreSpecialPackImageType::ComposedImage"
++      },
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 60,
++      "specialPackTitle": {
++        "de": "„Aus dem Spalt“-Paket",
++        "en": "From The Rift Bundle",
++        "es": "Paquete de Desde la grieta",
++        "es-MX": "Paquete Desde la Grieta",
++        "fr": "Lot Venant de la Faille",
++        "it": "Dal bundle Spaccatura",
++        "ja": "リフトからバンドル",
++        "ko": "균열로부터 번들",
++        "pl": "Pakiet Ze Szczeliny",
++        "pt-BR": "Pacote Direto da Fenda",
++        "ru": "Набор «Из разрыва»",
++        "th": "แพ็กรวมจากรอยแยก",
++        "tr": "Yarık İçerisinden Paketi",
++        "zh-Hans": "来自裂隙组合包",
++        "zh-Hant": "裂縫組合包"
++      },
++      "startDate": "2026-03-31T15:00:00",
++      "startDateInMs": 1774969200
+     },
+     "nonSecure": false,
+     "premium": false,
+@@ -345439,6 +345620,18 @@
+     "consumptionCurrenciesList": [],
+     "consumptionObjectList": [],
+     "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DR_021",
++        "type": "inventory"
++      },
+       {
+         "amount": 1,
+         "gameSpecificData": {
+@@ -345448,6 +345641,88 @@
+           "includeInPricing": true,
+           "type": "Customization"
+         },
++        "id": "FL_021",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DO_011",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 195
++      }
++    ],
++    "id": "Recurring_Charm_Bundle_260331",
++    "metaData": {
++      "discount": 0.0,
++      "endDate": "2026-04-07T15:00:00",
++      "endDateInMs": 1775574000,
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 195
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "overrideDefaults": false
++      },
++      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_Charm.T_UI_SpecialPack_Charm",
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 55,
++      "specialPackTitle": {
++        "de": "Wöchentliches Glücksbringerpaket",
++        "en": "Weekly Charm Bundle",
++        "es": "Paquete de amuletos semanales",
++        "es-MX": "Lote de amuletos semanal",
++        "fr": "Lot de charmes hebdomadaire",
++        "it": "Bundle di amuleti settimanale",
++        "ja": "今週の魔よけバンドル",
++        "ko": "주간 부적 번들",
++        "pl": "Pakiet cotygodniowego talizmanu",
++        "pt-BR": "Pacote Semanal de Amuleto",
++        "ru": "Еженедельный набор амулетов",
++        "th": "แพ็กรวมเครื่องรางประจำสัปดาห์",
++        "tr": "Haftalık Muska Paketi",
++        "zh-Hans": "每周护符组合包",
++        "zh-Hant": "每週護身符組合包"
++      },
++      "startDate": "2026-03-31T15:00:00",
++      "startDateInMs": 1774969200
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
+         "id": "K21_Head015",
+         "type": "inventory"
+       },
+@@ -355017,6 +355292,208 @@
+       },
+       "startDate": "2026-03-24T15:00:00",
+       "startDateInMs": 1774364400
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "SwedenKiller_Mask008",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "SwedenKiller_Body008",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "SwedenKiller_W008",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "UK_Head006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "UK_Body006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "UK_W006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "GK_Head011",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "GK_Body011",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "GK_W011",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_010",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "XR_010",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "ZO_012",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 2151
++      }
++    ],
++    "id": "Recurring_Dev_Bundle_260331",
++    "metaData": {
++      "discount": 0.4,
++      "endDate": "2026-04-07T15:00:00",
++      "endDateInMs": 1775574000,
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 3585
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "overrideDefaults": false
++      },
++      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_DevPicks.T_UI_SpecialPack_DevPicks",
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 56,
++      "specialPackTitle": {
++        "de": "Wöchentliches Entwicklerwahlpaket",
++        "en": "Weekly Developer Choice Bundle",
++        "es": "Paquete de selección de desarrolladores semanal",
++        "es-MX": "Paquete de selección del equipo de desarrollo semanal",
++        "fr": "Lot Choix des développeurs hebdomadaire",
++        "it": "Bundle Scelte dello sviluppatore settimanale",
++        "ja": "今週の開発者のオススメバンドル",
++        "ko": "주간 개발자의 선택 번들",
++        "pl": "Cotygodniowy pakiet wyborów twórców",
++        "pt-BR": "Pacote Semanal de Escolha dos Desenvolvedores",
++        "ru": "Еженедельный набор «Выбор разработчиков»",
++        "th": "แพ็กรวมผู้พัฒนาคัดสรรประจำสัปดาห์",
++        "tr": "Haftalık Geliştirici Seçimi Paketi",
++        "zh-Hans": "每周开发者特选组合包",
++        "zh-Hant": "每週開發者精選組合包"
++      },
++      "startDate": "2026-03-31T15:00:00",
++      "startDateInMs": 1774969200
+     },
+     "nonSecure": false,
+     "premium": false,

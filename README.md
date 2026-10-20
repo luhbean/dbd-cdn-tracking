@@ -52,7 +52,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-475 versions tracked so far.
+476 versions tracked so far.
 
 ---
 

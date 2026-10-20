@@ -39,7 +39,6 @@ These newer builds are live but their decryption key hasn't been published yet. 
 - `10.2.2_3899166live` · built 2026-10-20 14:32 UTC
 - `10.2.2_3896896live` · built 2026-10-19 19:13 UTC
 - `10.3.0_3895940live` · built 2026-10-19 14:34 UTC
-- `10.2.2_3883120live` · built 2026-10-13 20:09 UTC
 
 ## Browse
 
@@ -61,7 +60,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-606 versions tracked so far.
+607 versions tracked so far.
 
 ---
 

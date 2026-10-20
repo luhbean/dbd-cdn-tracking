@@ -1,0 +1,355 @@
+--- a/recommendations.json
++++ b/recommendations.json
+@@ -1899,86 +1899,6 @@
+       ],
+       "id": "Ramen_W6",
+       "inclusionVersion": "9.6.2"
+-    },
+-    {
+-      "activeFrom": "2026-05-20T15:00:00",
+-      "activeFromInMs": 1779289200000,
+-      "activeTo": "2026-06-16T15:00:00",
+-      "activeToInMs": 1781622000000,
+-      "entries": [
+-        {
+-          "entryId": "10.0.0_Jason",
+-          "type": "Collection",
+-          "weight": 100
+-        }
+-      ],
+-      "id": "SushiPTB",
+-      "inclusionVersion": "10.0.0 PTB"
+-    },
+-    {
+-      "activeFrom": "2026-06-16T15:00:00",
+-      "activeFromInMs": 1781622000000,
+-      "activeTo": "2026-06-25T15:00:00",
+-      "activeToInMs": 1782399600000,
+-      "entries": [
+-        {
+-          "entryId": "10.0.0_Jason",
+-          "type": "Collection",
+-          "weight": 10
+-        },
+-        {
+-          "entryId": "10.0.0_IceNineKills",
+-          "type": "Collection",
+-          "weight": 9
+-        },
+-        {
+-          "entryId": "10.0.0_INK_Bundle",
+-          "type": "SpecialPack",
+-          "weight": 8
+-        },
+-        {
+-          "entryId": "Rift_5_Bundle",
+-          "type": "SpecialPack",
+-          "weight": 7
+-        }
+-      ],
+-      "id": "Sushi_W1",
+-      "inclusionVersion": "10.0.0"
+-    },
+-    {
+-      "activeFrom": "2026-06-25T15:00:00",
+-      "activeFromInMs": 1782399600000,
+-      "activeTo": "2026-06-30T15:00:00",
+-      "activeToInMs": 1782831600000,
+-      "entries": [
+-        {
+-          "entryId": "10.0.1_Chapter40",
+-          "type": "Collection",
+-          "weight": 11
+-        },
+-        {
+-          "entryId": "10.0.0_BlackBanquet",
+-          "type": "Collection",
+-          "weight": 12
+-        },
+-        {
+-          "entryId": "10.0.0_Jason",
+-          "type": "Collection",
+-          "weight": 10
+-        },
+-        {
+-          "entryId": "10.0.0_IceNineKills",
+-          "type": "Collection",
+-          "weight": 9
+-        },
+-        {
+-          "entryId": "Rift_5_Bundle",
+-          "type": "SpecialPack",
+-          "weight": 7
+-        }
+-      ],
+-      "id": "Sushi_W2",
+-      "inclusionVersion": "10.0.0"
+     }
+   ],
+   "featuredChapterPackRecommendations": [
+@@ -2012,7 +1932,7 @@
+     },
+     {
+       "activeFrom": "2026-01-01T15:00:00Z",
+-      "activeTo": "2026-05-19T15:00:00Z",
++      "activeTo": "2030-01-01T15:00:00Z",
+       "chapterPacks": [
+         {
+           "associatedDlcId": "Poutine",
+@@ -2037,20 +1957,6 @@
+         }
+       ],
+       "id": "Qatar"
+-    },
+-    {
+-      "activeFrom": "2026-05-19T15:00:00Z",
+-      "activeTo": "2036-05-19T15:00:00Z",
+-      "chapterPacks": [
+-        {
+-          "associatedDlcId": "Sushi",
+-          "image": {
+-            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_Jason.T_UI_ChapterBundle_Jason"
+-          },
+-          "weight": "0"
+-        }
+-      ],
+-      "id": "Sushi"
+     }
+   ],
+   "featuredCharacterRecommendations": [
+@@ -2058,13 +1964,6 @@
+       "activeFrom": "2025-04-04T16:00:00Z",
+       "activeTo": "2033-09-04T00:00:00Z",
+       "characters": [
+-        {
+-          "characterIndex": "268435498",
+-          "image": {
+-            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Sushi/T_UI_K43_TheSlasher_Portrait.T_UI_K43_TheSlasher_Portrait"
+-          },
+-          "weight": "0"
+-        },
+         {
+           "characterIndex": "51",
+           "image": {
+@@ -7018,35 +6917,6 @@
+       ]
+     },
+     {
+-      "activeFrom": "2026-05-16T15:00:00",
+-      "activeFromInMs": 1778943600000,
+-      "activeTo": "2026-06-16T15:00:00",
+-      "activeToInMs": 1781622000000,
+-      "id": "Sushi_PTB",
+-      "recommendations": [
+-        {
+-          "category": "outfit",
+-          "id": "K43_outfit_007",
+-          "weight": 100
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K43_outfit_006",
+-          "weight": 99
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K43_outfit_02",
+-          "weight": 98
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K43_outfit_02_01",
+-          "weight": 97
+-        }
+-      ]
+-    },
+-    {
+       "activeFrom": "2026-05-19T15:00:00",
+       "activeFromInMs": 1779202800000,
+       "activeTo": "2026-05-26T15:00:00",
+@@ -7264,185 +7134,7 @@
+         {
+           "category": "outfit",
+           "id": "BE_outfit_030",
+-          "weight": 21
+-        }
+-      ]
+-    },
+-    {
+-      "activeFrom": "2026-06-16T15:00:00",
+-      "activeFromInMs": 1781622000000,
+-      "activeTo": "2026-06-25T15:00:00",
+-      "activeToInMs": 1782399600000,
+-      "id": "Sushi_W1",
+-      "recommendations": [
+-        {
+-          "category": "chapterPack",
+-          "id": "Sushi",
+-          "weight": 0
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K43_outfit_007",
+-          "weight": 20
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K43_outfit_006",
+-          "weight": 19
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K43_outfit_02",
+-          "weight": 18
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K43_outfit_02_01",
+-          "weight": 17
+-        },
+-        {
+-          "category": "item",
+-          "id": "KK_Mask040",
+-          "weight": 16
+-        },
+-        {
+-          "category": "item",
+-          "id": "KS_Torso021_05",
+-          "weight": 15
+-        },
+-        {
+-          "category": "item",
+-          "id": "GS_Torso028_05",
+-          "weight": 14
+-        },
+-        {
+-          "category": "item",
+-          "id": "S49_Torso008_02",
+-          "weight": 13
+-        },
+-        {
+-          "category": "item",
+-          "id": "S25_Torso022_05",
+-          "weight": 12
+-        },
+-        {
+-          "category": "item",
+-          "id": "MT_Torso028_04",
+-          "weight": 11
+-        },
+-        {
+-          "category": "item",
+-          "id": "DF_Torso030_04",
+-          "weight": 10
+-        }
+-      ]
+-    },
+-    {
+-      "activeFrom": "2026-06-25T15:00:00",
+-      "activeFromInMs": 1782399600000,
+-      "activeTo": "2026-06-30T15:00:00",
+-      "activeToInMs": 1782831600000,
+-      "id": "Sushi_W2",
+-      "recommendations": [
+-        {
+-          "category": "chapterPack",
+-          "id": "Sushi",
+-          "weight": 0
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S53_outfit_006",
+-          "weight": 24
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S53_outfit_006_01",
+-          "weight": 23
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S53_outfit_02",
+-          "weight": 22
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S53_outfit_02_01",
+           "weight": 21
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K43_outfit_007",
+-          "weight": 20
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K43_outfit_006",
+-          "weight": 19
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K43_outfit_02",
+-          "weight": 18
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K43_outfit_02_01",
+-          "weight": 17
+-        },
+-        {
+-          "category": "item",
+-          "id": "KK_Mask040",
+-          "weight": 16
+-        },
+-        {
+-          "category": "item",
+-          "id": "KS_Torso021_05",
+-          "weight": 15
+-        },
+-        {
+-          "category": "item",
+-          "id": "GS_Torso028_05",
+-          "weight": 14
+-        },
+-        {
+-          "category": "item",
+-          "id": "S49_Torso008_02",
+-          "weight": 13
+-        },
+-        {
+-          "category": "item",
+-          "id": "S25_Torso022_05",
+-          "weight": 12
+-        },
+-        {
+-          "category": "item",
+-          "id": "MT_Torso028_04",
+-          "weight": 11
+-        },
+-        {
+-          "category": "item",
+-          "id": "DF_Torso030_04",
+-          "weight": 10
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "CM_outfit_036",
+-          "weight": 9
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "DO_outfit_028",
+-          "weight": 8
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "KK_outfit_041",
+-          "weight": 7
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "GS_outfit_040",
+-          "weight": 6
+         }
+       ]
+     }

@@ -2,6 +2,16 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.1.2_3796237live](versions/10.1.2_3796237live/CHANGES.md)
+
+Built 2026-09-18 14:03 UTC · **+2** added · **~3** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/10.1.2_3796237live/diffs/catalog.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.1.2_3796237live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/10.1.2_3796237live/diffs/recommendations.json.diff)
+- \+ [`images/T_UI_SpecialPack_SAW_Bundle.png`](versions/10.1.2_3796237live/images/T_UI_SpecialPack_SAW_Bundle.png)
+- \+ [`images/T_UI_SpecialPack_Tome8.png`](versions/10.1.2_3796237live/images/T_UI_SpecialPack_Tome8.png)
+
 ## [10.1.2_3793194live](versions/10.1.2_3793194live/CHANGES.md)
 
 Built 2026-09-17 20:20 UTC · **+0** added · **~3** modified · **−0** removed

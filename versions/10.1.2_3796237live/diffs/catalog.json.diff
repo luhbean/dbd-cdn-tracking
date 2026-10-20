@@ -1,0 +1,1326 @@
+--- a/catalog.json
++++ b/catalog.json
+@@ -289471,6 +289471,16 @@
+       ],
+       "releaseDate": "2021-08-26T15:00:00",
+       "releaseDateInMs": 1629990000000,
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-09-21T15:00:00",
++          "endDateInMs": 1790002800000,
++          "startDate": "2026-09-18T15:00:00",
++          "startDateInMs": 1789743600000
++        }
++      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -297094,6 +297104,16 @@
+       ],
+       "releaseDate": "2024-09-24T15:00:00",
+       "releaseDateInMs": 1727190000000,
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-09-21T15:00:00",
++          "endDateInMs": 1790002800000,
++          "startDate": "2026-09-18T15:00:00",
++          "startDateInMs": 1789743600000
++        }
++      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -300265,6 +300285,16 @@
+       ],
+       "releaseDate": "2024-09-24T15:00:00",
+       "releaseDateInMs": 1727190000000,
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-09-21T15:00:00",
++          "endDateInMs": 1790002800000,
++          "startDate": "2026-09-18T15:00:00",
++          "startDateInMs": 1789743600000
++        }
++      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -304276,6 +304306,16 @@
+       ],
+       "releaseDate": "2021-08-26T15:00:00",
+       "releaseDateInMs": 1629990000000,
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-09-21T15:00:00",
++          "endDateInMs": 1790002800000,
++          "startDate": "2026-09-18T15:00:00",
++          "startDateInMs": 1789743600000
++        }
++      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -307083,6 +307123,16 @@
+       ],
+       "releaseDate": "2021-08-26T15:00:00",
+       "releaseDateInMs": 1629990000000,
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-09-21T15:00:00",
++          "endDateInMs": 1790002800000,
++          "startDate": "2026-09-18T15:00:00",
++          "startDateInMs": 1789743600000
++        }
++      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -309415,6 +309465,16 @@
+       ],
+       "releaseDate": "2024-09-24T15:00:00",
+       "releaseDateInMs": 1727190000000,
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-09-21T15:00:00",
++          "endDateInMs": 1790002800000,
++          "startDate": "2026-09-18T15:00:00",
++          "startDateInMs": 1789743600000
++        }
++      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -326895,6 +326955,16 @@
+       ],
+       "releaseDate": "2024-09-24T15:00:00",
+       "releaseDateInMs": 1727190000000,
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-09-21T15:00:00",
++          "endDateInMs": 1790002800000,
++          "startDate": "2026-09-18T15:00:00",
++          "startDateInMs": 1789743600000
++        }
++      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -346746,6 +346816,42 @@
+     "consumptionCurrenciesList": [],
+     "consumptionObjectList": [],
+     "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Character"
++        },
++        "id": "Pig",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Character"
++        },
++        "id": "Eric",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FK_Mask009",
++        "type": "inventory"
++      },
+       {
+         "amount": 1,
+         "gameSpecificData": {
+@@ -346755,6 +346861,376 @@
+           "includeInPricing": true,
+           "type": "Customization"
+         },
++        "id": "FK_Body009",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FK_W009",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FS_Head010",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FS_Torso010",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FS_Legs010",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_028",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_023",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_029",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_024",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_015",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_025",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_030",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_026",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_031",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_012",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_009",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_005",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_018",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_032",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_027",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_016",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_010",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_011",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_008",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JU_021",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 2176
++      }
++    ],
++    "id": "SAW_Bundle",
++    "metaData": {
++      "discount": 0.45,
++      "endDate": "2026-10-02T15:00:00",
++      "endDateInMs": 1790953200000,
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 3955
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "overrideDefaults": false
++      },
++      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/Udon/T_UI_SpecialPack_SAW_Bundle.T_UI_SpecialPack_SAW_Bundle",
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 2002,
++      "specialPackTitle": {
++        "de": "SAW-Paket",
++        "en": "SAW Bundle",
++        "es": "Paquete de Saw",
++        "es-MX": "Paquete SAW",
++        "fr": "Lot SAW",
++        "it": "Bundle SAW",
++        "ja": "「ソウ（SAW）」バンドル",
++        "ko": "쏘우 번들",
++        "pl": "Pakiet PIŁY",
++        "pt-BR": "Pacote Jogos Mortais",
++        "ru": "Набор «Пила»",
++        "th": "แพ็ครวม SAW",
++        "tr": "Testere Paketi",
++        "zh-Hans": "电锯惊魂捆绑包",
++        "zh-Hant": "《奪魂鋸》組合包"
++      },
++      "startDate": "2026-09-25T15:00:00",
++      "startDateInMs": 1790348400000
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
+         "id": "S52_Head007",
+         "type": "inventory"
+       },
+@@ -353809,6 +354285,784 @@
+       },
+       "startDate": "2025-09-16T15:00:00",
+       "startDateInMs": 1758034800000
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "GK_Head014",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "GK_Body014",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "GK_W014",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JP_Head015",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JP_Torso015",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "JP_Legs015",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S24_Head010",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S24_Torso010",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S24_Legs010",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "NK_Head008_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "NK_Torso010_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "NK_Legs014_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "US_Head009_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "US_Torso009_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "US_Legs006_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DF_Head001_04",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DF_Torso01_06",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "DF_Legs001_04",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "AV_Head014",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "AV_Torso014",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "AV_Legs014",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "BE_Mask013",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "BE_Body013",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "BE_W013",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TC_Torso009_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TC_Legs009_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TC_W06_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "KK_Mask01_04",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "KK_Body015_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "KK_W014_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TN_Head007_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TN_Body03_02",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "TN_W007_01",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_028",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_023",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_015",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_014",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_017",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_029",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_024",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_030",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_013",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_025",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_031",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_026",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_012",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_005",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_019",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_032",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_027",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_009",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_016",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_020",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_010",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_022",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_007",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_011",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_008",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "FL_021",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 3885
++      }
++    ],
++    "id": "Tome_8_Bundle",
++    "metaData": {
++      "discount": 0.666667,
++      "endDate": "2026-09-25T15:00:00",
++      "endDateInMs": 1790348400000,
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 11655
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "overrideDefaults": false
++      },
++      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/Udon/T_UI_SpecialPack_Tome8.T_UI_SpecialPack_Tome8",
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 2001,
++      "specialPackTitle": {
++        "de": "FOLIANT VIII – BEFREIUNG",
++        "en": "TOME 8 - DELIVERANCE",
++        "es": "TOMO VIII: LIBERACIÓN",
++        "es-MX": "TOMO 8: LIBERACIÓN",
++        "fr": "TOME 8 - LIBÉRATION",
++        "it": "VOLUME 8 - LIBERAZIONE",
++        "ja": "学術書8 - 救出",
++        "ko": "두꺼운 책 8 - 구조",
++        "pl": "TOM 8 – WYBAWIENIE",
++        "pt-BR": "LIVRO 8: LIBERTAÇÃO",
++        "ru": "КНИГА 8: ВЫСВОБОЖДЕНИЕ",
++        "th": "ตำรา 8 - การปลดปล่อย",
++        "tr": "8. KİTAP - KURTULUŞ",
++        "zh-Hans": "古书第8册 - 拯救",
++        "zh-Hant": "秘書VIII - 善有善報"
++      },
++      "startDate": "2026-09-18T15:00:00",
++      "startDateInMs": 1789743600000
+     },
+     "nonSecure": false,
+     "premium": false,

@@ -2,6 +2,23 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.2.3_2840921live](versions/9.2.3_2840921live/CHANGES.md)
+
+Built 2025-10-31 13:44 UTC · **+1** added · **~11** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/9.2.3_2840921live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_de.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_ru.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_ru.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
+- ~ [`collections.json`](versions/9.2.3_2840921live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.2.3_2840921live/diffs/dynamicContent/DynamicContent.json.diff)
+- \+ [`images/T_UI_CollectionBanner_BlightedSpringtrap.png`](versions/9.2.3_2840921live/images/T_UI_CollectionBanner_BlightedSpringtrap.png)
+
 ## [9.2.3_2833978live](versions/9.2.3_2833978live/CHANGES.md)
 
 Built 2025-10-28 15:25 UTC · no content changes

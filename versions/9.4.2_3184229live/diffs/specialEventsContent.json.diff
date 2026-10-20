@@ -1,0 +1,263 @@
+--- a/specialEventsContent.json
++++ b/specialEventsContent.json
+@@ -522,44 +522,54 @@
+     },
+     {
+       "activationVersion": "",
+-      "eventId": "Spring2026",
+-      "mainEndTime": "2026-04-16T15:00:00",
+-      "postEndTime": "2026-04-16T15:00:00",
+-      "startTime": "2026-03-26T15:00:00",
+-      "useCommonData": false
++      "eventId": "MapShowcase_Omelet_01",
++      "eventName": {
++        "de": "Skiort am Mount Ormond",
++        "en": "Mount Ormond Resort",
++        "es": "Complejo del monte Ormond",
++        "es-MX": "Complejo del monte Ormond",
++        "fr": "Station du mont Ormond",
++        "it": "Resort del Monte Ormond",
++        "ja": "オーモンド山のリゾート",
++        "ko": "오르몬드 산 리조트",
++        "pl": "Ośrodek Mount Ormond",
++        "pt-BR": "Resort do Monte Ormond",
++        "ru": "Курорт «Гора Ормонд»",
++        "th": "ที่พักตากอากาศเขาออร์มอนด์",
++        "tr": "Ormond Dağı Tatil Yeri",
++        "zh-Hans": "奥蒙德山度假村",
++        "zh-Hant": "奧蒙德山度假村"
++      },
++      "eventType": "MapShowcase",
++      "mainEndTime": "2025-12-05T15:59:42",
++      "postEndTime": "2025-12-05T15:59:42",
++      "startTime": "2025-12-01T16:00:00",
++      "useCommonData": true
+     },
+     {
+       "activationVersion": "",
+-      "eventId": "Spring2026Regular",
+-      "mainEndTime": "2026-04-16T15:00:00",
+-      "postEndTime": "2026-04-16T15:00:00",
+-      "startTime": "2026-03-26T15:00:00",
+-      "useCommonData": false
+-    },
+-    {
+-      "activationVersion": "",
+-      "eventId": "MapShowcaseQuiche",
++      "eventId": "MapShowcase_Omelet_02",
+       "eventName": {
+-        "de": "Illusion des Tricksters",
+-        "en": "Trickster's Delusion",
+-        "es": "Delirio del Traicionero",
+-        "es-MX": "Delirio del Embaucador",
+-        "fr": "Illusion du Farceur",
+-        "it": "Illusione dell'Ingannatore",
+-        "ja": "トリックスターの妄想",
+-        "ko": "트릭스터의 망상",
+-        "pl": "Urojenia Magika",
+-        "pt-BR": "Desilusão do Trapaça",
+-        "ru": "Морок Трюкача",
+-        "th": "ภาพหลอนของทริกสเตอร์",
+-        "tr": "Dümenci'nin Yanılması",
+-        "zh-Hans": "骗术师的妄想",
+-        "zh-Hant": "騙術師的妄想"
++        "de": "Mine am Ormond-See",
++        "en": "Ormond Lake Mine",
++        "es": "Mina del lago Ormond",
++        "es-MX": "Mina del lago Ormond",
++        "fr": "Mine du lac d'Ormond",
++        "it": "Miniera del lago Ormond",
++        "ja": "オーモンド湖採掘場",
++        "ko": "오르몬드 호수 채굴장",
++        "pl": "Kopalnia nad jeziorem Ormond",
++        "pt-BR": "Mina do Lago de Ormond",
++        "ru": "Шахта у озера Ормонд",
++        "th": "เหมืองทะเลสาบออร์มอนด์",
++        "tr": "Ormond Gölü Madeni",
++        "zh-Hans": "奥蒙德湖矿场",
++        "zh-Hant": "奧蒙德湖礦場"
+       },
+       "eventType": "MapShowcase",
+-      "mainEndTime": "2026-03-24T15:00:00",
+-      "postEndTime": "2026-03-24T15:00:00",
+-      "startTime": "2026-03-17T15:00:00",
++      "mainEndTime": "2025-12-09T15:59:42",
++      "postEndTime": "2025-12-09T15:59:42",
++      "startTime": "2025-12-05T16:00:00",
+       "useCommonData": true
+     }
+   ],
+@@ -660,24 +670,24 @@
+       "eventPeriods": [
+         {
+           "endDate": "2023-03-15T15:00:00",
+-          "endDateInMs": 1678892400,
++          "endDateInMs": 1678892400000,
+           "id": "Barrel2023EventPeriod1",
+           "startDate": "2023-03-14T15:00:00",
+-          "startDateInMs": 1678806000
++          "startDateInMs": 1678806000000
+         },
+         {
+           "endDate": "2023-03-17T15:00:00",
+-          "endDateInMs": 1679065200,
++          "endDateInMs": 1679065200000,
+           "id": "Barrel2023EventPeriod2",
+           "startDate": "2023-03-16T15:00:00",
+-          "startDateInMs": 1678978800
++          "startDateInMs": 1678978800000
+         },
+         {
+           "endDate": "2023-03-20T15:00:00",
+-          "endDateInMs": 1679324400,
++          "endDateInMs": 1679324400000,
+           "id": "Barrel2023EventPeriod3",
+           "startDate": "2023-03-18T15:00:00",
+-          "startDateInMs": 1679151600
++          "startDateInMs": 1679151600000
+         }
+       ],
+       "eventTrackerObjectives": [],
+@@ -1054,10 +1064,10 @@
+       "eventPeriods": [
+         {
+           "endDate": "2024-11-07T15:00:00",
+-          "endDateInMs": 1730991600,
++          "endDateInMs": 1730991600000,
+           "id": "Halloween2024",
+           "startDate": "2024-10-17T15:00:00",
+-          "startDateInMs": 1729177200
++          "startDateInMs": 1729177200000
+         }
+       ],
+       "eventTrackerObjectives": [],
+@@ -1333,6 +1343,21 @@
+     },
+     {
+       "eventId": "MapShowcaseKetchup",
++      "eventPeriods": [],
++      "eventTrackerObjectives": [],
++      "lteData": {
++        "affectsMMR": true,
++        "gameModeQueue": "MapShowcase",
++        "gameType": "MapShowcase",
++        "incentiveBonus": 0.0
++      },
++      "milestoneRewards": [],
++      "miscRewards": [],
++      "ownerRewards": [],
++      "scoreEventRewards": []
++    },
++    {
++      "eventId": "MapShowcase_Omelet_01",
+       "eventPeriods": [],
+       "eventTrackerObjectives": [],
+       "lteData": {
+@@ -1347,7 +1372,7 @@
+       "scoreEventRewards": []
+     },
+     {
+-      "eventId": "MapShowcaseQuiche",
++      "eventId": "MapShowcase_Omelet_02",
+       "eventPeriods": [],
+       "eventTrackerObjectives": [],
+       "lteData": {
+@@ -1485,85 +1510,10 @@
+               "amount": 1,
+               "id": "IC_BNR_03",
+               "type": "inventory"
+-            }
+-          ]
+-        }
+-      ],
+-      "miscRewards": [],
+-      "ownerRewards": [],
+-      "scoreEventRewards": []
+-    },
+-    {
+-      "eventId": "Spring2026",
+-      "eventPeriods": [
+-        {
+-          "endDate": "2025-03-10T13:00:00",
+-          "endDateInMs": 1741611600,
+-          "id": "Spring2025",
+-          "startDate": "2024-10-24T15:00:00",
+-          "startDateInMs": 1729782000
+-        }
+-      ],
+-      "eventTrackerObjectives": [
+-        {
+-          "additionalEventIdsWithMilestoneBonus": [
+-            "*"
+-          ],
+-          "id": "main",
+-          "maxProgressionPerMatchPlayer": 16,
+-          "milestones": [
+-            {
+-              "additiveMultiplier": 1.5,
+-              "neededProgression": 0
+-            },
+-            {
+-              "additiveMultiplier": 1.75,
+-              "neededProgression": 5000000
+-            },
+-            {
+-              "additiveMultiplier": 2.25,
+-              "neededProgression": 15000000
+-            },
+-            {
+-              "additiveMultiplier": 3.0,
+-              "neededProgression": 25000000
+-            },
+-            {
+-              "additiveMultiplier": 4.0,
+-              "neededProgression": 40000000
+-            },
+-            {
+-              "additiveMultiplier": 5.0,
+-              "neededProgression": 55000000
+             }
+-          ],
+-          "questEventConditions": [
+-            {
+-              "key": "gameTypes",
+-              "value": [
+-                "SeasonalEvent_FuelGenerator"
+-              ]
+-            }
+-          ],
+-          "questEvents": [
+-            {
+-              "id": "QuestEvent.FinishEventFuelGenerator",
+-              "params": "instigator:me"
+-            },
+-            {
+-              "id": "QuestEvent.SpringKickFuelGen",
+-              "params": "instigator:me"
+-            }
+           ]
+         }
+       ],
+-      "lteData": {
+-        "affectsMMR": true,
+-        "gameModeQueue": "Spring2026",
+-        "gameType": "SeasonalEvent_FuelGenerator",
+-        "incentiveBonus": 0.0
+-      },
+-      "milestoneRewards": [],
+       "miscRewards": [],
+       "ownerRewards": [],
+       "scoreEventRewards": []
+@@ -1633,10 +1583,10 @@
+       "eventPeriods": [
+         {
+           "endDate": "2025-01-07T16:00:00",
+-          "endDateInMs": 1736265600,
++          "endDateInMs": 1736265600000,
+           "id": "Winter2024",
+           "startDate": "2024-12-12T16:00:00",
+-          "startDateInMs": 1734019200
++          "startDateInMs": 1734019200000
+         }
+       ],
+       "eventTrackerObjectives": [],

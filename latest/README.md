@@ -1,10 +1,10 @@
-# Latest live content · 10.0.2_3549280live
+# Latest live content · 10.0.3_3562074live
 
-Built 2026-07-24 14:01 UTC · [what changed in this version](../versions/10.0.2_3549280live/CHANGES.md) · [← back](../README.md)
+Built 2026-07-25 17:28 UTC · [what changed in this version](../versions/10.0.3_3562074live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (9)](#images) · [Game data (98)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (4)](#images) · [Game data (98)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -15,12 +15,7 @@ This folder always holds the newest version. Its commit history shows every chan
 ## Images
 
 <p>
-<a href="images/T_UI_CollectionBanner_IronMaiden_Huntress.png"><img src="images/T_UI_CollectionBanner_IronMaiden_Huntress.png" alt="T_UI_CollectionBanner_IronMaiden_Huntress.png" title="T_UI_CollectionBanner_IronMaiden_Huntress.png" width="200"></a>
-<a href="images/T_UI_CollectionBanner_TheLifeRoad.png"><img src="images/T_UI_CollectionBanner_TheLifeRoad.png" alt="T_UI_CollectionBanner_TheLifeRoad.png" title="T_UI_CollectionBanner_TheLifeRoad.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_Black_Banquet.png"><img src="images/T_UI_SpecialPack_Black_Banquet.png" alt="T_UI_SpecialPack_Black_Banquet.png" title="T_UI_SpecialPack_Black_Banquet.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_IronMaiden_Huntress.png"><img src="images/T_UI_SpecialPack_IronMaiden_Huntress.png" alt="T_UI_SpecialPack_IronMaiden_Huntress.png" title="T_UI_SpecialPack_IronMaiden_Huntress.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_TheLifeRoad.png"><img src="images/T_UI_SpecialPack_TheLifeRoad.png" alt="T_UI_SpecialPack_TheLifeRoad.png" title="T_UI_SpecialPack_TheLifeRoad.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_TwistedMasquerade_2025_Bundle.png"><img src="images/T_UI_SpecialPack_TwistedMasquerade_2025_Bundle.png" alt="T_UI_SpecialPack_TwistedMasquerade_2025_Bundle.png" title="T_UI_SpecialPack_TwistedMasquerade_2025_Bundle.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Rift6.png"><img src="images/T_UI_SpecialPack_Rift6.png" alt="T_UI_SpecialPack_Rift6.png" title="T_UI_SpecialPack_Rift6.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_GenQuest1.png"><img src="images/T_UI_Tutorial_ImageBG_GenQuest1.png" alt="T_UI_Tutorial_ImageBG_GenQuest1.png" title="T_UI_Tutorial_ImageBG_GenQuest1.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_cosmetic.png"><img src="images/T_UI_Tutorial_ImageBG_cosmetic.png" alt="T_UI_Tutorial_ImageBG_cosmetic.png" title="T_UI_Tutorial_ImageBG_cosmetic.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_gift.png"><img src="images/T_UI_Tutorial_ImageBG_gift.png" alt="T_UI_Tutorial_ImageBG_gift.png" title="T_UI_Tutorial_ImageBG_gift.png" width="200"></a>

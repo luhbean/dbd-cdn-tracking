@@ -2,19 +2,18 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `10.1.2_3796237live` · built 2026-09-18 14:03 UTC
+**Latest version:** `10.1.2_3797235live` · built 2026-09-18 17:33 UTC
 
-[What changed](versions/10.1.2_3796237live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/10.1.2_3797235live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**2** added · **3** modified · **0** removed, compared with `10.1.2_3793194live`.
+**0** added · **3** modified · **1** removed, compared with `10.1.2_3796237live`.
 
-- ~ [`catalog.json`](versions/10.1.2_3796237live/diffs/catalog.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/10.1.2_3796237live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`recommendations.json`](versions/10.1.2_3796237live/diffs/recommendations.json.diff)
-- \+ [`images/T_UI_SpecialPack_SAW_Bundle.png`](versions/10.1.2_3796237live/images/T_UI_SpecialPack_SAW_Bundle.png)
-- \+ [`images/T_UI_SpecialPack_Tome8.png`](versions/10.1.2_3796237live/images/T_UI_SpecialPack_Tome8.png)
+- ~ [`catalog.json`](versions/10.1.2_3797235live/diffs/catalog.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.1.2_3797235live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/10.1.2_3797235live/diffs/recommendations.json.diff)
+- − `images/T_UI_SpecialPack_Tome8.png`
 
 ## Browse
 
@@ -36,7 +35,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-566 versions tracked so far.
+567 versions tracked so far.
 
 ---
 

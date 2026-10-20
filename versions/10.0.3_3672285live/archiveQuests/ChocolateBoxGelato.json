@@ -1,0 +1,981 @@
+{
+  "ChocolateBoxGelato": {
+    "level": [
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_ChocolateBoxGelato_L1_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 10,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "GEL_003",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_ChocolateBoxGelato_L1_01": {
+            "clientInfoId": "UnhookOrHook",
+            "coordinates": {
+              "x": 25.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L1_07",
+              "node_ChocolateBoxGelato_L1_03",
+              "node_ChocolateBoxGelato_L1_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "UnhookOrHookInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "UnhookOrHookInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.UnhookOrHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L1_02": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 85.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L1_05",
+              "node_ChocolateBoxGelato_L1_End01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpointsInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 50000,
+                "objectiveId": "EarnBloodpointsInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L1_03": {
+            "clientInfoId": "BreakPallets",
+            "coordinates": {
+              "x": 45.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L1_01",
+              "node_ChocolateBoxGelato_L1_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "BreakPalletsInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 6,
+                "objectiveId": "BreakPalletsInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.BreakPallets",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L1_04": {
+            "clientInfoId": "EscapeChase",
+            "coordinates": {
+              "x": 40.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L1_01",
+              "node_ChocolateBoxGelato_L1_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EscapeChaseInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "EscapeChaseInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EscapeChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L1_05": {
+            "clientInfoId": "EarnEmblemsSilver",
+            "coordinates": {
+              "x": 75.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L1_06",
+              "node_ChocolateBoxGelato_L1_02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsSilverInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "EarnEmblemsSilverInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;EmblemQuality:Silver",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L1_06": {
+            "clientInfoId": "SucceedHealingSkillCheckORDown",
+            "coordinates": {
+              "x": 65.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L1_08",
+              "node_ChocolateBoxGelato_L1_05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SucceedHealingSkillCheckORDownInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "SucceedHealingSkillCheckORDownInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SucceedHealingSkillCheckOrDown",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L1_07": {
+            "clientInfoId": "Crow",
+            "coordinates": {
+              "x": 10.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L1_Start01",
+              "node_ChocolateBoxGelato_L1_01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CrowInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 20,
+                "objectiveId": "CrowInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Crow",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L1_08": {
+            "clientInfoId": "RedGlyph",
+            "coordinates": {
+              "x": 55.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L1_04",
+              "node_ChocolateBoxGelato_L1_03",
+              "node_ChocolateBoxGelato_L1_06"
+            ],
+            "nodeType": "quest:contextual",
+            "objectives": {
+              "RedGlyphInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "RedGlyphInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.RedGlyph",
+                    "repetition": 1
+                  }
+                ],
+                "specialBehaviours": [
+                  {
+                    "id": "RedGlyph"
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L1_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 100.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L1_02"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_ChocolateBoxGelato_L1_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 0.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L1_07"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_ChocolateBoxGelato_L1_Start01"
+        ],
+        "startDate": "2025-01-16T16:00:00",
+        "startDateInMs": 1737043200000,
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      },
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_ChocolateBoxGelato_L2_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 10,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "GE_BDG_11",
+            "type": "inventory"
+          },
+          {
+            "amount": 1,
+            "id": "GE_BNR_08",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_ChocolateBoxGelato_L2_01": {
+            "clientInfoId": "GeneratorSkillCheckSuccessOrBreakGens",
+            "coordinates": {
+              "x": 45.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L2_03",
+              "node_ChocolateBoxGelato_L2_04",
+              "node_ChocolateBoxGelato_L2_06",
+              "node_ChocolateBoxGelato_L2_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "GeneratorSkillCheckSuccessOrBreakGensInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 5,
+                "objectiveId": "GeneratorSkillCheckSuccessOrBreakGensInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.GeneratorSkillCheckSuccessOrBreakGens",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L2_02": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 20.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L2_08",
+              "node_ChocolateBoxGelato_L2_03",
+              "node_ChocolateBoxGelato_L2_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpointsInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 100000,
+                "objectiveId": "EarnBloodpointsInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L2_03": {
+            "clientInfoId": "Sacrifice",
+            "coordinates": {
+              "x": 30.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L2_02",
+              "node_ChocolateBoxGelato_L2_06",
+              "node_ChocolateBoxGelato_L2_01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SacrificeInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "SacrificeInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Sacrifice",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L2_04": {
+            "clientInfoId": "Escape",
+            "coordinates": {
+              "x": 40.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L2_02",
+              "node_ChocolateBoxGelato_L2_01",
+              "node_ChocolateBoxGelato_L2_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EscapeInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "EscapeInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Escape",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L2_05": {
+            "clientInfoId": "EarnEmblemsSilver",
+            "coordinates": {
+              "x": 85.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L2_End01",
+              "node_ChocolateBoxGelato_L2_09",
+              "node_ChocolateBoxGelato_L2_06",
+              "node_ChocolateBoxGelato_L2_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsSilverInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "EarnEmblemsSilverInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;EmblemQuality:Silver",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L2_06": {
+            "clientInfoId": "VaultInChase",
+            "coordinates": {
+              "x": 60.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L2_03",
+              "node_ChocolateBoxGelato_L2_01",
+              "node_ChocolateBoxGelato_L2_09",
+              "node_ChocolateBoxGelato_L2_05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "VaultInChaseInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "VaultInChaseInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.VaultInChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L2_07": {
+            "clientInfoId": "Down",
+            "coordinates": {
+              "x": 75.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L2_04",
+              "node_ChocolateBoxGelato_L2_09",
+              "node_ChocolateBoxGelato_L2_01",
+              "node_ChocolateBoxGelato_L2_05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "DownInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 5,
+                "objectiveId": "DownInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Down",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L2_08": {
+            "clientInfoId": "ChasedByOrChase",
+            "coordinates": {
+              "x": 5.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L2_Start01",
+              "node_ChocolateBoxGelato_L2_02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "ChasedByOrChaseInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 60,
+                "objectiveId": "ChasedByOrChaseInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:meOrOther",
+                    "questEventId": "QuestEvent.ChasedByOrChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L2_09": {
+            "clientInfoId": "GreenGlyph",
+            "coordinates": {
+              "x": 60.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L2_07",
+              "node_ChocolateBoxGelato_L2_06",
+              "node_ChocolateBoxGelato_L2_05"
+            ],
+            "nodeType": "quest:contextual",
+            "objectives": {
+              "GreenGlyphInChocolateBox": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "ChocolateBox"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "GreenGlyphInChocolateBox",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.GreenGlyph",
+                    "repetition": 1
+                  }
+                ],
+                "specialBehaviours": [
+                  {
+                    "id": "GreenGlyph"
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ChocolateBoxGelato_L2_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 100.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L2_05"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_ChocolateBoxGelato_L2_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 0.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_ChocolateBoxGelato_L2_08"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_ChocolateBoxGelato_L2_Start01"
+        ],
+        "startDate": "2025-01-23T16:00:00",
+        "startDateInMs": 1737648000000,
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      }
+    ],
+    "newTomePopup": false,
+    "riftId": "Tome21",
+    "specialEventId": "ChocolateBoxGelato"
+  }
+}

@@ -1,0 +1,138 @@
+--- a/archiveQuests/ChocolateBoxV1.json
++++ b/archiveQuests/ChocolateBoxV1.json
+@@ -2,12 +2,23 @@
+   "ChocolateBoxV1": {
+     "level": [
+       {
+-        "challengeRewards": [],
++        "challengeRewards": [
++          {
++            "amount": 0,
++            "id": "star",
++            "type": "progressionDbD"
++          }
++        ],
+         "end": [
+           "node_ChocolateBoxV1_L1_End01"
+         ],
+         "endNodeRewards": [
+           {
++            "amount": 25,
++            "id": "star",
++            "type": "progressionDbD"
++          },
++          {
+             "amount": 1,
+             "id": "BA_019",
+             "type": "inventory"
+@@ -49,6 +60,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+@@ -84,6 +100,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+@@ -125,6 +146,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+@@ -161,6 +187,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -202,6 +233,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+@@ -238,6 +274,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -285,6 +326,11 @@
+               }
+             },
+             "reward": [
++              {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
+               {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+@@ -333,6 +379,11 @@
+             },
+             "reward": [
+               {
++                "amount": 5,
++                "id": "star",
++                "type": "progressionDbD"
++              },
++              {
+                 "amount": 15000,
+                 "id": "Bloodpoints",
+                 "type": "currency"
+@@ -407,7 +458,13 @@
+         ],
+         "startDate": "2024-05-02T15:00:00",
+         "startDateInMs": 1714662000000,
+-        "taskRewards": []
++        "taskRewards": [
++          {
++            "amount": 0,
++            "id": "star",
++            "type": "progressionDbD"
++          }
++        ]
+       }
+     ],
+     "newTomePopup": false,

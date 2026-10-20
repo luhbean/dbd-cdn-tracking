@@ -2,6 +2,16 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.6.2_3383147live](versions/9.6.2_3383147live/CHANGES.md)
+
+Built 2026-05-27 15:30 UTC · **+0** added · **~5** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/9.6.2_3383147live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/9.6.2_3383147live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.6.2_3383147live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`gameplayTunables.json`](versions/9.6.2_3383147live/diffs/gameplayTunables.json.diff)
+- ~ [`recommendations.json`](versions/9.6.2_3383147live/diffs/recommendations.json.diff)
+
 ## [9.6.2_3374678live](versions/9.6.2_3374678live/CHANGES.md)
 
 Built 2026-05-22 17:43 UTC · no content changes

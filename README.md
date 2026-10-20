@@ -2,20 +2,21 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `10.2.1_3889339live` · built 2026-10-15 20:16 UTC
+**Latest version:** `10.2.0_3889342live` · built 2026-10-15 20:19 UTC
 
-[What changed](versions/10.2.1_3889339live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/10.2.0_3889342live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **6** modified · **0** removed, compared with `10.2.1_3887831live`.
+**3** added · **4** modified · **0** removed, compared with `10.2.1_3889339live`.
 
-- ~ [`catalog.json`](versions/10.2.1_3889339live/diffs/catalog.json.diff)
-- ~ [`challengeLocs/challengeText_es-MX.json`](versions/10.2.1_3889339live/diffs/challengeLocs/challengeText_es-MX.json.diff)
-- ~ [`challengeLocs/challengeText_es.json`](versions/10.2.1_3889339live/diffs/challengeLocs/challengeText_es.json.diff)
-- ~ [`challengeLocs/challengeText_it.json`](versions/10.2.1_3889339live/diffs/challengeLocs/challengeText_it.json.diff)
-- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/10.2.1_3889339live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.1_3889339live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`catalog.json`](versions/10.2.0_3889342live/diffs/catalog.json.diff)
+- ~ [`dlcList.json`](versions/10.2.0_3889342live/diffs/dlcList.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.0_3889342live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/10.2.0_3889342live/diffs/recommendations.json.diff)
+- \+ [`images/T_UI_CollectionBanner_NieR.png`](versions/10.2.0_3889342live/images/T_UI_CollectionBanner_NieR.png)
+- \+ [`images/T_UI_SpecialPack_NieR.png`](versions/10.2.0_3889342live/images/T_UI_SpecialPack_NieR.png)
+- \+ [`images/T_UI_SpecialPack_Rift7.png`](versions/10.2.0_3889342live/images/T_UI_SpecialPack_Rift7.png)
 
 ## Coming up
 
@@ -43,7 +44,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-599 versions tracked so far.
+600 versions tracked so far.
 
 ---
 

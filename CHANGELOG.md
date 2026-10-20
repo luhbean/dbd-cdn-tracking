@@ -2,6 +2,14 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.2.3_2869679live](versions/9.2.3_2869679live/CHANGES.md)
+
+Built 2025-11-18 15:54 UTC · **+1** added · **~2** modified · **−0** removed
+
+- ~ [`collections.json`](versions/9.2.3_2869679live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.2.3_2869679live/diffs/dynamicContent/DynamicContent.json.diff)
+- \+ [`images/T_UI_SpecialPack_StrangerThings_Collection.png`](versions/9.2.3_2869679live/images/T_UI_SpecialPack_StrangerThings_Collection.png)
+
 ## [9.2.3_2869495live](versions/9.2.3_2869495live/CHANGES.md)
 
 Built 2025-11-18 13:27 UTC · **+8** added · **~29** modified · **−0** removed

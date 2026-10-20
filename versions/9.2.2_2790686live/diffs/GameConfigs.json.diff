@@ -1,0 +1,28 @@
+--- a/GameConfigs.json
++++ b/GameConfigs.json
+@@ -6,8 +6,6 @@
+     "minimumMatchTime": 120
+   },
+   "analytics": {
+-    "EnableAnalyticErrorIncludesRuleIds": false,
+-    "EnableAnalyticFailureBlockIIS": false,
+     "autoflushFrequency": 60,
+     "autoflushInGameFrequency": 3600,
+     "detailedScoreTypeBlacklist": [
+@@ -235,10 +233,16 @@
+     "detailedScoreTypeWhitelist": [
+       "*"
+     ],
++    "enableAnalyticErrorIncludesRuleIds": false,
++    "enableAnalyticFailureBlockIIS": false,
+     "gameConsoleLogMinimumVerbosity": "NoLogging",
+     "gameInitVerbose": true,
+     "maxFramesUntilSend": 1000,
+     "maxTrackedRecurrences": 5,
++    "minCountValuesForRules": [
++      "KA:40",
++      "KL:40"
++    ],
+     "performanceContextWhitelist": [
+       "InGame",
+       "OnlineLobby"

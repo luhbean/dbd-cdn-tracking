@@ -1,0 +1,5618 @@
+--- a/challengeSets.json
++++ b/challengeSets.json
+@@ -1,1192 +1,4 @@
+ {
+-  "CalamariMaple": {
+-    "additionalInfoStringId": "CHALLENGESET_CalamariLasagna_INFO",
+-    "challengeList": [
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteModeQuests_DESC",
+-            "id": "CalamariMaple-List_1-O_CompleteModeQuests1",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "CalamariMaple"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteModeQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "NA_BDG_03",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2025-11-06T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeQuests_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_CompleteModeQuests_DESC",
+-            "id": "CalamariMaple-List_1-O_CompleteModeQuests2",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "CalamariMaple"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  6
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteModeQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "NA_011",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2025-11-06T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeQuests_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_CompleteModeQuests_DESC",
+-            "id": "CalamariMaple-List_1-O_CompleteModeQuests3",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "CalamariMaple"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  9
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteModeQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "NA_BNR_02",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2025-11-06T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeQuests_TITLE",
+-            "type": "overarching"
+-          }
+-        ],
+-        "endDate": "2025-11-20T16:00:00",
+-        "listId": "CalamariMaple-List_1",
+-        "listOrder": 0,
+-        "listTitleStringId": "LIST_Calamari_TITLE_1",
+-        "startDate": "2025-11-06T16:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteModeTrialOrTrial_DESC",
+-            "id": "CalamariMaple-List_2-D_CompleteModeTrialOrTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlaying": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  6
+-                ],
+-                "objectiveId": "FinishedPlaying",
+-                "objectiveInfo": "CHALLENGE_CompleteTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "FinishedPlayingMode": {
+-                "conditions": [
+-                  {
+-                    "key": "gameTypes",
+-                    "value": [
+-                      "Calamari"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "FinishedPlayingMode",
+-                "objectiveInfo": "CHALLENGE_CompleteModeTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingMode",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-06T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeTrialOrTrial_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_PlayAsCharacterOrClass_",
+-            "id": "CalamariMaple-List_2-D_PlayAsCharacterOrClass",
+-            "isRecurring": false,
+-            "objectives": {
+-              "PlayAsCharacterInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "K37"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "PlayAsCharacterInTrial",
+-                "objectiveInfo": "CHALLENGE_PlayAsCharacter_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PlayAsClass": {
+-                "conditions": [
+-                  {
+-                    "key": "class",
+-                    "value": [
+-                      "Tactician"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "PlayAsClass",
+-                "objectiveInfo": "CHALLENGE_PlayAsClass_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "class"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingSurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-06T16:00:00",
+-            "titleStringId": "CHALLENGE_PlayAsCharacterOrClass_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_ChaseOrBeChased_DESC",
+-            "id": "CalamariMaple-List_2-D_ChaseOrBeChased",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Chase": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  500
+-                ],
+-                "objectiveId": "Chase",
+-                "objectiveInfo": "CHALLENGE_Chase_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Time",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;target:other",
+-                    "questEventId": "QuestEvent.Chase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "ChasedByKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  150
+-                ],
+-                "objectiveId": "ChasedByKiller",
+-                "objectiveInfo": "CHALLENGE_BeChased_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Time",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "target:me;instigator:other",
+-                    "questEventId": "QuestEvent.ChasedByOrChase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-06T16:00:00",
+-            "titleStringId": "CHALLENGE_ChaseOrBeChased_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_HitOrHeal_DESC",
+-            "id": "CalamariMaple-List_2-D_HitOrHeal",
+-            "isRecurring": false,
+-            "objectives": {
+-              "HealPerc": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1000
+-                ],
+-                "objectiveId": "HealPerc",
+-                "objectiveInfo": "CHALLENGE_Heal_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Percentage",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Heal",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "Hit": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  50
+-                ],
+-                "objectiveId": "Hit",
+-                "objectiveInfo": "CHALLENGE_Hit_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Hit",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-06T16:00:00",
+-            "titleStringId": "CHALLENGE_HitOrHeal_TITLE",
+-            "type": "dual"
+-          }
+-        ],
+-        "endDate": "2025-11-20T16:00:00",
+-        "listId": "CalamariMaple-List_2",
+-        "listOrder": 1,
+-        "listTitleStringId": "LIST_Calamari_TITLE_2",
+-        "startDate": "2025-11-06T16:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteModeTrialOrTrial_DESC",
+-            "id": "CalamariMaple-List_3-D_CompleteModeTrialOrTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlaying": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  12
+-                ],
+-                "objectiveId": "FinishedPlaying",
+-                "objectiveInfo": "CHALLENGE_CompleteTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "FinishedPlayingMode": {
+-                "conditions": [
+-                  {
+-                    "key": "gameTypes",
+-                    "value": [
+-                      "Calamari"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  6
+-                ],
+-                "objectiveId": "FinishedPlayingMode",
+-                "objectiveInfo": "CHALLENGE_CompleteModeTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingMode",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-10T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeTrialOrTrial_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_PlayAsCharacterOrClass_",
+-            "id": "CalamariMaple-List_3-D_PlayAsCharacterOrClass",
+-            "isRecurring": false,
+-            "objectives": {
+-              "PlayAsCharacterInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "K20"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "PlayAsCharacterInTrial",
+-                "objectiveInfo": "CHALLENGE_PlayAsCharacter_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PlayAsClass": {
+-                "conditions": [
+-                  {
+-                    "key": "class",
+-                    "value": [
+-                      "Scout"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "PlayAsClass",
+-                "objectiveInfo": "CHALLENGE_PlayAsClass_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "class"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingSurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-10T16:00:00",
+-            "titleStringId": "CHALLENGE_PlayAsCharacterOrClass_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_BreakPalletsOrPalletDropInChase_DESC",
+-            "id": "CalamariMaple-List_3-D_BreakPalletsOrPalletDropInChase",
+-            "isRecurring": false,
+-            "objectives": {
+-              "BreakPallets": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "BreakPallets",
+-                "objectiveInfo": "CHALLENGE_BreakPallets_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakPallets",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PalletDropInChase": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "PalletDropInChase",
+-                "objectiveInfo": "CHALLENGE_PalletDropInChase_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.PalletDropInChase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-10T16:00:00",
+-            "titleStringId": "CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_MoriOrEscape_DESC",
+-            "id": "CalamariMaple-List_3-D_MoriOrEscape",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Escape": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "Escape",
+-                "objectiveInfo": "CHALLENGE_Escape_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Escape",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "Mori": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "Mori",
+-                "objectiveInfo": "CHALLENGE_Mori_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Mori",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-10T16:00:00",
+-            "titleStringId": "CHALLENGE_MoriOrEscape_TITLE",
+-            "type": "dual"
+-          }
+-        ],
+-        "endDate": "2025-11-20T16:00:00",
+-        "listId": "CalamariMaple-List_3",
+-        "listOrder": 2,
+-        "listTitleStringId": "LIST_Calamari_TITLE_3",
+-        "startDate": "2025-11-10T16:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteModeTrialOrTrial_DESC",
+-            "id": "CalamariMaple-List_4-D_CompleteModeTrialOrTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlaying": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  18
+-                ],
+-                "objectiveId": "FinishedPlaying",
+-                "objectiveInfo": "CHALLENGE_CompleteTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "FinishedPlayingMode": {
+-                "conditions": [
+-                  {
+-                    "key": "gameTypes",
+-                    "value": [
+-                      "Calamari"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  9
+-                ],
+-                "objectiveId": "FinishedPlayingMode",
+-                "objectiveInfo": "CHALLENGE_CompleteModeTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingMode",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-14T16:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeTrialOrTrial_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_PlayAsKillerClassOrSurvivorClass_DESC",
+-            "id": "CalamariMaple-List_4-D_PlayAsKillerClassOrSurvivorClass",
+-            "isRecurring": false,
+-            "objectives": {
+-              "PlayAsClassKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "class",
+-                    "value": [
+-                      "Phantom"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "PlayAsClassKiller",
+-                "objectiveInfo": "CHALLENGE_PlayAsClass_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "class"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PlayAsClassSurvivor": {
+-                "conditions": [
+-                  {
+-                    "key": "class",
+-                    "value": [
+-                      "Survivalist"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "PlayAsClassSurvivor",
+-                "objectiveInfo": "CHALLENGE_PlayAsClass_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "class"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlayingSurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-14T16:00:00",
+-            "titleStringId": "CHALLENGE_PlayAsKillerClassOrSurvivorClass_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_HookOrUnhook_DESC",
+-            "id": "CalamariMaple-List_4-D_HookOrUnhook",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Hook": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "Hook",
+-                "objectiveInfo": "CHALLENGE_Hook_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Hook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "Unhook": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10
+-                ],
+-                "objectiveId": "Unhook",
+-                "objectiveInfo": "CHALLENGE_Unhook_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Unhook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-14T16:00:00",
+-            "titleStringId": "CHALLENGE_HookOrUnhook_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_BreakGenOrGenSkillCheck_DESC",
+-            "id": "CalamariMaple-List_4-D_BreakGenOrGenSkillCheck",
+-            "isRecurring": false,
+-            "objectives": {
+-              "BreakGens": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  15
+-                ],
+-                "objectiveId": "BreakGens",
+-                "objectiveInfo": "CHALLENGE_BreakGen_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakGens",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "GenSkillCheckGreatSuccessInTrialWithPerk": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  25
+-                ],
+-                "objectiveId": "GenSkillCheckGreatSuccessInTrialWithPerk",
+-                "objectiveInfo": "CHALLENGE_GenSkillCheck_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.GeneratorSkillCheckSuccess",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 50,
+-            "startDate": "2025-11-14T16:00:00",
+-            "titleStringId": "CHALLENGE_BreakGenOrGenSkillCheck_TITLE",
+-            "type": "dual"
+-          }
+-        ],
+-        "endDate": "2025-11-20T16:00:00",
+-        "listId": "CalamariMaple-List_4",
+-        "listOrder": 3,
+-        "listTitleStringId": "LIST_Calamari_TITLE_4",
+-        "startDate": "2025-11-14T16:00:00"
+-      }
+-    ],
+-    "endDate": "2025-11-20T16:00:00",
+-    "eventID": "CalamariV6",
+-    "mask": 0,
+-    "startDate": "2025-11-06T16:00:00",
+-    "tabOrder": 2,
+-    "tabTitleStringId": "CHALLENGESET_CalamariLasagna_TITLE",
+-    "titleLocalizationText": {
+-      "de": "2V8",
+-      "en": "2V8",
+-      "es": "2V8",
+-      "es-MX": "2V8",
+-      "fr": "2V8",
+-      "it": "2V8",
+-      "ja": "2対8",
+-      "ko": "2V8",
+-      "pl": "2 na 8",
+-      "pt-BR": "2V8",
+-      "ru": "2 против 8",
+-      "th": "2V8",
+-      "tr": "2'ye 8",
+-      "zh-Hans": "2V8",
+-      "zh-Hant": "2v8模式"
+-    },
+-    "type": "Event",
+-    "uiAssets": {}
+-  },
+   "Daily_Set": {
+     "additionalInfoStringId": "CHALLENGESET_Daily_INFO",
+     "challengeList": [
+@@ -2880,7 +1692,7 @@
+                 "isCommunityObjective": false,
+                 "maxProgressionPerPlayer": -1,
+                 "neededProgression": [
+-                  20
++                  18
+                 ],
+                 "objectiveId": "Overarching",
+                 "objectiveInfo": "CHALLENGE_CompleteModeQuests_INFO",
+@@ -3131,7 +1943,7 @@
+                 "isCommunityObjective": false,
+                 "maxProgressionPerPlayer": -1,
+                 "neededProgression": [
+-                  15
++                  4
+                 ],
+                 "objectiveId": "Hook",
+                 "objectiveInfo": "CHALLENGE_HookInVoidMap_INFO",
+@@ -4284,1178 +3096,6 @@
+     "type": "Event",
+     "uiAssets": {}
+   },
+-  "Milestone_02_Set": {
+-    "additionalInfoStringId": "CHALLENGESET_Milestone_INFO",
+-    "challengeList": [
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteTrial_DESC",
+-            "id": "Milestone_02_Set-Milestone-M_CompleteTrial",
+-            "isRecurring": false,
+-            "milestoneRewardList": [
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 10000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 20000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 30000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 40000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 50000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 60000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 70000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 80000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 90000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 100000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              }
+-            ],
+-            "objectives": {
+-              "FinishedPlaying": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10,
+-                  30,
+-                  60,
+-                  100,
+-                  150,
+-                  210,
+-                  280,
+-                  360,
+-                  450,
+-                  550
+-                ],
+-                "objectiveId": "FinishedPlaying",
+-                "objectiveInfo": "CHALLENGE_CompleteTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteTrial_TITLE",
+-            "type": "milestone"
+-          },
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_Hook_DESC",
+-            "id": "Milestone_02_Set-Milestone-M_Hook",
+-            "isRecurring": false,
+-            "milestoneRewardList": [
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 10000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 20000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 30000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 40000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 50000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 60000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 70000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 80000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 90000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 100000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              }
+-            ],
+-            "objectives": {
+-              "Hook": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  50,
+-                  150,
+-                  300,
+-                  500,
+-                  750,
+-                  1050,
+-                  1400,
+-                  1800,
+-                  2250,
+-                  2750
+-                ],
+-                "objectiveId": "Hook",
+-                "objectiveInfo": "CHALLENGE_Hook_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Hook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_Hook_TITLE",
+-            "type": "milestone"
+-          },
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_Kill_DESC",
+-            "id": "Milestone_02_Set-Milestone-M_Kill",
+-            "isRecurring": false,
+-            "milestoneRewardList": [
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 10000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 20000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 30000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 40000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 50000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 60000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 70000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 80000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 90000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 100000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              }
+-            ],
+-            "objectives": {
+-              "Kill": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10,
+-                  30,
+-                  60,
+-                  100,
+-                  150,
+-                  210,
+-                  280,
+-                  360,
+-                  450,
+-                  550
+-                ],
+-                "objectiveId": "Kill",
+-                "objectiveInfo": "CHALLENGE_Kill_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Kill",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_Kill_TITLE",
+-            "type": "milestone"
+-          },
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_BreakGen_DESC",
+-            "id": "Milestone_02_Set-Milestone-M_BreakGen",
+-            "isRecurring": false,
+-            "milestoneRewardList": [
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 10000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 20000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 30000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 40000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 50000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 60000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 70000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 80000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 90000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 100000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              }
+-            ],
+-            "objectives": {
+-              "BreakGens": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  25,
+-                  75,
+-                  150,
+-                  250,
+-                  375,
+-                  525,
+-                  700,
+-                  900,
+-                  1125,
+-                  1375
+-                ],
+-                "objectiveId": "BreakGens",
+-                "objectiveInfo": "CHALLENGE_BreakGen_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakGens",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_BreakGen_TITLE",
+-            "type": "milestone"
+-          },
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_Repair_DESC",
+-            "id": "Milestone_02_Set-Milestone-M_Repair",
+-            "isRecurring": false,
+-            "milestoneRewardList": [
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 10000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 20000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 30000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 40000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 50000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 60000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 70000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 80000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 90000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 100000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              }
+-            ],
+-            "objectives": {
+-              "RepairPerc": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1000,
+-                  3000,
+-                  6000,
+-                  10000,
+-                  15000,
+-                  21000,
+-                  28000,
+-                  36000,
+-                  45000,
+-                  55000
+-                ],
+-                "objectiveId": "RepairPerc",
+-                "objectiveInfo": "CHALLENGE_Repair_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Percentage",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Repair",
+-                    "repetition": 100
+-                  }
+-                ]
+-              }
+-            },
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_Repair_TITLE",
+-            "type": "milestone"
+-          },
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_Heal_DESC",
+-            "id": "Milestone_02_Set-Milestone-M_Heal",
+-            "isRecurring": false,
+-            "milestoneRewardList": [
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 10000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 20000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 30000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 40000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 50000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 60000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 70000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 80000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 90000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 100000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              }
+-            ],
+-            "objectives": {
+-              "HealPerc": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1000,
+-                  3000,
+-                  6000,
+-                  10000,
+-                  15000,
+-                  21000,
+-                  28000,
+-                  36000,
+-                  45000,
+-                  55000
+-                ],
+-                "objectiveId": "HealPerc",
+-                "objectiveInfo": "CHALLENGE_Heal_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Percentage",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Heal",
+-                    "repetition": 100
+-                  }
+-                ]
+-              }
+-            },
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_Heal_TITLE",
+-            "type": "milestone"
+-          },
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_Escape_DESC",
+-            "id": "Milestone_02_Set-Milestone-M_Escape",
+-            "isRecurring": false,
+-            "milestoneRewardList": [
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 10000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 20000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 30000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 40000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 50000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 60000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 70000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 80000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 90000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              },
+-              {
+-                "rewardPoints": 0,
+-                "rewards": [
+-                  {
+-                    "amount": 100000,
+-                    "id": "BonusBloodpoints",
+-                    "type": "currency"
+-                  }
+-                ],
+-                "riftPoints": 25
+-              }
+-            ],
+-            "objectives": {
+-              "Escape": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  2,
+-                  6,
+-                  12,
+-                  20,
+-                  30,
+-                  42,
+-                  56,
+-                  72,
+-                  90,
+-                  110
+-                ],
+-                "objectiveId": "Escape",
+-                "objectiveInfo": "CHALLENGE_Escape_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Escape",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_Escape_TITLE",
+-            "type": "milestone"
+-          }
+-        ],
+-        "endDate": "2025-10-07T15:00:00",
+-        "listId": "Milestone_02_Set-Milestone",
+-        "listOrder": 0,
+-        "listTitleStringId": "LIST_Milestone_TITLE",
+-        "startDate": "2025-07-29T15:00:00"
+-      }
+-    ],
+-    "endDate": "2025-10-07T15:00:00",
+-    "mask": 0,
+-    "startDate": "2025-07-29T15:00:00",
+-    "tabOrder": 2,
+-    "tabTitleStringId": "CHALLENGESET_Milestone_TITLE",
+-    "titleLocalizationText": {
+-      "de": "Meilenstein",
+-      "en": "Milestone",
+-      "es": "Hito",
+-      "es-MX": "Hito",
+-      "fr": "Palier",
+-      "it": "Traguardo",
+-      "ja": "マイルストーン",
+-      "ko": "마일스톤",
+-      "pl": "Etap",
+-      "pt-BR": "Meta",
+-      "ru": "Этап",
+-      "th": "หมุดหมาย",
+-      "tr": "Kilometre Taşı",
+-      "zh-Hans": "里程碑",
+-      "zh-Hant": "里程碑"
+-    },
+-    "type": "Milestone",
+-    "uiAssets": {}
+-  },
+   "Milestone_03_Set": {
+     "additionalInfoStringId": "CHALLENGESET_Milestone_INFO",
+     "challengeList": [
+@@ -8441,3225 +6081,6 @@
+       "zh-Hant": "進入迷霧"
+     },
+     "type": "Onboarding",
+-    "uiAssets": {}
+-  },
+-  "Rift_02_QuestSet": {
+-    "additionalInfoStringId": "CHALLENGESET_BattlePass_INFO",
+-    "challengeList": [
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteChallenges_DESC",
+-            "id": "Rift_02_QuestSet-Week_1-O_CompleteChallenges",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeListId",
+-                    "value": [
+-                      "Rift_02_QuestSet-Week_1"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteChallenges_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 75,
+-                "id": "Shards",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteChallenges_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_CompleteTrial_DESC",
+-            "id": "Rift_02_QuestSet-Week_1-B_CompleteTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlaying": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "FinishedPlaying",
+-                "objectiveInfo": "CHALLENGE_CompleteTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteTrial_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_Crow_DESC",
+-            "id": "Rift_02_QuestSet-Week_1-B_Crow",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Crow": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  50
+-                ],
+-                "objectiveId": "Crow",
+-                "objectiveInfo": "CHALLENGE_Crow_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Crow",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_Crow_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_GrabSurvivor_DESC",
+-            "id": "Rift_02_QuestSet-Week_1-B_GrabSurvivor",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Grab": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "Grab",
+-                "objectiveInfo": "CHALLENGE_GrabSurvivor_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Grab",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_GrabSurvivor_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 4,
+-            "descriptionStringId": "CHALLENGE_OpenChests_DESC",
+-            "id": "Rift_02_QuestSet-Week_1-B_OpenChests",
+-            "isRecurring": false,
+-            "objectives": {
+-              "WinterChestOpen": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "WinterChestOpen",
+-                "objectiveInfo": "CHALLENGE_OpenChests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.OpenChest",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_OpenChests_TITLE",
+-            "type": "basic"
+-          }
+-        ],
+-        "endDate": "2025-10-07T14:59:59",
+-        "listId": "Rift_02_QuestSet-Week_1",
+-        "listOrder": 1,
+-        "listTitleStringId": "LIST_BattlePass_TITLE_1",
+-        "startDate": "2025-07-29T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteChallenges_DESC",
+-            "id": "Rift_02_QuestSet-Week_2-O_CompleteChallenges",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeListId",
+-                    "value": [
+-                      "Rift_02_QuestSet-Week_2"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteChallenges_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 75,
+-                "id": "Shards",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-05T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteChallenges_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_EarnGatekeeperOrLightbringerGold_DESC",
+-            "id": "Rift_02_QuestSet-Week_2-D_EarnGatekeeperOrLightbringerGold",
+-            "isRecurring": false,
+-            "objectives": {
+-              "EarnEmblemsGatekeeperGold": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "EarnEmblemsGatekeeperGold",
+-                "objectiveInfo": "CHALLENGE_EarnGatekeeperGold_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Killer_Gatekeeper;EmblemQuality:Gold",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualityKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "EarnEmblemsLightbringerGold": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "EarnEmblemsLightbringerGold",
+-                "objectiveInfo": "CHALLENGE_EarnLightbringerGold_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Survivor_Lightbringer;EmblemQuality:Gold",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualitySurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-05T15:00:00",
+-            "titleStringId": "CHALLENGE_EarnGatekeeperOrLightbringerGold_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_FinishNoGateEscapeOrEscape_DESC",
+-            "id": "Rift_02_QuestSet-Week_2-D_FinishNoGateEscapenOrEscape",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Escape": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "Escape",
+-                "objectiveInfo": "CHALLENGE_Escape_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Escape",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "FinishPreventGateEscapeInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "FinishPreventGateEscapeInTrial",
+-                "objectiveInfo": "CHALLENGE_FinishNoGateEscape_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishPreventGateEscape",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-05T15:00:00",
+-            "titleStringId": "CHALLENGE_FinishNoGateEscapeOrEscape_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_BreakGen_DESC",
+-            "id": "Rift_02_QuestSet-Week_2-B_BreakGen",
+-            "isRecurring": false,
+-            "objectives": {
+-              "BreakGens": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  30
+-                ],
+-                "objectiveId": "BreakGens",
+-                "objectiveInfo": "CHALLENGE_BreakGen_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakGens",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-05T15:00:00",
+-            "titleStringId": "CHALLENGE_BreakGen_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 4,
+-            "descriptionStringId": "CHALLENGE_Repair_DESC",
+-            "id": "Rift_02_QuestSet-Week_2-B_Repair",
+-            "isRecurring": false,
+-            "objectives": {
+-              "RepairPerc": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1000
+-                ],
+-                "objectiveId": "RepairPerc",
+-                "objectiveInfo": "CHALLENGE_Repair_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Percentage",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Repair",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-05T15:00:00",
+-            "titleStringId": "CHALLENGE_Repair_TITLE",
+-            "type": "basic"
+-          }
+-        ],
+-        "endDate": "2025-10-07T15:00:00",
+-        "listId": "Rift_02_QuestSet-Week_2",
+-        "listOrder": 2,
+-        "listTitleStringId": "LIST_BattlePass_TITLE_2",
+-        "startDate": "2025-08-05T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteChallenges_DESC",
+-            "id": "Rift_02_QuestSet-Week_3-O_CompleteChallenges",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeListId",
+-                    "value": [
+-                      "Rift_02_QuestSet-Week_3"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteChallenges_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 75,
+-                "id": "Shards",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-12T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteChallenges_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_EarnChaserOrEvaderGold_DESC",
+-            "id": "Rift_02_QuestSet-Week_3-D_EarnChaserOrEvaderGold",
+-            "isRecurring": false,
+-            "objectives": {
+-              "EarnEmblemsChaserGold": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "EarnEmblemsChaserGold",
+-                "objectiveInfo": "CHALLENGE_EarnChaserGold_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Killer_Chaser;EmblemQuality:Gold",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualityKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "EarnEmblemsEvaderGold": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "EarnEmblemsEvaderGold",
+-                "objectiveInfo": "CHALLENGE_EarnEvaderGold_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Survivor_Evader;EmblemQuality:Gold",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualitySurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-12T15:00:00",
+-            "titleStringId": "CHALLENGE_EarnChaserOrEvaderGold_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_BreakPalletsOrPalletDropInChase_DESC",
+-            "id": "Rift_02_QuestSet-Week_3-D_BreakPalletsOrPalletDropInChase",
+-            "isRecurring": false,
+-            "objectives": {
+-              "BreakPallets": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "BreakPallets",
+-                "objectiveInfo": "CHALLENGE_BreakPallets_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakPallets",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PalletDropInChase": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "PalletDropInChase",
+-                "objectiveInfo": "CHALLENGE_PalletDropInChase_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.PalletDropInChase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-12T15:00:00",
+-            "titleStringId": "CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_Chase_DESC",
+-            "id": "Rift_02_QuestSet-Week_3-B_Chase",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Chase": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  800
+-                ],
+-                "objectiveId": "Chase",
+-                "objectiveInfo": "CHALLENGE_Chase_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Time",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;target:other",
+-                    "questEventId": "QuestEvent.Chase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-12T15:00:00",
+-            "titleStringId": "CHALLENGE_Chase_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 4,
+-            "descriptionStringId": "CHALLENGE_BeChased_DESC",
+-            "id": "Rift_02_QuestSet-Week_3-B_BeChased",
+-            "isRecurring": false,
+-            "objectives": {
+-              "ChasedByKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  200
+-                ],
+-                "objectiveId": "ChasedByKiller",
+-                "objectiveInfo": "CHALLENGE_BeChased_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Time",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:other;target:me",
+-                    "questEventId": "QuestEvent.ChasedByOrChase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-12T15:00:00",
+-            "titleStringId": "CHALLENGE_BeChased_TITLE",
+-            "type": "basic"
+-          }
+-        ],
+-        "endDate": "2025-10-07T15:00:00",
+-        "listId": "Rift_02_QuestSet-Week_3",
+-        "listOrder": 3,
+-        "listTitleStringId": "LIST_BattlePass_TITLE_3",
+-        "startDate": "2025-08-12T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteChallenges_DESC",
+-            "id": "Rift_02_QuestSet-Week_4-O_CompleteChallenges",
+-            "isRecurring": true,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeListId",
+-                    "value": [
+-                      "Rift_02_QuestSet-Week_4"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteChallenges_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 75,
+-                "id": "Shards",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-19T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteChallenges_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_EarnDevoutOrUnbrokenGold_DESC",
+-            "id": "Rift_02_QuestSet-Week_4-D_EarnDevoutOrUnbrokenGold",
+-            "isRecurring": false,
+-            "objectives": {
+-              "EarnEmblemsDevoutGold": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "EarnEmblemsDevoutGold",
+-                "objectiveInfo": "CHALLENGE_EarnDevoutGold_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Killer_Devout;EmblemQuality:Gold",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualityKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "EarnEmblemsUnbrokenGold": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "EarnEmblemsUnbrokenGold",
+-                "objectiveInfo": "CHALLENGE_EarnUnbrokenGold_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Survivor_Unbroken;EmblemQuality:Gold",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualitySurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-19T15:00:00",
+-            "titleStringId": "CHALLENGE_EarnDevoutOrUnbrokenGold_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_MoriOrPalletStun_DESC",
+-            "id": "Rift_02_QuestSet-Week_4-D_MoriOrPalletStun",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Mori": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "Mori",
+-                "objectiveInfo": "CHALLENGE_Mori_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Mori",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PalletStun": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "PalletStun",
+-                "objectiveInfo": "CHALLENGE_PalletStun_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.PalletStun",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-19T15:00:00",
+-            "titleStringId": "CHALLENGE_MoriOrPalletStun_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_Sacrifice_DESC",
+-            "id": "Rift_02_QuestSet-Week_4-B_Sacrifice",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Sacrifice": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10
+-                ],
+-                "objectiveId": "Sacrifice",
+-                "objectiveInfo": "CHALLENGE_Sacrifice_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Sacrifice",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-19T15:00:00",
+-            "titleStringId": "CHALLENGE_Sacrifice_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 4,
+-            "descriptionStringId": "CHALLENGE_HideInTerrorRadius_DESC",
+-            "id": "Rift_02_QuestSet-Week_4-B_HideInTerrorRadius",
+-            "isRecurring": false,
+-            "objectives": {
+-              "HideInTerrorRadius": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  300
+-                ],
+-                "objectiveId": "HideInTerrorRadius",
+-                "objectiveInfo": "CHALLENGE_HideInTerrorRadius_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Time",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.HideInTerrorRadius",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "Bloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-19T15:00:00",
+-            "titleStringId": "CHALLENGE_HideInTerrorRadius_TITLE",
+-            "type": "basic"
+-          }
+-        ],
+-        "endDate": "2025-10-07T15:00:00",
+-        "listId": "Rift_02_QuestSet-Week_4",
+-        "listOrder": 4,
+-        "listTitleStringId": "LIST_BattlePass_TITLE_4",
+-        "startDate": "2025-08-19T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteChallenges_DESC",
+-            "id": "Rift_02_QuestSet-Week_5-O_CompleteChallenges",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeListId",
+-                    "value": [
+-                      "Rift_02_QuestSet-Week_5"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteChallenges_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 75,
+-                "id": "Shards",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-26T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteChallenges_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_EarnMaliciousOrBenevolentGold_DESC",
+-            "id": "Rift_02_QuestSet-Week_5-D_EarnMaliciousOrBenevolentGold",
+-            "isRecurring": false,
+-            "objectives": {
+-              "EarnEmblemsBenevolentGold": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "EarnEmblemsBenevolentGold",
+-                "objectiveInfo": "CHALLENGE_EarnBenevolentGold_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Survivor_Benevolent;EmblemQuality:Gold",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualitySurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "EarnEmblemsMaliciousGold": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "EarnEmblemsMaliciousGold",
+-                "objectiveInfo": "CHALLENGE_EarnMaliciousGold_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Killer_Malicious;EmblemQuality:Gold",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualityKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-26T15:00:00",
+-            "titleStringId": "CHALLENGE_EarnMaliciousOrBenevolentGold_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_DownOrSucceedHealSkillCheck_DESC",
+-            "id": "Rift_02_QuestSet-Week_5-D_DownOrSucceedHealSkillCheck",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Down": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  30
+-                ],
+-                "objectiveId": "Down",
+-                "objectiveInfo": "CHALLENGE_Down_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Down",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "SkillCheckHealingSuccess": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10
+-                ],
+-                "objectiveId": "SkillCheckHealingSuccess",
+-                "objectiveInfo": "CHALLENGE_SucceedHealSkillCheck_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.SkillCheckHealingSuccess",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-26T15:00:00",
+-            "titleStringId": "CHALLENGE_DownOrSucceedHealSkillCheck_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_Hit_DESC",
+-            "id": "Rift_02_QuestSet-Week_5-B_Hit",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Hit": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  100
+-                ],
+-                "objectiveId": "Hit",
+-                "objectiveInfo": "CHALLENGE_Hit_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Hit",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-26T15:00:00",
+-            "titleStringId": "CHALLENGE_Hit_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 4,
+-            "descriptionStringId": "CHALLENGE_Heal_DESC",
+-            "id": "Rift_02_QuestSet-Week_5-B_Heal",
+-            "isRecurring": false,
+-            "objectives": {
+-              "HealPerc": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  800
+-                ],
+-                "objectiveId": "HealPerc",
+-                "objectiveInfo": "CHALLENGE_Heal_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Percentage",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Heal",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-08-26T15:00:00",
+-            "titleStringId": "CHALLENGE_Heal_TITLE",
+-            "type": "basic"
+-          }
+-        ],
+-        "endDate": "2025-10-07T15:00:00",
+-        "listId": "Rift_02_QuestSet-Week_5",
+-        "listOrder": 5,
+-        "listTitleStringId": "LIST_BattlePass_TITLE_5",
+-        "startDate": "2025-08-26T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteChallenges_DESC",
+-            "id": "Rift_02_QuestSet-Week_6-O_CompleteChallenges",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeListId",
+-                    "value": [
+-                      "Rift_02_QuestSet-Week_6"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteChallenges_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 75,
+-                "id": "Shards",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-02T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteChallenges_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_BreakGenOrGenSkillCheck_DESC",
+-            "id": "Rift_02_QuestSet-Week_6-D_BreakGenOrGenSkillCheck",
+-            "isRecurring": false,
+-            "objectives": {
+-              "BreakGens": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "BreakGens",
+-                "objectiveInfo": "CHALLENGE_BreakGen_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakGens",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "GenSkillCheckGreatSuccessInTrialWithPerk": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  30
+-                ],
+-                "objectiveId": "GenSkillCheckGreatSuccessInTrialWithPerk",
+-                "objectiveInfo": "CHALLENGE_GenSkillCheck_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.GeneratorSkillCheckSuccess",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-02T15:00:00",
+-            "titleStringId": "CHALLENGE_BreakGenOrGenSkillCheck_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_CloseHatch_DESC",
+-            "id": "Rift_02_QuestSet-Week_6-B_CloseHatch",
+-            "isRecurring": false,
+-            "objectives": {
+-              "CloseHatch": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "CloseHatch",
+-                "objectiveInfo": "CHALLENGE_CloseHatch_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.CloseHatch",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-02T15:00:00",
+-            "titleStringId": "CHALLENGE_CloseHatch_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 4,
+-            "descriptionStringId": "CHALLENGE_EscapeThroughHatch_DESC",
+-            "id": "Rift_02_QuestSet-Week_6-B_EscapeThroughHatch",
+-            "isRecurring": false,
+-            "objectives": {
+-              "EscapeHatch": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "EscapeHatch",
+-                "objectiveInfo": "CHALLENGE_EscapeThroughHatch_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.EscapeHatch",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-02T15:00:00",
+-            "titleStringId": "CHALLENGE_EscapeThroughHatch_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_CompleteTrial_DESC",
+-            "id": "Rift_02_QuestSet-Week_6-B_CompleteTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlaying": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "FinishedPlaying",
+-                "objectiveInfo": "CHALLENGE_CompleteTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-02T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteTrial_TITLE",
+-            "type": "basic"
+-          }
+-        ],
+-        "endDate": "2025-10-07T15:00:00",
+-        "listId": "Rift_02_QuestSet-Week_6",
+-        "listOrder": 6,
+-        "listTitleStringId": "LIST_BattlePass_TITLE_6",
+-        "startDate": "2025-09-02T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteChallenges_DESC",
+-            "id": "Rift_02_QuestSet-Week_7-O_CompleteChallenges",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeListId",
+-                    "value": [
+-                      "Rift_02_QuestSet-Week_7"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteChallenges_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 75,
+-                "id": "Shards",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-09T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteChallenges_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_EarnGatekeeperOrLightbringerIridescent_DESC",
+-            "id": "Rift_02_QuestSet-Week_7-D_EarnGatekeeperOrLightbringerIridescent",
+-            "isRecurring": false,
+-            "objectives": {
+-              "EarnEmblemsGatekeeperIridescent": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "EarnEmblemsGatekeeperIridescent",
+-                "objectiveInfo": "CHALLENGE_EarnGatekeeperIridescent_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Killer_Gatekeeper;EmblemQuality:Iridescent",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualityKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "EarnEmblemsLightbringerIridescent": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "EarnEmblemsLightbringerIridescent",
+-                "objectiveInfo": "CHALLENGE_EarnLightbringerIridescent_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Survivor_Lightbringer;EmblemQuality:Iridescent",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualitySurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-09T15:00:00",
+-            "titleStringId": "CHALLENGE_EarnGatekeeperOrLightbringerIridescent_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_BreakGenSingleTrial_DESC",
+-            "id": "Rift_02_QuestSet-Week_7-B_BreakGenSingleTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "BreakGensInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": false,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "BreakGensInTrial",
+-                "objectiveInfo": "CHALLENGE_BreakGenSingleTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "repetition"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakGens",
+-                    "repetition": 15
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-09T15:00:00",
+-            "titleStringId": "CHALLENGE_BreakGenSingleTrial_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 4,
+-            "descriptionStringId": "CHALLENGE_GenSkillCheckSingleTrial_DESC",
+-            "id": "Rift_02_QuestSet-Week_7-B_GenSkillCheckSingleTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "GenSkillCheckGreatSuccessInTrialWithPerk": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": false,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "GenSkillCheckGreatSuccessInTrialWithPerk",
+-                "objectiveInfo": "CHALLENGE_GenSkillCheckSingleTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "repetition"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.GeneratorSkillCheckSuccess",
+-                    "repetition": 10
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-09T15:00:00",
+-            "titleStringId": "CHALLENGE_GenSkillCheckSingleTrial_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_FinishNoGateEscapeOrEscape_DESC",
+-            "id": "Rift_02_QuestSet-Week_7-D_FinishNoGateEscapenOrEscape",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Escape": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "Escape",
+-                "objectiveInfo": "CHALLENGE_Escape_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Escape",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "FinishPreventGateEscapeInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "FinishPreventGateEscapeInTrial",
+-                "objectiveInfo": "CHALLENGE_FinishNoGateEscape_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishPreventGateEscape",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-09T15:00:00",
+-            "titleStringId": "CHALLENGE_FinishNoGateEscapeOrEscape_TITLE",
+-            "type": "dual"
+-          }
+-        ],
+-        "endDate": "2025-10-07T15:00:00",
+-        "listId": "Rift_02_QuestSet-Week_7",
+-        "listOrder": 7,
+-        "listTitleStringId": "LIST_BattlePass_TITLE_7",
+-        "startDate": "2025-09-09T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteChallenges_DESC",
+-            "id": "Rift_02_QuestSet-Week_8-O_CompleteChallenges",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeListId",
+-                    "value": [
+-                      "Rift_02_QuestSet-Week_8"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteChallenges_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 75,
+-                "id": "Shards",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-16T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteChallenges_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_EarnChaserOrEvaderIridescent_DESC",
+-            "id": "Rift_02_QuestSet-Week_8-D_EarnChaserOrEvaderIridescent",
+-            "isRecurring": false,
+-            "objectives": {
+-              "EarnEmblemsChaserIridescent": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "EarnEmblemsChaserIridescent",
+-                "objectiveInfo": "CHALLENGE_EarnChaserIridescent_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Killer_Chaser;EmblemQuality:Iridescent",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualityKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "EarnEmblemsEvaderIridescent": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "EarnEmblemsEvaderIridescent",
+-                "objectiveInfo": "CHALLENGE_EarnEvaderIridescent_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Survivor_Evader;EmblemQuality:Iridescent",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualitySurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-16T15:00:00",
+-            "titleStringId": "CHALLENGE_EarnChaserOrEvaderIridescent_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_ChaseSingleTrial_DESC",
+-            "id": "Rift_02_QuestSet-Week_8-B_ChaseSingleTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "ChaseInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": false,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "ChaseInTrial",
+-                "objectiveInfo": "CHALLENGE_ChaseSingleTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "repetition"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;target:other",
+-                    "questEventId": "QuestEvent.Chase",
+-                    "repetition": 120
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-16T15:00:00",
+-            "titleStringId": "CHALLENGE_ChaseSingleTrial_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 4,
+-            "descriptionStringId": "CHALLENGE_BeChasedSingleTrial_DESC",
+-            "id": "Rift_02_QuestSet-Week_8-B_BeChasedSingleTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "ChasedByKillerInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": false,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "ChasedByKillerInTrial",
+-                "objectiveInfo": "CHALLENGE_BeChasedSingleTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "repetition"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Time",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:other;target:me",
+-                    "questEventId": "QuestEvent.ChasedByOrChase",
+-                    "repetition": 30
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-16T15:00:00",
+-            "titleStringId": "CHALLENGE_BeChasedSingleTrial_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_BreakPalletsOrPalletDropInChase_DESC",
+-            "id": "Rift_02_QuestSet-Week_8-D_BreakPalletsOrPalletDropInChase",
+-            "isRecurring": false,
+-            "objectives": {
+-              "BreakPallets": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  20
+-                ],
+-                "objectiveId": "BreakPallets",
+-                "objectiveInfo": "CHALLENGE_BreakPallets_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.BreakPallets",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PalletDropInChase": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "PalletDropInChase",
+-                "objectiveInfo": "CHALLENGE_PalletDropInChase_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.PalletDropInChase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-16T15:00:00",
+-            "titleStringId": "CHALLENGE_BreakPalletsOrPalletDropInChase_TITLE",
+-            "type": "dual"
+-          }
+-        ],
+-        "endDate": "2025-10-07T15:00:00",
+-        "listId": "Rift_02_QuestSet-Week_8",
+-        "listOrder": 8,
+-        "listTitleStringId": "LIST_BattlePass_TITLE_8",
+-        "startDate": "2025-09-16T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteChallenges_DESC",
+-            "id": "Rift_02_QuestSet-Week_9-O_CompleteChallenges",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeListId",
+-                    "value": [
+-                      "Rift_02_QuestSet-Week_9"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteChallenges_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 75,
+-                "id": "Shards",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-23T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteChallenges_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_EarnDevoutOrUnbrokenIridescent_DESC",
+-            "id": "Rift_02_QuestSet-Week_9-D_EarnDevoutOrUnbrokenIridescent",
+-            "isRecurring": false,
+-            "objectives": {
+-              "EarnEmblemsDevoutIridescent": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "EarnEmblemsDevoutIridescent",
+-                "objectiveInfo": "CHALLENGE_EarnDevoutIridescent_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Killer_Devout;EmblemQuality:Iridescent",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualityKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "EarnEmblemsUnbrokenIridescent": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "EarnEmblemsUnbrokenIridescent",
+-                "objectiveInfo": "CHALLENGE_EarnUnbrokenIridescent_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Survivor_Unbroken;EmblemQuality:Iridescent",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualitySurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-23T15:00:00",
+-            "titleStringId": "CHALLENGE_EarnDevoutOrUnbrokenIridescent_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_HookDiffSingleTrial_DESC",
+-            "id": "Rift_02_QuestSet-Week_9-B_HookDiffOneTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "HookDifferentInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": false,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "HookDifferentInTrial",
+-                "objectiveInfo": "CHALLENGE_HookDiffOneTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "repetition"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.HookDifferent",
+-                    "repetition": 4
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-23T15:00:00",
+-            "titleStringId": "CHALLENGE_HookDiffSingleTrial_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 4,
+-            "descriptionStringId": "CHALLENGE_SabotageHook_DESC",
+-            "id": "Rift_02_QuestSet-Week_9-B_SabotageHook",
+-            "isRecurring": false,
+-            "objectives": {
+-              "SabotageFinish": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "SabotageFinish",
+-                "objectiveInfo": "CHALLENGE_SabotageHook_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.SabotageFinish",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-23T15:00:00",
+-            "titleStringId": "CHALLENGE_SabotageHook_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_MoriOrPalletStun_DESC",
+-            "id": "Rift_02_QuestSet-Week_9-D_MoriOrPalletStun",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Mori": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "Mori",
+-                "objectiveInfo": "CHALLENGE_Mori_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Mori",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "PalletStun": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "PalletStun",
+-                "objectiveInfo": "CHALLENGE_PalletStun_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.PalletStun",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-23T15:00:00",
+-            "titleStringId": "CHALLENGE_MoriOrPalletStun_TITLE",
+-            "type": "dual"
+-          }
+-        ],
+-        "endDate": "2025-10-07T15:00:00",
+-        "listId": "Rift_02_QuestSet-Week_9",
+-        "listOrder": 9,
+-        "listTitleStringId": "LIST_BattlePass_TITLE_9",
+-        "startDate": "2025-09-23T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteChallenges_DESC",
+-            "id": "Rift_02_QuestSet-Week_10-O_CompleteChallenges",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeListId",
+-                    "value": [
+-                      "Rift_02_QuestSet-Week_10"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteChallenges_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 75,
+-                "id": "Shards",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-30T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteChallenges_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_EarnMaliciousOrBenevolentIridescent_DESC",
+-            "id": "Rift_02_QuestSet-Week_10-D_EarnMaliciousOrBenevolentIridescent",
+-            "isRecurring": false,
+-            "objectives": {
+-              "EarnEmblemsBenevolentIridescent": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "EarnEmblemsBenevolentIridescent",
+-                "objectiveInfo": "CHALLENGE_EarnBenevolentIridescent_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Survivor_Benevolent;EmblemQuality:Iridescent",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualitySurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "EarnEmblemsMaliciousIridescent": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "EarnEmblemsMaliciousIridescent",
+-                "objectiveInfo": "CHALLENGE_EarnMaliciousIridescent_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;EmblemName:Emblem_Killer_Malicious;EmblemQuality:Iridescent",
+-                    "questEventId": "QuestEvent.EarnEmblemsQualityKiller",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-30T15:00:00",
+-            "titleStringId": "CHALLENGE_EarnMaliciousOrBenevolentIridescent_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_DownNearPalletsOrReviveDying_DESC",
+-            "id": "Rift_02_QuestSet-Week_10-D_DownNearPalletsOrReviveDying",
+-            "isRecurring": false,
+-            "objectives": {
+-              "DownNearPallets": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  6
+-                ],
+-                "objectiveId": "DownNearPallets",
+-                "objectiveInfo": "CHALLENGE_DownNearPallet_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me;Distance:800",
+-                    "questEventId": "QuestEvent.DownNearPallets",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "HealDyingWithPerkInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  2
+-                ],
+-                "objectiveId": "HealDyingWithPerkInTrial",
+-                "objectiveInfo": "CHALLENGE_ReviveDying_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.HealDying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-30T15:00:00",
+-            "titleStringId": "CHALLENGE_DownNearPalletsOrReviveDying_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_DownDifferentSingleTrial_DESC",
+-            "id": "Rift_02_QuestSet-Week_10-B_DownDifferentSingleTrial",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Down": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": false,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  1
+-                ],
+-                "objectiveId": "Down",
+-                "objectiveInfo": "CHALLENGE_DownDifferentSingleTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "repetition"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.DownDifferent",
+-                    "repetition": 4
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-30T15:00:00",
+-            "titleStringId": "CHALLENGE_DownDifferentSingleTrial_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 4,
+-            "descriptionStringId": "CHALLENGE_Unhook_DESC",
+-            "id": "Rift_02_QuestSet-Week_10-B_Unhook",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Unhook": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "Unhook",
+-                "objectiveInfo": "CHALLENGE_Unhook_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Unhook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              }
+-            ],
+-            "riftPoints": 75,
+-            "startDate": "2025-09-30T15:00:00",
+-            "titleStringId": "CHALLENGE_Unhook_TITLE",
+-            "type": "basic"
+-          }
+-        ],
+-        "endDate": "2025-10-07T15:00:00",
+-        "listId": "Rift_02_QuestSet-Week_10",
+-        "listOrder": 10,
+-        "listTitleStringId": "LIST_BattlePass_TITLE_10",
+-        "startDate": "2025-09-30T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_CompleteRiftQuests_DESC",
+-            "id": "Rift_02_QuestSet-Overarching-O_CompleteRiftQuestsA",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "Rift_02_QuestSet"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  11
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteRiftQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "LS_BDG_08",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteRiftQuests_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_CompleteRiftQuests_DESC",
+-            "id": "Rift_02_QuestSet-Overarching-O_CompleteRiftQuestsB",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "Rift_02_QuestSet"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  22
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteRiftQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "LS_BNR_07",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteRiftQuests_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_CompleteRiftQuests_DESC",
+-            "id": "Rift_02_QuestSet-Overarching-O_CompleteRiftQuestsC",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "Rift_02_QuestSet"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  33
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteRiftQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "LS_BDG_09",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteRiftQuests_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 4,
+-            "descriptionStringId": "CHALLENGE_CompleteRiftQuests_DESC",
+-            "id": "Rift_02_QuestSet-Overarching-O_CompleteRiftQuestsD",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "Rift_02_QuestSet"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  40
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteRiftQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "LS_BNR_08",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2025-07-29T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteRiftQuests_TITLE",
+-            "type": "overarching"
+-          }
+-        ],
+-        "endDate": "2025-10-07T15:00:00",
+-        "listId": "Rift_02_QuestSet-Overarching",
+-        "listOrder": 0,
+-        "listTitleStringId": "LIST_BattlePass_TITLE_0",
+-        "startDate": "2025-07-29T15:00:00"
+-      }
+-    ],
+-    "endDate": "2025-10-07T15:00:00",
+-    "mask": 0,
+-    "rewardTrackerId": "Rift_02",
+-    "startDate": "2025-07-29T15:00:00",
+-    "tabOrder": 2,
+-    "tabTitleStringId": "CHALLENGESET_BattlePass_TITLE",
+-    "titleLocalizationText": {
+-      "de": "Spaltpass",
+-      "en": "Rift Pass",
+-      "es": "Pase de la grieta",
+-      "es-MX": "Pase de la Grieta",
+-      "fr": "Passe de la Faille",
+-      "it": "Pass Spaccatura",
+-      "ja": "リフトパス",
+-      "ko": "균열 패스",
+-      "pl": "Przepustka Szczelinowa",
+-      "pt-BR": "Passe da Fenda",
+-      "ru": "Билет разрыва",
+-      "th": "บัตรผ่านรอยแยก",
+-      "tr": "Yarık Bileti",
+-      "zh-Hans": "裂隙通行证",
+-      "zh-Hant": "裂縫通行證"
+-    },
+-    "type": "BattlePass",
+     "uiAssets": {}
+   },
+   "Rift_03_QuestSet": {

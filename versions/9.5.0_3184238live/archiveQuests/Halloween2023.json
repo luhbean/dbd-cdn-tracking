@@ -1,0 +1,1647 @@
+{
+  "Halloween2023": {
+    "level": [
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_HAL2023-1_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 10,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "XR_040",
+            "type": "inventory"
+          },
+          {
+            "amount": 200,
+            "id": "HalloweenEventCurrency",
+            "type": "currency"
+          }
+        ],
+        "nodes": {
+          "node_HAL2023-1_01": {
+            "clientInfoId": "DepositEnergyInTrial",
+            "coordinates": {
+              "x": 75.0,
+              "y": 50.0
+            },
+            "journal": [
+              "Halloween2023"
+            ],
+            "neighbors": [
+              "node_HAL2023-1_Reward06",
+              "node_HAL2023-1_Reward02",
+              "node_HAL2023-1_Reward01"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "DepositEnergyInTrial": {
+                "conditions": [],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "DepositEnergyInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.DepositEnergy",
+                    "repetition": 50
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 30,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_02": {
+            "clientInfoId": "CollectEnergyInTrial",
+            "coordinates": {
+              "x": 25.0,
+              "y": 30.0
+            },
+            "journal": [
+              "Halloween2023"
+            ],
+            "neighbors": [
+              "node_HAL2023-1_Reward08",
+              "node_HAL2023-1_Reward04"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "CollectEnergyInTrial": {
+                "conditions": [],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "CollectEnergyInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CollectEnergy",
+                    "repetition": 50
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 30,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_03": {
+            "clientInfoId": "DepositEnergy",
+            "coordinates": {
+              "x": 45.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_Reward05",
+              "node_HAL2023-1_11",
+              "node_HAL2023-1_Reward01",
+              "node_HAL2023-1_Reward08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "DepositEnergy": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 25,
+                "objectiveId": "DepositEnergy",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.DepositEnergy",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_04": {
+            "clientInfoId": "CollectEnergy",
+            "coordinates": {
+              "x": 0.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_Start01",
+              "node_HAL2023-1_12"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CollectEnergy": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 25,
+                "objectiveId": "CollectEnergy",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CollectEnergy",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_05": {
+            "clientInfoId": "CollectVoidOrb",
+            "coordinates": {
+              "x": 0.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_Start01",
+              "node_HAL2023-1_13"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CollectVoidOrb": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "CollectVoidOrb",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CollectVoidOrb",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_06": {
+            "clientInfoId": "Halloween2022EventRepairFinish",
+            "coordinates": {
+              "x": 30.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_12",
+              "node_HAL2023-1_Reward05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Halloween2022EventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "Halloween2022EventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EventGeneratorRepaired",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_07": {
+            "clientInfoId": "Halloween2022EventHook",
+            "coordinates": {
+              "x": 30.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_13",
+              "node_HAL2023-1_Reward03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Halloween2022EventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "Halloween2022EventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookedOnEventHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_08": {
+            "clientInfoId": "HauntCapture",
+            "coordinates": {
+              "x": 85.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_End01",
+              "node_HAL2023-1_Reward06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HauntCapture": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "HauntCapture",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HauntCapture",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_09": {
+            "clientInfoId": "HauntBoon",
+            "coordinates": {
+              "x": 75.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_Reward07",
+              "node_HAL2023-1_Reward05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HauntBoon": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "HauntBoon",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HauntBoon",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_10": {
+            "clientInfoId": "HauntTrap",
+            "coordinates": {
+              "x": 75.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_Reward09",
+              "node_HAL2023-1_Reward03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HauntTrap": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "HauntTrap",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HauntTrap",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_11": {
+            "clientInfoId": "HalloweenEventPumpkinDestroyed",
+            "coordinates": {
+              "x": 45.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_03",
+              "node_HAL2023-1_Reward03",
+              "node_HAL2023-1_Reward02",
+              "node_HAL2023-1_Reward08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HalloweenEventPumpkinDestroyed": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "HalloweenEventPumpkinDestroyed",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HalloweenEventPumpkinDestroyed",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_12": {
+            "clientInfoId": "SkillCheckSuccess",
+            "coordinates": {
+              "x": 10.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_Reward04",
+              "node_HAL2023-1_06",
+              "node_HAL2023-1_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SkillCheckSuccess": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 8,
+                "objectiveId": "SkillCheckSuccess",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SkillCheckSuccess",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_13": {
+            "clientInfoId": "BreakPalletsGens",
+            "coordinates": {
+              "x": 10.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_Reward04",
+              "node_HAL2023-1_07",
+              "node_HAL2023-1_05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "BreakPalletsGens": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 8,
+                "objectiveId": "BreakPalletsGens",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.BreakPalletsGens",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 100.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_08",
+              "node_HAL2023-1_Reward07",
+              "node_HAL2023-1_Reward09"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_HAL2023-1_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 65.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_03",
+              "node_HAL2023-1_01"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_Reward02": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 65.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_01",
+              "node_HAL2023-1_11"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_Reward03": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 50.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_07",
+              "node_HAL2023-1_10",
+              "node_HAL2023-1_11"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_Reward04": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 15.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_12",
+              "node_HAL2023-1_13",
+              "node_HAL2023-1_02"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_Reward05": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 50.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_06",
+              "node_HAL2023-1_09",
+              "node_HAL2023-1_03"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_Reward06": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 90.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_01",
+              "node_HAL2023-1_08"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-1_Reward07": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 95.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_09",
+              "node_HAL2023-1_End01"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "MT_Torso027",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2023-1_Reward08": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 25.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_02",
+              "node_HAL2023-1_11",
+              "node_HAL2023-1_03"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "K30_Body011",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2023-1_Reward09": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 95.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_10",
+              "node_HAL2023-1_End01"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "XR_038",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2023-1_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 0.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2023-1_04",
+              "node_HAL2023-1_05"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_HAL2023-1_Start01"
+        ],
+        "startDate": "2023-10-18T18:00:00",
+        "startDateInMs": 1697652000,
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      },
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_HAL2023-2_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 15,
+            "id": "star",
+            "type": "progressionDbD"
+          },
+          {
+            "amount": 1,
+            "id": "XR_039",
+            "type": "inventory"
+          },
+          {
+            "amount": 400,
+            "id": "HalloweenEventCurrency",
+            "type": "currency"
+          }
+        ],
+        "nodes": {
+          "node_HAL2023-2_01": {
+            "clientInfoId": "HauntCaptureInTrial",
+            "coordinates": {
+              "x": 35.0,
+              "y": 30.0
+            },
+            "journal": [
+              "Halloween2023"
+            ],
+            "neighbors": [
+              "node_HAL2023-2_09",
+              "node_HAL2023-2_Reward03"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "HauntCaptureInTrial": {
+                "conditions": [],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "HauntCaptureInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HauntCapture",
+                    "repetition": 3
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_02": {
+            "clientInfoId": "DepositEnergy",
+            "coordinates": {
+              "x": 45.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_Reward01",
+              "node_HAL2023-2_Reward05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "DepositEnergy": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 25,
+                "objectiveId": "DepositEnergy",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.DepositEnergy",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_03": {
+            "clientInfoId": "CollectEnergy",
+            "coordinates": {
+              "x": 20.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_Start01",
+              "node_HAL2023-2_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CollectEnergy": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 25,
+                "objectiveId": "CollectEnergy",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CollectEnergy",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_04": {
+            "clientInfoId": "CollectVoidOrb",
+            "coordinates": {
+              "x": 40.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_03",
+              "node_HAL2023-2_Reward02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CollectVoidOrb": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 5,
+                "objectiveId": "CollectVoidOrb",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CollectVoidOrb",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_05": {
+            "clientInfoId": "Halloween2022EventRepairFinish",
+            "coordinates": {
+              "x": 35.0,
+              "y": 0.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_11",
+              "node_HAL2023-2_Reward01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Halloween2022EventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "Halloween2022EventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EventGeneratorRepaired",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_06": {
+            "clientInfoId": "Halloween2022EventHook",
+            "coordinates": {
+              "x": 85.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_12",
+              "node_HAL2023-2_Reward05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Halloween2022EventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 6,
+                "objectiveId": "Halloween2022EventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookedOnEventHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_07": {
+            "clientInfoId": "HauntCapture",
+            "coordinates": {
+              "x": 30.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_Reward01",
+              "node_HAL2023-2_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HauntCapture": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "HauntCapture",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HauntCapture",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_08": {
+            "clientInfoId": "HauntBoon",
+            "coordinates": {
+              "x": 50.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_07",
+              "node_HAL2023-2_Reward04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HauntBoon": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "HauntBoon",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HauntBoon",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_09": {
+            "clientInfoId": "HauntTrap",
+            "coordinates": {
+              "x": 50.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_01",
+              "node_HAL2023-2_Reward04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HauntTrap": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "HauntTrap",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HauntTrap",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_10": {
+            "clientInfoId": "HalloweenEventPumpkinDestroyed",
+            "coordinates": {
+              "x": 75.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_Reward02",
+              "node_HAL2023-2_Reward05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HalloweenEventPumpkinDestroyed": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 5,
+                "objectiveId": "HalloweenEventPumpkinDestroyed",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HalloweenEventPumpkinDestroyed",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_11": {
+            "clientInfoId": "Heal",
+            "coordinates": {
+              "x": 65.0,
+              "y": 0.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_05",
+              "node_HAL2023-2_Reward07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HealPerc": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 300,
+                "objectiveId": "HealPerc",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Heal",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_12": {
+            "clientInfoId": "Hit",
+            "coordinates": {
+              "x": 70.0,
+              "y": 100.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_Reward06",
+              "node_HAL2023-2_06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Hit": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 12,
+                "objectiveId": "Hit",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Hit",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 3,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 25,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 50.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_Reward03"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_HAL2023-2_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 20.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_02",
+              "node_HAL2023-2_05",
+              "node_HAL2023-2_07"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_Reward02": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 65.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_04",
+              "node_HAL2023-2_10"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_Reward03": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 40.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_01",
+              "node_HAL2023-2_End01"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_Reward04": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 65.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_08",
+              "node_HAL2023-2_09"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_Reward05": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 65.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_10",
+              "node_HAL2023-2_06",
+              "node_HAL2023-2_02"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2023-2_Reward06": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 25.0,
+              "y": 100.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_12"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "K30_W011",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2023-2_Reward07": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 90.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_11"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "MT_Legs027",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2023-2_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 15.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_HAL2023-2_03"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_HAL2023-2_Start01"
+        ],
+        "startDate": "2023-10-25T18:00:00",
+        "startDateInMs": 1698256800,
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      }
+    ],
+    "newTomePopup": false,
+    "riftId": "Tome17",
+    "specialEventId": "Halloween2023"
+  }
+}

@@ -111,6 +111,73 @@
     "DDoSDetection": true,
     "DDoSDetectionAnalytics": true,
     "EscalateQuotaBadPacketsPerSec": [
+      25,
+      500,
+      -1,
+      -1,
+      -1
+    ],
+    "EscalateQuotaDisconnPacketsPerSec": [
+      2000,
+      2000,
+      -1,
+      -1,
+      -1
+    ],
+    "EscalateQuotaPacketsPerSec": [
+      300,
+      700,
+      -1,
+      -1,
+      -1
+    ],
+    "EscalateTimeQuotaMSPerFrame": [
+      -1,
+      10,
+      50,
+      66,
+      -1
+    ],
+    "NetConnPacketTimeLimitMSPerFrame": [
+      -1,
+      -1,
+      -1,
+      100,
+      50
+    ],
+    "PacketLimitPerFrame": [
+      -1,
+      -1,
+      100,
+      0,
+      0
+    ],
+    "PacketTimeLimitMSPerFrame": [
+      -1,
+      -1,
+      16,
+      2,
+      -1
+    ],
+    "SendEscalateAnalytics": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "ddosCalamari": {
+    "CooloffTime": [
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "DDoSDetection": true,
+    "DDoSDetectionAnalytics": true,
+    "EscalateQuotaBadPacketsPerSec": [
       50,
       1000,
       -1,

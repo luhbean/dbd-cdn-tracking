@@ -1952,6 +1952,18 @@
         "price": 500
       }
     ],
+    "eventCostList": [
+      {
+        "cost": [
+          {
+            "currencyId": "Cells",
+            "price": 350
+          }
+        ],
+        "endDate": "2026-01-30T16:00:00",
+        "startDate": "2026-01-23T16:00:00"
+      }
+    ],
     "id": "K20",
     "metaData": {
       "character": "268435475",
@@ -1982,7 +1994,15 @@
       ],
       "entitledByDefault": false,
       "hiddenIfNotOwned": false,
-      "role": "Slasher"
+      "role": "Slasher",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ]
     },
     "nonSecure": false,
     "purchasable": true,
@@ -1996,6 +2016,18 @@
       {
         "currencyId": "Cells",
         "price": 500
+      }
+    ],
+    "eventCostList": [
+      {
+        "cost": [
+          {
+            "currencyId": "Cells",
+            "price": 350
+          }
+        ],
+        "endDate": "2026-01-30T16:00:00",
+        "startDate": "2026-01-23T16:00:00"
       }
     ],
     "id": "S22",
@@ -2028,7 +2060,15 @@
       ],
       "entitledByDefault": false,
       "hiddenIfNotOwned": false,
-      "role": "Camper"
+      "role": "Camper",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ]
     },
     "nonSecure": false,
     "purchasable": true,
@@ -101293,32 +101333,6 @@
     "defaultCost": [
       {
         "currencyId": "Cells",
-        "price": 400
-      }
-    ],
-    "eventCostList": [],
-    "id": "K35_Head018",
-    "metaData": {
-      "base_itemId": "K35_Head018",
-      "character": "K35",
-      "entitledByDefault": false,
-      "rarity": "VeryRare",
-      "releaseDate": "2026-02-20T16:00:00",
-      "type": "Head"
-    },
-    "nonSecure": false,
-    "premium": false,
-    "purchasable": false,
-    "unique": true
-  },
-  {
-    "categories": [
-      "item"
-    ],
-    "consumable": false,
-    "defaultCost": [
-      {
-        "currencyId": "Cells",
         "price": 100
       },
       {
@@ -144659,110 +144673,6 @@
       }
     ],
     "eventCostList": [],
-    "id": "POU_BDG_15",
-    "metaData": {
-      "base_itemId": "POU_BDG_15",
-      "character": "any",
-      "entitledByDefault": false,
-      "rarity": "VeryRare",
-      "releaseDate": "2018-06-12T00:00:00",
-      "type": "Badge"
-    },
-    "nonSecure": false,
-    "premium": false,
-    "purchasable": false,
-    "unique": true
-  },
-  {
-    "categories": [
-      "item"
-    ],
-    "consumable": false,
-    "defaultCost": [
-      {
-        "currencyId": "Cells",
-        "price": 120
-      }
-    ],
-    "eventCostList": [],
-    "id": "POU_BDG_16",
-    "metaData": {
-      "base_itemId": "POU_BDG_16",
-      "character": "any",
-      "entitledByDefault": false,
-      "rarity": "VeryRare",
-      "releaseDate": "2018-06-12T00:00:00",
-      "type": "Badge"
-    },
-    "nonSecure": false,
-    "premium": false,
-    "purchasable": false,
-    "unique": true
-  },
-  {
-    "categories": [
-      "item"
-    ],
-    "consumable": false,
-    "defaultCost": [
-      {
-        "currencyId": "Cells",
-        "price": 120
-      }
-    ],
-    "eventCostList": [],
-    "id": "POU_BDG_17",
-    "metaData": {
-      "base_itemId": "POU_BDG_17",
-      "character": "any",
-      "entitledByDefault": false,
-      "rarity": "VeryRare",
-      "releaseDate": "2018-06-12T00:00:00",
-      "type": "Badge"
-    },
-    "nonSecure": false,
-    "premium": false,
-    "purchasable": false,
-    "unique": true
-  },
-  {
-    "categories": [
-      "item"
-    ],
-    "consumable": false,
-    "defaultCost": [
-      {
-        "currencyId": "Cells",
-        "price": 120
-      }
-    ],
-    "eventCostList": [],
-    "id": "POU_BDG_18",
-    "metaData": {
-      "base_itemId": "POU_BDG_18",
-      "character": "any",
-      "entitledByDefault": false,
-      "rarity": "VeryRare",
-      "releaseDate": "2018-06-12T00:00:00",
-      "type": "Badge"
-    },
-    "nonSecure": false,
-    "premium": false,
-    "purchasable": false,
-    "unique": true
-  },
-  {
-    "categories": [
-      "item"
-    ],
-    "consumable": false,
-    "defaultCost": [
-      {
-        "currencyId": "Cells",
-        "price": 120
-      }
-    ],
-    "eventCostList": [],
     "id": "POU_BDG_19",
     "metaData": {
       "base_itemId": "POU_BDG_19",
@@ -145619,32 +145529,6 @@
     "defaultCost": [
       {
         "currencyId": "Cells",
-        "price": 150
-      }
-    ],
-    "eventCostList": [],
-    "id": "POU_BNR_17",
-    "metaData": {
-      "base_itemId": "POU_BNR_17",
-      "character": "any",
-      "entitledByDefault": false,
-      "rarity": "Rare",
-      "releaseDate": "2018-06-12T00:00:00",
-      "type": "Banner"
-    },
-    "nonSecure": false,
-    "premium": false,
-    "purchasable": false,
-    "unique": true
-  },
-  {
-    "categories": [
-      "item"
-    ],
-    "consumable": false,
-    "defaultCost": [
-      {
-        "currencyId": "Cells",
         "price": 25
       }
     ],
@@ -146020,32 +145904,6 @@
       "character": "any",
       "entitledByDefault": false,
       "rarity": "VeryRare",
-      "releaseDate": "2018-06-12T00:00:00",
-      "type": "Charm"
-    },
-    "nonSecure": false,
-    "premium": false,
-    "purchasable": false,
-    "unique": true
-  },
-  {
-    "categories": [
-      "item"
-    ],
-    "consumable": false,
-    "defaultCost": [
-      {
-        "currencyId": "Cells",
-        "price": 25
-      }
-    ],
-    "eventCostList": [],
-    "id": "PTN_016",
-    "metaData": {
-      "base_itemId": "PTN_016",
-      "character": "any",
-      "entitledByDefault": false,
-      "rarity": "Uncommon",
       "releaseDate": "2018-06-12T00:00:00",
       "type": "Charm"
     },
@@ -152706,7 +152564,18 @@
         "price": 100
       }
     ],
-    "eventCostList": [],
+    "eventCostList": [
+      {
+        "cost": [
+          {
+            "currencyId": "Cells",
+            "price": 70
+          }
+        ],
+        "endDate": "2026-01-30T16:00:00",
+        "startDate": "2026-01-23T16:00:00"
+      }
+    ],
     "id": "S22_Torso01_01",
     "metaData": {
       "base_itemId": "S22_Torso01_01",
@@ -152714,6 +152583,14 @@
       "entitledByDefault": false,
       "rarity": "Uncommon",
       "releaseDate": "2020-06-16T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "type": "Torso"
     },
     "nonSecure": false,
@@ -152732,7 +152609,18 @@
         "price": 100
       }
     ],
-    "eventCostList": [],
+    "eventCostList": [
+      {
+        "cost": [
+          {
+            "currencyId": "Cells",
+            "price": 70
+          }
+        ],
+        "endDate": "2026-01-30T16:00:00",
+        "startDate": "2026-01-23T16:00:00"
+      }
+    ],
     "id": "S22_Torso01_02",
     "metaData": {
       "base_itemId": "S22_Torso01_02",
@@ -152740,6 +152628,14 @@
       "entitledByDefault": false,
       "rarity": "Uncommon",
       "releaseDate": "2020-06-16T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "type": "Torso"
     },
     "nonSecure": false,
@@ -152758,7 +152654,18 @@
         "price": 100
       }
     ],
-    "eventCostList": [],
+    "eventCostList": [
+      {
+        "cost": [
+          {
+            "currencyId": "Cells",
+            "price": 70
+          }
+        ],
+        "endDate": "2026-01-30T16:00:00",
+        "startDate": "2026-01-23T16:00:00"
+      }
+    ],
     "id": "S22_Torso01_03",
     "metaData": {
       "base_itemId": "S22_Torso01_03",
@@ -152766,6 +152673,14 @@
       "entitledByDefault": false,
       "rarity": "Uncommon",
       "releaseDate": "2020-06-16T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "type": "Torso"
     },
     "nonSecure": false,
@@ -152784,7 +152699,18 @@
         "price": 100
       }
     ],
-    "eventCostList": [],
+    "eventCostList": [
+      {
+        "cost": [
+          {
+            "currencyId": "Cells",
+            "price": 70
+          }
+        ],
+        "endDate": "2026-01-30T16:00:00",
+        "startDate": "2026-01-23T16:00:00"
+      }
+    ],
     "id": "S22_Torso01_04",
     "metaData": {
       "base_itemId": "S22_Torso01_04",
@@ -152792,6 +152718,14 @@
       "entitledByDefault": false,
       "rarity": "Uncommon",
       "releaseDate": "2020-06-16T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "type": "Torso"
     },
     "nonSecure": false,
@@ -152810,7 +152744,18 @@
         "price": 100
       }
     ],
-    "eventCostList": [],
+    "eventCostList": [
+      {
+        "cost": [
+          {
+            "currencyId": "Cells",
+            "price": 70
+          }
+        ],
+        "endDate": "2026-01-30T16:00:00",
+        "startDate": "2026-01-23T16:00:00"
+      }
+    ],
     "id": "S22_Torso01_05",
     "metaData": {
       "base_itemId": "S22_Torso01_05",
@@ -152818,6 +152763,14 @@
       "entitledByDefault": false,
       "rarity": "Uncommon",
       "releaseDate": "2020-06-16T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "type": "Torso"
     },
     "nonSecure": false,
@@ -152836,7 +152789,18 @@
         "price": 100
       }
     ],
-    "eventCostList": [],
+    "eventCostList": [
+      {
+        "cost": [
+          {
+            "currencyId": "Cells",
+            "price": 70
+          }
+        ],
+        "endDate": "2026-01-30T16:00:00",
+        "startDate": "2026-01-23T16:00:00"
+      }
+    ],
     "id": "S22_Torso01_06",
     "metaData": {
       "base_itemId": "S22_Torso01_06",
@@ -152844,6 +152808,14 @@
       "entitledByDefault": false,
       "rarity": "Uncommon",
       "releaseDate": "2020-06-16T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "type": "Torso"
     },
     "nonSecure": false,
@@ -202378,26 +202350,6 @@
       "item"
     ],
     "consumable": false,
-    "eventCostList": [],
-    "id": "SUS_017",
-    "metaData": {
-      "base_itemId": "SUS_017",
-      "character": "any",
-      "entitledByDefault": false,
-      "rarity": "Uncommon",
-      "releaseDate": "2018-06-12T00:00:00",
-      "type": "Charm"
-    },
-    "nonSecure": false,
-    "premium": false,
-    "purchasable": false,
-    "unique": true
-  },
-  {
-    "categories": [
-      "item"
-    ],
-    "consumable": false,
     "defaultCost": [
       {
         "currencyId": "Cells",
@@ -244224,14 +244176,6 @@
         "BO_Legs007"
       ],
       "releaseDate": "2022-09-27T15:00:00",
-      "temporaryDiscounts": [
-        {
-          "currencyId": "Shards",
-          "discountPercentage": 0.3000001,
-          "endDate": "2026-02-24T16:00:00",
-          "startDate": "2026-02-17T16:00:00"
-        }
-      ],
       "unbreakable": false
     },
     "nonSecure": false,
@@ -245615,14 +245559,6 @@
         "CM_Legs015"
       ],
       "releaseDate": "2022-05-24T15:00:00",
-      "temporaryDiscounts": [
-        {
-          "currencyId": "Shards",
-          "discountPercentage": 0.3000001,
-          "endDate": "2026-02-24T16:00:00",
-          "startDate": "2026-02-17T16:00:00"
-        }
-      ],
       "unbreakable": false
     },
     "nonSecure": false,
@@ -248938,14 +248874,6 @@
         "FM_Legs010"
       ],
       "releaseDate": "2020-12-14T16:00:00",
-      "temporaryDiscounts": [
-        {
-          "currencyId": "Shards",
-          "discountPercentage": 0.3000001,
-          "endDate": "2026-02-24T16:00:00",
-          "startDate": "2026-02-17T16:00:00"
-        }
-      ],
       "unbreakable": false
     },
     "nonSecure": false,
@@ -249332,6 +249260,14 @@
         "FM_Legs022"
       ],
       "releaseDate": "2022-11-03T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -250072,14 +250008,6 @@
         "GK_W010"
       ],
       "releaseDate": "2020-12-14T16:00:00",
-      "temporaryDiscounts": [
-        {
-          "currencyId": "Shards",
-          "discountPercentage": 0.3000001,
-          "endDate": "2026-02-24T16:00:00",
-          "startDate": "2026-02-17T16:00:00"
-        }
-      ],
       "unbreakable": false
     },
     "nonSecure": false,
@@ -250278,14 +250206,6 @@
         "GK_W019"
       ],
       "releaseDate": "2024-11-19T16:00:00",
-      "temporaryDiscounts": [
-        {
-          "currencyId": "Shards",
-          "discountPercentage": 0.3000001,
-          "endDate": "2026-02-24T16:00:00",
-          "startDate": "2026-02-17T16:00:00"
-        }
-      ],
       "unbreakable": false
     },
     "nonSecure": false,
@@ -254120,6 +254040,14 @@
         "K20_W006"
       ],
       "releaseDate": "2020-06-16T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -254142,6 +254070,14 @@
         "K20_W007"
       ],
       "releaseDate": "2020-08-21T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -254164,6 +254100,14 @@
         "K20_W008"
       ],
       "releaseDate": "2021-10-26T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -254186,6 +254130,14 @@
         "K20_W009"
       ],
       "releaseDate": "2025-05-20T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -256404,14 +256356,6 @@
         "K26_W010"
       ],
       "releaseDate": "2023-11-21T16:00:00",
-      "temporaryDiscounts": [
-        {
-          "currencyId": "Shards",
-          "discountPercentage": 0.3000001,
-          "endDate": "2026-02-24T16:00:00",
-          "startDate": "2026-02-17T16:00:00"
-        }
-      ],
       "unbreakable": false
     },
     "nonSecure": false,
@@ -261835,6 +261779,14 @@
         "KK_W016"
       ],
       "releaseDate": "2020-06-16T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -261857,6 +261809,14 @@
         "KK_W016_01"
       ],
       "releaseDate": "2020-06-16T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -261879,6 +261839,14 @@
         "KK_W016_02"
       ],
       "releaseDate": "2020-06-16T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -261901,6 +261869,14 @@
         "KK_W016_03"
       ],
       "releaseDate": "2020-06-16T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -261923,14 +261899,6 @@
         "KK_W017"
       ],
       "releaseDate": "2022-05-24T15:00:00",
-      "temporaryDiscounts": [
-        {
-          "currencyId": "Shards",
-          "discountPercentage": 0.3000001,
-          "endDate": "2026-02-24T16:00:00",
-          "startDate": "2026-02-17T16:00:00"
-        }
-      ],
       "unbreakable": false
     },
     "nonSecure": false,
@@ -263984,14 +263952,6 @@
         "MK_W011"
       ],
       "releaseDate": "2023-11-21T16:00:00",
-      "temporaryDiscounts": [
-        {
-          "currencyId": "Shards",
-          "discountPercentage": 0.3000001,
-          "endDate": "2026-02-24T16:00:00",
-          "startDate": "2026-02-17T16:00:00"
-        }
-      ],
       "unbreakable": false
     },
     "nonSecure": false,
@@ -268370,6 +268330,14 @@
         "S22_Legs006"
       ],
       "releaseDate": "2020-06-16T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -268392,6 +268360,14 @@
         "S22_Legs007"
       ],
       "releaseDate": "2020-06-16T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -268414,6 +268390,14 @@
         "S22_Legs008"
       ],
       "releaseDate": "2020-09-25T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -268459,6 +268443,14 @@
         "S22_Legs010"
       ],
       "releaseDate": "2021-10-26T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -268481,6 +268473,14 @@
         "S22_Legs011"
       ],
       "releaseDate": "2022-11-03T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -268503,6 +268503,14 @@
         "S22_Legs012"
       ],
       "releaseDate": "2023-08-15T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -268570,6 +268578,14 @@
         "S22_Legs02"
       ],
       "releaseDate": "2020-06-16T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -268592,6 +268608,14 @@
         "S22_Legs02_01"
       ],
       "releaseDate": "2020-06-16T15:00:00",
+      "temporaryDiscounts": [
+        {
+          "currencyId": "Cells",
+          "discountPercentage": 0.3000001,
+          "endDate": "2026-01-30T16:00:00",
+          "startDate": "2026-01-23T16:00:00"
+        }
+      ],
       "unbreakable": true
     },
     "nonSecure": false,
@@ -269618,14 +269642,6 @@
         "S24_Legs012"
       ],
       "releaseDate": "2023-11-21T16:00:00",
-      "temporaryDiscounts": [
-        {
-          "currencyId": "Shards",
-          "discountPercentage": 0.3000001,
-          "endDate": "2026-02-24T16:00:00",
-          "startDate": "2026-02-17T16:00:00"
-        }
-      ],
       "unbreakable": false
     },
     "nonSecure": false,
@@ -270791,14 +270807,6 @@
         "S25_Legs021"
       ],
       "releaseDate": "2024-11-19T16:00:00",
-      "temporaryDiscounts": [
-        {
-          "currencyId": "Shards",
-          "discountPercentage": 0.3000001,
-          "endDate": "2026-02-24T16:00:00",
-          "startDate": "2026-02-17T16:00:00"
-        }
-      ],
       "unbreakable": false
     },
     "nonSecure": false,
@@ -281277,14 +281285,6 @@
         "SwedenSurvivor_Legs018"
       ],
       "releaseDate": "2023-11-21T16:00:00",
-      "temporaryDiscounts": [
-        {
-          "currencyId": "Shards",
-          "discountPercentage": 0.3000001,
-          "endDate": "2026-02-24T16:00:00",
-          "startDate": "2026-02-17T16:00:00"
-        }
-      ],
       "unbreakable": false
     },
     "nonSecure": false,
@@ -285985,171 +285985,6 @@
         "zh-Hans": "80年代的行李箱组合包",
         "zh-Hant": "80年代行李箱組合包"
       }
-    },
-    "nonSecure": false,
-    "premium": false,
-    "purchasable": true,
-    "unique": true
-  },
-  {
-    "categories": [
-      "specialPack"
-    ],
-    "consumable": true,
-    "consumptionCurrenciesList": [],
-    "consumptionObjectList": [],
-    "consumptionReward": [
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Customization"
-        },
-        "id": "GS_Head023",
-        "type": "inventory"
-      },
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Customization"
-        },
-        "id": "GS_Torso023",
-        "type": "inventory"
-      },
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Customization"
-        },
-        "id": "GS_Legs023",
-        "type": "inventory"
-      },
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Customization"
-        },
-        "id": "AV_Head018",
-        "type": "inventory"
-      },
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Customization"
-        },
-        "id": "AV_Torso018",
-        "type": "inventory"
-      },
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Customization"
-        },
-        "id": "AV_Legs018",
-        "type": "inventory"
-      },
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Customization"
-        },
-        "id": "K26_Head011",
-        "type": "inventory"
-      },
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Customization"
-        },
-        "id": "K26_Body011",
-        "type": "inventory"
-      },
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Customization"
-        },
-        "id": "K26_W011",
-        "type": "inventory"
-      }
-    ],
-    "defaultCost": [
-      {
-        "currencyId": "Cells",
-        "price": 2720
-      }
-    ],
-    "id": "Alice_In_Wonderland_Bundle",
-    "metaData": {
-      "discount": 0.3,
-      "endDate": "2026-03-17T16:00:00",
-      "fullPrice": [
-        {
-          "currencyId": "Cells",
-          "price": 3885
-        }
-      ],
-      "hiddenIfOwned": false,
-      "imageComposition": {
-        "maxItemCount": 3,
-        "overrideDefaults": true,
-        "type": "EStoreSpecialPackImageType::ComposedImage"
-      },
-      "minNumberOfUnownedForPurchase": 1,
-      "sortOrder": 2007,
-      "specialPackTitle": {
-        "de": "„Alice im Wunderland“-Paket",
-        "en": "Alice in Wonderland Bundle",
-        "es": "Paquete de Alicia en el País de las Maravillas",
-        "es-MX": "Paquete Alicia en el País de las Maravillas",
-        "fr": "Lot Alice au pays des merveilles",
-        "it": "Bundle Alice nel paese delle meraviglie",
-        "ja": "不思議の国のアリスバンドル",
-        "ko": "이상한 나라의 앨리스 번들",
-        "pl": "Pakiet Alicja w Krainie Czarów",
-        "pt-BR": "Pacote Alice no País das Maravilhas",
-        "ru": "Набор «Алиса в Стране чудес»",
-        "th": "แพ็กรวมอลิซในแดนมหัศจรรย์",
-        "tr": "Alice Harikalar Diyarında Paketi",
-        "zh-Hans": "爱丽丝梦游仙境收藏",
-        "zh-Hant": "艾麗絲夢遊仙境組合包"
-      },
-      "startDate": "2026-03-10T16:00:00"
     },
     "nonSecure": false,
     "premium": false,
@@ -297655,158 +297490,6 @@
       {
         "amount": 1,
         "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Character"
-        },
-        "id": "S22",
-        "type": "inventory"
-      },
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Character"
-        },
-        "id": "K20",
-        "type": "inventory"
-      },
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Customization"
-        },
-        "id": "S22_Head010",
-        "type": "inventory"
-      },
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Customization"
-        },
-        "id": "S22_Torso010",
-        "type": "inventory"
-      },
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Customization"
-        },
-        "id": "S22_Legs010",
-        "type": "inventory"
-      },
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Customization"
-        },
-        "id": "S22_Head012",
-        "type": "inventory"
-      },
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Customization"
-        },
-        "id": "S22_Torso012",
-        "type": "inventory"
-      },
-      {
-        "amount": 1,
-        "gameSpecificData": {
-          "hasPriorityForPackImageComposition": false,
-          "ignoreOwnership": false,
-          "includeInOwnership": true,
-          "includeInPricing": true,
-          "type": "Customization"
-        },
-        "id": "S22_Legs012",
-        "type": "inventory"
-      }
-    ],
-    "defaultCost": [
-      {
-        "currencyId": "Cells",
-        "price": 2382
-      }
-    ],
-    "id": "SilentHill_Omelet_Bundle",
-    "metaData": {
-      "discount": 0.4,
-      "endDate": "2026-01-30T16:00:00",
-      "fullPrice": [
-        {
-          "currencyId": "Cells",
-          "price": 3970
-        }
-      ],
-      "hiddenIfOwned": false,
-      "imageComposition": {
-        "overrideDefaults": false
-      },
-      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_SilentHill2_BC.T_UI_SpecialPack_SilentHill2_BC",
-      "minNumberOfUnownedForPurchase": 1,
-      "sortOrder": 1200,
-      "specialPackTitle": {
-        "de": "„Silent Hill 2“-Paket",
-        "en": "Silent Hill 2 Bundle",
-        "es": "Paquete de Silent Hill 2",
-        "es-MX": "Paquete Silent Hill 2",
-        "fr": "Lot Silent Hill 2",
-        "it": "Bundle Silent Hill 2",
-        "ja": "「サイレントヒル2」バンドル",
-        "ko": "사일런트 힐 2 번들",
-        "pl": "Pakiet Silent Hill 2",
-        "pt-BR": "Pacote Silent Hill 2",
-        "ru": "Набор «Сайлент Хилл 2»",
-        "th": "แพ็กรวมไซเลนต์ฮิล 2",
-        "tr": "Silent Hill 2 Paketi",
-        "zh-Hans": "Silent Hill 2 组合包",
-        "zh-Hant": "《沉默之丘2》組合包"
-      },
-      "startDate": "2026-01-23T16:00:00"
-    },
-    "nonSecure": false,
-    "premium": false,
-    "purchasable": true,
-    "unique": true
-  },
-  {
-    "categories": [
-      "specialPack"
-    ],
-    "consumable": true,
-    "consumptionCurrenciesList": [],
-    "consumptionObjectList": [],
-    "consumptionReward": [
-      {
-        "amount": 1,
-        "gameSpecificData": {
           "hasPriorityForPackImageComposition": true,
           "ignoreOwnership": false,
           "includeInOwnership": true,
@@ -304315,7 +303998,7 @@
       },
       "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/Omelet/T_UI_SpecialPack_TorturedSouls.T_UI_SpecialPack_TorturedSouls",
       "minNumberOfUnownedForPurchase": 1,
-      "sortOrder": 1100,
+      "sortOrder": 600,
       "specialPackTitle": {
         "de": "„Tortured Souls“-Paket",
         "en": "Tortured Souls Bundle",

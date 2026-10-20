@@ -2,26 +2,17 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.2.3_2840921live` · built 2025-10-31 13:44 UTC
+**Latest version:** `9.2.3_2842861live` · built 2025-10-31 14:52 UTC
 
-[What changed](versions/9.2.3_2840921live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.2.3_2842861live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**1** added · **11** modified · **0** removed, compared with `9.2.3_2833978live`.
+**0** added · **3** modified · **0** removed, compared with `9.2.3_2840921live`.
 
-- ~ [`catalog.json`](versions/9.2.3_2840921live/diffs/catalog.json.diff)
-- ~ [`challengeLocs/challengeText_de.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_de.json.diff)
-- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_es-MX.json.diff)
-- ~ [`challengeLocs/challengeText_es.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_es.json.diff)
-- ~ [`challengeLocs/challengeText_it.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_it.json.diff)
-- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
-- ~ [`challengeLocs/challengeText_ru.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_ru.json.diff)
-- ~ [`challengeLocs/challengeText_th.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_th.json.diff)
-- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/9.2.3_2840921live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
-- ~ [`collections.json`](versions/9.2.3_2840921live/diffs/collections.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.2.3_2840921live/diffs/dynamicContent/DynamicContent.json.diff)
-- \+ [`images/T_UI_CollectionBanner_BlightedSpringtrap.png`](versions/9.2.3_2840921live/images/T_UI_CollectionBanner_BlightedSpringtrap.png)
+- ~ [`catalog.json`](versions/9.2.3_2842861live/diffs/catalog.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.2.3_2842861live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/9.2.3_2842861live/diffs/recommendations.json.diff)
 
 ## Browse
 
@@ -43,7 +34,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-238 versions tracked so far.
+239 versions tracked so far.
 
 ---
 

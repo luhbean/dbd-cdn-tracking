@@ -2,6 +2,21 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.5.1_3205696live](versions/9.5.1_3205696live/CHANGES.md)
+
+Built 2026-03-24 13:06 UTC · **+0** added · **~10** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/9.5.1_3205696live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_de.json`](versions/9.5.1_3205696live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.5.1_3205696live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/9.5.1_3205696live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/9.5.1_3205696live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.5.1_3205696live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/9.5.1_3205696live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`collections.json`](versions/9.5.1_3205696live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.5.1_3205696live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/9.5.1_3205696live/diffs/recommendations.json.diff)
+
 ## [9.5.1_3203471live](versions/9.5.1_3203471live/CHANGES.md)
 
 Built 2026-03-23 17:06 UTC · **+0** added · **~2** modified · **−0** removed

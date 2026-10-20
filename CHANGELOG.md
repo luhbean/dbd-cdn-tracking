@@ -2,6 +2,23 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.6.1_3326162live](versions/9.6.1_3326162live/CHANGES.md)
+
+Built 2026-05-06 20:56 UTC · **+0** added · **~5** modified · **−7** removed
+
+- ~ [`catalog.json`](versions/9.6.1_3326162live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.6.1_3326162live/diffs/challengeSets.json.diff)
+- ~ [`contentSchedule.json`](versions/9.6.1_3326162live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.6.1_3326162live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/9.6.1_3326162live/diffs/itemsKillswitch.json.diff)
+- − `images/T_UI_CollectionBanner_Aliens_Hudson.png`
+- − `images/T_UI_CollectionBanner_AoT_2.png`
+- − `images/T_UI_CollectionBanner_SeoulSights_Kwon.png`
+- − `images/T_UI_SpecialPack_Aliens_Hudson.png`
+- − `images/T_UI_SpecialPack_AoT_2.png`
+- − `images/T_UI_SpecialPack_Rift5.png`
+- − `images/T_UI_SpecialPack_SeoulSights_Kwon.png`
+
 ## [9.6.0_3316695live](versions/9.6.0_3316695live/CHANGES.md)
 
 Built 2026-05-05 12:46 UTC · **+7** added · **~5** modified · **−0** removed

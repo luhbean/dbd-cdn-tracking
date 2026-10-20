@@ -2,35 +2,35 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.4.2_3149853live` · built 2026-03-03 14:58 UTC
+**Latest version:** `9.4.2_3150318live` · built 2026-03-03 16:37 UTC
 
-[What changed](versions/9.4.2_3149853live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.4.2_3150318live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**3** added · **29** modified · **8** removed, compared with `9.5.0_3149393live`.
+**0** added · **52** modified · **0** removed, compared with `9.4.2_3149853live`.
 
-- ~ [`GameConfigs.json`](versions/9.4.2_3149853live/diffs/GameConfigs.json.diff)
-- ~ [`GameConfigsDS.json`](versions/9.4.2_3149853live/diffs/GameConfigsDS.json.diff)
-- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.4.2_3149853live/diffs/archiveJournals/archiveS3Journals.json.diff)
-- ~ [`archiveJournals/storyJournals.json`](versions/9.4.2_3149853live/diffs/archiveJournals/storyJournals.json.diff)
-- ~ [`bloodwebGenerationRules.json`](versions/9.4.2_3149853live/diffs/bloodwebGenerationRules.json.diff)
-- ~ [`catalog.json`](versions/9.4.2_3149853live/diffs/catalog.json.diff)
-- ~ [`challengeLocs/challengeText_de.json`](versions/9.4.2_3149853live/diffs/challengeLocs/challengeText_de.json.diff)
-- ~ [`challengeLocs/challengeText_en.json`](versions/9.4.2_3149853live/diffs/challengeLocs/challengeText_en.json.diff)
-- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.4.2_3149853live/diffs/challengeLocs/challengeText_es-MX.json.diff)
-- ~ [`challengeLocs/challengeText_es.json`](versions/9.4.2_3149853live/diffs/challengeLocs/challengeText_es.json.diff)
-- ~ [`challengeLocs/challengeText_fr.json`](versions/9.4.2_3149853live/diffs/challengeLocs/challengeText_fr.json.diff)
-- ~ [`challengeLocs/challengeText_it.json`](versions/9.4.2_3149853live/diffs/challengeLocs/challengeText_it.json.diff)
-- ~ [`challengeLocs/challengeText_ja.json`](versions/9.4.2_3149853live/diffs/challengeLocs/challengeText_ja.json.diff)
-- ~ [`challengeLocs/challengeText_ko.json`](versions/9.4.2_3149853live/diffs/challengeLocs/challengeText_ko.json.diff)
-- ~ [`challengeLocs/challengeText_pl.json`](versions/9.4.2_3149853live/diffs/challengeLocs/challengeText_pl.json.diff)
-- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.4.2_3149853live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
-- ~ [`challengeLocs/challengeText_ru.json`](versions/9.4.2_3149853live/diffs/challengeLocs/challengeText_ru.json.diff)
-- ~ [`challengeLocs/challengeText_th.json`](versions/9.4.2_3149853live/diffs/challengeLocs/challengeText_th.json.diff)
-- ~ [`challengeLocs/challengeText_tr.json`](versions/9.4.2_3149853live/diffs/challengeLocs/challengeText_tr.json.diff)
-- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/9.4.2_3149853live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
-- … and 20 more in [CHANGES.md](versions/9.4.2_3149853live/CHANGES.md)
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.4.2_3150318live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`archiveQuests/Anniversary2022.json`](versions/9.4.2_3150318live/diffs/archiveQuests/Anniversary2022.json.diff)
+- ~ [`archiveQuests/Anniversary2023.json`](versions/9.4.2_3150318live/diffs/archiveQuests/Anniversary2023.json.diff)
+- ~ [`archiveQuests/Anniversary2024.json`](versions/9.4.2_3150318live/diffs/archiveQuests/Anniversary2024.json.diff)
+- ~ [`archiveQuests/CalamariV1.json`](versions/9.4.2_3150318live/diffs/archiveQuests/CalamariV1.json.diff)
+- ~ [`archiveQuests/CalamariV2.json`](versions/9.4.2_3150318live/diffs/archiveQuests/CalamariV2.json.diff)
+- ~ [`archiveQuests/CalamariV3.json`](versions/9.4.2_3150318live/diffs/archiveQuests/CalamariV3.json.diff)
+- ~ [`archiveQuests/ChocolateBoxGelato.json`](versions/9.4.2_3150318live/diffs/archiveQuests/ChocolateBoxGelato.json.diff)
+- ~ [`archiveQuests/ChocolateBoxV1.json`](versions/9.4.2_3150318live/diffs/archiveQuests/ChocolateBoxV1.json.diff)
+- ~ [`archiveQuests/DreadByDaylightZodiac.json`](versions/9.4.2_3150318live/diffs/archiveQuests/DreadByDaylightZodiac.json.diff)
+- ~ [`archiveQuests/FireflyV1.json`](versions/9.4.2_3150318live/diffs/archiveQuests/FireflyV1.json.diff)
+- ~ [`archiveQuests/Halloween2021.json`](versions/9.4.2_3150318live/diffs/archiveQuests/Halloween2021.json.diff)
+- ~ [`archiveQuests/Halloween2022.json`](versions/9.4.2_3150318live/diffs/archiveQuests/Halloween2022.json.diff)
+- ~ [`archiveQuests/Halloween2023.json`](versions/9.4.2_3150318live/diffs/archiveQuests/Halloween2023.json.diff)
+- ~ [`archiveQuests/Halloween2024.json`](versions/9.4.2_3150318live/diffs/archiveQuests/Halloween2024.json.diff)
+- ~ [`archiveQuests/Spring2024.json`](versions/9.4.2_3150318live/diffs/archiveQuests/Spring2024.json.diff)
+- ~ [`archiveQuests/Spring2025.json`](versions/9.4.2_3150318live/diffs/archiveQuests/Spring2025.json.diff)
+- ~ [`archiveQuests/Summer2023.json`](versions/9.4.2_3150318live/diffs/archiveQuests/Summer2023.json.diff)
+- ~ [`archiveQuests/Tome01.json`](versions/9.4.2_3150318live/diffs/archiveQuests/Tome01.json.diff)
+- ~ [`archiveQuests/Tome02.json`](versions/9.4.2_3150318live/diffs/archiveQuests/Tome02.json.diff)
+- … and 32 more in [CHANGES.md](versions/9.4.2_3150318live/CHANGES.md)
 
 ## Browse
 
@@ -52,7 +52,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-359 versions tracked so far.
+360 versions tracked so far.
 
 ---
 

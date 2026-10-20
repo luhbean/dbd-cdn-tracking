@@ -2,19 +2,16 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.6.1_3316708live` · built 2026-05-04 15:06 UTC
+**Latest version:** `9.6.1_3316933live` · built 2026-05-04 16:57 UTC
 
-[What changed](versions/9.6.1_3316708live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.6.1_3316933live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **5** modified · **0** removed, compared with `9.6.1_3307649live`.
+**0** added · **2** modified · **0** removed, compared with `9.6.1_3316708live`.
 
-- ~ [`catalog.json`](versions/9.6.1_3316708live/diffs/catalog.json.diff)
-- ~ [`collections.json`](versions/9.6.1_3316708live/diffs/collections.json.diff)
-- ~ [`contentSchedule.json`](versions/9.6.1_3316708live/diffs/contentSchedule.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.6.1_3316708live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`recommendations.json`](versions/9.6.1_3316708live/diffs/recommendations.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.6.1_3316933live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/9.6.1_3316933live/diffs/itemsKillswitch.json.diff)
 
 ## Browse
 
@@ -36,7 +33,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-423 versions tracked so far.
+424 versions tracked so far.
 
 ---
 

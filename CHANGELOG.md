@@ -2,6 +2,13 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.2.2_3901207live](versions/10.2.2_3901207live/CHANGES.md)
+
+Built 2026-10-20 19:36 UTC · **+0** added · **~2** modified · **−0** removed
+
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.2_3901207live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`gameplayTunables.json`](versions/10.2.2_3901207live/diffs/gameplayTunables.json.diff)
+
 ## [10.2.2_3900989live](versions/10.2.2_3900989live/CHANGES.md)
 
 Built 2026-10-20 18:40 UTC · no content changes

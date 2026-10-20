@@ -1,10 +1,10 @@
-# Latest live content · 9.1.3_2706130live
+# Latest live content · 9.1.3_2706679live
 
-Built 2025-08-26 14:55 UTC · [what changed in this version](../versions/9.1.3_2706130live/CHANGES.md) · [← back](../README.md)
+Built 2025-08-26 14:59 UTC · [what changed in this version](../versions/9.1.3_2706679live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (2)](#images) · [Game data (94)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (4)](#images) · [Game data (94)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -17,6 +17,8 @@ This folder always holds the newest version. Its commit history shows every chan
 <p>
 <a href="images/T_UI_CollectionBanner_PartyHard.png"><img src="images/T_UI_CollectionBanner_PartyHard.png" alt="T_UI_CollectionBanner_PartyHard.png" title="T_UI_CollectionBanner_PartyHard.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_PartyHard.png"><img src="images/T_UI_SpecialPack_PartyHard.png" alt="T_UI_SpecialPack_PartyHard.png" title="T_UI_SpecialPack_PartyHard.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Tome5.png"><img src="images/T_UI_SpecialPack_Tome5.png" alt="T_UI_SpecialPack_Tome5.png" title="T_UI_SpecialPack_Tome5.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Tome6.png"><img src="images/T_UI_SpecialPack_Tome6.png" alt="T_UI_SpecialPack_Tome6.png" title="T_UI_SpecialPack_Tome6.png" width="200"></a>
 </p>
 
 ## Game data

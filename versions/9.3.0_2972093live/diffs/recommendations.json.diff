@@ -1,0 +1,914 @@
+--- a/recommendations.json
++++ b/recommendations.json
+@@ -1059,7 +1059,7 @@
+     },
+     {
+       "activeFrom": "2025-12-09T16:00:00",
+-      "activeTo": "2026-01-06T16:00:00",
++      "activeTo": "2025-12-15T16:00:00",
+       "entries": [
+         {
+           "entryId": "HolidayHorror",
+@@ -1089,6 +1089,34 @@
+       ],
+       "id": "Omelet_W3",
+       "inclusionVersion": "9.3.0"
++    },
++    {
++      "activeFrom": "2025-12-15T16:00:00",
++      "activeTo": "2026-01-06T16:00:00",
++      "entries": [
++        {
++          "entryId": "LicensorBundle_Halloween",
++          "type": "SpecialPack",
++          "weight": 50
++        },
++        {
++          "entryId": "HolidayHorror",
++          "type": "Collection",
++          "weight": 25
++        },
++        {
++          "entryId": "UglySweaters",
++          "type": "Collection",
++          "weight": 24
++        },
++        {
++          "entryId": "BoneChillBundle2025",
++          "type": "SpecialPack",
++          "weight": 20
++        }
++      ],
++      "id": "Omelet_W4",
++      "inclusionVersion": "9.3.0"
+     }
+   ],
+   "featuredChapterPackRecommendations": [
+@@ -1222,7 +1250,7 @@
+     },
+     {
+       "activeFrom": "2025-11-25T16:00:00Z",
+-      "activeTo": "2030-11-18T16:00:00Z",
++      "activeTo": "2025-12-15T16:00:00Z",
+       "characters": [
+         {
+           "characterIndex": "48",
+@@ -1305,6 +1333,188 @@
+       "id": "Featured_Characters_2"
+     },
+     {
++      "activeFrom": "2025-12-15T16:00:00Z",
++      "activeTo": "2026-01-19T16:00:00Z",
++      "characters": [
++        {
++          "characterIndex": "268435461",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/DLC2/K06_TheShape_Portrait.K06_TheShape_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "5",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/DLC2/S06_LaurieStrode_Portrait.S06_LaurieStrode_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "48",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Maple/T_UI_S49_VeeBoonyasak_Portrait.T_UI_S49_VeeBoonyasak_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "268435496",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Maple/T_UI_K41_TheKrasue_Portrait.T_UI_K41_TheKrasue_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "47",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Lasagna/S48_MichonneGrimes_Portrait.S48_MichonneGrimes_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "46",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Lasagna/S47_RickGrimes_Portrait.S47_RickGrimes_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "268435495",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Ketchup/K40_TheAnimatronic_Portrait.K40_TheAnimatronic_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "45",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Jerky/S46_OrelaRose_Portrait.S46_OrelaRose_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "268435494",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Icecream/K39_TheGhoul_Portrait.K39_TheGhoul_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "268435493",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Gelato/K38_TheHoundmaster_Portrait.K38_TheHoundmaster_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "44",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Gelato/S45_TaurieCain_Portrait.S45_TaurieCain_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "268435492",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Eclair/K37_TheDracula_Portrait.K37_TheDracula_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "43",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Eclair/S44_TrevorBelmont_Portrait.S44_TrevorBelmont_Portrait"
++          },
++          "weight": "0"
++        }
++      ],
++      "id": "Featured_Characters_3"
++    },
++    {
++      "activeFrom": "2026-01-19T16:00:00Z",
++      "activeTo": "2026-01-29T16:00:00Z",
++      "characters": [
++        {
++          "characterIndex": "48",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Maple/T_UI_S49_VeeBoonyasak_Portrait.T_UI_S49_VeeBoonyasak_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "268435496",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Maple/T_UI_K41_TheKrasue_Portrait.T_UI_K41_TheKrasue_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "47",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Lasagna/S48_MichonneGrimes_Portrait.S48_MichonneGrimes_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "46",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Lasagna/S47_RickGrimes_Portrait.S47_RickGrimes_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "268435495",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Ketchup/K40_TheAnimatronic_Portrait.K40_TheAnimatronic_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "45",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Jerky/S46_OrelaRose_Portrait.S46_OrelaRose_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "268435494",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Icecream/K39_TheGhoul_Portrait.K39_TheGhoul_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "268435493",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Gelato/K38_TheHoundmaster_Portrait.K38_TheHoundmaster_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "44",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Gelato/S45_TaurieCain_Portrait.S45_TaurieCain_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "268435492",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Eclair/K37_TheDracula_Portrait.K37_TheDracula_Portrait"
++          },
++          "weight": "0"
++        },
++        {
++          "characterIndex": "43",
++          "image": {
++            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Eclair/S44_TrevorBelmont_Portrait.S44_TrevorBelmont_Portrait"
++          },
++          "weight": "0"
++        }
++      ],
++      "id": "Featured_Characters_4"
++    },
++    {
+       "activeFrom": "2025-11-18T16:00:00Z",
+       "activeTo": "2025-11-25T16:00:00Z",
+       "characters": [
+@@ -4080,8 +4290,170 @@
+     },
+     {
+       "activeFrom": "2025-12-11T16:00:00",
++      "activeTo": "2025-12-15T16:00:00",
++      "id": "OmeletW5",
++      "recommendations": [
++        {
++          "category": "item",
++          "id": "K34_Body008",
++          "weight": 30
++        },
++        {
++          "category": "item",
++          "id": "S39_Torso008",
++          "weight": 29
++        },
++        {
++          "category": "item",
++          "id": "S22_Torso009",
++          "weight": 35
++        },
++        {
++          "category": "item",
++          "id": "S26_Torso007",
++          "weight": 34
++        },
++        {
++          "category": "item",
++          "id": "S27_Torso007",
++          "weight": 33
++        },
++        {
++          "category": "item",
++          "id": "S32_Torso007",
++          "weight": 32
++        },
++        {
++          "category": "item",
++          "id": "S33_Torso007",
++          "weight": 31
++        },
++        {
++          "category": "item",
++          "id": "QF_Torso007",
++          "weight": 27
++        },
++        {
++          "category": "item",
++          "id": "QM_Torso007",
++          "weight": 27
++        },
++        {
++          "category": "item",
++          "id": "FM_Torso006",
++          "weight": 24
++        },
++        {
++          "category": "item",
++          "id": "S41_Torso013",
++          "weight": 23
++        },
++        {
++          "category": "item",
++          "id": "DF_Torso007",
++          "weight": 22
++        },
++        {
++          "category": "outfit",
++          "id": "TR_outfit_012",
++          "weight": 50
++        },
++        {
++          "category": "outfit",
++          "id": "S24_outfit_006",
++          "weight": 49
++        },
++        {
++          "category": "outfit",
++          "id": "US_outfit_010",
++          "weight": 48
++        },
++        {
++          "category": "outfit",
++          "id": "DF_outfit_013",
++          "weight": 47
++        },
++        {
++          "category": "outfit",
++          "id": "CM_outfit_016",
++          "weight": 46
++        },
++        {
++          "category": "outfit",
++          "id": "Clown_outfit_007",
++          "weight": 45
++        },
++        {
++          "category": "outfit",
++          "id": "MS_outfit_021",
++          "weight": 44
++        },
++        {
++          "category": "outfit",
++          "id": "OK_outfit_017",
++          "weight": 110
++        },
++        {
++          "category": "outfit",
++          "id": "K34_outfit_012",
++          "weight": 109
++        },
++        {
++          "category": "item",
++          "id": "S47_Torso009",
++          "weight": 108
++        },
++        {
++          "category": "item",
++          "id": "S48_Torso009",
++          "weight": 107
++        },
++        {
++          "category": "item",
++          "id": "S49_Torso009",
++          "weight": 106
++        },
++        {
++          "category": "item",
++          "id": "S46_Torso013",
++          "weight": 105
++        },
++        {
++          "category": "outfit",
++          "id": "S28_outfit_016",
++          "weight": 100
++        },
++        {
++          "category": "outfit",
++          "id": "S25_outfit_014",
++          "weight": 99
++        },
++        {
++          "category": "outfit",
++          "id": "GS_outfit_022",
++          "weight": 98
++        },
++        {
++          "category": "outfit",
++          "id": "FM_outfit_036",
++          "weight": 97
++        },
++        {
++          "category": "outfit",
++          "id": "MT_outfit_021",
++          "weight": 96
++        },
++        {
++          "category": "outfit",
++          "id": "K23_outfit_015",
++          "weight": 95
++        }
++      ]
++    },
++    {
++      "activeFrom": "2025-12-15T16:00:00",
+       "activeTo": "2026-01-06T16:00:00",
+-      "id": "OmeletW5",
++      "id": "OmeletW6",
+       "recommendations": [
+         {
+           "category": "item",
+@@ -4237,6 +4609,26 @@
+           "category": "outfit",
+           "id": "K23_outfit_015",
+           "weight": 95
++        },
++        {
++          "category": "outfit",
++          "id": "MM_outfit_02",
++          "weight": 220
++        },
++        {
++          "category": "outfit",
++          "id": "LS_outfit_006",
++          "weight": 219
++        },
++        {
++          "category": "item",
++          "id": "MM_W02_02",
++          "weight": 210
++        },
++        {
++          "category": "item",
++          "id": "MM_W02_03",
++          "weight": 209
+         }
+       ]
+     }
+@@ -8403,8 +8795,410 @@
+     },
+     {
+       "activeFrom": "2025-12-09T16:00:00",
++      "activeTo": "2025-12-15T16:00:00",
++      "id": "WinterSale2",
++      "recommendations": [
++        {
++          "category": "item",
++          "id": "K34_Body008",
++          "weight": 2
++        },
++        {
++          "category": "item",
++          "id": "S26_Torso007",
++          "weight": 2
++        },
++        {
++          "category": "item",
++          "id": "S27_Torso007",
++          "weight": 2
++        },
++        {
++          "category": "item",
++          "id": "S32_Torso007",
++          "weight": 2
++        },
++        {
++          "category": "item",
++          "id": "S33_Torso007",
++          "weight": 2
++        },
++        {
++          "category": "item",
++          "id": "S22_Torso009",
++          "weight": 2
++        },
++        {
++          "category": "item",
++          "id": "S39_Torso008",
++          "weight": 2
++        },
++        {
++          "category": "item",
++          "id": "S40_Torso011",
++          "weight": 2
++        },
++        {
++          "category": "item",
++          "id": "S42_Torso009",
++          "weight": 2
++        },
++        {
++          "category": "item",
++          "id": "S42_Torso010",
++          "weight": 2
++        },
++        {
++          "category": "item",
++          "id": "FS_Torso009",
++          "weight": 2
++        },
++        {
++          "category": "item",
++          "id": "ML_Torso009",
++          "weight": 2
++        },
++        {
++          "category": "item",
++          "id": "S30_Torso007",
++          "weight": 2
++        },
++        {
++          "category": "item",
++          "id": "DF_Torso007",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "MT_Torso007",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "CM_Torso008",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "JP_Torso008",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "NK_Torso007",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "AV_Torso006",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "FM_Torso006",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "DK_Torso006",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "GS_Torso008",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "HS_Torso007",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "KS_Torso006",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "MS_Torso010",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "SwedenSurvivor_Torso008",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "US_Torso011",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "S23_Torso009",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "S24_Torso007",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "S25_Torso012",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "S28_Torso009",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "S29_Torso007",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "S31_Torso008",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "S34_Torso008",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "S35_Torso012",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "S36_Torso012",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "S37_Torso012",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "S41_Torso013",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "S45_Torso008",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "KK_Body012",
++          "weight": 1
++        },
++        {
++          "category": "item",
++          "id": "KK_Body013",
++          "weight": 1
++        },
++        {
++          "category": "outfit",
++          "id": "TR_outfit_012",
++          "weight": 5
++        },
++        {
++          "category": "outfit",
++          "id": "TN_outfit_018",
++          "weight": 4
++        },
++        {
++          "category": "outfit",
++          "id": "WI_outfit_014",
++          "weight": 4
++        },
++        {
++          "category": "outfit",
++          "id": "KK_outfit_036",
++          "weight": 4
++        },
++        {
++          "category": "outfit",
++          "id": "Clown_outfit_007",
++          "weight": 4
++        },
++        {
++          "category": "outfit",
++          "id": "K22_outfit_006",
++          "weight": 4
++        },
++        {
++          "category": "outfit",
++          "id": "K21_outfit_020",
++          "weight": 4
++        },
++        {
++          "category": "outfit",
++          "id": "DF_outfit_013",
++          "weight": 3
++        },
++        {
++          "category": "outfit",
++          "id": "CM_outfit_016",
++          "weight": 3
++        },
++        {
++          "category": "outfit",
++          "id": "JP_outfit_014",
++          "weight": 3
++        },
++        {
++          "category": "outfit",
++          "id": "AV_outfit_012",
++          "weight": 3
++        },
++        {
++          "category": "outfit",
++          "id": "MS_outfit_021",
++          "weight": 3
++        },
++        {
++          "category": "outfit",
++          "id": "SwedenSurvivor_outfit_022",
++          "weight": 3
++        },
++        {
++          "category": "outfit",
++          "id": "US_outfit_010",
++          "weight": 3
++        },
++        {
++          "category": "outfit",
++          "id": "S24_outfit_006",
++          "weight": 3
++        },
++        {
++          "category": "outfit",
++          "id": "S29_outfit_020",
++          "weight": 3
++        },
++        {
++          "category": "outfit",
++          "id": "MT_outfit_021",
++          "weight": 6
++        },
++        {
++          "category": "outfit",
++          "id": "FM_outfit_036",
++          "weight": 6
++        },
++        {
++          "category": "outfit",
++          "id": "GS_outfit_022",
++          "weight": 6
++        },
++        {
++          "category": "outfit",
++          "id": "S25_outfit_014",
++          "weight": 6
++        },
++        {
++          "category": "outfit",
++          "id": "S28_outfit_016",
++          "weight": 6
++        },
++        {
++          "category": "outfit",
++          "id": "K23_outfit_015",
++          "weight": 6
++        },
++        {
++          "category": "outfit",
++          "id": "TW_outfit_019",
++          "weight": 9
++        },
++        {
++          "category": "outfit",
++          "id": "K28_outfit_008",
++          "weight": 9
++        },
++        {
++          "category": "outfit",
++          "id": "DK_outfit_017",
++          "weight": 9
++        },
++        {
++          "category": "outfit",
++          "id": "KS_outfit_020",
++          "weight": 9
++        },
++        {
++          "category": "item",
++          "id": "TR_W020",
++          "weight": 8
++        },
++        {
++          "category": "item",
++          "id": "TW_W04_03",
++          "weight": 8
++        },
++        {
++          "category": "item",
++          "id": "TC_W017",
++          "weight": 8
++        },
++        {
++          "category": "item",
++          "id": "WI_W007_01",
++          "weight": 8
++        },
++        {
++          "category": "item",
++          "id": "BE_W016",
++          "weight": 8
++        },
++        {
++          "category": "item",
++          "id": "GK_W018",
++          "weight": 8
++        },
++        {
++          "category": "item",
++          "id": "UK_W012",
++          "weight": 8
++        },
++        {
++          "category": "item",
++          "id": "K21_W016",
++          "weight": 8
++        },
++        {
++          "category": "outfit",
++          "id": "DF_outfit_011",
++          "weight": 12
++        },
++        {
++          "category": "outfit",
++          "id": "MT_outfit_011",
++          "weight": 12
++        },
++        {
++          "category": "outfit",
++          "id": "BE_outfit_010",
++          "weight": 12
++        },
++        {
++          "category": "currencyPack",
++          "id": "cellsPack3",
++          "weight": 0
++        }
++      ]
++    },
++    {
++      "activeFrom": "2025-12-15T16:00:00",
+       "activeTo": "2026-01-06T16:00:00",
+-      "id": "WinterSale2",
++      "id": "WinterSale3",
+       "recommendations": [
+         {
+           "category": "item",
+@@ -8795,6 +9589,58 @@
+           "category": "outfit",
+           "id": "BE_outfit_010",
+           "weight": 12
++        },
++        {
++          "category": "outfit",
++          "id": "MM_outfit_02",
++          "weight": 25
++        },
++        {
++          "category": "outfit",
++          "id": "LS_outfit_006",
++          "weight": 24
++        },
++        {
++          "category": "item",
++          "id": "MM_W02_02",
++          "weight": 23
++        },
++        {
++          "category": "item",
++          "id": "MM_W02_03",
++          "weight": 22
++        },
++        {
++          "category": "currencyPack",
++          "id": "cellsPack3",
++          "weight": 0
++        }
++      ]
++    },
++    {
++      "activeFrom": "2026-01-06T16:00:00",
++      "activeTo": "2026-01-19T16:00:00",
++      "id": "WinterSale4",
++      "recommendations": [
++        {
++          "category": "outfit",
++          "id": "MM_outfit_02",
++          "weight": 25
++        },
++        {
++          "category": "outfit",
++          "id": "LS_outfit_006",
++          "weight": 24
++        },
++        {
++          "category": "item",
++          "id": "MM_W02_02",
++          "weight": 23
++        },
++        {
++          "category": "item",
++          "id": "MM_W02_03",
++          "weight": 22
+         },
+         {
+           "category": "currencyPack",

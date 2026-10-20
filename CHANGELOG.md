@@ -2,6 +2,17 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.1.3_2706130live](versions/9.1.3_2706130live/CHANGES.md)
+
+Built 2025-08-26 14:55 UTC · **+2** added · **~4** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/9.1.3_2706130live/diffs/catalog.json.diff)
+- ~ [`contentSchedule.json`](versions/9.1.3_2706130live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.3_2706130live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/9.1.3_2706130live/diffs/itemsKillswitch.json.diff)
+- \+ [`images/T_UI_CollectionBanner_PartyHard.png`](versions/9.1.3_2706130live/images/T_UI_CollectionBanner_PartyHard.png)
+- \+ [`images/T_UI_SpecialPack_PartyHard.png`](versions/9.1.3_2706130live/images/T_UI_SpecialPack_PartyHard.png)
+
 ## [9.1.2_2703397live](versions/9.1.2_2703397live/CHANGES.md)
 
 Built 2025-08-25 14:27 UTC · **+0** added · **~1** modified · **−2** removed

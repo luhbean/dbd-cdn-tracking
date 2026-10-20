@@ -2,17 +2,20 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.1.2_2703397live` · built 2025-08-25 14:27 UTC
+**Latest version:** `9.1.3_2706130live` · built 2025-08-26 14:55 UTC
 
-[What changed](versions/9.1.2_2703397live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.1.3_2706130live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **1** modified · **2** removed, compared with `9.1.3_2703197live`.
+**2** added · **4** modified · **0** removed, compared with `9.1.2_2703397live`.
 
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.2_2703397live/diffs/dynamicContent/DynamicContent.json.diff)
-- − `images/T_UI_CollectionBanner_PartyHard.png`
-- − `images/T_UI_SpecialPack_PartyHard.png`
+- ~ [`catalog.json`](versions/9.1.3_2706130live/diffs/catalog.json.diff)
+- ~ [`contentSchedule.json`](versions/9.1.3_2706130live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.3_2706130live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/9.1.3_2706130live/diffs/itemsKillswitch.json.diff)
+- \+ [`images/T_UI_CollectionBanner_PartyHard.png`](versions/9.1.3_2706130live/images/T_UI_CollectionBanner_PartyHard.png)
+- \+ [`images/T_UI_SpecialPack_PartyHard.png`](versions/9.1.3_2706130live/images/T_UI_SpecialPack_PartyHard.png)
 
 ## Browse
 
@@ -34,7 +37,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-155 versions tracked so far.
+156 versions tracked so far.
 
 ---
 

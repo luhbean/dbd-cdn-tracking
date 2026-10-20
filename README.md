@@ -2,25 +2,19 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.6.1_3307649live` · built 2026-05-01 21:00 UTC
+**Latest version:** `9.6.1_3316708live` · built 2026-05-04 15:06 UTC
 
-[What changed](versions/9.6.1_3307649live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.6.1_3316708live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **4** modified · **7** removed, compared with `9.6.0_3304069live`.
+**0** added · **5** modified · **0** removed, compared with `9.6.1_3307649live`.
 
-- ~ [`catalog.json`](versions/9.6.1_3307649live/diffs/catalog.json.diff)
-- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.6.1_3307649live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
-- ~ [`challengeSets.json`](versions/9.6.1_3307649live/diffs/challengeSets.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.6.1_3307649live/diffs/dynamicContent/DynamicContent.json.diff)
-- − `images/T_UI_CollectionBanner_Aliens_Hudson.png`
-- − `images/T_UI_CollectionBanner_AoT_2.png`
-- − `images/T_UI_CollectionBanner_SeoulSights_Kwon.png`
-- − `images/T_UI_SpecialPack_Aliens_Hudson.png`
-- − `images/T_UI_SpecialPack_AoT_2.png`
-- − `images/T_UI_SpecialPack_Rift5.png`
-- − `images/T_UI_SpecialPack_SeoulSights_Kwon.png`
+- ~ [`catalog.json`](versions/9.6.1_3316708live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/9.6.1_3316708live/diffs/collections.json.diff)
+- ~ [`contentSchedule.json`](versions/9.6.1_3316708live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.6.1_3316708live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/9.6.1_3316708live/diffs/recommendations.json.diff)
 
 ## Browse
 
@@ -42,7 +36,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-422 versions tracked so far.
+423 versions tracked so far.
 
 ---
 

@@ -2,6 +2,27 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.4.0_3081856live](versions/9.4.0_3081856live/CHANGES.md)
+
+Built 2026-02-06 16:18 UTC · **+6** added · **~10** modified · **−0** removed
+
+- ~ [`GameConfigs.json`](versions/9.4.0_3081856live/diffs/GameConfigs.json.diff)
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.4.0_3081856live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`catalog.json`](versions/9.4.0_3081856live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.4.0_3081856live/diffs/challengeSets.json.diff)
+- ~ [`contentSchedule.json`](versions/9.4.0_3081856live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.4.0_3081856live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`freetoplay/EU/event.json`](versions/9.4.0_3081856live/diffs/freetoplay/EU/event.json.diff)
+- ~ [`freetoplay/NA/event.json`](versions/9.4.0_3081856live/diffs/freetoplay/NA/event.json.diff)
+- ~ [`recommendations.json`](versions/9.4.0_3081856live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/9.4.0_3081856live/diffs/specialEventsContent.json.diff)
+- \+ [`images/T_UI_ChapterBundle_StrangerThings_Chapter2.png`](versions/9.4.0_3081856live/images/T_UI_ChapterBundle_StrangerThings_Chapter2.png)
+- \+ [`images/T_UI_CollectionBanner_StrangerThings_Chapter2.png`](versions/9.4.0_3081856live/images/T_UI_CollectionBanner_StrangerThings_Chapter2.png)
+- \+ [`images/T_UI_SpecialPack_Rift4.png`](versions/9.4.0_3081856live/images/T_UI_SpecialPack_Rift4.png)
+- \+ [`images/T_UI_SpecialPack_StrangerThings_Chapter2.png`](versions/9.4.0_3081856live/images/T_UI_SpecialPack_StrangerThings_Chapter2.png)
+- \+ [`images/T_UI_icon_Event_FogCarnival.png`](versions/9.4.0_3081856live/images/T_UI_icon_Event_FogCarnival.png)
+- \+ [`images/T_UI_icon_Event_LunarYear.png`](versions/9.4.0_3081856live/images/T_UI_icon_Event_LunarYear.png)
+
 ## [9.4.1_3080683live](versions/9.4.1_3080683live/CHANGES.md)
 
 Built 2026-02-05 15:43 UTC · no content changes

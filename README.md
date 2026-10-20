@@ -2,13 +2,30 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.4.1_3080683live` · built 2026-02-05 15:43 UTC
+**Latest version:** `9.4.0_3081856live` · built 2026-02-06 16:18 UTC
 
-[What changed](versions/9.4.1_3080683live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.4.0_3081856live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **0** modified · **0** removed, compared with `9.4.1_3077304live`.
+**6** added · **10** modified · **0** removed, compared with `9.4.1_3080683live`.
+
+- ~ [`GameConfigs.json`](versions/9.4.0_3081856live/diffs/GameConfigs.json.diff)
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.4.0_3081856live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`catalog.json`](versions/9.4.0_3081856live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.4.0_3081856live/diffs/challengeSets.json.diff)
+- ~ [`contentSchedule.json`](versions/9.4.0_3081856live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.4.0_3081856live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`freetoplay/EU/event.json`](versions/9.4.0_3081856live/diffs/freetoplay/EU/event.json.diff)
+- ~ [`freetoplay/NA/event.json`](versions/9.4.0_3081856live/diffs/freetoplay/NA/event.json.diff)
+- ~ [`recommendations.json`](versions/9.4.0_3081856live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/9.4.0_3081856live/diffs/specialEventsContent.json.diff)
+- \+ [`images/T_UI_ChapterBundle_StrangerThings_Chapter2.png`](versions/9.4.0_3081856live/images/T_UI_ChapterBundle_StrangerThings_Chapter2.png)
+- \+ [`images/T_UI_CollectionBanner_StrangerThings_Chapter2.png`](versions/9.4.0_3081856live/images/T_UI_CollectionBanner_StrangerThings_Chapter2.png)
+- \+ [`images/T_UI_SpecialPack_Rift4.png`](versions/9.4.0_3081856live/images/T_UI_SpecialPack_Rift4.png)
+- \+ [`images/T_UI_SpecialPack_StrangerThings_Chapter2.png`](versions/9.4.0_3081856live/images/T_UI_SpecialPack_StrangerThings_Chapter2.png)
+- \+ [`images/T_UI_icon_Event_FogCarnival.png`](versions/9.4.0_3081856live/images/T_UI_icon_Event_FogCarnival.png)
+- \+ [`images/T_UI_icon_Event_LunarYear.png`](versions/9.4.0_3081856live/images/T_UI_icon_Event_LunarYear.png)
 
 ## Browse
 
@@ -30,7 +47,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-333 versions tracked so far.
+334 versions tracked so far.
 
 ---
 

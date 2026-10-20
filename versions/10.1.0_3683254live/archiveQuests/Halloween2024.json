@@ -1,0 +1,1979 @@
+{
+  "Halloween2024": {
+    "level": [
+      {
+        "challengeRewards": [],
+        "end": [
+          "node_HAL2024-1_End01",
+          "node_HAL2024-1_End02"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 1,
+            "id": "S25_Torso027",
+            "type": "inventory"
+          },
+          {
+            "amount": 1,
+            "id": "K23_Body025",
+            "type": "inventory"
+          },
+          {
+            "amount": 250,
+            "id": "HalloweenEventCurrency",
+            "type": "currency"
+          }
+        ],
+        "nodes": {
+          "node_DBDDay_01": {
+            "clientInfoId": "UnhookOrHook",
+            "coordinates": {
+              "x": 10.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_Start01",
+              "node_HAL2024-1_Reward01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "UnhookOrHook": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "UnhookOrHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.UnhookOrHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_DBDDay_02": {
+            "clientInfoId": "ChasedByOrChase",
+            "coordinates": {
+              "x": 15.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_Reward01",
+              "node_HAL2024-1_Reward03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "ChasedByOrChase": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 30,
+                "objectiveId": "ChasedByOrChase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:meOrOther",
+                    "questEventId": "QuestEvent.Chase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_DBDDay_03": {
+            "clientInfoId": "GeneratorSkillCheckSuccessOrBreakGens",
+            "coordinates": {
+              "x": 30.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_Reward03",
+              "node_HAL2024-1_Reward02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "GeneratorSkillCheckSuccessOrBreakGens": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 5,
+                "objectiveId": "GeneratorSkillCheckSuccessOrBreakGens",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.GeneratorSkillCheckSuccessOrBreakGens",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_DBDDay_04": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 35.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_Reward02",
+              "node_HAL2024-1_Reward04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpoints": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 25000,
+                "objectiveId": "EarnBloodpoints",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_DBDDay_05": {
+            "clientInfoId": "Crow",
+            "coordinates": {
+              "x": 50.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_Reward04",
+              "node_HAL2024-1_Reward08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Crow": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 15,
+                "objectiveId": "Crow",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Crow",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_DBDDay_06": {
+            "clientInfoId": "PalletDropInChaseOrBreakPallets",
+            "coordinates": {
+              "x": 55.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_Reward08",
+              "node_HAL2024-1_Reward05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "PalletDropInChaseOrBreakPallets": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "PalletDropInChaseOrBreakPallets",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.PalletDropInChaseOrBreakPallets",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_DBDDay_07": {
+            "clientInfoId": "SucceedHealingSkillCheckORDown",
+            "coordinates": {
+              "x": 70.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_Reward05",
+              "node_HAL2024-1_Reward07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SucceedHealingSkillCheckORDown": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "SucceedHealingSkillCheckORDown",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SucceedHealingSkillCheckORDown",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_DBDDay_08": {
+            "clientInfoId": "EarnEmblemsSilver",
+            "coordinates": {
+              "x": 75.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_Reward07",
+              "node_HAL2024-1_Reward06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsSilver": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "EarnEmblemsSilver",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;EmblemQuality:Silver",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-1_01": {
+            "clientInfoId": "HalloweenDepositInStation",
+            "coordinates": {
+              "x": 65.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_04",
+              "node_HAL2024-1_05",
+              "node_HAL2024-1_Reward09"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HalloweenDepositInStation": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 50,
+                "objectiveId": "HalloweenDepositInStation",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HalloweenDepositInStation",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-1_02": {
+            "clientInfoId": "CollectVoidOrb",
+            "coordinates": {
+              "x": 15.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_03",
+              "node_HAL2024-1_Start02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CollectVoidOrb": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "CollectVoidOrb",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CollectVoidOrb",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-1_03": {
+            "clientInfoId": "HalloweenEventPumpkinDestroyed",
+            "coordinates": {
+              "x": 25.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_02",
+              "node_HAL2024-1_06",
+              "node_HAL2024-1_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HalloweenEventPumpkinDestroyed": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 5,
+                "objectiveId": "HalloweenEventPumpkinDestroyed",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HalloweenEventPumpkinDestroyed",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-1_04": {
+            "clientInfoId": "SucceedHealingSkillCheckORDown",
+            "coordinates": {
+              "x": 55.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_01",
+              "node_HAL2024-1_06",
+              "node_HAL2024-1_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SucceedHealingSkillCheckORDownInHalloween": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "SucceedHealingSkillCheckORDownInHalloween",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SucceedHealingSkillCheckOrDown",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-1_05": {
+            "clientInfoId": "EarnEmblemsSilver",
+            "coordinates": {
+              "x": 70.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_01",
+              "node_HAL2024-1_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsSilverInHalloween": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "EarnEmblemsSilverInHalloween",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;EmblemQuality:Silver",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-1_06": {
+            "clientInfoId": "HalloweenEventRepairFinish",
+            "coordinates": {
+              "x": 45.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_03",
+              "node_HAL2024-1_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HalloweenEventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "HalloweenEventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EventGeneratorRepaired",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-1_07": {
+            "clientInfoId": "HalloweenEventHook",
+            "coordinates": {
+              "x": 35.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_03",
+              "node_HAL2024-1_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HalloweenEventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 5,
+                "objectiveId": "HalloweenEventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookedOnEventHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-1_08": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 80.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_05",
+              "node_HAL2024-1_End01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpointsInHalloween": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 100000,
+                "objectiveId": "EarnBloodpointsInHalloween",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-1_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 90.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_08"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_HAL2024-1_End02": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 90.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_Reward06"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_HAL2024-1_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 20.0,
+              "y": 0.0
+            },
+            "neighbors": [
+              "node_DBDDay_01",
+              "node_DBDDay_02"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "DF_Torso04_03",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2024-1_Reward02": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 40.0,
+              "y": 0.0
+            },
+            "neighbors": [
+              "node_DBDDay_03",
+              "node_DBDDay_04"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "CM_Torso04_03",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2024-1_Reward03": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 25.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_DBDDay_02",
+              "node_DBDDay_03"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "MT_Torso04_06",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2024-1_Reward04": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 45.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_DBDDay_04",
+              "node_DBDDay_05"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "JP_Torso04_04",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2024-1_Reward05": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 65.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_DBDDay_06",
+              "node_DBDDay_07"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "HS_Torso013_02",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2024-1_Reward06": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 85.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_DBDDay_08",
+              "node_HAL2024-1_End02"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "SwedenSurvivor_Torso02_05",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2024-1_Reward07": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 80.0,
+              "y": 0.0
+            },
+            "neighbors": [
+              "node_DBDDay_07",
+              "node_DBDDay_08"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "SwedenKiller_Body01_04",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2024-1_Reward08": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 60.0,
+              "y": 0.0
+            },
+            "neighbors": [
+              "node_DBDDay_05",
+              "node_DBDDay_06"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "HK_Body006_05",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_HAL2024-1_Reward09": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 55.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_01"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-1_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 5.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_DBDDay_01"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_HAL2024-1_Start02": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 10.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_HAL2024-1_02"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_HAL2024-1_Start01",
+          "node_HAL2024-1_Start02"
+        ],
+        "startDate": "2024-10-17T15:00:00",
+        "startDateInMs": 1729177200000,
+        "taskRewards": []
+      },
+      {
+        "challengeRewards": [],
+        "end": [
+          "node_HAL2024-2_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 1,
+            "id": "S25_Legs027",
+            "type": "inventory"
+          },
+          {
+            "amount": 1,
+            "id": "K23_Weapon025",
+            "type": "inventory"
+          },
+          {
+            "amount": 250,
+            "id": "HalloweenEventCurrency",
+            "type": "currency"
+          }
+        ],
+        "nodes": {
+          "node_HAL2024-2_01": {
+            "clientInfoId": "HalloweenVoidBombEscapeChase",
+            "coordinates": {
+              "x": 60.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL2024-2_06",
+              "node_HAL2024-2_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HalloweenVoidBombEscapeChase": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "HalloweenVoidBombEscapeChase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HalloweenVoidBombEscapeChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-2_02": {
+            "clientInfoId": "HalloweenVoidAttackHit",
+            "coordinates": {
+              "x": 35.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_HAL2024-2_Reward01",
+              "node_HAL2024-2_Reward02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HalloweenVoidAttackHit": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "HalloweenVoidAttackHit",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HalloweenVoidAttackHit",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-2_03": {
+            "clientInfoId": "PalletDropInChaseOrBreakPallets",
+            "coordinates": {
+              "x": 45.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2024-2_Reward03",
+              "node_HAL2024-2_Reward02",
+              "node_HAL2024-2_01",
+              "node_HAL2024-2_05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "PalletDropInChaseOrBreakPalletsInHalloween": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 5,
+                "objectiveId": "PalletDropInChaseOrBreakPalletsInHalloween",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.PalletDropInChaseOrBreakPallets",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-2_04": {
+            "clientInfoId": "HalloweenOpenVoidPortal",
+            "coordinates": {
+              "x": 25.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_HAL2024-2_Reward01",
+              "node_HAL2024-2_Reward03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HalloweenOpenVoidPortal": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "HalloweenOpenVoidPortal",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HalloweenOpenVoidPortal",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-2_05": {
+            "clientInfoId": "CollectEnergyFromDowns",
+            "coordinates": {
+              "x": 55.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_HAL2024-2_06",
+              "node_HAL2024-2_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CollectEnergyFromDowns": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 30,
+                "objectiveId": "CollectEnergyFromDowns",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CollectEnergyFromDowns",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-2_06": {
+            "clientInfoId": "UnhookOrHook",
+            "coordinates": {
+              "x": 65.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL2024-2_Reward04",
+              "node_HAL2024-2_01",
+              "node_HAL2024-2_05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "UnhookOrHookInHalloween": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 5,
+                "objectiveId": "UnhookOrHookInHalloween",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.UnhookOrHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-2_07": {
+            "clientInfoId": "ChasedByOrChase",
+            "coordinates": {
+              "x": 20.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_HAL2024-2_Start01",
+              "node_HAL2024-2_Reward01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "ChasedByOrChaseInHalloween": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 90,
+                "objectiveId": "ChasedByOrChaseInHalloween",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:meOrOther",
+                    "questEventId": "QuestEvent.Chase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-2_08": {
+            "clientInfoId": "EarnEmblemsGold",
+            "coordinates": {
+              "x": 85.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL2024-2_Reward04",
+              "node_HAL2024-2_End01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsGoldInHalloween": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "EarnEmblemsGoldInHalloween",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;EmblemQuality:Gold",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-2_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 95.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2024-2_08"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_HAL2024-2_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 15.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_HAL2024-2_04",
+              "node_HAL2024-2_07",
+              "node_HAL2024-2_02"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-2_Reward02": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 30.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_HAL2024-2_02",
+              "node_HAL2024-2_03"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-2_Reward03": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 45.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL2024-2_04",
+              "node_HAL2024-2_03"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-2_Reward04": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 75.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_HAL2024-2_06",
+              "node_HAL2024-2_08"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-2_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 5.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2024-2_07"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_HAL2024-2_Start01"
+        ],
+        "startDate": "2024-10-24T15:00:00",
+        "startDateInMs": 1729782000000,
+        "taskRewards": []
+      },
+      {
+        "challengeRewards": [],
+        "end": [
+          "node_HAL2024-3_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 1,
+            "id": "S25_Head027",
+            "type": "inventory"
+          },
+          {
+            "amount": 1,
+            "id": "K23_Head025",
+            "type": "inventory"
+          },
+          {
+            "amount": 250,
+            "id": "HalloweenEventCurrency",
+            "type": "currency"
+          }
+        ],
+        "nodes": {
+          "node_HAL2024-3_01": {
+            "clientInfoId": "HalloweenEventHook",
+            "coordinates": {
+              "x": 60.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_HAL2024-3_03",
+              "node_HAL2024-3_Reward02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HalloweenEventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 8,
+                "objectiveId": "HalloweenEventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookedOnEventHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-3_02": {
+            "clientInfoId": "HalloweenVoidBombEscapeChase",
+            "coordinates": {
+              "x": 50.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL2024-3_04",
+              "node_HAL2024-3_Reward02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HalloweenVoidBombEscapeChase": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "HalloweenVoidBombEscapeChase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HalloweenVoidBombEscapeChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-3_03": {
+            "clientInfoId": "HalloweenVoidAttackHit",
+            "coordinates": {
+              "x": 40.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_HAL2024-3_01",
+              "node_HAL2024-3_Reward03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HalloweenVoidAttackHit": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "HalloweenVoidAttackHit",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HalloweenVoidAttackHit",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-3_04": {
+            "clientInfoId": "HalloweenEventRepairFinish",
+            "coordinates": {
+              "x": 40.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL2024-3_02",
+              "node_HAL2024-3_Reward01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HalloweenEventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "HalloweenEventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EventGeneratorRepaired",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-3_05": {
+            "clientInfoId": "GeneratorSkillCheckSuccessOrBreakGens",
+            "coordinates": {
+              "x": 60.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_HAL2024-3_Reward02",
+              "node_HAL2024-3_Reward04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "GeneratorSkillCheckSuccessOrBreakGensInHalloween": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 7,
+                "objectiveId": "GeneratorSkillCheckSuccessOrBreakGensInHalloween",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.GeneratorSkillCheckSuccessOrBreakGens",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-3_06": {
+            "clientInfoId": "EarnEmblemsIridescent",
+            "coordinates": {
+              "x": 80.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_HAL2024-3_Reward04",
+              "node_HAL2024-3_End01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsIridescentInHalloween": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "EarnEmblemsIridescentInHalloween",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;EmblemQuality:Iridescent",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-3_07": {
+            "clientInfoId": "VaultInChase",
+            "coordinates": {
+              "x": 10.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_HAL2024-3_Start01",
+              "node_HAL2024-3_Reward01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "VaultInChaseInHalloween": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "VaultInChaseInHalloween",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.VaultInChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-3_08": {
+            "clientInfoId": "BreakWhileChase",
+            "coordinates": {
+              "x": 20.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_HAL2024-3_Start01",
+              "node_HAL2024-3_Reward03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "BreakWhileChaseInHalloween": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "BreakWhileChaseInHalloween",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.BreakWhileChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-3_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 90.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_HAL2024-3_06"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_HAL2024-3_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 20.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_HAL2024-3_07",
+              "node_HAL2024-3_04"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-3_Reward02": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 50.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_HAL2024-3_02",
+              "node_HAL2024-3_01",
+              "node_HAL2024-3_05"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-3_Reward03": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 25.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_HAL2024-3_08",
+              "node_HAL2024-3_03"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-3_Reward04": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 75.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_HAL2024-3_06",
+              "node_HAL2024-3_05"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "HalloweenEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_HAL2024-3_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 5.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_HAL2024-3_07",
+              "node_HAL2024-3_08"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_HAL2024-3_Start01"
+        ],
+        "startDate": "2024-10-31T15:00:00",
+        "startDateInMs": 1730386800000,
+        "taskRewards": []
+      }
+    ],
+    "newTomePopup": false,
+    "riftId": "Tome21",
+    "specialEventId": "Halloween2024"
+  }
+}

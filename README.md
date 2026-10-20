@@ -2,24 +2,28 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.5.1_3205696live` · built 2026-03-24 13:06 UTC
+**Latest version:** `9.5.0_3205635live` · built 2026-03-24 14:19 UTC
 
-[What changed](versions/9.5.1_3205696live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.5.0_3205635live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **10** modified · **0** removed, compared with `9.5.1_3203471live`.
+**8** added · **6** modified · **0** removed, compared with `9.5.1_3205696live`.
 
-- ~ [`catalog.json`](versions/9.5.1_3205696live/diffs/catalog.json.diff)
-- ~ [`challengeLocs/challengeText_de.json`](versions/9.5.1_3205696live/diffs/challengeLocs/challengeText_de.json.diff)
-- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.5.1_3205696live/diffs/challengeLocs/challengeText_es-MX.json.diff)
-- ~ [`challengeLocs/challengeText_es.json`](versions/9.5.1_3205696live/diffs/challengeLocs/challengeText_es.json.diff)
-- ~ [`challengeLocs/challengeText_it.json`](versions/9.5.1_3205696live/diffs/challengeLocs/challengeText_it.json.diff)
-- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.5.1_3205696live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
-- ~ [`challengeLocs/challengeText_th.json`](versions/9.5.1_3205696live/diffs/challengeLocs/challengeText_th.json.diff)
-- ~ [`collections.json`](versions/9.5.1_3205696live/diffs/collections.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.5.1_3205696live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`recommendations.json`](versions/9.5.1_3205696live/diffs/recommendations.json.diff)
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.5.0_3205635live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`catalog.json`](versions/9.5.0_3205635live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.5.0_3205635live/diffs/challengeSets.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.5.0_3205635live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/9.5.0_3205635live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/9.5.0_3205635live/diffs/specialEventsContent.json.diff)
+- \+ [`images/T_UI_ChapterBundle_AllKillComeback.png`](versions/9.5.0_3205635live/images/T_UI_ChapterBundle_AllKillComeback.png)
+- \+ [`images/T_UI_CollectionBanner_AllKillComeback.png`](versions/9.5.0_3205635live/images/T_UI_CollectionBanner_AllKillComeback.png)
+- \+ [`images/T_UI_CollectionBanner_Bloodmoon_Quiche.png`](versions/9.5.0_3205635live/images/T_UI_CollectionBanner_Bloodmoon_Quiche.png)
+- \+ [`images/T_UI_SpecialPack_AllKillComeback.png`](versions/9.5.0_3205635live/images/T_UI_SpecialPack_AllKillComeback.png)
+- \+ [`images/T_UI_SpecialPack_ArtistsFromTheFog_Haddie.png`](versions/9.5.0_3205635live/images/T_UI_SpecialPack_ArtistsFromTheFog_Haddie.png)
+- \+ [`images/T_UI_SpecialPack_Bloodmoon_Bundle.png`](versions/9.5.0_3205635live/images/T_UI_SpecialPack_Bloodmoon_Bundle.png)
+- \+ [`images/T_UI_SpecialPack_Bloodmoon_Quiche.png`](versions/9.5.0_3205635live/images/T_UI_SpecialPack_Bloodmoon_Quiche.png)
+- \+ [`images/T_UI_SpecialPack_EntombedRemains.png`](versions/9.5.0_3205635live/images/T_UI_SpecialPack_EntombedRemains.png)
 
 ## Browse
 
@@ -41,7 +45,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-380 versions tracked so far.
+381 versions tracked so far.
 
 ---
 

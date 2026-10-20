@@ -1,0 +1,653 @@
+--- a/archiveQuests/Tome10.json
++++ b/archiveQuests/Tome10.json
+@@ -28,8 +28,8 @@
+           "node_T10L1_01": {
+             "clientInfoId": "Repair",
+             "coordinates": {
+-              "x": 6.666666666666667,
+-              "y": 23.076923076923077
++              "x": 6.666666667,
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T10L1_05",
+@@ -75,8 +75,8 @@
+           "node_T10L1_02": {
+             "clientInfoId": "Hit",
+             "coordinates": {
+-              "x": 6.666666666666667,
+-              "y": 92.3076923076923
++              "x": 6.666666667,
++              "y": 92.30769231
+             },
+             "neighbors": [
+               "node_T10L1_13",
+@@ -123,7 +123,7 @@
+           "node_T10L1_03": {
+             "clientInfoId": "SacrificeWithHangmansTrickInTrial",
+             "coordinates": {
+-              "x": 63.333333333333336,
++              "x": 63.33333333,
+               "y": 0.0
+             },
+             "journal": [
+@@ -178,7 +178,7 @@
+           "node_T10L1_04": {
+             "clientInfoId": "HealFinishInTrial",
+             "coordinates": {
+-              "x": 43.333333333333336,
++              "x": 43.33333333,
+               "y": 0.0
+             },
+             "journal": [
+@@ -229,7 +229,7 @@
+             "clientInfoId": "Unhook",
+             "coordinates": {
+               "x": 20.0,
+-              "y": 23.076923076923077
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T10L1_12",
+@@ -276,8 +276,8 @@
+           "node_T10L1_06": {
+             "clientInfoId": "BreakGens",
+             "coordinates": {
+-              "x": 46.666666666666664,
+-              "y": 92.3076923076923
++              "x": 46.66666667,
++              "y": 92.30769231
+             },
+             "neighbors": [
+               "node_T10L1_02",
+@@ -323,8 +323,8 @@
+           "node_T10L1_07": {
+             "clientInfoId": "HideNearKillerAsTappInTrial",
+             "coordinates": {
+-              "x": 93.33333333333333,
+-              "y": 92.3076923076923
++              "x": 93.33333333,
++              "y": 92.30769231
+             },
+             "journal": [
+               "Tome10_02"
+@@ -379,8 +379,8 @@
+           "node_T10L1_08": {
+             "clientInfoId": "ChaseStartDifferent",
+             "coordinates": {
+-              "x": 73.33333333333333,
+-              "y": 46.15384615384615
++              "x": 73.33333333,
++              "y": 46.15384615
+             },
+             "neighbors": [
+               "node_T10L1_21",
+@@ -427,8 +427,8 @@
+           "node_T10L1_09": {
+             "clientInfoId": "PigTrapInTrial",
+             "coordinates": {
+-              "x": 33.333333333333336,
+-              "y": 69.23076923076923
++              "x": 33.33333333,
++              "y": 69.23076923
+             },
+             "journal": [
+               "Tome10_01"
+@@ -540,7 +540,7 @@
+             "clientInfoId": "EscapeWithTenacityInTrial",
+             "coordinates": {
+               "x": 80.0,
+-              "y": 92.3076923076923
++              "y": 92.30769231
+             },
+             "journal": [
+               "Tome10_02"
+@@ -596,8 +596,8 @@
+           "node_T10L1_12": {
+             "clientInfoId": "SearchFinish",
+             "coordinates": {
+-              "x": 26.666666666666668,
+-              "y": 46.15384615384615
++              "x": 26.66666667,
++              "y": 46.15384615
+             },
+             "neighbors": [
+               "node_T10L1_19",
+@@ -644,8 +644,8 @@
+           "node_T10L1_13": {
+             "clientInfoId": "Chase",
+             "coordinates": {
+-              "x": 13.333333333333334,
+-              "y": 69.23076923076923
++              "x": 13.33333333,
++              "y": 69.23076923
+             },
+             "neighbors": [
+               "node_T10L1_02",
+@@ -691,8 +691,8 @@
+           "node_T10L1_14": {
+             "clientInfoId": "EarnBloodpoints",
+             "coordinates": {
+-              "x": 53.333333333333336,
+-              "y": 69.23076923076923
++              "x": 53.33333333,
++              "y": 69.23076923
+             },
+             "neighbors": [
+               "node_T10L1_21",
+@@ -732,8 +732,8 @@
+           "node_T10L1_15": {
+             "clientInfoId": "Sacrifice",
+             "coordinates": {
+-              "x": 86.66666666666667,
+-              "y": 46.15384615384615
++              "x": 86.66666667,
++              "y": 46.15384615
+             },
+             "neighbors": [
+               "node_T10L1_End01",
+@@ -826,7 +826,7 @@
+             "clientInfoId": "SkillCheckGreatSuccess",
+             "coordinates": {
+               "x": 60.0,
+-              "y": 92.3076923076923
++              "y": 92.30769231
+             },
+             "neighbors": [
+               "node_T10L1_14",
+@@ -872,8 +872,8 @@
+           "node_T10L1_18": {
+             "clientInfoId": "EscapeOther",
+             "coordinates": {
+-              "x": 86.66666666666667,
+-              "y": 23.076923076923077
++              "x": 86.66666667,
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T10L1_20",
+@@ -919,8 +919,8 @@
+           "node_T10L1_19": {
+             "clientInfoId": "ConsumeMedkit",
+             "coordinates": {
+-              "x": 33.333333333333336,
+-              "y": 23.076923076923077
++              "x": 33.33333333,
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T10L1_Glyph01",
+@@ -966,8 +966,8 @@
+           "node_T10L1_20": {
+             "clientInfoId": "VaultInChase",
+             "coordinates": {
+-              "x": 73.33333333333333,
+-              "y": 23.076923076923077
++              "x": 73.33333333,
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T10L1_Glyph01",
+@@ -1014,8 +1014,8 @@
+           "node_T10L1_21": {
+             "clientInfoId": "Hook",
+             "coordinates": {
+-              "x": 66.66666666666667,
+-              "y": 69.23076923076923
++              "x": 66.66666667,
++              "y": 69.23076923
+             },
+             "neighbors": [
+               "node_T10L1_08",
+@@ -1063,7 +1063,7 @@
+             "clientInfoId": "PalletDropInChaseOrBreakPallets",
+             "coordinates": {
+               "x": 80.0,
+-              "y": 69.23076923076923
++              "y": 69.23076923
+             },
+             "neighbors": [
+               "node_T10L1_21",
+@@ -1103,7 +1103,7 @@
+             "clientInfoId": "End",
+             "coordinates": {
+               "x": 100.0,
+-              "y": 23.076923076923077
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T10L1_18",
+@@ -1116,8 +1116,8 @@
+           "node_T10L1_Glyph01": {
+             "clientInfoId": "RedGlyph",
+             "coordinates": {
+-              "x": 53.333333333333336,
+-              "y": 23.076923076923077
++              "x": 53.33333333,
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T10L1_03",
+@@ -1163,10 +1163,10 @@
+             ]
+           },
+           "node_T10L1_Glyph02": {
+-            "clientInfoId": "WhiteGlyph",
++            "clientInfoId": "YellowGlyph",
+             "coordinates": {
+-              "x": 43.333333333333336,
+-              "y": 46.15384615384615
++              "x": 43.33333333,
++              "y": 46.15384615
+             },
+             "neighbors": [
+               "node_T10L1_12",
+@@ -1175,7 +1175,7 @@
+             ],
+             "nodeType": "quest:contextual",
+             "objectives": {
+-              "WhiteGlyph": {
++              "YellowGlyph": {
+                 "conditions": [
+                   {
+                     "key": "role",
+@@ -1186,18 +1186,18 @@
+                 ],
+                 "incrementWithEventRepetitions": true,
+                 "neededProgression": 1,
+-                "objectiveId": "WhiteGlyph",
++                "objectiveId": "YellowGlyph",
+                 "questEvent": [
+                   {
+                     "operation": ">=",
+                     "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.WhiteGlyph",
++                    "questEventId": "QuestEvent.YellowGlyph",
+                     "repetition": 1
+                   }
+                 ],
+                 "specialBehaviours": [
+                   {
+-                    "id": "WhiteGlyph"
++                    "id": "YellowGlyph"
+                   }
+                 ]
+               }
+@@ -1219,7 +1219,7 @@
+             "clientInfoId": "Start",
+             "coordinates": {
+               "x": 0.0,
+-              "y": 46.15384615384615
++              "y": 46.15384615
+             },
+             "neighbors": [
+               "node_T10L1_02",
+@@ -2287,7 +2287,7 @@
+             "nodeType": "narrative"
+           },
+           "node_T10L2_Glyph01": {
+-            "clientInfoId": "WhiteGlyph",
++            "clientInfoId": "YellowGlyph",
+             "coordinates": {
+               "x": 86.66666667,
+               "y": 0.0
+@@ -2298,7 +2298,7 @@
+             ],
+             "nodeType": "quest:contextual",
+             "objectives": {
+-              "WhiteGlyph": {
++              "YellowGlyph": {
+                 "conditions": [
+                   {
+                     "key": "role",
+@@ -2309,18 +2309,18 @@
+                 ],
+                 "incrementWithEventRepetitions": true,
+                 "neededProgression": 2,
+-                "objectiveId": "WhiteGlyph",
++                "objectiveId": "YellowGlyph",
+                 "questEvent": [
+                   {
+                     "operation": ">=",
+                     "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.WhiteGlyph",
++                    "questEventId": "QuestEvent.YellowGlyph",
+                     "repetition": 1
+                   }
+                 ],
+                 "specialBehaviours": [
+                   {
+-                    "id": "WhiteGlyph"
++                    "id": "YellowGlyph"
+                   }
+                 ]
+               }
+@@ -2492,8 +2492,8 @@
+           "node_T10L3_01": {
+             "clientInfoId": "SkillCheckGreatSuccessWithStakeoutInTrial",
+             "coordinates": {
+-              "x": 33.333333333333336,
+-              "y": 46.15384615384615
++              "x": 33.33333333,
++              "y": 46.15384615
+             },
+             "journal": [
+               "Tome10_02"
+@@ -2549,7 +2549,7 @@
+           "node_T10L3_02": {
+             "clientInfoId": "EscapeWithTappPerksInTrial",
+             "coordinates": {
+-              "x": 73.33333333333333,
++              "x": 73.33333333,
+               "y": 0.0
+             },
+             "journal": [
+@@ -2608,8 +2608,8 @@
+           "node_T10L3_03": {
+             "clientInfoId": "HillbillyChainsawInTrial",
+             "coordinates": {
+-              "x": 33.333333333333336,
+-              "y": 69.23076923076923
++              "x": 33.33333333,
++              "y": 69.23076923
+             },
+             "journal": [
+               "Tome10_03"
+@@ -2665,8 +2665,8 @@
+           "node_T10L3_04": {
+             "clientInfoId": "LivingAtEndTrialWithHillbillyPerksInTrial",
+             "coordinates": {
+-              "x": 86.66666666666667,
+-              "y": 23.076923076923077
++              "x": 86.66666667,
++              "y": 23.07692308
+             },
+             "journal": [
+               "Tome10_03"
+@@ -2722,7 +2722,7 @@
+           "node_T10L3_05": {
+             "clientInfoId": "EscapeChaseAfterFallWithBalancedLandingInTrial",
+             "coordinates": {
+-              "x": 46.666666666666664,
++              "x": 46.66666667,
+               "y": 0.0
+             },
+             "journal": [
+@@ -2779,7 +2779,7 @@
+             "clientInfoId": "RepairFinishInTrial",
+             "coordinates": {
+               "x": 80.0,
+-              "y": 92.3076923076923
++              "y": 92.30769231
+             },
+             "journal": [
+               "Tome10_03"
+@@ -2875,8 +2875,8 @@
+           "node_T10L3_08": {
+             "clientInfoId": "SabotageFinish",
+             "coordinates": {
+-              "x": 66.66666666666667,
+-              "y": 92.3076923076923
++              "x": 66.66666667,
++              "y": 92.30769231
+             },
+             "neighbors": [
+               "node_T10L3_Glyph02",
+@@ -2923,7 +2923,7 @@
+             "clientInfoId": "CoopAction",
+             "coordinates": {
+               "x": 60.0,
+-              "y": 23.076923076923077
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T10L3_15",
+@@ -2969,8 +2969,8 @@
+           "node_T10L3_10": {
+             "clientInfoId": "Heal",
+             "coordinates": {
+-              "x": 13.333333333333334,
+-              "y": 23.076923076923077
++              "x": 13.33333333,
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T10L3_Start01",
+@@ -3017,7 +3017,7 @@
+             "clientInfoId": "EscapeOther",
+             "coordinates": {
+               "x": 20.0,
+-              "y": 46.15384615384615
++              "y": 46.15384615
+             },
+             "neighbors": [
+               "node_T10L3_01",
+@@ -3063,8 +3063,8 @@
+           "node_T10L3_12": {
+             "clientInfoId": "Kill",
+             "coordinates": {
+-              "x": 93.33333333333333,
+-              "y": 69.23076923076923
++              "x": 93.33333333,
++              "y": 69.23076923
+             },
+             "neighbors": [
+               "node_T10L3_19",
+@@ -3110,7 +3110,7 @@
+             "clientInfoId": "Hit",
+             "coordinates": {
+               "x": 40.0,
+-              "y": 92.3076923076923
++              "y": 92.30769231
+             },
+             "neighbors": [
+               "node_T10L3_18",
+@@ -3156,8 +3156,8 @@
+           "node_T10L3_14": {
+             "clientInfoId": "BreakWallsPalletsGens",
+             "coordinates": {
+-              "x": 13.333333333333334,
+-              "y": 92.3076923076923
++              "x": 13.33333333,
++              "y": 92.30769231
+             },
+             "neighbors": [
+               "node_T10L3_Start02",
+@@ -3203,8 +3203,8 @@
+           "node_T10L3_15": {
+             "clientInfoId": "EarnEmblemsGold",
+             "coordinates": {
+-              "x": 53.333333333333336,
+-              "y": 46.15384615384615
++              "x": 53.33333333,
++              "y": 46.15384615
+             },
+             "neighbors": [
+               "node_T10L3_18",
+@@ -3246,8 +3246,8 @@
+           "node_T10L3_16": {
+             "clientInfoId": "Repair",
+             "coordinates": {
+-              "x": 46.666666666666664,
+-              "y": 23.076923076923077
++              "x": 46.66666667,
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T10L3_05",
+@@ -3294,8 +3294,8 @@
+           "node_T10L3_17": {
+             "clientInfoId": "SearchFinish",
+             "coordinates": {
+-              "x": 6.666666666666667,
+-              "y": 46.15384615384615
++              "x": 6.666666667,
++              "y": 46.15384615
+             },
+             "neighbors": [
+               "node_T10L3_Start01",
+@@ -3341,8 +3341,8 @@
+           "node_T10L3_18": {
+             "clientInfoId": "ChaseStartDifferent",
+             "coordinates": {
+-              "x": 46.666666666666664,
+-              "y": 69.23076923076923
++              "x": 46.66666667,
++              "y": 69.23076923
+             },
+             "neighbors": [
+               "node_T10L3_15",
+@@ -3389,8 +3389,8 @@
+           "node_T10L3_19": {
+             "clientInfoId": "Down",
+             "coordinates": {
+-              "x": 73.33333333333333,
+-              "y": 69.23076923076923
++              "x": 73.33333333,
++              "y": 69.23076923
+             },
+             "neighbors": [
+               "node_T10L3_Glyph02",
+@@ -3437,8 +3437,8 @@
+           "node_T10L3_20": {
+             "clientInfoId": "PalletDropInChaseOrBreakPallets",
+             "coordinates": {
+-              "x": 73.33333333333333,
+-              "y": 23.076923076923077
++              "x": 73.33333333,
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T10L3_09",
+@@ -3479,7 +3479,7 @@
+           "node_T10L3_End01": {
+             "clientInfoId": "End",
+             "coordinates": {
+-              "x": 93.33333333333333,
++              "x": 93.33333333,
+               "y": 0.0
+             },
+             "neighbors": [
+@@ -3492,7 +3492,7 @@
+             "clientInfoId": "End",
+             "coordinates": {
+               "x": 100.0,
+-              "y": 92.3076923076923
++              "y": 92.30769231
+             },
+             "neighbors": [
+               "node_T10L3_06",
+@@ -3501,10 +3501,10 @@
+             "nodeType": "narrative"
+           },
+           "node_T10L3_Glyph01": {
+-            "clientInfoId": "WhiteGlyph",
++            "clientInfoId": "YellowGlyph",
+             "coordinates": {
+-              "x": 26.666666666666668,
+-              "y": 23.076923076923077
++              "x": 26.66666667,
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T10L3_10",
+@@ -3512,7 +3512,7 @@
+             ],
+             "nodeType": "quest:contextual",
+             "objectives": {
+-              "WhiteGlyph": {
++              "YellowGlyph": {
+                 "conditions": [
+                   {
+                     "key": "role",
+@@ -3523,18 +3523,18 @@
+                 ],
+                 "incrementWithEventRepetitions": true,
+                 "neededProgression": 3,
+-                "objectiveId": "WhiteGlyph",
++                "objectiveId": "YellowGlyph",
+                 "questEvent": [
+                   {
+                     "operation": ">=",
+                     "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.WhiteGlyph",
++                    "questEventId": "QuestEvent.YellowGlyph",
+                     "repetition": 1
+                   }
+                 ],
+                 "specialBehaviours": [
+                   {
+-                    "id": "WhiteGlyph"
++                    "id": "YellowGlyph"
+                   }
+                 ]
+               }
+@@ -3556,7 +3556,7 @@
+             "clientInfoId": "RedGlyph",
+             "coordinates": {
+               "x": 60.0,
+-              "y": 69.23076923076923
++              "y": 69.23076923
+             },
+             "neighbors": [
+               "node_T10L3_19",
+@@ -3602,7 +3602,7 @@
+             "clientInfoId": "Start",
+             "coordinates": {
+               "x": 0.0,
+-              "y": 23.076923076923077
++              "y": 23.07692308
+             },
+             "neighbors": [
+               "node_T10L3_10",
+@@ -3613,8 +3613,8 @@
+           "node_T10L3_Start02": {
+             "clientInfoId": "Start",
+             "coordinates": {
+-              "x": 6.666666666666667,
+-              "y": 69.23076923076923
++              "x": 6.666666667,
++              "y": 69.23076923
+             },
+             "neighbors": [
+               "node_T10L3_14",
+@@ -4849,7 +4849,7 @@
+             ]
+           },
+           "node_T10L4_Glyph03": {
+-            "clientInfoId": "WhiteGlyph",
++            "clientInfoId": "YellowGlyph",
+             "coordinates": {
+               "x": 86.66666667,
+               "y": 92.30769231
+@@ -4860,7 +4860,7 @@
+             ],
+             "nodeType": "quest:contextual",
+             "objectives": {
+-              "WhiteGlyph": {
++              "YellowGlyph": {
+                 "conditions": [
+                   {
+                     "key": "role",
+@@ -4871,18 +4871,18 @@
+                 ],
+                 "incrementWithEventRepetitions": true,
+                 "neededProgression": 4,
+-                "objectiveId": "WhiteGlyph",
++                "objectiveId": "YellowGlyph",
+                 "questEvent": [
+                   {
+                     "operation": ">=",
+                     "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.WhiteGlyph",
++                    "questEventId": "QuestEvent.YellowGlyph",
+                     "repetition": 1
+                   }
+                 ],
+                 "specialBehaviours": [
+                   {
+-                    "id": "WhiteGlyph"
++                    "id": "YellowGlyph"
+                   }
+                 ]
+               }

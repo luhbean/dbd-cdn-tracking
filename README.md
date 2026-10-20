@@ -2,16 +2,22 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `10.0.0_3455619live` · built 2026-06-19 13:13 UTC
+**Latest version:** `10.0.0_3455686live` · built 2026-06-19 15:06 UTC
 
-[What changed](versions/10.0.0_3455619live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/10.0.0_3455686live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **2** modified · **0** removed, compared with `10.0.0_3447582live`.
+**0** added · **8** modified · **0** removed, compared with `10.0.0_3455619live`.
 
-- ~ [`catalog.json`](versions/10.0.0_3455619live/diffs/catalog.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/10.0.0_3455619live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`archiveQuests/Tome10.json`](versions/10.0.0_3455686live/diffs/archiveQuests/Tome10.json.diff)
+- ~ [`archiveQuests/Tome11.json`](versions/10.0.0_3455686live/diffs/archiveQuests/Tome11.json.diff)
+- ~ [`archiveQuests/Tome12.json`](versions/10.0.0_3455686live/diffs/archiveQuests/Tome12.json.diff)
+- ~ [`archiveQuests/Tome15.json`](versions/10.0.0_3455686live/diffs/archiveQuests/Tome15.json.diff)
+- ~ [`archiveQuests/Tome16.json`](versions/10.0.0_3455686live/diffs/archiveQuests/Tome16.json.diff)
+- ~ [`archiveQuests/Tome17.json`](versions/10.0.0_3455686live/diffs/archiveQuests/Tome17.json.diff)
+- ~ [`archiveQuests/Tome20.json`](versions/10.0.0_3455686live/diffs/archiveQuests/Tome20.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.0.0_3455686live/diffs/dynamicContent/DynamicContent.json.diff)
 
 ## Browse
 
@@ -33,7 +39,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-456 versions tracked so far.
+457 versions tracked so far.
 
 ---
 

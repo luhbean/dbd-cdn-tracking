@@ -2,6 +2,18 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.4.2_3088141live](versions/9.4.2_3088141live/CHANGES.md)
+
+Built 2026-02-10 13:12 UTC · **+0** added · **~7** modified · **−0** removed
+
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.4.2_3088141live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`catalog.json`](versions/9.4.2_3088141live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.4.2_3088141live/diffs/challengeSets.json.diff)
+- ~ [`contentSchedule.json`](versions/9.4.2_3088141live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.4.2_3088141live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/9.4.2_3088141live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/9.4.2_3088141live/diffs/specialEventsContent.json.diff)
+
 ## [9.4.1_3084999live](versions/9.4.1_3084999live/CHANGES.md)
 
 Built 2026-02-10 13:10 UTC · **+0** added · **~10** modified · **−6** removed

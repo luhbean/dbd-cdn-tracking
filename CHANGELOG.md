@@ -2,6 +2,18 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.2.3_2833738live](versions/9.2.3_2833738live/CHANGES.md)
+
+Built 2025-10-28 13:46 UTC · **+1** added · **~6** modified · **−0** removed
+
+- ~ [`bonusPointEventsContent.json`](versions/9.2.3_2833738live/diffs/bonusPointEventsContent.json.diff)
+- ~ [`catalog.json`](versions/9.2.3_2833738live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/9.2.3_2833738live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.2.3_2833738live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/9.2.3_2833738live/diffs/itemsKillswitch.json.diff)
+- ~ [`recommendations.json`](versions/9.2.3_2833738live/diffs/recommendations.json.diff)
+- \+ [`images/T_UI_SpecialPack_BlightedSpringtrap.png`](versions/9.2.3_2833738live/images/T_UI_SpecialPack_BlightedSpringtrap.png)
+
 ## [9.2.3_2827191live](versions/9.2.3_2827191live/CHANGES.md)
 
 Built 2025-10-23 14:48 UTC · no content changes

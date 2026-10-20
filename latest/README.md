@@ -1,10 +1,10 @@
-# Latest live content · 9.2.3_2827191live
+# Latest live content · 9.2.3_2833738live
 
-Built 2025-10-23 14:48 UTC · [what changed in this version](../versions/9.2.3_2827191live/CHANGES.md) · [← back](../README.md)
+Built 2025-10-28 13:46 UTC · [what changed in this version](../versions/9.2.3_2833738live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (4)](#images) · [Game data (97)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (5)](#images) · [Game data (97)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -18,6 +18,7 @@ This folder always holds the newest version. Its commit history shows every chan
 <a href="images/T_UI_CollectionBanner_AttackOnTitan.png"><img src="images/T_UI_CollectionBanner_AttackOnTitan.png" alt="T_UI_CollectionBanner_AttackOnTitan.png" title="T_UI_CollectionBanner_AttackOnTitan.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_Armored_Pack.png"><img src="images/T_UI_SpecialPack_Armored_Pack.png" alt="T_UI_SpecialPack_Armored_Pack.png" title="T_UI_SpecialPack_Armored_Pack.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_AttackOnTitan.png"><img src="images/T_UI_SpecialPack_AttackOnTitan.png" alt="T_UI_SpecialPack_AttackOnTitan.png" title="T_UI_SpecialPack_AttackOnTitan.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_BlightedSpringtrap.png"><img src="images/T_UI_SpecialPack_BlightedSpringtrap.png" alt="T_UI_SpecialPack_BlightedSpringtrap.png" title="T_UI_SpecialPack_BlightedSpringtrap.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_War_Hammer_Pack.png"><img src="images/T_UI_SpecialPack_War_Hammer_Pack.png" alt="T_UI_SpecialPack_War_Hammer_Pack.png" title="T_UI_SpecialPack_War_Hammer_Pack.png" width="200"></a>
 </p>
 

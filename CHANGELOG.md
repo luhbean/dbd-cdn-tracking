@@ -2,6 +2,25 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.1.2_2686759live](versions/9.1.2_2686759live/CHANGES.md)
+
+Built 2025-08-19 23:16 UTC · **+0** added · **~14** modified · **−0** removed
+
+- ~ [`challengeLocs/challengeText_de.json`](versions/9.1.2_2686759live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_en.json`](versions/9.1.2_2686759live/diffs/challengeLocs/challengeText_en.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.1.2_2686759live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/9.1.2_2686759live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/9.1.2_2686759live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.1.2_2686759live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/9.1.2_2686759live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.2_2686759live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_de.json`](versions/9.1.2_2686759live/diffs/loadingText/specialEventsLoadingText_de.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_es-MX.json`](versions/9.1.2_2686759live/diffs/loadingText/specialEventsLoadingText_es-MX.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_es.json`](versions/9.1.2_2686759live/diffs/loadingText/specialEventsLoadingText_es.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_it.json`](versions/9.1.2_2686759live/diffs/loadingText/specialEventsLoadingText_it.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_pt-BR.json`](versions/9.1.2_2686759live/diffs/loadingText/specialEventsLoadingText_pt-BR.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_th.json`](versions/9.1.2_2686759live/diffs/loadingText/specialEventsLoadingText_th.json.diff)
+
 ## [9.1.2_2683120live](versions/9.1.2_2683120live/CHANGES.md)
 
 Built 2025-08-19 13:58 UTC · no content changes

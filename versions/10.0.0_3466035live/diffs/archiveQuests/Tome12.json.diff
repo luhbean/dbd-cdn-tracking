@@ -1,0 +1,42 @@
+--- a/archiveQuests/Tome12.json
++++ b/archiveQuests/Tome12.json
+@@ -4495,7 +4495,7 @@
+             "nodeType": "narrative"
+           },
+           "node_T12L4_Glyph01": {
+-            "clientInfoId": "WhiteGlyph",
++            "clientInfoId": "YellowGlyph",
+             "coordinates": {
+               "x": 83.33333333,
+               "y": 0.0
+@@ -4506,7 +4506,7 @@
+             ],
+             "nodeType": "quest:contextual",
+             "objectives": {
+-              "WhiteGlyph": {
++              "YellowGlyph": {
+                 "conditions": [
+                   {
+                     "key": "role",
+@@ -4517,18 +4517,18 @@
+                 ],
+                 "incrementWithEventRepetitions": true,
+                 "neededProgression": 3,
+-                "objectiveId": "WhiteGlyph",
++                "objectiveId": "YellowGlyph",
+                 "questEvent": [
+                   {
+                     "operation": ">=",
+                     "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.WhiteGlyph",
++                    "questEventId": "QuestEvent.YellowGlyph",
+                     "repetition": 1
+                   }
+                 ],
+                 "specialBehaviours": [
+                   {
+-                    "id": "WhiteGlyph"
++                    "id": "YellowGlyph"
+                   }
+                 ]
+               }

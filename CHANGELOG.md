@@ -2,6 +2,19 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.2.3_2851803live](versions/9.2.3_2851803live/CHANGES.md)
+
+Built 2025-11-06 16:18 UTC · **+2** added · **~6** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/9.2.3_2851803live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/9.2.3_2851803live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
+- ~ [`collections.json`](versions/9.2.3_2851803live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.2.3_2851803live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_zh-Hans.json`](versions/9.2.3_2851803live/diffs/loadingText/specialEventsLoadingText_zh-Hans.json.diff)
+- ~ [`recommendations.json`](versions/9.2.3_2851803live/diffs/recommendations.json.diff)
+- \+ [`images/T_UI_CollectionBanner_Castlevania_Richter.png`](versions/9.2.3_2851803live/images/T_UI_CollectionBanner_Castlevania_Richter.png)
+- \+ [`images/T_UI_SpecialPack_Castlevania_Richter.png`](versions/9.2.3_2851803live/images/T_UI_SpecialPack_Castlevania_Richter.png)
+
 ## [9.2.3_2850259live](versions/9.2.3_2850259live/CHANGES.md)
 
 Built 2025-11-05 16:03 UTC · **+0** added · **~3** modified · **−0** removed

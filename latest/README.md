@@ -1,6 +1,6 @@
-# Latest live content · 9.3.2_2967908live
+# Latest live content · 9.3.0_2969255live
 
-Built 2025-12-11 15:17 UTC · [what changed in this version](../versions/9.3.2_2967908live/CHANGES.md) · [← back](../README.md)
+Built 2025-12-11 19:42 UTC · [what changed in this version](../versions/9.3.0_2969255live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 

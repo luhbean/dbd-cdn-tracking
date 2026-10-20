@@ -2,16 +2,16 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.1.3_2769702live` · built 2025-09-23 13:52 UTC
+**Latest version:** `9.1.3_2769750live` · built 2025-09-23 14:13 UTC
 
-[What changed](versions/9.1.3_2769702live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.1.3_2769750live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **2** modified · **0** removed, compared with `9.1.3_2763544live`.
+**0** added · **2** modified · **0** removed, compared with `9.1.3_2769702live`.
 
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.3_2769702live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`recommendations.json`](versions/9.1.3_2769702live/diffs/recommendations.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.3_2769750live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/9.1.3_2769750live/diffs/recommendations.json.diff)
 
 ## Browse
 
@@ -33,7 +33,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-184 versions tracked so far.
+185 versions tracked so far.
 
 ---
 

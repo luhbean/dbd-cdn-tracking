@@ -2,35 +2,35 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `10.0.3_3668171live` · built 2026-08-25 13:02 UTC
+**Latest version:** `10.1.0_3668618live` · built 2026-08-25 14:24 UTC
 
-[What changed](versions/10.0.3_3668171live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/10.1.0_3668618live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**1** added · **71** modified · **5** removed, compared with `10.1.0_3665864live`.
+**5** added · **71** modified · **1** removed, compared with `10.0.3_3668171live`.
 
-- ~ [`GameConfigs.json`](versions/10.0.3_3668171live/diffs/GameConfigs.json.diff)
-- ~ [`archiveQuests/Anniversary2022.json`](versions/10.0.3_3668171live/diffs/archiveQuests/Anniversary2022.json.diff)
-- ~ [`archiveQuests/Anniversary2023.json`](versions/10.0.3_3668171live/diffs/archiveQuests/Anniversary2023.json.diff)
-- ~ [`archiveQuests/Anniversary2024.json`](versions/10.0.3_3668171live/diffs/archiveQuests/Anniversary2024.json.diff)
-- ~ [`archiveQuests/CalamariV1.json`](versions/10.0.3_3668171live/diffs/archiveQuests/CalamariV1.json.diff)
-- ~ [`archiveQuests/CalamariV2.json`](versions/10.0.3_3668171live/diffs/archiveQuests/CalamariV2.json.diff)
-- ~ [`archiveQuests/CalamariV3.json`](versions/10.0.3_3668171live/diffs/archiveQuests/CalamariV3.json.diff)
-- ~ [`archiveQuests/ChocolateBoxGelato.json`](versions/10.0.3_3668171live/diffs/archiveQuests/ChocolateBoxGelato.json.diff)
-- ~ [`archiveQuests/ChocolateBoxV1.json`](versions/10.0.3_3668171live/diffs/archiveQuests/ChocolateBoxV1.json.diff)
-- ~ [`archiveQuests/DreadByDaylightZodiac.json`](versions/10.0.3_3668171live/diffs/archiveQuests/DreadByDaylightZodiac.json.diff)
-- ~ [`archiveQuests/FireflyV1.json`](versions/10.0.3_3668171live/diffs/archiveQuests/FireflyV1.json.diff)
-- ~ [`archiveQuests/Halloween2021.json`](versions/10.0.3_3668171live/diffs/archiveQuests/Halloween2021.json.diff)
-- ~ [`archiveQuests/Halloween2022.json`](versions/10.0.3_3668171live/diffs/archiveQuests/Halloween2022.json.diff)
-- ~ [`archiveQuests/Halloween2023.json`](versions/10.0.3_3668171live/diffs/archiveQuests/Halloween2023.json.diff)
-- ~ [`archiveQuests/Halloween2024.json`](versions/10.0.3_3668171live/diffs/archiveQuests/Halloween2024.json.diff)
-- ~ [`archiveQuests/Spring2024.json`](versions/10.0.3_3668171live/diffs/archiveQuests/Spring2024.json.diff)
-- ~ [`archiveQuests/Spring2025.json`](versions/10.0.3_3668171live/diffs/archiveQuests/Spring2025.json.diff)
-- ~ [`archiveQuests/Summer2023.json`](versions/10.0.3_3668171live/diffs/archiveQuests/Summer2023.json.diff)
-- ~ [`archiveQuests/Tome01.json`](versions/10.0.3_3668171live/diffs/archiveQuests/Tome01.json.diff)
-- ~ [`archiveQuests/Tome02.json`](versions/10.0.3_3668171live/diffs/archiveQuests/Tome02.json.diff)
-- … and 57 more in [CHANGES.md](versions/10.0.3_3668171live/CHANGES.md)
+- ~ [`GameConfigs.json`](versions/10.1.0_3668618live/diffs/GameConfigs.json.diff)
+- ~ [`archiveQuests/Anniversary2022.json`](versions/10.1.0_3668618live/diffs/archiveQuests/Anniversary2022.json.diff)
+- ~ [`archiveQuests/Anniversary2023.json`](versions/10.1.0_3668618live/diffs/archiveQuests/Anniversary2023.json.diff)
+- ~ [`archiveQuests/Anniversary2024.json`](versions/10.1.0_3668618live/diffs/archiveQuests/Anniversary2024.json.diff)
+- ~ [`archiveQuests/CalamariV1.json`](versions/10.1.0_3668618live/diffs/archiveQuests/CalamariV1.json.diff)
+- ~ [`archiveQuests/CalamariV2.json`](versions/10.1.0_3668618live/diffs/archiveQuests/CalamariV2.json.diff)
+- ~ [`archiveQuests/CalamariV3.json`](versions/10.1.0_3668618live/diffs/archiveQuests/CalamariV3.json.diff)
+- ~ [`archiveQuests/ChocolateBoxGelato.json`](versions/10.1.0_3668618live/diffs/archiveQuests/ChocolateBoxGelato.json.diff)
+- ~ [`archiveQuests/ChocolateBoxV1.json`](versions/10.1.0_3668618live/diffs/archiveQuests/ChocolateBoxV1.json.diff)
+- ~ [`archiveQuests/DreadByDaylightZodiac.json`](versions/10.1.0_3668618live/diffs/archiveQuests/DreadByDaylightZodiac.json.diff)
+- ~ [`archiveQuests/FireflyV1.json`](versions/10.1.0_3668618live/diffs/archiveQuests/FireflyV1.json.diff)
+- ~ [`archiveQuests/Halloween2021.json`](versions/10.1.0_3668618live/diffs/archiveQuests/Halloween2021.json.diff)
+- ~ [`archiveQuests/Halloween2022.json`](versions/10.1.0_3668618live/diffs/archiveQuests/Halloween2022.json.diff)
+- ~ [`archiveQuests/Halloween2023.json`](versions/10.1.0_3668618live/diffs/archiveQuests/Halloween2023.json.diff)
+- ~ [`archiveQuests/Halloween2024.json`](versions/10.1.0_3668618live/diffs/archiveQuests/Halloween2024.json.diff)
+- ~ [`archiveQuests/Spring2024.json`](versions/10.1.0_3668618live/diffs/archiveQuests/Spring2024.json.diff)
+- ~ [`archiveQuests/Spring2025.json`](versions/10.1.0_3668618live/diffs/archiveQuests/Spring2025.json.diff)
+- ~ [`archiveQuests/Summer2023.json`](versions/10.1.0_3668618live/diffs/archiveQuests/Summer2023.json.diff)
+- ~ [`archiveQuests/Tome01.json`](versions/10.1.0_3668618live/diffs/archiveQuests/Tome01.json.diff)
+- ~ [`archiveQuests/Tome02.json`](versions/10.1.0_3668618live/diffs/archiveQuests/Tome02.json.diff)
+- … and 57 more in [CHANGES.md](versions/10.1.0_3668618live/CHANGES.md)
 
 ## Browse
 
@@ -52,7 +52,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-530 versions tracked so far.
+531 versions tracked so far.
 
 ---
 

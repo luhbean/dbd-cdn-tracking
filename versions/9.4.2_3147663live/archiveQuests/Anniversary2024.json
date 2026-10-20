@@ -1,0 +1,2643 @@
+{
+  "Anniversary2024": {
+    "level": [
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_ANN2024-1_End01",
+          "node_ANN2024-1_End02"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 200,
+            "id": "AnniversaryEventCurrency",
+            "type": "currency"
+          },
+          {
+            "amount": 1,
+            "id": "BO_Torso008",
+            "type": "inventory"
+          },
+          {
+            "amount": 1,
+            "id": "K35_Body008",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_ANN2024-1_01": {
+            "clientInfoId": "CommunityAnniversaryCollectInvitation",
+            "coordinates": {
+              "x": 15.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_Start01",
+              "node_ANN2024-1_02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CommunityAnniversaryCollectInvitation": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "CommunityAnniversaryCollectInvitation",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CollectInvitation",
+                    "repetition": 1
+                  }
+                ]
+              },
+              "CommunityAnniversaryCollectInvitation_Community": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": true,
+                "maxProgressionPerPlayer": 5,
+                "neededProgression": 1650000,
+                "objectiveId": "CommunityAnniversaryCollectInvitation_Community",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CollectInvitation",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_02": {
+            "clientInfoId": "CommunityAnniversaryInvitationAnyAbility",
+            "coordinates": {
+              "x": 30.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_01",
+              "node_ANN2024-1_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CommunityAnniversaryInvitationAnyAbility": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 3,
+                "objectiveId": "CommunityAnniversaryInvitationAnyAbility",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.AnniversaryInvitation.AnyAbility",
+                    "repetition": 1
+                  }
+                ]
+              },
+              "CommunityAnniversaryInvitationAnyAbility_Community": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": true,
+                "maxProgressionPerPlayer": 6,
+                "neededProgression": 750000,
+                "objectiveId": "CommunityAnniversaryInvitationAnyAbility_Community",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.AnniversaryInvitation.AnyAbility",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_03": {
+            "clientInfoId": "CommunityAnniversaryOutlastNumberOfEffects",
+            "coordinates": {
+              "x": 65.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_02",
+              "node_ANN2024-1_End01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CommunityAnniversaryOutlastNumberOfEffects": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 5,
+                "objectiveId": "CommunityAnniversaryOutlastNumberOfEffects",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:any",
+                    "questEventId": "QuestEvent.AnniversaryOutlastNumberOfEffects",
+                    "repetition": 1
+                  }
+                ]
+              },
+              "CommunityAnniversaryOutlastNumberOfEffects_Community": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": true,
+                "maxProgressionPerPlayer": 10,
+                "neededProgression": 1180000,
+                "objectiveId": "CommunityAnniversaryOutlastNumberOfEffects_Community",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:any",
+                    "questEventId": "QuestEvent.AnniversaryOutlastNumberOfEffects",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_04": {
+            "clientInfoId": "AnniversaryEventRepairFinish",
+            "coordinates": {
+              "x": 10.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_Start01",
+              "node_ANN2024-1_06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryEventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 3,
+                "objectiveId": "AnniversaryEventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EventGeneratorRepaired",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_05": {
+            "clientInfoId": "AnniversaryEventHook",
+            "coordinates": {
+              "x": 5.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_Start01",
+              "node_ANN2024-1_06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryEventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 6,
+                "objectiveId": "AnniversaryEventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookedOnEventHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_06": {
+            "clientInfoId": "CollectInvitation",
+            "coordinates": {
+              "x": 20.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_04",
+              "node_ANN2024-1_05",
+              "node_ANN2024-1_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CollectInvitation": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "CollectInvitation",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CollectInvitation",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_07": {
+            "clientInfoId": "AnniversaryInvitationAnyAbility",
+            "coordinates": {
+              "x": 35.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_06",
+              "node_ANN2024-1_13"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryInvitationAnyAbility": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 4,
+                "objectiveId": "AnniversaryInvitationAnyAbility",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.AnniversaryInvitation.AnyAbility",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_08": {
+            "clientInfoId": "AnniversaryOutlastNumberOfEffects",
+            "coordinates": {
+              "x": 85.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_Reward01",
+              "node_ANN2024-1_11"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryOutlastNumberOfEffects": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 5,
+                "objectiveId": "AnniversaryOutlastNumberOfEffects",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:any",
+                    "questEventId": "QuestEvent.AnniversaryOutlastNumberOfEffects",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_09": {
+            "clientInfoId": "AnniversaryInvitationSurvivorQuietMode",
+            "coordinates": {
+              "x": 60.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_13",
+              "node_ANN2024-1_Reward01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryInvitationSurvivorQuietMode": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "AnniversaryInvitationSurvivorQuietMode",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.AnniversaryInvitation.Survivor.QuietMode",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_10": {
+            "clientInfoId": "AnniversaryInvitationKillerRemoteHook",
+            "coordinates": {
+              "x": 50.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_13",
+              "node_ANN2024-1_Reward01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryInvitationKillerRemoteHook": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "AnniversaryInvitationKillerRemoteHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.AnniversaryInvitation.Killer.RemoteHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_11": {
+            "clientInfoId": "AnniversaryInvitationAnyAbilityInTrial",
+            "coordinates": {
+              "x": 95.0,
+              "y": 40.0
+            },
+            "journal": [
+              "Anniversary2024"
+            ],
+            "neighbors": [
+              "node_ANN2024-1_08",
+              "node_ANN2024-1_12",
+              "node_ANN2024-1_End02"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "AnniversaryInvitationAnyAbilityInTrial": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 1,
+                "objectiveId": "AnniversaryInvitationAnyAbilityInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.AnniversaryInvitation.AnyAbility",
+                    "repetition": 3
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 100,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_12": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 75.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_Reward01",
+              "node_ANN2024-1_11"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpoints": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 50000,
+                "objectiveId": "EarnBloodpoints",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_13": {
+            "clientInfoId": "EarnEmblemsBronze",
+            "coordinates": {
+              "x": 45.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_07",
+              "node_ANN2024-1_10",
+              "node_ANN2024-1_09"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsBronze": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 6,
+                "objectiveId": "EarnEmblemsBronze",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Bronze",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 80.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_03"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_ANN2024-1_End02": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 100.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_11"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_ANN2024-1_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 65.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_10",
+              "node_ANN2024-1_09",
+              "node_ANN2024-1_12",
+              "node_ANN2024-1_08"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 0.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_04",
+              "node_ANN2024-1_05",
+              "node_ANN2024-1_01"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_ANN2024-1_Start01"
+        ],
+        "startDate": "2024-06-13T15:00:00",
+        "startDateInMs": 1718290800,
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      },
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_ANN2024-2_End01",
+          "node_ANN2024-2_End02"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 200,
+            "id": "AnniversaryEventCurrency",
+            "type": "currency"
+          },
+          {
+            "amount": 1,
+            "id": "BO_Legs008",
+            "type": "inventory"
+          },
+          {
+            "amount": 1,
+            "id": "K35_W008",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_ANN2024-1_01": {
+            "clientInfoId": "CommunityUnhookOrHook",
+            "coordinates": {
+              "x": 85.0,
+              "y": 0.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_04",
+              "node_ANN2024-2_End01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CommunityUnhookOrHook": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 5,
+                "objectiveId": "CommunityUnhookOrHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.UnhookOrHook",
+                    "repetition": 1
+                  }
+                ]
+              },
+              "CommunityUnhookOrHook_Community": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": true,
+                "maxProgressionPerPlayer": 10,
+                "neededProgression": 1125000,
+                "objectiveId": "CommunityUnhookOrHook_Community",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.UnhookOrHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_02": {
+            "clientInfoId": "CommunityChasedByOrChase",
+            "coordinates": {
+              "x": 40.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_03",
+              "node_ANN2024-1_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CommunityChasedByOrChase": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 120,
+                "objectiveId": "CommunityChasedByOrChase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:meOrOther",
+                    "questEventId": "QuestEvent.ChasedByOrChase",
+                    "repetition": 1
+                  }
+                ]
+              },
+              "CommunityChasedByOrChase_Community": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": true,
+                "maxProgressionPerPlayer": 240,
+                "neededProgression": 25000000,
+                "objectiveId": "CommunityChasedByOrChase_Community",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:meOrOther",
+                    "questEventId": "QuestEvent.ChasedByOrChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_03": {
+            "clientInfoId": "CommunityGeneratorSkillCheckSuccessOrBreakGens",
+            "coordinates": {
+              "x": 20.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_ANN2024-2_Start01",
+              "node_ANN2024-1_02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CommunityGeneratorSkillCheckSuccessOrBreakGens": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 20,
+                "objectiveId": "CommunityGeneratorSkillCheckSuccessOrBreakGens",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.GeneratorSkillCheckSuccessOrBreakGens",
+                    "repetition": 1
+                  }
+                ]
+              },
+              "CommunityGeneratorSkillCheckSuccessOrBreakGens_Community": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": true,
+                "maxProgressionPerPlayer": 40,
+                "neededProgression": 3750000,
+                "objectiveId": "CommunityGeneratorSkillCheckSuccessOrBreakGens_Community",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.GeneratorSkillCheckSuccessOrBreakGens",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-1_04": {
+            "clientInfoId": "CommunityPalletDropInChaseOrBreakPallets",
+            "coordinates": {
+              "x": 60.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_02",
+              "node_ANN2024-1_01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CommunityPalletDropInChaseOrBreakPallets": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 5,
+                "objectiveId": "CommunityPalletDropInChaseOrBreakPallets",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.PalletDropInChaseOrBreakPallets",
+                    "repetition": 1
+                  }
+                ]
+              },
+              "CommunityPalletDropInChaseOrBreakPallets_Community": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": true,
+                "maxProgressionPerPlayer": 10,
+                "neededProgression": 875000,
+                "objectiveId": "CommunityPalletDropInChaseOrBreakPallets_Community",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.PalletDropInChaseOrBreakPallets",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-2_05": {
+            "clientInfoId": "AnniversaryEventRepairFinish",
+            "coordinates": {
+              "x": 35.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_ANN2024-2_13",
+              "node_ANN2024-2_09"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryEventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 3,
+                "objectiveId": "AnniversaryEventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EventGeneratorRepaired",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-2_06": {
+            "clientInfoId": "AnniversaryEventHook",
+            "coordinates": {
+              "x": 15.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_ANN2024-2_11",
+              "node_ANN2024-2_10"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryEventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 6,
+                "objectiveId": "AnniversaryEventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookedOnEventHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-2_07": {
+            "clientInfoId": "AnniversaryInvitationAnyAbilityInChase",
+            "coordinates": {
+              "x": 80.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_ANN2024-2_Reward01",
+              "node_ANN2024-2_12"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryInvitationAnyAbilityInChase": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "AnniversaryInvitationAnyAbilityInChase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.AnniversaryInvitation.AnyAbilityInChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-2_08": {
+            "clientInfoId": "AnniversaryOutlastNumberOfEffects",
+            "coordinates": {
+              "x": 80.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_ANN2024-2_Reward01",
+              "node_ANN2024-2_12"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryOutlastNumberOfEffects": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 5,
+                "objectiveId": "AnniversaryOutlastNumberOfEffects",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:any",
+                    "questEventId": "QuestEvent.AnniversaryOutlastNumberOfEffects",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-2_09": {
+            "clientInfoId": "AnniversaryInvitationVaultBlock",
+            "coordinates": {
+              "x": 65.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_ANN2024-2_05",
+              "node_ANN2024-2_14"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryInvitationVaultBlock": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "AnniversaryInvitationVaultBlock",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.AnniversaryInvitation.Survivor.VaultBlock",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-2_10": {
+            "clientInfoId": "AnniversaryInvitationNegateStun",
+            "coordinates": {
+              "x": 45.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_ANN2024-2_06",
+              "node_ANN2024-2_14"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryInvitationNegateStun": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "AnniversaryInvitationNegateStun",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.AnniversaryInvitation.Killer.NegateStun",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-2_11": {
+            "clientInfoId": "CollectInvitation",
+            "coordinates": {
+              "x": 5.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_ANN2024-2_Start02",
+              "node_ANN2024-2_06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CollectInvitation": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "CollectInvitation",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CollectInvitation",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-2_12": {
+            "clientInfoId": "AnniversaryInvitationAnyAbilityInTrial",
+            "coordinates": {
+              "x": 75.0,
+              "y": 60.0
+            },
+            "journal": [
+              "Anniversary2024"
+            ],
+            "neighbors": [
+              "node_ANN2024-2_End02",
+              "node_ANN2024-2_08",
+              "node_ANN2024-2_07"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "AnniversaryInvitationAnyAbilityInTrial": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 1,
+                "objectiveId": "AnniversaryInvitationAnyAbilityInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.AnniversaryInvitation.AnyAbility",
+                    "repetition": 3
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 100,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-2_13": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 20.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_ANN2024-2_Start02",
+              "node_ANN2024-2_05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpoints": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 75000,
+                "objectiveId": "EarnBloodpoints",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-2_14": {
+            "clientInfoId": "EarnEmblemsSilver",
+            "coordinates": {
+              "x": 40.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_ANN2024-2_10",
+              "node_ANN2024-2_09",
+              "node_ANN2024-2_Reward01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsSilver": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 6,
+                "objectiveId": "EarnEmblemsSilver",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Silver",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-2_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 95.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_01"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_ANN2024-2_End02": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 95.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_ANN2024-2_12"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_ANN2024-2_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 55.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ANN2024-2_07",
+              "node_ANN2024-2_08",
+              "node_ANN2024-2_14"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-2_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 5.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_ANN2024-1_03"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_ANN2024-2_Start02": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 0.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_ANN2024-2_11",
+              "node_ANN2024-2_13"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_ANN2024-2_Start01",
+          "node_ANN2024-2_Start02"
+        ],
+        "startDate": "2024-06-20T15:00:00",
+        "startDateInMs": 1718895600,
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      },
+      {
+        "challengeRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ],
+        "end": [
+          "node_ANN2024-3_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 200,
+            "id": "AnniversaryEventCurrency",
+            "type": "currency"
+          },
+          {
+            "amount": 1,
+            "id": "BO_Head008",
+            "type": "inventory"
+          },
+          {
+            "amount": 1,
+            "id": "K35_Head008",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_ANN2024-3_01": {
+            "clientInfoId": "CommunityLightbringerOrGatekeeper",
+            "coordinates": {
+              "x": 20.0,
+              "y": 0.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_Start01",
+              "node_ANN2024-3_02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CommunityLightbringerOrGatekeeperGold": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "CommunityLightbringerOrGatekeeperGold",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Gold;EmblemName:Emblem_Survivor_Lightbringer.Emblem_Killer_Gatekeeper",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              },
+              "CommunityLightbringerOrGatekeeperGold_Community": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": true,
+                "maxProgressionPerPlayer": 5,
+                "neededProgression": 300000,
+                "objectiveId": "CommunityLightbringerOrGatekeeperGold_Community",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Gold;EmblemName:Emblem_Survivor_Lightbringer.Emblem_Killer_Gatekeeper",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 50000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-3_02": {
+            "clientInfoId": "CommunityEvaderOrChaser",
+            "coordinates": {
+              "x": 30.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_01",
+              "node_ANN2024-3_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CommunityEvaderOrChaserGold": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "CommunityEvaderOrChaserGold",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Gold;EmblemName:Emblem_Survivor_Evader.Emblem_Killer_Chaser",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              },
+              "CommunityEvaderOrChaserGold_Community": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": true,
+                "maxProgressionPerPlayer": 5,
+                "neededProgression": 250000,
+                "objectiveId": "CommunityEvaderOrChaserGold_Community",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Gold;EmblemName:Emblem_Survivor_Evader.Emblem_Killer_Chaser",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 50000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-3_03": {
+            "clientInfoId": "CommunityBenevolentOrMalicious",
+            "coordinates": {
+              "x": 75.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_02",
+              "node_ANN2024-3_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CommunityBenevolentOrMaliciousGold": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "CommunityBenevolentOrMaliciousGold",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Gold;EmblemName:Emblem_Survivor_Benevolent.Emblem_Killer_Malicious",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              },
+              "CommunityBenevolentOrMaliciousGold_Community": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": true,
+                "maxProgressionPerPlayer": 5,
+                "neededProgression": 200000,
+                "objectiveId": "CommunityBenevolentOrMaliciousGold_Community",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Gold;EmblemName:Emblem_Survivor_Benevolent.Emblem_Killer_Malicious",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 50000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-3_04": {
+            "clientInfoId": "CommunityUnbrokenOrDevout",
+            "coordinates": {
+              "x": 90.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_End01",
+              "node_ANN2024-3_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CommunityUnbrokenOrDevoutGold": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "CommunityUnbrokenOrDevoutGold",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Gold;EmblemName:Emblem_Survivor_Unbroken.Emblem_Killer_Devout",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              },
+              "CommunityUnbrokenOrDevoutGold_Community": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": true,
+                "maxProgressionPerPlayer": 5,
+                "neededProgression": 150000,
+                "objectiveId": "CommunityUnbrokenOrDevoutGold_Community",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Gold;EmblemName:Emblem_Survivor_Unbroken.Emblem_Killer_Devout",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 50000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-3_05": {
+            "clientInfoId": "AnniversaryEventRepairFinish",
+            "coordinates": {
+              "x": 45.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_10",
+              "node_ANN2024-3_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryEventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 3,
+                "objectiveId": "AnniversaryEventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EventGeneratorRepaired",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-3_06": {
+            "clientInfoId": "AnniversaryEventHook",
+            "coordinates": {
+              "x": 55.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_14",
+              "node_ANN2024-3_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryEventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 6,
+                "objectiveId": "AnniversaryEventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookedOnEventHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-3_07": {
+            "clientInfoId": "AnniversaryInvitationPalletSummon",
+            "coordinates": {
+              "x": 70.0,
+              "y": 100.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_05",
+              "node_ANN2024-3_09"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryInvitationPalletSummon": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 3,
+                "objectiveId": "AnniversaryInvitationPalletSummon",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.AnniversaryInvitation.Survivor.PalletSummon",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-3_08": {
+            "clientInfoId": "AnniversaryInvitationPalletBreak",
+            "coordinates": {
+              "x": 75.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_06",
+              "node_ANN2024-3_09"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryInvitationPalletBreak": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 5,
+                "objectiveId": "AnniversaryInvitationPalletBreak",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.AnniversaryInvitation.Killer.PalletBreak",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-3_09": {
+            "clientInfoId": "AnniversaryOutlastNumberOfEffects",
+            "coordinates": {
+              "x": 85.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_07",
+              "node_ANN2024-3_08",
+              "node_ANN2024-3_End01",
+              "node_ANN2024-3_Reward01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryOutlastNumberOfEffects": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 5,
+                "objectiveId": "AnniversaryOutlastNumberOfEffects",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:any",
+                    "questEventId": "QuestEvent.AnniversaryOutlastNumberOfEffects",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-3_10": {
+            "clientInfoId": "AnniversaryInvitationAnyAbilityOutOfChase",
+            "coordinates": {
+              "x": 25.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_12",
+              "node_ANN2024-3_11",
+              "node_ANN2024-3_05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "AnniversaryInvitationAnyAbilityOutOfChase": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 5,
+                "objectiveId": "AnniversaryInvitationAnyAbilityOutOfChase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.AnniversaryInvitation.AnyAbilityOutOfChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-3_11": {
+            "clientInfoId": "CollectInvitation",
+            "coordinates": {
+              "x": 15.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_Start02",
+              "node_ANN2024-3_10"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CollectInvitation": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 2,
+                "objectiveId": "CollectInvitation",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CollectInvitation",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-3_12": {
+            "clientInfoId": "AnniversaryInvitationAnyAbilityInTrial",
+            "coordinates": {
+              "x": 55.0,
+              "y": 50.0
+            },
+            "journal": [
+              "Anniversary2024"
+            ],
+            "neighbors": [
+              "node_ANN2024-3_14",
+              "node_ANN2024-3_Reward01",
+              "node_ANN2024-3_10"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "AnniversaryInvitationAnyAbilityInTrial": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "SeasonalEvent"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 1,
+                "objectiveId": "AnniversaryInvitationAnyAbilityInTrial",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.AnniversaryInvitation.AnyAbility",
+                    "repetition": 3
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 8,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 50000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 100,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-3_13": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 10.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_Start02",
+              "node_ANN2024-3_14"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpoints": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 100000,
+                "objectiveId": "EarnBloodpoints",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-3_14": {
+            "clientInfoId": "EarnEmblemsGold",
+            "coordinates": {
+              "x": 20.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_13",
+              "node_ANN2024-3_12",
+              "node_ANN2024-3_06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsGold": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": 0,
+                "neededProgression": 6,
+                "objectiveId": "EarnEmblemsGold",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Gold",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 5,
+                "id": "star",
+                "type": "progressionDbD"
+              },
+              {
+                "amount": 35000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 50,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-3_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 95.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_09",
+              "node_ANN2024-3_04"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_ANN2024-3_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 70.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_12",
+              "node_ANN2024-3_09"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 100,
+                "id": "AnniversaryEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_ANN2024-3_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 0.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_01"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_ANN2024-3_Start02": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 0.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_ANN2024-3_13",
+              "node_ANN2024-3_11"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_ANN2024-3_Start01",
+          "node_ANN2024-3_Start02"
+        ],
+        "startDate": "2024-06-27T15:00:00",
+        "startDateInMs": 1719500400,
+        "taskRewards": [
+          {
+            "amount": 0,
+            "id": "star",
+            "type": "progressionDbD"
+          }
+        ]
+      }
+    ],
+    "newTomePopup": false,
+    "riftId": "Tome19",
+    "specialEventId": "Anniversary2024"
+  }
+}

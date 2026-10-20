@@ -2,6 +2,32 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.4.1_3072485live](versions/9.4.1_3072485live/CHANGES.md)
+
+Built 2026-02-03 18:49 UTC · **+0** added · **~21** modified · **−6** removed
+
+- ~ [`GameConfigs.json`](versions/9.4.1_3072485live/diffs/GameConfigs.json.diff)
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.4.1_3072485live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`catalog.json`](versions/9.4.1_3072485live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_de.json`](versions/9.4.1_3072485live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.4.1_3072485live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/9.4.1_3072485live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/9.4.1_3072485live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_ko.json`](versions/9.4.1_3072485live/diffs/challengeLocs/challengeText_ko.json.diff)
+- ~ [`challengeLocs/challengeText_pl.json`](versions/9.4.1_3072485live/diffs/challengeLocs/challengeText_pl.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.4.1_3072485live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_ru.json`](versions/9.4.1_3072485live/diffs/challengeLocs/challengeText_ru.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/9.4.1_3072485live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`challengeLocs/challengeText_tr.json`](versions/9.4.1_3072485live/diffs/challengeLocs/challengeText_tr.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/9.4.1_3072485live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
+- ~ [`challengeSets.json`](versions/9.4.1_3072485live/diffs/challengeSets.json.diff)
+- ~ [`contentSchedule.json`](versions/9.4.1_3072485live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.4.1_3072485live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`freetoplay/EU/event.json`](versions/9.4.1_3072485live/diffs/freetoplay/EU/event.json.diff)
+- ~ [`freetoplay/NA/event.json`](versions/9.4.1_3072485live/diffs/freetoplay/NA/event.json.diff)
+- ~ [`recommendations.json`](versions/9.4.1_3072485live/diffs/recommendations.json.diff)
+- … and 7 more in [CHANGES.md](versions/9.4.1_3072485live/CHANGES.md)
+
 ## [9.4.0_3072078live](versions/9.4.0_3072078live/CHANGES.md)
 
 Built 2026-02-03 15:35 UTC · **+6** added · **~10** modified · **−0** removed

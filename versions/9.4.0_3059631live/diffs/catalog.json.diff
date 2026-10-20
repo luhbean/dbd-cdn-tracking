@@ -1,0 +1,3550 @@
+--- a/catalog.json
++++ b/catalog.json
+@@ -271,18 +271,6 @@
+         "price": 500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 250
+-          }
+-        ],
+-        "endDate": "2026-01-19T16:00:00",
+-        "startDate": "2025-12-15T16:00:00"
+-      }
+-    ],
+     "id": "Laurie",
+     "metaData": {
+       "character": "5",
+@@ -313,15 +301,7 @@
+       ],
+       "entitledByDefault": false,
+       "hiddenIfNotOwned": true,
+-      "role": "Camper",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2026-01-19T16:00:00",
+-          "startDate": "2025-12-15T16:00:00"
+-        }
+-      ]
++      "role": "Camper"
+     },
+     "nonSecure": false,
+     "purchasable": true,
+@@ -574,18 +554,6 @@
+         "price": 500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 250
+-          }
+-        ],
+-        "endDate": "2026-01-19T16:00:00",
+-        "startDate": "2025-12-15T16:00:00"
+-      }
+-    ],
+     "id": "Shape",
+     "metaData": {
+       "character": "268435461",
+@@ -616,15 +584,7 @@
+       ],
+       "entitledByDefault": false,
+       "hiddenIfNotOwned": true,
+-      "role": "Slasher",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2026-01-19T16:00:00",
+-          "startDate": "2025-12-15T16:00:00"
+-        }
+-      ]
++      "role": "Slasher"
+     },
+     "nonSecure": false,
+     "purchasable": true,
+@@ -1992,6 +1952,18 @@
+         "price": 500
+       }
+     ],
++    "eventCostList": [
++      {
++        "cost": [
++          {
++            "currencyId": "Cells",
++            "price": 350
++          }
++        ],
++        "endDate": "2026-01-30T16:00:00",
++        "startDate": "2026-01-23T16:00:00"
++      }
++    ],
+     "id": "K20",
+     "metaData": {
+       "character": "268435475",
+@@ -2022,7 +1994,15 @@
+       ],
+       "entitledByDefault": false,
+       "hiddenIfNotOwned": false,
+-      "role": "Slasher"
++      "role": "Slasher",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ]
+     },
+     "nonSecure": false,
+     "purchasable": true,
+@@ -2038,6 +2018,18 @@
+         "price": 500
+       }
+     ],
++    "eventCostList": [
++      {
++        "cost": [
++          {
++            "currencyId": "Cells",
++            "price": 350
++          }
++        ],
++        "endDate": "2026-01-30T16:00:00",
++        "startDate": "2026-01-23T16:00:00"
++      }
++    ],
+     "id": "S22",
+     "metaData": {
+       "character": "21",
+@@ -2068,7 +2060,15 @@
+       ],
+       "entitledByDefault": false,
+       "hiddenIfNotOwned": false,
+-      "role": "Camper"
++      "role": "Camper",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ]
+     },
+     "nonSecure": false,
+     "purchasable": true,
+@@ -9574,18 +9574,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "AV_Torso006",
+     "metaData": {
+       "availablePeriods": [
+@@ -9604,14 +9593,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2018-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -14911,18 +14892,7 @@
+         "price": 7200
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 280
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-09T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "BE_W016",
+     "metaData": {
+       "availablePeriods": [
+@@ -14942,14 +14912,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "VeryRare",
+       "releaseDate": "2023-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-09T16:00:00"
+-        }
+-      ],
+       "type": "Weapon"
+     },
+     "nonSecure": false,
+@@ -22159,18 +22121,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "CM_Torso008",
+     "metaData": {
+       "availablePeriods": [
+@@ -22189,14 +22140,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2018-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -28356,18 +28299,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "DF_Torso007",
+     "metaData": {
+       "availablePeriods": [
+@@ -28386,14 +28318,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2018-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -33243,18 +33167,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "DK_Torso006",
+     "metaData": {
+       "availablePeriods": [
+@@ -33273,14 +33186,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2018-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -46457,18 +46362,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "FM_Torso006",
+     "metaData": {
+       "availablePeriods": [
+@@ -46487,14 +46381,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2018-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -48867,18 +48753,7 @@
+         "price": 250
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "FS_Torso009",
+     "metaData": {
+       "availablePeriods": [
+@@ -48897,14 +48772,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2019-12-11T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -53229,18 +53096,7 @@
+         "price": 7200
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 280
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-09T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "GK_W018",
+     "metaData": {
+       "availablePeriods": [
+@@ -53260,14 +53116,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "VeryRare",
+       "releaseDate": "2024-12-03T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-09T16:00:00"
+-        }
+-      ],
+       "type": "Weapon"
+     },
+     "nonSecure": false,
+@@ -56515,18 +56363,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "GS_Torso008",
+     "metaData": {
+       "availablePeriods": [
+@@ -56545,14 +56382,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2018-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -65623,18 +65452,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "HS_Torso007",
+     "metaData": {
+       "availablePeriods": [
+@@ -65653,14 +65471,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2018-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -73887,18 +73697,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "JP_Torso008",
+     "metaData": {
+       "availablePeriods": [
+@@ -73917,14 +73716,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2018-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -80336,18 +80127,7 @@
+         "price": 400
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 280
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-09T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "K21_W016",
+     "metaData": {
+       "availablePeriods": [
+@@ -80366,14 +80146,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "VeryRare",
+       "releaseDate": "2024-12-05T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-09T16:00:00"
+-        }
+-      ],
+       "type": "Weapon"
+     },
+     "nonSecure": false,
+@@ -99982,18 +99754,7 @@
+         "price": 250
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "K34_Body008",
+     "metaData": {
+       "availablePeriods": [
+@@ -100012,14 +99773,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2023-12-14T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -108568,18 +108321,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "KK_Body012",
+     "metaData": {
+       "availablePeriods": [
+@@ -108598,14 +108340,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2019-12-11T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -108626,20 +108360,9 @@
+       {
+         "currencyId": "Shards",
+         "price": 4500
+-      }
+-    ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+       }
+     ],
++    "eventCostList": [],
+     "id": "KK_Body013",
+     "metaData": {
+       "availablePeriods": [
+@@ -108658,14 +108381,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2019-12-11T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -114827,18 +114542,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "KS_Torso006",
+     "metaData": {
+       "availablePeriods": [
+@@ -114857,14 +114561,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2018-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -118247,18 +117943,7 @@
+         "price": 400
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 200
+-          }
+-        ],
+-        "endDate": "2026-01-19T16:00:00",
+-        "startDate": "2025-12-15T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "LS_Head006",
+     "metaData": {
+       "availablePeriods": [
+@@ -118274,14 +117959,6 @@
+       "outfitId": "LS_outfit_006",
+       "rarity": "VeryRare",
+       "releaseDate": "2019-10-30T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2026-01-19T16:00:00",
+-          "startDate": "2025-12-15T16:00:00"
+-        }
+-      ],
+       "type": "Head",
+       "unbreakable": false
+     },
+@@ -118372,18 +118049,7 @@
+         "price": 400
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 200
+-          }
+-        ],
+-        "endDate": "2026-01-19T16:00:00",
+-        "startDate": "2025-12-15T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "LS_Legs006",
+     "metaData": {
+       "availablePeriods": [
+@@ -118399,14 +118065,6 @@
+       "outfitId": "LS_outfit_006",
+       "rarity": "VeryRare",
+       "releaseDate": "2019-10-30T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2026-01-19T16:00:00",
+-          "startDate": "2025-12-15T16:00:00"
+-        }
+-      ],
+       "type": "Legs",
+       "unbreakable": false
+     },
+@@ -118497,18 +118155,7 @@
+         "price": 400
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 200
+-          }
+-        ],
+-        "endDate": "2026-01-19T16:00:00",
+-        "startDate": "2025-12-15T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "LS_Torso006",
+     "metaData": {
+       "availablePeriods": [
+@@ -118524,14 +118171,6 @@
+       "outfitId": "LS_outfit_006",
+       "rarity": "VeryRare",
+       "releaseDate": "2019-10-30T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2026-01-19T16:00:00",
+-          "startDate": "2025-12-15T16:00:00"
+-        }
+-      ],
+       "type": "Torso",
+       "unbreakable": false
+     },
+@@ -122698,18 +122337,7 @@
+         "price": 250
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "ML_Torso009",
+     "metaData": {
+       "availablePeriods": [
+@@ -122728,14 +122356,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2019-12-11T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -122872,18 +122492,7 @@
+         "price": 400
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 200
+-          }
+-        ],
+-        "endDate": "2026-01-19T16:00:00",
+-        "startDate": "2025-12-15T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "MM_Body02",
+     "metaData": {
+       "availablePeriods": [
+@@ -122899,14 +122508,6 @@
+       "outfitId": "MM_outfit_02",
+       "rarity": "VeryRare",
+       "releaseDate": "2019-10-30T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2026-01-19T16:00:00",
+-          "startDate": "2025-12-15T16:00:00"
+-        }
+-      ],
+       "type": "Torso",
+       "unbreakable": false
+     },
+@@ -123014,20 +122615,9 @@
+       {
+         "currencyId": "Cells",
+         "price": 400
+-      }
+-    ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 200
+-          }
+-        ],
+-        "endDate": "2026-01-19T16:00:00",
+-        "startDate": "2025-12-15T16:00:00"
+       }
+     ],
++    "eventCostList": [],
+     "id": "MM_W02_01",
+     "metaData": {
+       "availablePeriods": [
+@@ -123043,14 +122633,6 @@
+       "outfitId": "MM_outfit_02",
+       "rarity": "VeryRare",
+       "releaseDate": "2019-10-30T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2026-01-19T16:00:00",
+-          "startDate": "2025-12-15T16:00:00"
+-        }
+-      ],
+       "type": "Weapon",
+       "unbreakable": false
+     },
+@@ -123070,18 +122652,7 @@
+         "price": 400
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 200
+-          }
+-        ],
+-        "endDate": "2026-01-19T16:00:00",
+-        "startDate": "2025-12-15T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "MM_W02_02",
+     "metaData": {
+       "availablePeriods": [
+@@ -123096,14 +122667,6 @@
+       "limitedTimeEndDate": "2026-01-19T16:00:00",
+       "rarity": "VeryRare",
+       "releaseDate": "2019-10-30T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2026-01-19T16:00:00",
+-          "startDate": "2025-12-15T16:00:00"
+-        }
+-      ],
+       "type": "Weapon"
+     },
+     "nonSecure": false,
+@@ -123122,18 +122685,7 @@
+         "price": 400
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 200
+-          }
+-        ],
+-        "endDate": "2026-01-19T16:00:00",
+-        "startDate": "2025-12-15T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "MM_W02_03",
+     "metaData": {
+       "availablePeriods": [
+@@ -123148,14 +122700,6 @@
+       "limitedTimeEndDate": "2026-01-19T16:00:00",
+       "rarity": "VeryRare",
+       "releaseDate": "2019-10-30T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2026-01-19T16:00:00",
+-          "startDate": "2025-12-15T16:00:00"
+-        }
+-      ],
+       "type": "Weapon"
+     },
+     "nonSecure": false,
+@@ -125531,18 +125075,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "MS_Torso010",
+     "metaData": {
+       "availablePeriods": [
+@@ -125561,14 +125094,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2019-12-11T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -130891,18 +130416,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "MT_Torso007",
+     "metaData": {
+       "availablePeriods": [
+@@ -130921,14 +130435,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2018-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -138106,18 +137612,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "NK_Torso007",
+     "metaData": {
+       "availablePeriods": [
+@@ -138136,14 +137631,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2018-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -152905,18 +152392,7 @@
+         "price": 250
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S22_Torso009",
+     "metaData": {
+       "availablePeriods": [
+@@ -152935,14 +152411,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2021-05-14T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -153096,7 +152564,18 @@
+         "price": 100
+       }
+     ],
+-    "eventCostList": [],
++    "eventCostList": [
++      {
++        "cost": [
++          {
++            "currencyId": "Cells",
++            "price": 70
++          }
++        ],
++        "endDate": "2026-01-30T16:00:00",
++        "startDate": "2026-01-23T16:00:00"
++      }
++    ],
+     "id": "S22_Torso01_01",
+     "metaData": {
+       "base_itemId": "S22_Torso01_01",
+@@ -153104,6 +152583,14 @@
+       "entitledByDefault": false,
+       "rarity": "Uncommon",
+       "releaseDate": "2020-06-16T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -153120,9 +152607,20 @@
+       {
+         "currencyId": "Cells",
+         "price": 100
++      }
++    ],
++    "eventCostList": [
++      {
++        "cost": [
++          {
++            "currencyId": "Cells",
++            "price": 70
++          }
++        ],
++        "endDate": "2026-01-30T16:00:00",
++        "startDate": "2026-01-23T16:00:00"
+       }
+     ],
+-    "eventCostList": [],
+     "id": "S22_Torso01_02",
+     "metaData": {
+       "base_itemId": "S22_Torso01_02",
+@@ -153130,6 +152628,14 @@
+       "entitledByDefault": false,
+       "rarity": "Uncommon",
+       "releaseDate": "2020-06-16T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -153148,7 +152654,18 @@
+         "price": 100
+       }
+     ],
+-    "eventCostList": [],
++    "eventCostList": [
++      {
++        "cost": [
++          {
++            "currencyId": "Cells",
++            "price": 70
++          }
++        ],
++        "endDate": "2026-01-30T16:00:00",
++        "startDate": "2026-01-23T16:00:00"
++      }
++    ],
+     "id": "S22_Torso01_03",
+     "metaData": {
+       "base_itemId": "S22_Torso01_03",
+@@ -153156,6 +152673,14 @@
+       "entitledByDefault": false,
+       "rarity": "Uncommon",
+       "releaseDate": "2020-06-16T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -153172,9 +152697,20 @@
+       {
+         "currencyId": "Cells",
+         "price": 100
++      }
++    ],
++    "eventCostList": [
++      {
++        "cost": [
++          {
++            "currencyId": "Cells",
++            "price": 70
++          }
++        ],
++        "endDate": "2026-01-30T16:00:00",
++        "startDate": "2026-01-23T16:00:00"
+       }
+     ],
+-    "eventCostList": [],
+     "id": "S22_Torso01_04",
+     "metaData": {
+       "base_itemId": "S22_Torso01_04",
+@@ -153182,6 +152718,14 @@
+       "entitledByDefault": false,
+       "rarity": "Uncommon",
+       "releaseDate": "2020-06-16T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -153200,7 +152744,18 @@
+         "price": 100
+       }
+     ],
+-    "eventCostList": [],
++    "eventCostList": [
++      {
++        "cost": [
++          {
++            "currencyId": "Cells",
++            "price": 70
++          }
++        ],
++        "endDate": "2026-01-30T16:00:00",
++        "startDate": "2026-01-23T16:00:00"
++      }
++    ],
+     "id": "S22_Torso01_05",
+     "metaData": {
+       "base_itemId": "S22_Torso01_05",
+@@ -153208,6 +152763,14 @@
+       "entitledByDefault": false,
+       "rarity": "Uncommon",
+       "releaseDate": "2020-06-16T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -153226,7 +152789,18 @@
+         "price": 100
+       }
+     ],
+-    "eventCostList": [],
++    "eventCostList": [
++      {
++        "cost": [
++          {
++            "currencyId": "Cells",
++            "price": 70
++          }
++        ],
++        "endDate": "2026-01-30T16:00:00",
++        "startDate": "2026-01-23T16:00:00"
++      }
++    ],
+     "id": "S22_Torso01_06",
+     "metaData": {
+       "base_itemId": "S22_Torso01_06",
+@@ -153234,6 +152808,14 @@
+       "entitledByDefault": false,
+       "rarity": "Uncommon",
+       "releaseDate": "2020-06-16T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -155776,18 +155358,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S23_Torso009",
+     "metaData": {
+       "availablePeriods": [
+@@ -155806,14 +155377,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2021-05-14T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -159328,18 +158891,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S24_Torso007",
+     "metaData": {
+       "availablePeriods": [
+@@ -159358,14 +158910,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2021-05-14T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -163282,18 +162826,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S25_Torso012",
+     "metaData": {
+       "availablePeriods": [
+@@ -163312,14 +162845,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2021-11-20T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -165017,18 +164542,7 @@
+         "price": 250
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S26_Torso007",
+     "metaData": {
+       "availablePeriods": [
+@@ -165047,14 +164561,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2021-12-09T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -165716,18 +165222,7 @@
+         "price": 250
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S27_Torso007",
+     "metaData": {
+       "availablePeriods": [
+@@ -165746,14 +165241,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2021-12-09T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -168553,18 +168040,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S28_Torso009",
+     "metaData": {
+       "availablePeriods": [
+@@ -168583,14 +168059,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2021-11-20T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -171441,20 +170909,9 @@
+       {
+         "currencyId": "Shards",
+         "price": 4500
+-      }
+-    ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+       }
+     ],
++    "eventCostList": [],
+     "id": "S29_Torso007",
+     "metaData": {
+       "availablePeriods": [
+@@ -171473,14 +170930,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2021-11-20T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -172812,18 +172261,7 @@
+         "price": 250
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S30_Torso007",
+     "metaData": {
+       "availablePeriods": [
+@@ -172842,14 +172280,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2022-12-20T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -174655,18 +174085,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S31_Torso008",
+     "metaData": {
+       "availablePeriods": [
+@@ -174686,14 +174105,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2023-12-01T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -176145,18 +175556,7 @@
+         "price": 250
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S32_Torso007",
+     "metaData": {
+       "availablePeriods": [
+@@ -176175,14 +175575,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2022-12-20T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -176592,18 +175984,7 @@
+         "price": 250
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S33_Torso007",
+     "metaData": {
+       "availablePeriods": [
+@@ -176622,14 +176003,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2022-12-20T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -178595,18 +177968,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S34_Torso008",
+     "metaData": {
+       "availablePeriods": [
+@@ -178626,14 +177988,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2023-12-01T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -181802,18 +181156,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S35_Torso012",
+     "metaData": {
+       "availablePeriods": [
+@@ -181833,14 +181176,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2024-12-03T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -184609,18 +183944,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S36_Torso012",
+     "metaData": {
+       "availablePeriods": [
+@@ -184640,14 +183964,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2024-12-03T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -187126,18 +186442,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S37_Torso012",
+     "metaData": {
+       "availablePeriods": [
+@@ -187157,14 +186462,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2024-12-03T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -189582,18 +188879,7 @@
+         "price": 250
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S39_Torso008",
+     "metaData": {
+       "availablePeriods": [
+@@ -189612,14 +188898,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2023-12-14T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -190444,18 +189722,7 @@
+         "price": 250
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S40_Torso011",
+     "metaData": {
+       "availablePeriods": [
+@@ -190474,14 +189741,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2024-12-12T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -192151,18 +191410,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S41_Torso013",
+     "metaData": {
+       "availablePeriods": [
+@@ -192181,14 +191429,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2024-12-12T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -193489,18 +192729,7 @@
+         "price": 250
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S42_Torso009",
+     "metaData": {
+       "availablePeriods": [
+@@ -193519,14 +192748,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2024-12-12T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -193568,18 +192789,7 @@
+         "price": 250
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S42_Torso010",
+     "metaData": {
+       "availablePeriods": [
+@@ -193598,14 +192808,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2024-12-12T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -196731,18 +195933,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "S45_Torso008",
+     "metaData": {
+       "availablePeriods": [
+@@ -196761,14 +195952,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2024-12-12T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -208421,20 +207604,9 @@
+       {
+         "currencyId": "Shards",
+         "price": 4500
+-      }
+-    ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+       }
+     ],
++    "eventCostList": [],
+     "id": "SwedenSurvivor_Torso008",
+     "metaData": {
+       "availablePeriods": [
+@@ -208453,14 +207625,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2019-12-11T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -212192,18 +211356,7 @@
+         "price": 7200
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 280
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-09T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "TC_W017",
+     "metaData": {
+       "availablePeriods": [
+@@ -212223,14 +211376,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "VeryRare",
+       "releaseDate": "2024-12-03T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-09T16:00:00"
+-        }
+-      ],
+       "type": "Weapon"
+     },
+     "nonSecure": false,
+@@ -222062,18 +221207,7 @@
+         "price": 7200
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 280
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-09T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "TR_W020",
+     "metaData": {
+       "availablePeriods": [
+@@ -222093,14 +221227,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "VeryRare",
+       "releaseDate": "2024-12-03T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-09T16:00:00"
+-        }
+-      ],
+       "type": "Weapon"
+     },
+     "nonSecure": false,
+@@ -225885,18 +225011,7 @@
+         "price": 7200
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 280
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-09T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "TW_W04_03",
+     "metaData": {
+       "availablePeriods": [
+@@ -225916,14 +225031,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "VeryRare",
+       "releaseDate": "2021-11-20T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-09T16:00:00"
+-        }
+-      ],
+       "type": "Weapon"
+     },
+     "nonSecure": false,
+@@ -227810,18 +226917,7 @@
+         "price": 7200
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 280
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-09T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "UK_W012",
+     "metaData": {
+       "availablePeriods": [
+@@ -227841,14 +226937,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "VeryRare",
+       "releaseDate": "2023-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-09T16:00:00"
+-        }
+-      ],
+       "type": "Weapon"
+     },
+     "nonSecure": false,
+@@ -231311,18 +230399,7 @@
+         "price": 4500
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 175
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-01T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "US_Torso011",
+     "metaData": {
+       "availablePeriods": [
+@@ -231341,14 +230418,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "Rare",
+       "releaseDate": "2021-05-14T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -236907,18 +235976,7 @@
+         "price": 7200
+       }
+     ],
+-    "eventCostList": [
+-      {
+-        "cost": [
+-          {
+-            "currencyId": "Cells",
+-            "price": 280
+-          }
+-        ],
+-        "endDate": "2026-01-06T16:00:00",
+-        "startDate": "2025-12-09T16:00:00"
+-      }
+-    ],
++    "eventCostList": [],
+     "id": "WI_W007_01",
+     "metaData": {
+       "availablePeriods": [
+@@ -236938,14 +235996,6 @@
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "rarity": "VeryRare",
+       "releaseDate": "2021-11-20T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-09T16:00:00"
+-        }
+-      ],
+       "type": "Weapon"
+     },
+     "nonSecure": false,
+@@ -243247,14 +242297,6 @@
+         "AV_Legs001_01"
+       ],
+       "releaseDate": "2018-07-17T00:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -244040,14 +243082,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2020-12-08T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -244582,14 +243616,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2019-12-18T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -244833,14 +243859,6 @@
+         "BE_W024"
+       ],
+       "releaseDate": "2024-04-23T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.4000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -246266,14 +245284,6 @@
+         "GK_W02"
+       ],
+       "releaseDate": "2018-06-12T00:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -246373,14 +245383,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2018-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -246590,14 +245592,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2020-12-11T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -247300,14 +246294,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2019-12-18T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -247385,14 +246371,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2020-12-08T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -247778,14 +246756,6 @@
+         "DF_Legs028"
+       ],
+       "releaseDate": "2024-01-16T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -248150,14 +247120,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2023-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-09T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -250298,6 +249260,14 @@
+         "FM_Legs022"
+       ],
+       "releaseDate": "2022-11-03T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -250540,14 +249510,6 @@
+         "FM_Legs031"
+       ],
+       "releaseDate": "2024-04-16T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -250669,14 +249631,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2024-12-12T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -251573,14 +250527,6 @@
+         "GS_Legs014"
+       ],
+       "releaseDate": "2021-03-05T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -251846,14 +250792,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2022-12-01T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -253417,14 +252355,6 @@
+         "HS_Legs020"
+       ],
+       "releaseDate": "2023-11-28T17:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -254725,14 +253655,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2020-12-11T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -255118,6 +254040,14 @@
+         "K20_W006"
+       ],
+       "releaseDate": "2020-06-16T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -255140,6 +254070,14 @@
+         "K20_W007"
+       ],
+       "releaseDate": "2020-08-21T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -255162,6 +254100,14 @@
+         "K20_W008"
+       ],
+       "releaseDate": "2021-10-26T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -255187,9 +254133,9 @@
+       "temporaryDiscounts": [
+         {
+           "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
+         }
+       ],
+       "unbreakable": true
+@@ -255779,14 +254725,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2024-12-12T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -255886,14 +254824,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2020-12-01T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -256424,14 +255354,6 @@
+         "K23_Weapon008"
+       ],
+       "releaseDate": "2021-09-16T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -256576,14 +255498,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2022-12-01T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -257182,14 +256096,6 @@
+         "K24_W008"
+       ],
+       "releaseDate": "2025-02-10T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -257828,14 +256734,6 @@
+         "K26_W020"
+       ],
+       "releaseDate": "2025-06-03T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -257945,14 +256843,6 @@
+         "K27_W008"
+       ],
+       "releaseDate": "2024-06-26T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -258087,14 +256977,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2023-12-19T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-09T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -258228,14 +257110,6 @@
+         "K28_W013"
+       ],
+       "releaseDate": "2024-02-22T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.4000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -258611,14 +257485,6 @@
+         "K29_W008"
+       ],
+       "releaseDate": "2025-02-10T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -259533,14 +258399,6 @@
+         "K31_W016"
+       ],
+       "releaseDate": "2025-01-28T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -260971,14 +259829,6 @@
+         "K36_W006"
+       ],
+       "releaseDate": "2024-06-03T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -261566,14 +260416,6 @@
+         "K39_W008"
+       ],
+       "releaseDate": "2025-04-02T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -261664,14 +260506,6 @@
+         "K40_W006"
+       ],
+       "releaseDate": "2025-06-17T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -261694,14 +260528,6 @@
+         "K40_W007"
+       ],
+       "releaseDate": "2025-06-17T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -262953,6 +261779,14 @@
+         "KK_W016"
+       ],
+       "releaseDate": "2020-06-16T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -262975,6 +261809,14 @@
+         "KK_W016_01"
+       ],
+       "releaseDate": "2020-06-16T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -262997,6 +261839,14 @@
+         "KK_W016_02"
+       ],
+       "releaseDate": "2020-06-16T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -263019,6 +261869,14 @@
+         "KK_W016_03"
+       ],
+       "releaseDate": "2020-06-16T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -263484,14 +262342,6 @@
+         "KK_W034"
+       ],
+       "releaseDate": "2024-06-03T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -263547,14 +262397,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2024-12-12T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -263997,14 +262839,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2024-12-17T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-09T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -264027,14 +262861,6 @@
+         "KS_Legs022"
+       ],
+       "releaseDate": "2024-06-03T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -265997,14 +264823,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2023-12-14T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -266258,14 +265076,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2019-12-18T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -266629,14 +265439,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2022-12-01T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -266802,14 +265604,6 @@
+         "MT_Legs029"
+       ],
+       "releaseDate": "2024-06-03T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -268452,14 +267246,6 @@
+         "OK_W007"
+       ],
+       "releaseDate": "2019-11-13T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.4000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -269544,6 +268330,14 @@
+         "S22_Legs006"
+       ],
+       "releaseDate": "2020-06-16T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -269566,6 +268360,14 @@
+         "S22_Legs007"
+       ],
+       "releaseDate": "2020-06-16T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -269588,6 +268390,14 @@
+         "S22_Legs008"
+       ],
+       "releaseDate": "2020-09-25T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -269636,9 +268446,9 @@
+       "temporaryDiscounts": [
+         {
+           "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
+         }
+       ],
+       "unbreakable": true
+@@ -269666,9 +268476,9 @@
+       "temporaryDiscounts": [
+         {
+           "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
+         }
+       ],
+       "unbreakable": true
+@@ -269696,9 +268506,9 @@
+       "temporaryDiscounts": [
+         {
+           "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
+         }
+       ],
+       "unbreakable": true
+@@ -269768,6 +268578,14 @@
+         "S22_Legs02"
+       ],
+       "releaseDate": "2020-06-16T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -269790,6 +268608,14 @@
+         "S22_Legs02_01"
+       ],
+       "releaseDate": "2020-06-16T15:00:00",
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.3000001,
++          "endDate": "2026-01-30T16:00:00",
++          "startDate": "2026-01-23T16:00:00"
++        }
++      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -270683,14 +269509,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2020-12-01T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -271254,14 +270072,6 @@
+         "S24_Legs023"
+       ],
+       "releaseDate": "2025-01-16T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -271670,14 +270480,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2022-12-01T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -272498,14 +271300,6 @@
+         "S27_Legs008"
+       ],
+       "releaseDate": "2022-08-30T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -272573,14 +271367,6 @@
+         "S27_Legs010"
+       ],
+       "releaseDate": "2025-02-10T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -272891,14 +271677,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2022-12-01T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -273693,14 +272471,6 @@
+         "S29_Legs012"
+       ],
+       "releaseDate": "2023-07-04T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -274017,14 +272787,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2024-12-12T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -274850,14 +273612,6 @@
+         "S32_Legs009"
+       ],
+       "releaseDate": "2025-02-10T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -275527,14 +274281,6 @@
+         "S34_Legs023"
+       ],
+       "releaseDate": "2025-06-03T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -277919,14 +276665,6 @@
+         "S40_Legs006"
+       ],
+       "releaseDate": "2024-01-30T17:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -277949,14 +276687,6 @@
+         "S40_Legs007"
+       ],
+       "releaseDate": "2024-02-07T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -278323,14 +277053,6 @@
+         "S41_Legs017"
+       ],
+       "releaseDate": "2025-06-03T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -279082,14 +277804,6 @@
+         "S43_Legs010"
+       ],
+       "releaseDate": "2025-08-05T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -282869,14 +281583,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2023-12-14T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -283736,14 +282442,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2023-12-14T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -284030,14 +282728,6 @@
+         "TR_W010"
+       ],
+       "releaseDate": "2019-07-31T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -284116,14 +282806,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2020-12-04T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -284212,14 +282894,6 @@
+         "TR_W018"
+       ],
+       "releaseDate": "2023-10-31T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.4000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -284689,14 +283363,6 @@
+         "TW_W013"
+       ],
+       "releaseDate": "2021-02-11T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -284818,14 +283484,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2024-12-17T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-09T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -285090,14 +283748,6 @@
+         "UK_W010"
+       ],
+       "releaseDate": "2022-06-15T15:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.5000001,
+-          "endDate": "2025-12-01T16:00:00",
+-          "startDate": "2025-11-28T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -285746,14 +284396,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2020-12-08T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": true
+     },
+     "nonSecure": false,
+@@ -286521,14 +285163,6 @@
+       ],
+       "limitedTimeEndDate": "2025-01-07T16:00:00",
+       "releaseDate": "2023-12-14T16:00:00",
+-      "temporaryDiscounts": [
+-        {
+-          "currencyId": "Cells",
+-          "discountPercentage": 0.3000001,
+-          "endDate": "2026-01-06T16:00:00",
+-          "startDate": "2025-12-01T16:00:00"
+-        }
+-      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,

@@ -1,0 +1,50 @@
+--- a/contentSchedule.json
++++ b/contentSchedule.json
+@@ -98,7 +98,6 @@
+         "Asy_Chapel_Calamari": "500",
+         "Brl_MaHouse_Calamari": "500",
+         "Ecl_Level03_Calamari": "500",
+-        "Frm_Cornfield_Calamari": "500",
+         "Frm_Farmhouse_Calamari": "100",
+         "Frm_Silo_Calamari": "500",
+         "Frm_Slaughterhouse_Calamari": "300",
+@@ -108,7 +107,6 @@
+         "Ind_CoalTower_Calamari": "500",
+         "Ind_Forest_Calamari": "500",
+         "Ind_Mine_Calamari": "300",
+-        "Ind_Storehouse_Calamari": "500",
+         "Jnk_Garage_Calamari": "500",
+         "Jnk_GasStation_Calamari": "300",
+         "Jnk_Office_Calamari": "300",
+@@ -220,7 +218,7 @@
+         "Qat_Lab": "45",
+         "Qtm_Level_01": "90",
+         "Qtm_Level_02": "0",
+-        "Sub_Street": "0",
++        "Sub_Street": "110",
+         "Swp_GrimPantry": "90",
+         "Swp_PaleRose": "90",
+         "Uba_Level_01": "100",
+@@ -231,8 +229,7 @@
+       "Priority": "7"
+     },
+     {
+-      "Description": "PoutineMapAdjust",
+-      "EndDate": "2026-02-03T16:00:00",
++      "Description": "Killswitch",
+       "GameModes": [
+         "Online",
+         "KillYourFriends",
+@@ -243,10 +240,9 @@
+         "SeasonalEvent_FuelGenerator"
+       ],
+       "MapsWeight": {
+-        "Qat_Lab": "800"
++        "Qtm_Level_02": "0"
+       },
+-      "Priority": "8",
+-      "StartDate": "2026-01-27T16:00:00"
++      "Priority": "8"
+     }
+   ]
+ }

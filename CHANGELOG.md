@@ -2,6 +2,16 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.2.0_3861587live](versions/10.2.0_3861587live/CHANGES.md)
+
+Built 2026-10-05 20:10 UTC · **+0** added · **~5** modified · **−0** removed
+
+- ~ [`GameConfigs.json`](versions/10.2.0_3861587live/diffs/GameConfigs.json.diff)
+- ~ [`catalog.json`](versions/10.2.0_3861587live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/10.2.0_3861587live/diffs/collections.json.diff)
+- ~ [`dlcList.json`](versions/10.2.0_3861587live/diffs/dlcList.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.0_3861587live/diffs/dynamicContent/DynamicContent.json.diff)
+
 ## [10.2.0_3860236live](versions/10.2.0_3860236live/CHANGES.md)
 
 Built 2026-10-05 18:02 UTC · **+0** added · **~2** modified · **−0** removed

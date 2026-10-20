@@ -2,6 +2,19 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.6.2_3371138live](versions/9.6.2_3371138live/CHANGES.md)
+
+Built 2026-05-21 14:02 UTC · **+0** added · **~8** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/9.6.2_3371138live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_de.json`](versions/9.6.2_3371138live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.6.2_3371138live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/9.6.2_3371138live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/9.6.2_3371138live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.6.2_3371138live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/9.6.2_3371138live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.6.2_3371138live/diffs/dynamicContent/DynamicContent.json.diff)
+
 ## [9.6.2_3365656live](versions/9.6.2_3365656live/CHANGES.md)
 
 Built 2026-05-19 19:48 UTC · **+0** added · **~8** modified · **−0** removed

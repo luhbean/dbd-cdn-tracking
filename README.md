@@ -2,35 +2,35 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `10.0.1_3467698live` · built 2026-06-25 20:19 UTC
+**Latest version:** `10.0.0_3467913live` · built 2026-06-25 20:33 UTC
 
-[What changed](versions/10.0.1_3467698live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/10.0.0_3467913live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**2** added · **14** modified · **8** removed, compared with `10.0.0_3467685live`.
+**8** added · **15** modified · **2** removed, compared with `10.0.1_3467698live`.
 
-- ~ [`archiveJournals/archiveS3Journals.json`](versions/10.0.1_3467698live/diffs/archiveJournals/archiveS3Journals.json.diff)
-- ~ [`archiveJournals/storyJournals.json`](versions/10.0.1_3467698live/diffs/archiveJournals/storyJournals.json.diff)
-- ~ [`archiveQuests/Tome10.json`](versions/10.0.1_3467698live/diffs/archiveQuests/Tome10.json.diff)
-- ~ [`archiveQuests/Tome11.json`](versions/10.0.1_3467698live/diffs/archiveQuests/Tome11.json.diff)
-- ~ [`archiveQuests/Tome12.json`](versions/10.0.1_3467698live/diffs/archiveQuests/Tome12.json.diff)
-- ~ [`archiveQuests/Tome15.json`](versions/10.0.1_3467698live/diffs/archiveQuests/Tome15.json.diff)
-- ~ [`archiveQuests/Tome16.json`](versions/10.0.1_3467698live/diffs/archiveQuests/Tome16.json.diff)
-- ~ [`archiveQuests/Tome17.json`](versions/10.0.1_3467698live/diffs/archiveQuests/Tome17.json.diff)
-- ~ [`archiveQuests/Tome18.json`](versions/10.0.1_3467698live/diffs/archiveQuests/Tome18.json.diff)
-- ~ [`archiveQuests/Tome20.json`](versions/10.0.1_3467698live/diffs/archiveQuests/Tome20.json.diff)
-- ~ [`catalog.json`](versions/10.0.1_3467698live/diffs/catalog.json.diff)
-- ~ [`collections.json`](versions/10.0.1_3467698live/diffs/collections.json.diff)
-- ~ [`contentSchedule.json`](versions/10.0.1_3467698live/diffs/contentSchedule.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/10.0.1_3467698live/diffs/dynamicContent/DynamicContent.json.diff)
-- \+ [`images/T_UI_CollectionBanner_TheLifeRoad.png`](versions/10.0.1_3467698live/images/T_UI_CollectionBanner_TheLifeRoad.png)
-- \+ [`images/T_UI_SpecialPack_TheLifeRoad.png`](versions/10.0.1_3467698live/images/T_UI_SpecialPack_TheLifeRoad.png)
-- − `images/T_UI_ChapterBundle_Jason.png`
-- − `images/T_UI_ChapterBundle_TheLifeRoad.png`
-- − `images/T_UI_CollectionBanner_Black_Banquet.png`
-- − `images/T_UI_CollectionBanner_Ice_Nine_Kills.png`
-- … and 4 more in [CHANGES.md](versions/10.0.1_3467698live/CHANGES.md)
+- ~ [`GameConfigs.json`](versions/10.0.0_3467913live/diffs/GameConfigs.json.diff)
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/10.0.0_3467913live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`archiveJournals/storyJournals.json`](versions/10.0.0_3467913live/diffs/archiveJournals/storyJournals.json.diff)
+- ~ [`archiveQuests/Tome10.json`](versions/10.0.0_3467913live/diffs/archiveQuests/Tome10.json.diff)
+- ~ [`archiveQuests/Tome11.json`](versions/10.0.0_3467913live/diffs/archiveQuests/Tome11.json.diff)
+- ~ [`archiveQuests/Tome12.json`](versions/10.0.0_3467913live/diffs/archiveQuests/Tome12.json.diff)
+- ~ [`archiveQuests/Tome15.json`](versions/10.0.0_3467913live/diffs/archiveQuests/Tome15.json.diff)
+- ~ [`archiveQuests/Tome16.json`](versions/10.0.0_3467913live/diffs/archiveQuests/Tome16.json.diff)
+- ~ [`archiveQuests/Tome17.json`](versions/10.0.0_3467913live/diffs/archiveQuests/Tome17.json.diff)
+- ~ [`archiveQuests/Tome18.json`](versions/10.0.0_3467913live/diffs/archiveQuests/Tome18.json.diff)
+- ~ [`archiveQuests/Tome20.json`](versions/10.0.0_3467913live/diffs/archiveQuests/Tome20.json.diff)
+- ~ [`catalog.json`](versions/10.0.0_3467913live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/10.0.0_3467913live/diffs/collections.json.diff)
+- ~ [`contentSchedule.json`](versions/10.0.0_3467913live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.0.0_3467913live/diffs/dynamicContent/DynamicContent.json.diff)
+- \+ [`images/T_UI_ChapterBundle_Jason.png`](versions/10.0.0_3467913live/images/T_UI_ChapterBundle_Jason.png)
+- \+ [`images/T_UI_ChapterBundle_TheLifeRoad.png`](versions/10.0.0_3467913live/images/T_UI_ChapterBundle_TheLifeRoad.png)
+- \+ [`images/T_UI_CollectionBanner_Black_Banquet.png`](versions/10.0.0_3467913live/images/T_UI_CollectionBanner_Black_Banquet.png)
+- \+ [`images/T_UI_CollectionBanner_Ice_Nine_Kills.png`](versions/10.0.0_3467913live/images/T_UI_CollectionBanner_Ice_Nine_Kills.png)
+- \+ [`images/T_UI_CollectionBanner_Jason.png`](versions/10.0.0_3467913live/images/T_UI_CollectionBanner_Jason.png)
+- … and 5 more in [CHANGES.md](versions/10.0.0_3467913live/CHANGES.md)
 
 ## Browse
 
@@ -52,7 +52,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-478 versions tracked so far.
+479 versions tracked so far.
 
 ---
 

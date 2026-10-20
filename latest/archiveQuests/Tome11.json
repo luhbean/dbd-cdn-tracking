@@ -4607,7 +4607,7 @@
             ]
           },
           "node_T11L4_Glyph03": {
-            "clientInfoId": "WhiteGlyph",
+            "clientInfoId": "YellowGlyph",
             "coordinates": {
               "x": 20.0,
               "y": 92.30769231
@@ -4618,7 +4618,7 @@
             ],
             "nodeType": "quest:contextual",
             "objectives": {
-              "WhiteGlyph": {
+              "YellowGlyph": {
                 "conditions": [
                   {
                     "key": "role",
@@ -4629,18 +4629,18 @@
                 ],
                 "incrementWithEventRepetitions": true,
                 "neededProgression": 4,
-                "objectiveId": "WhiteGlyph",
+                "objectiveId": "YellowGlyph",
                 "questEvent": [
                   {
                     "operation": ">=",
                     "parameters": "instigator:me",
-                    "questEventId": "QuestEvent.WhiteGlyph",
+                    "questEventId": "QuestEvent.YellowGlyph",
                     "repetition": 1
                   }
                 ],
                 "specialBehaviours": [
                   {
-                    "id": "WhiteGlyph"
+                    "id": "YellowGlyph"
                   }
                 ]
               }

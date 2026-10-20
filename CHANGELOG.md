@@ -2,6 +2,16 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.0.1_3469754live](versions/10.0.1_3469754live/CHANGES.md)
+
+Built 2026-06-26 17:01 UTC · **+0** added · **~5** modified · **−0** removed
+
+- ~ [`bloodwebGenerationRules.json`](versions/10.0.1_3469754live/diffs/bloodwebGenerationRules.json.diff)
+- ~ [`catalog.json`](versions/10.0.1_3469754live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/10.0.1_3469754live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/10.0.1_3469754live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.0.1_3469754live/diffs/dynamicContent/DynamicContent.json.diff)
+
 ## [10.0.1_3467914live](versions/10.0.1_3467914live/CHANGES.md)
 
 Built 2026-06-25 20:34 UTC · **+2** added · **~14** modified · **−8** removed

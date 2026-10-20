@@ -2,21 +2,20 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `10.2.1_3887831live` · built 2026-10-15 13:02 UTC
+**Latest version:** `10.2.1_3889339live` · built 2026-10-15 20:16 UTC
 
-[What changed](versions/10.2.1_3887831live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/10.2.1_3889339live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **4** modified · **3** removed, compared with `10.2.0_3887828live`.
+**0** added · **6** modified · **0** removed, compared with `10.2.1_3887831live`.
 
-- ~ [`catalog.json`](versions/10.2.1_3887831live/diffs/catalog.json.diff)
-- ~ [`dlcList.json`](versions/10.2.1_3887831live/diffs/dlcList.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.1_3887831live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`recommendations.json`](versions/10.2.1_3887831live/diffs/recommendations.json.diff)
-- − `images/T_UI_CollectionBanner_NieR.png`
-- − `images/T_UI_SpecialPack_NieR.png`
-- − `images/T_UI_SpecialPack_Rift7.png`
+- ~ [`catalog.json`](versions/10.2.1_3889339live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/10.2.1_3889339live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/10.2.1_3889339live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/10.2.1_3889339live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/10.2.1_3889339live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.1_3889339live/diffs/dynamicContent/DynamicContent.json.diff)
 
 ## Coming up
 
@@ -44,7 +43,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-598 versions tracked so far.
+599 versions tracked so far.
 
 ---
 

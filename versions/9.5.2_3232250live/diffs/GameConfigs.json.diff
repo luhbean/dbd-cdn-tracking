@@ -1,0 +1,30 @@
+--- a/GameConfigs.json
++++ b/GameConfigs.json
+@@ -2,7 +2,7 @@
+   "BHVRDynamicContent": {
+     "enabled": true
+   },
+-  "DSProviderOnShutdownNotificationDelay": 15.0,
++  "DSProviderOnShutdownNotificationDelay": 90.0,
+   "GameLoadingTimeout": -1.0,
+   "RTMHandshakeTimeoutThreshold": -1.0,
+   "RTMTimeoutThreshold": 30.0,
+@@ -699,7 +699,7 @@
+   "dynamicContent": {
+     "DynamicContentKillswitchPlatforms": []
+   },
+-  "enableAlwaysSendCrashWithUI": false,
++  "enableAlwaysSendCrashWithUI": true,
+   "enableAntiCamping": true,
+   "enableAntiMoveHack": true,
+   "enableBattlePass": true,
+@@ -741,9 +741,6 @@
+   ],
+   "enableUmgStore": true,
+   "enableWinGDKAccountMismatchPopup": true,
+-  "enabledGPUBreadcrumbsHardware": [
+-    "RTX 3060"
+-  ],
+   "entitlementConfig": {
+     "scopeEntitlementLeniencySec": 900
+   },

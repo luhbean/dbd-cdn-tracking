@@ -2,6 +2,18 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.2.1_3887831live](versions/10.2.1_3887831live/CHANGES.md)
+
+Built 2026-10-15 13:02 UTC · **+0** added · **~4** modified · **−3** removed
+
+- ~ [`catalog.json`](versions/10.2.1_3887831live/diffs/catalog.json.diff)
+- ~ [`dlcList.json`](versions/10.2.1_3887831live/diffs/dlcList.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.1_3887831live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/10.2.1_3887831live/diffs/recommendations.json.diff)
+- − `images/T_UI_CollectionBanner_NieR.png`
+- − `images/T_UI_SpecialPack_NieR.png`
+- − `images/T_UI_SpecialPack_Rift7.png`
+
 ## [10.2.0_3887828live](versions/10.2.0_3887828live/CHANGES.md)
 
 Built 2026-10-15 12:58 UTC · **+0** added · **~2** modified · **−0** removed

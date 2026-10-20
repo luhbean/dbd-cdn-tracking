@@ -2,6 +2,30 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.4.0_3077323live](versions/9.4.0_3077323live/CHANGES.md)
+
+Built 2026-02-04 18:28 UTC · **+8** added · **~11** modified · **−0** removed
+
+- ~ [`GameConfigs.json`](versions/9.4.0_3077323live/diffs/GameConfigs.json.diff)
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.4.0_3077323live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`catalog.json`](versions/9.4.0_3077323live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.4.0_3077323live/diffs/challengeSets.json.diff)
+- ~ [`collections.json`](versions/9.4.0_3077323live/diffs/collections.json.diff)
+- ~ [`contentSchedule.json`](versions/9.4.0_3077323live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.4.0_3077323live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`freetoplay/EU/event.json`](versions/9.4.0_3077323live/diffs/freetoplay/EU/event.json.diff)
+- ~ [`freetoplay/NA/event.json`](versions/9.4.0_3077323live/diffs/freetoplay/NA/event.json.diff)
+- ~ [`recommendations.json`](versions/9.4.0_3077323live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/9.4.0_3077323live/diffs/specialEventsContent.json.diff)
+- \+ [`images/T_UI_ChapterBundle_StrangerThings_Chapter2.png`](versions/9.4.0_3077323live/images/T_UI_ChapterBundle_StrangerThings_Chapter2.png)
+- \+ [`images/T_UI_CollectionBanner_EldritchNightmares.png`](versions/9.4.0_3077323live/images/T_UI_CollectionBanner_EldritchNightmares.png)
+- \+ [`images/T_UI_CollectionBanner_StrangerThings_Chapter2.png`](versions/9.4.0_3077323live/images/T_UI_CollectionBanner_StrangerThings_Chapter2.png)
+- \+ [`images/T_UI_SpecialPack_EldritchNightmares.png`](versions/9.4.0_3077323live/images/T_UI_SpecialPack_EldritchNightmares.png)
+- \+ [`images/T_UI_SpecialPack_Rift4.png`](versions/9.4.0_3077323live/images/T_UI_SpecialPack_Rift4.png)
+- \+ [`images/T_UI_SpecialPack_StrangerThings_Chapter2.png`](versions/9.4.0_3077323live/images/T_UI_SpecialPack_StrangerThings_Chapter2.png)
+- \+ [`images/T_UI_icon_Event_FogCarnival.png`](versions/9.4.0_3077323live/images/T_UI_icon_Event_FogCarnival.png)
+- \+ [`images/T_UI_icon_Event_LunarYear.png`](versions/9.4.0_3077323live/images/T_UI_icon_Event_LunarYear.png)
+
 ## [9.4.1_3072485live](versions/9.4.1_3072485live/CHANGES.md)
 
 Built 2026-02-03 18:49 UTC · **+0** added · **~21** modified · **−6** removed

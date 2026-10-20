@@ -6,6 +6,8 @@
     "minimumMatchTime": 120
   },
   "analytics": {
+    "EnableAnalyticErrorIncludesRuleIds": false,
+    "EnableAnalyticFailureBlockIIS": false,
     "autoflushFrequency": 60,
     "autoflushInGameFrequency": 3600,
     "detailedScoreTypeBlacklist": [
@@ -227,7 +229,8 @@
       "GameEvent.Player.StunSlasher.WithFlashlight",
       "GameEvent.Slasher.Cannibal.Chainsaw.Tantrum.Attack",
       "GameEvent.ScoreEvent.Survivor.K32.RemoveHookedSurvivorAssimilation",
-      "GameEvent.Slasher.Hillbilly.Chainsaw.Hit"
+      "GameEvent.Slasher.Hillbilly.Chainsaw.Hit",
+      "GameEvent.KillerAbility.CurseAbility.Survivor.Modified"
     ],
     "detailedScoreTypeWhitelist": [
       "*"
@@ -517,6 +520,7 @@
   "commentator": {
     "enableCommentatorSaveHistory": true
   },
+  "communityChallengeRefreshSeconds": 1800.0,
   "contentVersion": {
     "clientNewContentForceReboot": true,
     "clientNewContentRebootMaxSeconds": 1800.0,

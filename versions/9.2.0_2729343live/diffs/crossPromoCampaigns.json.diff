@@ -1,0 +1,959 @@
+--- a/crossPromoCampaigns.json
++++ b/crossPromoCampaigns.json
+@@ -1,242 +1,5 @@
+ {
+   "Campaigns": {
+-    "CYOC_Popup": {
+-      "activeFromDate": "2025-06-27T16:00:00",
+-      "activeToDate": "2025-06-30T16:00:00",
+-      "campaignId": "CYOC_Popup",
+-      "daysBetweenViews": 1,
+-      "inclusionVersion": "9.0.2",
+-      "maxViews": 4,
+-      "message": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"18A83961429A9B1CF0AC8C9E13E36D60\", \"NEWS_KET_DESC_18\")",
+-      "messageTranslations": {
+-        "de": "Alle zwei Wochen kannst du abstimmen und mithelfen, einen neuen Killer und Überlebenden zu entwickeln, um deine ganz eigene Kreation zu erschaffen. Gib deine Stimmen für die erste Runde für Killer und Überlebenden vor Montag, dem 30. Juni um 18:00 Uhr MESZ, ab. Halte Ausschau nach der nächsten Abstimmung, die in Kürze ansteht. Wir freuen uns schon darauf, dich auf diese TÖDLICHE Reise durch den Nebel mitzunehmen ...",
+-        "en": "The Grimoire opens... Every two weeks, cast your votes and help shape a new Killer and Survivor into something truly your own. Make sure to submit your votes for the first round for both the Killer and Survivor before Monday June 30th at 12:00 PM ET, and keep an eye (or two) out for the next vote coming soon. We're DYING to take you along on this journey in The Fog...  ",
+-        "es": "El Grimorio abre... Vota cada dos semanas y ayuda a crear un asesino y superviviente nuevos que sentirás como tuyos. Asegúrate de mandar tus votos de la primera ronda para el asesino y el superviviente antes del lunes 30 de junio a las 18:00, y presta atención a las fechas de la siguiente votación, que se celebrará próximamente. Nos morimos de ganas de llevarte en este viaje por la niebla...",
+-        "es-MX": "El Grimorio abre... Cada dos semanas, vota y ayuda a crear un nuevo asesino o asesina y sobreviviente en algo que sea realmente tuyo. Asegúrate de votar para la primera ronda de asesino/a y sobreviviente antes del lunes 30 de junio a las 12 p. m. ET, y no pierdas de vista (ni el aliento) en nuestra próxima votación que llegará muy pronto. Nos MORIMOS de ganas de llevarte por este recorrido en la Niebla...",
+-        "fr": "Le Grimoire s'ouvre... Toutes les deux semaines, votez et contribuez à façonner un nouveau tueur et un nouveau survivant en quelque chose qui soit vraiment à votre image. Assurez-vous de voter au premier tour pour le tueur et pour le survivant avant le lundi 30 juin à 12 h HNE, et gardez un œil (ou les deux) sur le prochain vote qui arrivera bientôt. Nous MOURONS d'envie de vous emmener dans cette aventure au cœur du Brouillard...",
+-        "it": "Ogni due settimane, vota per contribuire a dare forma a un nuovo killer e un sopravvissuto che sentirai davvero tuoi. Ricorda di votare per la prima tornata sia per il killer che per il sopravvissuto entro lunedì 30 giugno alle ore 18 CET e tieni d'occhio le prossime votazioni. MORIAMO dalla voglia di portarti con noi in questo viaggio nella nebbia...",
+-        "ja": "グリモワールが開く…今後2週間ごとに投票を行い、自分好みの新しい殺人鬼と生存者の完成を手伝ってください。第一回の投票は6月30日12:00(現地時間)に終了するため、それまでに殺人鬼と生存者両方への投票を完了させてください。第二回の投票もお見逃しなく。霧の森でこの旅を共にできることを「死ぬほど」楽しみにしています…",
+-        "ko": "2주마다 투표를 통해 새로운 살인마와 생존자를 나만의 특별한 모습으로 만들어 보세요. 6월 30일 월요일 오후 12시(미국 동부 표준시 기준)까지 살인마와 생존자 모두에게 1차 투표를 진행하고, 곧 있을 다음 투표도 기대해 주세요. 안개 속 여정에 여러분과 얼른 함께하고 싶어 안달이 나는군요...",
+-        "pl": "Co dwa tygodnie głosujcie i pomóżcie nam przygotować nowego zabójcę i nowego ocalałego tak, abyście mogli poczuć się ich współtwórcami. Wyślijcie swoje głosy w pierwszej rundzie dla zabójcy i ocalałego najpóźniej w poniedziałek 30 czerwca do godziny 18:00 czasu polskiego i wypatrujcie następnego głosowania, które nastąpi wkrótce. UMIERAMY z niecierpliwości, żeby zabrać was w tę podróż we Mgle...",
+-        "pt-BR": "O Grimório se abre... A cada duas semanas, dê seu voto e ajude a moldar um novo Assassino e um Sobrevivente em algo realmente seu. Não se esqueça de votar na primeira rodada do Assassino e do Sobrevivente até as 13h (horário de Brasília) da segunda-feira, 30 de junho, e fique de olho na próxima votação, que chegará em breve. Estamos MORRENDO de vontade de levar você conosco nessa jornada pela Névoa...",
+-        "ru": "Каждые две недели вы сможете проголосовать, чтобы новые убийца и выживший стали по-настоящему интересными. Проголосуйте в первом туре за убийцу и выжившего до понедельника 30 июня, 19:00 МСК, и следите за новостями о следующем голосовании. Мы УМИРАЕМ от желания скорее увидеть вас в Тумане...",
+-        "th": "ทุกสองสัปดาห์ มาโหวตแล้วช่วยกันสร้างฆาตกรกับผู้รอดชีวิตคนใหม่ให้เป็นของคุณจริงๆ จังๆ กันเถอะ อย่าลืมโหวตรอบแรกให้ทั้งฆาตกรและผู้รอดชีวิตถายในวันจันทร์ที่ 30 มิถุนายน เวลา 23.00 น. (ตามเวลาประเทศไทย) แล้วคอยจับตาดูการโหวตครั้งต่อไปเร็วๆ นี้ เราอยากพาคุณร่วมการเดินทางไปในสายหมอกครั้งนี้ใจจะขาดอยู่แล้ว...",
+-        "tr": "Her iki haftada bir oy kullanarak yeni bir Katil'i ve Kurban'ı kendi istediğin gibi şekillendir. Hem Katil'in hem de Kurban'ın ilk turu için oylarını 30 Haziran TSİ saat 19.00'dan önce kullandığından emin ol ve yakında gelecek sıradaki oylama için de bir gözünü (hatta iki gözünü) açık tut. Sis'teki bu yolculukta seni de yanımızda görmek için ÖLÜP BİTİYORUZ.",
+-        "zh-Hans": "魔书已经开启... 每两周，参与投票，亲手塑造新杀手和逃生者，书写专属你的恐怖篇章。请在6月30日12 PM ET之前提交杀手和逃生者的第一轮投票，并且密切关注即将发布的下一轮投票。我们迫不及待地想带你踏上这段迷雾之旅……",
+-        "zh-Hant": "每兩週，透過投票協助將全新殺手與倖存者塑造成你的專屬角色。記得在 6 月 30 日下午 12 點（ET）前為第一輪的殺手與倖存者投票，並持續關注即將到來的下一次投票。我們等不及想和大家一起展開這段迷霧之旅了……"
+-      },
+-      "platformSpecificContent": {
+-        "egs": {
+-          "buttonLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"C676CEB44D632C4CE1DDFEB8EB6BF1B9\", \"COMMON_Survey_LABEL\")",
+-          "buttonLabelTranslations": {
+-            "de": "Umfrage ansehen",
+-            "en": "View Survey",
+-            "es": "Ver encuesta",
+-            "es-MX": "Ver encuesta",
+-            "fr": "Voir le sondage",
+-            "it": "Vedi sondaggio",
+-            "ja": "アンケートを見る",
+-            "ko": "설문 조사 보기",
+-            "pl": "Zobacz ankietę",
+-            "pt-BR": "Ver Pesquisa",
+-            "ru": "Посмотреть опрос",
+-            "th": "ดูแบบสำรวจ",
+-            "tr": "Anketi Görüntüle",
+-            "zh-Hans": "查看调查",
+-            "zh-Hant": "檢視問卷"
+-          },
+-          "imagesURI": [
+-            "/Game/UI/UMGAssets/Icons/Banners/News/Ketchup/T_UI_QR_CYOC.T_UI_QR_CYOC"
+-          ],
+-          "keyArtImagePath": "/Game/UI/UMGAssets/Icons/Banners/News/Ketchup/T_UI_InGamePopup_CYOC.T_UI_InGamePopup_CYOC",
+-          "linkType": "ECrossPromoMediaResourceLinkType::External",
+-          "linkURI": "https://chooseyourownchapter.deadbydaylight.com"
+-        },
+-        "grdk": {
+-          "buttonLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"C676CEB44D632C4CE1DDFEB8EB6BF1B9\", \"COMMON_Survey_LABEL\")",
+-          "buttonLabelTranslations": {
+-            "de": "Umfrage ansehen",
+-            "en": "View Survey",
+-            "es": "Ver encuesta",
+-            "es-MX": "Ver encuesta",
+-            "fr": "Voir le sondage",
+-            "it": "Vedi sondaggio",
+-            "ja": "アンケートを見る",
+-            "ko": "설문 조사 보기",
+-            "pl": "Zobacz ankietę",
+-            "pt-BR": "Ver Pesquisa",
+-            "ru": "Посмотреть опрос",
+-            "th": "ดูแบบสำรวจ",
+-            "tr": "Anketi Görüntüle",
+-            "zh-Hans": "查看调查",
+-            "zh-Hant": "檢視問卷"
+-          },
+-          "imagesURI": [
+-            "/Game/UI/UMGAssets/Icons/Banners/News/Ketchup/T_UI_QR_CYOC.T_UI_QR_CYOC"
+-          ],
+-          "keyArtImagePath": "/Game/UI/UMGAssets/Icons/Banners/News/Ketchup/T_UI_InGamePopup_CYOC.T_UI_InGamePopup_CYOC",
+-          "linkType": "ECrossPromoMediaResourceLinkType::External",
+-          "linkURI": "https://chooseyourownchapter.deadbydaylight.com"
+-        },
+-        "ps4": {
+-          "buttonLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"C676CEB44D632C4CE1DDFEB8EB6BF1B9\", \"COMMON_Survey_LABEL\")",
+-          "buttonLabelTranslations": {
+-            "de": "Umfrage ansehen",
+-            "en": "View Survey",
+-            "es": "Ver encuesta",
+-            "es-MX": "Ver encuesta",
+-            "fr": "Voir le sondage",
+-            "it": "Vedi sondaggio",
+-            "ja": "アンケートを見る",
+-            "ko": "설문 조사 보기",
+-            "pl": "Zobacz ankietę",
+-            "pt-BR": "Ver Pesquisa",
+-            "ru": "Посмотреть опрос",
+-            "th": "ดูแบบสำรวจ",
+-            "tr": "Anketi Görüntüle",
+-            "zh-Hans": "查看调查",
+-            "zh-Hant": "檢視問卷"
+-          },
+-          "imagesURI": [
+-            "/Game/UI/UMGAssets/Icons/Banners/News/Ketchup/T_UI_QR_CYOC.T_UI_QR_CYOC"
+-          ],
+-          "keyArtImagePath": "/Game/UI/UMGAssets/Icons/Banners/News/Ketchup/T_UI_InGamePopup_CYOC.T_UI_InGamePopup_CYOC",
+-          "linkType": "ECrossPromoMediaResourceLinkType::External",
+-          "linkURI": "https://chooseyourownchapter.deadbydaylight.com"
+-        },
+-        "ps5": {
+-          "buttonLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"C676CEB44D632C4CE1DDFEB8EB6BF1B9\", \"COMMON_Survey_LABEL\")",
+-          "buttonLabelTranslations": {
+-            "de": "Umfrage ansehen",
+-            "en": "View Survey",
+-            "es": "Ver encuesta",
+-            "es-MX": "Ver encuesta",
+-            "fr": "Voir le sondage",
+-            "it": "Vedi sondaggio",
+-            "ja": "アンケートを見る",
+-            "ko": "설문 조사 보기",
+-            "pl": "Zobacz ankietę",
+-            "pt-BR": "Ver Pesquisa",
+-            "ru": "Посмотреть опрос",
+-            "th": "ดูแบบสำรวจ",
+-            "tr": "Anketi Görüntüle",
+-            "zh-Hans": "查看调查",
+-            "zh-Hant": "檢視問卷"
+-          },
+-          "imagesURI": [
+-            "/Game/UI/UMGAssets/Icons/Banners/News/Ketchup/T_UI_QR_CYOC.T_UI_QR_CYOC"
+-          ],
+-          "keyArtImagePath": "/Game/UI/UMGAssets/Icons/Banners/News/Ketchup/T_UI_InGamePopup_CYOC.T_UI_InGamePopup_CYOC",
+-          "linkType": "ECrossPromoMediaResourceLinkType::External",
+-          "linkURI": "https://chooseyourownchapter.deadbydaylight.com"
+-        },
+-        "steam": {
+-          "buttonLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"C676CEB44D632C4CE1DDFEB8EB6BF1B9\", \"COMMON_Survey_LABEL\")",
+-          "buttonLabelTranslations": {
+-            "de": "Umfrage ansehen",
+-            "en": "View Survey",
+-            "es": "Ver encuesta",
+-            "es-MX": "Ver encuesta",
+-            "fr": "Voir le sondage",
+-            "it": "Vedi sondaggio",
+-            "ja": "アンケートを見る",
+-            "ko": "설문 조사 보기",
+-            "pl": "Zobacz ankietę",
+-            "pt-BR": "Ver Pesquisa",
+-            "ru": "Посмотреть опрос",
+-            "th": "ดูแบบสำรวจ",
+-            "tr": "Anketi Görüntüle",
+-            "zh-Hans": "查看调查",
+-            "zh-Hant": "檢視問卷"
+-          },
+-          "imagesURI": [
+-            "/Game/UI/UMGAssets/Icons/Banners/News/Ketchup/T_UI_QR_CYOC.T_UI_QR_CYOC"
+-          ],
+-          "keyArtImagePath": "/Game/UI/UMGAssets/Icons/Banners/News/Ketchup/T_UI_InGamePopup_CYOC.T_UI_InGamePopup_CYOC",
+-          "linkType": "ECrossPromoMediaResourceLinkType::External",
+-          "linkURI": "https://chooseyourownchapter.deadbydaylight.com"
+-        },
+-        "xbox": {
+-          "buttonLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"C676CEB44D632C4CE1DDFEB8EB6BF1B9\", \"COMMON_Survey_LABEL\")",
+-          "buttonLabelTranslations": {
+-            "de": "Umfrage ansehen",
+-            "en": "View Survey",
+-            "es": "Ver encuesta",
+-            "es-MX": "Ver encuesta",
+-            "fr": "Voir le sondage",
+-            "it": "Vedi sondaggio",
+-            "ja": "アンケートを見る",
+-            "ko": "설문 조사 보기",
+-            "pl": "Zobacz ankietę",
+-            "pt-BR": "Ver Pesquisa",
+-            "ru": "Посмотреть опрос",
+-            "th": "ดูแบบสำรวจ",
+-            "tr": "Anketi Görüntüle",
+-            "zh-Hans": "查看调查",
+-            "zh-Hant": "檢視問卷"
+-          },
+-          "imagesURI": [
+-            "/Game/UI/UMGAssets/Icons/Banners/News/Ketchup/T_UI_QR_CYOC.T_UI_QR_CYOC"
+-          ],
+-          "keyArtImagePath": "/Game/UI/UMGAssets/Icons/Banners/News/Ketchup/T_UI_InGamePopup_CYOC.T_UI_InGamePopup_CYOC",
+-          "linkType": "ECrossPromoMediaResourceLinkType::External",
+-          "linkURI": "https://chooseyourownchapter.deadbydaylight.com"
+-        },
+-        "xsx": {
+-          "buttonLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"C676CEB44D632C4CE1DDFEB8EB6BF1B9\", \"COMMON_Survey_LABEL\")",
+-          "buttonLabelTranslations": {
+-            "de": "Umfrage ansehen",
+-            "en": "View Survey",
+-            "es": "Ver encuesta",
+-            "es-MX": "Ver encuesta",
+-            "fr": "Voir le sondage",
+-            "it": "Vedi sondaggio",
+-            "ja": "アンケートを見る",
+-            "ko": "설문 조사 보기",
+-            "pl": "Zobacz ankietę",
+-            "pt-BR": "Ver Pesquisa",
+-            "ru": "Посмотреть опрос",
+-            "th": "ดูแบบสำรวจ",
+-            "tr": "Anketi Görüntüle",
+-            "zh-Hans": "查看调查",
+-            "zh-Hant": "檢視問卷"
+-          },
+-          "imagesURI": [
+-            "/Game/UI/UMGAssets/Icons/Banners/News/Ketchup/T_UI_QR_CYOC.T_UI_QR_CYOC"
+-          ],
+-          "keyArtImagePath": "/Game/UI/UMGAssets/Icons/Banners/News/Ketchup/T_UI_InGamePopup_CYOC.T_UI_InGamePopup_CYOC",
+-          "linkType": "ECrossPromoMediaResourceLinkType::External",
+-          "linkURI": "https://chooseyourownchapter.deadbydaylight.com"
+-        }
+-      },
+-      "segmentationTags": [
+-        "egs",
+-        "ps4",
+-        "ps5",
+-        "steam",
+-        "grdk",
+-        "xbox",
+-        "xsx"
+-      ],
+-      "title": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"BF7406C849D6F883A787E5B118062120\", \"NEWS_KET_TITLE_18\")",
+-      "titleTranslations": {
+-        "de": "The Grimoire",
+-        "en": "The Grimoire",
+-        "es": "El Grimorio",
+-        "es-MX": "El Grimorio",
+-        "fr": "Le Grimoire",
+-        "it": "The Grimoire",
+-        "ja": "グリモワール",
+-        "ko": "The Grimoire",
+-        "pl": "The Grimoire",
+-        "pt-BR": "O Grimório",
+-        "ru": "The Grimoire",
+-        "th": "The Grimoire",
+-        "tr": "The Grimoire",
+-        "zh-Hans": "魔书",
+-        "zh-Hant": "The Grimoire"
+-      }
+-    },
+     "DBD-Store-Promo": {
+       "activeFromDate": "2024-10-26T16:30:00",
+       "activeToDate": "2024-12-10T16:00:00",
+@@ -961,6 +724,713 @@
+         "tr": "Dead by Daylight Resmi Mağazası",
+         "zh-Hans": "《黎明杀机》官方商店",
+         "zh-Hant": "《黎明死線》官方商店"
++      }
++    },
++    "ItHasMyFace_Promo": {
++      "activeFromDate": "2025-01-01T04:00:00",
++      "activeToDate": "2025-10-09T15:00:00",
++      "campaignId": "ItHasMyFace_Promo",
++      "daysBetweenViews": 7,
++      "inclusionVersion": "9.2.0",
++      "maxViews": 4,
++      "message": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"20A9E2994205482FE8777096CA6A51C7\", \"MAP_CAMPAIGN_MESSAGE\")",
++      "messageTranslations": {
++        "de": "In NightByte Games’ IT HAS MY FACE bist du selbst dein schlimmster Feind. Dieses Indie-Horror-Roguelite ist pure, prozedural erzeugte Paranoia. Irgendwo in einer dystopischen Stadt versteckt sich dein exakter Klon. Finde und töte ihn ... und hoffe, dass er dich nicht zuerst findet. Kaufe IT HAS MY FACE und hol dir mit deinem Behaviour-Konto exklusive Belohnungen in Dead by Daylight, darunter die Banner „Pixel-Dwight“ und „Pixel-Sable“.",
++        "en": "You are your own worst enemy in Nightbyte Games' IT HAS MY FACE. This indie horror roguelite is an exercise in procedural paranoia. Somewhere in a dystopian city, your exact clone is hiding. Find them, then kill them... and hope they don't find you first. Buy IT HAS MY FACE and use your Behaviour Account to claim exclusive rewards in Dead by Daylight, including Pixel Dwight and Pixel Sable Banners.",
++        "es": "En It Has My Face de Nightbyte Games, serás tu peor enemigo. Este \"roguelite\" de terror independiente es un ejercicio de paranoia procesal. En algún rincón de una ciudad distópica, se esconde tu clon. Tendrás que encontrarlo y matarlo..., si no te encuentra a ti antes. Compra It Has My Face y utiliza tu cuenta de Behaviour para obtener recompensas exclusivas en Dead by Daylight, como imágenes de Dwight pixelado y Sable pixelada.",
++        "es-MX": "Eres tu peor enemigo en IT HAS MY FACE de Nightbyte Games. Este juego de terror indie tipo roguelite es un modelo de paranoia ejemplar. En algún lugar de una ciudad distópica, se esconde tu clon. Encuéntralo y mátalo... a menos que te encuentre primero. Compra IT HAS MY FACE y usa tu cuenta de Behaviour para reclamar recompensas exclusivas en Dead by Daylight, incluidos los estandartes de Dwight pixel y Sable pixel.",
++        "fr": "Vous êtes votre propre ennemi dans le jeu de Nightbyte Games IT HAS MY FACE. Ce jeu d'horreur indé de type roguelite est un exercice de paranoïa procédurale. Quelque part dans une ville dystopique, votre double parfait se cache. Trouvez-le et puis tuez-le... et priez qu'il ne vous trouve pas avant. Achetez IT HAS MY FACE et utilisez votre compte Behaviour pour réclamer des récompenses exclusives dans Dead by Daylight, y compris les bannières Pixel Dwight et Pixel Sable.",
++        "it": "In IT HAS MY FACE di Nightbyte Games, il tuo peggior nemico sei tu. Questo roguelite horror indie è un esercizio di paranoia procedurale. Da qualche parte in una città distopica si nasconde il tuo clone esatto. Trovalo, uccidilo... e spera che non ti trovi prima lui. Acquista IT HAS MY FACE e usa il tuo account Behaviour per ottenere ricompense esclusive in Dead by Daylight, tra cui banner di Dwight e Sable pixellati.",
++        "ja": "Nightbyte Gamesが手掛ける『It Has My Face』で自分の姿をした敵に立ち向かいましょう。インディーホラーローグライトゲームで真のパラノイアを体験。不気味なディストピア都市に潜む自分自身のクローンを見つけ出し、抹殺せよ…相手に先に見つけられたら最後です。『It Has My Face』を購入し、Behaviourアカウントを使って、ピクセルドワイトとピクセルセーブルのバナーといった限定報酬を『Dead by Daylight』で手に入れましょう。",
++        "ko": "Nightbyte Games의 IT HAS MY FACE에서 당신은 당신 자신의 최악의 적입니다. 이 인디 호러 로그라이트 게임은 절차적 편집증을 보여주는 게임입니다. 디스토피아 도시 어딘가에 당신의 클론이 숨어 있습니다. 그들을 찾아내 처치하세요... 그리고 그들이 당신을 먼저 찾지 않기를 바랍니다. IT HAS MY FACE를 구매하고 Behaviour 계정을 사용하여 Dead by Daylight에서 픽셀 드와이트와 픽셀 세이블 배너를 포함한 특별 보상을 받으세요.",
++        "pl": "W grze IT HAS MY FACE od Nightbyte Games jesteś swoim własnym, najgorszym wrogiem. Ten niezależny horror roguelike to ćwiczenie z proceduralnej paranoi. Gdzieś w dystopijnym mieście ukrywa się twój identyczny klon. Znajdź go, zabij… i miej nadzieję, że on nie znajdzie cię pierwszy. Kup IT HAS MY FACE i użyj swojego konta Behaviour, aby odebrać wyjątkowe nagrody w Dead by Daylight, w tym banery pikselowego Dwighta i pikselowej Sable.",
++        "pt-BR": "Você é seu próprio pior inimigo em IT HAS MY FACE, da Nightbyte Games. Este roguelite de terror indie é um exercício em paranoia procedural. Seu clone idêntico está escondido em algum lugar de uma cidade distópica. Encontre-o e mate-o... e torça para que ele não encontre você primeiro. Compre IT HAS MY FACE e use sua Conta Behaviour para resgatar recompensas exclusivas em Dead by Daylight, incluindo Banners do Pixel Dwight e da Pixel Sable.",
++        "ru": "Вы сами себе главный враг в игре IT HAS MY FACE от Nightbyte Games. Этот инди-хоррор в стиле роуглайт погрузит вас в процедурно сгенерированную паранойю. Где-то последи мрачного города прячется ваш клон. Найдите его и убейте... и надейтесь, что он не найдет вас раньше. Приобретите IT HAS MY FACE и воспользуйтесь своей учетной записью Behaviour, чтобы получить награды в Dead by Daylight, включая баннеры с пиксельными Дуайтом и Сейбл.",
++        "th": "คุณคือศัตรูที่น่ากลัวที่สุดของตัวเองใน IT HAS MY FACE ของ Nightbyte Games เกมสยองขวัญอินดี้แนวโร้กไลต์ เกมนี้เป็นการฝึกฝนความหวาดระแวงอย่างเป็นขั้นเป็นตอน โดยจะมีร่างโคลนที่เหมือนกับคุณเป๊ะซ่อนอยู่ในนครดิสโทเปียแห่งหนึ่ง คุณต้องหามันให้เจอ แล้วฆ่ามันเสีย... โดยหวังว่ามันจะไม่ใช่ฝ่ายที่หาคุณเจอก่อน ซื้อ IT HAS MY FACE และใช้บัญชี Behaviour Account ของคุณไปรับรางวัลสุดพิเศษใน Dead by Daylight ซึ่งประกอบด้วยแบนเนอร์ดไวท์พิกเซลและเซเบิลพิกเซล",
++        "tr": "Nightbyte Games'ten IT HAS MY FACE'de (BENİM YÜZÜM ONDA) kendinin en büyük düşmanı sensin. Bu bağımsız korku rogue-lite oyunu, bir yöntemsel paranoya deneyimi. Distopik bir şehrin bir yerlerinde, tıpatıp bir klonun saklanıyor. Onu bul, sonra da öldür... Dua et, önce o seni bulmasın. IT HAS MY FACE'i satın al ve Behaviour Hesabını kullanarak Dead by Daylight'ta Pixel Dwight ve Pixel Sable Sancakları dâhil özel ödülleri kazan.",
++        "zh-Hans": "在Nightbyte Games的新作《IT HAS MY FACE》中，你最可怕的敌人正是你自己。这款独立恐怖roguelite游戏堪称程序化偏执的典范。在某个反乌托邦城市中，你的完美克隆体正藏身于某处。找到对方，杀死对方……并祈祷对方不要先找到你。购买《IT HAS MY FACE》并使用你的Behaviour账户即可在《黎明杀机》中领取专属奖励，包括“像素德怀特”与“像素塞布尔”横幅。",
++        "zh-Hant": "在Nightbyte Games的《IT HAS MY FACE》遊戲中，你就是自己最大的敵人。這款獨立恐怖Roguelite遊戲，可說是隨機生成類恐怖遊戲的入門款。在某個反烏托邦城市的某處，跟你一模一樣的複製人正躲藏著。找到對方，然後殺了對方……並希望對方不會先找到你。購買《IT HAS MY FACE》並使用你的Behaviour帳號在《黎明死線》中領取獨家獎勵，包括像素德懷特和像素賽貝爾橫幅。"
++      },
++      "platformSpecificContent": {
++        "egs": {
++          "buttonLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"0D27A29D45BD0151C00906849C2DE31A\", \"MAP_CAMPAIGN_BUTTON\")",
++          "buttonLabelTranslations": {
++            "de": "ZEIT FÜR KLONE",
++            "en": "IT'S CLONIN' TIME",
++            "es": "LA HORA DE LOS CLONES",
++            "es-MX": "IT'S CLONIN' TIME",
++            "fr": "L'HEURE DU CLONAGE A SONNÉ",
++            "it": "È L'ORA DELLA CLONAZIONE",
++            "ja": "クローンの時代が到来",
++            "ko": "복제할 시간",
++            "pl": "CZAS NA KLONOWANIE",
++            "pt-BR": "ESTÁ NA HORA DE CLONAR",
++            "ru": "IT'S CLONIN' TIME",
++            "th": "IT'S CLONIN' TIME",
++            "tr": "IT'S CLONIN' TIME",
++            "zh-Hans": "克隆时间到",
++            "zh-Hant": "複製時間到"
++          },
++          "instructionText": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"DC52B0234888FD92A53015B17BA02DCA\", \"MAP_CAMPAIGN_INSTRUCTION\")",
++          "instructionTextTranslations": {
++            "de": "Bereit, dein Gesicht zu verlieren?",
++            "en": "Ready to lose your face?",
++            "es": "¿Te atreves a perder la cara?",
++            "es-MX": "¿Todo listo para perder la cara?",
++            "fr": "Prêts à perdre votre visage ?",
++            "it": "Vuoi perdere la faccia?",
++            "ja": "顔をつぶす準備はできていますか？",
++            "ko": "체면 구길 각오 됐나요?",
++            "pl": "Gotowy, by stracić twarz?",
++            "pt-BR": "Que tal perder seu rosto?",
++            "ru": "Готовы потерять лицо?",
++            "th": "พร้อมถูกช่วงชิงใบหน้าไปหรือยัง",
++            "tr": "Yüzünü kaybetmeye hazır mısın?",
++            "zh-Hans": "准备好失去自己的脸了吗？",
++            "zh-Hant": "準備好失去你的臉了嗎？"
++          },
++          "keyArtImagePath": "/Game/UI/UMGAssets/Icons/Banners/CrossPromo/T_UI_MarketingIHMFCrosspromoArt.T_UI_MarketingIHMFCrosspromoArt",
++          "linkType": "ECrossPromoMediaResourceLinkType::External",
++          "linkURI": "https://www.ithasmyface.com/",
++          "rewards": [
++            {
++              "amount": 1,
++              "id": "LS_BNR_13",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_15",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BDG_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1000000,
++              "id": "Bloodpoints",
++              "type": "Currency"
++            }
++          ],
++          "rewardsLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"791CF50B4A9A2D106432E7BDC692FE60\", \"MAP_REWARDS_LABEL\")",
++          "rewardsLabelTranslations": {
++            "de": "Hol dir IT HAS MY FACE und erhalte Belohnungen in Dead by Daylight",
++            "en": "Grab IT HAS MY FACE and claim rewards in Dead by Daylight",
++            "es": "Hazte con It Has My Face y recibe tus recompensas en Dead by Daylight.",
++            "es-MX": "Consigue IT HAS MY FACE y reclama recompensas en Dead by Daylight",
++            "fr": "Emparez-vous de IT HAS MY FACE et réclamez les récompenses dans Dead by Daylight",
++            "it": "Ottieni IT HAS MY FACE e riscatta ricompense in Dead by Daylight",
++            "ja": "『It Has My Face』を入手して、『Dead by Daylight』で報酬を取得",
++            "ko": "IT HAS MY FACE를 잡아채고 Dead by Daylight에서 보상을 수령하세요",
++            "pl": "Zgarnij IT HAS MY FACE i odbierz nagrody w Dead by Daylight.",
++            "pt-BR": "Adquira IT HAS MY FACE e resgate recompensas em Dead by Daylight",
++            "ru": "Купите IT HAS MY FACE и получите награды в Dead by Daylight",
++            "th": "หยิบ IT HAS MY FACE แล้วไปรับรางวัลใน Dead by Daylight",
++            "tr": "IT HAS MY FACE'i al ve Dead by Daylight'ta ödüller kazan",
++            "zh-Hans": "拥有《IT HAS MY FACE》并在《黎明杀机》中领取奖励。",
++            "zh-Hant": "取得《IT HAS MY FACE》並在《黎明死線》中領取獎勵"
++          }
++        },
++        "grdk": {
++          "buttonLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"FBC726824BF5948946D5F29DD33FA0E6\", \"MAP_CAMPAIGN_BUTTON\")",
++          "buttonLabelTranslations": {
++            "de": "ZEIT FÜR KLONE",
++            "en": "IT'S CLONIN' TIME",
++            "es": "LA HORA DE LOS CLONES",
++            "es-MX": "IT'S CLONIN' TIME",
++            "fr": "L'HEURE DU CLONAGE A SONNÉ",
++            "it": "È L'ORA DELLA CLONAZIONE",
++            "ja": "クローンの時代が到来",
++            "ko": "복제할 시간",
++            "pl": "CZAS NA KLONOWANIE",
++            "pt-BR": "ESTÁ NA HORA DE CLONAR",
++            "ru": "IT'S CLONIN' TIME",
++            "th": "IT'S CLONIN' TIME",
++            "tr": "IT'S CLONIN' TIME",
++            "zh-Hans": "克隆时间到",
++            "zh-Hant": "複製時間到"
++          },
++          "instructionText": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"DF9B7EC44A8478E6D9548685D7BA5738\", \"MAP_CAMPAIGN_INSTRUCTION\")",
++          "instructionTextTranslations": {
++            "de": "Bereit, dein Gesicht zu verlieren?",
++            "en": "Ready to lose your face?",
++            "es": "¿Te atreves a perder la cara?",
++            "es-MX": "¿Todo listo para perder la cara?",
++            "fr": "Prêts à perdre votre visage ?",
++            "it": "Vuoi perdere la faccia?",
++            "ja": "顔をつぶす準備はできていますか？",
++            "ko": "체면 구길 각오 됐나요?",
++            "pl": "Gotowy, by stracić twarz?",
++            "pt-BR": "Que tal perder seu rosto?",
++            "ru": "Готовы потерять лицо?",
++            "th": "พร้อมถูกช่วงชิงใบหน้าไปหรือยัง",
++            "tr": "Yüzünü kaybetmeye hazır mısın?",
++            "zh-Hans": "准备好失去自己的脸了吗？",
++            "zh-Hant": "準備好失去你的臉了嗎？"
++          },
++          "keyArtImagePath": "/Game/UI/UMGAssets/Icons/Banners/CrossPromo/T_UI_MarketingIHMFCrosspromoArt.T_UI_MarketingIHMFCrosspromoArt",
++          "linkType": "ECrossPromoMediaResourceLinkType::External",
++          "linkURI": "https://www.ithasmyface.com/",
++          "rewards": [
++            {
++              "amount": 1,
++              "id": "LS_BNR_13",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_15",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BDG_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1000000,
++              "id": "Bloodpoints",
++              "type": "Currency"
++            }
++          ],
++          "rewardsLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"05B6CFF4469B35D26A546E963BB7AEA2\", \"MAP_REWARDS_LABEL\")",
++          "rewardsLabelTranslations": {
++            "de": "Hol dir IT HAS MY FACE und erhalte Belohnungen in Dead by Daylight",
++            "en": "Grab IT HAS MY FACE and claim rewards in Dead by Daylight",
++            "es": "Hazte con It Has My Face y recibe tus recompensas en Dead by Daylight.",
++            "es-MX": "Consigue IT HAS MY FACE y reclama recompensas en Dead by Daylight",
++            "fr": "Emparez-vous de IT HAS MY FACE et réclamez les récompenses dans Dead by Daylight",
++            "it": "Ottieni IT HAS MY FACE e riscatta ricompense in Dead by Daylight",
++            "ja": "『It Has My Face』を入手して、『Dead by Daylight』で報酬を取得",
++            "ko": "IT HAS MY FACE를 잡아채고 Dead by Daylight에서 보상을 수령하세요",
++            "pl": "Zgarnij IT HAS MY FACE i odbierz nagrody w Dead by Daylight.",
++            "pt-BR": "Adquira IT HAS MY FACE e resgate recompensas em Dead by Daylight",
++            "ru": "Купите IT HAS MY FACE и получите награды в Dead by Daylight",
++            "th": "หยิบ IT HAS MY FACE แล้วไปรับรางวัลใน Dead by Daylight",
++            "tr": "IT HAS MY FACE'i al ve Dead by Daylight'ta ödüller kazan",
++            "zh-Hans": "拥有《IT HAS MY FACE》并在《黎明杀机》中领取奖励。",
++            "zh-Hant": "取得《IT HAS MY FACE》並在《黎明死線》中領取獎勵"
++          }
++        },
++        "ps4": {
++          "buttonLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"6D6BB0D340099F5F7AEBBB9F50BFEC7B\", \"MAP_CAMPAIGN_BUTTON\")",
++          "buttonLabelTranslations": {
++            "de": "ZEIT FÜR KLONE",
++            "en": "IT'S CLONIN' TIME",
++            "es": "LA HORA DE LOS CLONES",
++            "es-MX": "IT'S CLONIN' TIME",
++            "fr": "L'HEURE DU CLONAGE A SONNÉ",
++            "it": "È L'ORA DELLA CLONAZIONE",
++            "ja": "クローンの時代が到来",
++            "ko": "복제할 시간",
++            "pl": "CZAS NA KLONOWANIE",
++            "pt-BR": "ESTÁ NA HORA DE CLONAR",
++            "ru": "IT'S CLONIN' TIME",
++            "th": "IT'S CLONIN' TIME",
++            "tr": "IT'S CLONIN' TIME",
++            "zh-Hans": "克隆时间到",
++            "zh-Hant": "複製時間到"
++          },
++          "instructionText": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"523C02BC43CF24B0DD1C57BF61F920B2\", \"MAP_CAMPAIGN_INSTRUCTION\")",
++          "instructionTextTranslations": {
++            "de": "Bereit, dein Gesicht zu verlieren?",
++            "en": "Ready to lose your face?",
++            "es": "¿Te atreves a perder la cara?",
++            "es-MX": "¿Todo listo para perder la cara?",
++            "fr": "Prêts à perdre votre visage ?",
++            "it": "Vuoi perdere la faccia?",
++            "ja": "顔をつぶす準備はできていますか？",
++            "ko": "체면 구길 각오 됐나요?",
++            "pl": "Gotowy, by stracić twarz?",
++            "pt-BR": "Que tal perder seu rosto?",
++            "ru": "Готовы потерять лицо?",
++            "th": "พร้อมถูกช่วงชิงใบหน้าไปหรือยัง",
++            "tr": "Yüzünü kaybetmeye hazır mısın?",
++            "zh-Hans": "准备好失去自己的脸了吗？",
++            "zh-Hant": "準備好失去你的臉了嗎？"
++          },
++          "keyArtImagePath": "/Game/UI/UMGAssets/Icons/Banners/CrossPromo/T_UI_MarketingIHMFCrosspromoArt.T_UI_MarketingIHMFCrosspromoArt",
++          "linkType": "ECrossPromoMediaResourceLinkType::External",
++          "linkURI": "https://www.ithasmyface.com/",
++          "rewards": [
++            {
++              "amount": 1,
++              "id": "LS_BNR_13",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_15",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BDG_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1000000,
++              "id": "Bloodpoints",
++              "type": "Currency"
++            }
++          ],
++          "rewardsLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"B11F3F5B4104FDCF1333959EA2D97141\", \"MAP_REWARDS_LABEL\")",
++          "rewardsLabelTranslations": {
++            "de": "Hol dir IT HAS MY FACE und erhalte Belohnungen in Dead by Daylight",
++            "en": "Grab IT HAS MY FACE and claim rewards in Dead by Daylight",
++            "es": "Hazte con It Has My Face y recibe tus recompensas en Dead by Daylight.",
++            "es-MX": "Consigue IT HAS MY FACE y reclama recompensas en Dead by Daylight",
++            "fr": "Emparez-vous de IT HAS MY FACE et réclamez les récompenses dans Dead by Daylight",
++            "it": "Ottieni IT HAS MY FACE e riscatta ricompense in Dead by Daylight",
++            "ja": "『It Has My Face』を入手して、『Dead by Daylight』で報酬を取得",
++            "ko": "IT HAS MY FACE를 잡아채고 Dead by Daylight에서 보상을 수령하세요",
++            "pl": "Zgarnij IT HAS MY FACE i odbierz nagrody w Dead by Daylight.",
++            "pt-BR": "Adquira IT HAS MY FACE e resgate recompensas em Dead by Daylight",
++            "ru": "Купите IT HAS MY FACE и получите награды в Dead by Daylight",
++            "th": "หยิบ IT HAS MY FACE แล้วไปรับรางวัลใน Dead by Daylight",
++            "tr": "IT HAS MY FACE'i al ve Dead by Daylight'ta ödüller kazan",
++            "zh-Hans": "拥有《IT HAS MY FACE》并在《黎明杀机》中领取奖励。",
++            "zh-Hant": "取得《IT HAS MY FACE》並在《黎明死線》中領取獎勵"
++          }
++        },
++        "ps5": {
++          "buttonLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"321C7B424F39BA80159452AF1043EB58\", \"MAP_CAMPAIGN_BUTTON\")",
++          "buttonLabelTranslations": {
++            "de": "ZEIT FÜR KLONE",
++            "en": "IT'S CLONIN' TIME",
++            "es": "LA HORA DE LOS CLONES",
++            "es-MX": "IT'S CLONIN' TIME",
++            "fr": "L'HEURE DU CLONAGE A SONNÉ",
++            "it": "È L'ORA DELLA CLONAZIONE",
++            "ja": "クローンの時代が到来",
++            "ko": "복제할 시간",
++            "pl": "CZAS NA KLONOWANIE",
++            "pt-BR": "ESTÁ NA HORA DE CLONAR",
++            "ru": "IT'S CLONIN' TIME",
++            "th": "IT'S CLONIN' TIME",
++            "tr": "IT'S CLONIN' TIME",
++            "zh-Hans": "克隆时间到",
++            "zh-Hant": "複製時間到"
++          },
++          "instructionText": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"C3833AB640D2993BA8F276BD52AF6705\", \"MAP_CAMPAIGN_INSTRUCTION\")",
++          "instructionTextTranslations": {
++            "de": "Bereit, dein Gesicht zu verlieren?",
++            "en": "Ready to lose your face?",
++            "es": "¿Te atreves a perder la cara?",
++            "es-MX": "¿Todo listo para perder la cara?",
++            "fr": "Prêts à perdre votre visage ?",
++            "it": "Vuoi perdere la faccia?",
++            "ja": "顔をつぶす準備はできていますか？",
++            "ko": "체면 구길 각오 됐나요?",
++            "pl": "Gotowy, by stracić twarz?",
++            "pt-BR": "Que tal perder seu rosto?",
++            "ru": "Готовы потерять лицо?",
++            "th": "พร้อมถูกช่วงชิงใบหน้าไปหรือยัง",
++            "tr": "Yüzünü kaybetmeye hazır mısın?",
++            "zh-Hans": "准备好失去自己的脸了吗？",
++            "zh-Hant": "準備好失去你的臉了嗎？"
++          },
++          "keyArtImagePath": "/Game/UI/UMGAssets/Icons/Banners/CrossPromo/T_UI_MarketingIHMFCrosspromoArt.T_UI_MarketingIHMFCrosspromoArt",
++          "linkType": "ECrossPromoMediaResourceLinkType::External",
++          "linkURI": "https://www.ithasmyface.com/",
++          "rewards": [
++            {
++              "amount": 1,
++              "id": "LS_BNR_13",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_15",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BDG_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1000000,
++              "id": "Bloodpoints",
++              "type": "Currency"
++            }
++          ],
++          "rewardsLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"E5F2E17346425004CEDEE8A679C8FCB8\", \"MAP_REWARDS_LABEL\")",
++          "rewardsLabelTranslations": {
++            "de": "Hol dir IT HAS MY FACE und erhalte Belohnungen in Dead by Daylight",
++            "en": "Grab IT HAS MY FACE and claim rewards in Dead by Daylight",
++            "es": "Hazte con It Has My Face y recibe tus recompensas en Dead by Daylight.",
++            "es-MX": "Consigue IT HAS MY FACE y reclama recompensas en Dead by Daylight",
++            "fr": "Emparez-vous de IT HAS MY FACE et réclamez les récompenses dans Dead by Daylight",
++            "it": "Ottieni IT HAS MY FACE e riscatta ricompense in Dead by Daylight",
++            "ja": "『It Has My Face』を入手して、『Dead by Daylight』で報酬を取得",
++            "ko": "IT HAS MY FACE를 잡아채고 Dead by Daylight에서 보상을 수령하세요",
++            "pl": "Zgarnij IT HAS MY FACE i odbierz nagrody w Dead by Daylight.",
++            "pt-BR": "Adquira IT HAS MY FACE e resgate recompensas em Dead by Daylight",
++            "ru": "Купите IT HAS MY FACE и получите награды в Dead by Daylight",
++            "th": "หยิบ IT HAS MY FACE แล้วไปรับรางวัลใน Dead by Daylight",
++            "tr": "IT HAS MY FACE'i al ve Dead by Daylight'ta ödüller kazan",
++            "zh-Hans": "拥有《IT HAS MY FACE》并在《黎明杀机》中领取奖励。",
++            "zh-Hant": "取得《IT HAS MY FACE》並在《黎明死線》中領取獎勵"
++          }
++        },
++        "steam": {
++          "buttonLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"DBAAEDD54C6974615B2C3681707332DC\", \"MAP_CAMPAIGN_BUTTON\")",
++          "buttonLabelTranslations": {
++            "de": "ZEIT FÜR KLONE",
++            "en": "IT'S CLONIN' TIME",
++            "es": "LA HORA DE LOS CLONES",
++            "es-MX": "IT'S CLONIN' TIME",
++            "fr": "L'HEURE DU CLONAGE A SONNÉ",
++            "it": "È L'ORA DELLA CLONAZIONE",
++            "ja": "クローンの時代が到来",
++            "ko": "복제할 시간",
++            "pl": "CZAS NA KLONOWANIE",
++            "pt-BR": "ESTÁ NA HORA DE CLONAR",
++            "ru": "IT'S CLONIN' TIME",
++            "th": "IT'S CLONIN' TIME",
++            "tr": "IT'S CLONIN' TIME",
++            "zh-Hans": "克隆时间到",
++            "zh-Hant": "複製時間到"
++          },
++          "instructionText": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"D75665CC46FB4E432E5C219C5E50064C\", \"MAP_CAMPAIGN_INSTRUCTION\")",
++          "instructionTextTranslations": {
++            "de": "Bereit, dein Gesicht zu verlieren?",
++            "en": "Ready to lose your face?",
++            "es": "¿Te atreves a perder la cara?",
++            "es-MX": "¿Todo listo para perder la cara?",
++            "fr": "Prêts à perdre votre visage ?",
++            "it": "Vuoi perdere la faccia?",
++            "ja": "顔をつぶす準備はできていますか？",
++            "ko": "체면 구길 각오 됐나요?",
++            "pl": "Gotowy, by stracić twarz?",
++            "pt-BR": "Que tal perder seu rosto?",
++            "ru": "Готовы потерять лицо?",
++            "th": "พร้อมถูกช่วงชิงใบหน้าไปหรือยัง",
++            "tr": "Yüzünü kaybetmeye hazır mısın?",
++            "zh-Hans": "准备好失去自己的脸了吗？",
++            "zh-Hant": "準備好失去你的臉了嗎？"
++          },
++          "keyArtImagePath": "/Game/UI/UMGAssets/Icons/Banners/CrossPromo/T_UI_MarketingIHMFCrosspromoArt.T_UI_MarketingIHMFCrosspromoArt",
++          "linkType": "ECrossPromoMediaResourceLinkType::External",
++          "linkURI": "https://www.ithasmyface.com/",
++          "rewards": [
++            {
++              "amount": 1,
++              "id": "LS_BNR_13",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_15",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BDG_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1000000,
++              "id": "Bloodpoints",
++              "type": "Currency"
++            }
++          ],
++          "rewardsLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"4C87B51F4EF01806931DCA8431882239\", \"MAP_REWARDS_LABEL\")",
++          "rewardsLabelTranslations": {
++            "de": "Hol dir IT HAS MY FACE und erhalte Belohnungen in Dead by Daylight",
++            "en": "Grab IT HAS MY FACE and claim rewards in Dead by Daylight",
++            "es": "Hazte con It Has My Face y recibe tus recompensas en Dead by Daylight.",
++            "es-MX": "Consigue IT HAS MY FACE y reclama recompensas en Dead by Daylight",
++            "fr": "Emparez-vous de IT HAS MY FACE et réclamez les récompenses dans Dead by Daylight",
++            "it": "Ottieni IT HAS MY FACE e riscatta ricompense in Dead by Daylight",
++            "ja": "『It Has My Face』を入手して、『Dead by Daylight』で報酬を取得",
++            "ko": "IT HAS MY FACE를 잡아채고 Dead by Daylight에서 보상을 수령하세요",
++            "pl": "Zgarnij IT HAS MY FACE i odbierz nagrody w Dead by Daylight.",
++            "pt-BR": "Adquira IT HAS MY FACE e resgate recompensas em Dead by Daylight",
++            "ru": "Купите IT HAS MY FACE и получите награды в Dead by Daylight",
++            "th": "หยิบ IT HAS MY FACE แล้วไปรับรางวัลใน Dead by Daylight",
++            "tr": "IT HAS MY FACE'i al ve Dead by Daylight'ta ödüller kazan",
++            "zh-Hans": "拥有《IT HAS MY FACE》并在《黎明杀机》中领取奖励。",
++            "zh-Hant": "取得《IT HAS MY FACE》並在《黎明死線》中領取獎勵"
++          }
++        },
++        "switch": {
++          "keyArtImagePath": "/Game/UI/UMGAssets/Icons/Banners/CrossPromo/T_UI_MarketingIHMFCrosspromoArt.T_UI_MarketingIHMFCrosspromoArt",
++          "linkType": "ECrossPromoMediaResourceLinkType::None",
++          "rewards": [
++            {
++              "amount": 1,
++              "id": "LS_BNR_13",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_15",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BDG_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1000000,
++              "id": "Bloodpoints",
++              "type": "Currency"
++            }
++          ],
++          "rewardsLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"91CF422742B83039675C0E842F26E6D8\", \"MAP_REWARDS_LABEL\")",
++          "rewardsLabelTranslations": {
++            "de": "Hol dir IT HAS MY FACE und erhalte Belohnungen in Dead by Daylight",
++            "en": "Grab IT HAS MY FACE and claim rewards in Dead by Daylight",
++            "es": "Hazte con It Has My Face y recibe tus recompensas en Dead by Daylight.",
++            "es-MX": "Consigue IT HAS MY FACE y reclama recompensas en Dead by Daylight",
++            "fr": "Emparez-vous de IT HAS MY FACE et réclamez les récompenses dans Dead by Daylight",
++            "it": "Ottieni IT HAS MY FACE e riscatta ricompense in Dead by Daylight",
++            "ja": "『It Has My Face』を入手して、『Dead by Daylight』で報酬を取得",
++            "ko": "IT HAS MY FACE를 잡아채고 Dead by Daylight에서 보상을 수령하세요",
++            "pl": "Zgarnij IT HAS MY FACE i odbierz nagrody w Dead by Daylight.",
++            "pt-BR": "Adquira IT HAS MY FACE e resgate recompensas em Dead by Daylight",
++            "ru": "Купите IT HAS MY FACE и получите награды в Dead by Daylight",
++            "th": "หยิบ IT HAS MY FACE แล้วไปรับรางวัลใน Dead by Daylight",
++            "tr": "IT HAS MY FACE'i al ve Dead by Daylight'ta ödüller kazan",
++            "zh-Hans": "拥有《IT HAS MY FACE》并在《黎明杀机》中领取奖励。",
++            "zh-Hant": "取得《IT HAS MY FACE》並在《黎明死線》中領取獎勵"
++          }
++        },
++        "xbox": {
++          "buttonLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"FCC3342448CDDE444DCF4CBC3B65B6CF\", \"MAP_CAMPAIGN_BUTTON\")",
++          "buttonLabelTranslations": {
++            "de": "ZEIT FÜR KLONE",
++            "en": "IT'S CLONIN' TIME",
++            "es": "LA HORA DE LOS CLONES",
++            "es-MX": "IT'S CLONIN' TIME",
++            "fr": "L'HEURE DU CLONAGE A SONNÉ",
++            "it": "È L'ORA DELLA CLONAZIONE",
++            "ja": "クローンの時代が到来",
++            "ko": "복제할 시간",
++            "pl": "CZAS NA KLONOWANIE",
++            "pt-BR": "ESTÁ NA HORA DE CLONAR",
++            "ru": "IT'S CLONIN' TIME",
++            "th": "IT'S CLONIN' TIME",
++            "tr": "IT'S CLONIN' TIME",
++            "zh-Hans": "克隆时间到",
++            "zh-Hant": "複製時間到"
++          },
++          "instructionText": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"2884DB3D4CCADDF7443C7D9B3B9628B7\", \"MAP_CAMPAIGN_INSTRUCTION\")",
++          "instructionTextTranslations": {
++            "de": "Bereit, dein Gesicht zu verlieren?",
++            "en": "Ready to lose your face?",
++            "es": "¿Te atreves a perder la cara?",
++            "es-MX": "¿Todo listo para perder la cara?",
++            "fr": "Prêts à perdre votre visage ?",
++            "it": "Vuoi perdere la faccia?",
++            "ja": "顔をつぶす準備はできていますか？",
++            "ko": "체면 구길 각오 됐나요?",
++            "pl": "Gotowy, by stracić twarz?",
++            "pt-BR": "Que tal perder seu rosto?",
++            "ru": "Готовы потерять лицо?",
++            "th": "พร้อมถูกช่วงชิงใบหน้าไปหรือยัง",
++            "tr": "Yüzünü kaybetmeye hazır mısın?",
++            "zh-Hans": "准备好失去自己的脸了吗？",
++            "zh-Hant": "準備好失去你的臉了嗎？"
++          },
++          "keyArtImagePath": "/Game/UI/UMGAssets/Icons/Banners/CrossPromo/T_UI_MarketingIHMFCrosspromoArt.T_UI_MarketingIHMFCrosspromoArt",
++          "linkType": "ECrossPromoMediaResourceLinkType::External",
++          "linkURI": "https://www.ithasmyface.com/",
++          "rewards": [
++            {
++              "amount": 1,
++              "id": "LS_BNR_13",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_15",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BDG_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1000000,
++              "id": "Bloodpoints",
++              "type": "Currency"
++            }
++          ],
++          "rewardsLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"6A46D5E7488BBD8D8978AA83B747AA13\", \"MAP_REWARDS_LABEL\")",
++          "rewardsLabelTranslations": {
++            "de": "Hol dir IT HAS MY FACE und erhalte Belohnungen in Dead by Daylight",
++            "en": "Grab IT HAS MY FACE and claim rewards in Dead by Daylight",
++            "es": "Hazte con It Has My Face y recibe tus recompensas en Dead by Daylight.",
++            "es-MX": "Consigue IT HAS MY FACE y reclama recompensas en Dead by Daylight",
++            "fr": "Emparez-vous de IT HAS MY FACE et réclamez les récompenses dans Dead by Daylight",
++            "it": "Ottieni IT HAS MY FACE e riscatta ricompense in Dead by Daylight",
++            "ja": "『It Has My Face』を入手して、『Dead by Daylight』で報酬を取得",
++            "ko": "IT HAS MY FACE를 잡아채고 Dead by Daylight에서 보상을 수령하세요",
++            "pl": "Zgarnij IT HAS MY FACE i odbierz nagrody w Dead by Daylight.",
++            "pt-BR": "Adquira IT HAS MY FACE e resgate recompensas em Dead by Daylight",
++            "ru": "Купите IT HAS MY FACE и получите награды в Dead by Daylight",
++            "th": "หยิบ IT HAS MY FACE แล้วไปรับรางวัลใน Dead by Daylight",
++            "tr": "IT HAS MY FACE'i al ve Dead by Daylight'ta ödüller kazan",
++            "zh-Hans": "拥有《IT HAS MY FACE》并在《黎明杀机》中领取奖励。",
++            "zh-Hant": "取得《IT HAS MY FACE》並在《黎明死線》中領取獎勵"
++          }
++        },
++        "xsx": {
++          "buttonLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"16A94C0D48BE11E6157B40996735C51D\", \"MAP_CAMPAIGN_BUTTON\")",
++          "buttonLabelTranslations": {
++            "de": "ZEIT FÜR KLONE",
++            "en": "IT'S CLONIN' TIME",
++            "es": "LA HORA DE LOS CLONES",
++            "es-MX": "IT'S CLONIN' TIME",
++            "fr": "L'HEURE DU CLONAGE A SONNÉ",
++            "it": "È L'ORA DELLA CLONAZIONE",
++            "ja": "クローンの時代が到来",
++            "ko": "복제할 시간",
++            "pl": "CZAS NA KLONOWANIE",
++            "pt-BR": "ESTÁ NA HORA DE CLONAR",
++            "ru": "IT'S CLONIN' TIME",
++            "th": "IT'S CLONIN' TIME",
++            "tr": "IT'S CLONIN' TIME",
++            "zh-Hans": "克隆时间到",
++            "zh-Hant": "複製時間到"
++          },
++          "instructionText": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"FB8D3AEC4FD9A003AA486A80250EB69D\", \"MAP_CAMPAIGN_INSTRUCTION\")",
++          "instructionTextTranslations": {
++            "de": "Bereit, dein Gesicht zu verlieren?",
++            "en": "Ready to lose your face?",
++            "es": "¿Te atreves a perder la cara?",
++            "es-MX": "¿Todo listo para perder la cara?",
++            "fr": "Prêts à perdre votre visage ?",
++            "it": "Vuoi perdere la faccia?",
++            "ja": "顔をつぶす準備はできていますか？",
++            "ko": "체면 구길 각오 됐나요?",
++            "pl": "Gotowy, by stracić twarz?",
++            "pt-BR": "Que tal perder seu rosto?",
++            "ru": "Готовы потерять лицо?",
++            "th": "พร้อมถูกช่วงชิงใบหน้าไปหรือยัง",
++            "tr": "Yüzünü kaybetmeye hazır mısın?",
++            "zh-Hans": "准备好失去自己的脸了吗？",
++            "zh-Hant": "準備好失去你的臉了嗎？"
++          },
++          "keyArtImagePath": "/Game/UI/UMGAssets/Icons/Banners/CrossPromo/T_UI_MarketingIHMFCrosspromoArt.T_UI_MarketingIHMFCrosspromoArt",
++          "linkType": "ECrossPromoMediaResourceLinkType::External",
++          "linkURI": "https://www.ithasmyface.com/",
++          "rewards": [
++            {
++              "amount": 1,
++              "id": "LS_BNR_13",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BNR_15",
++              "type": "Customization"
++            },
++            {
++              "amount": 1,
++              "id": "LS_BDG_14",
++              "type": "Customization"
++            },
++            {
++              "amount": 1000000,
++              "id": "Bloodpoints",
++              "type": "Currency"
++            }
++          ],
++          "rewardsLabel": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"D3C249484D8AECC15BD540B0ED416981\", \"MAP_REWARDS_LABEL\")",
++          "rewardsLabelTranslations": {
++            "de": "Hol dir IT HAS MY FACE und erhalte Belohnungen in Dead by Daylight",
++            "en": "Grab IT HAS MY FACE and claim rewards in Dead by Daylight",
++            "es": "Hazte con It Has My Face y recibe tus recompensas en Dead by Daylight.",
++            "es-MX": "Consigue IT HAS MY FACE y reclama recompensas en Dead by Daylight",
++            "fr": "Emparez-vous de IT HAS MY FACE et réclamez les récompenses dans Dead by Daylight",
++            "it": "Ottieni IT HAS MY FACE e riscatta ricompense in Dead by Daylight",
++            "ja": "『It Has My Face』を入手して、『Dead by Daylight』で報酬を取得",
++            "ko": "IT HAS MY FACE를 잡아채고 Dead by Daylight에서 보상을 수령하세요",
++            "pl": "Zgarnij IT HAS MY FACE i odbierz nagrody w Dead by Daylight.",
++            "pt-BR": "Adquira IT HAS MY FACE e resgate recompensas em Dead by Daylight",
++            "ru": "Купите IT HAS MY FACE и получите награды в Dead by Daylight",
++            "th": "หยิบ IT HAS MY FACE แล้วไปรับรางวัลใน Dead by Daylight",
++            "tr": "IT HAS MY FACE'i al ve Dead by Daylight'ta ödüller kazan",
++            "zh-Hans": "拥有《IT HAS MY FACE》并在《黎明杀机》中领取奖励。",
++            "zh-Hant": "取得《IT HAS MY FACE》並在《黎明死線》中領取獎勵"
++          }
++        }
++      },
++      "segmentationTags": [
++        "egs",
++        "ps4",
++        "steam",
++        "ps5",
++        "switch",
++        "grdk",
++        "xbox",
++        "xsx"
++      ],
++      "title": "NSLOCTEXT(\"[3F11D6A8EE02B1F39C1CCB88BA4628AE]\", \"5CCB247B4A0633D4B98C5AAEDA29FDAB\", \"MAP_CAMPAGIN_TITLE\")",
++      "titleTranslations": {
++        "de": "IT HAS MY FACE JETZT IM EARLY ACCESS",
++        "en": "IT HAS MY FACE NOW IN EARLY ACCESS",
++        "es": "IT HAS MY FACE YA ESTÁ EN ACCESO ANTICIPADO",
++        "es-MX": "IT HAS MY FACE YA ESTÁ DISPONIBLE EN ACCESO ANTICIPADO",
++        "fr": "IT HAS MY FACE À PRÉSENT EN ACCÈS ANTICIPÉ",
++        "it": "IT HAS MY FACE ORA DISPONIBILE IN ACCESSO ANTICIPATO",
++        "ja": "『It Has My Face』が早期アクセスでプレイ可能に",
++        "ko": "IT HAS MY FACE, 얼리 액세스 지금 이용 가능!",
++        "pl": "IT HAS MY FACE JUŻ WE WCZESNYM DOSTĘPIE",
++        "pt-BR": "IT HAS MY FACE AGORA EM ACESSO ANTECIPADO",
++        "ru": "IT HAS MY FACE УЖЕ В РАННЕМ ДОСТУПЕ",
++        "th": "IT HAS MY FACE อยู่ในช่วงให้เล่นระหว่างพัฒนา",
++        "tr": "IT HAS MY FACE ŞİMDİ ERKEN ERİŞİMDE",
++        "zh-Hans": "《IT HAS MY FACE》现已开始抢先体验",
++        "zh-Hant": "《IT HAS MY FACE》現已開放搶先體驗"
+       }
+     },
+     "Launch001-2024-09-03": {

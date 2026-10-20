@@ -1460,15 +1460,15 @@
               "SkillCheckHealingSuccessAsCharacterInTrial": {
                 "conditions": [
                   {
-                    "key": "role",
-                    "value": [
-                      "survivor"
-                    ]
-                  },
-                  {
                     "key": "character",
                     "value": [
                       "Claudette"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
                     ]
                   }
                 ],
@@ -1703,7 +1703,14 @@
             "isRecurring": false,
             "objectives": {
               "1_Escape": {
-                "conditions": [],
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
                 "incrementWithEventRepetitions": true,
                 "isCommunityObjective": false,
                 "maxProgressionPerPlayer": -1,
@@ -1745,7 +1752,7 @@
                 "isCommunityObjective": false,
                 "maxProgressionPerPlayer": -1,
                 "neededProgression": [
-                  2
+                  4
                 ],
                 "objectiveId": "Escape",
                 "objectiveInfo": "CHALLENGE_EscapeAsCharacterInTrial_INFO",
@@ -1787,15 +1794,28 @@
             "id": "DBD_Day2026-DbDDay_QuestList_1-B_VaultInChaseAsCharacterInTrialOrAnySurvivor",
             "isRecurring": false,
             "objectives": {
-              "1_VaultInChase": {
-                "conditions": [],
+              "VaultInChase": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "Yui"
+                    ]
+                  }
+                ],
                 "incrementWithEventRepetitions": true,
                 "isCommunityObjective": false,
                 "maxProgressionPerPlayer": -1,
                 "neededProgression": [
                   10
                 ],
-                "objectiveId": "1_VaultInChase",
+                "objectiveId": "VaultInChase",
                 "objectiveInfo": "CHALLENGE_VaultInChaseAsAnySurvivorInTrial_INFO",
                 "objectiveInfoParameters": [
                   "maxProgression"
@@ -1811,7 +1831,7 @@
                   }
                 ]
               },
-              "VaultInChase": {
+              "VaultInChaseAsCharacterInTrial": {
                 "conditions": [
                   {
                     "key": "character",
@@ -1832,7 +1852,7 @@
                 "neededProgression": [
                   2
                 ],
-                "objectiveId": "VaultInChase",
+                "objectiveId": "VaultInChaseAsCharacterInTrial",
                 "objectiveInfo": "CHALLENGE_VaultInChaseAsCharacterInTrial_INFO",
                 "objectiveInfoParameters": [
                   "maxProgression",

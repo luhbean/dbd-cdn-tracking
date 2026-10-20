@@ -2,6 +2,32 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.1.3_2740751live](versions/9.1.3_2740751live/CHANGES.md)
+
+Built 2025-09-15 20:02 UTC · **+16** added · **~1** modified · **−16** removed
+
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.3_2740751live/diffs/dynamicContent/DynamicContent.json.diff)
+- \+ [`consents/privacy/v4/de.json`](versions/9.1.3_2740751live/consents/privacy/v4/de.json)
+- \+ [`consents/privacy/v4/definition.json`](versions/9.1.3_2740751live/consents/privacy/v4/definition.json)
+- \+ [`consents/privacy/v4/en.json`](versions/9.1.3_2740751live/consents/privacy/v4/en.json)
+- \+ [`consents/privacy/v4/es-MX.json`](versions/9.1.3_2740751live/consents/privacy/v4/es-MX.json)
+- \+ [`consents/privacy/v4/es.json`](versions/9.1.3_2740751live/consents/privacy/v4/es.json)
+- \+ [`consents/privacy/v4/fr.json`](versions/9.1.3_2740751live/consents/privacy/v4/fr.json)
+- \+ [`consents/privacy/v4/it.json`](versions/9.1.3_2740751live/consents/privacy/v4/it.json)
+- \+ [`consents/privacy/v4/ja.json`](versions/9.1.3_2740751live/consents/privacy/v4/ja.json)
+- \+ [`consents/privacy/v4/ko.json`](versions/9.1.3_2740751live/consents/privacy/v4/ko.json)
+- \+ [`consents/privacy/v4/pl.json`](versions/9.1.3_2740751live/consents/privacy/v4/pl.json)
+- \+ [`consents/privacy/v4/pt-BR.json`](versions/9.1.3_2740751live/consents/privacy/v4/pt-BR.json)
+- \+ [`consents/privacy/v4/ru.json`](versions/9.1.3_2740751live/consents/privacy/v4/ru.json)
+- \+ [`consents/privacy/v4/th.json`](versions/9.1.3_2740751live/consents/privacy/v4/th.json)
+- \+ [`consents/privacy/v4/tr.json`](versions/9.1.3_2740751live/consents/privacy/v4/tr.json)
+- \+ [`consents/privacy/v4/zh-Hans.json`](versions/9.1.3_2740751live/consents/privacy/v4/zh-Hans.json)
+- \+ [`consents/privacy/v4/zh-Hant.json`](versions/9.1.3_2740751live/consents/privacy/v4/zh-Hant.json)
+- − `consents/privacy/v3/de.json`
+- − `consents/privacy/v3/definition.json`
+- − `consents/privacy/v3/en.json`
+- … and 13 more in [CHANGES.md](versions/9.1.3_2740751live/CHANGES.md)
+
 ## [9.1.3_2740219live](versions/9.1.3_2740219live/CHANGES.md)
 
 Built 2025-09-15 15:47 UTC · no content changes

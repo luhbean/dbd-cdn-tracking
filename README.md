@@ -2,13 +2,35 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.1.3_2740219live` · built 2025-09-15 15:47 UTC
+**Latest version:** `9.1.3_2740751live` · built 2025-09-15 20:02 UTC
 
-[What changed](versions/9.1.3_2740219live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.1.3_2740751live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **0** modified · **0** removed, compared with `9.1.3_2734438live`.
+**16** added · **1** modified · **16** removed, compared with `9.1.3_2740219live`.
+
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.3_2740751live/diffs/dynamicContent/DynamicContent.json.diff)
+- \+ [`consents/privacy/v4/de.json`](versions/9.1.3_2740751live/consents/privacy/v4/de.json)
+- \+ [`consents/privacy/v4/definition.json`](versions/9.1.3_2740751live/consents/privacy/v4/definition.json)
+- \+ [`consents/privacy/v4/en.json`](versions/9.1.3_2740751live/consents/privacy/v4/en.json)
+- \+ [`consents/privacy/v4/es-MX.json`](versions/9.1.3_2740751live/consents/privacy/v4/es-MX.json)
+- \+ [`consents/privacy/v4/es.json`](versions/9.1.3_2740751live/consents/privacy/v4/es.json)
+- \+ [`consents/privacy/v4/fr.json`](versions/9.1.3_2740751live/consents/privacy/v4/fr.json)
+- \+ [`consents/privacy/v4/it.json`](versions/9.1.3_2740751live/consents/privacy/v4/it.json)
+- \+ [`consents/privacy/v4/ja.json`](versions/9.1.3_2740751live/consents/privacy/v4/ja.json)
+- \+ [`consents/privacy/v4/ko.json`](versions/9.1.3_2740751live/consents/privacy/v4/ko.json)
+- \+ [`consents/privacy/v4/pl.json`](versions/9.1.3_2740751live/consents/privacy/v4/pl.json)
+- \+ [`consents/privacy/v4/pt-BR.json`](versions/9.1.3_2740751live/consents/privacy/v4/pt-BR.json)
+- \+ [`consents/privacy/v4/ru.json`](versions/9.1.3_2740751live/consents/privacy/v4/ru.json)
+- \+ [`consents/privacy/v4/th.json`](versions/9.1.3_2740751live/consents/privacy/v4/th.json)
+- \+ [`consents/privacy/v4/tr.json`](versions/9.1.3_2740751live/consents/privacy/v4/tr.json)
+- \+ [`consents/privacy/v4/zh-Hans.json`](versions/9.1.3_2740751live/consents/privacy/v4/zh-Hans.json)
+- \+ [`consents/privacy/v4/zh-Hant.json`](versions/9.1.3_2740751live/consents/privacy/v4/zh-Hant.json)
+- − `consents/privacy/v3/de.json`
+- − `consents/privacy/v3/definition.json`
+- − `consents/privacy/v3/en.json`
+- … and 13 more in [CHANGES.md](versions/9.1.3_2740751live/CHANGES.md)
 
 ## Browse
 
@@ -30,7 +52,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-170 versions tracked so far.
+171 versions tracked so far.
 
 ---
 

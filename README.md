@@ -2,28 +2,13 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.1.2_2686759live` · built 2025-08-19 23:16 UTC
+**Latest version:** `9.1.2_2686865live` · built 2025-08-20 00:47 UTC
 
-[What changed](versions/9.1.2_2686759live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.1.2_2686865live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **14** modified · **0** removed, compared with `9.1.2_2683120live`.
-
-- ~ [`challengeLocs/challengeText_de.json`](versions/9.1.2_2686759live/diffs/challengeLocs/challengeText_de.json.diff)
-- ~ [`challengeLocs/challengeText_en.json`](versions/9.1.2_2686759live/diffs/challengeLocs/challengeText_en.json.diff)
-- ~ [`challengeLocs/challengeText_es-MX.json`](versions/9.1.2_2686759live/diffs/challengeLocs/challengeText_es-MX.json.diff)
-- ~ [`challengeLocs/challengeText_es.json`](versions/9.1.2_2686759live/diffs/challengeLocs/challengeText_es.json.diff)
-- ~ [`challengeLocs/challengeText_it.json`](versions/9.1.2_2686759live/diffs/challengeLocs/challengeText_it.json.diff)
-- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.1.2_2686759live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
-- ~ [`challengeLocs/challengeText_th.json`](versions/9.1.2_2686759live/diffs/challengeLocs/challengeText_th.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.1.2_2686759live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`loadingText/specialEventsLoadingText_de.json`](versions/9.1.2_2686759live/diffs/loadingText/specialEventsLoadingText_de.json.diff)
-- ~ [`loadingText/specialEventsLoadingText_es-MX.json`](versions/9.1.2_2686759live/diffs/loadingText/specialEventsLoadingText_es-MX.json.diff)
-- ~ [`loadingText/specialEventsLoadingText_es.json`](versions/9.1.2_2686759live/diffs/loadingText/specialEventsLoadingText_es.json.diff)
-- ~ [`loadingText/specialEventsLoadingText_it.json`](versions/9.1.2_2686759live/diffs/loadingText/specialEventsLoadingText_it.json.diff)
-- ~ [`loadingText/specialEventsLoadingText_pt-BR.json`](versions/9.1.2_2686759live/diffs/loadingText/specialEventsLoadingText_pt-BR.json.diff)
-- ~ [`loadingText/specialEventsLoadingText_th.json`](versions/9.1.2_2686759live/diffs/loadingText/specialEventsLoadingText_th.json.diff)
+**0** added · **0** modified · **0** removed, compared with `9.1.2_2686759live`.
 
 ## Browse
 
@@ -45,7 +30,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-146 versions tracked so far.
+147 versions tracked so far.
 
 ---
 

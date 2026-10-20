@@ -2,6 +2,22 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.6.1_3307649live](versions/9.6.1_3307649live/CHANGES.md)
+
+Built 2026-05-01 21:00 UTC · **+0** added · **~4** modified · **−7** removed
+
+- ~ [`catalog.json`](versions/9.6.1_3307649live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.6.1_3307649live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeSets.json`](versions/9.6.1_3307649live/diffs/challengeSets.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.6.1_3307649live/diffs/dynamicContent/DynamicContent.json.diff)
+- − `images/T_UI_CollectionBanner_Aliens_Hudson.png`
+- − `images/T_UI_CollectionBanner_AoT_2.png`
+- − `images/T_UI_CollectionBanner_SeoulSights_Kwon.png`
+- − `images/T_UI_SpecialPack_Aliens_Hudson.png`
+- − `images/T_UI_SpecialPack_AoT_2.png`
+- − `images/T_UI_SpecialPack_Rift5.png`
+- − `images/T_UI_SpecialPack_SeoulSights_Kwon.png`
+
 ## [9.6.0_3304069live](versions/9.6.0_3304069live/CHANGES.md)
 
 Built 2026-04-30 19:02 UTC · **+0** added · **~1** modified · **−0** removed

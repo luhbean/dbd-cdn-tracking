@@ -1,10 +1,10 @@
-# Latest live content · 9.5.1_3212178live
+# Latest live content · 9.5.2_3212164live
 
-Built 2026-03-26 20:47 UTC · [what changed in this version](../versions/9.5.1_3212178live/CHANGES.md) · [← back](../README.md)
+Built 2026-03-27 14:44 UTC · [what changed in this version](../versions/9.5.2_3212164live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (4)](#images) · [Game data (97)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (6)](#images) · [Game data (97)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -15,7 +15,9 @@ This folder always holds the newest version. Its commit history shows every chan
 ## Images
 
 <p>
+<a href="images/T_UI_CollectionBanner_Songkran.png"><img src="images/T_UI_CollectionBanner_Songkran.png" alt="T_UI_CollectionBanner_Songkran.png" title="T_UI_CollectionBanner_Songkran.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_MiNABundle.png"><img src="images/T_UI_SpecialPack_MiNABundle.png" alt="T_UI_SpecialPack_MiNABundle.png" title="T_UI_SpecialPack_MiNABundle.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Songkran.png"><img src="images/T_UI_SpecialPack_Songkran.png" alt="T_UI_SpecialPack_Songkran.png" title="T_UI_SpecialPack_Songkran.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_GenQuest1.png"><img src="images/T_UI_Tutorial_ImageBG_GenQuest1.png" alt="T_UI_Tutorial_ImageBG_GenQuest1.png" title="T_UI_Tutorial_ImageBG_GenQuest1.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_cosmetic.png"><img src="images/T_UI_Tutorial_ImageBG_cosmetic.png" alt="T_UI_Tutorial_ImageBG_cosmetic.png" title="T_UI_Tutorial_ImageBG_cosmetic.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_gift.png"><img src="images/T_UI_Tutorial_ImageBG_gift.png" alt="T_UI_Tutorial_ImageBG_gift.png" title="T_UI_Tutorial_ImageBG_gift.png" width="200"></a>

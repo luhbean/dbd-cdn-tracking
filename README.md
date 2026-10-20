@@ -2,23 +2,21 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `10.2.0_3882625live` · built 2026-10-13 15:43 UTC
+**Latest version:** `10.2.1_3882628live` · built 2026-10-13 15:44 UTC
 
-[What changed](versions/10.2.0_3882625live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/10.2.1_3882628live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**3** added · **6** modified · **0** removed, compared with `10.2.1_3879160live`.
+**0** added · **4** modified · **3** removed, compared with `10.2.0_3882625live`.
 
-- ~ [`catalog.json`](versions/10.2.0_3882625live/diffs/catalog.json.diff)
-- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/10.2.0_3882625live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
-- ~ [`collections.json`](versions/10.2.0_3882625live/diffs/collections.json.diff)
-- ~ [`dlcList.json`](versions/10.2.0_3882625live/diffs/dlcList.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.0_3882625live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`recommendations.json`](versions/10.2.0_3882625live/diffs/recommendations.json.diff)
-- \+ [`images/T_UI_CollectionBanner_NieR.png`](versions/10.2.0_3882625live/images/T_UI_CollectionBanner_NieR.png)
-- \+ [`images/T_UI_SpecialPack_NieR.png`](versions/10.2.0_3882625live/images/T_UI_SpecialPack_NieR.png)
-- \+ [`images/T_UI_SpecialPack_Rift7.png`](versions/10.2.0_3882625live/images/T_UI_SpecialPack_Rift7.png)
+- ~ [`catalog.json`](versions/10.2.1_3882628live/diffs/catalog.json.diff)
+- ~ [`dlcList.json`](versions/10.2.1_3882628live/diffs/dlcList.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.1_3882628live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/10.2.1_3882628live/diffs/recommendations.json.diff)
+- − `images/T_UI_CollectionBanner_NieR.png`
+- − `images/T_UI_SpecialPack_NieR.png`
+- − `images/T_UI_SpecialPack_Rift7.png`
 
 ## Browse
 
@@ -40,7 +38,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-586 versions tracked so far.
+587 versions tracked so far.
 
 ---
 

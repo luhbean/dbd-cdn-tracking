@@ -1,0 +1,525 @@
+--- a/recommendations.json
++++ b/recommendations.json
+@@ -2394,11 +2394,6 @@
+         {
+           "entryId": "10.1.2_AutumnFashion",
+           "type": "Collection",
+-          "weight": 15
+-        },
+-        {
+-          "entryId": "10.1.2_Autumn_Fashion",
+-          "type": "SpecialPack",
+           "weight": 14
+         },
+         {
+@@ -2410,6 +2405,11 @@
+           "entryId": "10.1.0_GameplayExpo",
+           "type": "Collection",
+           "weight": 12
++        },
++        {
++          "entryId": "10.1.0_Alien_Collection",
++          "type": "Collection",
++          "weight": 11
+         },
+         {
+           "entryId": "Rift_6_Bundle",
+@@ -2429,11 +2429,6 @@
+         {
+           "entryId": "SAW_Bundle",
+           "type": "SpecialPack",
+-          "weight": 16
+-        },
+-        {
+-          "entryId": "10.1.2_Autumn_Fashion",
+-          "type": "SpecialPack",
+           "weight": 15
+         },
+         {
+@@ -2445,6 +2440,11 @@
+           "entryId": "10.1.0_GameplayExpo",
+           "type": "Collection",
+           "weight": 12
++        },
++        {
++          "entryId": "10.1.0_Alien_Collection",
++          "type": "Collection",
++          "weight": 11
+         },
+         {
+           "entryId": "Rift_6_Bundle",
+@@ -2467,12 +2467,12 @@
+           "weight": 14
+         },
+         {
+-          "entryId": "10.1.2_Blighted_Bundle",
+-          "type": "SpecialPack",
++          "entryId": "10.1.2_AutumnFashion",
++          "type": "Collection",
+           "weight": 13
+         },
+         {
+-          "entryId": "10.1.2_AutumnFashion",
++          "entryId": "10.1.0_Alien_Collection",
+           "type": "Collection",
+           "weight": 12
+         },
+@@ -2489,6 +2489,71 @@
+       ],
+       "id": "Udon_W5",
+       "inclusionVersion": "10.1.2"
++    },
++    {
++      "activeFrom": "2026-10-06T15:00:00",
++      "activeFromInMs": 1791298800000,
++      "activeTo": "2026-10-13T15:00:00",
++      "activeToInMs": 1791903600000,
++      "entries": [
++        {
++          "entryId": "10.2.0_Nier",
++          "type": "Collection",
++          "weight": 10
++        },
++        {
++          "entryId": "Rift_7_Bundle",
++          "type": "SpecialPack",
++          "weight": 9
++        },
++        {
++          "entryId": "10.1.2_HallowedBlight",
++          "type": "Collection",
++          "weight": 8
++        },
++        {
++          "entryId": "10.1.2_AutumnFashion",
++          "type": "Collection",
++          "weight": 7
++        }
++      ],
++      "id": "Vanilla_W1",
++      "inclusionVersion": "10.2.0"
++    },
++    {
++      "activeFrom": "2026-10-13T15:00:00",
++      "activeFromInMs": 1791903600000,
++      "activeTo": "2026-10-20T15:00:00",
++      "activeToInMs": 1792508400000,
++      "entries": [
++        {
++          "entryId": "Halloween_2025_Bundle",
++          "type": "SpecialPack",
++          "weight": 12
++        },
++        {
++          "entryId": "Tricks_And_Treats_2025_Bundle",
++          "type": "SpecialPack",
++          "weight": 11
++        },
++        {
++          "entryId": "10.2.0_Nier",
++          "type": "Collection",
++          "weight": 10
++        },
++        {
++          "entryId": "Rift_7_Bundle",
++          "type": "SpecialPack",
++          "weight": 9
++        },
++        {
++          "entryId": "10.1.2_HallowedBlight",
++          "type": "Collection",
++          "weight": 8
++        }
++      ],
++      "id": "Vanilla_W2",
++      "inclusionVersion": "10.2.0"
+     }
+   ],
+   "featuredChapterPackRecommendations": [
+@@ -8415,45 +8480,6 @@
+       "activeFromInMs": 1785855600000,
+       "activeTo": "2026-08-11T15:00:00",
+       "activeToInMs": 1786460400000,
+-      "id": "Udon_PTB",
+-      "recommendations": [
+-        {
+-          "category": "outfit",
+-          "id": "S54_outfit_006",
+-          "weight": 100
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S54_outfit_006_01",
+-          "weight": 99
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S54_outfit_02",
+-          "weight": 97
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S54_outfit_02_01",
+-          "weight": 96
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K44_outfit_002",
+-          "weight": 95
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K44_outfit_002_01",
+-          "weight": 94
+-        }
+-      ]
+-    },
+-    {
+-      "activeFrom": "2026-08-04T15:00:00",
+-      "activeFromInMs": 1785855600000,
+-      "activeTo": "2026-08-11T15:00:00",
+-      "activeToInMs": 1786460400000,
+       "id": "Sushi_W7",
+       "recommendations": [
+         {
+@@ -8530,6 +8556,45 @@
+           "category": "outfit",
+           "id": "K43_outfit_02_01",
+           "weight": 17
++        }
++      ]
++    },
++    {
++      "activeFrom": "2026-08-04T15:00:00",
++      "activeFromInMs": 1785855600000,
++      "activeTo": "2026-08-11T15:00:00",
++      "activeToInMs": 1786460400000,
++      "id": "Udon_PTB",
++      "recommendations": [
++        {
++          "category": "outfit",
++          "id": "S54_outfit_006",
++          "weight": 100
++        },
++        {
++          "category": "outfit",
++          "id": "S54_outfit_006_01",
++          "weight": 99
++        },
++        {
++          "category": "outfit",
++          "id": "S54_outfit_02",
++          "weight": 97
++        },
++        {
++          "category": "outfit",
++          "id": "S54_outfit_02_01",
++          "weight": 96
++        },
++        {
++          "category": "outfit",
++          "id": "K44_outfit_002",
++          "weight": 95
++        },
++        {
++          "category": "outfit",
++          "id": "K44_outfit_002_01",
++          "weight": 94
+         }
+       ]
+     },
+@@ -8988,96 +9053,100 @@
+       ]
+     },
+     {
+-      "activeFrom": "2026-10-01T15:00:00",
+-      "activeFromInMs": 1790866800000,
+-      "activeTo": "2026-10-06T15:00:00",
+-      "activeToInMs": 1791298800000,
+-      "id": "Udon_W5",
++      "activeFrom": "2026-10-06T15:00:00",
++      "activeFromInMs": 1791298800000,
++      "activeTo": "2026-10-13T15:00:00",
++      "activeToInMs": 1791903600000,
++      "id": "Vanilla_W1",
+       "recommendations": [
+         {
+           "category": "outfit",
+-          "id": "K43_outfit_008",
+-          "weight": 110
++          "id": "FM_Outfit_045",
++          "weight": 50
+         },
+         {
+           "category": "outfit",
+-          "id": "K30_outfit_022",
+-          "weight": 109
++          "id": "SS_Outfit_034",
++          "weight": 49
+         },
+         {
+           "category": "outfit",
+-          "id": "K38_outfit_011",
+-          "weight": 108
++          "id": "KK_outfit_042",
++          "weight": 48
+         },
+         {
+           "category": "outfit",
+-          "id": "S53_outfit_007",
+-          "weight": 107
++          "id": "K43_outfit_008",
++          "weight": 47
+         },
+         {
+           "category": "outfit",
+-          "id": "MT_outfit_037",
+-          "weight": 106
++          "id": "K38_outfit_011",
++          "weight": 46
+         },
+         {
+           "category": "outfit",
+-          "id": "S34_outfit_027",
+-          "weight": 105
+-        },
++          "id": "K30_outfit_022",
++          "weight": 45
++        }
++      ]
++    },
++    {
++      "activeFrom": "2026-10-13T15:00:00",
++      "activeFromInMs": 1791903600000,
++      "activeTo": "2026-10-20T15:00:00",
++      "activeToInMs": 1792508400000,
++      "id": "Vanilla_W2",
++      "recommendations": [
+         {
+           "category": "outfit",
+-          "id": "S41_outfit_023",
+-          "weight": 104
++          "id": "AV_outfit_030",
++          "weight": 54
+         },
+         {
+           "category": "outfit",
+-          "id": "S28_outfit_035",
+-          "weight": 103
++          "id": "NK_outfit_039",
++          "weight": 53
+         },
+         {
+           "category": "outfit",
+-          "id": "K35_outfit_019",
+-          "weight": 102
++          "id": "S23_outfit_034",
++          "weight": 52
+         },
+         {
+           "category": "outfit",
+-          "id": "K33_outfit_013",
+-          "weight": 101
++          "id": "K31_outfit_018",
++          "weight": 51
+         },
+         {
+           "category": "outfit",
+-          "id": "S54_outfit_006",
+-          "weight": 100
++          "id": "FM_Outfit_045",
++          "weight": 50
+         },
+         {
+           "category": "outfit",
+-          "id": "S54_outfit_006_01",
+-          "weight": 99
++          "id": "SS_Outfit_034",
++          "weight": 49
+         },
+         {
+           "category": "outfit",
+-          "id": "K44_outfit_006",
+-          "weight": 98
++          "id": "KK_outfit_042",
++          "weight": 48
+         },
+         {
+           "category": "outfit",
+-          "id": "S54_outfit_02",
+-          "weight": 97
++          "id": "K43_outfit_008",
++          "weight": 47
+         },
+         {
+           "category": "outfit",
+-          "id": "S54_outfit_02_01",
+-          "weight": 96
++          "id": "K38_outfit_011",
++          "weight": 46
+         },
+         {
+           "category": "outfit",
+-          "id": "K44_outfit_002",
+-          "weight": 95
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K44_outfit_002_01",
+-          "weight": 94
++          "id": "K30_outfit_022",
++          "weight": 45
+         }
+       ]
+     }
+@@ -15096,6 +15165,150 @@
+         {
+           "category": "outfit",
+           "id": "K33_outfit_02",
++          "weight": 3
++        },
++        {
++          "category": "currencyPack",
++          "id": "cellsPack3",
++          "weight": 0
++        }
++      ]
++    },
++    {
++      "activeFrom": "2026-10-13T15:00:00",
++      "activeFromInMs": 1791903600000,
++      "activeTo": "2026-11-03T15:00:00",
++      "activeToInMs": 1793718000000,
++      "id": "Halloween_Sale_2026",
++      "recommendations": [
++        {
++          "category": "outfit",
++          "id": "K23_outfit_019",
++          "weight": 20
++        },
++        {
++          "category": "outfit",
++          "id": "SK_outfit_023",
++          "weight": 20
++        },
++        {
++          "category": "outfit",
++          "id": "S22_outfit_014",
++          "weight": 19
++        },
++        {
++          "category": "outfit",
++          "id": "S47_outfit_011",
++          "weight": 18
++        },
++        {
++          "category": "outfit",
++          "id": "S47_outfit_008",
++          "weight": 18
++        },
++        {
++          "category": "outfit",
++          "id": "S48_outfit_008",
++          "weight": 18
++        },
++        {
++          "category": "outfit",
++          "id": "S44_outfit_006",
++          "weight": 17
++        },
++        {
++          "category": "outfit",
++          "id": "K40_outfit_006",
++          "weight": 16
++        },
++        {
++          "category": "outfit",
++          "id": "K40_outfit_007",
++          "weight": 15
++        },
++        {
++          "category": "outfit",
++          "id": "K39_outfit_008",
++          "weight": 14
++        },
++        {
++          "category": "outfit",
++          "id": "HK_outfit_024",
++          "weight": 13
++        },
++        {
++          "category": "outfit",
++          "id": "S41_outfit_009",
++          "weight": 12
++        },
++        {
++          "category": "outfit",
++          "id": "S32_outfit_009",
++          "weight": 11
++        },
++        {
++          "category": "outfit",
++          "id": "S27_Outfit_010",
++          "weight": 11
++        },
++        {
++          "category": "outfit",
++          "id": "S22_outfit_013",
++          "weight": 10
++        },
++        {
++          "category": "outfit",
++          "id": "S47_outfit_006",
++          "weight": 9
++        },
++        {
++          "category": "outfit",
++          "id": "S43_outfit_010",
++          "weight": 9
++        },
++        {
++          "category": "outfit",
++          "id": "GS_outfit_037",
++          "weight": 8
++        },
++        {
++          "category": "outfit",
++          "id": "K43_outfit_006",
++          "weight": 7
++        },
++        {
++          "category": "outfit",
++          "id": "K39_outfit_02",
++          "weight": 6
++        },
++        {
++          "category": "outfit",
++          "id": "K24_outfit_008",
++          "weight": 5
++        },
++        {
++          "category": "outfit",
++          "id": "K29_outfit_008",
++          "weight": 4
++        },
++        {
++          "category": "outfit",
++          "id": "K30_outfit_018",
++          "weight": 3
++        },
++        {
++          "category": "outfit",
++          "id": "K20_outfit_010",
++          "weight": 3
++        },
++        {
++          "category": "outfit",
++          "id": "K37_outfit_009",
++          "weight": 3
++        },
++        {
++          "category": "outfit",
++          "id": "OK_outfit_016",
+           "weight": 3
+         },
+         {

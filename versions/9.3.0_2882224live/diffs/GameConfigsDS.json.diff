@@ -1,0 +1,54 @@
+--- a/GameConfigsDS.json
++++ b/GameConfigsDS.json
+@@ -47,14 +47,11 @@
+     ],
+     "KAL": [
+       "BotReplacementAnalytics",
+-      "CheatExecutedAnalytics",
+-      "CheatValidatedAnalytics",
+       "DedicatedServerInvalidLoadoutAnalytics",
+       "DedicatedServerPlayerEquipDisabledItemAnalytics",
+       "DedicatedServerStatusAnalytics",
+       "DisconnectionDetailsAnalytics",
+       "FrameHikeAnalytics",
+-      "GPUAnalytics",
+       "Gameplay_ChaseAnalytics",
+       "InvalidLoadoutAnalytics",
+       "LevelLoadingStepAnalytics",
+@@ -65,6 +62,8 @@
+       "PostGame_SurvivorAnalytics"
+     ],
+     "KL": [
++      "CheatExecutedAnalytics",
++      "CheatValidatedAnalytics",
+       "ClientLoginAnalytics",
+       "ClientLogoutAnalytics",
+       "CustomerSupportAnalytics",
+@@ -77,6 +76,7 @@
+       "EACServerValidateAnalytics",
+       "ExecExecutedAnalytics",
+       "FallOutOfWorldAnalytics",
++      "GPUAnalytics",
+       "GameConsoleLogAnalytics",
+       "GameEventLogAnalytics",
+       "GameInitAnalytics",
+@@ -183,10 +183,16 @@
+       "go_next"
+     ]
+   },
++  "enableLogForQuestEventIds": [
++    "QuestEvent.FinishedPlayingKiller",
++    "QuestEvent.FinishedPlayingSurvivor",
++    "QuestEvent.Hook",
++    "QuestEvent.Unhook"
++  ],
+   "mapHistoryWeights": {
+     "0": 0.0001,
+-    "1": 0.25,
+-    "2": 0.5,
+-    "3": 0.75
++    "1": 0.0001,
++    "2": 0.0001,
++    "3": 0.0001
+   }
+ }

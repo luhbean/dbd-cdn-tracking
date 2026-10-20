@@ -1,0 +1,1598 @@
+{
+  "Winter2023": {
+    "level": [
+      {
+        "challengeRewards": [],
+        "end": [
+          "node_WIN2023_1_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 1,
+            "id": "YE_BDG_02",
+            "type": "inventory"
+          },
+          {
+            "amount": 175,
+            "id": "WinterEventCurrency",
+            "type": "currency"
+          }
+        ],
+        "nodes": {
+          "node_WIN2023_1_01": {
+            "clientInfoId": "WinterEventRepairFinish",
+            "coordinates": {
+              "x": 30.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_WIN2023_1_14",
+              "node_WIN2023_1_Reward01",
+              "node_WIN2023_1_05"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "WinterEventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "WinterEventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.WinterEventRepairFinish",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 10,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_1_04": {
+            "clientInfoId": "CoopAction",
+            "coordinates": {
+              "x": 55.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_WIN2023_1_Reward01",
+              "node_WIN2023_1_06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "CoopAction": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 60,
+                "objectiveId": "CoopAction",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.CoopAction",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 10,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_1_05": {
+            "clientInfoId": "EscapeChase",
+            "coordinates": {
+              "x": 15.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_WIN2023_1_Start01",
+              "node_WIN2023_1_01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EscapeChase": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "EscapeChase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EscapeChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 10,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_1_06": {
+            "clientInfoId": "FallInChaseWinter",
+            "coordinates": {
+              "x": 70.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_WIN2023_1_Reward02",
+              "node_WIN2023_1_04"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "FallInChase": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "FallInChase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me;Distance:250",
+                    "questEventId": "QuestEvent.FallInChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 10,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_1_07": {
+            "clientInfoId": "WinterEventHook",
+            "coordinates": {
+              "x": 30.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_WIN2023_1_14",
+              "node_WIN2023_1_Reward01",
+              "node_WIN2023_1_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "WinterEventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "WinterEventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.WinterEventHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 10,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_1_08": {
+            "clientInfoId": "Hit",
+            "coordinates": {
+              "x": 15.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_WIN2023_1_Start01",
+              "node_WIN2023_1_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Hit": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 10,
+                "objectiveId": "Hit",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Hit",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 10,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_1_09": {
+            "clientInfoId": "Sacrifice",
+            "coordinates": {
+              "x": 55.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_WIN2023_1_Reward01",
+              "node_WIN2023_1_11"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Sacrifice": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "Sacrifice",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Sacrifice",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 10,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_1_11": {
+            "clientInfoId": "BreakWallsPalletsGens",
+            "coordinates": {
+              "x": 70.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_WIN2023_1_09",
+              "node_WIN2023_1_Reward02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "BreakWallsPalletsGens": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 12,
+                "objectiveId": "BreakWallsPalletsGens",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.BreakWallsPalletsGens",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 10,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_1_13": {
+            "clientInfoId": "SnowmanMimicJumpScare",
+            "coordinates": {
+              "x": 55.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_WIN2023_1_Reward01",
+              "node_WIN2023_1_15"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SnowmanMimicJumpScare": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "SnowmanMimicJumpScare",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SnowmanMimicJumpScare",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 10,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_1_14": {
+            "clientInfoId": "SnowballHit",
+            "coordinates": {
+              "x": 20.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_WIN2023_1_Start01",
+              "node_WIN2023_1_01",
+              "node_WIN2023_1_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SnowballHit": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 10,
+                "objectiveId": "SnowballHit",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SnowballHit",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 10,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_1_15": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 70.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_WIN2023_1_Reward02",
+              "node_WIN2023_1_13"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpoints": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 50000,
+                "objectiveId": "EarnBloodpoints",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 10,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_1_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 95.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_WIN2023_1_Reward02"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_WIN2023_1_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 40.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_WIN2023_1_04",
+              "node_WIN2023_1_01",
+              "node_WIN2023_1_07",
+              "node_WIN2023_1_13",
+              "node_WIN2023_1_09"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 50,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_1_Reward02": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 85.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_WIN2023_1_15",
+              "node_WIN2023_1_06",
+              "node_WIN2023_1_End01",
+              "node_WIN2023_1_11"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 50,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_1_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 5.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_WIN2023_1_14",
+              "node_WIN2023_1_08",
+              "node_WIN2023_1_05"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_WIN2023_1_Start01"
+        ],
+        "startDate": "2023-12-14T16:00:00",
+        "startDateInMs": 1702569600000,
+        "taskRewards": []
+      },
+      {
+        "challengeRewards": [],
+        "end": [
+          "node_WIN2023_2_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 1,
+            "id": "YE_BNR_02",
+            "type": "inventory"
+          },
+          {
+            "amount": 250,
+            "id": "WinterEventCurrency",
+            "type": "currency"
+          }
+        ],
+        "nodes": {
+          "node_WIN2023_2_01": {
+            "clientInfoId": "WinterEventRepairFinish",
+            "coordinates": {
+              "x": 10.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_WIN2023_2_Start01",
+              "node_WIN2023_2_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "WinterEventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "WinterEventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.WinterEventRepairFinish",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_2_03": {
+            "clientInfoId": "SearchFinish",
+            "coordinates": {
+              "x": 30.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_WIN2023_2_07",
+              "node_WIN2023_2_06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SearchFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "SearchFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SearchFinish",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_2_04": {
+            "clientInfoId": "Heal",
+            "coordinates": {
+              "x": 45.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_WIN2023_2_06",
+              "node_WIN2023_2_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HealPerc": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 200,
+                "objectiveId": "HealPerc",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Heal",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_2_06": {
+            "clientInfoId": "StunBlind",
+            "coordinates": {
+              "x": 30.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_WIN2023_2_04",
+              "node_WIN2023_2_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "StunBlind": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "StunBlind",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.StunBlind",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_2_07": {
+            "clientInfoId": "SnowmanMimicDestroy",
+            "coordinates": {
+              "x": 30.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_WIN2023_2_11",
+              "node_WIN2023_2_01",
+              "node_WIN2023_2_Reward02",
+              "node_WIN2023_2_03",
+              "node_WIN2023_2_10"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SnowmanMimicDestroy": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "SnowmanMimicDestroy",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SnowmanMimicDestroy",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_2_08": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 60.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_WIN2023_2_13",
+              "node_WIN2023_2_04",
+              "node_WIN2023_2_Reward01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpoints": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 50000,
+                "objectiveId": "EarnBloodpoints",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_2_10": {
+            "clientInfoId": "Chase",
+            "coordinates": {
+              "x": 45.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_WIN2023_2_07",
+              "node_WIN2023_2_13"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Chase": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 120,
+                "objectiveId": "Chase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Chase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_2_11": {
+            "clientInfoId": "WinterEventHook",
+            "coordinates": {
+              "x": 20.0,
+              "y": 50.0
+            },
+            "neighbors": [
+              "node_WIN2023_2_Start01",
+              "node_WIN2023_2_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "WinterEventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 6,
+                "objectiveId": "WinterEventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.WinterEventHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_2_13": {
+            "clientInfoId": "Down",
+            "coordinates": {
+              "x": 60.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_WIN2023_2_08",
+              "node_WIN2023_2_10"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Down": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 8,
+                "objectiveId": "Down",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "target:other",
+                    "questEventId": "QuestEvent.Down",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 15,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_2_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 90.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_WIN2023_2_Reward01"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_WIN2023_2_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 75.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_WIN2023_2_08",
+              "node_WIN2023_2_End01"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 50,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_2_Reward02": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 45.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_WIN2023_2_07"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 50,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_2_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 10.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_WIN2023_2_01",
+              "node_WIN2023_2_11"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_WIN2023_2_Start01"
+        ],
+        "startDate": "2023-12-21T16:00:00",
+        "startDateInMs": 1703174400000,
+        "taskRewards": []
+      },
+      {
+        "challengeRewards": [],
+        "end": [
+          "node_WIN2023_3_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 1,
+            "id": "YE_004",
+            "type": "inventory"
+          },
+          {
+            "amount": 300,
+            "id": "WinterEventCurrency",
+            "type": "currency"
+          }
+        ],
+        "nodes": {
+          "node_WIN2023_3_01": {
+            "clientInfoId": "WinterEventRepairFinish",
+            "coordinates": {
+              "x": 25.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_WIN2023_3_Start01",
+              "node_WIN2023_3_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "WinterEventRepairFinish": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "WinterEventRepairFinish",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.WinterEventRepairFinish",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 20,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_3_03": {
+            "clientInfoId": "StunBlind",
+            "coordinates": {
+              "x": 60.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_WIN2023_3_05",
+              "node_WIN2023_3_06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "StunBlind": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "StunBlind",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.StunBlind",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 20,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_3_05": {
+            "clientInfoId": "Unhook",
+            "coordinates": {
+              "x": 50.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_WIN2023_3_08",
+              "node_WIN2023_3_03"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "Unhook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "Unhook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Unhook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 20,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_3_06": {
+            "clientInfoId": "VaultInChase",
+            "coordinates": {
+              "x": 70.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_WIN2023_3_03",
+              "node_WIN2023_3_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "VaultInChase": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "VaultInChase",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.VaultInChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 20,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_3_07": {
+            "clientInfoId": "SnowballHit",
+            "coordinates": {
+              "x": 85.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_WIN2023_3_06",
+              "node_WIN2023_3_12",
+              "node_WIN2023_3_Reward01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SnowballHit": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 20,
+                "objectiveId": "SnowballHit",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.SnowballHit",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 20,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_3_08": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 35.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_WIN2023_3_Reward02",
+              "node_WIN2023_3_10",
+              "node_WIN2023_3_05",
+              "node_WIN2023_3_11",
+              "node_WIN2023_3_01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpoints": {
+                "conditions": [],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 50000,
+                "objectiveId": "EarnBloodpoints",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 20,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_3_10": {
+            "clientInfoId": "WinterEventHook",
+            "coordinates": {
+              "x": 20.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_WIN2023_3_Start01",
+              "node_WIN2023_3_08"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "WinterEventHook": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 8,
+                "objectiveId": "WinterEventHook",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.WinterEventHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 20,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_3_11": {
+            "clientInfoId": "HookBasement",
+            "coordinates": {
+              "x": 45.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_WIN2023_3_08",
+              "node_WIN2023_3_12"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "HookBasement": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "HookBasement",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HookBasement",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 20,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_3_12": {
+            "clientInfoId": "KillObsession",
+            "coordinates": {
+              "x": 75.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_WIN2023_3_11",
+              "node_WIN2023_3_07"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "KillObsession": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "KillObsession",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "questEventId": "QuestEvent.KillObsession",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 30000,
+                "id": "Bloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 20,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_3_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 85.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_WIN2023_3_Reward01"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_WIN2023_3_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 85.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_WIN2023_3_07",
+              "node_WIN2023_3_End01"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 50,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_3_Reward02": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 35.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_WIN2023_3_08"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 50,
+                "id": "WinterEventCurrency",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_WIN2023_3_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 10.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_WIN2023_3_10",
+              "node_WIN2023_3_01"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_WIN2023_3_Start01"
+        ],
+        "startDate": "2023-12-28T16:00:00",
+        "startDateInMs": 1703779200000,
+        "taskRewards": []
+      }
+    ],
+    "newTomePopup": false,
+    "riftId": "Tome17",
+    "specialEventId": "Winter2023"
+  }
+}

@@ -1,0 +1,814 @@
+{
+  "FireflyV1": {
+    "level": [
+      {
+        "challengeRewards": [],
+        "end": [
+          "node_FireflyV1_L1_End01"
+        ],
+        "endNodeRewards": [
+          {
+            "amount": 1,
+            "id": "EC_BNR_01",
+            "type": "inventory"
+          }
+        ],
+        "nodes": {
+          "node_FireflyV1_L1_01": {
+            "clientInfoId": "UnhookOrHook",
+            "coordinates": {
+              "x": 85.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_07",
+              "node_FireflyV1_L1_12",
+              "node_FireflyV1_L1_Reward02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "UnhookOrHookInFirefly": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Firefly"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "UnhookOrHookInFirefly",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.UnhookOrHook",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_02": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 45.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_11",
+              "node_FireflyV1_L1_10",
+              "node_FireflyV1_L1_09",
+              "node_FireflyV1_L1_08",
+              "node_FireflyV1_L1_Reward01",
+              "node_FireflyV1_L1_07",
+              "node_FireflyV1_L1_06"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpointsInFirefly": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Firefly"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 100000,
+                "objectiveId": "EarnBloodpointsInFirefly",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_03": {
+            "clientInfoId": "ChaseAsK37InTrial",
+            "coordinates": {
+              "x": 25.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_Reward01",
+              "node_FireflyV1_L1_13"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "ChaseAsCharacterInTrialInFirefly": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Firefly"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "K37"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "ChaseAsCharacterInTrialInFirefly",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Chase",
+                    "repetition": 60
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_04": {
+            "clientInfoId": "ChasedByKillerAsS44InTrial",
+            "coordinates": {
+              "x": 35.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_Reward01",
+              "node_FireflyV1_L1_14"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "ChasedByKillerAsCharacterInTrialInFirefly": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Firefly"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "S44"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "ChasedByKillerAsCharacterInTrialInFirefly",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "target:me;instigator:other",
+                    "questEventId": "QuestEvent.Chase",
+                    "repetition": 30
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_05": {
+            "clientInfoId": "EarnBloodpoints",
+            "coordinates": {
+              "x": 65.0,
+              "y": 80.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_06",
+              "node_FireflyV1_L1_15",
+              "node_FireflyV1_L1_Reward02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnBloodpointsInFirefly": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Firefly"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 100000,
+                "objectiveId": "EarnBloodpointsInFirefly",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "questEventId": "QuestEvent.EarnBloodpoints",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_06": {
+            "clientInfoId": "Sacrifice",
+            "coordinates": {
+              "x": 55.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_05",
+              "node_FireflyV1_L1_02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "SacrificeInFirefly": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Firefly"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "SacrificeInFirefly",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "questEventId": "QuestEvent.Sacrifice",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_07": {
+            "clientInfoId": "Escape",
+            "coordinates": {
+              "x": 60.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_01",
+              "node_FireflyV1_L1_02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EscapeInFirefly": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Firefly"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 1,
+                "objectiveId": "EscapeInFirefly",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Escape",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_08": {
+            "clientInfoId": "Down",
+            "coordinates": {
+              "x": 25.0,
+              "y": 100.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_13",
+              "node_FireflyV1_L1_02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "DownInFirefly": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Firefly"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "DownInFirefly",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "questEventId": "QuestEvent.Down",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_09": {
+            "clientInfoId": "RepairFinish",
+            "coordinates": {
+              "x": 45.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_14",
+              "node_FireflyV1_L1_02"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "RepairFinishInFirefly": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Firefly"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "RepairFinishInFirefly",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.RepairFinish",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_10": {
+            "clientInfoId": "SacrificeAsK37InTrial",
+            "coordinates": {
+              "x": 60.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_Reward02",
+              "node_FireflyV1_L1_02"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "SacrificeAsCharacterInTrialInFirefly": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Firefly"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "K37"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "SacrificeAsCharacterInTrialInFirefly",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "questEventId": "QuestEvent.Sacrifice",
+                    "repetition": 2
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_11": {
+            "clientInfoId": "EscapeAsS44InTrial",
+            "coordinates": {
+              "x": 65.0,
+              "y": 30.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_Reward02",
+              "node_FireflyV1_L1_02"
+            ],
+            "nodeType": "quest:challenge",
+            "objectives": {
+              "EscapeAsCharacterInTrialInFirefly": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Firefly"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  },
+                  {
+                    "key": "character",
+                    "value": [
+                      "S44"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": false,
+                "neededProgression": 1,
+                "objectiveId": "EscapeAsCharacterInTrialInFirefly",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Escape",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 25000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_12": {
+            "clientInfoId": "BreakLanternOrRepairFinishLantern",
+            "coordinates": {
+              "x": 85.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_01",
+              "node_FireflyV1_L1_End01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "BreakLanternOrRepairFinishLantern": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Firefly"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "BreakLanternOrRepairFinishLantern",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.Firefly.DestroyLanternOrCompleteGeneratorWithLantern",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_13": {
+            "clientInfoId": "BreakWhileChase",
+            "coordinates": {
+              "x": 5.0,
+              "y": 70.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_08",
+              "node_FireflyV1_L1_03",
+              "node_FireflyV1_L1_Start01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "BreakWhileChaseInFirefly": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Firefly"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "killer"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 4,
+                "objectiveId": "BreakWhileChaseInFirefly",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.BreakWhileChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_14": {
+            "clientInfoId": "EscapeChase",
+            "coordinates": {
+              "x": 25.0,
+              "y": 10.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_04",
+              "node_FireflyV1_L1_Start01",
+              "node_FireflyV1_L1_09"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EscapeChaseInFirefly": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Firefly"
+                    ]
+                  },
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 3,
+                "objectiveId": "EscapeChaseInFirefly",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.EscapeChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_15": {
+            "clientInfoId": "EarnEmblemsIridescent",
+            "coordinates": {
+              "x": 75.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_05",
+              "node_FireflyV1_L1_End01"
+            ],
+            "nodeType": "quest:task",
+            "objectives": {
+              "EarnEmblemsIridescentInFirefly": {
+                "conditions": [
+                  {
+                    "key": "gameTypes",
+                    "value": [
+                      "Firefly"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "neededProgression": 2,
+                "objectiveId": "EarnEmblemsIridescentInFirefly",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "EmblemQuality:Iridescent",
+                    "questEventId": "QuestEvent.EarnEmblemsQuality",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "reward": [
+              {
+                "amount": 15000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_End01": {
+            "clientInfoId": "End",
+            "coordinates": {
+              "x": 95.0,
+              "y": 90.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_12",
+              "node_FireflyV1_L1_15"
+            ],
+            "nodeType": "narrative"
+          },
+          "node_FireflyV1_L1_Reward01": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 15.0,
+              "y": 40.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_03",
+              "node_FireflyV1_L1_04",
+              "node_FireflyV1_L1_02"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "ECR_004",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_Reward02": {
+            "clientInfoId": "reward",
+            "coordinates": {
+              "x": 75.0,
+              "y": 60.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_10",
+              "node_FireflyV1_L1_11",
+              "node_FireflyV1_L1_01",
+              "node_FireflyV1_L1_05"
+            ],
+            "nodeType": "reward",
+            "reward": [
+              {
+                "amount": 1,
+                "id": "EC_BDG_03",
+                "type": "inventory"
+              }
+            ]
+          },
+          "node_FireflyV1_L1_Start01": {
+            "clientInfoId": "Start",
+            "coordinates": {
+              "x": 5.0,
+              "y": 20.0
+            },
+            "neighbors": [
+              "node_FireflyV1_L1_13",
+              "node_FireflyV1_L1_14"
+            ],
+            "nodeType": "narrative"
+          }
+        },
+        "start": [
+          "node_FireflyV1_L1_Start01"
+        ],
+        "startDate": "2024-09-12T15:00:00",
+        "startDateInMs": 1726153200000,
+        "taskRewards": []
+      }
+    ],
+    "newTomePopup": false,
+    "riftId": "Tome20",
+    "specialEventId": "FireflyV1"
+  }
+}

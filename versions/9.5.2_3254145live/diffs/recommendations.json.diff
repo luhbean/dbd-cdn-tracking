@@ -1,0 +1,727 @@
+--- a/recommendations.json
++++ b/recommendations.json
+@@ -758,9 +758,14 @@
+     {
+       "activeFrom": "2025-09-16T15:00:00",
+       "activeFromInMs": 1758034800,
+-      "activeTo": "2025-09-25T15:00:00",
+-      "activeToInMs": 1758812400,
++      "activeTo": "2025-09-23T15:00:00",
++      "activeToInMs": 1758639600,
+       "entries": [
++        {
++          "entryId": "Tome_6_Bundle",
++          "type": "SpecialPack",
++          "weight": 15
++        },
+         {
+           "entryId": "ModernBaroque",
+           "type": "Collection",
+@@ -1694,111 +1699,6 @@
+       ],
+       "id": "QuicheW6",
+       "inclusionVersion": "9.5.0"
+-    },
+-    {
+-      "activeFrom": "2026-04-28T15:00:00",
+-      "activeFromInMs": 1777388400,
+-      "activeTo": "2026-05-05T15:00:00",
+-      "activeToInMs": 1777993200,
+-      "entries": [
+-        {
+-          "entryId": "Rift_5_Bundle",
+-          "type": "SpecialPack",
+-          "weight": 20
+-        },
+-        {
+-          "entryId": "Attack_Titan_Bundle",
+-          "type": "SpecialPack",
+-          "weight": 19
+-        },
+-        {
+-          "entryId": "AttackOnTitan_Ramen",
+-          "type": "Collection",
+-          "weight": 18
+-        },
+-        {
+-          "entryId": "Alien_Ramen",
+-          "type": "Collection",
+-          "weight": 17
+-        },
+-        {
+-          "entryId": "Songkran",
+-          "type": "Collection",
+-          "weight": 16
+-        }
+-      ],
+-      "id": "Ramen_W1",
+-      "inclusionVersion": "9.6.0"
+-    },
+-    {
+-      "activeFrom": "2026-05-05T15:00:00",
+-      "activeFromInMs": 1777993200,
+-      "activeTo": "2026-05-12T15:00:00",
+-      "activeToInMs": 1778598000,
+-      "entries": [
+-        {
+-          "entryId": "Chrysalis_Ramen",
+-          "type": "Collection",
+-          "weight": 14
+-        },
+-        {
+-          "entryId": "Chrysalis_Bundle_Ramen",
+-          "type": "SpecialPack",
+-          "weight": 13
+-        },
+-        {
+-          "entryId": "Rift_5_Bundle",
+-          "type": "SpecialPack",
+-          "weight": 12
+-        },
+-        {
+-          "entryId": "AttackOnTitan_Ramen",
+-          "type": "Collection",
+-          "weight": 11
+-        },
+-        {
+-          "entryId": "Alien_Ramen",
+-          "type": "Collection",
+-          "weight": 10
+-        }
+-      ],
+-      "id": "Ramen_W2",
+-      "inclusionVersion": "9.6.0"
+-    },
+-    {
+-      "activeFrom": "2026-05-12T15:00:00",
+-      "activeFromInMs": 1778598000,
+-      "activeTo": "2026-05-19T15:00:00",
+-      "activeToInMs": 1779202800,
+-      "entries": [
+-        {
+-          "entryId": "SeoulSights_Ramen",
+-          "type": "Collection",
+-          "weight": 9
+-        },
+-        {
+-          "entryId": "Seoul_Sights_Bundle_Ramen",
+-          "type": "SpecialPack",
+-          "weight": 8
+-        },
+-        {
+-          "entryId": "Chrysalis_Ramen",
+-          "type": "Collection",
+-          "weight": 7
+-        },
+-        {
+-          "entryId": "Rift_5_Bundle",
+-          "type": "SpecialPack",
+-          "weight": 6
+-        },
+-        {
+-          "entryId": "AttackOnTitan_Ramen",
+-          "type": "Collection",
+-          "weight": 5
+-        }
+-      ],
+-      "id": "Ramen_W3",
+-      "inclusionVersion": "9.6.0"
+     }
+   ],
+   "featuredChapterPackRecommendations": [
+@@ -6566,245 +6466,8 @@
+           "category": "outfit",
+           "id": "K23_outfit_019",
+           "weight": 1001
+-        }
+-      ]
+-    },
+-    {
+-      "activeFrom": "2026-04-28T15:00:00",
+-      "activeFromInMs": 1777388400,
+-      "activeTo": "2026-05-05T15:00:00",
+-      "activeToInMs": 1777993200,
+-      "id": "RamenW1",
+-      "recommendations": [
+-        {
+-          "category": "outfit",
+-          "id": "TR_outfit_031",
+-          "weight": 20
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "TR_outfit_031_01",
+-          "weight": 19
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "TR_outfit_031_02",
+-          "weight": 18
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "JP_outfit_034",
+-          "weight": 17
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "SS_outfit_031",
+-          "weight": 16
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S35_outfit_025",
+-          "weight": 15
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S28_outfit_034",
+-          "weight": 14
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S31_outfit_025",
+-          "weight": 13
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "HS_outfit_032",
+-          "weight": 12
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S36_outfit_025",
+-          "weight": 11
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S24_outfit_028",
+-          "weight": 10
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "FM_outfit_043",
+-          "weight": 9
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S37_outfit_026",
+-          "weight": 8
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S39_outfit_013",
+-          "weight": 7
+-        }
+-      ]
+-    },
+-    {
+-      "activeFrom": "2026-05-05T15:00:00",
+-      "activeFromInMs": 1777993200,
+-      "activeTo": "2026-05-12T15:00:00",
+-      "activeToInMs": 1778598000,
+-      "id": "RamenW2",
+-      "recommendations": [
+-        {
+-          "category": "outfit",
+-          "id": "S25_outfit_033",
+-          "weight": 22
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "BE_outfit_030",
+-          "weight": 21
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "TR_outfit_031",
+-          "weight": 20
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "TR_outfit_031_01",
+-          "weight": 19
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "TR_outfit_031_02",
+-          "weight": 18
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "JP_outfit_034",
+-          "weight": 17
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "SS_outfit_031",
+-          "weight": 16
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S35_outfit_025",
+-          "weight": 15
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S28_outfit_034",
+-          "weight": 14
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S31_outfit_025",
+-          "weight": 13
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "HS_outfit_032",
+-          "weight": 12
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S36_outfit_025",
+-          "weight": 11
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S24_outfit_028",
+-          "weight": 10
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "FM_outfit_043",
+-          "weight": 9
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S37_outfit_026",
+-          "weight": 8
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S39_outfit_013",
+-          "weight": 7
+         }
+       ]
+-    },
+-    {
+-      "activeFrom": "2026-05-12T15:00:00",
+-      "activeFromInMs": 1778598000,
+-      "activeTo": "2026-05-19T15:00:00",
+-      "activeToInMs": 1779202800,
+-      "id": "RamenW3",
+-      "recommendations": [
+-        {
+-          "category": "outfit",
+-          "id": "S52_outfit_007",
+-          "weight": 24
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K31_outfit_019",
+-          "weight": 23
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S25_outfit_033",
+-          "weight": 22
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "BE_outfit_030",
+-          "weight": 21
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "TR_outfit_031",
+-          "weight": 20
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "TR_outfit_031_01",
+-          "weight": 19
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "TR_outfit_031_02",
+-          "weight": 18
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "JP_outfit_034",
+-          "weight": 17
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "SS_outfit_031",
+-          "weight": 16
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S35_outfit_025",
+-          "weight": 15
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S37_outfit_026",
+-          "weight": 8
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S39_outfit_013",
+-          "weight": 7
+-        }
+-      ]
+     }
+   ],
+   "specialsRecommendations": [
+@@ -12201,349 +11864,7 @@
+         {
+           "category": "outfit",
+           "id": "S33_outfit_008",
+-          "weight": 2
+-        },
+-        {
+-          "category": "currencyPack",
+-          "id": "cellsPack4",
+-          "weight": 0
+-        }
+-      ]
+-    },
+-    {
+-      "activeFrom": "2026-05-26T15:00:00",
+-      "activeFromInMs": 1779807600,
+-      "activeTo": "2026-06-02T15:00:00",
+-      "activeToInMs": 1780412400,
+-      "id": "RoadToAnniversary2026_W1",
+-      "recommendations": [
+-        {
+-          "category": "outfit",
+-          "id": "S22_outfit_006",
+-          "weight": 20
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "SwedenKiller_outfit_009",
+-          "weight": 19
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "Meg_outfit_013",
+-          "weight": 18
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "Claudette_outfit_009_01",
+-          "weight": 17
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "JP_outfit_011",
+-          "weight": 16
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "NK_outfit_012",
+-          "weight": 15
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "FM_outfit_011",
+-          "weight": 14
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "GS_outfit_010",
+-          "weight": 13
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "ML_outfit_006",
+-          "weight": 12
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "SwedenSurvivor_outfit_006",
+-          "weight": 11
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S23_outfit_007",
+-          "weight": 10
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "Bob_outfit_010",
+-          "weight": 9
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "BE_outfit_009",
+-          "weight": 8
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "CA_outfit_006",
+-          "weight": 7
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "FK_outfit_007",
+-          "weight": 6
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "HK_outfit_010",
+-          "weight": 5
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "KK_outfit_014",
+-          "weight": 4
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "OK_outfit_007",
+-          "weight": 3
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K20_outfit_006",
+-          "weight": 2
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K21_outfit_007",
+-          "weight": 1
+-        },
+-        {
+-          "category": "currencyPack",
+-          "id": "cellsPack4",
+-          "weight": 0
+-        }
+-      ]
+-    },
+-    {
+-      "activeFrom": "2026-06-02T15:00:00",
+-      "activeFromInMs": 1780412400,
+-      "activeTo": "2026-06-09T15:00:00",
+-      "activeToInMs": 1781017200,
+-      "id": "RoadToAnniversary2026_W2",
+-      "recommendations": [
+-        {
+-          "category": "outfit",
+-          "id": "TR_outfit_018",
+-          "weight": 20
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S22_outfit_012",
+-          "weight": 19
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S26_Outfit_02",
+-          "weight": 18
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "KK_outfit_023",
+-          "weight": 17
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K21_outfit_012",
+-          "weight": 16
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K34_outfit_007",
+-          "weight": 15
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "SwedenKiller_outfit_012",
+-          "weight": 14
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "MT_outfit_013",
+-          "weight": 13
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "JP_outfit_018",
+-          "weight": 12
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "FM_outfit_015",
+-          "weight": 11
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "US_outfit_016",
+-          "weight": 10
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S27_Outfit_006",
+-          "weight": 9
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S28_outfit_010",
+-          "weight": 8
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S32_outfit_008",
+-          "weight": 7
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S33_outfit_006",
+-          "weight": 6
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "BE_outfit_017",
+-          "weight": 5
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "HK_outfit_017",
+-          "weight": 4
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K23_outfit_006",
+-          "weight": 3
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K28_outfit_009",
+-          "weight": 2
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K30_outfit_008",
+-          "weight": 1
+-        },
+-        {
+-          "category": "currencyPack",
+-          "id": "cellsPack4",
+-          "weight": 0
+-        }
+-      ]
+-    },
+-    {
+-      "activeFrom": "2026-06-09T15:00:00",
+-      "activeFromInMs": 1781017200,
+-      "activeTo": "2026-06-16T15:00:00",
+-      "activeToInMs": 1781622000,
+-      "id": "RoadToAnniversary2026_W3",
+-      "recommendations": [
+-        {
+-          "category": "outfit",
+-          "id": "BE_outfit_024",
+-          "weight": 20
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "SK_outfit_023",
+-          "weight": 19
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S34_outfit_023",
+-          "weight": 18
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S40_outfit_006",
+-          "weight": 17
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S44_outfit_006",
+-          "weight": 16
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S47_outfit_008",
+-          "weight": 15
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S48_outfit_008",
+-          "weight": 14
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K26_outfit_020",
+-          "weight": 13
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K28_outfit_013",
+-          "weight": 12
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K39_outfit_008",
+-          "weight": 11
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K40_outfit_006",
+-          "weight": 10
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "SS_outfit_029",
+-          "weight": 9
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S27_Outfit_010",
+-          "weight": 8
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S28_outfit_020",
+-          "weight": 7
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S41_outfit_009",
+-          "weight": 6
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "S43_outfit_010",
+-          "weight": 5
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "MK_outfit_015",
+-          "weight": 4
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K24_outfit_008",
+-          "weight": 3
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K29_outfit_008",
+           "weight": 2
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K35_outfit_011",
+-          "weight": 1
+         },
+         {
+           "category": "currencyPack",

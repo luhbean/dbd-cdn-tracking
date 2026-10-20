@@ -1,7 +1,6 @@
 {
   "BHVRDynamicContent": {
-    "enabled": true,
-    "isFailureBlocking": false
+    "enabled": true
   },
   "DSProviderOnShutdownNotificationDelay": 90.0,
   "GameLoadingTimeout": -1.0,
@@ -243,7 +242,7 @@
     "maxTrackedRecurrences": 5,
     "minCountValuesForRules": [
       "KA:23",
-      "KL:90"
+      "KL:86"
     ],
     "performanceContextWhitelist": [
       "InGame",
@@ -380,9 +379,6 @@
       "SubscriptionRewardsAnalytics"
     ],
     "KL": [
-      "BhvrDynamicContentDownloadedAnalytics",
-      "BhvrDynamicContentErrorAnalytics",
-      "BhvrDynamicContentInstalledAnalytics",
       "BotReplacementAnalytics",
       "CheatValidatedAnalytics",
       "ClientLoginAnalytics",
@@ -403,7 +399,6 @@
       "FallOutOfWorldAnalytics",
       "FrameHikeAnalytics",
       "GameConsoleLogAnalytics",
-      "GameEventCountAnalytics",
       "GameEventLogAnalytics",
       "GameInitAnalytics",
       "HangAnalytics",
@@ -527,14 +522,6 @@
     "enableCommentatorSaveHistory": true
   },
   "communityChallengeRefreshSeconds": 1800.0,
-  "consent": {
-    "ConsentV2": {
-      "AvailableConsentIds": [
-        "segmentation-consent"
-      ],
-      "GlobalKillSwitch": false
-    }
-  },
   "contentVersion": {
     "clientNewContentForceReboot": true,
     "clientNewContentRebootMaxSeconds": 1800.0,
@@ -965,7 +952,7 @@
     "enabled": true,
     "publicKey": "LS0tLS1CRUdJTiBQVUJMSUMgS0VZLS0tLS0KTUlJQklqQU5CZ2txaGtpRzl3MEJBUUVGQUFPQ0FROEFNSUlCQ2dLQ0FRRUFvVHc2Mk5NQ0dtNVVOWjUzeTNaagp0Y1dxRk5jOE83UlRzQ0d2WHNCOWRNRGFqRzFnOTFyUzZEc2hiWTJFNk84MVlRdGlSUGRYcUgzcWVLUjcvdU53CkhwOWVVbWM4NzVPcS9xQldkWldjZEk0V3RmUWM3Z0FrMzR0ZUhhMU10VG1XL3QrVEtVajJBekRjVHZXNkpjcXUKWmdqRzkvSlR2dzM4RzEyQXFjWHZ5K3hFam4zL2ptQ0oxOGZWWWRuQ0I1ZWFEQkFoMFluTzQxaGIyODZDS0pwRwozT25wTHFyeWlzVzFnOTZ1ZWxKQnhVelRydnVKK2JJS2VFSWdqdURobHpaNU4yeW5tbHNodXlRWm15ME50VE14CjNqMlVoSkNtS3JsNTdKMzhnUnpRczJqSDBKT3ExZkhsOEhXMHlUT1dLQVNxbkNqaVp0NG5QUGJVdXpVY1JYcEEKeXdJREFRQUIKLS0tLS1FTkQgUFVCTElDIEtFWS0tLS0tCg=="
   },
-  "krakenRequestAnalyticsLevel": "HttpError",
+  "krakenRequestAnalyticsLevel": "NetworkError",
   "krakenRsaPublicKey": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuq878RHxy7gwEGnjh/vXcOH+1evTjEA9ygzmKEmG4s2xfNTXgneht6IsCSt5rGgpB3SabgdfUlfZyNNcwx18H7PGdsEwDcbrpZvNsgVt12oSXANjUaWDhUFJ1mVV3QmRIMyknWsA7pRX5Vy1Jr9vZ6IfFopGD++OEGsGooCA7CLGi0+E2v9UvKu/CU+PeaLNTriLa/R8B2YnhmNtSa94U+6sxNt4tzY85+TOfM7SMIgagQcZgREnXsSYhHWs4zfrz6ANaKzi4x0Tep0rK1kTnVv431+VA2zcvFahujVYncQIim+Ivee3TttJMBygxQUGR2/0qJfMkjitldpR3c3sIQIDAQAB",
   "krakenSdkValidation": {
     "enabled": false,

@@ -2,16 +2,26 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.6.1_3316933live` · built 2026-05-04 16:57 UTC
+**Latest version:** `9.6.0_3316695live` · built 2026-05-05 12:46 UTC
 
-[What changed](versions/9.6.1_3316933live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.6.0_3316695live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **2** modified · **0** removed, compared with `9.6.1_3316708live`.
+**7** added · **5** modified · **0** removed, compared with `9.6.1_3316933live`.
 
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.6.1_3316933live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`itemsKillswitch.json`](versions/9.6.1_3316933live/diffs/itemsKillswitch.json.diff)
+- ~ [`catalog.json`](versions/9.6.0_3316695live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.6.0_3316695live/diffs/challengeSets.json.diff)
+- ~ [`contentSchedule.json`](versions/9.6.0_3316695live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.6.0_3316695live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/9.6.0_3316695live/diffs/itemsKillswitch.json.diff)
+- \+ [`images/T_UI_CollectionBanner_Aliens_Hudson.png`](versions/9.6.0_3316695live/images/T_UI_CollectionBanner_Aliens_Hudson.png)
+- \+ [`images/T_UI_CollectionBanner_AoT_2.png`](versions/9.6.0_3316695live/images/T_UI_CollectionBanner_AoT_2.png)
+- \+ [`images/T_UI_CollectionBanner_SeoulSights_Kwon.png`](versions/9.6.0_3316695live/images/T_UI_CollectionBanner_SeoulSights_Kwon.png)
+- \+ [`images/T_UI_SpecialPack_Aliens_Hudson.png`](versions/9.6.0_3316695live/images/T_UI_SpecialPack_Aliens_Hudson.png)
+- \+ [`images/T_UI_SpecialPack_AoT_2.png`](versions/9.6.0_3316695live/images/T_UI_SpecialPack_AoT_2.png)
+- \+ [`images/T_UI_SpecialPack_Rift5.png`](versions/9.6.0_3316695live/images/T_UI_SpecialPack_Rift5.png)
+- \+ [`images/T_UI_SpecialPack_SeoulSights_Kwon.png`](versions/9.6.0_3316695live/images/T_UI_SpecialPack_SeoulSights_Kwon.png)
 
 ## Browse
 
@@ -33,7 +43,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-424 versions tracked so far.
+425 versions tracked so far.
 
 ---
 

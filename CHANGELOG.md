@@ -2,6 +2,23 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.6.0_3316695live](versions/9.6.0_3316695live/CHANGES.md)
+
+Built 2026-05-05 12:46 UTC · **+7** added · **~5** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/9.6.0_3316695live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.6.0_3316695live/diffs/challengeSets.json.diff)
+- ~ [`contentSchedule.json`](versions/9.6.0_3316695live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.6.0_3316695live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/9.6.0_3316695live/diffs/itemsKillswitch.json.diff)
+- \+ [`images/T_UI_CollectionBanner_Aliens_Hudson.png`](versions/9.6.0_3316695live/images/T_UI_CollectionBanner_Aliens_Hudson.png)
+- \+ [`images/T_UI_CollectionBanner_AoT_2.png`](versions/9.6.0_3316695live/images/T_UI_CollectionBanner_AoT_2.png)
+- \+ [`images/T_UI_CollectionBanner_SeoulSights_Kwon.png`](versions/9.6.0_3316695live/images/T_UI_CollectionBanner_SeoulSights_Kwon.png)
+- \+ [`images/T_UI_SpecialPack_Aliens_Hudson.png`](versions/9.6.0_3316695live/images/T_UI_SpecialPack_Aliens_Hudson.png)
+- \+ [`images/T_UI_SpecialPack_AoT_2.png`](versions/9.6.0_3316695live/images/T_UI_SpecialPack_AoT_2.png)
+- \+ [`images/T_UI_SpecialPack_Rift5.png`](versions/9.6.0_3316695live/images/T_UI_SpecialPack_Rift5.png)
+- \+ [`images/T_UI_SpecialPack_SeoulSights_Kwon.png`](versions/9.6.0_3316695live/images/T_UI_SpecialPack_SeoulSights_Kwon.png)
+
 ## [9.6.1_3316933live](versions/9.6.1_3316933live/CHANGES.md)
 
 Built 2026-05-04 16:57 UTC · **+0** added · **~2** modified · **−0** removed

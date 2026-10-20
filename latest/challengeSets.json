@@ -239,104 +239,6 @@
       {
         "challenges": [
           {
-            "challengeOrder": 0,
-            "descriptionStringId": "CHALLENGE_HideNearKillerAsCharacterInTrialOrAnySurvivor_DESC",
-            "id": "DBD_Day2026-DbDDay_QuestList_1-B_HideNearKillerAsCharacterOrAnySurvivor",
-            "isRecurring": false,
-            "objectives": {
-              "HideNearKiller": {
-                "conditions": [
-                  {
-                    "key": "role",
-                    "value": [
-                      "survivor"
-                    ]
-                  },
-                  {
-                    "key": "character",
-                    "value": [
-                      "Dwight"
-                    ]
-                  }
-                ],
-                "incrementWithEventRepetitions": true,
-                "isCommunityObjective": false,
-                "maxProgressionPerPlayer": -1,
-                "neededProgression": [
-                  120
-                ],
-                "objectiveId": "HideNearKiller",
-                "objectiveInfo": "CHALLENGE_HideNearKillerAsAnySurvivor_INFO",
-                "objectiveInfoParameters": [
-                  "maxProgression"
-                ],
-                "objectiveOrder": 1,
-                "objectiveProgressionType": "Time",
-                "questEvent": [
-                  {
-                    "operation": ">=",
-                    "parameters": "instigator:me",
-                    "questEventId": "QuestEvent.HideInTerrorRadius",
-                    "repetition": 1
-                  }
-                ]
-              },
-              "HideNearKillerAsCharacterInTrial": {
-                "conditions": [
-                  {
-                    "key": "character",
-                    "value": [
-                      "Dwight"
-                    ]
-                  },
-                  {
-                    "key": "role",
-                    "value": [
-                      "survivor"
-                    ]
-                  }
-                ],
-                "incrementWithEventRepetitions": true,
-                "isCommunityObjective": false,
-                "maxProgressionPerPlayer": -1,
-                "neededProgression": [
-                  60
-                ],
-                "objectiveId": "HideNearKillerAsCharacterInTrial",
-                "objectiveInfo": "CHALLENGE_HideNearKillerAsCharacter_INFO",
-                "objectiveInfoParameters": [
-                  "maxProgression",
-                  "character"
-                ],
-                "objectiveOrder": 0,
-                "objectiveProgressionType": "Time",
-                "questEvent": [
-                  {
-                    "operation": ">=",
-                    "parameters": "instigator:me",
-                    "questEventId": "QuestEvent.HideInTerrorRadius",
-                    "repetition": 1
-                  }
-                ]
-              }
-            },
-            "rewards": [
-              {
-                "amount": 10000,
-                "id": "BonusBloodpoints",
-                "type": "currency"
-              },
-              {
-                "amount": 1,
-                "id": "DF_Torso04_03",
-                "type": "inventory"
-              }
-            ],
-            "startDate": "2026-10-06T15:00:00",
-            "titleStringId": "CHALLENGE_HideNearKillerAsCharacterInTrialOrAnySurvivor_TITLE",
-            "type": "dual"
-          },
-          {
             "challengeOrder": 1,
             "descriptionStringId": "CHALLENGE_SkillCheckHealingSuccessAsCharacterInTrialOrAnySurvivor_DESC",
             "id": "DBD_Day2026-DbDDay_QuestList_1-B_SkillCheckHealingSuccessAsCharacterInTrialOrAnySurvivor",
@@ -705,104 +607,6 @@
             "type": "dual"
           },
           {
-            "challengeOrder": 5,
-            "descriptionStringId": "CHALLENGE_VaultInChaseAsCharacterInTrialOrAnySurvivor_DESC",
-            "id": "DBD_Day2026-DbDDay_QuestList_1-B_VaultInChaseAsCharacterInTrialOrAnySurvivor",
-            "isRecurring": false,
-            "objectives": {
-              "VaultInChase": {
-                "conditions": [
-                  {
-                    "key": "role",
-                    "value": [
-                      "survivor"
-                    ]
-                  },
-                  {
-                    "key": "character",
-                    "value": [
-                      "Yui"
-                    ]
-                  }
-                ],
-                "incrementWithEventRepetitions": true,
-                "isCommunityObjective": false,
-                "maxProgressionPerPlayer": -1,
-                "neededProgression": [
-                  10
-                ],
-                "objectiveId": "VaultInChase",
-                "objectiveInfo": "CHALLENGE_VaultInChaseAsAnySurvivorInTrial_INFO",
-                "objectiveInfoParameters": [
-                  "maxProgression"
-                ],
-                "objectiveOrder": 1,
-                "objectiveProgressionType": "Action",
-                "questEvent": [
-                  {
-                    "operation": ">=",
-                    "parameters": "instigator:me",
-                    "questEventId": "QuestEvent.VaultInChase",
-                    "repetition": 1
-                  }
-                ]
-              },
-              "VaultInChaseAsCharacterInTrial": {
-                "conditions": [
-                  {
-                    "key": "character",
-                    "value": [
-                      "Yui"
-                    ]
-                  },
-                  {
-                    "key": "role",
-                    "value": [
-                      "survivor"
-                    ]
-                  }
-                ],
-                "incrementWithEventRepetitions": true,
-                "isCommunityObjective": false,
-                "maxProgressionPerPlayer": -1,
-                "neededProgression": [
-                  2
-                ],
-                "objectiveId": "VaultInChaseAsCharacterInTrial",
-                "objectiveInfo": "CHALLENGE_VaultInChaseAsCharacterInTrial_INFO",
-                "objectiveInfoParameters": [
-                  "maxProgression",
-                  "character"
-                ],
-                "objectiveOrder": 0,
-                "objectiveProgressionType": "Action",
-                "questEvent": [
-                  {
-                    "operation": ">=",
-                    "parameters": "instigator:me",
-                    "questEventId": "QuestEvent.VaultInChase",
-                    "repetition": 1
-                  }
-                ]
-              }
-            },
-            "rewards": [
-              {
-                "amount": 10000,
-                "id": "BonusBloodpoints",
-                "type": "currency"
-              },
-              {
-                "amount": 1,
-                "id": "SwedenSurvivor_Torso02_05",
-                "type": "inventory"
-              }
-            ],
-            "startDate": "2026-10-06T15:00:00",
-            "titleStringId": "CHALLENGE_VaultInChaseAsCharacterInTrialOrAnySurvivor_TITLE",
-            "type": "dual"
-          },
-          {
             "challengeOrder": 6,
             "descriptionStringId": "CHALLENGE_SpiritHitPostPhaseInTrialOrPlayasKiller_DESC",
             "id": "DBD_Day2026-DbDDay_QuestList_1-B_SpiritHitPostPhaseInTrialOrPlayasKiller",
@@ -985,6 +789,114 @@
             "startDate": "2026-10-06T15:00:00",
             "titleStringId": "CHALLENGE_OniStrikeInTrialOrPlayasKiller_TITLE",
             "type": "dual"
+          },
+          {
+            "challengeOrder": 0,
+            "descriptionStringId": "CHALLENGE_HideInTerrorRadius_DESC",
+            "id": "DBD_Day2026-DbDDay_QuestList_1-B_HideInTerrorRadius",
+            "isRecurring": false,
+            "objectives": {
+              "HideInTerrorRadius": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": -1,
+                "neededProgression": [
+                  60
+                ],
+                "objectiveId": "HideInTerrorRadius",
+                "objectiveInfo": "CHALLENGE_HideInTerrorRadius_INFO",
+                "objectiveInfoParameters": [
+                  "maxProgression"
+                ],
+                "objectiveOrder": 0,
+                "objectiveProgressionType": "Time",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.HideInTerrorRadius",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "rewards": [
+              {
+                "amount": 10000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 1,
+                "id": "DF_Torso04_03",
+                "type": "inventory"
+              }
+            ],
+            "startDate": "2026-10-06T15:00:00",
+            "titleStringId": "CHALLENGE_HideInTerrorRadius_TITLE",
+            "type": "basic"
+          },
+          {
+            "challengeOrder": 5,
+            "descriptionStringId": "CHALLENGE_VaultInChase_DESC",
+            "id": "DBD_Day2026-DbDDay_QuestList_1-B_VaultInChase",
+            "isRecurring": false,
+            "objectives": {
+              "VaultInChase": {
+                "conditions": [
+                  {
+                    "key": "role",
+                    "value": [
+                      "survivor"
+                    ]
+                  }
+                ],
+                "incrementWithEventRepetitions": true,
+                "isCommunityObjective": false,
+                "maxProgressionPerPlayer": -1,
+                "neededProgression": [
+                  2
+                ],
+                "objectiveId": "VaultInChase",
+                "objectiveInfo": "CHALLENGE_VaultInChase_INFO",
+                "objectiveInfoParameters": [
+                  "maxProgression"
+                ],
+                "objectiveOrder": 0,
+                "objectiveProgressionType": "Action",
+                "questEvent": [
+                  {
+                    "operation": ">=",
+                    "parameters": "instigator:me",
+                    "questEventId": "QuestEvent.VaultInChase",
+                    "repetition": 1
+                  }
+                ]
+              }
+            },
+            "rewards": [
+              {
+                "amount": 10000,
+                "id": "BonusBloodpoints",
+                "type": "currency"
+              },
+              {
+                "amount": 1,
+                "id": "SwedenSurvivor_Torso02_05",
+                "type": "inventory"
+              }
+            ],
+            "startDate": "2026-10-06T15:00:00",
+            "titleStringId": "CHALLENGE_VaultInChase_TITLE",
+            "type": "basic"
           }
         ],
         "endDate": "2026-10-20T15:00:00",

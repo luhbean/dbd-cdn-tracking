@@ -1,0 +1,16 @@
+--- a/itemsKillswitch.json
++++ b/itemsKillswitch.json
+@@ -4,8 +4,11 @@
+     "defaultSurvivor": "Dwight"
+   },
+   "disabledItems": {
+-    "GranmasCookbook": {},
+-    "ThePiedPiper": {}
++    "Killer07": {
++      "gameTypes": [
++        "SeasonalEvent"
++      ]
++    }
+   },
+   "fallbacksByGameType": {
+     "Cake": {

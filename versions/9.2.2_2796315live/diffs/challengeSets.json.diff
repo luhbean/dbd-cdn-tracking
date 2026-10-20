@@ -1,0 +1,164 @@
+--- a/challengeSets.json
++++ b/challengeSets.json
+@@ -2208,7 +2208,7 @@
+           {
+             "challengeOrder": 0,
+             "descriptionStringId": "CHALLENGE_SmashPumpkins_DESC",
+-            "id": "Halloween_2025_Set-Halloween_CommunityQuests-EC_SmashPumpkins",
++            "id": "Halloween_2025_Set-Halloween_RemovedCommunityQuests-ED_SmashPumpkins",
+             "isRecurring": false,
+             "objectives": {
+               "HalloweenEventPumpkinDestroyed": {
+@@ -2224,39 +2224,14 @@
+                 "isCommunityObjective": false,
+                 "maxProgressionPerPlayer": -1,
+                 "neededProgression": [
+-                  5
++                  50
+                 ],
+                 "objectiveId": "HalloweenEventPumpkinDestroyed",
+-                "objectiveInfo": "CHALLENGE_CommunitySmashPumpkins_INFO",
++                "objectiveInfo": "CHALLENGE_SmashPumpkins_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
+                 "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.HalloweenEventPumpkinDestroyed",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "HalloweenEventPumpkinDestroyed_Community": {
+-                "conditions": [
+-                  {
+-                    "key": "gameTypes",
+-                    "value": [
+-                      "SeasonalEvent"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": true,
+-                "maxProgressionPerPlayer": 75000000,
+-                "neededProgression": [
+-                  75000000
+-                ],
+-                "objectiveId": "HalloweenEventPumpkinDestroyed_Community",
+-                "objectiveInfo": "CHALLENGE_CommunitySmashPumpkins_INFO",
+-                "objectiveOrder": 1,
+                 "objectiveProgressionType": "Action",
+                 "questEvent": [
+                   {
+@@ -2287,9 +2262,9 @@
+           }
+         ],
+         "endDate": "2025-11-04T16:00:00",
+-        "listId": "Halloween_2025_Set-Halloween_CommunityQuests",
++        "listId": "Halloween_2025_Set-Halloween_RemovedCommunityQuests",
+         "listOrder": 0,
+-        "listTitleStringId": "Halloween_CommunityQuests_Title",
++        "listTitleStringId": "EVENT_Halloween2025_TITLE",
+         "startDate": "2025-10-14T15:00:00"
+       },
+       {
+@@ -3196,16 +3171,16 @@
+           },
+           {
+             "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_SmashPumpkins_DESC",
+-            "id": "Halloween_2025_Set-Halloween_QuestList_3-ED_SmashPumpkins",
++            "descriptionStringId": "CHALLENGE_CarryOrEscapeChase_DESC",
++            "id": "Halloween_2025_Set-Halloween_QuestList_3-D_CarryOrEscapeChase",
+             "isRecurring": false,
+             "objectives": {
+-              "HalloweenEventPumpkinDestroyed": {
++              "Carry": {
+                 "conditions": [
+                   {
+-                    "key": "gameTypes",
++                    "key": "role",
+                     "value": [
+-                      "SeasonalEvent"
++                      "killer"
+                     ]
+                   }
+                 ],
+@@ -3213,10 +3188,10 @@
+                 "isCommunityObjective": false,
+                 "maxProgressionPerPlayer": -1,
+                 "neededProgression": [
+-                  10
++                  200
+                 ],
+-                "objectiveId": "HalloweenEventPumpkinDestroyed",
+-                "objectiveInfo": "CHALLENGE_SmashPumpkins_INFO",
++                "objectiveId": "Carry",
++                "objectiveInfo": "CHALLENGE_Carry_INFO",
+                 "objectiveInfoParameters": [
+                   "maxProgression"
+                 ],
+@@ -3226,7 +3201,38 @@
+                   {
+                     "operation": ">=",
+                     "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.HalloweenEventPumpkinDestroyed",
++                    "questEventId": "QuestEvent.Carry",
++                    "repetition": 1
++                  }
++                ]
++              },
++              "EscapeChase": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "survivor"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  5
++                ],
++                "objectiveId": "EscapeChase",
++                "objectiveInfo": "CHALLENGE_EscapeChase_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 1,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.EscapeChase",
+                     "repetition": 1
+                   }
+                 ]
+@@ -3246,8 +3252,8 @@
+             ],
+             "riftPoints": 50,
+             "startDate": "2025-10-24T15:00:00",
+-            "titleStringId": "CHALLENGE_SmashPumpkins_TITLE",
+-            "type": "basic"
++            "titleStringId": "CHALLENGE_CarryOrEscapeChase_TITLE",
++            "type": "dual"
+           },
+           {
+             "challengeOrder": 0,
+@@ -6161,7 +6167,7 @@
+         "startDate": "2025-10-07T15:00:00"
+       }
+     ],
+-    "endDate": "2026-01-27T14:59:59",
++    "endDate": "2026-01-27T16:00:00",
+     "mask": 0,
+     "startDate": "2025-10-07T15:00:00",
+     "tabOrder": 2,

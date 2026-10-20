@@ -917,11 +917,6 @@
           "weight": 20
         },
         {
-          "entryId": "LicensorBundle_Halloween",
-          "type": "SpecialPack",
-          "weight": 19
-        },
-        {
           "entryId": "TheWalkingDead",
           "type": "Collection",
           "weight": 18
@@ -973,7 +968,7 @@
       "activeTo": "2025-11-25T16:00:00",
       "entries": [
         {
-          "entryId": "StrangerThingsMega",
+          "entryId": "StrangerThings",
           "type": "Collection",
           "weight": 26
         },
@@ -1110,7 +1105,7 @@
     },
     {
       "activeFrom": "2026-01-13T16:00:00",
-      "activeTo": "2026-01-23T16:00:00",
+      "activeTo": "2026-01-27T16:00:00",
       "entries": [
         {
           "entryId": "TorturedSoulsBundle",
@@ -1137,32 +1132,45 @@
       "inclusionVersion": "9.3.2"
     },
     {
-      "activeFrom": "2026-01-23T16:00:00",
+      "activeFrom": "2025-12-18T16:00:00",
       "activeTo": "2026-01-27T16:00:00",
       "entries": [
         {
-          "entryId": "SilentHill_Omelet_Bundle",
-          "type": "SpecialPack",
-          "weight": 22
-        },
-        {
-          "entryId": "TorturedSoulsBundle",
-          "type": "SpecialPack",
-          "weight": 21
-        },
-        {
-          "entryId": "TorturedSouls",
+          "entryId": "TheWalkingDead",
           "type": "Collection",
-          "weight": 20
+          "weight": 25
         },
         {
           "entryId": "Rift_3_Bundle",
           "type": "SpecialPack",
-          "weight": 16
+          "weight": 24
         }
       ],
-      "id": "Omelet_W6",
-      "inclusionVersion": "9.3.2"
+      "id": "PoutinePTB",
+      "inclusionVersion": "9.4.0 PTB"
+    },
+    {
+      "activeFrom": "2026-01-27T16:00:00",
+      "activeTo": "2026-02-03T16:00:00",
+      "entries": [
+        {
+          "entryId": "Rift_4_Bundle",
+          "type": "SpecialPack",
+          "weight": 10
+        },
+        {
+          "entryId": "StrangerThings",
+          "type": "Collection",
+          "weight": 9
+        },
+        {
+          "entryId": "TorturedSouls",
+          "type": "Collection",
+          "weight": 8
+        }
+      ],
+      "id": "PoutineW1",
+      "inclusionVersion": "9.4.0"
     }
   ],
   "featuredChapterPackRecommendations": [
@@ -1182,7 +1190,7 @@
     },
     {
       "activeFrom": "2025-09-23T15:00:00Z",
-      "activeTo": "2025-11-18T16:00:00Z",
+      "activeTo": "2030-12-25T15:00:00Z",
       "chapterPacks": [
         {
           "associatedDlcId": "Maple",
@@ -1195,15 +1203,29 @@
       "id": "Maple"
     },
     {
-      "activeFrom": "2025-11-18T16:00:00Z",
-      "activeTo": "2030-12-25T15:00:00Z",
+      "activeFrom": "2026-01-01T15:00:00Z",
+      "activeTo": "2030-01-01T15:00:00Z",
+      "chapterPacks": [
+        {
+          "associatedDlcId": "Poutine",
+          "image": {
+            "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_StrangerThings_Chapter2.T_UI_ChapterBundle_StrangerThings_Chapter2"
+          },
+          "weight": "0"
+        }
+      ],
+      "id": "Poutine"
+    },
+    {
+      "activeFrom": "2026-01-30T15:00:00Z",
+      "activeTo": "2026-02-25T15:00:00Z",
       "chapterPacks": [
         {
           "associatedDlcId": "Qatar",
           "image": {
             "path": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_StrangerThings.T_UI_ChapterBundle_StrangerThings"
           },
-          "weight": "1"
+          "weight": "0"
         }
       ],
       "id": "Qatar"
@@ -1211,9 +1233,30 @@
   ],
   "featuredCharacterRecommendations": [
     {
-      "activeFrom": "2026-01-10T16:00:00Z",
-      "activeTo": "2026-01-27T16:00:00Z",
+      "activeFrom": "2025-04-04T16:00:00Z",
+      "activeTo": "2033-09-04T00:00:00Z",
       "characters": [
+        {
+          "characterIndex": "50",
+          "image": {
+            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Poutine/T_UI_S51_Eleven_Portrait.T_UI_S51_Eleven_Portrait"
+          },
+          "weight": "0"
+        },
+        {
+          "characterIndex": "49",
+          "image": {
+            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Poutine/T_UI_S50_DustinHenderson_Portrait.T_UI_S50_DustinHenderson_Portrait"
+          },
+          "weight": "0"
+        },
+        {
+          "characterIndex": "268435497",
+          "image": {
+            "path": "/Game/UI/UMGAssets/Icons/CharPortraits/Poutine/T_UI_K42_TheFirst_Portrait.T_UI_K42_TheFirst_Portrait"
+          },
+          "weight": "0"
+        },
         {
           "characterIndex": "48",
           "image": {
@@ -1292,7 +1335,7 @@
           "weight": "0"
         }
       ],
-      "id": "Featured_Characters_4"
+      "id": "Featured_Characters"
     }
   ],
   "featuredCustomizationRecommendations": [
@@ -4308,6 +4351,108 @@
       ]
     },
     {
+      "activeFrom": "2025-12-18T16:00:00",
+      "activeTo": "2026-02-03T16:00:00",
+      "id": "Poutine_W1",
+      "recommendations": [
+        {
+          "category": "chapterPack",
+          "id": "Poutine",
+          "weight": 0
+        },
+        {
+          "category": "outfit",
+          "id": "S50_outfit_007",
+          "weight": 351
+        },
+        {
+          "category": "outfit",
+          "id": "QF_outfit_011",
+          "weight": 350
+        },
+        {
+          "category": "outfit",
+          "id": "QM_Outfit_010",
+          "weight": 349
+        },
+        {
+          "category": "outfit",
+          "id": "S51_outfit_006",
+          "weight": 348
+        },
+        {
+          "category": "outfit",
+          "id": "S50_outfit_006",
+          "weight": 347
+        },
+        {
+          "category": "outfit",
+          "id": "K42_outfit_006",
+          "weight": 346
+        },
+        {
+          "category": "outfit",
+          "id": "QM_outfit_02",
+          "weight": 345
+        },
+        {
+          "category": "outfit",
+          "id": "QF_outfit_006",
+          "weight": 344
+        },
+        {
+          "category": "outfit",
+          "id": "QK_outfit_007",
+          "weight": 343
+        },
+        {
+          "category": "item",
+          "id": "S50_Torso02",
+          "weight": 340
+        },
+        {
+          "category": "item",
+          "id": "S41_Torso015_02",
+          "weight": 303
+        },
+        {
+          "category": "item",
+          "id": "FM_Torso030_03",
+          "weight": 301
+        },
+        {
+          "category": "item",
+          "id": "DF_Torso030_03",
+          "weight": 298
+        },
+        {
+          "category": "item",
+          "id": "CM_Torso027_04",
+          "weight": 297
+        },
+        {
+          "category": "item",
+          "id": "JP_Torso022_03",
+          "weight": 296
+        },
+        {
+          "category": "item",
+          "id": "MT_Torso028_03",
+          "weight": 295
+        },
+        {
+          "category": "item",
+          "id": "S37_Torso014_03",
+          "weight": 300
+        },
+        {
+          "category": "item",
+          "id": "S23_Torso026_03",
+          "weight": 302
+        }
+      ]
+    },
+    {
       "activeFrom": "2026-01-06T16:00:00",
       "activeTo": "2026-01-13T16:00:00",
       "id": "OmeletW7",
@@ -4381,6 +4526,26 @@
       "recommendations": [
         {
           "category": "outfit",
+          "id": "MM_outfit_02",
+          "weight": 220
+        },
+        {
+          "category": "outfit",
+          "id": "LS_outfit_006",
+          "weight": 219
+        },
+        {
+          "category": "item",
+          "id": "MM_W02_02",
+          "weight": 210
+        },
+        {
+          "category": "item",
+          "id": "MM_W02_03",
+          "weight": 209
+        },
+        {
+          "category": "outfit",
           "id": "S47_outfit_010",
           "weight": 200
         },
@@ -4418,78 +4583,6 @@
           "category": "outfit",
           "id": "MK_outfit_018",
           "weight": 245
-        }
-      ]
-    },
-    {
-      "activeFrom": "2026-01-20T16:00:00",
-      "activeTo": "2026-01-27T16:00:00",
-      "id": "OmeletW9",
-      "recommendations": [
-        {
-          "category": "outfit",
-          "id": "S47_outfit_010",
-          "weight": 200
-        },
-        {
-          "category": "outfit",
-          "id": "S48_outfit_010",
-          "weight": 199
-        },
-        {
-          "category": "outfit",
-          "id": "S25_outfit_032",
-          "weight": 250
-        },
-        {
-          "category": "outfit",
-          "id": "S46_outfit_014",
-          "weight": 249
-        },
-        {
-          "category": "outfit",
-          "id": "K38_outfit_009",
-          "weight": 248
-        },
-        {
-          "category": "outfit",
-          "id": "K21_outfit_021",
-          "weight": 247
-        },
-        {
-          "category": "outfit",
-          "id": "DK_outfit_027",
-          "weight": 246
-        },
-        {
-          "category": "outfit",
-          "id": "MK_outfit_018",
-          "weight": 245
-        },
-        {
-          "category": "outfit",
-          "id": "MS_outfit_025",
-          "weight": 265
-        },
-        {
-          "category": "outfit",
-          "id": "BE_outfit_027",
-          "weight": 264
-        },
-        {
-          "category": "outfit",
-          "id": "S35_outfit_019",
-          "weight": 263
-        },
-        {
-          "category": "outfit",
-          "id": "S36_outfit_020",
-          "weight": 262
-        },
-        {
-          "category": "outfit",
-          "id": "K30_outfit_017",
-          "weight": 261
         }
       ]
     }
@@ -9502,133 +9595,6 @@
           "category": "item",
           "id": "MM_W02_03",
           "weight": 22
-        },
-        {
-          "category": "currencyPack",
-          "id": "cellsPack3",
-          "weight": 0
-        }
-      ]
-    },
-    {
-      "activeFrom": "2026-01-23T16:00:00",
-      "activeTo": "2026-01-30T16:00:00",
-      "id": "SilentHillSale",
-      "recommendations": [
-        {
-          "category": "outfit",
-          "id": "S22_outfit_010",
-          "weight": 6
-        },
-        {
-          "category": "outfit",
-          "id": "S22_outfit_012",
-          "weight": 6
-        },
-        {
-          "category": "outfit",
-          "id": "S22_outfit_006",
-          "weight": 5
-        },
-        {
-          "category": "outfit",
-          "id": "S22_outfit_008",
-          "weight": 5
-        },
-        {
-          "category": "outfit",
-          "id": "S22_outfit_007",
-          "weight": 4
-        },
-        {
-          "category": "outfit",
-          "id": "S22_outfit_011",
-          "weight": 4
-        },
-        {
-          "category": "outfit",
-          "id": "S22_outfit_02",
-          "weight": 3
-        },
-        {
-          "category": "outfit",
-          "id": "S22_outfit_02_01",
-          "weight": 3
-        },
-        {
-          "category": "item",
-          "id": "S22_Torso01_01",
-          "weight": 2
-        },
-        {
-          "category": "item",
-          "id": "S22_Torso01_02",
-          "weight": 2
-        },
-        {
-          "category": "item",
-          "id": "S22_Torso01_03",
-          "weight": 2
-        },
-        {
-          "category": "item",
-          "id": "S22_Torso01_04",
-          "weight": 2
-        },
-        {
-          "category": "item",
-          "id": "S22_Torso01_05",
-          "weight": 2
-        },
-        {
-          "category": "item",
-          "id": "S22_Torso01_06",
-          "weight": 2
-        },
-        {
-          "category": "outfit",
-          "id": "K20_outfit_006",
-          "weight": 1
-        },
-        {
-          "category": "outfit",
-          "id": "K20_outfit_008",
-          "weight": 1
-        },
-        {
-          "category": "outfit",
-          "id": "K20_outfit_007",
-          "weight": 1
-        },
-        {
-          "category": "outfit",
-          "id": "K20_outfit_009",
-          "weight": 1
-        },
-        {
-          "category": "outfit",
-          "id": "FM_outfit_022",
-          "weight": 0
-        },
-        {
-          "category": "outfit",
-          "id": "KK_outfit_016",
-          "weight": 0
-        },
-        {
-          "category": "outfit",
-          "id": "KK_outfit_016_01",
-          "weight": 0
-        },
-        {
-          "category": "outfit",
-          "id": "KK_outfit_016_02",
-          "weight": 0
-        },
-        {
-          "category": "outfit",
-          "id": "KK_outfit_016_03",
-          "weight": 0
         },
         {
           "category": "currencyPack",

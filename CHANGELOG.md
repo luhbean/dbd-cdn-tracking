@@ -2,6 +2,19 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.3.0_2880935live](versions/9.3.0_2880935live/CHANGES.md)
+
+Built 2025-11-24 17:26 UTC · **+0** added · **~8** modified · **−0** removed
+
+- ~ [`GameConfigs.json`](versions/9.3.0_2880935live/diffs/GameConfigs.json.diff)
+- ~ [`GameConfigsDS.json`](versions/9.3.0_2880935live/diffs/GameConfigsDS.json.diff)
+- ~ [`catalog.json`](versions/9.3.0_2880935live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/9.3.0_2880935live/diffs/collections.json.diff)
+- ~ [`contentSchedule.json`](versions/9.3.0_2880935live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.3.0_2880935live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/9.3.0_2880935live/diffs/recommendations.json.diff)
+- ~ [`specialEventsContent.json`](versions/9.3.0_2880935live/diffs/specialEventsContent.json.diff)
+
 ## [9.3.0_2879176live](versions/9.3.0_2879176live/CHANGES.md)
 
 Built 2025-11-21 17:45 UTC · **+0** added · **~29** modified · **−9** removed

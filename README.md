@@ -2,30 +2,35 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.5.0_3218366live` · built 2026-03-31 14:22 UTC
+**Latest version:** `9.5.2_3219159live` · built 2026-03-31 15:17 UTC
 
-[What changed](versions/9.5.0_3218366live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.5.2_3219159live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**9** added · **7** modified · **0** removed, compared with `9.5.1_3218370live`.
+**2** added · **10** modified · **9** removed, compared with `9.5.0_3218366live`.
 
-- ~ [`GameConfigs.json`](versions/9.5.0_3218366live/diffs/GameConfigs.json.diff)
-- ~ [`GameConfigsDS.json`](versions/9.5.0_3218366live/diffs/GameConfigsDS.json.diff)
-- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.5.0_3218366live/diffs/archiveJournals/archiveS3Journals.json.diff)
-- ~ [`catalog.json`](versions/9.5.0_3218366live/diffs/catalog.json.diff)
-- ~ [`challengeSets.json`](versions/9.5.0_3218366live/diffs/challengeSets.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.5.0_3218366live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`specialEventsContent.json`](versions/9.5.0_3218366live/diffs/specialEventsContent.json.diff)
-- \+ [`images/T_UI_ChapterBundle_AllKillComeback.png`](versions/9.5.0_3218366live/images/T_UI_ChapterBundle_AllKillComeback.png)
-- \+ [`images/T_UI_CollectionBanner_AllKillComeback.png`](versions/9.5.0_3218366live/images/T_UI_CollectionBanner_AllKillComeback.png)
-- \+ [`images/T_UI_CollectionBanner_ArtistsFromTheFog_Haddie.png`](versions/9.5.0_3218366live/images/T_UI_CollectionBanner_ArtistsFromTheFog_Haddie.png)
-- \+ [`images/T_UI_CollectionBanner_Bloodmoon_Quiche.png`](versions/9.5.0_3218366live/images/T_UI_CollectionBanner_Bloodmoon_Quiche.png)
-- \+ [`images/T_UI_SpecialPack_AllKillComeback.png`](versions/9.5.0_3218366live/images/T_UI_SpecialPack_AllKillComeback.png)
-- \+ [`images/T_UI_SpecialPack_ArtistsFromTheFog_Haddie.png`](versions/9.5.0_3218366live/images/T_UI_SpecialPack_ArtistsFromTheFog_Haddie.png)
-- \+ [`images/T_UI_SpecialPack_Bloodmoon_Bundle.png`](versions/9.5.0_3218366live/images/T_UI_SpecialPack_Bloodmoon_Bundle.png)
-- \+ [`images/T_UI_SpecialPack_Bloodmoon_Quiche.png`](versions/9.5.0_3218366live/images/T_UI_SpecialPack_Bloodmoon_Quiche.png)
-- \+ [`images/T_UI_SpecialPack_EntombedRemains.png`](versions/9.5.0_3218366live/images/T_UI_SpecialPack_EntombedRemains.png)
+- ~ [`GameConfigs.json`](versions/9.5.2_3219159live/diffs/GameConfigs.json.diff)
+- ~ [`GameConfigsDS.json`](versions/9.5.2_3219159live/diffs/GameConfigsDS.json.diff)
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.5.2_3219159live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`archiveJournals/storyJournals.json`](versions/9.5.2_3219159live/diffs/archiveJournals/storyJournals.json.diff)
+- ~ [`catalog.json`](versions/9.5.2_3219159live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.5.2_3219159live/diffs/challengeSets.json.diff)
+- ~ [`collections.json`](versions/9.5.2_3219159live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.5.2_3219159live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/9.5.2_3219159live/diffs/itemsKillswitch.json.diff)
+- ~ [`recommendations.json`](versions/9.5.2_3219159live/diffs/recommendations.json.diff)
+- \+ [`images/T_UI_CollectionBanner_Songkran.png`](versions/9.5.2_3219159live/images/T_UI_CollectionBanner_Songkran.png)
+- \+ [`images/T_UI_SpecialPack_Songkran.png`](versions/9.5.2_3219159live/images/T_UI_SpecialPack_Songkran.png)
+- − `images/T_UI_ChapterBundle_AllKillComeback.png`
+- − `images/T_UI_CollectionBanner_AllKillComeback.png`
+- − `images/T_UI_CollectionBanner_ArtistsFromTheFog_Haddie.png`
+- − `images/T_UI_CollectionBanner_Bloodmoon_Quiche.png`
+- − `images/T_UI_SpecialPack_AllKillComeback.png`
+- − `images/T_UI_SpecialPack_ArtistsFromTheFog_Haddie.png`
+- − `images/T_UI_SpecialPack_Bloodmoon_Bundle.png`
+- − `images/T_UI_SpecialPack_Bloodmoon_Quiche.png`
+- … and 1 more in [CHANGES.md](versions/9.5.2_3219159live/CHANGES.md)
 
 ## Browse
 
@@ -47,7 +52,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-392 versions tracked so far.
+393 versions tracked so far.
 
 ---
 

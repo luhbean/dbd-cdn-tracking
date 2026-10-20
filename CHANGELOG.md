@@ -2,6 +2,32 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.5.2_3219159live](versions/9.5.2_3219159live/CHANGES.md)
+
+Built 2026-03-31 15:17 UTC · **+2** added · **~10** modified · **−9** removed
+
+- ~ [`GameConfigs.json`](versions/9.5.2_3219159live/diffs/GameConfigs.json.diff)
+- ~ [`GameConfigsDS.json`](versions/9.5.2_3219159live/diffs/GameConfigsDS.json.diff)
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.5.2_3219159live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`archiveJournals/storyJournals.json`](versions/9.5.2_3219159live/diffs/archiveJournals/storyJournals.json.diff)
+- ~ [`catalog.json`](versions/9.5.2_3219159live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.5.2_3219159live/diffs/challengeSets.json.diff)
+- ~ [`collections.json`](versions/9.5.2_3219159live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.5.2_3219159live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/9.5.2_3219159live/diffs/itemsKillswitch.json.diff)
+- ~ [`recommendations.json`](versions/9.5.2_3219159live/diffs/recommendations.json.diff)
+- \+ [`images/T_UI_CollectionBanner_Songkran.png`](versions/9.5.2_3219159live/images/T_UI_CollectionBanner_Songkran.png)
+- \+ [`images/T_UI_SpecialPack_Songkran.png`](versions/9.5.2_3219159live/images/T_UI_SpecialPack_Songkran.png)
+- − `images/T_UI_ChapterBundle_AllKillComeback.png`
+- − `images/T_UI_CollectionBanner_AllKillComeback.png`
+- − `images/T_UI_CollectionBanner_ArtistsFromTheFog_Haddie.png`
+- − `images/T_UI_CollectionBanner_Bloodmoon_Quiche.png`
+- − `images/T_UI_SpecialPack_AllKillComeback.png`
+- − `images/T_UI_SpecialPack_ArtistsFromTheFog_Haddie.png`
+- − `images/T_UI_SpecialPack_Bloodmoon_Bundle.png`
+- − `images/T_UI_SpecialPack_Bloodmoon_Quiche.png`
+- … and 1 more in [CHANGES.md](versions/9.5.2_3219159live/CHANGES.md)
+
 ## [9.5.0_3218366live](versions/9.5.0_3218366live/CHANGES.md)
 
 Built 2026-03-31 14:22 UTC · **+9** added · **~7** modified · **−0** removed

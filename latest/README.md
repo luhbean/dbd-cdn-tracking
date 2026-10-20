@@ -1,10 +1,10 @@
-# Latest live content · 9.6.1_3339704live
+# Latest live content · 9.6.2_3339712live
 
-Built 2026-05-12 14:05 UTC · [what changed in this version](../versions/9.6.1_3339704live/CHANGES.md) · [← back](../README.md)
+Built 2026-05-12 14:05 UTC · [what changed in this version](../versions/9.6.2_3339712live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (3)](#images) · [Game data (97)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (5)](#images) · [Game data (97)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -15,6 +15,8 @@ This folder always holds the newest version. Its commit history shows every chan
 ## Images
 
 <p>
+<a href="images/T_UI_CollectionBanner_DarkOvergrowth.png"><img src="images/T_UI_CollectionBanner_DarkOvergrowth.png" alt="T_UI_CollectionBanner_DarkOvergrowth.png" title="T_UI_CollectionBanner_DarkOvergrowth.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_DarkOvergrowth.png"><img src="images/T_UI_SpecialPack_DarkOvergrowth.png" alt="T_UI_SpecialPack_DarkOvergrowth.png" title="T_UI_SpecialPack_DarkOvergrowth.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_GenQuest1.png"><img src="images/T_UI_Tutorial_ImageBG_GenQuest1.png" alt="T_UI_Tutorial_ImageBG_GenQuest1.png" title="T_UI_Tutorial_ImageBG_GenQuest1.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_cosmetic.png"><img src="images/T_UI_Tutorial_ImageBG_cosmetic.png" alt="T_UI_Tutorial_ImageBG_cosmetic.png" title="T_UI_Tutorial_ImageBG_cosmetic.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_gift.png"><img src="images/T_UI_Tutorial_ImageBG_gift.png" alt="T_UI_Tutorial_ImageBG_gift.png" title="T_UI_Tutorial_ImageBG_gift.png" width="200"></a>

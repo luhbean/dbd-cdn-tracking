@@ -1,10 +1,10 @@
-# Latest live content · 10.2.0_3896874live
+# Latest live content · 10.2.2_3896896live
 
-Built 2026-10-19 18:23 UTC · [what changed in this version](../versions/10.2.0_3896874live/CHANGES.md) · [← back](../README.md)
+Built 2026-10-19 19:13 UTC · [what changed in this version](../versions/10.2.2_3896896live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (6)](#images) · [Game data (99)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (11)](#images) · [Game data (99)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -15,12 +15,17 @@ This folder always holds the newest version. Its commit history shows every chan
 ## Images
 
 <p>
-<a href="images/T_UI_CollectionBanner_NieR.png"><img src="images/T_UI_CollectionBanner_NieR.png" alt="T_UI_CollectionBanner_NieR.png" title="T_UI_CollectionBanner_NieR.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_NieR.png"><img src="images/T_UI_SpecialPack_NieR.png" alt="T_UI_SpecialPack_NieR.png" title="T_UI_SpecialPack_NieR.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_Rift7.png"><img src="images/T_UI_SpecialPack_Rift7.png" alt="T_UI_SpecialPack_Rift7.png" title="T_UI_SpecialPack_Rift7.png" width="200"></a>
+<a href="images/T_UI_CollectionBanner_Diablo.png"><img src="images/T_UI_CollectionBanner_Diablo.png" alt="T_UI_CollectionBanner_Diablo.png" title="T_UI_CollectionBanner_Diablo.png" width="200"></a>
+<a href="images/T_UI_CollectionBanner_Godmode.png"><img src="images/T_UI_CollectionBanner_Godmode.png" alt="T_UI_CollectionBanner_Godmode.png" title="T_UI_CollectionBanner_Godmode.png" width="200"></a>
+<a href="images/T_UI_CollectionBanner_StrangerThings_Vecna.png"><img src="images/T_UI_CollectionBanner_StrangerThings_Vecna.png" alt="T_UI_CollectionBanner_StrangerThings_Vecna.png" title="T_UI_CollectionBanner_StrangerThings_Vecna.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Diablo.png"><img src="images/T_UI_SpecialPack_Diablo.png" alt="T_UI_SpecialPack_Diablo.png" title="T_UI_SpecialPack_Diablo.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Godmode.png"><img src="images/T_UI_SpecialPack_Godmode.png" alt="T_UI_SpecialPack_Godmode.png" title="T_UI_SpecialPack_Godmode.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_NovemberDays_Ghostface.png"><img src="images/T_UI_SpecialPack_NovemberDays_Ghostface.png" alt="T_UI_SpecialPack_NovemberDays_Ghostface.png" title="T_UI_SpecialPack_NovemberDays_Ghostface.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_StrangerThings_Vecna.png"><img src="images/T_UI_SpecialPack_StrangerThings_Vecna.png" alt="T_UI_SpecialPack_StrangerThings_Vecna.png" title="T_UI_SpecialPack_StrangerThings_Vecna.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_GenQuest1.png"><img src="images/T_UI_Tutorial_ImageBG_GenQuest1.png" alt="T_UI_Tutorial_ImageBG_GenQuest1.png" title="T_UI_Tutorial_ImageBG_GenQuest1.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_cosmetic.png"><img src="images/T_UI_Tutorial_ImageBG_cosmetic.png" alt="T_UI_Tutorial_ImageBG_cosmetic.png" title="T_UI_Tutorial_ImageBG_cosmetic.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_gift.png"><img src="images/T_UI_Tutorial_ImageBG_gift.png" alt="T_UI_Tutorial_ImageBG_gift.png" title="T_UI_Tutorial_ImageBG_gift.png" width="200"></a>
+<a href="images/T_UI__CollectionBanner_NovemberDays_Ghostface.png"><img src="images/T_UI__CollectionBanner_NovemberDays_Ghostface.png" alt="T_UI__CollectionBanner_NovemberDays_Ghostface.png" title="T_UI__CollectionBanner_NovemberDays_Ghostface.png" width="200"></a>
 </p>
 
 ## Game data

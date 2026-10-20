@@ -2810,7 +2810,7 @@
         ],
         "nodes": {
           "node_T18_L4_01": {
-            "clientInfoId": "ExtendItemChargesWithStreetwiseInTrial",
+            "clientInfoId": "HideInTerrorRadiusInTrial",
             "coordinates": {
               "x": 75.0,
               "y": 5.0
@@ -2824,30 +2824,24 @@
             ],
             "nodeType": "quest:challenge",
             "objectives": {
-              "ExtendItemChargesWithPerkInTrial": {
+              "HideInTerrorRadiusInTrial": {
                 "conditions": [
                   {
                     "key": "role",
                     "value": [
                       "survivor"
                     ]
-                  },
-                  {
-                    "key": "perk",
-                    "value": [
-                      "Streetwise"
-                    ]
                   }
                 ],
                 "incrementWithEventRepetitions": false,
                 "neededProgression": 1,
-                "objectiveId": "ExtendItemChargesWithPerkInTrial",
+                "objectiveId": "HideInTerrorRadiusInTrial",
                 "questEvent": [
                   {
                     "operation": ">=",
                     "parameters": "instigator:me",
-                    "questEventId": "QuestEvent.ExtendItemCharges",
-                    "repetition": 3
+                    "questEventId": "QuestEvent.HideInTerrorRadius",
+                    "repetition": 60
                   }
                 ]
               }

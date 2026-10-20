@@ -1,0 +1,15 @@
+--- a/itemsKillswitch.json
++++ b/itemsKillswitch.json
+@@ -4,7 +4,11 @@
+     "defaultSurvivor": "Dwight"
+   },
+   "disabledItems": {
+-    "Legion": {}
++    "Legion": {
++      "gameTypes": [
++        "Calamari"
++      ]
++    }
+   },
+   "fallbacksByGameType": {
+     "Cake": {

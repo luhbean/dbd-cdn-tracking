@@ -1,0 +1,10 @@
+--- a/archiveQuests/Tome19.json
++++ b/archiveQuests/Tome19.json
+@@ -3140,6 +3140,7 @@
+                 "questEvent": [
+                   {
+                     "operation": ">=",
++                    "parameters": "instigator:me",
+                     "questEventId": "QuestEvent.Sacrifice",
+                     "repetition": 1
+                   }

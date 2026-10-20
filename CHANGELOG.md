@@ -2,6 +2,21 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.0.2_3480390live](versions/10.0.2_3480390live/CHANGES.md)
+
+Built 2026-07-02 17:51 UTC · **+0** added · **~9** modified · **−1** removed
+
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/10.0.2_3480390live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`archiveJournals/storyJournals.json`](versions/10.0.2_3480390live/diffs/archiveJournals/storyJournals.json.diff)
+- ~ [`archiveQuests/Tome18.json`](versions/10.0.2_3480390live/diffs/archiveQuests/Tome18.json.diff)
+- ~ [`catalog.json`](versions/10.0.2_3480390live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/10.0.2_3480390live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.0.2_3480390live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/10.0.2_3480390live/diffs/itemsKillswitch.json.diff)
+- ~ [`narrativeCollections.json`](versions/10.0.2_3480390live/diffs/narrativeCollections.json.diff)
+- ~ [`recommendations.json`](versions/10.0.2_3480390live/diffs/recommendations.json.diff)
+- − `images/T_UI_icon_Event_LaFogata.png`
+
 ## [10.0.1_3479410live](versions/10.0.1_3479410live/CHANGES.md)
 
 Built 2026-07-02 12:52 UTC · **+2** added · **~14** modified · **−8** removed

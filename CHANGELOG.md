@@ -2,6 +2,14 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.3.0_2941395live](versions/9.3.0_2941395live/CHANGES.md)
+
+Built 2025-12-04 14:55 UTC · **+0** added · **~3** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/9.3.0_2941395live/diffs/catalog.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.3.0_2941395live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_zh-Hans.json`](versions/9.3.0_2941395live/diffs/loadingText/specialEventsLoadingText_zh-Hans.json.diff)
+
 ## [9.3.0_2893683live](versions/9.3.0_2893683live/CHANGES.md)
 
 Built 2025-12-02 15:55 UTC · **+0** added · **~4** modified · **−0** removed

@@ -2,18 +2,17 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.3.0_2893683live` · built 2025-12-02 15:55 UTC
+**Latest version:** `9.3.0_2941395live` · built 2025-12-04 14:55 UTC
 
-[What changed](versions/9.3.0_2893683live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.3.0_2941395live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **4** modified · **0** removed, compared with `9.3.0_2891560live`.
+**0** added · **3** modified · **0** removed, compared with `9.3.0_2893683live`.
 
-- ~ [`catalog.json`](versions/9.3.0_2893683live/diffs/catalog.json.diff)
-- ~ [`contentSchedule.json`](versions/9.3.0_2893683live/diffs/contentSchedule.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.3.0_2893683live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`specialEventsContent.json`](versions/9.3.0_2893683live/diffs/specialEventsContent.json.diff)
+- ~ [`catalog.json`](versions/9.3.0_2941395live/diffs/catalog.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.3.0_2941395live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`loadingText/specialEventsLoadingText_zh-Hans.json`](versions/9.3.0_2941395live/diffs/loadingText/specialEventsLoadingText_zh-Hans.json.diff)
 
 ## Browse
 
@@ -35,7 +34,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-271 versions tracked so far.
+272 versions tracked so far.
 
 ---
 

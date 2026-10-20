@@ -1,10 +1,10 @@
-# Latest live content · 10.1.2_3805253live
+# Latest live content · 10.2.0_3806232live
 
-Built 2026-09-22 15:50 UTC · [what changed in this version](../versions/10.1.2_3805253live/CHANGES.md) · [← back](../README.md)
+Built 2026-09-22 17:29 UTC · [what changed in this version](../versions/10.2.0_3806232live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (7)](#images) · [Game data (98)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (6)](#images) · [Game data (99)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -15,10 +15,9 @@ This folder always holds the newest version. Its commit history shows every chan
 ## Images
 
 <p>
-<a href="images/T_UI_CollectionBanner_HallowedBlight_Jason.png"><img src="images/T_UI_CollectionBanner_HallowedBlight_Jason.png" alt="T_UI_CollectionBanner_HallowedBlight_Jason.png" title="T_UI_CollectionBanner_HallowedBlight_Jason.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_HallowedBlight_Jason.png"><img src="images/T_UI_SpecialPack_HallowedBlight_Jason.png" alt="T_UI_SpecialPack_HallowedBlight_Jason.png" title="T_UI_SpecialPack_HallowedBlight_Jason.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_SAW_Bundle.png"><img src="images/T_UI_SpecialPack_SAW_Bundle.png" alt="T_UI_SpecialPack_SAW_Bundle.png" title="T_UI_SpecialPack_SAW_Bundle.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_Tome8.png"><img src="images/T_UI_SpecialPack_Tome8.png" alt="T_UI_SpecialPack_Tome8.png" title="T_UI_SpecialPack_Tome8.png" width="200"></a>
+<a href="images/T_UI_CollectionBanner_NieR.png"><img src="images/T_UI_CollectionBanner_NieR.png" alt="T_UI_CollectionBanner_NieR.png" title="T_UI_CollectionBanner_NieR.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_NieR.png"><img src="images/T_UI_SpecialPack_NieR.png" alt="T_UI_SpecialPack_NieR.png" title="T_UI_SpecialPack_NieR.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Rift7.png"><img src="images/T_UI_SpecialPack_Rift7.png" alt="T_UI_SpecialPack_Rift7.png" title="T_UI_SpecialPack_Rift7.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_GenQuest1.png"><img src="images/T_UI_Tutorial_ImageBG_GenQuest1.png" alt="T_UI_Tutorial_ImageBG_GenQuest1.png" title="T_UI_Tutorial_ImageBG_GenQuest1.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_cosmetic.png"><img src="images/T_UI_Tutorial_ImageBG_cosmetic.png" alt="T_UI_Tutorial_ImageBG_cosmetic.png" title="T_UI_Tutorial_ImageBG_cosmetic.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_gift.png"><img src="images/T_UI_Tutorial_ImageBG_gift.png" alt="T_UI_Tutorial_ImageBG_gift.png" title="T_UI_Tutorial_ImageBG_gift.png" width="200"></a>
@@ -38,6 +37,7 @@ This folder always holds the newest version. Its commit history shows every chan
 | `freetoplay/` | [event](freetoplay/EU/event.json) · [event](freetoplay/NA/event.json) |
 | `onboarding/` | [onboarding](onboarding/onboarding.json) |
 | `prestige/` | [prestige](prestige/prestige.json) |
+| `streamVideo/` | [streamVideo](streamVideo/streamVideo.json) |
 
 ## Localized text
 

@@ -2,6 +2,28 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.2.2_2794553live](versions/9.2.2_2794553live/CHANGES.md)
+
+Built 2025-10-08 19:33 UTC · **+0** added · **~17** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/9.2.2_2794553live/diffs/catalog.json.diff)
+- ~ [`consents/privacy/v4/de.json`](versions/9.2.2_2794553live/diffs/consents/privacy/v4/de.json.diff)
+- ~ [`consents/privacy/v4/en.json`](versions/9.2.2_2794553live/diffs/consents/privacy/v4/en.json.diff)
+- ~ [`consents/privacy/v4/es-MX.json`](versions/9.2.2_2794553live/diffs/consents/privacy/v4/es-MX.json.diff)
+- ~ [`consents/privacy/v4/es.json`](versions/9.2.2_2794553live/diffs/consents/privacy/v4/es.json.diff)
+- ~ [`consents/privacy/v4/fr.json`](versions/9.2.2_2794553live/diffs/consents/privacy/v4/fr.json.diff)
+- ~ [`consents/privacy/v4/it.json`](versions/9.2.2_2794553live/diffs/consents/privacy/v4/it.json.diff)
+- ~ [`consents/privacy/v4/ja.json`](versions/9.2.2_2794553live/diffs/consents/privacy/v4/ja.json.diff)
+- ~ [`consents/privacy/v4/ko.json`](versions/9.2.2_2794553live/diffs/consents/privacy/v4/ko.json.diff)
+- ~ [`consents/privacy/v4/pl.json`](versions/9.2.2_2794553live/diffs/consents/privacy/v4/pl.json.diff)
+- ~ [`consents/privacy/v4/pt-BR.json`](versions/9.2.2_2794553live/diffs/consents/privacy/v4/pt-BR.json.diff)
+- ~ [`consents/privacy/v4/ru.json`](versions/9.2.2_2794553live/diffs/consents/privacy/v4/ru.json.diff)
+- ~ [`consents/privacy/v4/th.json`](versions/9.2.2_2794553live/diffs/consents/privacy/v4/th.json.diff)
+- ~ [`consents/privacy/v4/tr.json`](versions/9.2.2_2794553live/diffs/consents/privacy/v4/tr.json.diff)
+- ~ [`consents/privacy/v4/zh-Hans.json`](versions/9.2.2_2794553live/diffs/consents/privacy/v4/zh-Hans.json.diff)
+- ~ [`consents/privacy/v4/zh-Hant.json`](versions/9.2.2_2794553live/diffs/consents/privacy/v4/zh-Hant.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.2.2_2794553live/diffs/dynamicContent/DynamicContent.json.diff)
+
 ## [9.2.2_2793146live](versions/9.2.2_2793146live/CHANGES.md)
 
 Built 2025-10-07 20:01 UTC · **+0** added · **~2** modified · **−0** removed

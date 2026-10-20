@@ -2,6 +2,12 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.6.0_3298698live](versions/9.6.0_3298698live/CHANGES.md)
+
+Built 2026-04-29 18:22 UTC · **+0** added · **~1** modified · **−0** removed
+
+- ~ [`GameConfigs.json`](versions/9.6.0_3298698live/diffs/GameConfigs.json.diff)
+
 ## [9.6.0_3298105live](versions/9.6.0_3298105live/CHANGES.md)
 
 Built 2026-04-28 20:58 UTC · **+0** added · **~2** modified · **−0** removed

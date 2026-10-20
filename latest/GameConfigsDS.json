@@ -47,11 +47,14 @@
     ],
     "KAL": [
       "BotReplacementAnalytics",
+      "CheatExecutedAnalytics",
+      "CheatValidatedAnalytics",
       "DedicatedServerInvalidLoadoutAnalytics",
       "DedicatedServerPlayerEquipDisabledItemAnalytics",
       "DedicatedServerStatusAnalytics",
       "DisconnectionDetailsAnalytics",
       "FrameHikeAnalytics",
+      "GPUAnalytics",
       "Gameplay_ChaseAnalytics",
       "InvalidLoadoutAnalytics",
       "LevelLoadingStepAnalytics",
@@ -62,8 +65,6 @@
       "PostGame_SurvivorAnalytics"
     ],
     "KL": [
-      "CheatExecutedAnalytics",
-      "CheatValidatedAnalytics",
       "ClientLoginAnalytics",
       "ClientLogoutAnalytics",
       "CustomerSupportAnalytics",
@@ -76,7 +77,6 @@
       "EACServerValidateAnalytics",
       "ExecExecutedAnalytics",
       "FallOutOfWorldAnalytics",
-      "GPUAnalytics",
       "GameConsoleLogAnalytics",
       "GameEventLogAnalytics",
       "GameInitAnalytics",
@@ -183,16 +183,10 @@
       "go_next"
     ]
   },
-  "enableLogForQuestEventIds": [
-    "QuestEvent.FinishedPlayingKiller",
-    "QuestEvent.FinishedPlayingSurvivor",
-    "QuestEvent.Hook",
-    "QuestEvent.Unhook"
-  ],
   "mapHistoryWeights": {
     "0": 0.0001,
-    "1": 0.0001,
-    "2": 0.0001,
-    "3": 0.0001
+    "1": 0.25,
+    "2": 0.5,
+    "3": 0.75
   }
 }

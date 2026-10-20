@@ -2,6 +2,23 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.0.2_3484751live](versions/10.0.2_3484751live/CHANGES.md)
+
+Built 2026-07-06 19:35 UTC · **+2** added · **~9** modified · **−1** removed
+
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/10.0.2_3484751live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`archiveJournals/storyJournals.json`](versions/10.0.2_3484751live/diffs/archiveJournals/storyJournals.json.diff)
+- ~ [`archiveQuests/Tome18.json`](versions/10.0.2_3484751live/diffs/archiveQuests/Tome18.json.diff)
+- ~ [`bloodwebGenerationRules.json`](versions/10.0.2_3484751live/diffs/bloodwebGenerationRules.json.diff)
+- ~ [`catalog.json`](versions/10.0.2_3484751live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/10.0.2_3484751live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.0.2_3484751live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`itemsKillswitch.json`](versions/10.0.2_3484751live/diffs/itemsKillswitch.json.diff)
+- ~ [`narrativeCollections.json`](versions/10.0.2_3484751live/diffs/narrativeCollections.json.diff)
+- \+ [`images/T_UI_CollectionBanner_IronMaiden_Huntress.png`](versions/10.0.2_3484751live/images/T_UI_CollectionBanner_IronMaiden_Huntress.png)
+- \+ [`images/T_UI_SpecialPack_IronMaiden_Huntress.png`](versions/10.0.2_3484751live/images/T_UI_SpecialPack_IronMaiden_Huntress.png)
+- − `images/T_UI_icon_Event_LaFogata.png`
+
 ## [10.0.1_3483500live](versions/10.0.1_3483500live/CHANGES.md)
 
 Built 2026-07-03 19:46 UTC · **+2** added · **~15** modified · **−8** removed

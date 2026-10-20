@@ -2,13 +2,27 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.5.0_3196161live` · built 2026-03-19 19:31 UTC
+**Latest version:** `9.5.1_3198830live` · built 2026-03-23 14:12 UTC
 
-[What changed](versions/9.5.0_3196161live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.5.1_3198830live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **0** modified · **0** removed, compared with `9.5.0_3195820live`.
+**0** added · **5** modified · **8** removed, compared with `9.5.0_3196161live`.
+
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/9.5.1_3198830live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`catalog.json`](versions/9.5.1_3198830live/diffs/catalog.json.diff)
+- ~ [`challengeSets.json`](versions/9.5.1_3198830live/diffs/challengeSets.json.diff)
+- ~ [`dlcList.json`](versions/9.5.1_3198830live/diffs/dlcList.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.5.1_3198830live/diffs/dynamicContent/DynamicContent.json.diff)
+- − `images/T_UI_ChapterBundle_AllKillComeback.png`
+- − `images/T_UI_CollectionBanner_AllKillComeback.png`
+- − `images/T_UI_CollectionBanner_Bloodmoon_Quiche.png`
+- − `images/T_UI_SpecialPack_AllKillComeback.png`
+- − `images/T_UI_SpecialPack_ArtistsFromTheFog_Haddie.png`
+- − `images/T_UI_SpecialPack_Bloodmoon_Bundle.png`
+- − `images/T_UI_SpecialPack_Bloodmoon_Quiche.png`
+- − `images/T_UI_SpecialPack_EntombedRemains.png`
 
 ## Browse
 
@@ -30,7 +44,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-376 versions tracked so far.
+377 versions tracked so far.
 
 ---
 

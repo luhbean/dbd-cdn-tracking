@@ -1,0 +1,192 @@
+{
+  "UseLegacyMapOfferingsBehaviour": false,
+  "analyticsRulesDedicatedServer": {
+    "BL": [
+      "AtlantaControlsSettingsAnalytics",
+      "AtlantaGraphicsSettingsAnalytics",
+      "CannibalAnalytics",
+      "HillbillyAnalytics",
+      "InteractionAnalytics",
+      "LoadingStepAnalytics",
+      "LogMirrorsAnalytics",
+      "MatchmakingApproveLoginAnalytics",
+      "MatchmakingHostCreatedAnalytics",
+      "MatchmakingHostSettingAnalytics",
+      "MatchmakingJoinCompleteAnalytics",
+      "MatchmakingJoinSessionAnalytics",
+      "MatchmakingSearchCompleteAnalytics",
+      "MatchmakingSearchParamAnalytics",
+      "MatchmakingSearchResultAnalytics",
+      "MatchmakingSessionSpotReservationAnalytics",
+      "MemoryUsageAnalytics",
+      "PerformanceChartingAnalytics",
+      "RTMAnalytics",
+      "S3CommandAnalytics",
+      "SaveGameSaveResultAnalytics",
+      "SyncLoadAnalytics"
+    ],
+    "DD": [
+      "AtlantaPartyGameAnalytics"
+    ],
+    "KA": [
+      "ChatAnalytics",
+      "DetailedHitAnalytics",
+      "DetailedScoreAnalytics",
+      "EmblemProgressionAnalytics",
+      "FranklinsDemiseConsumedItemAnalytics",
+      "FranklinsHitNearDroppedItemAnalytics",
+      "HookAnalytics",
+      "KnockoutSurvivorFoundAnalytics",
+      "LightbornAuraRevealedAnalytics",
+      "LoadingTimeoutAnalytics",
+      "MatchIncentivesGrantedAnalytics",
+      "ProceduralGenerationAnalytics",
+      "ScoreAnalytics",
+      "SurvivorExposerChangedAnalytics",
+      "TinkererUndetectableHitNearGeneratorAnalytics",
+      "TinkererUndetectableInterruptAnalytics"
+    ],
+    "KAL": [
+      "BotReplacementAnalytics",
+      "CheatExecutedAnalytics",
+      "CheatValidatedAnalytics",
+      "DedicatedServerInvalidLoadoutAnalytics",
+      "DedicatedServerPlayerEquipDisabledItemAnalytics",
+      "DedicatedServerStatusAnalytics",
+      "DisconnectionDetailsAnalytics",
+      "FrameHikeAnalytics",
+      "GPUAnalytics",
+      "Gameplay_ChaseAnalytics",
+      "InvalidLoadoutAnalytics",
+      "LevelLoadingStepAnalytics",
+      "LevelLoadingTimeoutAnalytics",
+      "MapCoordAnalytics",
+      "MatchInfoAnalytics",
+      "PostGame_KillerAnalytics",
+      "PostGame_SurvivorAnalytics"
+    ],
+    "KL": [
+      "ClientLoginAnalytics",
+      "ClientLogoutAnalytics",
+      "CustomerSupportAnalytics",
+      "DDoSDetectionAnalytics",
+      "DisconnectionAnalytics",
+      "EACClientAuthChallengeAnalytics",
+      "EACClientAuthInitAnalytics",
+      "EACClientInitAnalytics",
+      "EACClientViolationAnalytics",
+      "EACServerValidateAnalytics",
+      "ExecExecutedAnalytics",
+      "FallOutOfWorldAnalytics",
+      "GameConsoleLogAnalytics",
+      "GameEventLogAnalytics",
+      "GameInitAnalytics",
+      "HangAnalytics",
+      "KickAnalytics",
+      "KrakenRequestAnalytics",
+      "MapSelectionAnalytics",
+      "MatchStartAnalytics",
+      "NetworkFenceAnalytics",
+      "PerformanceAnalytics",
+      "PlayerMovementCorrectionAnalytics",
+      "RPCCountAnalytics",
+      "RTMConnectionLostAnalytics",
+      "S3CommandErrorAnalytics",
+      "SaveGameErrorAnalytics",
+      "ShopAnalytics",
+      "SpecialEventAnalytics",
+      "SpecialEventBaseAnalytics",
+      "SuspiciousBehaviourAnalytics",
+      "TexturegroupChartingAnalytics"
+    ]
+  },
+  "ddos": {
+    "CooloffTime": [
+      10,
+      10,
+      10,
+      10,
+      10
+    ],
+    "DDoSDetection": true,
+    "DDoSDetectionAnalytics": true,
+    "EscalateQuotaBadPacketsPerSec": [
+      50,
+      1000,
+      -1,
+      -1,
+      -1
+    ],
+    "EscalateQuotaDisconnPacketsPerSec": [
+      4000,
+      4000,
+      -1,
+      -1,
+      -1
+    ],
+    "EscalateQuotaPacketsPerSec": [
+      600,
+      1400,
+      -1,
+      -1,
+      -1
+    ],
+    "EscalateTimeQuotaMSPerFrame": [
+      -1,
+      20,
+      100,
+      132,
+      -1
+    ],
+    "NetConnPacketTimeLimitMSPerFrame": [
+      -1,
+      -1,
+      -1,
+      200,
+      100
+    ],
+    "PacketLimitPerFrame": [
+      -1,
+      -1,
+      200,
+      0,
+      0
+    ],
+    "PacketTimeLimitMSPerFrame": [
+      -1,
+      -1,
+      32,
+      4,
+      -1
+    ],
+    "SendEscalateAnalytics": [
+      0,
+      1,
+      1,
+      1,
+      1
+    ]
+  },
+  "disconnectionPenalty": {
+    "ReasonsWhichSendAnalyticsWhenDisabled": [
+      "leave_game",
+      "afk_killer",
+      "afk_survivor",
+      "invalid_ownership",
+      "go_next"
+    ],
+    "reasons": [
+      "leave_game",
+      "afk_killer",
+      "afk_survivor",
+      "invalid_ownership",
+      "go_next"
+    ]
+  },
+  "mapHistoryWeights": {
+    "0": 0.0001,
+    "1": 0.25,
+    "2": 0.5,
+    "3": 0.75
+  }
+}

@@ -1,0 +1,78 @@
+--- a/GameConfigsDS.json
++++ b/GameConfigsDS.json
+@@ -82,6 +82,7 @@
+       "GameEventLogAnalytics",
+       "GameInitAnalytics",
+       "HangAnalytics",
++      "KickAnalytics",
+       "KrakenRequestAnalytics",
+       "MapSelectionAnalytics",
+       "MatchStartAnalytics",
+@@ -110,52 +111,52 @@
+     "DDoSDetection": true,
+     "DDoSDetectionAnalytics": true,
+     "EscalateQuotaBadPacketsPerSec": [
+-      25,
+-      500,
++      50,
++      1000,
+       -1,
+       -1,
+       -1
+     ],
+     "EscalateQuotaDisconnPacketsPerSec": [
+-      2000,
+-      2000,
++      4000,
++      4000,
+       -1,
+       -1,
+       -1
+     ],
+     "EscalateQuotaPacketsPerSec": [
+-      300,
+-      700,
++      600,
++      1400,
+       -1,
+       -1,
+       -1
+     ],
+     "EscalateTimeQuotaMSPerFrame": [
+       -1,
+-      10,
+-      50,
+-      66,
++      20,
++      100,
++      132,
+       -1
+     ],
+     "NetConnPacketTimeLimitMSPerFrame": [
+       -1,
+       -1,
+       -1,
+-      100,
+-      50
++      200,
++      100
+     ],
+     "PacketLimitPerFrame": [
+       -1,
+       -1,
+-      600,
+-      100,
++      200,
++      0,
+       0
+     ],
+     "PacketTimeLimitMSPerFrame": [
+       -1,
+       -1,
+-      16,
+-      2,
++      32,
++      4,
+       -1
+     ],
+     "SendEscalateAnalytics": [

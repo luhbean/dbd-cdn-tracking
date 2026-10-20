@@ -1,16 +1,23 @@
-# Latest live content · 9.1.2_2703164live
+# Latest live content · 9.1.3_2703197live
 
-Built 2025-08-25 13:27 UTC · [what changed in this version](../versions/9.1.2_2703164live/CHANGES.md) · [← back](../README.md)
+Built 2025-08-25 13:45 UTC · [what changed in this version](../versions/9.1.3_2703197live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Game data (94)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (2)](#images) · [Game data (94)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
 - [`GameConfigs.json`](GameConfigs.json) — client game configuration
 - [`GameConfigsDS.json`](GameConfigsDS.json) — dedicated server configuration
 - [`dynamicContent/DynamicContent.json`](dynamicContent/DynamicContent.json) — the manifest of every file below
+
+## Images
+
+<p>
+<a href="images/T_UI_CollectionBanner_PartyHard.png"><img src="images/T_UI_CollectionBanner_PartyHard.png" alt="T_UI_CollectionBanner_PartyHard.png" title="T_UI_CollectionBanner_PartyHard.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_PartyHard.png"><img src="images/T_UI_SpecialPack_PartyHard.png" alt="T_UI_SpecialPack_PartyHard.png" title="T_UI_SpecialPack_PartyHard.png" width="200"></a>
+</p>
 
 ## Game data
 

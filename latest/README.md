@@ -1,10 +1,10 @@
-# Latest live content · 9.2.0_2744963live
+# Latest live content · 9.1.3_2747403live
 
-Built 2025-09-17 20:16 UTC · [what changed in this version](../versions/9.2.0_2744963live/CHANGES.md) · [← back](../README.md)
+Built 2025-09-18 15:12 UTC · [what changed in this version](../versions/9.1.3_2747403live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Game data (97)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (4)](#images) · [Game data (94)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -12,15 +12,24 @@ This folder always holds the newest version. Its commit history shows every chan
 - [`GameConfigsDS.json`](GameConfigsDS.json) — dedicated server configuration
 - [`dynamicContent/DynamicContent.json`](dynamicContent/DynamicContent.json) — the manifest of every file below
 
+## Images
+
+<p>
+<a href="images/T_UI_CollectionBanner_PartyHard.png"><img src="images/T_UI_CollectionBanner_PartyHard.png" alt="T_UI_CollectionBanner_PartyHard.png" title="T_UI_CollectionBanner_PartyHard.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_PartyHard.png"><img src="images/T_UI_SpecialPack_PartyHard.png" alt="T_UI_SpecialPack_PartyHard.png" title="T_UI_SpecialPack_PartyHard.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Tome5.png"><img src="images/T_UI_SpecialPack_Tome5.png" alt="T_UI_SpecialPack_Tome5.png" title="T_UI_SpecialPack_Tome5.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Tome6.png"><img src="images/T_UI_SpecialPack_Tome6.png" alt="T_UI_SpecialPack_Tome6.png" title="T_UI_SpecialPack_Tome6.png" width="200"></a>
+</p>
+
 ## Game data
 
 | Folder | Files |
 |---|---|
-| `archiveJournals/` | [archiveS3Journals](archiveJournals/archiveS3Journals.json) · [storyJournals](archiveJournals/storyJournals.json) |
+| `archiveJournals/` | [storyJournals](archiveJournals/storyJournals.json) |
 | `archiveQuests/` | [Anniversary2022](archiveQuests/Anniversary2022.json) · [Anniversary2023](archiveQuests/Anniversary2023.json) · [Anniversary2024](archiveQuests/Anniversary2024.json) · [CalamariV1](archiveQuests/CalamariV1.json) · [CalamariV2](archiveQuests/CalamariV2.json) · [CalamariV3](archiveQuests/CalamariV3.json) · [ChocolateBoxGelato](archiveQuests/ChocolateBoxGelato.json) · [ChocolateBoxV1](archiveQuests/ChocolateBoxV1.json) · [DreadByDaylightZodiac](archiveQuests/DreadByDaylightZodiac.json) · [FireflyV1](archiveQuests/FireflyV1.json) · [Halloween2021](archiveQuests/Halloween2021.json) · [Halloween2022](archiveQuests/Halloween2022.json) · [Halloween2023](archiveQuests/Halloween2023.json) · [Halloween2024](archiveQuests/Halloween2024.json) · [Spring2024](archiveQuests/Spring2024.json) · [Spring2025](archiveQuests/Spring2025.json) · [Summer2023](archiveQuests/Summer2023.json) · [Tome01](archiveQuests/Tome01.json) · [Tome02](archiveQuests/Tome02.json) · [Tome03](archiveQuests/Tome03.json) · [Tome04](archiveQuests/Tome04.json) · [Tome05](archiveQuests/Tome05.json) · [Tome06](archiveQuests/Tome06.json) · [Tome07](archiveQuests/Tome07.json) · [Tome08](archiveQuests/Tome08.json) · [Tome09](archiveQuests/Tome09.json) · [Tome10](archiveQuests/Tome10.json) · [Tome11](archiveQuests/Tome11.json) · [Tome12](archiveQuests/Tome12.json) · [Tome13](archiveQuests/Tome13.json) · [Tome14](archiveQuests/Tome14.json) · [Tome15](archiveQuests/Tome15.json) · [Tome16](archiveQuests/Tome16.json) · [Tome17](archiveQuests/Tome17.json) · [Tome18](archiveQuests/Tome18.json) · [Tome19](archiveQuests/Tome19.json) · [Tome20](archiveQuests/Tome20.json) · [Tome21](archiveQuests/Tome21.json) · [Tome22](archiveQuests/Tome22.json) · [Winter2022](archiveQuests/Winter2022.json) · [Winter2023](archiveQuests/Winter2023.json) · [Winter2024](archiveQuests/Winter2024.json) |
 | `archiveRewardData/` | [content](archiveRewardData/content.json) |
 | `archiveRewardGrid/` | [Tome01](archiveRewardGrid/Tome01.json) · [Tome02](archiveRewardGrid/Tome02.json) · [Tome03](archiveRewardGrid/Tome03.json) · [Tome04](archiveRewardGrid/Tome04.json) · [Tome05](archiveRewardGrid/Tome05.json) · [Tome06](archiveRewardGrid/Tome06.json) · [Tome07](archiveRewardGrid/Tome07.json) · [Tome08](archiveRewardGrid/Tome08.json) · [Tome09](archiveRewardGrid/Tome09.json) · [Tome10](archiveRewardGrid/Tome10.json) · [Tome11](archiveRewardGrid/Tome11.json) · [Tome12](archiveRewardGrid/Tome12.json) · [Tome13](archiveRewardGrid/Tome13.json) · [Tome14](archiveRewardGrid/Tome14.json) · [Tome15](archiveRewardGrid/Tome15.json) · [Tome16](archiveRewardGrid/Tome16.json) · [Tome17](archiveRewardGrid/Tome17.json) · [Tome18](archiveRewardGrid/Tome18.json) · [Tome19](archiveRewardGrid/Tome19.json) · [Tome20](archiveRewardGrid/Tome20.json) · [Tome21](archiveRewardGrid/Tome21.json) · [Tome22](archiveRewardGrid/Tome22.json) |
-| `(root)` | [bloodwebGenerationRules](bloodwebGenerationRules.json) · [bonusPointEventsContent](bonusPointEventsContent.json) · [catalog](catalog.json) · [challengeRewardTrackers](challengeRewardTrackers.json) · [challengeSets](challengeSets.json) · [cinematics](cinematics.json) · [collections](collections.json) · [collectionsCampaigns](collectionsCampaigns.json) · [contentSchedule](contentSchedule.json) · [crossPromoCampaigns](crossPromoCampaigns.json) · [dlcList](dlcList.json) · [emblemTunable](emblemTunable.json) · [featureLocks](featureLocks.json) · [gameplayTunables](gameplayTunables.json) · [itemsKillswitch](itemsKillswitch.json) · [randomRewards](randomRewards.json) · [ranksThresholds](ranksThresholds.json) · [recommendations](recommendations.json) · [sharedConfigs](sharedConfigs.json) · [specialEventsContent](specialEventsContent.json) |
+| `(root)` | [bloodwebGenerationRules](bloodwebGenerationRules.json) · [bonusPointEventsContent](bonusPointEventsContent.json) · [catalog](catalog.json) · [challengeRewardTrackers](challengeRewardTrackers.json) · [challengeSets](challengeSets.json) · [cinematics](cinematics.json) · [collections](collections.json) · [contentSchedule](contentSchedule.json) · [crossPromoCampaigns](crossPromoCampaigns.json) · [dlcList](dlcList.json) · [emblemTunable](emblemTunable.json) · [featureLocks](featureLocks.json) · [gameplayTunables](gameplayTunables.json) · [itemsKillswitch](itemsKillswitch.json) · [randomRewards](randomRewards.json) · [ranksThresholds](ranksThresholds.json) · [recommendations](recommendations.json) · [specialEventsContent](specialEventsContent.json) |
 | `consents/` | [definition](consents/eula/v4/definition.json) · [definition](consents/eula_psn_eu/v5/definition.json) · [definition](consents/eula_psn_na/v5/definition.json) · [definition](consents/marketing/v2/definition.json) · [definition](consents/privacy/v4/definition.json) |
 | `experimentalFeatures/` | [experimentalFeatures](experimentalFeatures/experimentalFeatures.json) |
 | `freetoplay/` | [event](freetoplay/EU/event.json) · [event](freetoplay/NA/event.json) |

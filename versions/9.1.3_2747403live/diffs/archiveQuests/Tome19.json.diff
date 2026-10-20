@@ -1,0 +1,48 @@
+--- a/archiveQuests/Tome19.json
++++ b/archiveQuests/Tome19.json
+@@ -1910,7 +1910,7 @@
+         ],
+         "nodes": {
+           "node_T19_L3_01": {
+-            "clientInfoId": "PlayWithPerkSurvivor",
++            "clientInfoId": "ExtendItemChargesWithStreetwiseAsS05InTrial",
+             "coordinates": {
+               "x": 67.0,
+               "y": 10.0
+@@ -1924,7 +1924,7 @@
+             ],
+             "nodeType": "quest:challenge",
+             "objectives": {
+-              "PlayWithPerkInTrial": {
++              "ExtendItemChargesWithPerkAsCharacterInTrial": {
+                 "conditions": [
+                   {
+                     "key": "role",
+@@ -1936,18 +1936,24 @@
+                     "key": "perk",
+                     "value": [
+                       "Streetwise"
++                    ]
++                  },
++                  {
++                    "key": "character",
++                    "value": [
++                      "Nea"
+                     ]
+                   }
+                 ],
+                 "incrementWithEventRepetitions": false,
+                 "neededProgression": 1,
+-                "objectiveId": "PlayWithPerkInTrial",
++                "objectiveId": "ExtendItemChargesWithPerkAsCharacterInTrial",
+                 "questEvent": [
+                   {
+                     "operation": ">=",
+                     "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
++                    "questEventId": "QuestEvent.ExtendItemCharges",
++                    "repetition": 4
+                   }
+                 ]
+               }

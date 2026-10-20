@@ -2,6 +2,32 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.1.2_3834583live](versions/10.1.2_3834583live/CHANGES.md)
+
+Built 2026-09-25 16:35 UTC · **+4** added · **~30** modified · **−4** removed
+
+- ~ [`GameConfigs.json`](versions/10.1.2_3834583live/diffs/GameConfigs.json.diff)
+- ~ [`GameConfigsDS.json`](versions/10.1.2_3834583live/diffs/GameConfigsDS.json.diff)
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/10.1.2_3834583live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`archiveJournals/storyJournals.json`](versions/10.1.2_3834583live/diffs/archiveJournals/storyJournals.json.diff)
+- ~ [`bloodwebGenerationRules.json`](versions/10.1.2_3834583live/diffs/bloodwebGenerationRules.json.diff)
+- ~ [`catalog.json`](versions/10.1.2_3834583live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_de.json`](versions/10.1.2_3834583live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_en.json`](versions/10.1.2_3834583live/diffs/challengeLocs/challengeText_en.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/10.1.2_3834583live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/10.1.2_3834583live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_fr.json`](versions/10.1.2_3834583live/diffs/challengeLocs/challengeText_fr.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/10.1.2_3834583live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_ja.json`](versions/10.1.2_3834583live/diffs/challengeLocs/challengeText_ja.json.diff)
+- ~ [`challengeLocs/challengeText_ko.json`](versions/10.1.2_3834583live/diffs/challengeLocs/challengeText_ko.json.diff)
+- ~ [`challengeLocs/challengeText_pl.json`](versions/10.1.2_3834583live/diffs/challengeLocs/challengeText_pl.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/10.1.2_3834583live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_ru.json`](versions/10.1.2_3834583live/diffs/challengeLocs/challengeText_ru.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/10.1.2_3834583live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`challengeLocs/challengeText_tr.json`](versions/10.1.2_3834583live/diffs/challengeLocs/challengeText_tr.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/10.1.2_3834583live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
+- … and 18 more in [CHANGES.md](versions/10.1.2_3834583live/CHANGES.md)
+
 ## [10.2.0_3806232live](versions/10.2.0_3806232live/CHANGES.md)
 
 Built 2026-09-22 17:29 UTC · **+4** added · **~30** modified · **−4** removed

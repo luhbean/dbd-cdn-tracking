@@ -2,6 +2,20 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.2.0_3882625live](versions/10.2.0_3882625live/CHANGES.md)
+
+Built 2026-10-13 15:43 UTC · **+3** added · **~6** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/10.2.0_3882625live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/10.2.0_3882625live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
+- ~ [`collections.json`](versions/10.2.0_3882625live/diffs/collections.json.diff)
+- ~ [`dlcList.json`](versions/10.2.0_3882625live/diffs/dlcList.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.0_3882625live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/10.2.0_3882625live/diffs/recommendations.json.diff)
+- \+ [`images/T_UI_CollectionBanner_NieR.png`](versions/10.2.0_3882625live/images/T_UI_CollectionBanner_NieR.png)
+- \+ [`images/T_UI_SpecialPack_NieR.png`](versions/10.2.0_3882625live/images/T_UI_SpecialPack_NieR.png)
+- \+ [`images/T_UI_SpecialPack_Rift7.png`](versions/10.2.0_3882625live/images/T_UI_SpecialPack_Rift7.png)
+
 ## [10.2.1_3879160live](versions/10.2.1_3879160live/CHANGES.md)
 
 Built 2026-10-09 19:17 UTC · **+0** added · **~4** modified · **−3** removed

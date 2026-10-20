@@ -1,10 +1,10 @@
-# Latest live content · 10.1.1_3695080live
+# Latest live content · 10.1.0_3698312live
 
-Built 2026-08-31 16:53 UTC · [what changed in this version](../versions/10.1.1_3695080live/CHANGES.md) · [← back](../README.md)
+Built 2026-09-01 12:55 UTC · [what changed in this version](../versions/10.1.0_3698312live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (3)](#images) · [Game data (98)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (8)](#images) · [Game data (98)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -15,6 +15,11 @@ This folder always holds the newest version. Its commit history shows every chan
 ## Images
 
 <p>
+<a href="images/T_UI_ChapterBundle_ChorusOfSin.png"><img src="images/T_UI_ChapterBundle_ChorusOfSin.png" alt="T_UI_ChapterBundle_ChorusOfSin.png" title="T_UI_ChapterBundle_ChorusOfSin.png" width="200"></a>
+<a href="images/T_UI_CollectionBanner_GameplayExpo_Unknown.png"><img src="images/T_UI_CollectionBanner_GameplayExpo_Unknown.png" alt="T_UI_CollectionBanner_GameplayExpo_Unknown.png" title="T_UI_CollectionBanner_GameplayExpo_Unknown.png" width="200"></a>
+<a href="images/T_UI_CollectionBanner_Xenomorph_King.png"><img src="images/T_UI_CollectionBanner_Xenomorph_King.png" alt="T_UI_CollectionBanner_Xenomorph_King.png" title="T_UI_CollectionBanner_Xenomorph_King.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_GameplayExpo_Unknown.png"><img src="images/T_UI_SpecialPack_GameplayExpo_Unknown.png" alt="T_UI_SpecialPack_GameplayExpo_Unknown.png" title="T_UI_SpecialPack_GameplayExpo_Unknown.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Xenomorph_King.png"><img src="images/T_UI_SpecialPack_Xenomorph_King.png" alt="T_UI_SpecialPack_Xenomorph_King.png" title="T_UI_SpecialPack_Xenomorph_King.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_GenQuest1.png"><img src="images/T_UI_Tutorial_ImageBG_GenQuest1.png" alt="T_UI_Tutorial_ImageBG_GenQuest1.png" title="T_UI_Tutorial_ImageBG_GenQuest1.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_cosmetic.png"><img src="images/T_UI_Tutorial_ImageBG_cosmetic.png" alt="T_UI_Tutorial_ImageBG_cosmetic.png" title="T_UI_Tutorial_ImageBG_cosmetic.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_gift.png"><img src="images/T_UI_Tutorial_ImageBG_gift.png" alt="T_UI_Tutorial_ImageBG_gift.png" title="T_UI_Tutorial_ImageBG_gift.png" width="200"></a>

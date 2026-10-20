@@ -2,6 +2,32 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.0.0_3487742live](versions/10.0.0_3487742live/CHANGES.md)
+
+Built 2026-07-07 13:57 UTC · **+9** added · **~19** modified · **−4** removed
+
+- ~ [`archiveJournals/archiveS3Journals.json`](versions/10.0.0_3487742live/diffs/archiveJournals/archiveS3Journals.json.diff)
+- ~ [`archiveJournals/storyJournals.json`](versions/10.0.0_3487742live/diffs/archiveJournals/storyJournals.json.diff)
+- ~ [`archiveQuests/Tome10.json`](versions/10.0.0_3487742live/diffs/archiveQuests/Tome10.json.diff)
+- ~ [`archiveQuests/Tome11.json`](versions/10.0.0_3487742live/diffs/archiveQuests/Tome11.json.diff)
+- ~ [`archiveQuests/Tome12.json`](versions/10.0.0_3487742live/diffs/archiveQuests/Tome12.json.diff)
+- ~ [`archiveQuests/Tome15.json`](versions/10.0.0_3487742live/diffs/archiveQuests/Tome15.json.diff)
+- ~ [`archiveQuests/Tome16.json`](versions/10.0.0_3487742live/diffs/archiveQuests/Tome16.json.diff)
+- ~ [`archiveQuests/Tome17.json`](versions/10.0.0_3487742live/diffs/archiveQuests/Tome17.json.diff)
+- ~ [`archiveQuests/Tome20.json`](versions/10.0.0_3487742live/diffs/archiveQuests/Tome20.json.diff)
+- ~ [`bloodwebGenerationRules.json`](versions/10.0.0_3487742live/diffs/bloodwebGenerationRules.json.diff)
+- ~ [`bonusPointEventsContent.json`](versions/10.0.0_3487742live/diffs/bonusPointEventsContent.json.diff)
+- ~ [`catalog.json`](versions/10.0.0_3487742live/diffs/catalog.json.diff)
+- ~ [`collections.json`](versions/10.0.0_3487742live/diffs/collections.json.diff)
+- ~ [`contentSchedule.json`](versions/10.0.0_3487742live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.0.0_3487742live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`gameplayTunables.json`](versions/10.0.0_3487742live/diffs/gameplayTunables.json.diff)
+- ~ [`itemsKillswitch.json`](versions/10.0.0_3487742live/diffs/itemsKillswitch.json.diff)
+- ~ [`narrativeCollections.json`](versions/10.0.0_3487742live/diffs/narrativeCollections.json.diff)
+- ~ [`recommendations.json`](versions/10.0.0_3487742live/diffs/recommendations.json.diff)
+- \+ [`images/T_UI_ChapterBundle_Jason.png`](versions/10.0.0_3487742live/images/T_UI_ChapterBundle_Jason.png)
+- … and 12 more in [CHANGES.md](versions/10.0.0_3487742live/CHANGES.md)
+
 ## [10.0.2_3484751live](versions/10.0.2_3484751live/CHANGES.md)
 
 Built 2026-07-06 19:35 UTC · **+2** added · **~9** modified · **−1** removed

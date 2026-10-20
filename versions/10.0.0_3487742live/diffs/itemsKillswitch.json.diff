@@ -1,0 +1,17 @@
+--- a/itemsKillswitch.json
++++ b/itemsKillswitch.json
+@@ -3,7 +3,13 @@
+     "defaultKiller": "Chuckles",
+     "defaultSurvivor": "Dwight"
+   },
+-  "disabledItems": {},
++  "disabledItems": {
++    "Killer07": {
++      "gameTypes": [
++        "SeasonalEvent"
++      ]
++    }
++  },
+   "fallbacksByGameType": {
+     "Cake": {
+       "defaultKiller": "Oni",

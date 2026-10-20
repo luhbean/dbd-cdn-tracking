@@ -2,6 +2,13 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.0.1_3473150live](versions/10.0.1_3473150live/CHANGES.md)
+
+Built 2026-06-29 16:57 UTC · **+0** added · **~2** modified · **−0** removed
+
+- ~ [`contentSchedule.json`](versions/10.0.1_3473150live/diffs/contentSchedule.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.0.1_3473150live/diffs/dynamicContent/DynamicContent.json.diff)
+
 ## [10.0.1_3470285live](versions/10.0.1_3470285live/CHANGES.md)
 
 Built 2026-06-26 19:24 UTC · **+2** added · **~14** modified · **−8** removed

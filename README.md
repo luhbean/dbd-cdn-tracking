@@ -2,16 +2,21 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.4.2_3103583live` · built 2026-02-16 15:59 UTC
+**Latest version:** `9.4.2_3111543live` · built 2026-02-18 21:18 UTC
 
-[What changed](versions/9.4.2_3103583live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.4.2_3111543live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **2** modified · **0** removed, compared with `9.4.2_3103381live`.
+**0** added · **7** modified · **0** removed, compared with `9.4.2_3103583live`.
 
-- ~ [`catalog.json`](versions/9.4.2_3103583live/diffs/catalog.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.4.2_3103583live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`challengeLocs/challengeText_en.json`](versions/9.4.2_3111543live/diffs/challengeLocs/challengeText_en.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/9.4.2_3111543live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_fr.json`](versions/9.4.2_3111543live/diffs/challengeLocs/challengeText_fr.json.diff)
+- ~ [`challengeLocs/challengeText_ja.json`](versions/9.4.2_3111543live/diffs/challengeLocs/challengeText_ja.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/9.4.2_3111543live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeSets.json`](versions/9.4.2_3111543live/diffs/challengeSets.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.4.2_3111543live/diffs/dynamicContent/DynamicContent.json.diff)
 
 ## Browse
 
@@ -33,7 +38,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-343 versions tracked so far.
+344 versions tracked so far.
 
 ---
 

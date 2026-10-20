@@ -2,6 +2,14 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.0.3_3600613live](versions/10.0.3_3600613live/CHANGES.md)
+
+Built 2026-07-31 17:28 UTC · **+0** added · **~3** modified · **−0** removed
+
+- ~ [`GameConfigsDS.json`](versions/10.0.3_3600613live/diffs/GameConfigsDS.json.diff)
+- ~ [`challengeSets.json`](versions/10.0.3_3600613live/diffs/challengeSets.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.0.3_3600613live/diffs/dynamicContent/DynamicContent.json.diff)
+
 ## [10.0.3_3587572live](versions/10.0.3_3587572live/CHANGES.md)
 
 Built 2026-07-28 13:36 UTC · **+0** added · **~2** modified · **−0** removed

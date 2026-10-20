@@ -2,6 +2,13 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.2.3_2879103live](versions/9.2.3_2879103live/CHANGES.md)
+
+Built 2025-11-21 17:26 UTC · **+0** added · **~2** modified · **−0** removed
+
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.2.3_2879103live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/9.2.3_2879103live/diffs/recommendations.json.diff)
+
 ## [9.2.3_2877920live](versions/9.2.3_2877920live/CHANGES.md)
 
 Built 2025-11-21 14:14 UTC · **+0** added · **~2** modified · **−0** removed

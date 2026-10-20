@@ -2,21 +2,16 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `10.2.1_3882628live` · built 2026-10-13 15:44 UTC
+**Latest version:** `10.2.1_3882832live` · built 2026-10-13 17:45 UTC
 
-[What changed](versions/10.2.1_3882628live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/10.2.1_3882832live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **4** modified · **3** removed, compared with `10.2.0_3882625live`.
+**0** added · **2** modified · **0** removed, compared with `10.2.1_3882628live`.
 
-- ~ [`catalog.json`](versions/10.2.1_3882628live/diffs/catalog.json.diff)
-- ~ [`dlcList.json`](versions/10.2.1_3882628live/diffs/dlcList.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.1_3882628live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`recommendations.json`](versions/10.2.1_3882628live/diffs/recommendations.json.diff)
-- − `images/T_UI_CollectionBanner_NieR.png`
-- − `images/T_UI_SpecialPack_NieR.png`
-- − `images/T_UI_SpecialPack_Rift7.png`
+- ~ [`challengeRewardTrackers.json`](versions/10.2.1_3882832live/diffs/challengeRewardTrackers.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.1_3882832live/diffs/dynamicContent/DynamicContent.json.diff)
 
 ## Browse
 
@@ -38,7 +33,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-587 versions tracked so far.
+588 versions tracked so far.
 
 ---
 

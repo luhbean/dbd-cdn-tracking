@@ -2,21 +2,13 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `9.2.3_2833738live` · built 2025-10-28 13:46 UTC
+**Latest version:** `9.2.3_2833874live` · built 2025-10-28 14:41 UTC
 
-[What changed](versions/9.2.3_2833738live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/9.2.3_2833874live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**1** added · **6** modified · **0** removed, compared with `9.2.3_2827191live`.
-
-- ~ [`bonusPointEventsContent.json`](versions/9.2.3_2833738live/diffs/bonusPointEventsContent.json.diff)
-- ~ [`catalog.json`](versions/9.2.3_2833738live/diffs/catalog.json.diff)
-- ~ [`collections.json`](versions/9.2.3_2833738live/diffs/collections.json.diff)
-- ~ [`dynamicContent/DynamicContent.json`](versions/9.2.3_2833738live/diffs/dynamicContent/DynamicContent.json.diff)
-- ~ [`itemsKillswitch.json`](versions/9.2.3_2833738live/diffs/itemsKillswitch.json.diff)
-- ~ [`recommendations.json`](versions/9.2.3_2833738live/diffs/recommendations.json.diff)
-- \+ [`images/T_UI_SpecialPack_BlightedSpringtrap.png`](versions/9.2.3_2833738live/images/T_UI_SpecialPack_BlightedSpringtrap.png)
+**0** added · **0** modified · **0** removed, compared with `9.2.3_2833738live`.
 
 ## Browse
 
@@ -38,7 +30,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-234 versions tracked so far.
+235 versions tracked so far.
 
 ---
 

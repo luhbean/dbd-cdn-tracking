@@ -1,0 +1,1745 @@
+--- a/challengeSets.json
++++ b/challengeSets.json
+@@ -1,4 +1,1731 @@
+ {
++  "CalamariUdon": {
++    "additionalInfoStringId": "CHALLENGESET_CalamariUdon_INFO",
++    "challengeList": [
++      {
++        "challenges": [
++          {
++            "challengeOrder": 0,
++            "descriptionStringId": "CHALLENGE_CompleteModeQuests_DESC",
++            "id": "CalamariUdon-List_1-O_CompleteModeQuests1",
++            "isRecurring": false,
++            "objectives": {
++              "Overarching": {
++                "conditions": [
++                  {
++                    "key": "challengeSetId",
++                    "value": [
++                      "CalamariUdon"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  3
++                ],
++                "objectiveId": "Overarching",
++                "objectiveInfo": "CHALLENGE_CompleteModeQuests_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression",
++                  "eventId"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action"
++              }
++            },
++            "rewards": [
++              {
++                "amount": 1,
++                "id": "UDO_BDG_09",
++                "type": "inventory"
++              }
++            ],
++            "riftPoints": 100,
++            "startDate": "2026-09-08T15:00:00",
++            "titleStringId": "CHALLENGE_CompleteModeQuests_TITLE",
++            "type": "overarching"
++          },
++          {
++            "challengeOrder": 1,
++            "descriptionStringId": "CHALLENGE_CompleteModeQuests_DESC",
++            "id": "CalamariUdon-List_1-O_CompleteModeQuests2",
++            "isRecurring": false,
++            "objectives": {
++              "Overarching": {
++                "conditions": [
++                  {
++                    "key": "challengeSetId",
++                    "value": [
++                      "CalamariUdon"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  5
++                ],
++                "objectiveId": "Overarching",
++                "objectiveInfo": "CHALLENGE_CompleteModeQuests_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression",
++                  "eventId"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action"
++              }
++            },
++            "rewards": [
++              {
++                "amount": 1,
++                "id": "UDO_BNR_01",
++                "type": "inventory"
++              }
++            ],
++            "riftPoints": 100,
++            "startDate": "2026-09-08T15:00:00",
++            "titleStringId": "CHALLENGE_CompleteModeQuests_TITLE",
++            "type": "overarching"
++          },
++          {
++            "challengeOrder": 2,
++            "descriptionStringId": "CHALLENGE_CompleteModeQuests_DESC",
++            "id": "CalamariUdon-List_1-O_CompleteModeQuests3",
++            "isRecurring": false,
++            "objectives": {
++              "Overarching": {
++                "conditions": [
++                  {
++                    "key": "challengeSetId",
++                    "value": [
++                      "CalamariUdon"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  8
++                ],
++                "objectiveId": "Overarching",
++                "objectiveInfo": "CHALLENGE_CompleteModeQuests_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression",
++                  "eventId"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action"
++              }
++            },
++            "rewards": [
++              {
++                "amount": 1,
++                "id": "UDO_002",
++                "type": "inventory"
++              },
++              {
++                "amount": 1,
++                "id": "UDO_003",
++                "type": "inventory"
++              }
++            ],
++            "riftPoints": 100,
++            "startDate": "2026-09-08T15:00:00",
++            "titleStringId": "CHALLENGE_CompleteModeQuests_TITLE",
++            "type": "overarching"
++          }
++        ],
++        "endDate": "2026-09-29T15:00:00",
++        "listId": "CalamariUdon-List_1",
++        "listOrder": 0,
++        "listTitleStringId": "LIST_Calamari_TITLE_1",
++        "startDate": "2026-09-08T15:00:00"
++      },
++      {
++        "challenges": [
++          {
++            "challengeOrder": 1,
++            "descriptionStringId": "CHALLENGE_CompleteModeTrialOrTrial_DESC",
++            "id": "CalamariUdon-List_2-D_CompleteModeTrialOrTrial",
++            "isRecurring": false,
++            "objectives": {
++              "FinishedPlaying": {
++                "conditions": [],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  24
++                ],
++                "objectiveId": "FinishedPlaying",
++                "objectiveInfo": "CHALLENGE_CompleteTrial_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 1,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.FinishedPlaying",
++                    "repetition": 1
++                  }
++                ]
++              },
++              "FinishedPlayingMode": {
++                "conditions": [
++                  {
++                    "key": "gameTypes",
++                    "value": [
++                      "Calamari"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  12
++                ],
++                "objectiveId": "FinishedPlayingMode",
++                "objectiveInfo": "CHALLENGE_CompleteModeTrial_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression",
++                  "eventId"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.FinishedPlayingMode",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "riftPoints": 50,
++            "startDate": "2026-09-08T15:00:00",
++            "titleStringId": "CHALLENGE_CompleteModeTrialOrTrial_TITLE",
++            "type": "dual"
++          },
++          {
++            "challengeOrder": 2,
++            "descriptionStringId": "CHALLENGE_HookAsKillerOrAnyKiller_DESC",
++            "id": "CalamariUdon-List_2-B_HookAsKillerOrAnyKiller",
++            "isRecurring": false,
++            "objectives": {
++              "Hook": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "killer"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  50
++                ],
++                "objectiveId": "Hook",
++                "objectiveInfo": "CHALLENGE_HookAsAnyKiller_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 1,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.Hook",
++                    "repetition": 1
++                  }
++                ]
++              },
++              "HookAsKiller": {
++                "conditions": [
++                  {
++                    "key": "character",
++                    "value": [
++                      "K33"
++                    ]
++                  },
++                  {
++                    "key": "role",
++                    "value": [
++                      "killer"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  25
++                ],
++                "objectiveId": "HookAsKiller",
++                "objectiveInfo": "CHALLENGE_HookAsKiller_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression",
++                  "character"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.HookAsKiller",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "riftPoints": 50,
++            "startDate": "2026-09-08T15:00:00",
++            "titleStringId": "CHALLENGE_HookAsKillerOrAnyKiller_TITLE",
++            "type": "dual"
++          },
++          {
++            "challengeOrder": 3,
++            "descriptionStringId": "CHALLENGE_AddChargeToRitualItem_DESC",
++            "id": "CalamariUdon-List_2-B_AddChargeToRitualItem",
++            "isRecurring": false,
++            "objectives": {
++              "AddChargeToRitualItem": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "survivor"
++                    ]
++                  },
++                  {
++                    "key": "gameTypes",
++                    "value": [
++                      "Calamari"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  300
++                ],
++                "objectiveId": "AddChargeToRitualItem",
++                "objectiveInfo": "CHALLENGE_AddChargeToRitualItem_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Percentage",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me;",
++                    "questEventId": "QuestEvent.AddChargesToRitualItem",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "riftPoints": 50,
++            "startDate": "2026-09-08T15:00:00",
++            "titleStringId": "CHALLENGE_AddChargeToRitualItem_TITLE",
++            "type": "basic"
++          },
++          {
++            "challengeOrder": 4,
++            "descriptionStringId": "CHALLENGE_PlaceRitualItem_DESC",
++            "id": "CalamariUdon-List_2-B_PlaceRitualItem",
++            "isRecurring": false,
++            "objectives": {
++              "PlaceRitualItem": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "survivor"
++                    ]
++                  },
++                  {
++                    "key": "gameTypes",
++                    "value": [
++                      "Calamari"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  10
++                ],
++                "objectiveId": "PlaceRitualItem",
++                "objectiveInfo": "CHALLENGE_PlaceRitualItem_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.PlaceRitualItem",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "riftPoints": 50,
++            "startDate": "2026-09-08T15:00:00",
++            "titleStringId": "CHALLENGE_PlaceRitualItem_TITLE",
++            "type": "basic"
++          }
++        ],
++        "endDate": "2026-09-29T15:00:00",
++        "listId": "CalamariUdon-List_2",
++        "listOrder": 1,
++        "listTitleStringId": "LIST_Calamari_TITLE_2",
++        "startDate": "2026-09-08T15:00:00"
++      },
++      {
++        "challenges": [
++          {
++            "challengeOrder": 1,
++            "descriptionStringId": "CHALLENGE_CompleteModeTrialOrTrial_DESC",
++            "id": "CalamariUdon-List_3-D_CompleteModeTrialOrTrial",
++            "isRecurring": false,
++            "objectives": {
++              "FinishedPlaying": {
++                "conditions": [],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  18
++                ],
++                "objectiveId": "FinishedPlaying",
++                "objectiveInfo": "CHALLENGE_CompleteTrial_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 1,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.FinishedPlaying",
++                    "repetition": 1
++                  }
++                ]
++              },
++              "FinishedPlayingMode": {
++                "conditions": [
++                  {
++                    "key": "gameTypes",
++                    "value": [
++                      "Calamari"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  9
++                ],
++                "objectiveId": "FinishedPlayingMode",
++                "objectiveInfo": "CHALLENGE_CompleteModeTrial_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression",
++                  "eventId"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.FinishedPlayingMode",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "riftPoints": 50,
++            "startDate": "2026-09-15T15:00:00",
++            "titleStringId": "CHALLENGE_CompleteModeTrialOrTrial_TITLE",
++            "type": "dual"
++          },
++          {
++            "challengeOrder": 2,
++            "descriptionStringId": "CHALLENGE_UnhookAsSurvivorOrAnySurvivor_DESC",
++            "id": "CalamariUdon-List_3-B_UnhookAsSurvivorOrAnySurvivor",
++            "isRecurring": false,
++            "objectives": {
++              "Unhook": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "survivor"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  30
++                ],
++                "objectiveId": "Unhook",
++                "objectiveInfo": "CHALLENGE_UnhookAsAnySurvivor_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 1,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.Unhook",
++                    "repetition": 1
++                  }
++                ]
++              },
++              "UnhookAsCharacterInTrial": {
++                "conditions": [
++                  {
++                    "key": "character",
++                    "value": [
++                      "S39"
++                    ]
++                  },
++                  {
++                    "key": "role",
++                    "value": [
++                      "survivor"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  15
++                ],
++                "objectiveId": "UnhookAsCharacterInTrial",
++                "objectiveInfo": "CHALLENGE_UnhookAsSurvivor_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression",
++                  "character"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.UnhookAsSurvivor",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "riftPoints": 50,
++            "startDate": "2026-09-15T15:00:00",
++            "titleStringId": "CHALLENGE_UnhookAsSurvivorOrAnySurvivor_TITLE",
++            "type": "dual"
++          },
++          {
++            "challengeOrder": 3,
++            "descriptionStringId": "CHALLENGE_BreakGen_DESC",
++            "id": "CalamariUdon-List_3-B_BreakGen",
++            "isRecurring": false,
++            "objectives": {
++              "BreakGens": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "killer"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  20
++                ],
++                "objectiveId": "BreakGens",
++                "objectiveInfo": "CHALLENGE_BreakGen_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.BreakGens",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "riftPoints": 50,
++            "startDate": "2026-09-15T15:00:00",
++            "titleStringId": "CHALLENGE_BreakGen_TITLE",
++            "type": "basic"
++          },
++          {
++            "challengeOrder": 4,
++            "descriptionStringId": "CHALLENGE_StompOrDrinkTonic_DESC",
++            "id": "CalamariUdon-List_3-D_StompOrDrinkTonic",
++            "isRecurring": false,
++            "objectives": {
++              "DrinkTonic": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "survivor"
++                    ]
++                  },
++                  {
++                    "key": "gameTypes",
++                    "value": [
++                      "Calamari"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  10
++                ],
++                "objectiveId": "DrinkTonic",
++                "objectiveInfo": "CHALLENGE_DrinkTonic_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 1,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.DrinkTonic",
++                    "repetition": 1
++                  }
++                ]
++              },
++              "StompTonic": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "killer"
++                    ]
++                  },
++                  {
++                    "key": "gameTypes",
++                    "value": [
++                      "Calamari"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  10
++                ],
++                "objectiveId": "StompTonic",
++                "objectiveInfo": "CHALLENGE_StompTonic_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.StompTonic",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "riftPoints": 50,
++            "startDate": "2026-09-15T15:00:00",
++            "titleStringId": "CHALLENGE_StompOrDrinkTonic_TITLE",
++            "type": "dual"
++          }
++        ],
++        "endDate": "2026-09-29T15:00:00",
++        "listId": "CalamariUdon-List_3",
++        "listOrder": 2,
++        "listTitleStringId": "LIST_Calamari_TITLE_3",
++        "startDate": "2026-09-15T15:00:00"
++      },
++      {
++        "challenges": [
++          {
++            "challengeOrder": 1,
++            "descriptionStringId": "CHALLENGE_CompleteModeTrialOrTrial_DESC",
++            "id": "CalamariUdon-List_4-D_CompleteModeTrialOrTrial",
++            "isRecurring": false,
++            "objectives": {
++              "FinishedPlaying": {
++                "conditions": [],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  12
++                ],
++                "objectiveId": "FinishedPlaying",
++                "objectiveInfo": "CHALLENGE_CompleteTrial_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 1,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.FinishedPlaying",
++                    "repetition": 1
++                  }
++                ]
++              },
++              "FinishedPlayingMode": {
++                "conditions": [
++                  {
++                    "key": "gameTypes",
++                    "value": [
++                      "Calamari"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  6
++                ],
++                "objectiveId": "FinishedPlayingMode",
++                "objectiveInfo": "CHALLENGE_CompleteModeTrial_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression",
++                  "eventId"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.FinishedPlayingMode",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "riftPoints": 50,
++            "startDate": "2026-09-22T15:00:00",
++            "titleStringId": "CHALLENGE_CompleteModeTrialOrTrial_TITLE",
++            "type": "dual"
++          },
++          {
++            "challengeOrder": 2,
++            "descriptionStringId": "CHALLENGE_PlayAsKillerClassOrSurvivorClass_DESC",
++            "id": "CalamariUdon-List_4-D_PlayAsKillerClassOrSurvivorClass",
++            "isRecurring": false,
++            "objectives": {
++              "PlayAsClassKiller": {
++                "conditions": [
++                  {
++                    "key": "class",
++                    "value": [
++                      "Stalker"
++                    ]
++                  },
++                  {
++                    "key": "role",
++                    "value": [
++                      "killer"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  3
++                ],
++                "objectiveId": "PlayAsClassKiller",
++                "objectiveInfo": "CHALLENGE_PlayAsClass_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression",
++                  "class"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.FinishedPlayingKiller",
++                    "repetition": 1
++                  }
++                ]
++              },
++              "PlayAsClassSurvivor": {
++                "conditions": [
++                  {
++                    "key": "class",
++                    "value": [
++                      "Tactician"
++                    ]
++                  },
++                  {
++                    "key": "role",
++                    "value": [
++                      "survivor"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  3
++                ],
++                "objectiveId": "PlayAsClassSurvivor",
++                "objectiveInfo": "CHALLENGE_PlayAsClass_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression",
++                  "class"
++                ],
++                "objectiveOrder": 1,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.FinishedPlayingSurvivor",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "riftPoints": 50,
++            "startDate": "2026-09-22T15:00:00",
++            "titleStringId": "CHALLENGE_PlayAsKillerClassOrSurvivorClass_TITLE",
++            "type": "dual"
++          },
++          {
++            "challengeOrder": 3,
++            "descriptionStringId": "CHALLENGE_HitOrHeal_DESC",
++            "id": "CalamariUdon-List_4-D_HitOrHeal",
++            "isRecurring": false,
++            "objectives": {
++              "HealPerc": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "survivor"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  700
++                ],
++                "objectiveId": "HealPerc",
++                "objectiveInfo": "CHALLENGE_Heal_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 1,
++                "objectiveProgressionType": "Percentage",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.Heal",
++                    "repetition": 1
++                  }
++                ]
++              },
++              "Hit": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "killer"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  70
++                ],
++                "objectiveId": "Hit",
++                "objectiveInfo": "CHALLENGE_Hit_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.Hit",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "riftPoints": 50,
++            "startDate": "2026-09-22T15:00:00",
++            "titleStringId": "CHALLENGE_HitOrHeal_TITLE",
++            "type": "dual"
++          },
++          {
++            "challengeOrder": 4,
++            "descriptionStringId": "CHALLENGE_BreakPallet_DESC",
++            "id": "CalamariUdon-List_4-B_BreakPallet",
++            "isRecurring": false,
++            "objectives": {
++              "BreakPallets": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "killer"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  30
++                ],
++                "objectiveId": "BreakPallets",
++                "objectiveInfo": "CHALLENGE_BreakPallets_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.BreakPallets",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "riftPoints": 50,
++            "startDate": "2026-09-22T15:00:00",
++            "titleStringId": "CHALLENGE_BreakPallet_TITLE",
++            "type": "basic"
++          }
++        ],
++        "endDate": "2026-09-29T15:00:00",
++        "listId": "CalamariUdon-List_4",
++        "listOrder": 3,
++        "listTitleStringId": "LIST_Calamari_TITLE_4",
++        "startDate": "2026-09-22T15:00:00"
++      }
++    ],
++    "endDate": "2026-09-29T15:00:00",
++    "endDateInMs": 1790694000000,
++    "eventID": "CalamariV9",
++    "mask": 0,
++    "startDate": "2026-09-08T15:00:00",
++    "startDateInMs": 1788879600000,
++    "tabOrder": 1,
++    "tabTitleStringId": "CHALLENGESET_CalamariUdon_TITLE",
++    "titleLocalizationText": {
++      "de": "2 gegen 8",
++      "en": "2v8",
++      "es": "2c8",
++      "es-MX": "2v8",
++      "fr": "2v8",
++      "it": "2v8",
++      "ja": "2対8",
++      "ko": "2v8",
++      "pl": "2 na 8",
++      "pt-BR": "2x8",
++      "ru": "2 против 8",
++      "th": "2v8",
++      "tr": "2'ye 8",
++      "zh-Hans": "2v8",
++      "zh-Hant": "2v8"
++    },
++    "type": "Event",
++    "uiAssets": {}
++  },
++  "ChapterQuests_Udon": {
++    "additionalInfoStringId": "CHALLENGESET_Chapter41Quests_INFO",
++    "challengeList": [
++      {
++        "challenges": [
++          {
++            "challengeOrder": 0,
++            "descriptionStringId": "CHALLENGE_CompleteModeQuests_DESC",
++            "id": "ChapterQuests_Udon-Overarching-O_CompleteModeQuests1",
++            "isRecurring": false,
++            "objectives": {
++              "Overarching": {
++                "conditions": [
++                  {
++                    "key": "challengeSetId",
++                    "value": [
++                      "ChapterQuests_Udon"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  3
++                ],
++                "objectiveId": "Overarching",
++                "objectiveInfo": "CHALLENGE_CompleteChapterQuests_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression",
++                  "eventId"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action"
++              }
++            },
++            "rewards": [
++              {
++                "amount": 1,
++                "id": "UDO_BNR_08",
++                "type": "inventory"
++              }
++            ],
++            "startDate": "2026-08-25T15:00:00",
++            "titleStringId": "CHALLENGE_CompleteModeQuests_TITLE",
++            "type": "overarching"
++          },
++          {
++            "challengeOrder": 1,
++            "descriptionStringId": "CHALLENGE_CompleteModeQuests_DESC",
++            "id": "ChapterQuests_Udon-Overarching-O_CompleteModeQuests2",
++            "isRecurring": false,
++            "objectives": {
++              "Overarching": {
++                "conditions": [
++                  {
++                    "key": "challengeSetId",
++                    "value": [
++                      "ChapterQuests_Udon"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  5
++                ],
++                "objectiveId": "Overarching",
++                "objectiveInfo": "CHALLENGE_CompleteChapterQuests_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression",
++                  "eventId"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action"
++              }
++            },
++            "rewards": [
++              {
++                "amount": 1,
++                "id": "UDO_BDG_14",
++                "type": "inventory"
++              }
++            ],
++            "startDate": "2026-08-25T15:00:00",
++            "titleStringId": "CHALLENGE_CompleteModeQuests_TITLE",
++            "type": "overarching"
++          }
++        ],
++        "endDate": "2026-09-01T15:00:00",
++        "listId": "ChapterQuests_Udon-Overarching",
++        "listOrder": 0,
++        "listTitleStringId": "LIST_OverarchingChapterQuests_TITLE",
++        "startDate": "2026-08-25T15:00:00"
++      },
++      {
++        "challenges": [
++          {
++            "challengeOrder": 0,
++            "descriptionStringId": "CHALLENGE_PlayAsKillerOrAnyKiller_DESC",
++            "id": "ChapterQuests_Udon-Quest_List_1-B_PlayAsKillerOrAnyKiller",
++            "isRecurring": false,
++            "objectives": {
++              "FinishedPlayingKiller": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "killer"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  10
++                ],
++                "objectiveId": "FinishedPlayingKiller",
++                "objectiveInfo": "CHALLENGE_PlayAnyKiller_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 1,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.FinishedPlaying",
++                    "repetition": 1
++                  }
++                ]
++              },
++              "PlayAsCharacterInTrial": {
++                "conditions": [
++                  {
++                    "key": "character",
++                    "value": [
++                      "K44"
++                    ]
++                  },
++                  {
++                    "key": "role",
++                    "value": [
++                      "killer"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  5
++                ],
++                "objectiveId": "PlayAsCharacterInTrial",
++                "objectiveInfo": "CHALLENGE_PlayAsKiller_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression",
++                  "character"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.FinishedPlayingKiller",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "startDate": "2026-08-25T15:00:00",
++            "titleStringId": "CHALLENGE_PlayAsKillerOrAnyKiller_TITLE",
++            "type": "dual"
++          },
++          {
++            "challengeOrder": 1,
++            "descriptionStringId": "CHALLENGE_PrayAtK44Shrine_DESC",
++            "id": "ChapterQuests_Udon-Quest_List_1-B_PrayAtK44Shrine",
++            "isRecurring": false,
++            "objectives": {
++              "PrayAtK44Shrine": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "survivor"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  3
++                ],
++                "objectiveId": "PrayAtK44Shrine",
++                "objectiveInfo": "CHALLENGE_PrayAtK44Shrine_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.K044.Survivor.PrayAtShrine",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "startDate": "2026-08-25T15:00:00",
++            "titleStringId": "CHALLENGE_PrayAtK44Shrine_TITLE",
++            "type": "basic"
++          },
++          {
++            "challengeOrder": 2,
++            "descriptionStringId": "CHALLENGE_IncrementS54P01Token_DESC",
++            "id": "ChapterQuests_Udon-Quest_List_1-B_IncrementS54P01Token",
++            "isRecurring": false,
++            "objectives": {
++              "IncrementS54P01Token": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "survivor"
++                    ]
++                  },
++                  {
++                    "key": "perk",
++                    "value": [
++                      "S54P01"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  5
++                ],
++                "objectiveId": "IncrementS54P01Token",
++                "objectiveInfo": "CHALLENGE_IncrementS54P01Token_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.Player.IncrementToken",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "Bloodpoints",
++                "type": "currency"
++              }
++            ],
++            "startDate": "2026-08-25T15:00:00",
++            "titleStringId": "CHALLENGE_IncrementS54P01Token_TITLE",
++            "type": "basic"
++          },
++          {
++            "challengeOrder": 3,
++            "descriptionStringId": "CHALLENGE_HookOrUnhook_DESC",
++            "id": "ChapterQuests_Udon-Quest_List_1-D_HookOrUnhook",
++            "isRecurring": false,
++            "objectives": {
++              "Hook": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "killer"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  20
++                ],
++                "objectiveId": "Hook",
++                "objectiveInfo": "CHALLENGE_Hook_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.Hook",
++                    "repetition": 1
++                  }
++                ]
++              },
++              "Unhook": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "survivor"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  10
++                ],
++                "objectiveId": "Unhook",
++                "objectiveInfo": "CHALLENGE_Unhook_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 1,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.Unhook",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "startDate": "2026-08-25T15:00:00",
++            "titleStringId": "CHALLENGE_HookOrUnhook_TITLE",
++            "type": "dual"
++          }
++        ],
++        "endDate": "2026-09-01T15:00:00",
++        "listId": "ChapterQuests_Udon-Quest_List_1",
++        "listOrder": 1,
++        "listTitleStringId": "LIST_ChapterQuests_TITLE_1",
++        "startDate": "2026-08-25T15:00:00"
++      },
++      {
++        "challenges": [
++          {
++            "challengeOrder": 0,
++            "descriptionStringId": "CHALLENGE_PlayAsSurvivorOrAnySurvivor_DESC",
++            "id": "ChapterQuests_Udon-Quest_List_2-B_PlayAsSurvivorOrAnySurvivor",
++            "isRecurring": false,
++            "objectives": {
++              "FinishedPlayingSurvivor": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "survivor"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  6
++                ],
++                "objectiveId": "FinishedPlayingSurvivor",
++                "objectiveInfo": "CHALLENGE_PlayAnySurvivor_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 1,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.FinishedPlaying",
++                    "repetition": 1
++                  }
++                ]
++              },
++              "PlayAsCharacterInTrial": {
++                "conditions": [
++                  {
++                    "key": "character",
++                    "value": [
++                      "S54"
++                    ]
++                  },
++                  {
++                    "key": "role",
++                    "value": [
++                      "survivor"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  3
++                ],
++                "objectiveId": "PlayAsCharacterInTrial",
++                "objectiveInfo": "CHALLENGE_PlayAsSurvivor_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression",
++                  "character"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.FinishedPlayingSurvivor",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "startDate": "2026-08-28T15:00:00",
++            "titleStringId": "CHALLENGE_PlayAsSurvivorOrAnySurvivor_TITLE",
++            "type": "dual"
++          },
++          {
++            "challengeOrder": 1,
++            "descriptionStringId": "CHALLENGE_RepentAtK44Shrine_DESC",
++            "id": "ChapterQuests_Udon-Quest_List_2-B_RepentAtK44Shrine",
++            "isRecurring": false,
++            "objectives": {
++              "RepentAtK44Shrine": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "survivor"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  2
++                ],
++                "objectiveId": "RepentAtK44Shrine",
++                "objectiveInfo": "CHALLENGE_RepentAtK44Shrine_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.K044.Survivor.RepentAtShrine",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "startDate": "2026-08-28T15:00:00",
++            "titleStringId": "CHALLENGE_RepentAtK44Shrine_TITLE",
++            "type": "basic"
++          },
++          {
++            "challengeOrder": 2,
++            "descriptionStringId": "CHALLENGE_BanishSurvivorAsK44_DESC",
++            "id": "ChapterQuests_Udon-Quest_List_2-B_BanishSurvivorAsK44",
++            "isRecurring": false,
++            "objectives": {
++              "BanishSurvivorAsK44": {
++                "conditions": [
++                  {
++                    "key": "role",
++                    "value": [
++                      "killer"
++                    ]
++                  }
++                ],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  10
++                ],
++                "objectiveId": "BanishSurvivorAsK44",
++                "objectiveInfo": "CHALLENGE_BanishSurvivorAsK44_INFO",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me",
++                    "questEventId": "QuestEvent.K044.Killer.BanishSurvivorToExile",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "startDate": "2026-08-28T15:00:00",
++            "titleStringId": "CHALLENGE_BanishSurvivorAsK44_TITLE",
++            "type": "basic"
++          },
++          {
++            "challengeOrder": 3,
++            "descriptionStringId": "CHALLENGE_EarnEmblemsGold_DESC",
++            "id": "ChapterQuests_Udon-Quest_List_2-B_EarnEmblemsGold",
++            "isRecurring": false,
++            "objectives": {
++              "EarnEmblemsGold": {
++                "conditions": [],
++                "incrementWithEventRepetitions": true,
++                "isCommunityObjective": false,
++                "maxProgressionPerPlayer": -1,
++                "neededProgression": [
++                  5
++                ],
++                "objectiveId": "EarnEmblemsGold",
++                "objectiveInfo": "CHALLENGE_EarnEmblemsGold_DESC",
++                "objectiveInfoParameters": [
++                  "maxProgression"
++                ],
++                "objectiveOrder": 0,
++                "objectiveProgressionType": "Action",
++                "questEvent": [
++                  {
++                    "operation": ">=",
++                    "parameters": "instigator:me;EmblemQuality:Gold",
++                    "questEventId": "QuestEvent.EarnEmblemsQuality",
++                    "repetition": 1
++                  }
++                ]
++              }
++            },
++            "rewards": [
++              {
++                "amount": 10000,
++                "id": "BonusBloodpoints",
++                "type": "currency"
++              }
++            ],
++            "startDate": "2026-08-28T15:00:00",
++            "titleStringId": "CHALLENGE_EarnEmblemsGold_TITLE",
++            "type": "basic"
++          }
++        ],
++        "endDate": "2026-09-01T15:00:00",
++        "listId": "ChapterQuests_Udon-Quest_List_2",
++        "listOrder": 2,
++        "listTitleStringId": "LIST_ChapterQuests_TITLE_2",
++        "startDate": "2026-08-28T15:00:00"
++      }
++    ],
++    "endDate": "2026-09-01T15:00:00",
++    "endDateInMs": 1788274800000,
++    "mask": 0,
++    "startDate": "2026-08-25T15:00:00",
++    "startDateInMs": 1787670000000,
++    "tabOrder": 1,
++    "tabTitleStringId": "CHALLENGESET_Chapter41Quests_TITLE",
++    "titleLocalizationText": {
++      "de": "Chorus of Sin",
++      "en": "Chorus Of Sin",
++      "es": "Chorus of Sin",
++      "es-MX": "Chorus of Sin",
++      "fr": "Chorus Of Sin",
++      "it": "Chorus Of Sin",
++      "ja": "Chorus Of Sin",
++      "ko": "죄의 합창",
++      "pl": "Chór grzechu",
++      "pt-BR": "Chorus of Sin",
++      "ru": "Греховный хор",
++      "th": "Chorus of Sin (เสียงประสานแห่งบาป)",
++      "tr": "Günah Korosu",
++      "zh-Hans": "《Chorus Of Sin》",
++      "zh-Hant": "罪惡之曲"
++    },
++    "type": "MicroEvent",
++    "uiAssets": {
++      "iconPath": "/DBDUICore/Assets/Common/Event/Community/T_UI_icon_Event_Killer.T_UI_icon_Event_Killer",
++      "rewardPopupBannerPath": "/DBDUICore/Assets/Common/Event/Community/T_UI_icon_Event_Killer.T_UI_icon_Event_Killer"
++    }
++  },
+   "Daily_Set": {
+     "additionalInfoStringId": "CHALLENGESET_Daily_INFO",
+     "challengeList": [
+@@ -8475,8 +10202,8 @@
+     "endDateInMs": 1787065200000,
+     "eventID": "Summer2026",
+     "mask": 0,
+-    "startDate": "2026-07-28T15:00:00",
+-    "startDateInMs": 1785250800000,
++    "startDate": "2026-07-25T15:00:00",
++    "startDateInMs": 1784991600000,
+     "tabOrder": 1,
+     "tabTitleStringId": "CHALLENGESET_Summer2026_TITLE",
+     "titleLocalizationText": {

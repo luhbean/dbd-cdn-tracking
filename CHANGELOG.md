@@ -2,6 +2,14 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [9.2.1_2782656live](versions/9.2.1_2782656live/CHANGES.md)
+
+Built 2025-09-30 16:04 UTC · **+0** added · **~3** modified · **−0** removed
+
+- ~ [`collectionsCampaigns.json`](versions/9.2.1_2782656live/diffs/collectionsCampaigns.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/9.2.1_2782656live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/9.2.1_2782656live/diffs/recommendations.json.diff)
+
 ## [9.2.0_2781994live](versions/9.2.0_2781994live/CHANGES.md)
 
 Built 2025-09-30 12:44 UTC · **+0** added · **~4** modified · **−0** removed

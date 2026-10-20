@@ -1,10 +1,10 @@
-# Latest live content · 10.0.0_3439502live
+# Latest live content · 10.0.0_3444032live
 
-Built 2026-06-15 15:12 UTC · [what changed in this version](../versions/10.0.0_3439502live/CHANGES.md) · [← back](../README.md)
+Built 2026-06-16 12:57 UTC · [what changed in this version](../versions/10.0.0_3444032live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (13)](#images) · [Game data (98)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (14)](#images) · [Game data (98)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -20,6 +20,7 @@ This folder always holds the newest version. Its commit history shows every chan
 <a href="images/T_UI_CollectionBanner_Black_Banquet.png"><img src="images/T_UI_CollectionBanner_Black_Banquet.png" alt="T_UI_CollectionBanner_Black_Banquet.png" title="T_UI_CollectionBanner_Black_Banquet.png" width="200"></a>
 <a href="images/T_UI_CollectionBanner_Ice_Nine_Kills.png"><img src="images/T_UI_CollectionBanner_Ice_Nine_Kills.png" alt="T_UI_CollectionBanner_Ice_Nine_Kills.png" title="T_UI_CollectionBanner_Ice_Nine_Kills.png" width="200"></a>
 <a href="images/T_UI_CollectionBanner_Jason.png"><img src="images/T_UI_CollectionBanner_Jason.png" alt="T_UI_CollectionBanner_Jason.png" title="T_UI_CollectionBanner_Jason.png" width="200"></a>
+<a href="images/T_UI_S53_ShaneWiigwaas_Portrait.png"><img src="images/T_UI_S53_ShaneWiigwaas_Portrait.png" alt="T_UI_S53_ShaneWiigwaas_Portrait.png" title="T_UI_S53_ShaneWiigwaas_Portrait.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_Black_Banquet.png"><img src="images/T_UI_SpecialPack_Black_Banquet.png" alt="T_UI_SpecialPack_Black_Banquet.png" title="T_UI_SpecialPack_Black_Banquet.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_Ice_Nine_Kills.png"><img src="images/T_UI_SpecialPack_Ice_Nine_Kills.png" alt="T_UI_SpecialPack_Ice_Nine_Kills.png" title="T_UI_SpecialPack_Ice_Nine_Kills.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_Jason.png"><img src="images/T_UI_SpecialPack_Jason.png" alt="T_UI_SpecialPack_Jason.png" title="T_UI_SpecialPack_Jason.png" width="200"></a>

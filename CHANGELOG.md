@@ -2,6 +2,15 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.0.0_3444032live](versions/10.0.0_3444032live/CHANGES.md)
+
+Built 2026-06-16 12:57 UTC · **+1** added · **~3** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/10.0.0_3444032live/diffs/catalog.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.0.0_3444032live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/10.0.0_3444032live/diffs/recommendations.json.diff)
+- \+ [`images/T_UI_S53_ShaneWiigwaas_Portrait.png`](versions/10.0.0_3444032live/images/T_UI_S53_ShaneWiigwaas_Portrait.png)
+
 ## [10.0.0_3439502live](versions/10.0.0_3439502live/CHANGES.md)
 
 Built 2026-06-15 15:12 UTC · **+11** added · **~45** modified · **−2** removed

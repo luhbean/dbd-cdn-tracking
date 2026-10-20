@@ -1,10 +1,10 @@
-# Latest live content · 9.5.0_3205635live
+# Latest live content · 9.5.1_3206318live
 
-Built 2026-03-24 14:19 UTC · [what changed in this version](../versions/9.5.0_3205635live/CHANGES.md) · [← back](../README.md)
+Built 2026-03-24 14:59 UTC · [what changed in this version](../versions/9.5.1_3206318live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (12)](#images) · [Game data (97)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (4)](#images) · [Game data (97)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -15,14 +15,6 @@ This folder always holds the newest version. Its commit history shows every chan
 ## Images
 
 <p>
-<a href="images/T_UI_ChapterBundle_AllKillComeback.png"><img src="images/T_UI_ChapterBundle_AllKillComeback.png" alt="T_UI_ChapterBundle_AllKillComeback.png" title="T_UI_ChapterBundle_AllKillComeback.png" width="200"></a>
-<a href="images/T_UI_CollectionBanner_AllKillComeback.png"><img src="images/T_UI_CollectionBanner_AllKillComeback.png" alt="T_UI_CollectionBanner_AllKillComeback.png" title="T_UI_CollectionBanner_AllKillComeback.png" width="200"></a>
-<a href="images/T_UI_CollectionBanner_Bloodmoon_Quiche.png"><img src="images/T_UI_CollectionBanner_Bloodmoon_Quiche.png" alt="T_UI_CollectionBanner_Bloodmoon_Quiche.png" title="T_UI_CollectionBanner_Bloodmoon_Quiche.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_AllKillComeback.png"><img src="images/T_UI_SpecialPack_AllKillComeback.png" alt="T_UI_SpecialPack_AllKillComeback.png" title="T_UI_SpecialPack_AllKillComeback.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_ArtistsFromTheFog_Haddie.png"><img src="images/T_UI_SpecialPack_ArtistsFromTheFog_Haddie.png" alt="T_UI_SpecialPack_ArtistsFromTheFog_Haddie.png" title="T_UI_SpecialPack_ArtistsFromTheFog_Haddie.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_Bloodmoon_Bundle.png"><img src="images/T_UI_SpecialPack_Bloodmoon_Bundle.png" alt="T_UI_SpecialPack_Bloodmoon_Bundle.png" title="T_UI_SpecialPack_Bloodmoon_Bundle.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_Bloodmoon_Quiche.png"><img src="images/T_UI_SpecialPack_Bloodmoon_Quiche.png" alt="T_UI_SpecialPack_Bloodmoon_Quiche.png" title="T_UI_SpecialPack_Bloodmoon_Quiche.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_EntombedRemains.png"><img src="images/T_UI_SpecialPack_EntombedRemains.png" alt="T_UI_SpecialPack_EntombedRemains.png" title="T_UI_SpecialPack_EntombedRemains.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_MiNABundle.png"><img src="images/T_UI_SpecialPack_MiNABundle.png" alt="T_UI_SpecialPack_MiNABundle.png" title="T_UI_SpecialPack_MiNABundle.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_GenQuest1.png"><img src="images/T_UI_Tutorial_ImageBG_GenQuest1.png" alt="T_UI_Tutorial_ImageBG_GenQuest1.png" title="T_UI_Tutorial_ImageBG_GenQuest1.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_cosmetic.png"><img src="images/T_UI_Tutorial_ImageBG_cosmetic.png" alt="T_UI_Tutorial_ImageBG_cosmetic.png" title="T_UI_Tutorial_ImageBG_cosmetic.png" width="200"></a>

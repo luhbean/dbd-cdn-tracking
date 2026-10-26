@@ -1,0 +1,1085 @@
+--- a/catalog.json
++++ b/catalog.json
+@@ -6139,8 +6139,18 @@
+             "price": 350
+           }
+         ],
+-        "endDate": "2026-11-03T16:00:00",
++        "endDate": "2026-10-26T15:00:00",
+         "startDate": "2026-10-13T15:00:00"
++      },
++      {
++        "cost": [
++          {
++            "currencyId": "Cells",
++            "price": 250
++          }
++        ],
++        "endDate": "2026-11-24T16:00:00",
++        "startDate": "2026-10-26T15:00:00"
+       }
+     ],
+     "id": "K34",
+@@ -6178,10 +6188,18 @@
+         {
+           "currencyId": "Cells",
+           "discountPercentage": 0.3000001,
+-          "endDate": "2026-11-03T16:00:00",
+-          "endDateInMs": 1793721600000,
++          "endDate": "2026-10-26T15:00:00",
++          "endDateInMs": 1793026800000,
+           "startDate": "2026-10-13T15:00:00",
+           "startDateInMs": 1791903600000
++        },
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.5000001,
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2026-10-26T15:00:00",
++          "startDateInMs": 1793026800000
+         }
+       ]
+     },
+@@ -114269,9 +114287,19 @@
+     "eventCostList": [],
+     "id": "K34_Body006",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2023-11-28T17:00:00",
++          "startDateInMs": 1701190800000
++        }
++      ],
+       "base_itemId": "K34_Body006",
+       "character": "K34",
+       "entitledByDefault": false,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_006",
+       "rarity": "VeryRare",
+       "releaseDate": "2023-11-28T17:00:00",
+@@ -114298,9 +114326,19 @@
+     "eventCostList": [],
+     "id": "K34_Body007",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2023-11-28T17:00:00",
++          "startDateInMs": 1701190800000
++        }
++      ],
+       "base_itemId": "K34_Body007",
+       "character": "K34",
+       "entitledByDefault": false,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_007",
+       "rarity": "Legendary",
+       "releaseDate": "2023-11-28T17:00:00",
+@@ -114322,33 +114360,48 @@
+       {
+         "currencyId": "Cells",
+         "price": 250
++      }
++    ],
++    "eventCostList": [
++      {
++        "cost": [
++          {
++            "currencyId": "Cells",
++            "price": 125
++          }
++        ],
++        "endDate": "2026-11-24T16:00:00",
++        "startDate": "2026-10-26T15:00:00"
+       }
+     ],
+-    "eventCostList": [],
+     "id": "K34_Body008",
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2025-01-07T16:00:00",
+-          "endDateInMs": 1736265600000,
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
+           "startDate": "2023-12-14T16:00:00",
+           "startDateInMs": 1702569600000
+-        },
+-        {
+-          "endDate": "2026-01-06T16:00:00",
+-          "endDateInMs": 1767715200000,
+-          "startDate": "2025-12-01T16:00:00",
+-          "startDateInMs": 1764604800000
+         }
+       ],
+       "base_itemId": "K34_Body008",
+       "character": "K34",
+       "entitledByDefault": false,
+-      "limitedTimeEndDate": "2026-01-06T16:00:00",
+-      "limitedTimeEndDateInMs": 1767715200000,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "rarity": "Rare",
+       "releaseDate": "2023-12-14T16:00:00",
+       "releaseDateInMs": 1702569600000,
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.5000001,
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2026-10-26T15:00:00",
++          "startDateInMs": 1793026800000
++        }
++      ],
+       "type": "Torso"
+     },
+     "nonSecure": false,
+@@ -114370,9 +114423,19 @@
+     "eventCostList": [],
+     "id": "K34_Body009",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2024-09-03T15:00:00",
++          "startDateInMs": 1725375600000
++        }
++      ],
+       "base_itemId": "K34_Body009",
+       "character": "K34",
+       "entitledByDefault": false,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_009",
+       "rarity": "VeryRare",
+       "releaseDate": "2024-09-03T15:00:00",
+@@ -114423,9 +114486,19 @@
+     "eventCostList": [],
+     "id": "K34_Body010",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2024-10-08T15:00:00",
++          "startDateInMs": 1728399600000
++        }
++      ],
+       "base_itemId": "K34_Body010",
+       "character": "K34",
+       "entitledByDefault": false,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_010",
+       "rarity": "VeryRare",
+       "releaseDate": "2024-10-08T15:00:00",
+@@ -114452,9 +114525,19 @@
+     "eventCostList": [],
+     "id": "K34_Body011",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2025-08-19T15:00:00",
++          "startDateInMs": 1755615600000
++        }
++      ],
+       "base_itemId": "K34_Body011",
+       "character": "K34",
+       "entitledByDefault": false,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_011",
+       "rarity": "VeryRare",
+       "releaseDate": "2025-08-19T15:00:00",
+@@ -114483,8 +114566,8 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2026-01-06T16:00:00",
+-          "endDateInMs": 1767715200000,
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
+           "startDate": "2025-12-09T16:00:00",
+           "startDateInMs": 1765296000000
+         }
+@@ -114492,8 +114575,8 @@
+       "base_itemId": "K34_Body012",
+       "character": "K34",
+       "entitledByDefault": false,
+-      "limitedTimeEndDate": "2026-01-06T16:00:00",
+-      "limitedTimeEndDateInMs": 1767715200000,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_012",
+       "rarity": "VeryRare",
+       "releaseDate": "2025-12-09T16:00:00",
+@@ -114543,9 +114626,19 @@
+     "eventCostList": [],
+     "id": "K34_Head006",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2023-11-28T17:00:00",
++          "startDateInMs": 1701190800000
++        }
++      ],
+       "base_itemId": "K34_Head006",
+       "character": "K34",
+       "entitledByDefault": false,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_006",
+       "rarity": "VeryRare",
+       "releaseDate": "2023-11-28T17:00:00",
+@@ -114572,9 +114665,19 @@
+     "eventCostList": [],
+     "id": "K34_Head007",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2023-11-28T17:00:00",
++          "startDateInMs": 1701190800000
++        }
++      ],
+       "base_itemId": "K34_Head007",
+       "character": "K34",
+       "entitledByDefault": false,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_007",
+       "rarity": "Legendary",
+       "releaseDate": "2023-11-28T17:00:00",
+@@ -114601,9 +114704,19 @@
+     "eventCostList": [],
+     "id": "K34_Head009",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2024-09-03T15:00:00",
++          "startDateInMs": 1725375600000
++        }
++      ],
+       "base_itemId": "K34_Head009",
+       "character": "K34",
+       "entitledByDefault": false,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_009",
+       "rarity": "VeryRare",
+       "releaseDate": "2024-09-03T15:00:00",
+@@ -114654,9 +114767,19 @@
+     "eventCostList": [],
+     "id": "K34_Head010",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2024-10-08T15:00:00",
++          "startDateInMs": 1728399600000
++        }
++      ],
+       "base_itemId": "K34_Head010",
+       "character": "K34",
+       "entitledByDefault": false,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_010",
+       "rarity": "VeryRare",
+       "releaseDate": "2024-10-08T15:00:00",
+@@ -114683,9 +114806,19 @@
+     "eventCostList": [],
+     "id": "K34_Head011",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2025-08-19T15:00:00",
++          "startDateInMs": 1755615600000
++        }
++      ],
+       "base_itemId": "K34_Head011",
+       "character": "K34",
+       "entitledByDefault": false,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_011",
+       "rarity": "VeryRare",
+       "releaseDate": "2025-08-19T15:00:00",
+@@ -114714,8 +114847,8 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2026-01-06T16:00:00",
+-          "endDateInMs": 1767715200000,
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
+           "startDate": "2025-12-09T16:00:00",
+           "startDateInMs": 1765296000000
+         }
+@@ -114723,8 +114856,8 @@
+       "base_itemId": "K34_Head012",
+       "character": "K34",
+       "entitledByDefault": false,
+-      "limitedTimeEndDate": "2026-01-06T16:00:00",
+-      "limitedTimeEndDateInMs": 1767715200000,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_012",
+       "rarity": "VeryRare",
+       "releaseDate": "2025-12-09T16:00:00",
+@@ -114837,9 +114970,19 @@
+     "eventCostList": [],
+     "id": "K34_W006",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2023-11-28T17:00:00",
++          "startDateInMs": 1701190800000
++        }
++      ],
+       "base_itemId": "K34_W006",
+       "character": "K34",
+       "entitledByDefault": false,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_006",
+       "rarity": "VeryRare",
+       "releaseDate": "2023-11-28T17:00:00",
+@@ -114866,9 +115009,19 @@
+     "eventCostList": [],
+     "id": "K34_W007",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2023-11-28T17:00:00",
++          "startDateInMs": 1701190800000
++        }
++      ],
+       "base_itemId": "K34_W007",
+       "character": "K34",
+       "entitledByDefault": false,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_007",
+       "rarity": "Legendary",
+       "releaseDate": "2023-11-28T17:00:00",
+@@ -114895,9 +115048,19 @@
+     "eventCostList": [],
+     "id": "K34_W009",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2024-09-03T15:00:00",
++          "startDateInMs": 1725375600000
++        }
++      ],
+       "base_itemId": "K34_W009",
+       "character": "K34",
+       "entitledByDefault": false,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_009",
+       "rarity": "VeryRare",
+       "releaseDate": "2024-09-03T15:00:00",
+@@ -114924,9 +115087,19 @@
+     "eventCostList": [],
+     "id": "K34_W010",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2024-10-08T15:00:00",
++          "startDateInMs": 1728399600000
++        }
++      ],
+       "base_itemId": "K34_W010",
+       "character": "K34",
+       "entitledByDefault": false,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_010",
+       "rarity": "VeryRare",
+       "releaseDate": "2024-10-08T15:00:00",
+@@ -114953,9 +115126,19 @@
+     "eventCostList": [],
+     "id": "K34_W011",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2025-08-19T15:00:00",
++          "startDateInMs": 1755615600000
++        }
++      ],
+       "base_itemId": "K34_W011",
+       "character": "K34",
+       "entitledByDefault": false,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_011",
+       "rarity": "VeryRare",
+       "releaseDate": "2025-08-19T15:00:00",
+@@ -114984,8 +115167,8 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2026-01-06T16:00:00",
+-          "endDateInMs": 1767715200000,
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
+           "startDate": "2025-12-09T16:00:00",
+           "startDateInMs": 1765296000000
+         }
+@@ -114993,8 +115176,8 @@
+       "base_itemId": "K34_W012",
+       "character": "K34",
+       "entitledByDefault": false,
+-      "limitedTimeEndDate": "2026-01-06T16:00:00",
+-      "limitedTimeEndDateInMs": 1767715200000,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "outfitId": "K34_outfit_012",
+       "rarity": "VeryRare",
+       "releaseDate": "2025-12-09T16:00:00",
+@@ -315236,6 +315419,14 @@
+     "defaultCost": [],
+     "id": "K34_outfit_006",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2023-11-28T17:00:00",
++          "startDateInMs": 1701190800000
++        }
++      ],
+       "character": "K34",
+       "discountPercentage": 0.0,
+       "items": [
+@@ -315243,16 +315434,26 @@
+         "K34_Body006",
+         "K34_W006"
+       ],
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "releaseDate": "2023-11-28T17:00:00",
+       "releaseDateInMs": 1701190800000,
+       "temporaryDiscounts": [
+         {
+           "currencyId": "Cells",
+           "discountPercentage": 0.3000001,
+-          "endDate": "2026-11-03T16:00:00",
+-          "endDateInMs": 1793721600000,
++          "endDate": "2026-10-26T15:00:00",
++          "endDateInMs": 1793026800000,
+           "startDate": "2026-10-13T15:00:00",
+           "startDateInMs": 1791903600000
++        },
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.5000001,
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2026-10-26T15:00:00",
++          "startDateInMs": 1793026800000
+         }
+       ],
+       "unbreakable": true
+@@ -315269,6 +315470,14 @@
+     "defaultCost": [],
+     "id": "K34_outfit_007",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2023-11-28T17:00:00",
++          "startDateInMs": 1701190800000
++        }
++      ],
+       "character": "K34",
+       "discountPercentage": 0.0,
+       "items": [
+@@ -315276,16 +315485,26 @@
+         "K34_Body007",
+         "K34_W007"
+       ],
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "releaseDate": "2023-11-28T17:00:00",
+       "releaseDateInMs": 1701190800000,
+       "temporaryDiscounts": [
+         {
+           "currencyId": "Cells",
+           "discountPercentage": 0.3000001,
+-          "endDate": "2026-11-03T16:00:00",
+-          "endDateInMs": 1793721600000,
++          "endDate": "2026-10-26T15:00:00",
++          "endDateInMs": 1793026800000,
+           "startDate": "2026-10-13T15:00:00",
+           "startDateInMs": 1791903600000
++        },
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.5000001,
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2026-10-26T15:00:00",
++          "startDateInMs": 1793026800000
+         }
+       ],
+       "unbreakable": true
+@@ -315302,6 +315521,14 @@
+     "defaultCost": [],
+     "id": "K34_outfit_009",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2024-09-03T15:00:00",
++          "startDateInMs": 1725375600000
++        }
++      ],
+       "character": "K34",
+       "discountPercentage": 0.0,
+       "items": [
+@@ -315309,16 +315536,26 @@
+         "K34_Body009",
+         "K34_W009"
+       ],
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "releaseDate": "2024-09-03T15:00:00",
+       "releaseDateInMs": 1725375600000,
+       "temporaryDiscounts": [
+         {
+           "currencyId": "Cells",
+           "discountPercentage": 0.3000001,
+-          "endDate": "2026-11-03T16:00:00",
+-          "endDateInMs": 1793721600000,
++          "endDate": "2026-10-26T15:00:00",
++          "endDateInMs": 1793026800000,
+           "startDate": "2026-10-13T15:00:00",
+           "startDateInMs": 1791903600000
++        },
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.5000001,
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2026-10-26T15:00:00",
++          "startDateInMs": 1793026800000
+         }
+       ],
+       "unbreakable": true
+@@ -315359,6 +315596,14 @@
+     "defaultCost": [],
+     "id": "K34_outfit_010",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2024-10-08T15:00:00",
++          "startDateInMs": 1728399600000
++        }
++      ],
+       "character": "K34",
+       "discountPercentage": 0.0,
+       "items": [
+@@ -315366,16 +315611,26 @@
+         "K34_Body010",
+         "K34_W010"
+       ],
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "releaseDate": "2024-10-08T15:00:00",
+       "releaseDateInMs": 1728399600000,
+       "temporaryDiscounts": [
+         {
+           "currencyId": "Cells",
+           "discountPercentage": 0.3000001,
+-          "endDate": "2026-11-03T16:00:00",
+-          "endDateInMs": 1793721600000,
++          "endDate": "2026-10-26T15:00:00",
++          "endDateInMs": 1793026800000,
+           "startDate": "2026-10-13T15:00:00",
+           "startDateInMs": 1791903600000
++        },
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.5000001,
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2026-10-26T15:00:00",
++          "startDateInMs": 1793026800000
+         }
+       ],
+       "unbreakable": true
+@@ -315392,6 +315647,14 @@
+     "defaultCost": [],
+     "id": "K34_outfit_011",
+     "metaData": {
++      "availablePeriods": [
++        {
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2025-08-19T15:00:00",
++          "startDateInMs": 1755615600000
++        }
++      ],
+       "character": "K34",
+       "discountPercentage": 0.0,
+       "items": [
+@@ -315399,16 +315662,26 @@
+         "K34_Body011",
+         "K34_W011"
+       ],
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "releaseDate": "2025-08-19T15:00:00",
+       "releaseDateInMs": 1755615600000,
+       "temporaryDiscounts": [
+         {
+           "currencyId": "Cells",
+           "discountPercentage": 0.3000001,
+-          "endDate": "2026-11-03T16:00:00",
+-          "endDateInMs": 1793721600000,
++          "endDate": "2026-10-26T15:00:00",
++          "endDateInMs": 1793026800000,
+           "startDate": "2026-10-13T15:00:00",
+           "startDateInMs": 1791903600000
++        },
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.5000001,
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2026-10-26T15:00:00",
++          "startDateInMs": 1793026800000
+         }
+       ],
+       "unbreakable": true
+@@ -315427,8 +315700,8 @@
+     "metaData": {
+       "availablePeriods": [
+         {
+-          "endDate": "2026-01-06T16:00:00",
+-          "endDateInMs": 1767715200000,
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
+           "startDate": "2025-12-09T16:00:00",
+           "startDateInMs": 1765296000000
+         }
+@@ -315440,10 +315713,20 @@
+         "K34_Body012",
+         "K34_W012"
+       ],
+-      "limitedTimeEndDate": "2026-01-06T16:00:00",
+-      "limitedTimeEndDateInMs": 1767715200000,
++      "limitedTimeEndDate": "2026-11-24T16:00:00",
++      "limitedTimeEndDateInMs": 1795536000000,
+       "releaseDate": "2025-12-09T16:00:00",
+       "releaseDateInMs": 1765296000000,
++      "temporaryDiscounts": [
++        {
++          "currencyId": "Cells",
++          "discountPercentage": 0.5000001,
++          "endDate": "2026-11-24T16:00:00",
++          "endDateInMs": 1795536000000,
++          "startDate": "2026-10-26T15:00:00",
++          "startDateInMs": 1793026800000
++        }
++      ],
+       "unbreakable": false
+     },
+     "nonSecure": false,
+@@ -365620,30 +365903,261 @@
+           "type": "Character"
+         },
+         "id": "K34",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_Body008",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_Head006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_Body006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_W006",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_Head007",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_Body007",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_W007",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_Head009",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_Body009",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_W009",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_Head010",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_Body010",
+         "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_W010",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_Head011",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_Body011",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_W011",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_Head012",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_Body012",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "K34_W012",
++        "type": "inventory"
+       }
+     ],
+     "defaultCost": [
+       {
+         "currencyId": "Cells",
+-        "price": 500
++        "price": 3878
+       }
+     ],
+     "id": "LicensorBundle_Chucky",
+     "metaData": {
+-      "discount": 0.0,
++      "discount": 0.5,
++      "endDate": "2026-11-24T15:00:00",
++      "endDateInMs": 1795532400000,
+       "fullPrice": [
+         {
+           "currencyId": "Cells",
+-          "price": 500
++          "price": 7755
+         }
+       ],
+       "hiddenIfOwned": false,
+       "imageComposition": {
+         "overrideDefaults": false
+       },
++      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/ChapterBundles/T_UI_ChapterBundle_Chucky.T_UI_ChapterBundle_Chucky",
+       "minNumberOfUnownedForPurchase": 1,
+-      "sortOrder": 0,
++      "sortOrder": 2500,
+       "specialPackTitle": {
+         "de": "Chucky-Paket",
+         "en": "Chucky Bundle",
+@@ -365660,11 +366174,13 @@
+         "tr": "Chucky Paketi",
+         "zh-Hans": "恰吉捆绑包",
+         "zh-Hant": "恰吉組合包"
+-      }
++      },
++      "startDate": "2026-10-26T15:00:00",
++      "startDateInMs": 1793026800000
+     },
+     "nonSecure": false,
+     "premium": false,
+-    "purchasable": false,
++    "purchasable": true,
+     "unique": true
+   },
+   {
+@@ -432810,6 +433326,41 @@
+       "collection"
+     ],
+     "collectionItemIds": [
++      "K34_Body008",
++      "K34_Head006",
++      "K34_Body006",
++      "K34_W006",
++      "K34_Head007",
++      "K34_Body007",
++      "K34_W007",
++      "K34_Head009",
++      "K34_Body009",
++      "K34_W009",
++      "K34_Head010",
++      "K34_Body010",
++      "K34_W010",
++      "K34_Head011",
++      "K34_Body011",
++      "K34_W011",
++      "K34_Head012",
++      "K34_Body012",
++      "K34_W012"
++    ],
++    "consumable": false,
++    "eventCostList": [],
++    "id": "Chucky_collection_item",
++    "isCollectionItem": true,
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item",
++      "collection"
++    ],
++    "collectionItemIds": [
+       "DK_Head009",
+       "DK_Torso009",
+       "DK_Legs009",
+@@ -433815,37 +434366,6 @@
+     "consumable": false,
+     "eventCostList": [],
+     "id": "SAWMega_collection_item",
+-    "isCollectionItem": true,
+-    "nonSecure": false,
+-    "premium": false,
+-    "purchasable": false,
+-    "unique": true
+-  },
+-  {
+-    "categories": [
+-      "item",
+-      "collection"
+-    ],
+-    "collectionItemIds": [
+-      "K34_Head006",
+-      "K34_Body006",
+-      "K34_W006",
+-      "K34_Head007",
+-      "K34_Body007",
+-      "K34_W007",
+-      "K34_Head009",
+-      "K34_Body009",
+-      "K34_W009",
+-      "K34_Head010",
+-      "K34_Body010",
+-      "K34_W010",
+-      "K34_Head011",
+-      "K34_Body011",
+-      "K34_W011"
+-    ],
+-    "consumable": false,
+-    "eventCostList": [],
+-    "id": "Chucky_collection_item",
+     "isCollectionItem": true,
+     "nonSecure": false,
+     "premium": false,

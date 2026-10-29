@@ -2,13 +2,35 @@
 
 An automatically updated archive of Dead by Daylight's **live** CDN content. Every content version is decrypted, saved and compared with the one before it, usually within minutes of release.
 
-**Latest version:** `10.2.2_3922166live` · built 2026-10-26 20:38 UTC
+**Latest version:** `10.2.2_3931461live` · built 2026-10-29 14:59 UTC
 
-[What changed](versions/10.2.2_3922166live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
+[What changed](versions/10.2.2_3931461live/CHANGES.md) · [Browse all files](latest/) · [Full changelog](CHANGELOG.md)
 
 ## Latest changes
 
-**0** added · **0** modified · **0** removed, compared with `10.2.2_3920924live`.
+**48** added · **33** modified · **48** removed, compared with `10.2.2_3922166live`.
+
+- ~ [`challengeLocs/challengeText_de.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_en.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_en.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_fr.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_fr.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_ja.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_ja.json.diff)
+- ~ [`challengeLocs/challengeText_ko.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_ko.json.diff)
+- ~ [`challengeLocs/challengeText_pl.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_pl.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_ru.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_ru.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`challengeLocs/challengeText_tr.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_tr.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
+- ~ [`challengeSets.json`](versions/10.2.2_3931461live/diffs/challengeSets.json.diff)
+- ~ [`consents/privacy/v4/de.json`](versions/10.2.2_3931461live/diffs/consents/privacy/v4/de.json.diff)
+- ~ [`consents/privacy/v4/en.json`](versions/10.2.2_3931461live/diffs/consents/privacy/v4/en.json.diff)
+- ~ [`consents/privacy/v4/es-MX.json`](versions/10.2.2_3931461live/diffs/consents/privacy/v4/es-MX.json.diff)
+- ~ [`consents/privacy/v4/es.json`](versions/10.2.2_3931461live/diffs/consents/privacy/v4/es.json.diff)
+- … and 109 more in [CHANGES.md](versions/10.2.2_3931461live/CHANGES.md)
 
 ## Coming up
 
@@ -36,7 +58,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-617 versions tracked so far.
+618 versions tracked so far.
 
 ---
 

@@ -2,6 +2,32 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.2.2_3931461live](versions/10.2.2_3931461live/CHANGES.md)
+
+Built 2026-10-29 14:59 UTC · **+48** added · **~33** modified · **−48** removed
+
+- ~ [`challengeLocs/challengeText_de.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_en.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_en.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_fr.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_fr.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_ja.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_ja.json.diff)
+- ~ [`challengeLocs/challengeText_ko.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_ko.json.diff)
+- ~ [`challengeLocs/challengeText_pl.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_pl.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_ru.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_ru.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`challengeLocs/challengeText_tr.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_tr.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hans.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_zh-Hans.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/10.2.2_3931461live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
+- ~ [`challengeSets.json`](versions/10.2.2_3931461live/diffs/challengeSets.json.diff)
+- ~ [`consents/privacy/v4/de.json`](versions/10.2.2_3931461live/diffs/consents/privacy/v4/de.json.diff)
+- ~ [`consents/privacy/v4/en.json`](versions/10.2.2_3931461live/diffs/consents/privacy/v4/en.json.diff)
+- ~ [`consents/privacy/v4/es-MX.json`](versions/10.2.2_3931461live/diffs/consents/privacy/v4/es-MX.json.diff)
+- ~ [`consents/privacy/v4/es.json`](versions/10.2.2_3931461live/diffs/consents/privacy/v4/es.json.diff)
+- … and 109 more in [CHANGES.md](versions/10.2.2_3931461live/CHANGES.md)
+
 ## [10.2.2_3922166live](versions/10.2.2_3922166live/CHANGES.md)
 
 Built 2026-10-26 20:38 UTC · no content changes

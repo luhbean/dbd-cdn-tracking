@@ -1,0 +1,252 @@
+--- a/recommendations.json
++++ b/recommendations.json
+@@ -2623,8 +2623,8 @@
+     {
+       "activeFrom": "2026-10-30T15:00:00",
+       "activeFromInMs": 1793372400000,
+-      "activeTo": "2026-11-05T15:00:00",
+-      "activeToInMs": 1793890800000,
++      "activeTo": "2026-11-05T16:00:00",
++      "activeToInMs": 1793894400000,
+       "entries": [
+         {
+           "entryId": "10.2.2_NovemberDays",
+@@ -2656,10 +2656,10 @@
+       "inclusionVersion": "10.2.2"
+     },
+     {
+-      "activeFrom": "2026-11-05T15:00:00",
+-      "activeFromInMs": 1793890800000,
+-      "activeTo": "2026-11-10T15:00:00",
+-      "activeToInMs": 1794322800000,
++      "activeFrom": "2026-11-05T16:00:00",
++      "activeFromInMs": 1793894400000,
++      "activeTo": "2026-11-10T16:00:00",
++      "activeToInMs": 1794326400000,
+       "entries": [
+         {
+           "entryId": "10.2.2_StrangerThings",
+@@ -2691,10 +2691,10 @@
+       "inclusionVersion": "10.2.2"
+     },
+     {
+-      "activeFrom": "2026-11-10T15:00:00",
+-      "activeFromInMs": 1794322800000,
+-      "activeTo": "2026-11-17T15:00:00",
+-      "activeToInMs": 1794927600000,
++      "activeFrom": "2026-11-10T16:00:00",
++      "activeFromInMs": 1794326400000,
++      "activeTo": "2026-11-17T16:00:00",
++      "activeToInMs": 1794931200000,
+       "entries": [
+         {
+           "entryId": "10.2.2_Godmode",
+@@ -2723,6 +2723,41 @@
+         }
+       ],
+       "id": "Vanilla_W7",
++      "inclusionVersion": "10.2.2"
++    },
++    {
++      "activeFrom": "2026-11-17T16:00:00",
++      "activeFromInMs": 1794931200000,
++      "activeTo": "2026-12-01T16:00:00",
++      "activeToInMs": 1796140800000,
++      "entries": [
++        {
++          "entryId": "10.2.2_CozyBreak",
++          "type": "Collection",
++          "weight": 16
++        },
++        {
++          "entryId": "10.2.2_Godmode",
++          "type": "Collection",
++          "weight": 15
++        },
++        {
++          "entryId": "LicensorBundle_Chucky",
++          "type": "SpecialPack",
++          "weight": 14
++        },
++        {
++          "entryId": "10.2.2_StrangerThings",
++          "type": "Collection",
++          "weight": 13
++        },
++        {
++          "entryId": "Rift_7_Bundle",
++          "type": "SpecialPack",
++          "weight": 9
++        }
++      ],
++      "id": "Vanilla_W8",
+       "inclusionVersion": "10.2.2"
+     }
+   ],
+@@ -10107,11 +10142,6 @@
+           "category": "outfit",
+           "id": "SS_Outfit_034",
+           "weight": 49
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "KK_outfit_042",
+-          "weight": 48
+         }
+       ]
+     },
+@@ -10184,11 +10214,6 @@
+         },
+         {
+           "category": "outfit",
+-          "id": "US_Outfit_034",
+-          "weight": 56
+-        },
+-        {
+-          "category": "outfit",
+           "id": "DK_outfit_033",
+           "weight": 55
+         }
+@@ -10275,16 +10300,6 @@
+           "category": "outfit",
+           "id": "S45_outfit_017",
+           "weight": 57
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "US_Outfit_034",
+-          "weight": 56
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "DK_outfit_033",
+-          "weight": 55
+         }
+       ]
+     },
+@@ -10362,31 +10377,26 @@
+         },
+         {
+           "category": "outfit",
+-          "id": "S45_outfit_017",
+-          "weight": 60
++          "id": "K26_outfit_022",
++          "weight": 61
+         },
+         {
+           "category": "outfit",
+           "id": "K28_outfit_024",
+-          "weight": 59
++          "weight": 60
+         },
+         {
+           "category": "outfit",
+           "id": "TN_Outfit_028",
+-          "weight": 58
+-        },
+-        {
+-          "category": "outfit",
+-          "id": "K26_outfit_022",
+-          "weight": 57
++          "weight": 59
+         }
+       ]
+     },
+     {
+       "activeFrom": "2026-11-17T16:00:00",
+       "activeFromInMs": 1794931200000,
+-      "activeTo": "2026-12-01T16:00:00",
+-      "activeToInMs": 1796140800000,
++      "activeTo": "2026-11-24T16:00:00",
++      "activeToInMs": 1795536000000,
+       "id": "Vanilla_W7",
+       "recommendations": [
+         {
+@@ -10466,23 +10476,82 @@
+         },
+         {
+           "category": "outfit",
+-          "id": "S45_outfit_017",
+-          "weight": 60
++          "id": "K26_outfit_022",
++          "weight": 58
+         },
+         {
+           "category": "outfit",
+           "id": "K28_outfit_024",
+-          "weight": 59
++          "weight": 57
+         },
+         {
+           "category": "outfit",
+           "id": "TN_Outfit_028",
+-          "weight": 58
++          "weight": 56
++        }
++      ]
++    },
++    {
++      "activeFrom": "2026-11-24T16:00:00",
++      "activeFromInMs": 1795536000000,
++      "activeTo": "2026-12-01T16:00:00",
++      "activeToInMs": 1796140800000,
++      "id": "Vanilla_W8",
++      "recommendations": [
++        {
++          "category": "outfit",
++          "id": "S52_outfit_010",
++          "weight": 76
++        },
++        {
++          "category": "outfit",
++          "id": "S46_outfit_017",
++          "weight": 75
++        },
++        {
++          "category": "outfit",
++          "id": "S25_outfit_034",
++          "weight": 74
++        },
++        {
++          "category": "outfit",
++          "id": "S24_outfit_029",
++          "weight": 73
++        },
++        {
++          "category": "outfit",
++          "id": "QF_outfit_012",
++          "weight": 72
++        },
++        {
++          "category": "outfit",
++          "id": "QM_Outfit_011",
++          "weight": 71
++        },
++        {
++          "category": "outfit",
++          "id": "K42_outfit_008",
++          "weight": 70
++        },
++        {
++          "category": "outfit",
++          "id": "OK_outfit_018",
++          "weight": 69
+         },
+         {
+           "category": "outfit",
+           "id": "K26_outfit_022",
+-          "weight": 57
++          "weight": 60
++        },
++        {
++          "category": "outfit",
++          "id": "K28_outfit_024",
++          "weight": 59
++        },
++        {
++          "category": "outfit",
++          "id": "TN_Outfit_028",
++          "weight": 58
+         }
+       ]
+     }

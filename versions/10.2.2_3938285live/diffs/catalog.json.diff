@@ -1,0 +1,221 @@
+--- a/catalog.json
++++ b/catalog.json
+@@ -417479,6 +417479,160 @@
+       {
+         "amount": 1,
+         "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S49_Head011",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S49_Torso011",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S49_Legs011",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S37_Head010",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S37_Torso010",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "S37_Legs010",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "BA_005",
++        "type": "inventory"
++      },
++      {
++        "amount": 1,
++        "gameSpecificData": {
++          "hasPriorityForPackImageComposition": false,
++          "ignoreOwnership": false,
++          "includeInOwnership": true,
++          "includeInPricing": true,
++          "type": "Customization"
++        },
++        "id": "ZA_006",
++        "type": "inventory"
++      }
++    ],
++    "defaultCost": [
++      {
++        "currencyId": "Cells",
++        "price": 1410
++      }
++    ],
++    "id": "Recurring_Dev_Bundle_261103",
++    "metaData": {
++      "discount": 0.4,
++      "endDate": "2026-11-10T15:00:00",
++      "endDateInMs": 1794322800000,
++      "fullPrice": [
++        {
++          "currencyId": "Cells",
++          "price": 2350
++        }
++      ],
++      "hiddenIfOwned": false,
++      "imageComposition": {
++        "overrideDefaults": false
++      },
++      "imagePath": "/Game/UI/UMGAssets/Icons/Banners/BundleBanners/SpecialPack/T_UI_SpecialPack_DevPicks.T_UI_SpecialPack_DevPicks",
++      "minNumberOfUnownedForPurchase": 1,
++      "sortOrder": 56,
++      "specialPackTitle": {
++        "de": "Wöchentliches Entwicklerwahlpaket",
++        "en": "Weekly Developer Choice Bundle",
++        "es": "Paquete de selección de desarrolladores semanal",
++        "es-MX": "Paquete de selección del equipo de desarrollo semanal",
++        "fr": "Lot Choix des développeurs hebdomadaire",
++        "it": "Bundle Scelte dello sviluppatore settimanale",
++        "ja": "今週の開発者のオススメバンドル",
++        "ko": "주간 개발자의 선택 번들",
++        "pl": "Cotygodniowy pakiet wyborów twórców",
++        "pt-BR": "Pacote Semanal de Escolha dos Desenvolvedores",
++        "ru": "Еженедельный набор «Выбор разработчиков»",
++        "th": "แพ็กรวมผู้พัฒนาคัดสรรประจำสัปดาห์",
++        "tr": "Haftalık Geliştirici Seçimi Paketi",
++        "zh-Hans": "每周开发者特选组合包",
++        "zh-Hant": "每週開發者精選組合包"
++      },
++      "startDate": "2026-11-03T15:00:00",
++      "startDateInMs": 1793718000000
++    },
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": true,
++    "unique": true
++  },
++  {
++    "categories": [
++      "specialPack"
++    ],
++    "consumable": true,
++    "consumptionCurrenciesList": [],
++    "consumptionObjectList": [],
++    "consumptionReward": [
++      {
++        "amount": 1,
++        "gameSpecificData": {
+           "hasPriorityForPackImageComposition": true,
+           "ignoreOwnership": false,
+           "includeInOwnership": true,
+@@ -433615,6 +433769,28 @@
+     "consumable": false,
+     "eventCostList": [],
+     "id": "10.2.2_StrangerThings_collection_item",
++    "isCollectionItem": true,
++    "nonSecure": false,
++    "premium": false,
++    "purchasable": false,
++    "unique": true
++  },
++  {
++    "categories": [
++      "item",
++      "collection"
++    ],
++    "collectionItemIds": [
++      "S24_Head029",
++      "S24_Torso029",
++      "S24_Legs029",
++      "S25_Head034",
++      "S25_Torso034",
++      "S25_Legs034"
++    ],
++    "consumable": false,
++    "eventCostList": [],
++    "id": "10.2.2_Godmode_collection_item",
+     "isCollectionItem": true,
+     "nonSecure": false,
+     "premium": false,
+@@ -433682,28 +433858,6 @@
+     "consumable": false,
+     "eventCostList": [],
+     "id": "10.2.2_CozyBreak_collection_item",
+-    "isCollectionItem": true,
+-    "nonSecure": false,
+-    "premium": false,
+-    "purchasable": false,
+-    "unique": true
+-  },
+-  {
+-    "categories": [
+-      "item",
+-      "collection"
+-    ],
+-    "collectionItemIds": [
+-      "S24_Head029",
+-      "S24_Torso029",
+-      "S24_Legs029",
+-      "S25_Head034",
+-      "S25_Torso034",
+-      "S25_Legs034"
+-    ],
+-    "consumable": false,
+-    "eventCostList": [],
+-    "id": "10.2.2_Godmode_collection_item",
+     "isCollectionItem": true,
+     "nonSecure": false,
+     "premium": false,

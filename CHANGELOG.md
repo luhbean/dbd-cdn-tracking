@@ -2,6 +2,26 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.2.2_3940874live](versions/10.2.2_3940874live/CHANGES.md)
+
+Built 2026-11-02 13:51 UTC · **+0** added · **~15** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/10.2.2_3940874live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_de.json`](versions/10.2.2_3940874live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/10.2.2_3940874live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/10.2.2_3940874live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/10.2.2_3940874live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_ko.json`](versions/10.2.2_3940874live/diffs/challengeLocs/challengeText_ko.json.diff)
+- ~ [`challengeLocs/challengeText_pl.json`](versions/10.2.2_3940874live/diffs/challengeLocs/challengeText_pl.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/10.2.2_3940874live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_ru.json`](versions/10.2.2_3940874live/diffs/challengeLocs/challengeText_ru.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/10.2.2_3940874live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`challengeLocs/challengeText_tr.json`](versions/10.2.2_3940874live/diffs/challengeLocs/challengeText_tr.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/10.2.2_3940874live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
+- ~ [`collections.json`](versions/10.2.2_3940874live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.2_3940874live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/10.2.2_3940874live/diffs/recommendations.json.diff)
+
 ## [10.2.2_3938285live](versions/10.2.2_3938285live/CHANGES.md)
 
 Built 2026-10-30 15:15 UTC · **+0** added · **~4** modified · **−0** removed

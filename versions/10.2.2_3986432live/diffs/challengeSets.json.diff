@@ -1,0 +1,942 @@
+--- a/challengeSets.json
++++ b/challengeSets.json
+@@ -1,939 +1,4 @@
+ {
+-  "DBD_Day2026": {
+-    "additionalInfoStringId": "CHALLENGESET_DBD_DAY2026_INFO",
+-    "challengeList": [
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteModeQuests_DESC",
+-            "id": "DBD_Day2026-DbbDay_CommunityQuests-C_CompleteModeQuests",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "DBD_Day2026"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  8
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CommunityCompleteModeQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              },
+-              "Overarching_Community": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "DBD_Day2026"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": true,
+-                "maxProgressionPerPlayer": 8,
+-                "neededProgression": [
+-                  11000000
+-                ],
+-                "objectiveId": "Overarching_Community",
+-                "objectiveInfo": "CHALLENGE_CommunityCompleteModeQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "eventId"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "VAN_BDG_07",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-10-06T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteModeQuests_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_EarnBloodPoints_DESC",
+-            "id": "DBD_Day2026-DbbDay_CommunityQuests-C_EarnBloodpoints",
+-            "isRecurring": false,
+-            "objectives": {
+-              "EarnEmblemsGold": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  2000000
+-                ],
+-                "objectiveId": "EarnEmblemsGold",
+-                "objectiveInfo": "CHALLENGE_CommunityEarnBloodPoints_INFO",
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.EarnBloodpoints",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "EarnEmblemsGold_Community": {
+-                "conditions": [],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": true,
+-                "maxProgressionPerPlayer": 2000000,
+-                "neededProgression": [
+-                  2000000000
+-                ],
+-                "objectiveId": "EarnEmblemsGold_Community",
+-                "objectiveInfo": "CHALLENGE_CommunityEarnBloodPoints_INFO",
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.EarnBloodpoints",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "VAN_BNR_05",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-10-06T15:00:00",
+-            "titleStringId": "CHALLENGE_EarnBloodPoints_TITLE",
+-            "type": "basic"
+-          }
+-        ],
+-        "endDate": "2026-10-26T15:00:00",
+-        "listId": "DBD_Day2026-DbbDay_CommunityQuests",
+-        "listOrder": 0,
+-        "listTitleStringId": "DbbDay_CommunityQuests_Title",
+-        "startDate": "2026-10-06T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_CompleteQuests_DESC",
+-            "id": "DBD_Day2026-DbDDay_CompletionList-O_CompleteQuests1",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "DBD_Day2026"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  4
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "PL_054",
+-                "type": "inventory"
+-              },
+-              {
+-                "amount": 1,
+-                "id": "XR_054",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-10-06T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteQuests_TITLE",
+-            "type": "overarching"
+-          },
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_CompleteQuests_DESC",
+-            "id": "DBD_Day2026-DbDDay_CompletionList-O_CompleteQuests2",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Overarching": {
+-                "conditions": [
+-                  {
+-                    "key": "challengeSetId",
+-                    "value": [
+-                      "DBD_Day2026"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  8
+-                ],
+-                "objectiveId": "Overarching",
+-                "objectiveInfo": "CHALLENGE_CompleteQuests_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action"
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 1,
+-                "id": "MA_BDG_04",
+-                "type": "inventory"
+-              },
+-              {
+-                "amount": 1,
+-                "id": "MA_BNR_01",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-10-06T15:00:00",
+-            "titleStringId": "CHALLENGE_CompleteQuests_TITLE",
+-            "type": "overarching"
+-          }
+-        ],
+-        "endDate": "2026-10-26T15:00:00",
+-        "listId": "DBD_Day2026-DbDDay_CompletionList",
+-        "listOrder": 1,
+-        "listTitleStringId": "DbDDay_CompletionList_Title",
+-        "startDate": "2026-10-06T15:00:00"
+-      },
+-      {
+-        "challenges": [
+-          {
+-            "challengeOrder": 1,
+-            "descriptionStringId": "CHALLENGE_SkillCheckHealingSuccessAsCharacterInTrialOrAnySurvivor_DESC",
+-            "id": "DBD_Day2026-DbDDay_QuestList_1-B_SkillCheckHealingSuccessAsCharacterInTrialOrAnySurvivor",
+-            "isRecurring": false,
+-            "objectives": {
+-              "SkillCheckHealingSuccess": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10
+-                ],
+-                "objectiveId": "SkillCheckHealingSuccess",
+-                "objectiveInfo": "CHALLENGE_SkillCheckHealingSuccessAsAnySurvivorInTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.SkillCheckHealingSuccess",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "SkillCheckHealingSuccessAsCharacterInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "Claudette"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "SkillCheckHealingSuccessAsCharacterInTrial",
+-                "objectiveInfo": "CHALLENGE_SkillCheckHealingSuccessAsCharacterInTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.SkillCheckHealingSuccess",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              },
+-              {
+-                "amount": 1,
+-                "id": "CM_Torso04_03",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-10-06T15:00:00",
+-            "titleStringId": "CHALLENGE_SkillCheckHealingSuccessAsCharacterInTrialOrAnySurvivor_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 2,
+-            "descriptionStringId": "CHALLENGE_EscapeChaseEscapeAsCharacterInTrialOrAnySurvivor_DESC",
+-            "id": "DBD_Day2026-DbDDay_QuestList_1-B_EscapeChaseEscapeAsCharacterInTrialOrAnySurvivor",
+-            "isRecurring": false,
+-            "objectives": {
+-              "EscapeChase": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  6
+-                ],
+-                "objectiveId": "EscapeChase",
+-                "objectiveInfo": "CHALLENGE_EscapeChaseEscapeAsAnySurvivorInTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.EscapeChase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "EscapeChaseAsCharacterInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "Meg"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  3
+-                ],
+-                "objectiveId": "EscapeChaseAsCharacterInTrial",
+-                "objectiveInfo": "CHALLENGE_EscapeChaseEscapeAsCharacterInTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.EscapeChase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              },
+-              {
+-                "amount": 1,
+-                "id": "MT_Torso04_06",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-10-06T15:00:00",
+-            "titleStringId": "CHALLENGE_EscapeChaseEscapeAsCharacterInTrialOrAnySurvivor_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 3,
+-            "descriptionStringId": "CHALLENGE_UnhookAsSurvivorOrAnySurvivor_DESC",
+-            "id": "DBD_Day2026-DbDDay_QuestList_1-B_UnhookAsSurvivorOrAnySurvivor",
+-            "isRecurring": false,
+-            "objectives": {
+-              "Unhook": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  12
+-                ],
+-                "objectiveId": "Unhook",
+-                "objectiveInfo": "CHALLENGE_UnhookAsAnySurvivor_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Unhook",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "UnhookAsCharacterInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "Jake"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  2
+-                ],
+-                "objectiveId": "UnhookAsCharacterInTrial",
+-                "objectiveInfo": "CHALLENGE_UnhookAsSurvivor_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.UnhookAsSurvivor",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              },
+-              {
+-                "amount": 1,
+-                "id": "JP_Torso04_04",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-10-06T15:00:00",
+-            "titleStringId": "CHALLENGE_UnhookAsSurvivorOrAnySurvivor_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 4,
+-            "descriptionStringId": "CHALLENGE_EscapeAsCharacterInTrialOrAnySurvivor_DESC",
+-            "id": "DBD_Day2026-DbDDay_QuestList_1-B_EscapeAsCharacterInTrialOrAnySurvivor",
+-            "isRecurring": false,
+-            "objectives": {
+-              "1_Escape": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  4
+-                ],
+-                "objectiveId": "1_Escape",
+-                "objectiveInfo": "CHALLENGE_EscapeAsAnySurvivorInTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Escape",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "Escape": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "Adam"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  4
+-                ],
+-                "objectiveId": "Escape",
+-                "objectiveInfo": "CHALLENGE_EscapeAsCharacterInTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.Escape",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              },
+-              {
+-                "amount": 1,
+-                "id": "HS_Torso013_02",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-10-06T15:00:00",
+-            "titleStringId": "CHALLENGE_EscapeAsCharacterInTrialOrAnySurvivor_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 6,
+-            "descriptionStringId": "CHALLENGE_SpiritHitPostPhaseInTrialOrPlayasKiller_DESC",
+-            "id": "DBD_Day2026-DbDDay_QuestList_1-B_SpiritHitPostPhaseInTrialOrPlayasKiller",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlayingKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10
+-                ],
+-                "objectiveId": "FinishedPlayingKiller",
+-                "objectiveInfo": "CHALLENGE_PlayAnyKiller_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "SpiritHitPostPhase": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "Spirit"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "SpiritHitPostPhase",
+-                "objectiveInfo": "CHALLENGE_SpiritHitPostPhaseInTrial_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.SpiritHitPostPhase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              },
+-              {
+-                "amount": 1,
+-                "id": "HK_Body006_05",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-10-06T15:00:00",
+-            "titleStringId": "CHALLENGE_SpiritHitPostPhaseInTrialOrPlayasKiller_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_OniStrikeInTrialOrPlayasKiller_DESC",
+-            "id": "DBD_Day2026-DbDDay_QuestList_1-B_OniStrikeInTrialOrPlayasKiller",
+-            "isRecurring": false,
+-            "objectives": {
+-              "FinishedPlayingKiller": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  10
+-                ],
+-                "objectiveId": "FinishedPlayingKiller",
+-                "objectiveInfo": "CHALLENGE_PlayAnyKiller_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 1,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.FinishedPlaying",
+-                    "repetition": 1
+-                  }
+-                ]
+-              },
+-              "OniStrikeInTrial": {
+-                "conditions": [
+-                  {
+-                    "key": "character",
+-                    "value": [
+-                      "Oni"
+-                    ]
+-                  },
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "killer"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  5
+-                ],
+-                "objectiveId": "OniStrikeInTrial",
+-                "objectiveInfo": "CHALLENGE_OniStrikeInTrialOr_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression",
+-                  "character"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.OniStrike",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              },
+-              {
+-                "amount": 1,
+-                "id": "SwedenKiller_Body01_04",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-10-06T15:00:00",
+-            "titleStringId": "CHALLENGE_OniStrikeInTrialOrPlayasKiller_TITLE",
+-            "type": "dual"
+-          },
+-          {
+-            "challengeOrder": 0,
+-            "descriptionStringId": "CHALLENGE_HideInTerrorRadius_DESC",
+-            "id": "DBD_Day2026-DbDDay_QuestList_1-B_HideInTerrorRadius",
+-            "isRecurring": false,
+-            "objectives": {
+-              "HideInTerrorRadius": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  60
+-                ],
+-                "objectiveId": "HideInTerrorRadius",
+-                "objectiveInfo": "CHALLENGE_HideInTerrorRadius_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Time",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.HideInTerrorRadius",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              },
+-              {
+-                "amount": 1,
+-                "id": "DF_Torso04_03",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-10-06T15:00:00",
+-            "titleStringId": "CHALLENGE_HideInTerrorRadius_TITLE",
+-            "type": "basic"
+-          },
+-          {
+-            "challengeOrder": 5,
+-            "descriptionStringId": "CHALLENGE_VaultInChase_DESC",
+-            "id": "DBD_Day2026-DbDDay_QuestList_1-B_VaultInChase",
+-            "isRecurring": false,
+-            "objectives": {
+-              "VaultInChase": {
+-                "conditions": [
+-                  {
+-                    "key": "role",
+-                    "value": [
+-                      "survivor"
+-                    ]
+-                  }
+-                ],
+-                "incrementWithEventRepetitions": true,
+-                "isCommunityObjective": false,
+-                "maxProgressionPerPlayer": -1,
+-                "neededProgression": [
+-                  2
+-                ],
+-                "objectiveId": "VaultInChase",
+-                "objectiveInfo": "CHALLENGE_VaultInChase_INFO",
+-                "objectiveInfoParameters": [
+-                  "maxProgression"
+-                ],
+-                "objectiveOrder": 0,
+-                "objectiveProgressionType": "Action",
+-                "questEvent": [
+-                  {
+-                    "operation": ">=",
+-                    "parameters": "instigator:me",
+-                    "questEventId": "QuestEvent.VaultInChase",
+-                    "repetition": 1
+-                  }
+-                ]
+-              }
+-            },
+-            "rewards": [
+-              {
+-                "amount": 10000,
+-                "id": "BonusBloodpoints",
+-                "type": "currency"
+-              },
+-              {
+-                "amount": 1,
+-                "id": "SwedenSurvivor_Torso02_05",
+-                "type": "inventory"
+-              }
+-            ],
+-            "startDate": "2026-10-06T15:00:00",
+-            "titleStringId": "CHALLENGE_VaultInChase_TITLE",
+-            "type": "basic"
+-          }
+-        ],
+-        "endDate": "2026-10-26T15:00:00",
+-        "listId": "DBD_Day2026-DbDDay_QuestList_1",
+-        "listOrder": 2,
+-        "listTitleStringId": "DbDDay_QuestList_1_Title",
+-        "startDate": "2026-10-06T15:00:00"
+-      }
+-    ],
+-    "endDate": "2026-10-26T15:00:00",
+-    "endDateInMs": 1793026800000,
+-    "eventID": "DbdDay2026",
+-    "mask": 0,
+-    "startDate": "2026-10-06T15:00:00",
+-    "startDateInMs": 1791298800000,
+-    "tabOrder": 1,
+-    "tabTitleStringId": "CHALLENGESET_DBD_DAY2026_TITLE",
+-    "titleLocalizationText": {
+-      "de": "DbD-Tag",
+-      "en": "DBD Day",
+-      "es": "Día de DbD",
+-      "es-MX": "Día de DbD",
+-      "fr": "Journée de DbD",
+-      "it": "DBD Day",
+-      "ja": "デドバの日",
+-      "ko": "데바데 데이",
+-      "pl": "Dzień DBD",
+-      "pt-BR": "Dia de DbD",
+-      "ru": "День DBD",
+-      "th": "วัน DBD",
+-      "tr": "DBD Günü",
+-      "zh-Hans": "DBD日",
+-      "zh-Hant": "黎明死線節"
+-    },
+-    "type": "Event",
+-    "uiAssets": {}
+-  },
+   "Daily_Set": {
+     "additionalInfoStringId": "CHALLENGESET_Daily_INFO",
+     "challengeList": [

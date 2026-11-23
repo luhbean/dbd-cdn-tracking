@@ -2,6 +2,26 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.2.2_4006949live](versions/10.2.2_4006949live/CHANGES.md)
+
+Built 2026-11-23 21:29 UTC · **+0** added · **~15** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/10.2.2_4006949live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_de.json`](versions/10.2.2_4006949live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/10.2.2_4006949live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/10.2.2_4006949live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/10.2.2_4006949live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_ko.json`](versions/10.2.2_4006949live/diffs/challengeLocs/challengeText_ko.json.diff)
+- ~ [`challengeLocs/challengeText_pl.json`](versions/10.2.2_4006949live/diffs/challengeLocs/challengeText_pl.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/10.2.2_4006949live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_ru.json`](versions/10.2.2_4006949live/diffs/challengeLocs/challengeText_ru.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/10.2.2_4006949live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`challengeLocs/challengeText_tr.json`](versions/10.2.2_4006949live/diffs/challengeLocs/challengeText_tr.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/10.2.2_4006949live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
+- ~ [`challengeSets.json`](versions/10.2.2_4006949live/diffs/challengeSets.json.diff)
+- ~ [`collections.json`](versions/10.2.2_4006949live/diffs/collections.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.2.2_4006949live/diffs/dynamicContent/DynamicContent.json.diff)
+
 ## [10.2.2_3996495live](versions/10.2.2_3996495live/CHANGES.md)
 
 Built 2026-11-18 14:37 UTC · no content changes

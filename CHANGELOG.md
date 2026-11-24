@@ -9,6 +9,13 @@ Built 2026-11-24 16:00 UTC · **+0** added · **~2** modified · **−0** remove
 - ~ [`catalog.json`](versions/10.2.2_4008053live/diffs/catalog.json.diff)
 - ~ [`dynamicContent/DynamicContent.json`](versions/10.2.2_4008053live/diffs/dynamicContent/DynamicContent.json.diff)
 
+## [10.3.0_4008246live](versions/10.3.0_4008246live/CHANGES.md)
+
+Built 2026-11-24 15:09 UTC · **+0** added · **~2** modified · **−0** removed
+
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.3.0_4008246live/diffs/dynamicContent/DynamicContent.json.diff)
+- ~ [`recommendations.json`](versions/10.3.0_4008246live/diffs/recommendations.json.diff)
+
 ## [10.3.0_4008039live](versions/10.3.0_4008039live/CHANGES.md)
 
 Built 2026-11-24 14:09 UTC · **+8** added · **~33** modified · **−6** removed

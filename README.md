@@ -30,6 +30,7 @@ An automatically updated archive of Dead by Daylight's **live** CDN content. Eve
 
 These newer builds are live but their decryption key hasn't been published yet. They'll appear here automatically once it is:
 
+- `10.3.0_4008246live` · built 2026-11-24 15:09 UTC
 - `10.3.0_4008039live` · built 2026-11-24 14:09 UTC
 - `10.3.0_4006783live` · built 2026-11-23 20:44 UTC
 - `10.3.0_4006425live` · built 2026-11-23 18:57 UTC

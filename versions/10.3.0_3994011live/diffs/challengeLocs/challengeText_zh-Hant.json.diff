@@ -1,0 +1,620 @@
+--- a/challengeLocs/challengeText_zh-Hant.json
++++ b/challengeLocs/challengeText_zh-Hant.json
+@@ -649,6 +649,294 @@
+       "textId": "LIST_BloodMoon_TITLE_3"
+     },
+     {
++      "text": "刺骨寒慄",
++      "textId": "CHALLENGESET_Winter_TITLE"
++    },
++    {
++      "text": "@#CHALLENGESET_Winter_INFO",
++      "textId": "CHALLENGESET_Winter_INFO"
++    },
++    {
++      "text": "@#CHALLENGE_HitWithSnowSkull_TITLE",
++      "textId": "CHALLENGE_HitWithSnowSkull_TITLE"
++    },
++    {
++      "text": "@#CHALLENGE_HitWithSnowSkull_DESC",
++      "textId": "CHALLENGE_HitWithSnowSkull_DESC"
++    },
++    {
++      "text": "使用顱骨雪球擊中其他玩家",
++      "textId": "CHALLENGE_HitWithSnowSkull_INFO"
++    },
++    {
++      "text": "@#CHALLENGE_FreezePallet_TITLE",
++      "textId": "CHALLENGE_FreezePallet_TITLE"
++    },
++    {
++      "text": "@#CHALLENGE_FreezePallet_DESC",
++      "textId": "CHALLENGE_FreezePallet_DESC"
++    },
++    {
++      "text": "使用冰霜顱骨雪球讓{0}個木板結凍",
++      "textId": "CHALLENGE_FreezePallet_INFO"
++    },
++    {
++      "text": "@#CHALLENGE_DestroyMimicSnowman_TITLE",
++      "textId": "CHALLENGE_DestroyMimicSnowman_TITLE"
++    },
++    {
++      "text": "@#CHALLENGE_DestroyMimicSnowman_DESC",
++      "textId": "CHALLENGE_DestroyMimicSnowman_DESC"
++    },
++    {
++      "text": "使用顱骨雪球或殺手動作摧毀誘餌雪人{0}次",
++      "textId": "CHALLENGE_DestroyMimicSnowman_INFO"
++    },
++    {
++      "text": "Building in the Cold",
++      "textId": "CHALLENGE_Winter26ContribueSnowBarricade_TITLE"
++    },
++    {
++      "text": "Contribute to {0} Snow Barricades.",
++      "textId": "CHALLENGE_Winter26ContribueSnowBarricade_DESC"
++    },
++    {
++      "text": "Contribute to {0} Snow Barricades.",
++      "textId": "CHALLENGE_Winter26ContribueSnowBarricade_INFO"
++    },
++    {
++      "text": "@#CHALLENGE_FreezeGen_TITLE",
++      "textId": "CHALLENGE_FreezeGen_TITLE"
++    },
++    {
++      "text": "@#CHALLENGE_FreezeGen_DESC",
++      "textId": "CHALLENGE_FreezeGen_DESC"
++    },
++    {
++      "text": "使用冰霜顱骨雪球讓{0}台發電機被蓋在雪中",
++      "textId": "CHALLENGE_FreezeGen_INFO"
++    },
++    {
++      "text": "Fighting Ice With Ice",
++      "textId": "CHALLENGE_Winter26DestroySnowmanWithSnowSkull_TITLE"
++    },
++    {
++      "text": "Destroy a Snowman with an Icy Snowskull {0} times.",
++      "textId": "CHALLENGE_Winter26DestroySnowmanWithSnowSkull_DESC"
++    },
++    {
++      "text": "Destroy a Snowman with an Icy Snowskull {0} times.",
++      "textId": "CHALLENGE_Winter26DestroySnowmanWithSnowSkull_INFO"
++    },
++    {
++      "text": "Crush the Slush",
++      "textId": "CHALLENGE_Winter26KickSnowBarricade_TITLE"
++    },
++    {
++      "text": "Kick {0} Snow Barricades.",
++      "textId": "CHALLENGE_Winter26KickSnowBarricade_DESC"
++    },
++    {
++      "text": "Kick {0} Snow Barricades.",
++      "textId": "CHALLENGE_Winter26KickSnowBarricade_INFO"
++    },
++    {
++      "text": "@#CHALLENGE_CoopAction_TITLE",
++      "textId": "CHALLENGE_CoopAction_TITLE"
++    },
++    {
++      "text": "@#CHALLENGE_CoopAction_DESC",
++      "textId": "CHALLENGE_CoopAction_DESC"
++    },
++    {
++      "text": "暴露倖存者的氣場{0}秒",
++      "textId": "CHALLENGE_CoopAction_INFO"
++    },
++    {
++      "text": "@#CHALLENGE_PlayAsKillerOrAnyKiller_TITLE",
++      "textId": "CHALLENGE_PlayAsKillerOrAnyKiller_TITLE"
++    },
++    {
++      "text": "@#CHALLENGE_PlayAsKillerOrAnyKiller_DESC",
++      "textId": "CHALLENGE_PlayAsKillerOrAnyKiller_DESC"
++    },
++    {
++      "text": "扮演{1}完成{0}場審判",
++      "textId": "CHALLENGE_PlayAsKiller_INFO"
++    },
++    {
++      "text": "扮演任一殺手，完成{0}場遊戲",
++      "textId": "CHALLENGE_PlayAnyKiller_INFO"
++    },
++    {
++      "text": "@#CHALLENGE_PlayAsSurvivorOrAnySurvivor_TITLE",
++      "textId": "CHALLENGE_PlayAsSurvivorOrAnySurvivor_TITLE"
++    },
++    {
++      "text": "@#CHALLENGE_PlayAsSurvivorOrAnySurvivor_DESC",
++      "textId": "CHALLENGE_PlayAsSurvivorOrAnySurvivor_DESC"
++    },
++    {
++      "text": "扮演{1}完成{0}場審判",
++      "textId": "CHALLENGE_PlayAsSurvivor_INFO"
++    },
++    {
++      "text": "扮演任一倖存者，完成{0}場遊戲",
++      "textId": "CHALLENGE_PlayAnySurvivor_INFO"
++    },
++    {
++      "text": "Snowsculptor",
++      "textId": "CHALLENGE_Winter26CraftSnowman_TITLE"
++    },
++    {
++      "text": "Craft a Snowman from a Snow Pile {0} times.",
++      "textId": "CHALLENGE_Winter26CraftSnowman_DESC"
++    },
++    {
++      "text": "Craft a Snowman from a Snow Pile {0} times.",
++      "textId": "CHALLENGE_Winter26CraftSnowman_INFO"
++    },
++    {
++      "text": "Chillshot",
++      "textId": "CHALLENGE_Winter26SnowskullWithinSnowman_TITLE"
++    },
++    {
++      "text": "Throw Snowskulls while in a Snowman {0} times.",
++      "textId": "CHALLENGE_Winter26SnowskullWithinSnowman_DESC"
++    },
++    {
++      "text": "Throw Snowskulls while in a Snowman {0} times.",
++      "textId": "CHALLENGE_Winter26SnowskullWithinSnowman_INFO"
++    },
++    {
++      "text": "擊倒",
++      "textId": "CHALLENGE_Down_TITLE"
++    },
++    {
++      "text": "擊倒<b>{0}名倖存者</b>。",
++      "textId": "CHALLENGE_Down_DESC"
++    },
++    {
++      "text": "@#CHALLENGE_OpenChests_TITLE",
++      "textId": "CHALLENGE_OpenChests_TITLE"
++    },
++    {
++      "text": "地圖四處散落著箱子，其中包含能協助你生存的隨機道具。",
++      "textId": "CHALLENGE_OpenChests_DESC"
++    },
++    {
++      "text": "開啟{0}個寶箱",
++      "textId": "CHALLENGE_OpenChests_INFO"
++    },
++    {
++      "text": "Chilling in Cover",
++      "textId": "CHALLENGE_Winter26HideInSnowman_TITLE"
++    },
++    {
++      "text": "Hide in a Snowman {0} times.",
++      "textId": "CHALLENGE_Winter26HideInSnowman_DESC"
++    },
++    {
++      "text": "Hide in a Snowman {0} times.",
++      "textId": "CHALLENGE_Winter26HideInSnowman_INFO"
++    },
++    {
++      "text": "Coldlateral Damage",
++      "textId": "CHALLENGE_Winter26SnowskullFightWithMimic_TITLE"
++    },
++    {
++      "text": "Have a Snowskull fight with a Snow Lurker {0} times.",
++      "textId": "CHALLENGE_Winter26SnowskullFightWithMimic_DESC"
++    },
++    {
++      "text": "Have a Snowskull fight with a Snow Lurker {0} times.",
++      "textId": "CHALLENGE_Winter26SnowskullFightWithMimic_INFO"
++    },
++    {
++      "text": "致命追逐",
++      "textId": "CHALLENGE_Chase_TITLE"
++    },
++    {
++      "text": "追蹤奔跑的倖存者留下的劃痕。",
++      "textId": "CHALLENGE_Chase_DESC"
++    },
++    {
++      "text": "@#CHALLENGE_BeChased_TITLE",
++      "textId": "CHALLENGE_BeChased_TITLE"
++    },
++    {
++      "text": "盡可能延長追逐時間。這能給其他倖存者更多時間修理發電機。",
++      "textId": "CHALLENGE_BeChased_DESC"
++    },
++    {
++      "text": "@#CHALLENGE_SnowmanHighfive_TITLE",
++      "textId": "CHALLENGE_SnowmanHighfive_TITLE"
++    },
++    {
++      "text": "@#CHALLENGE_SnowmanHighfive_DESC",
++      "textId": "CHALLENGE_SnowmanHighfive_DESC"
++    },
++    {
++      "text": "在雪人裡面時，與另一個雪人擊掌{0}次",
++      "textId": "CHALLENGE_SnowmanHighfive_INFO"
++    },
++    {
++      "text": "恐怖",
++      "textId": "CHALLENGE_Hook_TITLE"
++    },
++    {
++      "text": "在黎明鬧鬼活動中，鉤住<b>{0}名倖存者</b>",
++      "textId": "CHALLENGE_EventHook_DESC"
++    },
++    {
++      "text": "在黎明鬧鬼活動中，鉤住<b>{0}名倖存者</b>",
++      "textId": "CHALLENGE_EventHook_INFO"
++    },
++    {
++      "text": "繼續前進",
++      "textId": "CHALLENGE_Carry_TITLE"
++    },
++    {
++      "text": "抓住倖存者並跨越<b>{0}公尺</b>。",
++      "textId": "CHALLENGE_Carry_DESC"
++    },
++    {
++      "text": "@#CHALLENGE_EscapeChase_TITLE",
++      "textId": "CHALLENGE_EscapeChase_TITLE"
++    },
++    {
++      "text": "@#CHALLENGE_EscapeChase_DESC",
++      "textId": "CHALLENGE_EscapeChase_DESC"
++    },
++    {
++      "text": "刺骨寒慄社群任務",
++      "textId": "Winter_CommunityQuests_Title"
++    },
++    {
++      "text": "刺骨寒慄完成任務",
++      "textId": "Winter_OverarchingQuests_Title"
++    },
++    {
++      "text": "刺骨寒慄",
++      "textId": "Winter_MilestoneQuests_Title"
++    },
++    {
++      "text": "刺骨寒慄任務 - 第1部分",
++      "textId": "Winter_QuestList_1_Title"
++    },
++    {
++      "text": "刺骨寒慄任務 - 第2部分",
++      "textId": "Winter_QuestList_2_Title"
++    },
++    {
++      "text": "刺骨寒慄任務 - 第3部分",
++      "textId": "Winter_QuestList_3_Title"
++    },
++    {
++      "text": "刺骨寒慄任務 - 第4部分",
++      "textId": "Winter_QuestList_4_Title"
++    },
++    {
+       "text": "2v8模式",
+       "textId": "CHALLENGESET_CalamariJerky_TITLE"
+     },
+@@ -875,40 +1163,8 @@
+     {
+       "text": "@#CHALLENGESET_CalamariRamen_INFO",
+       "textId": "CHALLENGESET_CalamariRamen_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_PlayAsKillerOrAnyKiller_TITLE",
+-      "textId": "CHALLENGE_PlayAsKillerOrAnyKiller_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_PlayAsKillerOrAnyKiller_DESC",
+-      "textId": "CHALLENGE_PlayAsKillerOrAnyKiller_DESC"
+-    },
+-    {
+-      "text": "扮演{1}完成{0}場審判",
+-      "textId": "CHALLENGE_PlayAsKiller_INFO"
+-    },
+-    {
+-      "text": "扮演任一殺手，完成{0}場遊戲",
+-      "textId": "CHALLENGE_PlayAnyKiller_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_PlayAsSurvivorOrAnySurvivor_TITLE",
+-      "textId": "CHALLENGE_PlayAsSurvivorOrAnySurvivor_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_PlayAsSurvivorOrAnySurvivor_DESC",
+-      "textId": "CHALLENGE_PlayAsSurvivorOrAnySurvivor_DESC"
+     },
+     {
+-      "text": "扮演{1}完成{0}場審判",
+-      "textId": "CHALLENGE_PlayAsSurvivor_INFO"
+-    },
+-    {
+-      "text": "扮演任一倖存者，完成{0}場遊戲",
+-      "textId": "CHALLENGE_PlayAnySurvivor_INFO"
+-    },
+-    {
+       "text": "2v8",
+       "textId": "CHALLENGESET_CalamariUdon_TITLE"
+     },
+@@ -1437,14 +1693,6 @@
+       "textId": "CHALLENGE_EarnMaliciousGold_INFO"
+     },
+     {
+-      "text": "擊倒",
+-      "textId": "CHALLENGE_Down_TITLE"
+-    },
+-    {
+-      "text": "擊倒<b>{0}名倖存者</b>。",
+-      "textId": "CHALLENGE_Down_DESC"
+-    },
+-    {
+       "text": "@#CHALLENGE_ReviveDying_TITLE",
+       "textId": "CHALLENGE_ReviveDying_TITLE"
+     },
+@@ -1473,22 +1721,6 @@
+       "textId": "CHALLENGE_EarnEvaderGold_INFO"
+     },
+     {
+-      "text": "繼續前進",
+-      "textId": "CHALLENGE_Carry_TITLE"
+-    },
+-    {
+-      "text": "抓住倖存者並跨越<b>{0}公尺</b>。",
+-      "textId": "CHALLENGE_Carry_DESC"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EscapeChase_TITLE",
+-      "textId": "CHALLENGE_EscapeChase_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EscapeChase_DESC",
+-      "textId": "CHALLENGE_EscapeChase_DESC"
+-    },
+-    {
+       "text": "迷霧嘉年華社群任務",
+       "textId": "FogCarnival_CommunityQuests_Title"
+     },
+@@ -1543,20 +1775,8 @@
+     {
+       "text": "從被擊倒的倖存者身上收集{0}點虛空能量",
+       "textId": "CHALLENGE_CollectVoidEnergyFromSurvivor_INFO"
+-    },
+-    {
+-      "text": "恐怖",
+-      "textId": "CHALLENGE_Hook_TITLE"
+     },
+     {
+-      "text": "在黎明鬧鬼活動中，鉤住<b>{0}名倖存者</b>",
+-      "textId": "CHALLENGE_EventHook_DESC"
+-    },
+-    {
+-      "text": "在黎明鬧鬼活動中，鉤住<b>{0}名倖存者</b>",
+-      "textId": "CHALLENGE_EventHook_INFO"
+-    },
+-    {
+       "text": "粉碎{0}個虛空水晶",
+       "textId": "CHALLENGE_ShatterVoidCrystal_TITLE"
+     },
+@@ -1811,20 +2031,8 @@
+     {
+       "text": "獲得{0}個黃金光明使者徽章",
+       "textId": "CHALLENGE_EarnLightbringerGold_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_CoopAction_TITLE",
+-      "textId": "CHALLENGE_CoopAction_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_CoopAction_DESC",
+-      "textId": "CHALLENGE_CoopAction_DESC"
+     },
+     {
+-      "text": "暴露倖存者的氣場{0}秒",
+-      "textId": "CHALLENGE_CoopAction_INFO"
+-    },
+-    {
+       "text": "@#CHALLENGE_EarnDevoutOrUnbrokenGold_TITLE",
+       "textId": "CHALLENGE_EarnDevoutOrUnbrokenGold_TITLE"
+     },
+@@ -1995,16 +2203,8 @@
+     {
+       "text": "擊破{0}個木板或牆壁",
+       "textId": "CHALLENGE_BreakPalletsWall_INFO"
+-    },
+-    {
+-      "text": "致命追逐",
+-      "textId": "CHALLENGE_Chase_TITLE"
+     },
+     {
+-      "text": "追蹤奔跑的倖存者留下的劃痕。",
+-      "textId": "CHALLENGE_Chase_DESC"
+-    },
+-    {
+       "text": "@#CHALLENGE_DownDifferentSingleTrial_TITLE",
+       "textId": "CHALLENGE_DownDifferentSingleTrial_TITLE"
+     },
+@@ -2141,14 +2341,6 @@
+       "textId": "CHALLENGE_RepairFinish_INFO"
+     },
+     {
+-      "text": "@#CHALLENGE_BeChased_TITLE",
+-      "textId": "CHALLENGE_BeChased_TITLE"
+-    },
+-    {
+-      "text": "盡可能延長追逐時間。這能給其他倖存者更多時間修理發電機。",
+-      "textId": "CHALLENGE_BeChased_DESC"
+-    },
+-    {
+       "text": "從出口大門或地道逃離{0}次。",
+       "textId": "CHALLENGE_EscapeGateHatch_TITLE"
+     },
+@@ -2165,18 +2357,6 @@
+       "textId": "CHALLENGE_PalletStun_DESC"
+     },
+     {
+-      "text": "@#CHALLENGE_OpenChests_TITLE",
+-      "textId": "CHALLENGE_OpenChests_TITLE"
+-    },
+-    {
+-      "text": "地圖四處散落著箱子，其中包含能協助你生存的隨機道具。",
+-      "textId": "CHALLENGE_OpenChests_DESC"
+-    },
+-    {
+-      "text": "開啟{0}個寶箱",
+-      "textId": "CHALLENGE_OpenChests_INFO"
+-    },
+-    {
+       "text": "@#CHALLENGE_CompleteRoleChallenges_TITLE",
+       "textId": "CHALLENGE_CompleteRoleChallenges_TITLE"
+     },
+@@ -2743,50 +2923,66 @@
+     {
+       "text": "夏季尖叫 - 第3部分",
+       "textId": "LIST_Summer2026_TITLE_3"
++    },
++    {
++      "text": "哈茨霍恩購物中心",
++      "textId": "CHALLENGESET_Mall_TITLE"
++    },
++    {
++      "text": "@#CHALLENGESET_Mall_INFO",
++      "textId": "CHALLENGESET_Mall_INFO"
++    },
++    {
++      "text": "Complete {0} Hartshorne Mall quest(s).",
++      "textId": "CHALLENGE_CompleteMallMapQuests_INFO"
++    },
++    {
++      "text": "@#CHALLENGE_MallMapDwightsBedroom_TITLE",
++      "textId": "CHALLENGE_MallMapDwightsBedroom_TITLE"
+     },
+     {
+-      "text": "刺骨寒慄",
+-      "textId": "CHALLENGESET_Winter_TITLE"
++      "text": "@#CHALLENGE_MallMapDwightsBedroom_DESC",
++      "textId": "CHALLENGE_MallMapDwightsBedroom_DESC"
+     },
+     {
+-      "text": "@#CHALLENGESET_Winter_INFO",
+-      "textId": "CHALLENGESET_Winter_INFO"
++      "text": "Find Dwight's Bedroom in Hartshorne Mall",
++      "textId": "CHALLENGE_MallMapDwightsBedroom_INFO"
+     },
+     {
+-      "text": "@#CHALLENGE_HitWithSnowSkull_TITLE",
+-      "textId": "CHALLENGE_HitWithSnowSkull_TITLE"
++      "text": "@#CHALLENGE_MallMapJumpScare_TITLE",
++      "textId": "CHALLENGE_MallMapJumpScare_TITLE"
+     },
+     {
+-      "text": "@#CHALLENGE_HitWithSnowSkull_DESC",
+-      "textId": "CHALLENGE_HitWithSnowSkull_DESC"
++      "text": "@#CHALLENGE_MallMapJumpScare_DESC",
++      "textId": "CHALLENGE_MallMapJumpScare_DESC"
+     },
+     {
+-      "text": "使用顱骨雪球擊中其他玩家",
+-      "textId": "CHALLENGE_HitWithSnowSkull_INFO"
++      "text": "Restore power to, and investigate, the info desk in Hartshorne Mall",
++      "textId": "CHALLENGE_MallMapJumpScare_INFO"
+     },
+     {
+-      "text": "@#CHALLENGE_FreezePallet_TITLE",
+-      "textId": "CHALLENGE_FreezePallet_TITLE"
++      "text": "@#CHALLENGE_MallMapStoreAlarm_TITLE",
++      "textId": "CHALLENGE_MallMapStoreAlarm_TITLE"
+     },
+     {
+-      "text": "@#CHALLENGE_FreezePallet_DESC",
+-      "textId": "CHALLENGE_FreezePallet_DESC"
++      "text": "@#CHALLENGE_MallMapStoreAlarm_DESC",
++      "textId": "CHALLENGE_MallMapStoreAlarm_DESC"
+     },
+     {
+-      "text": "使用冰霜顱骨雪球讓{0}個木板結凍",
+-      "textId": "CHALLENGE_FreezePallet_INFO"
++      "text": "Set off the Big Store Alarm in Hartshorne Mall",
++      "textId": "CHALLENGE_MallMapStoreAlarm_INFO"
+     },
+     {
+-      "text": "@#CHALLENGE_FreezeGen_TITLE",
+-      "textId": "CHALLENGE_FreezeGen_TITLE"
++      "text": "Complete {0} trial(s) in Hartshorne Mall.",
++      "textId": "CHALLENGE_PlayMallMap_INFO"
+     },
+     {
+-      "text": "@#CHALLENGE_FreezeGen_DESC",
+-      "textId": "CHALLENGE_FreezeGen_DESC"
++      "text": "Hartshorne Mall Completion Quests",
++      "textId": "Mall_OverarchingQuests_TITLE"
+     },
+     {
+-      "text": "使用冰霜顱骨雪球讓{0}台發電機被蓋在雪中",
+-      "textId": "CHALLENGE_FreezeGen_INFO"
++      "text": "哈茨霍恩購物中心",
++      "textId": "Mall_QuestList_TITLE"
+     },
+     {
+       "text": "@#CHALLENGE_RepairWinterGen_TITLE",
+@@ -2825,18 +3021,6 @@
+       "textId": "CHALLENGE_HitOccupiedSnowman_INFO"
+     },
+     {
+-      "text": "@#CHALLENGE_DestroyMimicSnowman_TITLE",
+-      "textId": "CHALLENGE_DestroyMimicSnowman_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_DestroyMimicSnowman_DESC",
+-      "textId": "CHALLENGE_DestroyMimicSnowman_DESC"
+-    },
+-    {
+-      "text": "使用顱骨雪球或殺手動作摧毀誘餌雪人{0}次",
+-      "textId": "CHALLENGE_DestroyMimicSnowman_INFO"
+-    },
+-    {
+       "text": "@#CHALLENGE_HookWinter_TITLE",
+       "textId": "CHALLENGE_HookWinter_TITLE"
+     },
+@@ -2859,42 +3043,6 @@
+     {
+       "text": "藉由離開即時雪人來創造誘餌雪人{0}次",
+       "textId": "CHALLENGE_DeployMimicSnowman_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_SnowmanHighfive_TITLE",
+-      "textId": "CHALLENGE_SnowmanHighfive_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_SnowmanHighfive_DESC",
+-      "textId": "CHALLENGE_SnowmanHighfive_DESC"
+-    },
+-    {
+-      "text": "在雪人裡面時，與另一個雪人擊掌{0}次",
+-      "textId": "CHALLENGE_SnowmanHighfive_INFO"
+-    },
+-    {
+-      "text": "刺骨寒慄社群任務",
+-      "textId": "Winter_CommunityQuests_Title"
+-    },
+-    {
+-      "text": "刺骨寒慄完成任務",
+-      "textId": "Winter_OverarchingQuests_Title"
+-    },
+-    {
+-      "text": "刺骨寒慄任務 - 第1部分",
+-      "textId": "Winter_QuestList_1_Title"
+-    },
+-    {
+-      "text": "刺骨寒慄任務 - 第2部分",
+-      "textId": "Winter_QuestList_2_Title"
+-    },
+-    {
+-      "text": "刺骨寒慄任務 - 第3部分",
+-      "textId": "Winter_QuestList_3_Title"
+-    },
+-    {
+-      "text": "刺骨寒慄任務 - 第4部分",
+-      "textId": "Winter_QuestList_4_Title"
+     }
+   ]
+ }

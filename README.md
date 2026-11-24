@@ -13,12 +13,6 @@ An automatically updated archive of Dead by Daylight's **live** CDN content. Eve
 - ~ [`catalog.json`](versions/10.2.2_4008053live/diffs/catalog.json.diff)
 - ~ [`dynamicContent/DynamicContent.json`](versions/10.2.2_4008053live/diffs/dynamicContent/DynamicContent.json.diff)
 
-## Coming up
-
-These newer builds are live but their decryption key hasn't been published yet. They'll appear here automatically once it is:
-
-- `10.3.0_4008606live` · built 2026-11-24 15:51 UTC
-
 ## Browse
 
 | | |
@@ -39,7 +33,7 @@ Everything listed in `DynamicContent.json` for each version, plus the core confi
 - **Localized text:** EULA, consents, news and other text in every language
 - **Images:** banners and other artwork served from the CDN
 
-642 versions tracked so far.
+643 versions tracked so far.
 
 ---
 

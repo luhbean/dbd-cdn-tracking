@@ -1,0 +1,312 @@
+--- a/challengeLocs/challengeText_ja.json
++++ b/challengeLocs/challengeText_ja.json
+@@ -649,6 +649,110 @@
+       "textId": "LIST_BloodMoon_TITLE_3"
+     },
+     {
++      "text": "極寒",
++      "textId": "CHALLENGESET_Winter_TITLE"
++    },
++    {
++      "text": "@#CHALLENGESET_Winter_INFO",
++      "textId": "CHALLENGESET_Winter_INFO"
++    },
++    {
++      "text": "@#CHALLENGE_HitWithSnowSkull_TITLE",
++      "textId": "CHALLENGE_HitWithSnowSkull_TITLE"
++    },
++    {
++      "text": "@#CHALLENGE_HitWithSnowSkull_DESC",
++      "textId": "CHALLENGE_HitWithSnowSkull_DESC"
++    },
++    {
++      "text": "スノースカルを他のプレイヤーに当てる",
++      "textId": "CHALLENGE_HitWithSnowSkull_INFO"
++    },
++    {
++      "text": "身の毛もよだつ",
++      "textId": "CHALLENGE_Hook_TITLE"
++    },
++    {
++      "text": "ホーンテッド・バイ・デイライトで<b>生存者{0}人</b>をフックに吊るす\\n",
++      "textId": "CHALLENGE_EventHook_DESC"
++    },
++    {
++      "text": "ホーンテッド・バイ・デイライトで<b>生存者{0}人</b>をフックに吊るす\\n",
++      "textId": "CHALLENGE_EventHook_INFO"
++    },
++    {
++      "text": "@#CHALLENGE_PlayAsKillerOrAnyKiller_TITLE",
++      "textId": "CHALLENGE_PlayAsKillerOrAnyKiller_TITLE"
++    },
++    {
++      "text": "@#CHALLENGE_PlayAsKillerOrAnyKiller_DESC",
++      "textId": "CHALLENGE_PlayAsKillerOrAnyKiller_DESC"
++    },
++    {
++      "text": "{1}として{0}回の儀式を完了する",
++      "textId": "CHALLENGE_PlayAsKiller_INFO"
++    },
++    {
++      "text": "いずれかの殺人鬼で儀式を{0}回完了する",
++      "textId": "CHALLENGE_PlayAnyKiller_INFO"
++    },
++    {
++      "text": "@#CHALLENGE_EscapeChase_TITLE",
++      "textId": "CHALLENGE_EscapeChase_TITLE"
++    },
++    {
++      "text": "@#CHALLENGE_EscapeChase_DESC",
++      "textId": "CHALLENGE_EscapeChase_DESC"
++    },
++    {
++      "text": "ノックアウト",
++      "textId": "CHALLENGE_Down_TITLE"
++    },
++    {
++      "text": "<b>生存者{0}人</b>をダウンさせる。",
++      "textId": "CHALLENGE_Down_DESC"
++    },
++    {
++      "text": "@#CHALLENGE_CloseHatch_TITLE",
++      "textId": "CHALLENGE_CloseHatch_TITLE"
++    },
++    {
++      "text": "生き残った最後の生存者は、マップのどこかに出現するハッチから脱出できます。ハッチを閉じて、脱出手段を減らしましょう。",
++      "textId": "CHALLENGE_CloseHatch_DESC"
++    },
++    {
++      "text": "ハッチを{0}回閉じる",
++      "textId": "CHALLENGE_CloseHatch_INFO"
++    },
++    {
++      "text": "極寒 コミュニティクエスト",
++      "textId": "Winter_CommunityQuests_Title"
++    },
++    {
++      "text": "極寒 完了クエスト",
++      "textId": "Winter_OverarchingQuests_Title"
++    },
++    {
++      "text": "@#Winter_MilestoneQuests_Title",
++      "textId": "Winter_MilestoneQuests_Title"
++    },
++    {
++      "text": "極寒クエスト - パート1",
++      "textId": "Winter_QuestList_1_Title"
++    },
++    {
++      "text": "極寒クエスト - パート2",
++      "textId": "Winter_QuestList_2_Title"
++    },
++    {
++      "text": "極寒クエスト - パート3",
++      "textId": "Winter_QuestList_3_Title"
++    },
++    {
++      "text": "極寒クエスト - パート4",
++      "textId": "Winter_QuestList_4_Title"
++    },
++    {
+       "text": "2対8",
+       "textId": "CHALLENGESET_CalamariJerky_TITLE"
+     },
+@@ -875,24 +979,8 @@
+     {
+       "text": "@#CHALLENGESET_CalamariRamen_INFO",
+       "textId": "CHALLENGESET_CalamariRamen_INFO"
+-    },
+-    {
+-      "text": "@#CHALLENGE_PlayAsKillerOrAnyKiller_TITLE",
+-      "textId": "CHALLENGE_PlayAsKillerOrAnyKiller_TITLE"
+-    },
+-    {
+-      "text": "@#CHALLENGE_PlayAsKillerOrAnyKiller_DESC",
+-      "textId": "CHALLENGE_PlayAsKillerOrAnyKiller_DESC"
+-    },
+-    {
+-      "text": "{1}として{0}回の儀式を完了する",
+-      "textId": "CHALLENGE_PlayAsKiller_INFO"
+     },
+     {
+-      "text": "いずれかの殺人鬼で儀式を{0}回完了する",
+-      "textId": "CHALLENGE_PlayAnyKiller_INFO"
+-    },
+-    {
+       "text": "@#CHALLENGE_PlayAsSurvivorOrAnySurvivor_TITLE",
+       "textId": "CHALLENGE_PlayAsSurvivorOrAnySurvivor_TITLE"
+     },
+@@ -1437,14 +1525,6 @@
+       "textId": "CHALLENGE_EarnMaliciousGold_INFO"
+     },
+     {
+-      "text": "ノックアウト",
+-      "textId": "CHALLENGE_Down_TITLE"
+-    },
+-    {
+-      "text": "<b>生存者{0}人</b>をダウンさせる。",
+-      "textId": "CHALLENGE_Down_DESC"
+-    },
+-    {
+       "text": "@#CHALLENGE_ReviveDying_TITLE",
+       "textId": "CHALLENGE_ReviveDying_TITLE"
+     },
+@@ -1479,16 +1559,8 @@
+     {
+       "text": "生存者を<b>{0}メートル</b>以上運ぶ。",
+       "textId": "CHALLENGE_Carry_DESC"
+-    },
+-    {
+-      "text": "@#CHALLENGE_EscapeChase_TITLE",
+-      "textId": "CHALLENGE_EscapeChase_TITLE"
+     },
+     {
+-      "text": "@#CHALLENGE_EscapeChase_DESC",
+-      "textId": "CHALLENGE_EscapeChase_DESC"
+-    },
+-    {
+       "text": "霧のカーニバル コミュニティクエスト",
+       "textId": "FogCarnival_CommunityQuests_Title"
+     },
+@@ -1543,16 +1615,8 @@
+     {
+       "text": "生存者をダウンさせて虚無エネルギーを{0}集める",
+       "textId": "CHALLENGE_CollectVoidEnergyFromSurvivor_INFO"
+-    },
+-    {
+-      "text": "身の毛もよだつ",
+-      "textId": "CHALLENGE_Hook_TITLE"
+     },
+     {
+-      "text": "<b>生存者を{0}人</b>をフックに吊るす。",
+-      "textId": "CHALLENGE_Hook_DESC"
+-    },
+-    {
+       "text": "虚無クリスタルを{0}個砕く",
+       "textId": "CHALLENGE_ShatterVoidCrystal_TITLE"
+     },
+@@ -1857,6 +1921,22 @@
+       "textId": "LaFogata_QuestList_2_Title"
+     },
+     {
++      "text": "消灯",
++      "textId": "CHALLENGESET_LIGHTSOUTVANILLA_TITLE"
++    },
++    {
++      "text": "@#CHALLENGESET_LIGHTSOUTVANILLA_INFO",
++      "textId": "CHALLENGESET_LIGHTSOUTVANILLA_INFO"
++    },
++    {
++      "text": "消灯 - 完了クエスト",
++      "textId": "LIST_LightsoutVanilla_Overarching_1"
++    },
++    {
++      "text": "消灯クエスト",
++      "textId": "LIST_LightsoutVanilla_TITLE_1"
++    },
++    {
+       "text": "午年",
+       "textId": "CHALLENGESET_LNYPoutine_TITLE"
+     },
+@@ -1885,6 +1965,10 @@
+       "textId": "CHALLENGESET_Milestone_INFO"
+     },
+     {
++      "text": "<b>生存者を{0}人</b>をフックに吊るす。",
++      "textId": "CHALLENGE_Hook_DESC"
++    },
++    {
+       "text": "命を与えるもの",
+       "textId": "CHALLENGE_Heal_TITLE"
+     },
+@@ -2391,20 +2475,8 @@
+     {
+       "text": "リストパス完了クエスト",
+       "textId": "LIST_BattlePass_TITLE_0"
+-    },
+-    {
+-      "text": "@#CHALLENGE_CloseHatch_TITLE",
+-      "textId": "CHALLENGE_CloseHatch_TITLE"
+     },
+     {
+-      "text": "生き残った最後の生存者は、マップのどこかに出現するハッチから脱出できます。ハッチを閉じて、脱出手段を減らしましょう。",
+-      "textId": "CHALLENGE_CloseHatch_DESC"
+-    },
+-    {
+-      "text": "ハッチを{0}回閉じる",
+-      "textId": "CHALLENGE_CloseHatch_INFO"
+-    },
+-    {
+       "text": "@#CHALLENGE_EscapeThroughHatch_TITLE",
+       "textId": "CHALLENGE_EscapeThroughHatch_TITLE"
+     },
+@@ -2721,24 +2793,28 @@
+       "textId": "LIST_Summer2026_TITLE_3"
+     },
+     {
+-      "text": "極寒",
+-      "textId": "CHALLENGESET_Winter_TITLE"
++      "text": "@#CHALLENGESET_Mall_TITLE",
++      "textId": "CHALLENGESET_Mall_TITLE"
++    },
++    {
++      "text": "@#CHALLENGESET_Mall_INFO",
++      "textId": "CHALLENGESET_Mall_INFO"
+     },
+     {
+-      "text": "@#CHALLENGESET_Winter_INFO",
+-      "textId": "CHALLENGESET_Winter_INFO"
++      "text": "@#CHALLENGE_HookOrRepairFinish_TITLE",
++      "textId": "CHALLENGE_HookOrRepairFinish_TITLE"
+     },
+     {
+-      "text": "@#CHALLENGE_HitWithSnowSkull_TITLE",
+-      "textId": "CHALLENGE_HitWithSnowSkull_TITLE"
++      "text": "@#CHALLENGE_HookOrRepairFinish_DESC",
++      "textId": "CHALLENGE_HookOrRepairFinish_DESC"
+     },
+     {
+-      "text": "@#CHALLENGE_HitWithSnowSkull_DESC",
+-      "textId": "CHALLENGE_HitWithSnowSkull_DESC"
++      "text": "@#Mall_OverarchingQuests_TITLE",
++      "textId": "Mall_OverarchingQuests_TITLE"
+     },
+     {
+-      "text": "スノースカルを他のプレイヤーに当てる",
+-      "textId": "CHALLENGE_HitWithSnowSkull_INFO"
++      "text": "@#Mall_QuestList_TITLE",
++      "textId": "Mall_QuestList_TITLE"
+     },
+     {
+       "text": "@#CHALLENGE_FreezePallet_TITLE",
+@@ -2847,30 +2923,6 @@
+     {
+       "text": "雪だるまの中に入って、別の雪だるまと{0}回ハイタッチをする",
+       "textId": "CHALLENGE_SnowmanHighfive_INFO"
+-    },
+-    {
+-      "text": "極寒 コミュニティクエスト",
+-      "textId": "Winter_CommunityQuests_Title"
+-    },
+-    {
+-      "text": "極寒 完了クエスト",
+-      "textId": "Winter_OverarchingQuests_Title"
+-    },
+-    {
+-      "text": "極寒クエスト - パート1",
+-      "textId": "Winter_QuestList_1_Title"
+-    },
+-    {
+-      "text": "極寒クエスト - パート2",
+-      "textId": "Winter_QuestList_2_Title"
+-    },
+-    {
+-      "text": "極寒クエスト - パート3",
+-      "textId": "Winter_QuestList_3_Title"
+-    },
+-    {
+-      "text": "極寒クエスト - パート4",
+-      "textId": "Winter_QuestList_4_Title"
+     }
+   ]
+ }

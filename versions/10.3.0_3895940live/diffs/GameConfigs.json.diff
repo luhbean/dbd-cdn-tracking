@@ -1,0 +1,54 @@
+--- a/GameConfigs.json
++++ b/GameConfigs.json
+@@ -1986,6 +1986,7 @@
+   "enableGetUpInteraction": true,
+   "enableHapticVibration": true,
+   "enableLastFrameSkillCheckForgiveness": true,
++  "enableLightGoreFeature": true,
+   "enableLimitRegressionEvents": true,
+   "enableLobbyKickPlayerForCharacterOwnership": true,
+   "enableLocalStartSnapping": true,
+@@ -2010,7 +2011,7 @@
+     "Epic",
+     "XSX"
+   ],
+-  "enableStreamVideo": false,
++  "enableStreamVideo": true,
+   "enableUmgMatchmakingRefactor": true,
+   "enableUmgStore": true,
+   "enableWinGDKAccountMismatchPopup": true,
+@@ -2283,18 +2284,6 @@
+     "xbox": true,
+     "xsx": true
+   },
+-  "matchmakingIncentiveConfig": {
+-    "killer": {
+-      "acceptable_ratio": 0.33,
+-      "long_ratio": 0.56,
+-      "moderate_ratio": 0.43
+-    },
+-    "survivor": {
+-      "acceptable_ratio": 0.86,
+-      "long_ratio": 0.92,
+-      "moderate_ratio": 0.9
+-    }
+-  },
+   "matchmakingUseQueueApi": "true",
+   "maxMessagesPerSecondConfig": "3",
+   "mirrorsDefaultRetryPolicy": {
+@@ -2302,6 +2291,7 @@
+     "retryCount": 5,
+     "timeout": 5
+   },
++  "movementTimeDiscrepancyDriftAllowanceOverride": 0.09,
+   "msEndpoint": "https://xbox1-live2.bhvrdbd.com/restservice.svc",
+   "msEndpointGrdk": "https://wstore-live2.bhvrdbd.com/restservice.svc",
+   "narrativeCollectionSyncDelayMaxSeconds": 90,
+@@ -2345,7 +2335,6 @@
+       "KRAKEN_REQUEST_ANALYTICS_LEVEL",
+       "KRAKEN_RSA_PUBLIC_KEY",
+       "MATCHMAKING_ALLOW_CROSSPLAY",
+-      "MATCHMAKING_INCENTIVE_CONFIG",
+       "MATCHMAKING_USE_QUEUE_API",
+       "MAX_MESSAGES_PER_SECOND_CONFIG",
+       "MS_ENDPOINT",

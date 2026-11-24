@@ -13,6 +13,10 @@
   "analytics": {
     "autoflushFrequency": 60,
     "autoflushInGameFrequency": 3600,
+    "botLogsOnlyAnalytics": [
+      "PostGame_SurvivorAnalytics",
+      "PostGame_KillerAnalytics"
+    ],
     "detailedScoreTypeWhitelist": [
       "GameEvent.ScoreEvent.Slasher.BleedOutPercent",
       "GameEvent.K42.FocusedAttack.Activated",
@@ -1481,7 +1485,39 @@
       "GameEvent.K23.Laceration.DamageSurvivor",
       "GameEvent.Survivor.Unhook.End",
       "GameEvent.K044.ExileAbility.Survivor.EnteringExile.Lagged",
-      "GameEvent.Halloween2022.GainEnergy.WithStun"
+      "GameEvent.Halloween2022.GainEnergy.WithStun",
+      "GameEvent.K45.WeaponSelectionStarted",
+      "GameEvent.K45.Tortured.Expired",
+      "GameEvent.K45.SurvivorTerrified",
+      "GameEvent.K45.Weapon.SadisticActivated.Gun",
+      "GameEvent.K45.Weapon.SadisticActivated.Flail",
+      "GameEvent.K45.Weapon.SadisticActivated.Bottle",
+      "GameEvent.K45.Weapon.SadisticActivated.Flamethrower",
+      "GameEvent.K45.Weapon.SadisticActivated.Horn",
+      "GameEvent.K45.MiniMori.Gun",
+      "GameEvent.K45.MiniMori.Flail",
+      "GameEvent.K45.MiniMori.Bottle",
+      "GameEvent.K45.MiniMori.Flamethrower",
+      "GameEvent.K45.MiniMori.Horn",
+      "GameEvent.K45.WeaponSelected.Gun",
+      "GameEvent.K45.WeaponSelected.Flail",
+      "GameEvent.K45.WeaponSelected.Bottle",
+      "GameEvent.K45.WeaponSelected.Flamethrower",
+      "GameEvent.K45.WeaponSelected.Horn",
+      "GameEvent.K45.Weapon.HitSurvivor.Gun",
+      "GameEvent.K45.Weapon.HitSurvivor.Flail",
+      "GameEvent.K45.Weapon.HitSurvivor.Bottle",
+      "GameEvent.K45.SurvivorAffectedByAcidPuddle",
+      "GameEvent.K45.SurvivorAffectedByFlame.Projectile",
+      "GameEvent.K45.SurvivorAffectedByFlame.Environment",
+      "GameEvent.K45.Weapon.Horn.Hitsurvivor",
+      "GameEvent.K45.Tortured.Horn",
+      "GameEvent.K45.WeaponTortureDamage.Gun",
+      "GameEvent.K45.WeaponTortureDamage.Flail",
+      "GameEvent.K45.WeaponTortureDamage.Bottle",
+      "GameEvent.K45.WeaponTortureDamage.Flamethrower",
+      "GameEvent.K45.Weapon.Horn.GeneratorRepairInterrupted",
+      "GameEvent.K45.Weapon.Horn.HealingInterrupted"
     ],
     "enableAnalyticErrorIncludesRuleIds": false,
     "enableAnalyticFailureBlockIIS": false,
@@ -1986,6 +2022,7 @@
   "enableGetUpInteraction": true,
   "enableHapticVibration": true,
   "enableLastFrameSkillCheckForgiveness": true,
+  "enableLightGoreFeature": true,
   "enableLimitRegressionEvents": true,
   "enableLobbyKickPlayerForCharacterOwnership": true,
   "enableLocalStartSnapping": true,
@@ -2283,18 +2320,6 @@
     "xbox": true,
     "xsx": true
   },
-  "matchmakingIncentiveConfig": {
-    "killer": {
-      "acceptable_ratio": 0.33,
-      "long_ratio": 0.56,
-      "moderate_ratio": 0.43
-    },
-    "survivor": {
-      "acceptable_ratio": 0.86,
-      "long_ratio": 0.92,
-      "moderate_ratio": 0.9
-    }
-  },
   "matchmakingUseQueueApi": "true",
   "maxMessagesPerSecondConfig": "3",
   "mirrorsDefaultRetryPolicy": {
@@ -2302,6 +2327,7 @@
     "retryCount": 5,
     "timeout": 5
   },
+  "movementTimeDiscrepancyDriftAllowanceOverride": 0.09,
   "msEndpoint": "https://xbox1-live2.bhvrdbd.com/restservice.svc",
   "msEndpointGrdk": "https://wstore-live2.bhvrdbd.com/restservice.svc",
   "narrativeCollectionSyncDelayMaxSeconds": 90,
@@ -2345,7 +2371,6 @@
       "KRAKEN_REQUEST_ANALYTICS_LEVEL",
       "KRAKEN_RSA_PUBLIC_KEY",
       "MATCHMAKING_ALLOW_CROSSPLAY",
-      "MATCHMAKING_INCENTIVE_CONFIG",
       "MATCHMAKING_USE_QUEUE_API",
       "MAX_MESSAGES_PER_SECOND_CONFIG",
       "MS_ENDPOINT",

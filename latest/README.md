@@ -1,10 +1,10 @@
-# Latest live content · 10.2.2_4008053live
+# Latest live content · 10.3.0_4009053live
 
-Built 2026-11-24 16:00 UTC · [what changed in this version](../versions/10.2.2_4008053live/CHANGES.md) · [← back](../README.md)
+Built 2026-11-24 17:18 UTC · [what changed in this version](../versions/10.3.0_4009053live/CHANGES.md) · [← back](../README.md)
 
 This folder always holds the newest version. Its commit history shows every change from one version to the next.
 
-[Core (3)](#core) · [Images (11)](#images) · [Game data (99)](#game-data) · [Localized text (105)](#localized-text)
+[Core (3)](#core) · [Images (13)](#images) · [Game data (99)](#game-data) · [Localized text (105)](#localized-text)
 
 ## Core
 
@@ -15,17 +15,19 @@ This folder always holds the newest version. Its commit history shows every chan
 ## Images
 
 <p>
-<a href="images/T_UI_CollectionBanner_Diablo.png"><img src="images/T_UI_CollectionBanner_Diablo.png" alt="T_UI_CollectionBanner_Diablo.png" title="T_UI_CollectionBanner_Diablo.png" width="200"></a>
-<a href="images/T_UI_CollectionBanner_Godmode.png"><img src="images/T_UI_CollectionBanner_Godmode.png" alt="T_UI_CollectionBanner_Godmode.png" title="T_UI_CollectionBanner_Godmode.png" width="200"></a>
+<a href="images/T_UI_ChapterBundle_Terrifier.png"><img src="images/T_UI_ChapterBundle_Terrifier.png" alt="T_UI_ChapterBundle_Terrifier.png" title="T_UI_ChapterBundle_Terrifier.png" width="200"></a>
+<a href="images/T_UI_CollectionBanner_Scooby_Doo.png"><img src="images/T_UI_CollectionBanner_Scooby_Doo.png" alt="T_UI_CollectionBanner_Scooby_Doo.png" title="T_UI_CollectionBanner_Scooby_Doo.png" width="200"></a>
 <a href="images/T_UI_CollectionBanner_StrangerThings_Vecna.png"><img src="images/T_UI_CollectionBanner_StrangerThings_Vecna.png" alt="T_UI_CollectionBanner_StrangerThings_Vecna.png" title="T_UI_CollectionBanner_StrangerThings_Vecna.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_Diablo.png"><img src="images/T_UI_SpecialPack_Diablo.png" alt="T_UI_SpecialPack_Diablo.png" title="T_UI_SpecialPack_Diablo.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_Godmode.png"><img src="images/T_UI_SpecialPack_Godmode.png" alt="T_UI_SpecialPack_Godmode.png" title="T_UI_SpecialPack_Godmode.png" width="200"></a>
-<a href="images/T_UI_SpecialPack_NovemberDays_Ghostface.png"><img src="images/T_UI_SpecialPack_NovemberDays_Ghostface.png" alt="T_UI_SpecialPack_NovemberDays_Ghostface.png" title="T_UI_SpecialPack_NovemberDays_Ghostface.png" width="200"></a>
+<a href="images/T_UI_CollectionBanner_Terrifier.png"><img src="images/T_UI_CollectionBanner_Terrifier.png" alt="T_UI_CollectionBanner_Terrifier.png" title="T_UI_CollectionBanner_Terrifier.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_NewPlayer_Killer.png"><img src="images/T_UI_SpecialPack_NewPlayer_Killer.png" alt="T_UI_SpecialPack_NewPlayer_Killer.png" title="T_UI_SpecialPack_NewPlayer_Killer.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_NewPlayer_Survivor.png"><img src="images/T_UI_SpecialPack_NewPlayer_Survivor.png" alt="T_UI_SpecialPack_NewPlayer_Survivor.png" title="T_UI_SpecialPack_NewPlayer_Survivor.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Scooby_Doo.png"><img src="images/T_UI_SpecialPack_Scooby_Doo.png" alt="T_UI_SpecialPack_Scooby_Doo.png" title="T_UI_SpecialPack_Scooby_Doo.png" width="200"></a>
 <a href="images/T_UI_SpecialPack_StrangerThings_Vecna.png"><img src="images/T_UI_SpecialPack_StrangerThings_Vecna.png" alt="T_UI_SpecialPack_StrangerThings_Vecna.png" title="T_UI_SpecialPack_StrangerThings_Vecna.png" width="200"></a>
+<a href="images/T_UI_SpecialPack_Terrifier.png"><img src="images/T_UI_SpecialPack_Terrifier.png" alt="T_UI_SpecialPack_Terrifier.png" title="T_UI_SpecialPack_Terrifier.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_GenQuest1.png"><img src="images/T_UI_Tutorial_ImageBG_GenQuest1.png" alt="T_UI_Tutorial_ImageBG_GenQuest1.png" title="T_UI_Tutorial_ImageBG_GenQuest1.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_cosmetic.png"><img src="images/T_UI_Tutorial_ImageBG_cosmetic.png" alt="T_UI_Tutorial_ImageBG_cosmetic.png" title="T_UI_Tutorial_ImageBG_cosmetic.png" width="200"></a>
 <a href="images/T_UI_Tutorial_ImageBG_gift.png"><img src="images/T_UI_Tutorial_ImageBG_gift.png" alt="T_UI_Tutorial_ImageBG_gift.png" title="T_UI_Tutorial_ImageBG_gift.png" width="200"></a>
-<a href="images/T_UI__CollectionBanner_NovemberDays_Ghostface.png"><img src="images/T_UI__CollectionBanner_NovemberDays_Ghostface.png" alt="T_UI__CollectionBanner_NovemberDays_Ghostface.png" title="T_UI__CollectionBanner_NovemberDays_Ghostface.png" width="200"></a>
+<a href="images/T_UI_icon_Event_Map.png"><img src="images/T_UI_icon_Event_Map.png" alt="T_UI_icon_Event_Map.png" title="T_UI_icon_Event_Map.png" width="200"></a>
 </p>
 
 ## Game data

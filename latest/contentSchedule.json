@@ -71,6 +71,7 @@
         "Kny_Cottage": "100",
         "Kny_Cottage02": "1",
         "Kny_Cottage03": "1",
+        "LM_Liminal": "100",
         "Mtr_Level_1": "100",
         "Qat_Lab": "100",
         "Qtm_Level_01": "100",
@@ -167,41 +168,15 @@
       "Priority": "5"
     },
     {
-      "Description": "EventMapAdjust",
+      "Description": "MapShowcase Map List",
       "GameModes": [
-        "SeasonalEvent"
+        "MapShowcase"
       ],
+      "LinkedEventId": "MapShowcaseWaffle",
       "MapsWeight": {
-        "Ecl_level_01": "0",
-        "Ecl_level_WestSide": "0",
-        "Eng_Street_01": "0",
-        "Fin_Hideout": "250",
-        "Frm_Farmhouse": "0",
-        "Hos_Treatment": "250",
-        "Mtr_level_1": "250",
-        "Qat_Lab": "250",
-        "Qtm_Level_02": "0",
-        "Wal_Level_01": "250"
+        "LM_Liminal": "1000"
       },
-      "Priority": "6"
-    },
-    {
-      "Description": "Killswitch",
-      "EndDate": "2026-11-24T16:00:00",
-      "GameModes": [
-        "Online",
-        "KillYourFriends",
-        "SecretBotMatch",
-        "TutorialBotMatch",
-        "ChocolateBox",
-        "SeasonalEvent",
-        "SeasonalEvent_FuelGenerator"
-      ],
-      "MapsWeight": {
-        "Swp_GrimPantry": "0"
-      },
-      "Priority": "7",
-      "StartDate": "2026-10-16T16:00:00"
+      "Priority": "7"
     }
   ]
 }

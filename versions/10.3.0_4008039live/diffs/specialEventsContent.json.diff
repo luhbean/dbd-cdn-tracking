@@ -1,0 +1,136 @@
+--- a/specialEventsContent.json
++++ b/specialEventsContent.json
+@@ -634,6 +634,30 @@
+     },
+     {
+       "activationVersion": "",
++      "eventId": "Winter2026",
++      "mainEndTime": "2027-01-05T16:00:00",
++      "postEndTime": "2027-01-05T16:00:00",
++      "startTime": "2026-12-08T16:00:00",
++      "useCommonData": false
++    },
++    {
++      "activationVersion": "",
++      "eventId": "Winter2026Regular",
++      "mainEndTime": "2027-01-05T16:00:00",
++      "postEndTime": "2027-01-05T16:00:00",
++      "startTime": "2026-12-08T16:00:00",
++      "useCommonData": false
++    },
++    {
++      "activationVersion": "",
++      "eventId": "ScoobyEvent2026",
++      "mainEndTime": "2027-01-26T16:00:00",
++      "postEndTime": "2027-01-26T16:00:00",
++      "startTime": "2026-12-08T16:00:00",
++      "useCommonData": false
++    },
++    {
++      "activationVersion": "",
+       "eventId": "MapShowcaseQuiche",
+       "eventName": {
+         "de": "Illusion des Tricksters",
+@@ -916,7 +940,59 @@
+       "mainEndTime": "2026-05-26T15:00:00",
+       "postEndTime": "2026-05-26T15:00:00",
+       "startTime": "2026-05-25T15:00:00",
++      "useCommonData": true
++    },
++    {
++      "activationVersion": "",
++      "eventId": "MapShowcaseWaffle",
++      "eventName": {
++        "de": "Hartshorne Mall",
++        "en": "Hartshorne Mall",
++        "es": "Centro comercial Hartshorne",
++        "es-MX": "Centro comercial Hartshorne",
++        "fr": "Centre commercial Hartshorne",
++        "it": "Hartshorne Mall",
++        "ja": "ハートショーンモール",
++        "ko": "하츠혼 쇼핑몰",
++        "pl": "Galeria handlowa Hartshorne",
++        "pt-BR": "Shopping de Hartshorne",
++        "ru": "Торговый центр Хартшорн",
++        "th": "ฮาร์ตชอร์นมอลล์",
++        "tr": "Hartshorne AVM'si",
++        "zh-Hans": "哈茨霍恩购物中心",
++        "zh-Hant": "哈茨霍恩購物中心"
++      },
++      "eventType": "MapShowcase",
++      "mainEndTime": "2026-12-01T15:59:00",
++      "postEndTime": "2026-12-01T15:59:00",
++      "startTime": "2026-11-24T16:00:00",
+       "useCommonData": true
++    },
++    {
++      "activationVersion": "",
++      "eventId": "MapShowcaseWafflePTB",
++      "eventName": {
++        "de": "Hartshorne Mall",
++        "en": "Hartshorne Mall",
++        "es": "Centro comercial Hartshorne",
++        "es-MX": "Centro comercial Hartshorne",
++        "fr": "Centre commercial Hartshorne",
++        "it": "Hartshorne Mall",
++        "ja": "ハートショーンモール",
++        "ko": "하츠혼 쇼핑몰",
++        "pl": "Galeria handlowa Hartshorne",
++        "pt-BR": "Shopping de Hartshorne",
++        "ru": "Торговый центр Хартшорн",
++        "th": "ฮาร์ตชอร์นมอลล์",
++        "tr": "Hartshorne AVM'si",
++        "zh-Hans": "哈茨霍恩购物中心",
++        "zh-Hant": "哈茨霍恩購物中心"
++      },
++      "eventType": "MapShowcase",
++      "mainEndTime": "2026-11-03T16:00:00",
++      "postEndTime": "2026-11-03T16:00:00",
++      "startTime": "2026-10-20T15:00:00",
++      "useCommonData": true
+     }
+   ],
+   "specialEventsData": [
+@@ -1970,6 +2046,21 @@
+     },
+     {
+       "eventId": "MapShowcaseSushi10",
++      "eventPeriods": [],
++      "eventTrackerObjectives": [],
++      "lteData": {
++        "affectsMMR": true,
++        "gameModeQueue": "MapShowcase",
++        "gameType": "MapShowcase",
++        "incentiveBonus": 0.0
++      },
++      "milestoneRewards": [],
++      "miscRewards": [],
++      "ownerRewards": [],
++      "scoreEventRewards": []
++    },
++    {
++      "eventId": "MapShowcaseWaffle",
+       "eventPeriods": [],
+       "eventTrackerObjectives": [],
+       "lteData": {
+@@ -2320,6 +2411,20 @@
+       "lteData": {
+         "affectsMMR": true,
+         "gameModeQueue": "Winter2025",
++        "gameType": "SeasonalEvent"
++      },
++      "milestoneRewards": [],
++      "miscRewards": [],
++      "ownerRewards": [],
++      "scoreEventRewards": []
++    },
++    {
++      "eventId": "Winter2026",
++      "eventPeriods": [],
++      "eventTrackerObjectives": [],
++      "lteData": {
++        "affectsMMR": true,
++        "gameModeQueue": "Winter2026",
+         "gameType": "SeasonalEvent"
+       },
+       "milestoneRewards": [],

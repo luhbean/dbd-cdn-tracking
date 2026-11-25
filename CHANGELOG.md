@@ -2,6 +2,13 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.3.0_4011747live](versions/10.3.0_4011747live/CHANGES.md)
+
+Built 2026-11-25 16:11 UTC · **+0** added · **~2** modified · **−0** removed
+
+- ~ [`crossPromoCampaigns.json`](versions/10.3.0_4011747live/diffs/crossPromoCampaigns.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.3.0_4011747live/diffs/dynamicContent/DynamicContent.json.diff)
+
 ## [10.3.0_4011592live](versions/10.3.0_4011592live/CHANGES.md)
 
 Built 2026-11-25 15:51 UTC · **+0** added · **~3** modified · **−0** removed

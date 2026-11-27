@@ -13,6 +13,12 @@ An automatically updated archive of Dead by Daylight's **live** CDN content. Eve
 - ~ [`dynamicContent/DynamicContent.json`](versions/10.3.0_4014845live/diffs/dynamicContent/DynamicContent.json.diff)
 - ~ [`gameplayTunables.json`](versions/10.3.0_4014845live/diffs/gameplayTunables.json.diff)
 
+## Coming up
+
+These newer builds are live but their decryption key hasn't been published yet. They'll appear here automatically once it is:
+
+- `10.3.1_4027203live` · built 2026-11-27 14:46 UTC
+
 ## Browse
 
 | | |

@@ -2,6 +2,24 @@
 
 Every tracked **live** content version, newest first. [← back](README.md)
 
+## [10.3.0_4027668live](versions/10.3.0_4027668live/CHANGES.md)
+
+Built 2026-11-27 15:56 UTC · **+0** added · **~13** modified · **−0** removed
+
+- ~ [`catalog.json`](versions/10.3.0_4027668live/diffs/catalog.json.diff)
+- ~ [`challengeLocs/challengeText_de.json`](versions/10.3.0_4027668live/diffs/challengeLocs/challengeText_de.json.diff)
+- ~ [`challengeLocs/challengeText_es-MX.json`](versions/10.3.0_4027668live/diffs/challengeLocs/challengeText_es-MX.json.diff)
+- ~ [`challengeLocs/challengeText_es.json`](versions/10.3.0_4027668live/diffs/challengeLocs/challengeText_es.json.diff)
+- ~ [`challengeLocs/challengeText_it.json`](versions/10.3.0_4027668live/diffs/challengeLocs/challengeText_it.json.diff)
+- ~ [`challengeLocs/challengeText_ko.json`](versions/10.3.0_4027668live/diffs/challengeLocs/challengeText_ko.json.diff)
+- ~ [`challengeLocs/challengeText_pl.json`](versions/10.3.0_4027668live/diffs/challengeLocs/challengeText_pl.json.diff)
+- ~ [`challengeLocs/challengeText_pt-BR.json`](versions/10.3.0_4027668live/diffs/challengeLocs/challengeText_pt-BR.json.diff)
+- ~ [`challengeLocs/challengeText_ru.json`](versions/10.3.0_4027668live/diffs/challengeLocs/challengeText_ru.json.diff)
+- ~ [`challengeLocs/challengeText_th.json`](versions/10.3.0_4027668live/diffs/challengeLocs/challengeText_th.json.diff)
+- ~ [`challengeLocs/challengeText_tr.json`](versions/10.3.0_4027668live/diffs/challengeLocs/challengeText_tr.json.diff)
+- ~ [`challengeLocs/challengeText_zh-Hant.json`](versions/10.3.0_4027668live/diffs/challengeLocs/challengeText_zh-Hant.json.diff)
+- ~ [`dynamicContent/DynamicContent.json`](versions/10.3.0_4027668live/diffs/dynamicContent/DynamicContent.json.diff)
+
 ## [10.3.0_4014845live](versions/10.3.0_4014845live/CHANGES.md)
 
 Built 2026-11-25 21:08 UTC · **+0** added · **~2** modified · **−0** removed
